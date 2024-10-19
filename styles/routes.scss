@@ -1,0 +1,226 @@
+.days-subhead {
+  &::before {
+    left: 0px !important;
+  }
+}
+p {
+  @media (max-width: 768px) {
+    font-size: 0.85em !important;
+  }
+}
+.days-highlights {
+  .destination-covered {
+    background-color: var(--color-primary);
+    justify-content: start;
+    @media (max-width: 768px) {
+      justify-content: start;
+    }
+    p {
+      width: auto;
+      text-wrap: nowrap;
+      font-size: clamp(0.65em, 1.1vw, 0.85em) !important;
+      width: auto !important;
+      padding: 6px 14px;
+      border-radius: 8px;
+      border: 1px solid var(--color-tertary);
+      text-align: center;
+      background: linear-gradient(
+        25deg,
+        var(--color-tertary),
+        var(--color-tertary),
+        var(--color-tertary),
+        var(--color-black)
+      );
+      -webkit-background-clip: text;
+      -moz-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+  }
+  .itinerary-title {
+    color: var(--color-tertary);
+  }
+  .days-highlights-pts {
+    background-color: none !important;
+    overflow-y: auto;
+    p {
+      border-radius: 9px;
+      display: flex;
+      justify-content: start;
+      align-items: start;
+      .icon {
+        background-color: var(--color-tertary-down);
+        border-radius: 999px;
+        padding: 6px;
+        color: var(--color-tertary);
+        font-size: 1.55em !important;
+      }
+    }
+  }
+}
+
+.package-more {
+  .icon {
+    font-size: 2em !important;
+    background-color: var(--color-tertary-down);
+    border-radius: 999px;
+    padding: 6px;
+    margin-right: 8px;
+    color: var(--color-tertary);
+    @media (max-width: 768px) {
+      font-size: 1.55em !important;
+    }
+  }
+}
+.days-banner {
+  border-radius: 0 !important;
+  .img-container {
+    height: 400px !important;
+    border-radius: 0 !important;
+    img {
+    }
+  }
+}
+
+.overview {
+  .row {
+    .insider {
+      background-color: var(--color-primary);
+      overflow: hidden;
+      position: relative;
+      padding-top: 0 !important;
+      padding-block: 16px;
+      border-radius: 16px;
+      box-shadow: 0 24px 24px rgba(0, 0, 0, 0.13);
+      > h2 {
+        letter-spacing: 2px;
+        padding-block: 16px;
+        background-color: var(--color-tertary-down);
+        color: var(--color-black);
+        border-top-left-radius: 16px;
+        border-top-right-radius: 16px;
+        position: relative;
+        overflow: hidden;
+        text-transform: uppercase !important;
+        font-size: clamp(1.45em, 2.5vw, 1.85em) !important;
+
+        &::after {
+          content: '';
+          height: 12px;
+          width: 40px;
+          position: absolute;
+          top: 0;
+          left: 50%;
+          right: 50%;
+          transform: translate(-50%, -50%);
+          background-color: var(--color-tertary);
+          border-bottom-left-radius: 8px;
+          border-bottom-right-radius: 8px;
+        }
+      }
+      .highlight-more-btn {
+        font-size: clamp(0.8em, 2vw, 1em) !important;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        margin-block: 8px;
+        padding-block: 6px;
+        border-radius: 0;
+        border-top-left-radius: 16px;
+        background-color: var(--color-tertary-down) !important;
+        color: var(--color-tertary);
+      }
+    }
+  }
+}
+.itinerary-pts {
+  border-left: 1px solid var(--color-tertary);
+  padding-inline: 12px;
+  margin-block: 6px !important;
+}
+.itinerary-end {
+  background-color: var(--color-tertary-down);
+  padding: 4px 16px;
+  border-top-right-radius: 999px;
+  border-bottom-right-radius: 999px;
+  font-weight: 500;
+}
+
+// days banner
+.days-banner-container {
+  width: 100% !important;
+  position: relative;
+  margin: auto 0 !important;
+  .days-banner-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 9;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    backdrop-filter: blur(1px);
+    h3 {
+      color: var(--color-tertary) !important;
+    }
+    h1 {
+      font-size: clamp(1.65em, 3vw, 4em) !important;
+    }
+  }
+}
+
+.days-img-container {
+  width: 100% !important;
+  height: 70vh;
+  max-height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media (max-width: 768px) {
+    height: 50vh;
+  }
+  img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    position: relative;
+  }
+}
+
+// side navigation
+.side-nav {
+  position: sticky;
+  top: 84px;
+  .sidebar-menu {
+    background-color: var(--color-primary);
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    z-index: 99;
+    box-shadow: 16px 16px 16px #00000018;
+    transition: all 0.3s ease-out;
+    border-radius: 16px !important;
+    border: 1px solid var(--color-gray);
+    &.show {
+      transform: translateX(0);
+    }
+    a {
+      color: var(--color-tertary);
+      text-decoration: none;
+      padding: 12px 0;
+    }
+  }
+}
+
+.destination {
+  h2 {
+    font-size: clamp(1.2em, 2vw, 1.6em);
+  }
+  p {
+    font-size: clamp(0.85em, 1em + 2vw, 1em);
+  }
+}
