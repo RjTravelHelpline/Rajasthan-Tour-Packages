@@ -7,7 +7,6 @@ import Link from 'next/link';
 
 const BlogsSection = () => {
   const latestBlogs = getLatestBlogs(blogs);
-
   const visibleBlogs = latestBlogs.slice(0, 4);
 
   return (

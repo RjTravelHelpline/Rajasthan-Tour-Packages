@@ -1,8 +1,6 @@
 "use client";
 import BlogsSection from "@/components/BlogsSection";
 import DaysPack from "@/components/DaysPack";
-import Footer from "@/components/Footer";
-import Navbar from "@/components/Navbar";
 import PackagesByCities from "@/components/PackagesByCities";
 import Packages from "@/components/PopularPackages";
 import Reviews from "@/components/Reviews";
