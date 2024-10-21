@@ -1,11 +1,11 @@
-import { MdExpandLess, MdExpandMore } from 'react-icons/md';
-import Breadcrumb from '../../../components/Breadcrumb';
-import TourPackages from '../../../components/TourPackages';
-import useShowAll from '../../../components/Utility/useShowAll';
-import { Helmet } from 'react-helmet';
-import { jaisalmerTourPackagesData } from '../../../assets/data/data';
-import { Carousel } from 'react-bootstrap';
-import { allCitiesImages } from '../../../assets/data/imageData';
+"use client"
+import Breadcrumb from "@/components/Breadcrumb";
+import TourPackages from "@/components/TourPackages";
+import { jaisalmerTourPackagesData } from "@/data/data";
+import { allCitiesImages } from "@/data/imageData";
+import useShowAll from "@/Utility/useShowAll";
+import { Carousel } from "react-bootstrap";
+import { MdExpandLess, MdExpandMore } from "react-icons/md";
 
 const Jaisalmer = () => {
 
@@ -15,12 +15,6 @@ const Jaisalmer = () => {
   );
   return (
     <>
-      <Helmet>
-        <link
-          rel="canonical"
-          href="https://www.rajasthantourpackages.in/destination/jaisalmer"
-        />
-      </Helmet>
       <Breadcrumb breadcrumbKey="jaisalmer" />
       {/* banner */}
       <div className="container-fluid home-banner destination-banner position-relative px-0">

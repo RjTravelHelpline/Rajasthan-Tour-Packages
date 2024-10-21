@@ -1,11 +1,13 @@
 "use client"
 import Breadcrumb from "@/components/Breadcrumb";
 import Faq from "@/components/Faq";
+import TourPackages from "@/components/TourPackages";
 import { tourFromWestBengal } from "@/data/CitiesData";
 import { westbengalFaq } from "@/data/faqData";
 import { allStatesImages } from "@/data/imageData";
 import { WestBengal } from "@/data/tourByCitiesData";
 import { useState } from "react";
+import { Carousel } from "react-bootstrap";
 
 const RajasthanTourFromWestBengal = () => {
   const [showMore, setShowMore] = useState(false);

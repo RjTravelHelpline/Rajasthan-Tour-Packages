@@ -4,7 +4,6 @@ import Reviews from "@/components/Reviews";
 import Services from "@/components/Services";
 import WhyUs from "@/components/WhyUs";
 import { useEffect, useState } from "react";
-
 const About = () => {
     const [activeLink, setActiveLink] = useState("");
 

@@ -1,7 +1,6 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import TourPackages from "@/components/TourPackages";
 import { _06DaysToursData } from "@/data/data";
-
 const _06DaysRajasthanTourPackages = () => {
   return (
     <>

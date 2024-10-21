@@ -1,6 +1,7 @@
 "use client"
 import Breadcrumb from "@/components/Breadcrumb";
 import Faq from "@/components/Faq";
+import TourPackages from "@/components/TourPackages";
 import { tourFromMysore } from "@/data/CitiesData";
 import { mysoreFaq } from "@/data/faqData";
 import { allStatesImages } from "@/data/imageData";

@@ -1,5 +1,4 @@
 "use client"
-
 import { blogs } from "@/data/Blogs";
 import Link from "next/link";
 import { FaCat, FaLandmark, FaPlaneDeparture, FaSearch } from "react-icons/fa";

@@ -1,6 +1,7 @@
 "use client"
 
 import Breadcrumb from "@/components/Breadcrumb";
+import Faq from "@/components/Faq";
 import TourPackages from "@/components/TourPackages";
 import { tourFromMountAbu } from "@/data/CitiesData";
 import { mountabuTourPackagesData } from "@/data/data";

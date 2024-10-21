@@ -9,6 +9,7 @@ import { cochinFaq } from "@/data/faqData";
 import { allStatesImages } from "@/data/imageData";
 import { Cochin } from "@/data/tourByCitiesData";
 import { useState } from "react";
+import { Carousel } from "react-bootstrap";
 
 const RajasthanPackageTourFromCochin = () => {
   const [showMore, setShowMore] = useState(false);

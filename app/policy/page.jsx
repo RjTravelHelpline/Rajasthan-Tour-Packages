@@ -1,6 +1,5 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import { policyData } from "@/data/pagesData";
-
 const Policy = () => {
     const { heading, subheading, description } = policyData;
     return (

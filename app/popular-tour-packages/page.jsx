@@ -5,7 +5,6 @@ import Link from "next/link";
 import { Card } from "react-bootstrap";
 import { IoLogoWhatsapp } from "react-icons/io";
 
-
 const PopularTourPackages = () => {
     return (
         <>

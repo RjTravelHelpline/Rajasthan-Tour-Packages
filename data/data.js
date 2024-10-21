@@ -526,7 +526,7 @@ const breadcrumbData = {
   _2daysjaipur: [
     { label: 'Home', link: '/' },
     { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
-    { label: '02 days jaisalmer tour package' },
+    { label: '02 days jaipur tour package' },
   ],
 
   // 3 days

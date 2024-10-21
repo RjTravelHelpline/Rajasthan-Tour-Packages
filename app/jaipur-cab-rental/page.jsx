@@ -1,14 +1,13 @@
-import Breadcrumb from '../../components/Breadcrumb';
-import SlickSlider from '../../components/SlickSlider';
-import { Card, Modal } from 'react-bootstrap';
-import { FaFire, FaSnowflake, FaSuitcase, FaUserFriends } from 'react-icons/fa';
-import { BsArrowRight } from 'react-icons/bs';
-import { IoLogoWhatsapp, IoMdClose } from 'react-icons/io';
-import { allCabRentals } from '../../assets/data/cabRentalData';
-import { jaipurTourPackagesData } from '../../assets/data/data';
-import { Link } from 'react-router-dom';
-import { useState } from 'react';
-import ContactForm from '../../components/ContactForm';
+"use client"
+import Breadcrumb from "@/components/Breadcrumb";
+import ContactForm from "@/components/ContactForm";
+import SlickSlider from "@/components/SlickSlider";
+import Link from "next/link";
+import { Card, Modal } from "react-bootstrap";
+import { BsArrowRight } from "react-icons/bs";
+import { FaFire, FaSnowflake, FaSuitcase, FaUserFriends } from "react-icons/fa";
+import { IoLogoWhatsapp, IoMdClose } from "react-icons/io";
+
 
 const JaipurCabRental = () => {
   const [show, setShow] = useState(false);
@@ -155,7 +154,7 @@ const JaipurCabRental = () => {
                           <div className="col-5">
                             <Link
                               className="w-100 rounded-0 text-center d-block"
-                              to={pkg.navigate}
+                              href={pkg.navigate}
                             >
                               view
                             </Link>

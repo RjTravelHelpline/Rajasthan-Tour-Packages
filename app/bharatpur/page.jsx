@@ -1,11 +1,11 @@
-import { MdExpandLess, MdExpandMore } from 'react-icons/md';
-import Breadcrumb from '../../../components/Breadcrumb';
-import useShowAll from '../../../components/Utility/useShowAll';
-import TourPackages from '../../../components/TourPackages';
-import { Helmet } from 'react-helmet';
-import { bharatpurTourPackagesData } from '../../../assets/data/data';
-import { allCitiesImages } from '../../../assets/data/imageData';
-import { Carousel } from 'react-bootstrap';
+"use client"
+import Breadcrumb from "@/components/Breadcrumb";
+import TourPackages from "@/components/TourPackages";
+import { bharatpurTourPackagesData } from "@/data/data";
+import { allCitiesImages } from "@/data/imageData";
+import useShowAll from "@/Utility/useShowAll";
+import { Carousel } from "react-bootstrap";
+import { MdExpandLess, MdExpandMore } from "react-icons/md";
 const Bharatpur = () => {
   // show all component
   const { visibleItems, showAll, toggleShowAll } = useShowAll(
@@ -13,12 +13,6 @@ const Bharatpur = () => {
   );
   return (
     <>
-      <Helmet>
-        <link
-          rel="canonical"
-          href="https://www.rajasthantourpackages.in/bharatpur"
-        />
-      </Helmet>
       <Breadcrumb breadcrumbKey="bharatpur" />
       {/* banner */}
       <div className="container-fluid home-banner destination-banner position-relative px-0">

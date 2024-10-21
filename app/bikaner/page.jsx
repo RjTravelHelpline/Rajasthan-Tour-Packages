@@ -1,17 +1,11 @@
-import { Helmet } from 'react-helmet';
-import Breadcrumb from '../../../components/Breadcrumb';
-import { Carousel } from 'react-bootstrap';
-import { allCitiesImages } from '../../../assets/data/imageData';
+"use client"
+import Breadcrumb from "@/components/Breadcrumb";
+import { allCitiesImages } from "@/data/imageData";
+import { Carousel } from "react-bootstrap";
 
 const Bikaner = () => {
   return (
     <>
-      <Helmet>
-        <link
-          rel="canonical"
-          href="https://www.rajasthantourpackages.in/bikaner"
-        />
-      </Helmet>
       <Breadcrumb breadcrumbKey="bikaner" />
       {/* banner */}
       <div className="container-fluid home-banner destination-banner position-relative px-0">

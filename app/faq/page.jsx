@@ -1,5 +1,6 @@
 import Faq from "@/components/Faq";
 import { homeFaq } from "@/data/faqData";
+
 const Faqs = () => {
     return (
         <div className="container faq py-2">

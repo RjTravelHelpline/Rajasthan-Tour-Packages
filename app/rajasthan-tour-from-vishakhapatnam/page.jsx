@@ -8,6 +8,7 @@ import { vishakhapatnamFaq } from "@/data/faqData";
 import { allStatesImages } from "@/data/imageData";
 import { Visakhapatnam } from "@/data/tourByCitiesData";
 import { useState } from "react";
+import { Carousel } from "react-bootstrap";
 
 const RajasthanTourFromVisakhapatnam = () => {
   const [showMore, setShowMore] = useState(false);

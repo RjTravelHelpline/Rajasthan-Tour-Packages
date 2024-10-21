@@ -1,4 +1,5 @@
-import Breadcrumb from "../../components/Breadcrumb";
+import Breadcrumb from "@/components/Breadcrumb";
+
 
 const AgraCabRental = () => {
   return (

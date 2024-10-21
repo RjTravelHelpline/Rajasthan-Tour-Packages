@@ -2,10 +2,12 @@
 
 import Breadcrumb from "@/components/Breadcrumb";
 import Faq from "@/components/Faq";
+import TourPackages from "@/components/TourPackages";
 import { tourFromKota } from "@/data/CitiesData";
 import { kotaFaq } from "@/data/faqData";
 import { allCitiesImages } from "@/data/imageData";
 import { Kota } from "@/data/tourByCitiesData";
+import { useState } from "react";
 import { Carousel } from "react-bootstrap";
 
 const RajasthanTourFromKota = () => {

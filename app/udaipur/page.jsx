@@ -1,11 +1,11 @@
-import { MdExpandLess, MdExpandMore } from 'react-icons/md';
-import Breadcrumb from '../../../components/Breadcrumb';
-import useShowAll from '../../../components/Utility/useShowAll';
-import TourPackages from '../../../components/TourPackages';
-import { Helmet } from 'react-helmet';
-import { udaipurTourPackagesData } from '../../../assets/data/data';
-import { Carousel } from 'react-bootstrap';
-import { allCitiesImages } from '../../../assets/data/imageData';
+"use client"
+import Breadcrumb from "@/components/Breadcrumb";
+import TourPackages from "@/components/TourPackages";
+import { udaipurTourPackagesData } from "@/data/data";
+import { allCitiesImages } from "@/data/imageData";
+import useShowAll from "@/Utility/useShowAll";
+import { Carousel } from "react-bootstrap";
+import { MdExpandLess, MdExpandMore } from "react-icons/md";
 
 const Udaipur = () => {
   // show all component
@@ -14,25 +14,6 @@ const Udaipur = () => {
   );
   return (
     <>
-      <Helmet>
-        <link
-          rel="canonical"
-          href="https://www.rajasthantourpackages.in/udaipur"
-        />
-        {/* Google Tag Manager script */}
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=GT-T9L6NNGZ"
-        ></script>
-        <script>
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'GT-T9L6NNGZ');
-          `}
-        </script>
-      </Helmet>
       <Breadcrumb breadcrumbKey="udaipur" />
       {/* banner */}
       <div className="container-fluid home-banner destination-banner position-relative px-0">

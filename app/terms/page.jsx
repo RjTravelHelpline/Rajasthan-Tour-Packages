@@ -1,7 +1,6 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import { tncData } from "@/data/pagesData";
 
-
 const TnC = () => {
     const { heading, subheading, description } = tncData;
     return (

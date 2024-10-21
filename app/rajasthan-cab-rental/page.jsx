@@ -1,9 +1,8 @@
-import { useState } from 'react';
-import { Card } from 'react-bootstrap';
-import { MdExpandLess, MdExpandMore } from 'react-icons/md';
-import { Link } from 'react-router-dom';
-import Breadcrumb from '../../components/Breadcrumb';
-import { cabRentals } from '../../assets/data/data';
+"use client"
+import Breadcrumb from "@/components/Breadcrumb";
+import Link from "next/link";
+import { Card } from "react-bootstrap";
+import { MdExpandLess, MdExpandMore } from "react-icons/md";
 
 const CabRental = () => {
     const [showAll, setShowAll] = useState(false);
@@ -54,7 +53,7 @@ const CabRental = () => {
                             key={index}
                             className="col-12 col-sm-6 col-md-6 col-lg-4 mb-4 d-flex align-items-stretch"
                         >
-                            <Link to={pkg.navigate} className="text-capitalize">
+                            <Link href={pkg.navigate} className="text-capitalize">
                                 <Card className="card bg-transparent">
                                     <Card.Img
                                         variant="top"

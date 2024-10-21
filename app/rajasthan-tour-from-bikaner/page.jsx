@@ -2,6 +2,7 @@
 
 import Breadcrumb from "@/components/Breadcrumb";
 import Faq from "@/components/Faq";
+import TourPackages from "@/components/TourPackages";
 import { tourFromBikaner } from "@/data/CitiesData";
 import { bikanerTourPackagesData } from "@/data/data";
 import { bikanerFaq } from "@/data/faqData";

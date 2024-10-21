@@ -1,11 +1,13 @@
 "use client"
 
 import Breadcrumb from "@/components/Breadcrumb";
+import Faq from "@/components/Faq";
 import TourPackages from "@/components/TourPackages";
 import { tourFromKolkata } from "@/data/CitiesData";
 import { kolkataFaq } from "@/data/faqData";
 import { allStatesImages } from "@/data/imageData";
 import { Kolkata } from "@/data/tourByCitiesData";
+import { useState } from "react";
 import { Carousel } from "react-bootstrap";
 
 const RajasthanTourFromKolkata = () => {

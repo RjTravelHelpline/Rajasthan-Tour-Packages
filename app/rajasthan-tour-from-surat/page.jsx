@@ -8,6 +8,7 @@ import { suratFaq } from "@/data/faqData";
 import { allStatesImages } from "@/data/imageData";
 import { Surat } from "@/data/tourByCitiesData";
 import { useState } from "react";
+import { Carousel } from "react-bootstrap";
 
 const RajasthanTourFromSurat = () => {
   const [showMore, setShowMore] = useState(false);

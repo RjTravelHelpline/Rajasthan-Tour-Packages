@@ -2,6 +2,7 @@
 
 import Breadcrumb from "@/components/Breadcrumb";
 import Faq from "@/components/Faq";
+import TourPackages from "@/components/TourPackages";
 import { tourFromKarnataka } from "@/data/CitiesData";
 import { karnatakaFaq } from "@/data/faqData";
 import { allStatesImages } from "@/data/imageData";

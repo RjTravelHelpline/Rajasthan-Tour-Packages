@@ -8,6 +8,7 @@ import { tamilnaduFaq } from "@/data/faqData";
 import { allStatesImages } from "@/data/imageData";
 import { TamilNadu } from "@/data/tourByCitiesData";
 import { useState } from "react";
+import { Carousel } from "react-bootstrap";
 
 const RajasthantourFromTamilNaduilnadu = () => {
   const [showMore, setShowMore] = useState(false);
