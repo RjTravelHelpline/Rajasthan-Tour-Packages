@@ -1,11 +1,9 @@
 import React from 'react'
 
-const _10DaysRajasthanHoneymoonPackage = () => {
+export const TenDaysRajasthanHoneymoonPackage = () => {
   return (
     <div>
       <h2>10days-rajasthan-honeymoon-package</h2>
     </div>
   )
 }
-
-export default _10DaysRajasthanHoneymoonPackage

@@ -7,7 +7,7 @@ import { useState } from "react";
 import { Accordion, Carousel, Table } from "react-bootstrap";
 import { FaStarOfLife } from "react-icons/fa";
 
-const _5DaysGoldenTriangleTour = () => {
+export const FiveDaysGoldenTriangleTour = () => {
     // Handling the highlights
     const [showMore, setShowMore] = useState(false);
 
@@ -323,5 +323,3 @@ const _5DaysGoldenTriangleTour = () => {
         </>
     );
 };
-
-export default _5DaysGoldenTriangleTour;

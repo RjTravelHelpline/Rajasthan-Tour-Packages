@@ -2,7 +2,7 @@ import Breadcrumb from "@/components/Breadcrumb";
 import TourPackages from "@/components/TourPackages";
 import { _09DaysToursData } from "@/data/data";
 
-const _09DaysRajasthanTourPackages = () => {
+export const NineDaysRajasthanTourPackages = () => {
   return (
     <>
       <Breadcrumb breadcrumbKey="_09Days" />
@@ -27,5 +27,3 @@ const _09DaysRajasthanTourPackages = () => {
     </>
   );
 };
-
-export default _09DaysRajasthanTourPackages;

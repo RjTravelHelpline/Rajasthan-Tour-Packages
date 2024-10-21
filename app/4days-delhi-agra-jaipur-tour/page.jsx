@@ -1,6 +1,6 @@
 import React from "react";
 
-const _4DaysDelhiAgraJaipurTour = () => {
+export const FourDaysDelhiAgraJaipurTour = () => {
   return (
     <>
       <div>
@@ -9,5 +9,3 @@ const _4DaysDelhiAgraJaipurTour = () => {
     </>
   );
 };
-
-export default _4DaysDelhiAgraJaipurTour;

@@ -1,11 +1,9 @@
 import React from 'react'
 
-const _10DaysRajasthanCulinaryTour = () => {
+export const TenDaysRajasthanCulinaryTour = () => {
   return (
     <div>
       <h2>10days-rajasthan-culinary-tour</h2>
     </div>
   )
 }
-
-export default _10DaysRajasthanCulinaryTour

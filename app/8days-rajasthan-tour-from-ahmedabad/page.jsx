@@ -1,11 +1,9 @@
 import React from 'react'
 
-const _8DaysRajasthanPackageTourFromAhmedabad = () => {
+export const EightDaysRajasthanPackageTourFromAhmedabad = () => {
   return (
     <div>
       <h2>8days-rajasthan-package-tour-from-ahmedabad</h2>
     </div>
   )
 }
-
-export default _8DaysRajasthanPackageTourFromAhmedabad

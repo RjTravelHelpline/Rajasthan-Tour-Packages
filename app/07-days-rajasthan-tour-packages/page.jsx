@@ -3,7 +3,7 @@ import TourPackages from "@/components/TourPackages";
 import { _07DaysToursData } from "@/data/data";
 
 
-const _07DaysRajasthanTourPackages = () => {
+export const SevenDaysRajasthanTourPackages = () => {
   return (
     <>
       <Breadcrumb breadcrumbKey="_07Days" />
@@ -28,5 +28,3 @@ const _07DaysRajasthanTourPackages = () => {
     </>
   );
 };
-
-export default _07DaysRajasthanTourPackages;
