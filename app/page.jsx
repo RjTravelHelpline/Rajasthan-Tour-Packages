@@ -121,9 +121,9 @@ export default function Home() {
                   Experience the royal treatment with our private{' '}
                   <span className="fw-bold">tour packages to Rajasthan</span>,
                   where personalized attention is our top priority. This allows
-                  you to savor this royal state's incredible sights and sounds
+                  you to savor this royal state&apos;s incredible sights and sounds
                   at your own pace. Our expert guides will be by your side,
-                  sharing their deep knowledge of each destination's rich
+                  sharing their deep knowledge of each destination&apos;s rich
                   history, culture, and traditions, making you feel valued and
                   important. We understand your time is precious, so we aim to
                   offer maximum experiences in minimum time. Whether you want to

@@ -7,7 +7,7 @@ import { useState } from "react";
 import { Accordion, Carousel, Table } from "react-bootstrap";
 import { FaStarOfLife } from "react-icons/fa";
 
-export const TwoDaysJaipurTourPackage = () => {
+const TwoDaysJaipurTourPackage = () => {
     // Handling the highlights
     const [showMore, setShowMore] = useState(false);
 
@@ -309,3 +309,4 @@ export const TwoDaysJaipurTourPackage = () => {
         </>
     );
 };
+export default TwoDaysJaipurTourPackage

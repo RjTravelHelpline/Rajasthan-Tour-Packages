@@ -1,5 +1,5 @@
 
-export const FiveDaysJaipurUdaipurJodhpurDesertTour = () => {
+const FiveDaysJaipurUdaipurJodhpurDesertTour = () => {
   return (
     <>
       <div>
@@ -8,3 +8,5 @@ export const FiveDaysJaipurUdaipurJodhpurDesertTour = () => {
     </>
   );
 };
+
+export default FiveDaysJaipurUdaipurJodhpurDesertTour;

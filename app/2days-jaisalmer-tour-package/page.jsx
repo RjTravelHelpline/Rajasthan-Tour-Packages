@@ -6,7 +6,7 @@ import { allCitiesImages } from "@/data/imageData";
 import { useState } from "react";
 import { Accordion, Carousel, Table } from "react-bootstrap";
 import { FaStarOfLife } from "react-icons/fa";
-export const TwoDaysJaisalmerTourPackage = () => {
+const TwoDaysJaisalmerTourPackage = () => {
     // Handling the highlights
     const [showMore, setShowMore] = useState(false);
 
@@ -303,3 +303,4 @@ export const TwoDaysJaisalmerTourPackage = () => {
         </>
     );
 };
+export default TwoDaysJaisalmerTourPackage

@@ -1,6 +1,6 @@
 import Breadcrumb from "@/components/Breadcrumb";
 
-export const Eight_Ten_DaysRajasthanTours = () => {
+const Eight_Ten_DaysRajasthanTours = () => {
     return (
         <>
             <Breadcrumb breadcrumbKey="_08_10Days" />
@@ -14,3 +14,5 @@ export const Eight_Ten_DaysRajasthanTours = () => {
         </>
     );
 };
+
+export default Eight_Ten_DaysRajasthanTours;

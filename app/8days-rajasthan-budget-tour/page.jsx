@@ -8,7 +8,7 @@ import { Accordion, Carousel, Table } from "react-bootstrap";
 import { FaStarOfLife } from "react-icons/fa";
 
 
-export const EightDaysRajasthanBudgetTour = () => {
+const EightDaysRajasthanBudgetTour = () => {
     // Handling the highlights
     const [showMore, setShowMore] = useState(false);
 
@@ -322,3 +322,5 @@ export const EightDaysRajasthanBudgetTour = () => {
         </>
     );
 };
+
+export default RajasthanTourFromJaisalmer;

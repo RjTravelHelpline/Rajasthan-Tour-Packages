@@ -1,6 +1,6 @@
 
 
-export const FourDaysJaipurJaisalmerPackageTour = () => {
+const FourDaysJaipurJaisalmerPackageTour = () => {
   return (
     <>
       <div>
@@ -9,3 +9,5 @@ export const FourDaysJaipurJaisalmerPackageTour = () => {
     </>
   );
 };
+
+export default FourDaysJaipurJaisalmerPackageTour;

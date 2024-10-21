@@ -1,6 +1,6 @@
 
 
-export const ThreeDaysJaipurRanthamboreWeekendTour = () => {
+const ThreeDaysJaipurRanthamboreWeekendTour = () => {
   return (
     <>
       <div>
@@ -9,3 +9,4 @@ export const ThreeDaysJaipurRanthamboreWeekendTour = () => {
     </>
   );
 };
+export default ThreeDaysJaipurRanthamboreWeekendTour

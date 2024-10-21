@@ -1,7 +1,7 @@
 "use client"
 import Breadcrumb from "@/components/Breadcrumb";
 
-export const FiveDaysRajasthanTour = () => {
+const FiveDaysRajasthanTour = () => {
 
     return (
         <>
@@ -9,3 +9,5 @@ export const FiveDaysRajasthanTour = () => {
         </>
     );
 };
+
+export default FiveDaysRajasthanTour

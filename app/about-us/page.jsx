@@ -4,7 +4,7 @@ import Reviews from "@/components/Reviews";
 import Services from "@/components/Services";
 import WhyUs from "@/components/WhyUs";
 import { useEffect, useState } from "react";
-export const About = () => {
+const About = () => {
     const [activeLink, setActiveLink] = useState("");
 
     useEffect(() => {
@@ -100,3 +100,4 @@ export const About = () => {
         </>
     );
 };
+export default About

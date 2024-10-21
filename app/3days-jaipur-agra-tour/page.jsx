@@ -1,5 +1,5 @@
 
-export const ThreeDaysJaipurAgraPackageTour = () => {
+const ThreeDaysJaipurAgraPackageTour = () => {
   return (
     <>
       <div>
@@ -8,3 +8,4 @@ export const ThreeDaysJaipurAgraPackageTour = () => {
     </>
   );
 };
+export default ThreeDaysJaipurAgraPackageTour

@@ -8,7 +8,7 @@ import { Accordion, Carousel, Table } from "react-bootstrap";
 import { FaStarOfLife } from "react-icons/fa";
 
 
-export const ThreeDaysJaisalmerDesertSafariTour = () => {
+const ThreeDaysJaisalmerDesertSafariTour = () => {
     const [showMore, setShowMore] = useState(false);
 
     const handleReadMore = () => {
@@ -304,3 +304,5 @@ export const ThreeDaysJaisalmerDesertSafariTour = () => {
         </>
     );
 };
+
+export default ThreeDaysJaisalmerDesertSafariTour

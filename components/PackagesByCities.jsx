@@ -32,14 +32,14 @@ const PackagesByCities = () => {
             <span className="fw-bold text-capitalize">
               Rajasthan tour package
             </span>{' '}
-            from different cities, states, and countries, whether it's from
+            from different cities, states, and countries, whether it&apos;s from
             Delhi, Mumbai,
             {readMore && (
               <>
                 Kolkata, Bangalore, or anywhere in the world. Our specialized
                 packages cater to various cities, offering a seamless journey to
-                explore Rajasthan’s vibrant heritage and majestic landscapes.
-                Whether you're departing for the{' '}
+                explore Rajasthan&apos;s vibrant heritage and majestic landscapes.
+                Whether you&apos;re departing for the{' '}
                 <span className="fw-bold">
                   Rajasthan Tour from the United Kingdom
                 </span>

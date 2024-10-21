@@ -1,9 +1,11 @@
 import React from 'react'
 
-export const FourteenDaysRajasthanRoundtripFromJaipur = () => {
+const FourteenDaysRajasthanRoundtripFromJaipur = () => {
   return (
     <div>
       <h2>14days-rajasthan-roundtrip-from-jaipur</h2>
     </div>
   )
 }
+
+export default FourteenDaysRajasthanRoundtripFromJaipur
