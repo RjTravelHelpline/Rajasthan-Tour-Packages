@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { useState, useEffect } from "react";
 import { FiArrowUp } from "react-icons/fi";
 
@@ -7,10 +7,12 @@ const BackToTop = () => {
 
   useEffect(() => {
     const toggleVisibility = () => {
-      if (window.pageYOffset > 300) {
-        setIsVisible(true);
-      } else {
-        setIsVisible(false);
+      if (typeof window !== "undefined") {
+        if (window.pageYOffset > 300) {
+          setIsVisible(true);
+        } else {
+          setIsVisible(false);
+        }
       }
     };
 
@@ -23,10 +25,12 @@ const BackToTop = () => {
 
   // Scroll back to the top of the page
   const scrollToTop = () => {
-    window.scrollTo({
-      top: 0,
-      behavior: "smooth",
-    });
+    if (typeof window !== "undefined") {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
+    }
   };
 
   return (
@@ -36,7 +40,7 @@ const BackToTop = () => {
           className="back-to-top container d-flex justify-content-center align-items-center"
           onClick={scrollToTop}
         >
-          <FiArrowUp  className="back-to-top-icon" />
+          <FiArrowUp className="back-to-top-icon" />
         </div>
       )}
     </>

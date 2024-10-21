@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import SlickSlider from './SlickSlider';
 import { GoArrowRight } from 'react-icons/go';
 import { FaGripfire } from 'react-icons/fa';

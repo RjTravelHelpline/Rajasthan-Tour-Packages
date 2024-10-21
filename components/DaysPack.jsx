@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { Card } from "react-bootstrap";
 import SlickSlider from "./SlickSlider";
 import { GoArrowRight } from "react-icons/go";

@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { Card, Modal } from 'react-bootstrap';
 import { IoLogoWhatsapp, IoMdClose } from 'react-icons/io';
 import ContactForm from './ContactForm';

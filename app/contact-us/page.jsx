@@ -1,3 +1,4 @@
+"use client";
 import Breadcrumb from "@/components/Breadcrumb";
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 const ContactUs = () => {

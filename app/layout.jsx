@@ -4,8 +4,8 @@ import "../styles/components.scss"
 import "../styles/app.scss"
 import "../styles/routes.scss"
 import "../styles/blog.scss"
-import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+import Navbar from '@/components/Navbar';
 
 export const metadata = {
   title: 'Rajasthan Tour Packages',

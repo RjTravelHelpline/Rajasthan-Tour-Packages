@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { GoArrowRight } from 'react-icons/go';
 import { IoLogoWhatsapp, IoMdClose } from 'react-icons/io';
 import { useState } from 'react';

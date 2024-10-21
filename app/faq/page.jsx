@@ -1,3 +1,4 @@
+"use client";
 import Faq from "@/components/Faq";
 import { homeFaq } from "@/data/faqData";
 

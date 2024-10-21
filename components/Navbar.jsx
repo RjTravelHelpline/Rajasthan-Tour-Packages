@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { useEffect, useState } from 'react';
 import {
     FaFacebook,
@@ -20,19 +20,33 @@ import {
     headerCabRentalLinks,
     headerTourByDaysLinks,
     headerTourFromLinks,
-} from '../data/linksData';
-
+} from '@/data/linksData';
 import { FaHome } from 'react-icons/fa';
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
+import { Modal } from 'react-bootstrap';
+import ContactForm from './ContactForm';
 
 const Navbar = () => {
+    const location = usePathname();
 
     const [isScrolled, setIsScrolled] = useState(false);
+    const [ismobile, setIsmobile] = useState(false);
+    const [showNavigation, setShowNavigation] = useState(false);
+    const [activeIndex, setActiveIndex] = useState(null);
+    const [contactPopup, setContactPopup] = useState(false);
+    const [show, setShow] = useState(false); // Modal visibility state
+    const [selectedPackage, setSelectedPackage] = useState(''); // To store selected package title
 
+    const visibleDestinations = destinationLinks.slice(0, 5);
+
+    // Handle scroll events
     useEffect(() => {
         const handleScroll = () => {
-            const scrollTop = window.scrollY;
-            setIsScrolled(scrollTop > 30); // Adjust the scroll value as needed
+            if (typeof window !== "undefined") {
+                const scrollTop = window.scrollY;
+                setIsScrolled(scrollTop > 30); // Adjust the scroll value as needed
+            }
         };
 
         window.addEventListener('scroll', handleScroll);
@@ -42,61 +56,50 @@ const Navbar = () => {
         };
     }, []);
 
-    const [showNavigation, setShowNavigation] = useState(false);
-    const [activeIndex, setActiveIndex] = useState(null);
+    // Handle window resize events
+    useEffect(() => {
+        const handleResize = () => {
+            if (typeof window !== "undefined") {
+                setIsmobile(window.innerWidth <= 1000);
+            }
+        };
 
-    const visibleDestinations = destinationLinks.slice(0, 5);
+        // Initial check for the window size
+        handleResize();
 
+        window.addEventListener('resize', handleResize);
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
+
+    // Navigation handling
     const handleNavigation = () => {
         setShowNavigation((prevState) => !prevState);
     };
 
-    const [ismobile, setIsmobile] = useState(window.innerWidth <= 1000);
-    useEffect(() => {
-        // Ensure sections are open by default on larger screens
-        const handleResize = () => {
-            if (window.innerWidth <= 1200) {
-                setIsmobile(true);
-            } else {
-                setIsmobile(false);
-            }
-        };
-
-        window.addEventListener('resize', handleResize);
-        handleResize();
-
-        return () => window.removeEventListener('resize', handleResize);
-    }, []);
-
-    // mobile-navigation
+    // Mobile dropdown handling
     const handleMobileDropdown = (index) => {
         setActiveIndex(activeIndex === index ? null : index); // Toggle the active class
     };
 
-    // navigation position handling
-    const isHome = location.pathname === '/';
-    const navClass = isHome ? 'fixed' : 'sticky';
-    const navColorClass = isHome ? 'bg-transparent' : 'bg-black !important';
-
-    //  contact popup
-    const [contactPopup, setContactPopup] = useState(false);
-
-    let showContactPopup = () => {
-        setContactPopup(!contactPopup);
+    // Contact popup handling
+    const showContactPopup = () => {
+        setContactPopup((prev) => !prev);
     };
     const translateY = contactPopup ? '4px' : '-500px';
     const scale = contactPopup ? '1' : '0';
-
-    // contact-form
-
-    const [show, setShow] = useState(false); // Modal visibility state
-    const [selectedPackage, setSelectedPackage] = useState(''); // To store selected package title
 
     const handleClose = () => setShow(false);
     const handleShow = (title) => {
         setSelectedPackage(title);
         setShow(true);
     };
+
+    // Navigation position handling
+    const isHome = location === '/';
+    const navClass = isHome ? 'fixed' : 'sticky';
+    const navColorClass = isHome ? 'bg-transparent' : 'bg-black !important';
     return (
         <>
             <div
@@ -525,6 +528,26 @@ const Navbar = () => {
                     </div>
                 </div>
             </div>
+
+            {/* Modal for Contact Form */}
+            <Modal
+                show={show}
+                onHide={handleClose}
+                centered
+                className="contact-model w-100"
+            >
+                <Modal.Body className="model-body ">
+                    <ContactForm onSuccess={handleClose} />{' '}
+                </Modal.Body>
+                <Modal.Footer className="d-flex justify-content-center align-items-center w-100 border-0 model-close pt-0">
+                    <button
+                        className="bg-black d-flex justify-content-center align-items-center p-3 border-0 rounded-5"
+                        onClick={handleClose}
+                    >
+                        <IoMdClose />
+                    </button>
+                </Modal.Footer>
+            </Modal>
         </>
     );
 };

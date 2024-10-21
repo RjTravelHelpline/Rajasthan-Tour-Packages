@@ -1,11 +1,7 @@
-"use client"
+"use client";
 import Breadcrumb from "@/components/Breadcrumb";
-import TourPackages from "@/components/TourPackages";
-import { jaipurTourPackagesData } from "@/data/data";
 import { allCitiesImages } from "@/data/imageData";
-import useShowAll from "@/Utility/useShowAll";
 import { Carousel } from "react-bootstrap";
-import { MdExpandLess, MdExpandMore } from "react-icons/md";
 
 const Jaipur = () => {
   return (

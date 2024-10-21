@@ -1,3 +1,4 @@
+"use client";
 import Breadcrumb from "@/components/Breadcrumb";
 
 const Two_Four_Days_RajasthanTours = () => {

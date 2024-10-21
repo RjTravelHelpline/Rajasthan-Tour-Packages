@@ -1,8 +1,11 @@
-"use client"
+"use client";
 import Breadcrumb from "@/components/Breadcrumb";
 import ContactForm from "@/components/ContactForm";
 import SlickSlider from "@/components/SlickSlider";
+import { allCabRentals } from "@/data/cabRentalData";
+import { jaipurTourPackagesData } from "@/data/data";
 import Link from "next/link";
+import { useState } from "react";
 import { Card, Modal } from "react-bootstrap";
 import { BsArrowRight } from "react-icons/bs";
 import { FaFire, FaSnowflake, FaSuitcase, FaUserFriends } from "react-icons/fa";
@@ -34,7 +37,6 @@ const JaipurCabRental = () => {
           <div className="row py-2 px-2 d-flex justify-content-center align-items-center">
             <h2 className="w-auto text-capitalize home-head">
               <span className="fw-normal">popular </span> cabs
-              {/* <FaGripfire className="icon" /> */}
             </h2>
           </div>
           <div className="row py-4 d-flex align-items-stretch px-2">

@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { useEffect, useState } from "react";
 import { toast } from "react-toastify";
 import { IoLogoWhatsapp, IoMdCall } from "react-icons/io";

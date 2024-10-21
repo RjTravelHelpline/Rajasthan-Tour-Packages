@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Breadcrumb from "@/components/Breadcrumb";
 import { allCitiesImages } from "@/data/imageData";
 import { Carousel } from "react-bootstrap";

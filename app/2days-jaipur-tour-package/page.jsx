@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Breadcrumb from "@/components/Breadcrumb";
 import Faq from "@/components/Faq";
 import { destinationCovered, packageData, tourFaq, tourHighlights, tourItinerary, tourOverview } from "@/data/Days Data/_2DaysJaipurTourData";

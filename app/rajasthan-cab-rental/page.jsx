@@ -1,6 +1,8 @@
 "use client"
 import Breadcrumb from "@/components/Breadcrumb";
+import { cabRentals } from "@/data/data";
 import Link from "next/link";
+import { useState } from "react";
 import { Card } from "react-bootstrap";
 import { MdExpandLess, MdExpandMore } from "react-icons/md";
 

@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { useState } from 'react';
 import { Card } from 'react-bootstrap';
 import 'slick-carousel/slick/slick.css';

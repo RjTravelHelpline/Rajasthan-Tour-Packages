@@ -1,3 +1,4 @@
+"use client";
 import { FaGripfire } from 'react-icons/fa';
 import { useState } from 'react';
 import { MdArrowOutward } from 'react-icons/md';

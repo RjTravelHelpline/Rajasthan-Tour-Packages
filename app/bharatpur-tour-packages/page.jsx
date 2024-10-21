@@ -1,6 +1,6 @@
+"use client";
 const BharatpurTourPackage = () => {
     return <></>;
-  };
-  
-  export default BharatpurTourPackage;
-  
+};
+
+export default BharatpurTourPackage;

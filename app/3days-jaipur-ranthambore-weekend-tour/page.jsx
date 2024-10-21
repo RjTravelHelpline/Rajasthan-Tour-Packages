@@ -1,5 +1,5 @@
 
-
+"use client";
 const ThreeDaysJaipurRanthamboreWeekendTour = () => {
   return (
     <>

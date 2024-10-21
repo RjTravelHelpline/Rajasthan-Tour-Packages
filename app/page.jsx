@@ -1,6 +1,8 @@
-"use client"
+"use client";
 import BlogsSection from "@/components/BlogsSection";
 import DaysPack from "@/components/DaysPack";
+import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar";
 import PackagesByCities from "@/components/PackagesByCities";
 import Packages from "@/components/PopularPackages";
 import Reviews from "@/components/Reviews";
@@ -10,7 +12,7 @@ import { Carousel } from "react-bootstrap";
 const HomeBanner01 = '/Images/Banners/rajasthan-banner01.webp';
 const HomeBanner03 = '/Images/Banners/rajasthan-banner03.webp';
 const HomeBanner04 = '/Images/Banners/rajasthan-banner04.webp';
-export default function Home() {
+const Home = () => {
   const [readMore, setReadMore] = useState(false);
 
   const handleReadMore = () => {
@@ -155,14 +157,14 @@ export default function Home() {
           </div>
         </div>
       </div>
-      {/* <BookWithUs /> */}
       <Packages />
       <DaysPack />
       <PackagesByCities />
-      {/* <Gallery /> */}
       <Reviews />
       <BlogsSection />
-
     </>
   );
 }
+
+
+export default Home;

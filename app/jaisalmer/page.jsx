@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Breadcrumb from "@/components/Breadcrumb";
 import TourPackages from "@/components/TourPackages";
 import { jaisalmerTourPackagesData } from "@/data/data";

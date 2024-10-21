@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import Gallery from "@/components/Gallery";
 import Reviews from "@/components/Reviews";
 import Services from "@/components/Services";
