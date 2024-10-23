@@ -1,4 +1,3 @@
-"use client";
 import Breadcrumb from "@/components/Breadcrumb";
 import TourPackages from "@/components/TourPackages";
 import { _03DaysToursData } from "@/data/data";
