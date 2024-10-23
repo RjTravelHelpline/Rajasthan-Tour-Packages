@@ -20,12 +20,14 @@
     "react-slick": "^0.30.2",
     "react-toastify": "^10.0.6",
     "scss": "^0.2.4",
+    "sharp": "^0.33.5",
     "slick-carousel": "^1.8.1",
     "swiper": "^11.1.14"
   },
   "devDependencies": {
     "eslint": "^8",
     "eslint-config-next": "14.2.15",
+    "next-sitemap": "^4.2.3",
     "sass": "^1.80.2"
   }
 }

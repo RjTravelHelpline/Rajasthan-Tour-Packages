@@ -1,14 +1,19 @@
-
 import Breadcrumb from "@/components/Breadcrumb";
 export const metadata = {
-    title: '05-07 Days Rajasthan Tour Packages',
+    title: '05-07-days-rajasthan-tours',
     description: "",
-    keywords: [''],
     alternates: {
-        canonical: "https://www.rajasthantourpackages.in/05-07-days-rajasthan-tours",
+        canonical: 'https://www.rajasthantourpackages.in/05-07-days-rajasthan-tours',
     },
-};
-
+    openGraph: {
+        title: '05-07-days-rajasthan-tours',
+        description: "",
+        url: 'https://www.rajasthantourpackages.in/05-07-days-rajasthan-tours',
+        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        siteName: 'Rajasthan Tour Packages',
+        type: 'website',
+    },
+}
 
 const Four_seven_DaysRajasthanTours = () => {
     return (

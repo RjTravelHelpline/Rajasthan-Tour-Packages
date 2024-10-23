@@ -12,6 +12,14 @@ export const metadata = {
     alternates: {
         canonical: "http://www.rajasthantourpackages.in/rajasthan-tour-from-ahmedabad",
     },
+    openGraph: {
+        title: 'Book Rajasthan Tour From Ahmedabad | Rajasthan Tour Packages',
+        description: 'Discover exclusive Rajasthan tour packages from Ahmedabad. Explore historic forts, vibrant markets, and rich cultural treasures on this memorable journey.',
+        url: "http://www.rajasthantourpackages.in/rajasthan-tour-from-ahmedabad",
+        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        siteName: 'Rajasthan Tour Packages',
+        type: 'website',
+    },
 };
 
 const RajasthanPackageTourFromAhmedabad = () => {

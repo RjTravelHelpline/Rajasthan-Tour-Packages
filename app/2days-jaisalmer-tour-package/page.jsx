@@ -16,6 +16,14 @@ export const metadata = {
     alternates: {
         canonical: "https://www.rajasthantourpackages.in/2days-jaisalmer-tour-package",
     },
+    openGraph: {
+        title: 'Jaisalmer Tour Package For 02 Days | Rajasthan Tour Packages',
+        description: "Book a 2-day Jaisalmer tour package from Rajasthan Tour Packages to explore forts, desert dunes, and cultural wonders in Jaisalmer, all its best features.",
+        url: "https://www.rajasthantourpackages.in/2days-jaisalmer-tour-package",
+        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        siteName: 'Rajasthan Tour Packages',
+        type: 'website',
+      },
 };
 const TwoDaysJaisalmerTourPackage = () => {
     const images = [

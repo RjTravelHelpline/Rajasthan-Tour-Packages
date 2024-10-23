@@ -17,7 +17,15 @@ export const metadata = {
     alternates: {
         canonical: 'https://www.rajasthantourpackages.in/3days-jaipur-ajmer-pushkar-tour',
 
-    }
+    },
+    openGraph: {
+        title: '3 Days Jaipur Ajmer & Pushkar Tour | Rajasthan Tour Packages',
+        description: "Experience the Jaipur Ajmer Pushkar Tour today to explore Jaipur landmarks, Ajmer Sharif Dargah, and Pushkar Lake, and book your Rajasthan tour package now.",
+        url: 'https://www.rajasthantourpackages.in/3days-jaipur-ajmer-pushkar-tour',
+        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        siteName: 'Rajasthan Tour Packages',
+        type: 'website',
+    },
 }
 
 

@@ -10,8 +10,6 @@ import GoogleAnalyticsClient from '@/components/GoogleAnalyticsClient';
 
 // Metadata for the application
 export const metadata = {
-  title: 'Rajasthan Tour Packages',
-  description: 'Begin our famous Rajasthan Tours and Travels. Tour places, deserts, and treasures of culture by instant booking customized packages. Your royal adventure awaits.',
   icons: {
     icon: '/rajasthan-travel-helpline.png',
   },

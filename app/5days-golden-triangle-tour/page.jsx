@@ -17,7 +17,15 @@ export const metadata = {
     alternates: {
 
         canonical: 'https://www.rajasthantourpackages.in/5days-golden-triangle-tour',
-    }
+    },
+    openGraph: {
+        title: 'Golden Triangle Tour 5 Days Package | Rajasthan Tour Packages',
+        description: "Get on a trip to India's iconic destinations at your 5-Day Golden Triangle Tour, featuring Delhi, Agra, and Jaipur. Plan our trip now at Rajasthan Tour Packages.",
+        url: 'https://www.rajasthantourpackages.in/5days-golden-triangle-tour',
+        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        siteName: 'Rajasthan Tour Packages',
+        type: 'website',
+    },
 }
 
 const FiveDaysGoldenTriangleTour = () => {

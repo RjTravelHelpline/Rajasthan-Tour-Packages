@@ -1,8 +1,23 @@
-"use client";
+
 import Breadcrumb from "@/components/Breadcrumb";
 import TourPackages from "@/components/TourPackages";
 import { _08DaysToursData } from "@/data/data";
 
+export const metadata = {
+  title: '08-days-rajasthan-tour-packages',
+  description: "",
+  alternates: {
+    canonical: 'https://www.rajasthantourpackages.in/08-days-rajasthan-tour-packages',
+  },
+  openGraph: {
+    title: '08-days-rajasthan-tour-packages',
+    description: "",
+    url: 'https://www.rajasthantourpackages.in/08-days-rajasthan-tour-packages',
+    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    siteName: 'Rajasthan Tour Packages',
+    type: 'website',
+  },
+}
 
 const EightDaysRajasthanTourPackages = () => {
   return (

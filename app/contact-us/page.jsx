@@ -1,6 +1,21 @@
-"use client";
+
 import Breadcrumb from "@/components/Breadcrumb";
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
+export const metadata = {
+    title: 'contact-us',
+    description: '',
+    alternates: {
+        canonical: 'https://www.rajasthantourpackages.in/contact-us',
+    },
+    openGraph: {
+        title: 'contact-us',
+        description: '',
+        url: 'https://www.rajasthantourpackages.in/contact-us',
+        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        siteName: 'Rajasthan Tour Packages',
+        type: 'website',
+    },
+}
 const ContactUs = () => {
     return (
         <>

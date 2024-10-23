@@ -15,6 +15,14 @@ export const metadata = {
     alternates: {
         canonical: "http://www.rajasthantourpackages.in/rajasthan-tour-from-agra",
     },
+    openGraph: {
+        title: 'Rajasthan Tour from Agra | Rajasthan Tour Packages',
+        description: 'Rajasthan Tour from Agra to explore historic landmarks, regal palaces, and unique cultural experiences. You can go ahead and book your personalized tour package now.',
+        url: "http://www.rajasthantourpackages.in/rajasthan-tour-from-agra",
+        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        siteName: 'Rajasthan Tour Packages',
+        type: 'website',
+    },
 };
 
 const RajasthanPackageTourFromAgra = () => {
@@ -46,7 +54,7 @@ const RajasthanPackageTourFromAgra = () => {
                     </Carousel.Item>
                 </Carousel>
             </div> */}
-              <div className="container-fluid home-banner days-banner-container destination-banner position-relative px-0">
+            <div className="container-fluid home-banner days-banner-container destination-banner position-relative px-0">
                 <div className="container-fluid home-banner days-banner-container destination-banner position-relative px-0">
                     <TourCarousel images={images} content={content} />
                 </div>

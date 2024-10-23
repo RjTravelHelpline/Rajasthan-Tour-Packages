@@ -5,9 +5,17 @@ import { _03DaysToursData } from "@/data/data";
 export const metadata = {
     title: '03 Days Rajasthan Tour Packages',
     description: "",
-    keywords: [''],
+    keywords: [],
     alternates: {
         canonical: "https://www.rajasthantourpackages.in/03-days-rajasthan-tour-packages",
+    },
+    openGraph: {
+        title: '03 Days Rajasthan Tour Packages',
+        description: "",
+        url: "https://www.rajasthantourpackages.in/03-days-rajasthan-tour-packages",
+        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        siteName: 'Rajasthan Tour Packages',
+        type: 'website',
     },
 };
 

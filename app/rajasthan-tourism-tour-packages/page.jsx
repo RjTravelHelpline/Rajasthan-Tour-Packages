@@ -1,5 +1,20 @@
 import Breadcrumb from "@/components/Breadcrumb";
 
+export const metadata = {
+    title: 'Top Rajasthan Tourism Package | Rajasthan Tour Packages',
+    description: 'Experience the greatness of Rajasthan tourism packages. Get to know royal palaces, vibrant culture, and luxury rentals. Book your exceptional journey now.',
+    alternates: {
+        canonical: "https://www.rajasthantourpackages.in/rajasthan-tourism-tour-packages",
+    },
+    openGraph: {
+        title: 'Top Rajasthan Tourism Package | Rajasthan Tour Packages',
+        description: 'Experience the greatness of Rajasthan tourism packages. Get to know royal palaces, vibrant culture, and luxury rentals. Book your exceptional journey now.',
+        url: 'https://www.rajasthantourpackages.in/rajasthan-tourism-tour-packages',
+        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        type: 'website',
+        siteName: 'Rajasthan Tour Packages',
+    },
+};
 const RajasthanTourismPackages = () => {
     return (
         <>

@@ -9,7 +9,16 @@ export const metadata = {
   alternates: {
     canonical: "https://www.rajasthantourpackages.in/02-days-rajasthan-tour-packages",
   },
+  openGraph: {
+    title: '02 Days Rajasthan Tour Packages',
+    description: '',
+    url: "https://www.rajasthantourpackages.in/02-days-rajasthan-tour-packages",
+    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    siteName: 'Rajasthan Tour Packages',
+    type: 'website',
+  },
 };
+
 const TwoDaysRajasthanTourPackages = () => {
   return (
     <>
