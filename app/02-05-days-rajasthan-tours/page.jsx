@@ -1,5 +1,14 @@
-"use client";
+
 import Breadcrumb from "@/components/Breadcrumb";
+
+export const metadata = {
+  title: '02 - 05 Days Rajasthan Tour Packages',
+  description: "",
+  keywords: [''],
+  alternates: {
+    canonical: "https://www.rajasthantourpackages.in/02-05-days-rajasthan-tours",
+  },
+};
 
 const Two_Five_Days_RajasthanTours = () => {
   return (

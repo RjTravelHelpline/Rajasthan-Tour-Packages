@@ -1,26 +1,39 @@
-"use client"
 import Breadcrumb from "@/components/Breadcrumb";
 import Faq from "@/components/Faq";
+import ReadMoreToggle from "@/components/ReadMore";
+import TourCarousel from "@/components/TourCarousel";
 import TourPackages from "@/components/TourPackages";
 import { tourFromAgra } from "@/data/CitiesData";
 import { agraFaq } from "@/data/faqData";
 import { allStatesImages } from "@/data/imageData";
 import { Agra } from "@/data/tourByCitiesData";
-import { useState } from "react";
 import { Carousel } from "react-bootstrap";
 
-const RajasthanPackageTourFromAgra = () => {
-    const [showMore, setShowMore] = useState(false);
+export const metadata = {
+    title: 'Rajasthan Tour from Agra | Rajasthan Tour Packages',
+    description: 'Rajasthan Tour from Agra to explore historic landmarks, regal palaces, and unique cultural experiences. You can go ahead and book your personalized tour package now.',
+    alternates: {
+        canonical: "http://www.rajasthantourpackages.in/rajasthan-tour-from-agra",
+    },
+};
 
-    const handleReadMore = () => {
-        setShowMore(!showMore);
-    };
+const RajasthanPackageTourFromAgra = () => {
+    const images = [
+        { src: allStatesImages.agra.agraBanner.src },
+    ];
+
+    const content = [
+        {
+            duration: '',
+            title: 'Rajasthan Tour From Agra',
+        },
+    ];
     return (
         <>
             {/* bread crumb */}
             <Breadcrumb breadcrumbKey="rajasthanTourFromAgra" />
             {/* banner */}
-            <div className="container-fluid home-banner destination-banner position-relative px-0">
+            {/* <div className="container-fluid home-banner destination-banner position-relative px-0">
                 <Carousel fade pause={false} controls={false}>
                     <Carousel.Item>
                         <img src={allStatesImages.agra.agraBanner.src} alt="Home Banner" />
@@ -32,6 +45,11 @@ const RajasthanPackageTourFromAgra = () => {
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
+            </div> */}
+              <div className="container-fluid home-banner days-banner-container destination-banner position-relative px-0">
+                <div className="container-fluid home-banner days-banner-container destination-banner position-relative px-0">
+                    <TourCarousel images={images} content={content} />
+                </div>
             </div>
             {/* data */}
             <div className="container-fluid">
@@ -42,7 +60,7 @@ const RajasthanPackageTourFromAgra = () => {
                                 className="home-para d-block"
                                 dangerouslySetInnerHTML={{ __html: tourFromAgra.intro }}
                             ></span>
-                            {showMore && (
+                            <ReadMoreToggle>
                                 <>
                                     {tourFromAgra.showMoreContent.map((content, index) => (
                                         <span
@@ -52,10 +70,8 @@ const RajasthanPackageTourFromAgra = () => {
                                         ></span>
                                     ))}
                                 </>
-                            )}
-                            <button className="read-more-btn" onClick={handleReadMore}>
-                                {showMore ? <>Show Less</> : <>..Read More</>}
-                            </button>
+                            </ReadMoreToggle>
+                            <span className="py-4 d-block"></span>
                         </p>
                     </div>
                 </div>

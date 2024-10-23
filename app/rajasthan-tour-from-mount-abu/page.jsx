@@ -1,28 +1,30 @@
-"use client"
 
 import Breadcrumb from "@/components/Breadcrumb";
 import Faq from "@/components/Faq";
+import ReadMoreToggle from "@/components/ReadMore";
 import TourPackages from "@/components/TourPackages";
 import { tourFromMountAbu } from "@/data/CitiesData";
 import { mountabuTourPackagesData } from "@/data/data";
 import { mountAbuFaq } from "@/data/faqData";
-import { allCitiesImages } from "@/data/imageData";
-import { useState } from "react";
-import { Carousel } from "react-bootstrap";
+
+
+export const metadata = {
+  title: 'Rajasthan Tour From Mount Abu | Rajasthan Tour Packages',
+  description: "Begin your Rajasthan Tour from Mount Abu with the Rajasthan Tour Packages. Explore Rajasthan's regal charm and noteworthy points of interest. Book Now.",
+  keywords: [''],
+  alternates: {
+    canonical: "http://www.rajasthantourpackages.in/rajasthan-tour-from-mount-abu",
+  },
+};
 
 const RajasthanTourFromMountabu = () => {
-  const [showMore, setShowMore] = useState(false);
-
-  const handleReadMore = () => {
-    setShowMore(!showMore);
-  };
   return (
     <>
       {/* bread crumb */}
       <Breadcrumb breadcrumbKey="rajasthanTourFromMountabu" />
 
       {/* banner */}
-      <div className="container-fluid home-banner destination-banner position-relative px-0">
+      {/* <div className="container-fluid home-banner destination-banner position-relative px-0">
         <Carousel fade pause={false} controls={false}>
           <Carousel.Item>
             <img
@@ -37,7 +39,7 @@ const RajasthanTourFromMountabu = () => {
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
-      </div>
+      </div> */}
 
       {/* data */}
       <div className="container-fluid">
@@ -48,7 +50,7 @@ const RajasthanTourFromMountabu = () => {
                 className="home-para d-block"
                 dangerouslySetInnerHTML={{ __html: tourFromMountAbu.intro }}
               ></span>
-              {showMore && (
+              <ReadMoreToggle>
                 <>
                   {tourFromMountAbu.showMoreContent.map((content, index) => (
                     <span
@@ -58,10 +60,8 @@ const RajasthanTourFromMountabu = () => {
                     ></span>
                   ))}
                 </>
-              )}
-              <button className="read-more-btn" onClick={handleReadMore}>
-                {showMore ? <>Show Less</> : <>..Read More</>}
-              </button>
+              </ReadMoreToggle>
+              <span className="py-4 d-block"></span>
             </p>
           </div>
         </div>

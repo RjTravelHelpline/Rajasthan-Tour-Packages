@@ -1,19 +1,20 @@
-"use client"
-import { useState } from "react";
 import Breadcrumb from "@/components/Breadcrumb";
 import Faq from "@/components/Faq";
-import { allStatesImages } from "@/data/imageData";
-import { Carousel } from "react-bootstrap";
 import { Vijayawada } from "@/data/tourByCitiesData";
 import TourPackages from "@/components/TourPackages";
 import { vijayawadaFaq } from "@/data/faqData";
+import ReadMoreToggle from "@/components/ReadMore";
+
+export const metadata = {
+    title: 'Rajasthan Tour From Vijaywada | Rajasthan Tour Packages',
+    description: "Rajasthan Tour from Vijayawada to the land of kings at Rajasthan Tour Packages. Experience the royal forts, palaces, and colourful traditions of Rajasthan. Book Now.",
+    keywords: [''],
+    alternates: {
+        canonical: "http://www.rajasthantourpackages.in/rajasthan-tour-from-vijaywada",
+    },
+};
 
 const RajasthanPackageTourFromVijaywada = () => {
-    const [showMore, setShowMore] = useState(false);
-
-    const handleReadMore = () => {
-        setShowMore(!showMore);
-    };
     return (
         <>
 
@@ -21,7 +22,7 @@ const RajasthanPackageTourFromVijaywada = () => {
             <Breadcrumb breadcrumbKey="rajasthanTourFromVijaywada" />
 
             {/* banner */}
-            <div className="container-fluid home-banner destination-banner position-relative px-0">
+            {/* <div className="container-fluid home-banner destination-banner position-relative px-0">
                 <Carousel fade pause={false} controls={false}>
                     <Carousel.Item>
                         <img
@@ -36,7 +37,7 @@ const RajasthanPackageTourFromVijaywada = () => {
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
-            </div>
+            </div> */}
 
             {/* data */}
             <div className="container-fluid">
@@ -48,7 +49,7 @@ const RajasthanPackageTourFromVijaywada = () => {
                             This specially designed tour package offers a perfect combination
                             of historical exploration, cultural immersion, and luxury,
                             starting from the vibrant city of Vijayawada.
-                            {showMore && (
+                            <ReadMoreToggle>
                                 <>
                                     <span className="home-para d-block">
                                         Highlights of the{' '}
@@ -114,11 +115,8 @@ const RajasthanPackageTourFromVijaywada = () => {
                                         Rajasthan. Our team ensures a seamless and unforgettable
                                         travel experience.
                                     </span>
-                                </>
-                            )}{' '}
-                            <button className="read-more-btn" onClick={handleReadMore}>
-                                {showMore ? <>Show Less</> : <>..Read More</>}
-                            </button>
+                                </>   </ReadMoreToggle>
+              <span className="py-4 d-block"></span>
                         </p>
                     </div>
                 </div>

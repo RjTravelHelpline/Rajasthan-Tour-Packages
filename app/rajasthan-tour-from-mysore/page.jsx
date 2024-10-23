@@ -1,27 +1,30 @@
-"use client"
+
 import Breadcrumb from "@/components/Breadcrumb";
 import Faq from "@/components/Faq";
+import ReadMoreToggle from "@/components/ReadMore";
 import TourPackages from "@/components/TourPackages";
 import { tourFromMysore } from "@/data/CitiesData";
 import { mysoreFaq } from "@/data/faqData";
-import { allStatesImages } from "@/data/imageData";
 import { Mysore } from "@/data/tourByCitiesData";
-import { useState } from "react";
-import { Carousel } from "react-bootstrap";
+
+export const metadata = {
+    title: 'Rajasthan Tour From Mysore | Rajasthan Tour Packages',
+    description: "Embark on a mesmerizing journey from Mysore to Rajasthan. With Rajasthan Tour Packages, discover royal heritage, vibrant culture, and unforgettable experiences.",
+    keywords: [''],
+    alternates: {
+        canonical: "http://www.rajasthantourpackages.in/rajasthan-tour-from-mysore",
+    },
+};
+
 
 const RajasthanPackageTourFromMysore = () => {
-    const [showMore, setShowMore] = useState(false);
-
-    const handleReadMore = () => {
-        setShowMore(!showMore);
-    };
     return (
         <>
             {/* bread crumb */}
             <Breadcrumb breadcrumbKey="rajasthanTourFromMysore" />
 
             {/* banner */}
-            <div className="container-fluid home-banner destination-banner position-relative px-0">
+            {/* <div className="container-fluid home-banner destination-banner position-relative px-0">
                 <Carousel fade pause={false} controls={false}>
                     <Carousel.Item>
                         <img
@@ -36,7 +39,7 @@ const RajasthanPackageTourFromMysore = () => {
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
-            </div>
+            </div> */}
 
             {/* data */}
             <div className="container-fluid">
@@ -47,7 +50,7 @@ const RajasthanPackageTourFromMysore = () => {
                                 className="home-para d-block"
                                 dangerouslySetInnerHTML={{ __html: tourFromMysore.intro }}
                             ></span>
-                            {showMore && (
+                            <ReadMoreToggle>
                                 <>
                                     {tourFromMysore.showMoreContent.map((content, index) => (
                                         <span
@@ -56,11 +59,8 @@ const RajasthanPackageTourFromMysore = () => {
                                             dangerouslySetInnerHTML={{ __html: content }}
                                         ></span>
                                     ))}
-                                </>
-                            )}
-                            <button className="read-more-btn" onClick={handleReadMore}>
-                                {showMore ? <>Show Less</> : <>..Read More</>}
-                            </button>
+                                </>   </ReadMoreToggle>
+                            <span className="py-4 d-block"></span>
                         </p>
                     </div>
                 </div>

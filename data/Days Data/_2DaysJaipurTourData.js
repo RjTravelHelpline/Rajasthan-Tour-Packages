@@ -1,4 +1,3 @@
-import { FaCheckCircle, FaFileContract, FaTimesCircle } from 'react-icons/fa';
 const temp = {
   bold: (text) => `<span class='fw-bold'>${text}</span>`,
   link: (text, url) =>
@@ -76,7 +75,7 @@ export const tourHighlights = {
 export const packageData = [
   {
     title: 'Package Inclusions',
-    icon: FaCheckCircle,
+    icon: 'FaCheckCircle',
     content: `
           <span class='itinerary-pts'>01 Night / 02 Days Air-Conditioned Accommodation in Deluxe Category Hotel.</span>
           <span class='itinerary-pts'>Daily Breakfast.</span>
@@ -91,7 +90,7 @@ export const packageData = [
   },
   {
     title: 'Package Exclusions',
-    icon: FaTimesCircle,
+    icon: 'FaTimesCircle',
     content: `
           <span class='itinerary-pts'>Anything not mentioned under ‘Package Inclusions’.</span>
           <span class='itinerary-pts'>Meals & drinks other than specified in inclusions.</span>
@@ -102,7 +101,7 @@ export const packageData = [
   },
   {
     title: 'Terms & Conditions',
-    icon: FaFileContract,
+    icon: 'FaFileContract',
     content: `
           <span class='itinerary-pts'>Tour Prices are Per Person.</span>
           <span class='itinerary-pts'>Package Costs may change during the Weekends, Festivals & New Year Period.</span>

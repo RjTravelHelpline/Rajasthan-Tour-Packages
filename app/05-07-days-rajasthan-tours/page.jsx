@@ -1,8 +1,16 @@
-"use client";
+
 import Breadcrumb from "@/components/Breadcrumb";
+export const metadata = {
+    title: '05-07 Days Rajasthan Tour Packages',
+    description: "",
+    keywords: [''],
+    alternates: {
+        canonical: "https://www.rajasthantourpackages.in/05-07-days-rajasthan-tours",
+    },
+};
 
 
- const Four_seven_DaysRajasthanTours = () => {
+const Four_seven_DaysRajasthanTours = () => {
     return (
         <>
             <Breadcrumb breadcrumbKey="_05_07Days" />

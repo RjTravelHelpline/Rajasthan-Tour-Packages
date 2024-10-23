@@ -1372,7 +1372,7 @@ export const _11To15DaysToursData = [
   {
     title: 'Classic Rajasthan Tour from Delhi to Delhi',
     price: 40000,
-    imgSrc: allStatesImages.delhi.delhi01.src,
+    imgSrc: allStatesImages.delhi.delhiBanner.src,
     duration: '14 nights • 15 Days',
     alt: 'Package Image',
     navigate: '/15days-classic-rajasthan-tour-from-delhi',

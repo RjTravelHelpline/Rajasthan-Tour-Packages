@@ -1,9 +1,15 @@
-"use client";
 import Breadcrumb from "@/components/Breadcrumb";
 import TourPackages from "@/components/TourPackages";
 import { _02DaysToursData } from "@/data/data";
 
-
+export const metadata = {
+  title: '02 Days Rajasthan Tour Packages',
+  description: "",
+  keywords: [''],
+  alternates: {
+    canonical: "https://www.rajasthantourpackages.in/02-days-rajasthan-tour-packages",
+  },
+};
 const TwoDaysRajasthanTourPackages = () => {
   return (
     <>

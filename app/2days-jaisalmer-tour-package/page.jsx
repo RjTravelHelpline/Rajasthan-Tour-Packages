@@ -1,85 +1,63 @@
-"use client";
 import Breadcrumb from "@/components/Breadcrumb";
 import Faq from "@/components/Faq";
+import ItineraryAccordion from "@/components/ItineraryAccordion";
+import PackageAccordion from "@/components/PackageAccordion";
+import ReadMoreToggle from "@/components/ReadMore";
+import TourCarousel from "@/components/TourCarousel";
 import { destinationCovered, packageData, tourFaq, tourHighlights, tourItinerary, tourOverview } from "@/data/Days Data/_2DaysJaisalmerTourData";
 import { allCitiesImages } from "@/data/imageData";
-import { useState } from "react";
-import { Accordion, Carousel, Table } from "react-bootstrap";
+import { Table } from "react-bootstrap";
 import { FaStarOfLife } from "react-icons/fa";
+
+export const metadata = {
+    title: 'Jaisalmer Tour Package For 02 Days | Rajasthan Tour Packages',
+    description: "Book a 2-day Jaisalmer tour package from Rajasthan Tour Packages to explore forts, desert dunes, and cultural wonders in Jaisalmer, all its best features.",
+    keywords: [''],
+    alternates: {
+        canonical: "https://www.rajasthantourpackages.in/2days-jaisalmer-tour-package",
+    },
+};
 const TwoDaysJaisalmerTourPackage = () => {
-    // Handling the highlights
-    const [showMore, setShowMore] = useState(false);
+    const images = [
+        { src: allCitiesImages.jaisalmer.jaisalmerHaweli.src },
+        { src: allCitiesImages.jaisalmer.jaisalmerLeisure.src },
+    ];
 
-    const handleReadMore = () => {
-        setShowMore(!showMore);
-    };
-
-    // Handling the content
-    const [showMoreContent, setShowMoreContent] = useState(false);
-
-    const handleReadMoreContent = () => {
-        setShowMoreContent(!showMoreContent);
-    };
+    const content = [
+        {
+            duration: '01 nights • 02 days',
+            title: '02 days jaisalmer tour package',
+        },
+        {
+            duration: '01 nights • 02 days',
+            title: '02 days jaisalmer tour package',
+        },
+    ];
     return (
         <>
             <Breadcrumb breadcrumbKey="_2daysjaisalmer" />
             {/* banner */}
             <div className="container-fluid home-banner days-banner-container destination-banner position-relative px-0">
-                <Carousel fade pause={false} controls={false}>
-                    <Carousel.Item>
-                        <img
-                            src={allCitiesImages.jaisalmer.jaisalmerHaweli.src}
-                            alt="Home Banner"
-                        />
-                        <Carousel.Caption>
-                            <div className="days-banner-content">
-                                <h3 className="text-center color-tertary px-0 w-auto text-uppercase">
-                                    01 night <span className="text-white">•</span> 02 days
-                                </h3>
-                                <h1 className="mb-4 text-capitalize w-100 fw-bold text-center text-white">
-                                    {' '}
-                                    <span className="border-0"></span>
-                                    02 days jaisalmer tour package
-                                </h1>
-                            </div>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                    <Carousel.Item>
-                        <img
-                            src={allCitiesImages.jaisalmer.jaisalmerLeisure.src}
-                            alt="Home Banner"
-                        />
-                        <Carousel.Caption>
-                            <div className="days-banner-content">
-                                <h3 className="text-center px-0 w-auto text-uppercase">
-                                    01 night <span className="text-white">•</span> 02 days
-                                </h3>
-                                <h1 className="mb-4 text-capitalize w-100 fw-bold text-center text-white">
-                                    {' '}
-                                    <span className="border-0"></span>
-                                    02 days jaisalmer tour package
-                                </h1>
-                            </div>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                </Carousel>
+                <div className="container-fluid home-banner days-banner-container destination-banner position-relative px-0">
+                    <TourCarousel images={images} content={content} />
+                </div>
             </div>
             {/* Tour overview */}
             <div className="container-fluid px-0 pt-4">
                 <div className="container days-container overview">
                     <div className="row d-flex justify-content-center align-items-center days-overview px-2">
-                        <div className="col-12 col-lg-11 col-sm-12 px-0 insider">
+                        <div className="col-12 col-lg-11 col-sm-12 insider px-0">
                             <h2
                                 className="text-capitalize px-3 mb-3 text-center fw-normal"
                                 dangerouslySetInnerHTML={{ __html: tourOverview.title }}
                             ></h2>
+
                             <p
                                 className="home-para px-3"
                                 dangerouslySetInnerHTML={{
                                     __html: tourOverview.content.slice(0, 1),
                                 }}
-                            ></p>
-                            {showMoreContent && (
+                            ></p>   <ReadMoreToggle>
                                 <>
                                     {' '}
                                     <p
@@ -94,16 +72,8 @@ const TwoDaysJaisalmerTourPackage = () => {
                                             __html: tourOverview.content.slice(2, 3),
                                         }}
                                     ></p>
-                                </>
-                            )}
-                            <div className="d-flex justify-content-center align-items-center py-3">
-                                <button
-                                    className=" mb-0 text-uppercase highlight-more-btn mb-0"
-                                    onClick={handleReadMoreContent}
-                                >
-                                    {showMoreContent ? <>Show Less</> : <>view all</>}
-                                </button>
-                            </div>
+                                </>   </ReadMoreToggle>
+                            <span className="py-3 d-block"></span>
                         </div>
                     </div>
                 </div>
@@ -119,7 +89,7 @@ const TwoDaysJaisalmerTourPackage = () => {
                             ></h2>
                             <div className="w-100 px-2 days-highlights-pts">
                                 {tourHighlights.content
-                                    .slice(0, showMore ? tourHighlights.content.length : 3)
+                                    .slice(0, 3)
                                     .map((item, index) => (
                                         <p className="home-para px-2 py-1 bg-white" key={index}>
                                             <span className="me-2">
@@ -128,15 +98,18 @@ const TwoDaysJaisalmerTourPackage = () => {
                                             {item}
                                         </p>
                                     ))}
-                            </div>
-
-                            <div className="d-flex justify-content-center align-items-center py-3">
-                                <button
-                                    className=" mb-0 text-uppercase highlight-more-btn mb-0"
-                                    onClick={handleReadMore}
-                                >
-                                    {showMore ? <>Show Less</> : <>view all</>}
-                                </button>
+                                <ReadMoreToggle buttonText="Read More">
+                                    {tourHighlights.content
+                                        .slice(3)
+                                        .map((item, index) => (
+                                            <p className="home-para px-2 py-1 bg-white" key={index}>
+                                                <span className="me-2">
+                                                    <FaStarOfLife className="icon" />
+                                                </span>
+                                                {item}
+                                            </p>
+                                        ))}
+                                </ReadMoreToggle>
                             </div>
                         </div>
                     </div>
@@ -165,32 +138,7 @@ const TwoDaysJaisalmerTourPackage = () => {
                             </div>
                             <div className="row mt-3 d-flex justify-content-center align-items-center accordion">
                                 <div className="col-12 col-sm-12 d-flex justify-content-center align-items-center px-4">
-                                    <Accordion className="w-100">
-                                        {tourItinerary.content.map((item, index) => (
-                                            <Accordion.Item
-                                                className="w-100 d-flex justify-content-between align-items-center flex-column accord-item"
-                                                eventKey={index.toString()}
-                                                key={index}
-                                            >
-                                                <Accordion.Header className="d-flex w-100 justify-content-between accord-head bg-white">
-                                                    <div className="d-flex flex-column">
-                                                        <h3 className="mb-0 accordion-question fw-normal fw-bold text-uppercase w-100 itinerary-title">
-                                                            {item.day}
-                                                        </h3>
-                                                        <p className="d-block w-100 fw-normal text-capitalize mb-0 ">
-                                                            {item.title}
-                                                        </p>
-                                                    </div>
-                                                </Accordion.Header>
-                                                <Accordion.Body>
-                                                    <p
-                                                        className="w-100 d-flex flex-column justify-content-start align-items-start mb-0 px-2 py-0"
-                                                        dangerouslySetInnerHTML={{ __html: item.content }}
-                                                    />
-                                                </Accordion.Body>
-                                            </Accordion.Item>
-                                        ))}
-                                    </Accordion>
+                                    <ItineraryAccordion tourItinerary={tourItinerary} />
                                 </div>
                             </div>
                         </div>
@@ -261,30 +209,7 @@ const TwoDaysJaisalmerTourPackage = () => {
                             <h2 className="text-capitalize px-3 text-center fw-normal mb-2">
                                 more <span className="fw-bold">on</span>
                             </h2>
-                            <Accordion className="w-100 px-2">
-                                {packageData.map((item, index) => (
-                                    <Accordion.Item
-                                        className="w-100 d-flex flex-column accord-item mb-3"
-                                        eventKey={index.toString()}
-                                        key={index}
-                                    >
-                                        <Accordion.Header className="d-flex w-100 justify-content-between bg-white">
-                                            <item.icon className="icon" />
-                                            <div className="d-flex flex-column">
-                                                <h3 className="mb-0 accordion-question fw-normal fw-bold text-uppercase w-100 itinerary-title">
-                                                    {item.title}
-                                                </h3>
-                                            </div>
-                                        </Accordion.Header>
-                                        <Accordion.Body className="w-100 p-2">
-                                            <p
-                                                className="w-100 d-flex flex-column justify-content-start align-items-start mb-0 px-2 py-0 accordion-answer"
-                                                dangerouslySetInnerHTML={{ __html: item.content }}
-                                            />
-                                        </Accordion.Body>
-                                    </Accordion.Item>
-                                ))}
-                            </Accordion>
+                            <PackageAccordion packageData={packageData} />
                         </div>
                     </div>
                 </div>

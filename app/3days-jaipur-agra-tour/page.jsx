@@ -1,4 +1,13 @@
-"use client";
+
+export const metadata = {
+  title: '03 Days Jaipur Agra Tour',
+  description: "",
+  keywords: [''],
+  alternates: {
+    canonical: "https://www.rajasthantourpackages.in/3days-jaipur-agra-tour",
+  },
+};
+
 const ThreeDaysJaipurAgraPackageTour = () => {
   return (
     <>

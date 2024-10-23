@@ -1,5 +1,12 @@
+export const metadata = {
+  title: '03 Days Jaipur Ranthambore Weekend Tour',
+  description: "",
+  keywords: [''],
+  alternates: {
+      canonical: "https://www.rajasthantourpackages.in/3days-jaipur-ranthambore-weekend-tour",
+  },
+};
 
-"use client";
 const ThreeDaysJaipurRanthamboreWeekendTour = () => {
   return (
     <>

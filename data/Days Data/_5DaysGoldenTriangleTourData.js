@@ -105,7 +105,7 @@ export const tourHighlights = {
 export const packageData = [
   {
     title: 'Package Inclusions',
-    icon: FaCheckCircle,
+    icon: 'FaCheckCircle',
     content: `
         <span class='itinerary-pts'>04 Nights / 05 Days Air-Conditioned Accommodation.</span>
         <span class='itinerary-pts'>Daily Breakfast & Dinner.</span>
@@ -120,7 +120,7 @@ export const packageData = [
   },
   {
     title: 'Package Exclusions',
-    icon: FaTimesCircle,
+    icon: 'FaTimesCircle',
     content: `
         <span class='itinerary-pts'>Anything not mentioned under ‘Package Inclusions’.</span>
         <span class='itinerary-pts'>Meals & drinks other than specified in inclusions.</span>
@@ -131,7 +131,7 @@ export const packageData = [
   },
   {
     title: 'Terms & Conditions',
-    icon: FaFileContract,
+    icon: 'FaFileContract',
     content: `
         <span class='itinerary-pts'>Tour Prices are Per Person.</span>
         <span class='itinerary-pts'>Package Costs may change during the Weekends, Festivals & New Year Period.</span>

@@ -460,16 +460,6 @@ body {
 
 .cities-para {
   position: relative;
-  &::before {
-    content: '';
-    border-radius: 999px;
-    width: 4px;
-    height: 100%;
-    position: absolute;
-    left: -8px;
-    background: var(--color-tertary);
-    box-shadow: var(--color-shadow-tertary);
-  }
 }
 
 .text-web {
