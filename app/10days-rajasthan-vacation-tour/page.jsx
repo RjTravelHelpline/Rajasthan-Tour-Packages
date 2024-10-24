@@ -32,8 +32,8 @@ const TenDaysRajasthanVacationTour = () => {
 
     const content = [
         {
-            duration: '07 nights • 08 days',
-            title: '08 Days Rajasthan Budget Tour',
+            duration: '09 nights • 10 days',
+            title: '10 Days Rajasthan Vacation Tour',
         },
     ];
 

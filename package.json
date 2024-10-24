@@ -2,9 +2,11 @@
   "name": "rajasthantourpackages",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "postbuild": "node gen-sitemap.js",
     "start": "next start",
     "lint": "next lint"
   },
@@ -21,6 +23,7 @@
     "react-toastify": "^10.0.6",
     "scss": "^0.2.4",
     "sharp": "^0.33.5",
+    "sitemap": "^8.0.0",
     "slick-carousel": "^1.8.1",
     "swiper": "^11.1.14"
   },
