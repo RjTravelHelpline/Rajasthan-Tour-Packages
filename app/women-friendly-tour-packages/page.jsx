@@ -1,16 +1,29 @@
 import Breadcrumb from "@/components/Breadcrumb";
-import { exclusiveTourPackagesData } from "@/data/pagesData";
+export const metadata = {
+    title: 'women friendly tour packages',
+    description: "",
+    keywords: [''],
+    alternates: {
+        canonical: "https://www.rajasthantourpackages.in/women-friendly-tour-packages",
+    },
+    openGraph: {
+        title: 'women friendly tour packages',
+        description: "",
+        url: "https://www.rajasthantourpackages.in/women-friendly-tour-packages",
+        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        siteName: 'Rajasthan Tour Packages',
+        type: 'website',
+    },
+};
 
 const WomenFriendlyTourPackage = () => {
-    const { heading, description } =
-        exclusiveTourPackagesData.womenFriendlyTourPackage;
     return (
         <>
             <Breadcrumb breadcrumbKey="womenfriendlyTour" />
-
-            <div className="container py-5">
-                <h3>{heading}</h3>
-                <p>{description}</p>
+            <div className="container-fluid px-0 py-4 bg-black text-white">
+                <div className="row">
+                    <h1 className="text-5">women friendly tour packages</h1>
+                </div>
             </div>
         </>
     );

@@ -1,38 +1,31 @@
-"use client";
 import Breadcrumb from "@/components/Breadcrumb";
-import ContactForm from "@/components/ContactForm";
-import SlickSlider from "@/components/SlickSlider";
-import { allCabRentals } from "@/data/cabRentalData";
-import { jaipurTourPackagesData } from "@/data/data";
-import Link from "next/link";
-import { useState } from "react";
-import { Card, Modal } from "react-bootstrap";
-import { BsArrowRight } from "react-icons/bs";
-import { FaFire, FaSnowflake, FaSuitcase, FaUserFriends } from "react-icons/fa";
-import { IoLogoWhatsapp, IoMdClose } from "react-icons/io";
 
+export const metadata = {
+  title: 'Jaipur cab rental',
+  description: '',
+  alternates: {
+    canonical: 'https://www.rajasthantourpackages.in/jaipur-cab-rental',
+  },
+  openGraph: {
+    title: 'Jaipur cab rental',
+    description: '',
+    url: 'https://www.rajasthantourpackages.in/jaipur-cab-rental',
+    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    siteName: 'Rajasthan Tour Packages',
+    type: 'website',
+  },
+};
 
 const JaipurCabRental = () => {
-  const [show, setShow] = useState(false);
-  const [selectedPackage, setSelectedPackage] = useState('');
-
-  const handleClose = () => setShow(false);
-  const handleShow = (title) => {
-    setSelectedPackage(title);
-    setShow(true);
-  };
-
   return (
     <>
       <Breadcrumb breadcrumbKey="jaipurCab" />
-      <div className="container-fluid bg-black ">
-        <div className="container py-5 text-white">
-          <div className="row">
-            <h1 className="text-capitalize text-center">jaipur cab rental</h1>
-          </div>
+      <div className="container-fluid px-0 py-4 bg-black text-white">
+        <div className="row">
+          <h1 className="text-5">jaipur cab rental</h1>
         </div>
       </div>
-      <div className="container-fluid section-02">
+      {/* <div className="container-fluid section-02">
         <div className="container py-5 packages rental-container">
           <div className="row py-2 px-2 d-flex justify-content-center align-items-center">
             <h2 className="w-auto text-capitalize home-head">
@@ -115,14 +108,13 @@ const JaipurCabRental = () => {
             </SlickSlider>
           </div>
         </div>
-      </div>
+      </div> */}
 
-      <div className="container-fluid section-02 mb-5">
+      {/* <div className="container-fluid section-02 mb-5">
         <div className="container py-5 packages">
           <div className="row py-2 px-2 d-flex justify-content-center align-items-center">
             <h2 className="w-auto text-capitalize home-head">
               <span className="fw-normal">tour </span> packages
-              {/* <FaGripfire className="icon" /> */}
             </h2>
           </div>
           <div className="row py-4 d-flex align-items-stretch px-2">
@@ -188,9 +180,9 @@ const JaipurCabRental = () => {
             </SlickSlider>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* Modal for Contact Form */}
-      <Modal
+      {/* <Modal
         show={show}
         onHide={handleClose}
         centered
@@ -210,7 +202,7 @@ const JaipurCabRental = () => {
             <IoMdClose />
           </button>
         </Modal.Footer>
-      </Modal>
+      </Modal> */}
     </>
   );
 };

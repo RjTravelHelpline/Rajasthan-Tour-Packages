@@ -2,9 +2,11 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import Faq from "@/components/Faq";
 import ReadMoreToggle from "@/components/ReadMore";
+import TourCarousel from "@/components/TourCarousel";
 import TourPackages from "@/components/TourPackages";
 import { tourFromMysore } from "@/data/CitiesData";
 import { mysoreFaq } from "@/data/faqData";
+import { allStatesImages } from "@/data/imageData";
 import { Mysore } from "@/data/tourByCitiesData";
 
 export const metadata = {
@@ -12,34 +14,38 @@ export const metadata = {
     description: "Embark on a mesmerizing journey from Mysore to Rajasthan. With Rajasthan Tour Packages, discover royal heritage, vibrant culture, and unforgettable experiences.",
     keywords: [''],
     alternates: {
-        canonical: "http://www.rajasthantourpackages.in/rajasthan-tour-from-mysore",
+        canonical: "https://www.rajasthantourpackages.in/rajasthan-tour-from-mysore",
+    },
+    openGraph: {
+        title: 'Rajasthan Tour From Mysore | Rajasthan Tour Packages',
+        description: "Embark on a mesmerizing journey from Mysore to Rajasthan. With Rajasthan Tour Packages, discover royal heritage, vibrant culture, and unforgettable experiences.",
+        url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-mysore",
+        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        siteName: 'Rajasthan Tour Packages',
+        type: 'website',
     },
 };
 
 
 const RajasthanPackageTourFromMysore = () => {
+    const images = [
+        { src: allStatesImages.mysore.mysoreBanner.src },
+    ];
+
+    const content = [
+        {
+            duration: '',
+            title: 'Rajasthan Tour From mysore',
+        },
+    ];
     return (
         <>
             {/* bread crumb */}
             <Breadcrumb breadcrumbKey="rajasthanTourFromMysore" />
-
             {/* banner */}
-            {/* <div className="container-fluid home-banner destination-banner position-relative px-0">
-                <Carousel fade pause={false} controls={false}>
-                    <Carousel.Item>
-                        <img
-                            src={allStatesImages.mysore.mysoreBanner.src}
-                            alt="Home Banner"
-                        />
-                        <Carousel.Caption>
-                            <h1 className="text-capitalize">
-                                rajasthan tour from{' '}
-                                <span className="fw-bold text-capitalize">mysore</span>
-                            </h1>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                </Carousel>
-            </div> */}
+            <div className="container-fluid home-banner days-banner-container destination-banner position-relative px-0">
+                <TourCarousel images={images} content={content} />
+            </div>
 
             {/* data */}
             <div className="container-fluid">

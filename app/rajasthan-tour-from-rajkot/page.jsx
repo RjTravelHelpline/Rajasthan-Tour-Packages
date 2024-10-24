@@ -1,6 +1,7 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import Faq from "@/components/Faq";
 import ReadMoreToggle from "@/components/ReadMore";
+import TourCarousel from "@/components/TourCarousel";
 import TourPackages from "@/components/TourPackages";
 import { tourFromRajkot } from "@/data/CitiesData";
 import { rajkotFaq } from "@/data/faqData";
@@ -12,33 +13,36 @@ export const metadata = {
   description: "Arrange your Rajasthan enterprise from Rajkot with Rajasthan Visit Bundles. Encounter illustrious royal residences, posts, and dynamic cities when rulers arrive.",
   keywords: [''],
   alternates: {
-    canonical: "http://www.rajasthantourpackages.in/rajasthan-tour-from-rajkot",
+    canonical: "https://www.rajasthantourpackages.in/rajasthan-tour-from-rajkot",
+  },
+  openGraph: {
+    title: 'Rajasthan Tour From Rajkot | Rajasthan Tour Packages',
+    description: "Arrange your Rajasthan enterprise from Rajkot with Rajasthan Visit Bundles. Encounter illustrious royal residences, posts, and dynamic cities when rulers arrive.",
+    url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-rajkot",
+    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    siteName: 'Rajasthan Tour Packages',
+    type: 'website',
   },
 };
 
 const RajasthanPackageTourFromRajkot = () => {
+  const images = [
+    { src: allStatesImages.rajkot.rajkotBanner.src },
+  ];
+  const content = [
+    {
+      duration: '',
+      title: 'Rajasthan Tour From rajkot',
+    },
+  ];
   return (
     <>
       {/* bread crumb */}
       <Breadcrumb breadcrumbKey="rajasthanTourFromRajkot" />
-
       {/* banner */}
-      {/* <div className="container-fluid home-banner destination-banner position-relative px-0">
-        <Carousel fade pause={false} controls={false}>
-          <Carousel.Item>
-            <img
-              src={allStatesImages.rajkot.rajkotBanner.src}
-              alt="Home Banner"
-            />
-            <Carousel.Caption>
-              <h1 className="text-capitalize">
-                rajasthan tour from{' '}
-                <span className="fw-bold text-capitalize">rajkot</span>
-              </h1>
-            </Carousel.Caption>
-          </Carousel.Item>
-        </Carousel>
-      </div> */}
+      <div className="container-fluid home-banner days-banner-container destination-banner position-relative px-0">
+        <TourCarousel images={images} content={content} />
+      </div>
       {/* data */}
       <div className="container-fluid">
         <div className="container py-5">

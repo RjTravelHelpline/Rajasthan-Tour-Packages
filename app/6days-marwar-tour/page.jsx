@@ -1,13 +1,14 @@
+import Breadcrumb from "@/components/Breadcrumb";
 import React from "react";
 
 export const metadata = {
-  title: '6days-marwar-tour',
+  title: '06 days marwar tour',
   description: "",
   alternates: {
     canonical: 'https://www.rajasthantourpackages.in/6days-marwar-tour',
   },
   openGraph: {
-    title: '6days-marwar-tour',
+    title: '06 days marwar tour',
     description: "",
     url: 'https://www.rajasthantourpackages.in/6days-marwar-tour',
     image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
@@ -18,9 +19,14 @@ export const metadata = {
 
 const SixDaysMarwarTourPackage = () => {
   return (
-    <div>
-      <h2>6days-marwar-tour-package</h2>
-    </div>
+    <>
+      <Breadcrumb breadcrumbKey="_6daysmarwartour" />
+      <div className="container-fluid px-0 py-4 bg-black text-white">
+        <div className="row">
+          <h1 className="text-5">06 days marwar tour</h1>
+        </div>
+      </div>
+    </>
   );
 };
 

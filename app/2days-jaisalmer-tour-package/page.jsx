@@ -23,19 +23,14 @@ export const metadata = {
         image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
         siteName: 'Rajasthan Tour Packages',
         type: 'website',
-      },
+    },
 };
 const TwoDaysJaisalmerTourPackage = () => {
     const images = [
         { src: allCitiesImages.jaisalmer.jaisalmerHaweli.src },
-        { src: allCitiesImages.jaisalmer.jaisalmerLeisure.src },
     ];
 
     const content = [
-        {
-            duration: '01 nights • 02 days',
-            title: '02 days jaisalmer tour package',
-        },
         {
             duration: '01 nights • 02 days',
             title: '02 days jaisalmer tour package',

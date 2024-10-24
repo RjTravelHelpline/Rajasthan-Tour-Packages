@@ -1,4 +1,5 @@
 "use client";
+import Breadcrumb from "@/components/Breadcrumb";
 import Gallery from "@/components/Gallery";
 import Reviews from "@/components/Reviews";
 import Services from "@/components/Services";
@@ -34,6 +35,7 @@ const About = () => {
     }, []);
     return (
         <>
+            <Breadcrumb breadcrumbKey="aboutUs" />
             <div id="about" className="py-4 container-fluid">
                 <div className="container about my-5">
                     <div className="row py-4">

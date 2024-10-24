@@ -1,9 +1,11 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import Faq from "@/components/Faq";
 import ReadMoreToggle from "@/components/ReadMore";
+import TourCarousel from "@/components/TourCarousel";
 import TourPackages from "@/components/TourPackages";
 import { tourFromAhmedabad } from "@/data/CitiesData";
 import { ahmedabadFaq } from "@/data/faqData";
+import { allCitiesImages, allStatesImages } from "@/data/imageData";
 import { Ahmedabad } from "@/data/tourByCitiesData";
 
 export const metadata = {
@@ -23,27 +25,24 @@ export const metadata = {
 };
 
 const RajasthanPackageTourFromAhmedabad = () => {
+    const images = [
+        { src: allStatesImages.ahmedabad.ahmedabadBanner.src },
+    ];
+
+    const content = [
+        {
+            duration: '',
+            title: 'Rajasthan Tour From Ahmedabad',
+        },
+    ];
     return (
         <>
             {/* bread crumb */}
             <Breadcrumb breadcrumbKey="rajasthanTourFromAhmedabad" />
             {/* banner */}
-            {/* <div className="container-fluid home-banner destination-banner position-relative px-0">
-                <Carousel fade pause={false} controls={false}>
-                    <Carousel.Item>
-                        <img
-                            src={allStatesImages.ahmedabad.ahmedabadBanner.src}
-                            alt="Home Banner"
-                        />
-                        <Carousel.Caption>
-                            <h1 className="text-capitalize">
-                                rajasthan tour from{' '}
-                                <span className="fw-bold text-capitalize">ahmedabad</span>
-                            </h1>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                </Carousel>
-            </div> */}
+            <div className="container-fluid home-banner days-banner-container destination-banner position-relative px-0">
+                <TourCarousel images={images} content={content} />
+            </div>
             {/* data */}
             <div className="container-fluid">
                 <div className="container py-5">

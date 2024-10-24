@@ -1,7 +1,21 @@
-"use client"
-
 import Breadcrumb from "@/components/Breadcrumb";
 
+export const metadata = {
+    title: 'Rajasthan Tourism Hotels',
+    description: "",
+    keywords: [''],
+    alternates: {
+        canonical: "https://www.rajasthantourpackages.in/rajasthan-tourism-hotels",
+    },
+    openGraph: {
+        title: 'Rajasthan Tourism Hotels',
+        description: "",
+        url: "https://www.rajasthantourpackages.in/rajasthan-tourism-hotels",
+        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        siteName: 'Rajasthan Tour Packages',
+        type: 'website',
+    },
+};
 const RajasthanTourismHotels = () => {
     return (
         <>

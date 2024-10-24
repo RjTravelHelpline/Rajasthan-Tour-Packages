@@ -1,11 +1,13 @@
+import Breadcrumb from "@/components/Breadcrumb"
+
 export const metadata = {
-  title: '6days-udaipur-jodhpur-jaisalmer-desert-tour',
+  title: '06 days udaipur jodhpur jaisalmer desert tour',
   description: "",
   alternates: {
     canonical: 'https://www.rajasthantourpackages.in/6days-udaipur-jodhpur-jaisalmer-desert-tour',
   },
   openGraph: {
-    title: '6days-udaipur-jodhpur-jaisalmer-desert-tour',
+    title: '06 days udaipur jodhpur jaisalmer desert tour',
     description: "",
     url: 'https://www.rajasthantourpackages.in/6days-udaipur-jodhpur-jaisalmer-desert-tour',
     image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
@@ -15,9 +17,14 @@ export const metadata = {
 }
 const SixDaysUdaipurJodhpurJaisalmerDesertTour = () => {
   return (
-    <div>
-      <h2>6days-udaipur-jodhpur-jaisalmer-desert-tour</h2>
-    </div>
+    <>
+      <Breadcrumb breadcrumbKey="_6daysudaipurjodhpurjaisalmerdeserttour" />
+      <div className="container-fluid px-0 py-4 bg-black text-white">
+        <div className="row">
+          <h1 className="text-5">06 days udaipur jodhpur jaisalmer desert tour</h1>
+        </div>
+      </div>
+    </>
   )
 }
 

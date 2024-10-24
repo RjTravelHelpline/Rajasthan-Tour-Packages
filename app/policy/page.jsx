@@ -1,14 +1,28 @@
 import Breadcrumb from "@/components/Breadcrumb";
-import { policyData } from "@/data/pagesData";
+export const metadata = {
+    title: 'privacy policy',
+    description: "",
+    alternates: {
+        canonical: 'https://www.rajasthantourpackages.in/policy',
+    },
+    openGraph: {
+        title: 'privacy policy',
+        description: "",
+        url: 'https://www.rajasthantourpackages.in/policy',
+        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        siteName: 'Rajasthan Tour Packages',
+        type: 'website',
+    },
+}
+
 const Policy = () => {
-    const { heading, subheading, description } = policyData;
     return (
         <>
             <Breadcrumb breadcrumbKey="privacyPolicy" />
-            <div className="container py-5">
-                <p className="mb-2 text-uppercase text-center sec-heading">{heading}</p>
-                <h2 className="mb-4 text-center">{subheading}</h2>
-                <p className="text-center">{description}</p>
+            <div className="container-fluid px-0 py-4 bg-black text-white">
+                <div className="row">
+                    <h1 className="text-5">privacy policy</h1>
+                </div>
             </div>
         </>
     );

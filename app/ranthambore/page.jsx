@@ -1,23 +1,35 @@
-"use client"
 import Breadcrumb from "@/components/Breadcrumb";
 import TourPackages from "@/components/TourPackages";
 import { ranthamboreTourPackagesData } from "@/data/data";
-import { allCitiesImages } from "@/data/imageData";
-import useShowAll from "@/Utility/useShowAll";
-import { Carousel } from "react-bootstrap";
-import { MdExpandLess, MdExpandMore } from "react-icons/md";
+
+export const metadata = {
+  title: 'Ranthambore',
+  description: "",
+  keywords: [''],
+  alternates: {
+    canonical: "https://www.rajasthantourpackages.in/ranthambore",
+  },
+  openGraph: {
+    title: 'Ranthambore',
+    description: "",
+    url: "https://www.rajasthantourpackages.in/ranthambore",
+    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    siteName: 'Rajasthan Tour Packages',
+    type: 'website',
+  },
+};
 
 const Ranthambore = () => {
-
-  // show all component
-  const { visibleItems, showAll, toggleShowAll } = useShowAll(
-    ranthamboreTourPackagesData
-  );
   return (
     <>
       <Breadcrumb breadcrumbKey="ranthambore" />
+      <div className="container-fluid px-0 py-4 bg-black text-white">
+        <div className="row">
+          <h1 className="text-5">ranthambore</h1>
+        </div>
+      </div>
       {/* banner */}
-      <div className="container-fluid home-banner destination-banner position-relative px-0">
+      {/* <div className="container-fluid home-banner destination-banner position-relative px-0">
         <Carousel fade pause={false} controls={false}>
           <Carousel.Item>
             <img
@@ -29,7 +41,7 @@ const Ranthambore = () => {
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
-      </div>
+      </div> */}
       {/* packages */}
       <div className="container packages">
         <div className="row d-flex justify-content-center align-items-stretch my-5">
@@ -37,25 +49,9 @@ const Ranthambore = () => {
             ranthambore <span className="fw-normal">tour packages</span>
           </h2>
           <div className="row py-4 d-flex align-items-stretch px-2">
-            {visibleItems.map((pkg, index) => (
+            {ranthamboreTourPackagesData.map((pkg, index) => (
               <TourPackages key={index} pkg={pkg} />
             ))}
-          </div>
-          <div className="row d-flex w-100 justify-content-center align-items-center">
-            <button
-              onClick={toggleShowAll}
-              className="more-btn bg-transparent d-flex justify-content-center align-items-center gap-2"
-            >
-              {showAll ? (
-                <>
-                  Show less <MdExpandLess />
-                </>
-              ) : (
-                <>
-                  View all <MdExpandMore />
-                </>
-              )}
-            </button>
           </div>
         </div>
       </div>

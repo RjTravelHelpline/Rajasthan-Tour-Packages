@@ -2,9 +2,11 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import Faq from "@/components/Faq";
 import ReadMoreToggle from "@/components/ReadMore";
+import TourCarousel from "@/components/TourCarousel";
 import TourPackages from "@/components/TourPackages";
 import { tourFromBangalore } from "@/data/CitiesData";
 import { bangaloreFaq } from "@/data/faqData";
+import { allStatesImages } from "@/data/imageData";
 import { Bangalore } from "@/data/tourByCitiesData";
 
 export const metadata = {
@@ -14,33 +16,36 @@ export const metadata = {
   alternates: {
     canonical: "http://www.rajasthantourpackages.in/rajasthan-tour-from-banglore",
   },
+  openGraph: {
+    title: 'Rajasthan Tour Package from Bangalore | Rajasthan Tour Packages',
+    description: 'Learn the beauty of the Rajasthan tour package from Bangalore. Enjoy royal experiences, cultural sights, and luxury stays. Book your Rajasthan tour today.',
+    url: "http://www.rajasthantourpackages.in/rajasthan-tour-from-banglore",
+    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    siteName: 'Rajasthan Tour Packages',
+    type: 'website',
+  },
 };
 
 
 const RajasthanTourFromBangalore = () => {
+  const images = [
+    { src: allStatesImages.bangalore.bangaloreBanner.src },
+  ];
+
+  const content = [
+    {
+      duration: '',
+      title: 'Rajasthan Tour From Bangalore',
+    },
+  ];
   return (
     <>
       {/* bread crumb */}
       <Breadcrumb breadcrumbKey="rajasthanTourFromBangalore" />
-
       {/* banner */}
-      {/* <div className="container-fluid home-banner destination-banner position-relative px-0">
-        <Carousel fade pause={false} controls={false}>
-          <Carousel.Item>
-            <img
-              src={allStatesImages.bangalore.bangaloreBanner.src}
-              alt="Home Banner"
-            />
-            <Carousel.Caption>
-              <h1 className="text-capitalize">
-                rajasthan tour from{' '}
-                <span className="fw-bold text-capitalize">bangalore</span>
-              </h1>
-            </Carousel.Caption>
-          </Carousel.Item>
-        </Carousel>
-      </div> */}
-
+      <div className="container-fluid home-banner days-banner-container destination-banner position-relative px-0">
+        <TourCarousel images={images} content={content} />
+      </div>
       {/* data */}
       <div className="container-fluid">
         <div className="container py-5">

@@ -7,7 +7,6 @@ import { tourFromAgra } from "@/data/CitiesData";
 import { agraFaq } from "@/data/faqData";
 import { allStatesImages } from "@/data/imageData";
 import { Agra } from "@/data/tourByCitiesData";
-import { Carousel } from "react-bootstrap";
 
 export const metadata = {
     title: 'Rajasthan Tour from Agra | Rajasthan Tour Packages',
@@ -40,24 +39,14 @@ const RajasthanPackageTourFromAgra = () => {
         <>
             {/* bread crumb */}
             <Breadcrumb breadcrumbKey="rajasthanTourFromAgra" />
-            {/* banner */}
-            {/* <div className="container-fluid home-banner destination-banner position-relative px-0">
-                <Carousel fade pause={false} controls={false}>
-                    <Carousel.Item>
-                        <img src={allStatesImages.agra.agraBanner.src} alt="Home Banner" />
-                        <Carousel.Caption>
-                            <h1 className="text-capitalize">
-                                rajasthan tour from{' '}
-                                <span className="fw-bold text-capitalize">agra</span>
-                            </h1>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                </Carousel>
-            </div> */}
-            <div className="container-fluid home-banner days-banner-container destination-banner position-relative px-0">
-                <div className="container-fluid home-banner days-banner-container destination-banner position-relative px-0">
-                    <TourCarousel images={images} content={content} />
+            <div className="container-fluid px-0 py-4 bg-black text-white">
+                <div className="row">
+                    <h1 className="text-5">rajasthan tour from agra</h1>
                 </div>
+            </div>
+            {/* banner */}
+            <div className="container-fluid home-banner days-banner-container destination-banner position-relative px-0">
+                <TourCarousel images={images} content={content} />
             </div>
             {/* data */}
             <div className="container-fluid">

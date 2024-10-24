@@ -1,9 +1,11 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import Faq from "@/components/Faq";
 import ReadMoreToggle from "@/components/ReadMore";
+import TourCarousel from "@/components/TourCarousel";
 import TourPackages from "@/components/TourPackages";
 import { tourFromPune } from "@/data/CitiesData";
 import { puneFaq } from "@/data/faqData";
+import { allStatesImages } from "@/data/imageData";
 import { Pune } from "@/data/tourByCitiesData";
 
 export const metadata = {
@@ -11,31 +13,37 @@ export const metadata = {
   description: "Embark on a Rajasthan trip from Pune. Enjoy royal forts, rich culture, and luxurious stays. Plan your royal adventure with our tailored packages. Book today.",
   keywords: [''],
   alternates: {
-    canonical: "http://www.rajasthantourpackages.in/rajasthan-tour-from-pune",
+    canonical: "https://www.rajasthantourpackages.in/rajasthan-tour-from-pune",
+  },
+  openGraph: {
+    title: 'Rajasthan Trip from Pune | Book Now | Rajasthan Tour Packages',
+    description: "Embark on a Rajasthan trip from Pune. Enjoy royal forts, rich culture, and luxurious stays. Plan your royal adventure with our tailored packages. Book today.",
+    url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-pune",
+    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    siteName: 'Rajasthan Tour Packages',
+    type: 'website',
   },
 };
 
 const RajasthanTourFromPune = () => {
+  const images = [
+    { src: allStatesImages.pune.puneBanner.src },
+  ];
+
+  const content = [
+    {
+      duration: '',
+      title: 'Rajasthan Tour From pune',
+    },
+  ];
   return (
     <>
       {/* bread crumb */}
       <Breadcrumb breadcrumbKey="rajasthanTourFromPune" />
-
       {/* banner */}
-      {/* <div className="container-fluid home-banner destination-banner position-relative px-0">
-        <Carousel fade pause={false} controls={false}>
-          <Carousel.Item>
-            <img src={allStatesImages.pune.puneBanner.src} alt="Home Banner" />
-            <Carousel.Caption>
-              <h1 className="text-capitalize">
-                rajasthan tour from{' '}
-                <span className="fw-bold text-capitalize">pune</span>
-              </h1>
-            </Carousel.Caption>
-          </Carousel.Item>
-        </Carousel>
-      </div> */}
-
+      <div className="container-fluid home-banner days-banner-container destination-banner position-relative px-0">
+        <TourCarousel images={images} content={content} />
+      </div>
       {/* data */}
       <div className="container-fluid">
         <div className="container py-5">

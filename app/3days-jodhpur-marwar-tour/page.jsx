@@ -1,12 +1,13 @@
+import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata = {
-  title: '3days-jodhpur-marwar-tour-package',
+  title: '03 Days Jodhpur Marwar Tour',
   description: "",
   alternates: {
     canonical: 'https://www.rajasthantourpackages.in/3days-jodhpur-marwar-tour',
   },
   openGraph: {
-    title: '3days-jodhpur-jaisalmer-desert-tour',
+    title: '03 Days Jodhpur Marwar Tour',
     description: "",
     url: 'https://www.rajasthantourpackages.in/3days-jodhpur-marwar-tour',
     image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
@@ -17,8 +18,11 @@ export const metadata = {
 const ThreeDaysJodhpurMarwarTourPackage = () => {
   return (
     <>
-      <div>
-        <h1>3days-jodhpur-marwar-tour-package</h1>
+      <Breadcrumb breadcrumbKey="_3daysjodhpurmarwartour" />
+      <div className="container-fluid px-0 py-4 bg-black text-white">
+        <div className="row">
+          <h1 className="text-5">03 Days Jodhpur Marwar Tour</h1>
+        </div>
       </div>
     </>
   );

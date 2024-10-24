@@ -1,11 +1,13 @@
+import Breadcrumb from "@/components/Breadcrumb"
+
 export const metadata = {
-  title: '9days-rajasthan-holiday-package',
+  title: '09 days rajasthan holiday package',
   description: '',
   alternates: {
     canonical: 'https://www.rajasthantourpackages.in/9days-rajasthan-holiday-package',
   },
   openGraph: {
-    title: "9days-rajasthan-holiday-package",
+    title: "09 days rajasthan holiday package",
     description: '',
     url: 'https://www.rajasthantourpackages.in/9days-rajasthan-holiday-package',
     image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
@@ -15,9 +17,14 @@ export const metadata = {
 }
 const NineDaysRajasthanHolidayPackage = () => {
   return (
-    <div>
-      <h2>9days-rajasthan-holiday-package</h2>
-    </div>
+    <>
+      <Breadcrumb breadcrumbKey="_9daysrajasthanholidaypackage" />
+      <div className="container-fluid px-0 py-4 bg-black text-white">
+        <div className="row">
+          <h1 className="text-5">09 days rajasthan holiday package</h1>
+        </div>
+      </div>
+    </>
   )
 }
 

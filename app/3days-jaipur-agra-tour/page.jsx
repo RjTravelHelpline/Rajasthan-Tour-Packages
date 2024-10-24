@@ -1,3 +1,5 @@
+import Breadcrumb from "@/components/Breadcrumb";
+
 export const metadata = {
   title: '03 Days Jaipur Agra Tour',
   description: "",
@@ -18,8 +20,11 @@ export const metadata = {
 const ThreeDaysJaipurAgraPackageTour = () => {
   return (
     <>
-      <div>
-        <h2>3days-jaipur-agra-package-tour</h2>
+      <Breadcrumb breadcrumbKey='_03DaysJaipurAgraTour' />
+      <div className="container-fluid px-0 py-4 bg-black text-white">
+        <div className="row">
+          <h1 className="text-5">03 Days Jaipur Agra Tour</h1>
+        </div>
       </div>
     </>
   );

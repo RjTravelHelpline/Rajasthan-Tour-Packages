@@ -1,4 +1,3 @@
-
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata = {
@@ -23,11 +22,9 @@ const Two_Five_Days_RajasthanTours = () => {
   return (
     <>
       <Breadcrumb breadcrumbKey="_02_05Days" />
-      <div className="container packages">
-        <div className="row d-flex justify-content-center align-items-stretch my-5">
-          <h3 className="text-capitalize">
-            02-05 days rajasthan tour packages
-          </h3>
+      <div className="container-fluid px-0 py-4 bg-black text-white">
+        <div className="row">
+          <h1 className="text-5">02-05 Days Rajasthan Tour Packages</h1>
         </div>
       </div>
     </>

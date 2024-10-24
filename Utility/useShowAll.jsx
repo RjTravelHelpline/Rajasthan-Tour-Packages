@@ -1,4 +1,4 @@
-// useShowAll.js
+"use client"
 import { useState } from "react";
 
 const useShowAll = (items, initialCount = 3) => {

@@ -2,6 +2,7 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import Faq from "@/components/Faq";
 import ReadMoreToggle from "@/components/ReadMore";
+import TourCarousel from "@/components/TourCarousel";
 import TourPackages from "@/components/TourPackages";
 import { tourFromVisakhapatnam } from "@/data/CitiesData";
 import { vishakhapatnamFaq } from "@/data/faqData";
@@ -13,33 +14,35 @@ export const metadata = {
   description: "Travel from Visakhapatnam to the heart of Rajasthan with Rajasthan Tour Packages. Experience the state's royal splendor, cultural richness, and scenic beauty.",
   keywords: [''],
   alternates: {
-    canonical: "http://www.rajasthantourpackages.in/rajasthan-tour-from-visakhapatnam",
+    canonical: "https://www.rajasthantourpackages.in/rajasthan-tour-from-visakhapatnam",
+  },
+  openGraph: {
+    title: 'Rajasthan Tour From Visakhapatnam | Rajasthan Tour Packages',
+    description: "Travel from Visakhapatnam to the heart of Rajasthan with Rajasthan Tour Packages. Experience the state's royal splendor, cultural richness, and scenic beauty.",
+    url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-visakhapatnam",
+    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    siteName: 'Rajasthan Tour Packages',
+    type: 'website',
   },
 };
 const RajasthanTourFromVisakhapatnam = () => {
+  const images = [
+    { src: allStatesImages.vishakhapatnam.visakhapatnamBanner.src },
+  ];
+  const content = [
+    {
+      duration: '',
+      title: 'Rajasthan Tour From vishakhapatnam',
+    },
+  ];
   return (
     <>
       {/* bread crumb */}
       <Breadcrumb breadcrumbKey="rajasthanTourFromVisakhapatnam" />
-
       {/* banner */}
-      {/* <div className="container-fluid home-banner destination-banner position-relative px-0">
-        <Carousel fade pause={false} controls={false}>
-          <Carousel.Item>
-            <img
-              src={allStatesImages.vishakhapatnam.visakhapatnamBanner.src}
-              alt="Home Banner"
-            />
-            <Carousel.Caption>
-              <h1 className="text-capitalize">
-                rajasthan tour from{' '}
-                <span className="fw-bold text-capitalize">vishakhapatnam</span>
-              </h1>
-            </Carousel.Caption>
-          </Carousel.Item>
-        </Carousel>
-      </div> */}
-
+      <div className="container-fluid home-banner days-banner-container destination-banner position-relative px-0">
+        <TourCarousel images={images} content={content} />
+      </div>
       {/* data */}
       <div className="container-fluid">
         <div className="container py-5">

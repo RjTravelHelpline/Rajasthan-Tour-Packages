@@ -27,15 +27,10 @@ export const metadata = {
 
 const TenDaysRajasthanVacationTour = () => {
     const images = [
-        { src: allCitiesImages.jaipur.jaipurHoneymoon.src },
-        { src: allCitiesImages.jaisalmer.jaisalmerBanner.src },
+        { src: allCitiesImages.jaipur.jaipurHoneymoon.src }
     ];
 
     const content = [
-        {
-            duration: '07 nights • 08 days',
-            title: '08 Days Rajasthan Budget Tour',
-        },
         {
             duration: '07 nights • 08 days',
             title: '08 Days Rajasthan Budget Tour',

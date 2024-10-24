@@ -1,5 +1,4 @@
 import Breadcrumb from "@/components/Breadcrumb";
-import { tourByThemeData } from "@/data/pagesData";
 
 export const metadata = {
     title: 'Group Tour Packages for Rajasthan | Rajasthan Tour Packages',
@@ -17,15 +16,14 @@ export const metadata = {
     },
 };
 const GroupTours = () => {
-    const { heading, description } = tourByThemeData.groupTours;
     return (
         <>
             {/* bread crumb */}
-
             <Breadcrumb breadcrumbKey="groupTour" />
-            <div className="container py-5">
-                <h3>{heading}</h3>
-                <p>{description}</p>
+            <div className="container-fluid px-0 py-4 bg-black text-white">
+                <div className="row">
+                    <h1 className="text-5">rajasthan group tour packages</h1>
+                </div>
             </div>
         </>
     );

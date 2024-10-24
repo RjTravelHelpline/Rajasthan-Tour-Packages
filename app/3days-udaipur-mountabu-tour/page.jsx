@@ -1,11 +1,13 @@
+import Breadcrumb from "@/components/Breadcrumb";
+
 export const metadata = {
-    title: '3days-udaipur-mountabu-tour',
+    title: '03 Days Udaipur Mountabu Tour',
     description: "",
     alternates: {
         canonical: 'https://www.rajasthantourpackages.in/3days-udaipur-mountabu-tour',
     },
     openGraph: {
-        title: '3days-udaipur-mountabu-tour',
+        title: '03 Days Udaipur Mountabu Tour',
         description: "",
         url: 'https://www.rajasthantourpackages.in/3days-udaipur-mountabu-tour',
         image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
@@ -16,8 +18,11 @@ export const metadata = {
 const ThreeDaysUdaipurMountabuTourPackage = () => {
     return (
         <>
-            <div>
-                <h2>3days-udaipur-mountabu-tour-package</h2>
+            <Breadcrumb breadcrumbKey="_3daysudaipurmountabutour" />
+            <div className="container-fluid px-0 py-4 bg-black text-white">
+                <div className="row">
+                    <h1 className="text-5">03 Days Udaipur Mountabu Tour</h1>
+                </div>
             </div>
         </>
     );

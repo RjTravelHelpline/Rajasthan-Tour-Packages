@@ -1,9 +1,11 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import Faq from "@/components/Faq";
 import ReadMoreToggle from "@/components/ReadMore";
+import TourCarousel from "@/components/TourCarousel";
 import TourPackages from "@/components/TourPackages";
 import { tourFromHyderabad } from "@/data/CitiesData";
 import { hyderabadFaq } from "@/data/faqData";
+import { allStatesImages } from "@/data/imageData";
 import { Hyderabad } from "@/data/tourByCitiesData";
 
 export const metadata = {
@@ -11,36 +13,39 @@ export const metadata = {
   description: "Immerse yourself in Rajasthan's majestic charm, iconic landmarks, and vibrant traditions. Book your Rajasthan Tour from Hyderabad with our exclusive packages..",
   keywords: [''],
   alternates: {
-    canonical: "http://www.rajasthantourpackages.in/rajasthan-tour-from-hyderabad",
+    canonical: "https://www.rajasthantourpackages.in/rajasthan-tour-from-hyderabad",
+  },
+  openGraph: {
+    title: 'Rajasthan Tour from Hyderabad | Rajasthan Tour Packages',
+    description: "Immerse yourself in Rajasthan's majestic charm, iconic landmarks, and vibrant traditions. Book your Rajasthan Tour from Hyderabad with our exclusive packages..",
+    url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-hyderabad",
+    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    siteName: 'Rajasthan Tour Packages',
+    type: 'website',
   },
 };
 
 
 
 const RajasthanTourFromHyderabad = () => {
+  const images = [
+    { src: allStatesImages.hyderabad.hyderabadBanner.src },
+  ];
+
+  const content = [
+    {
+      duration: '',
+      title: 'Rajasthan Tour From hyderabad',
+    },
+  ];
   return (
     <>
       {/* bread crumb */}
       <Breadcrumb breadcrumbKey="rajasthanTourFromHyderabad" />
-
       {/* banner */}
-      {/* <div className="container-fluid home-banner destination-banner position-relative px-0">
-        <Carousel fade pause={false} controls={false}>
-          <Carousel.Item>
-            <img
-              src={allStatesImages.hyderabad.hyderabadBanner.src}
-              alt="Home Banner"
-            />
-            <Carousel.Caption>
-              <h1 className="text-capitalize">
-                rajasthan tour from{' '}
-                <span className="fw-bold text-capitalize">hyderabad</span>
-              </h1>
-            </Carousel.Caption>
-          </Carousel.Item>
-        </Carousel>
-      </div> */}
-
+      <div className="container-fluid home-banner days-banner-container destination-banner position-relative px-0">
+        <TourCarousel images={images} content={content} />
+      </div>
       {/* data */}
       <div className="container-fluid">
         <div className="container py-5">

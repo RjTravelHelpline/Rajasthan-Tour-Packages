@@ -1,9 +1,11 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import Faq from "@/components/Faq";
 import ReadMoreToggle from "@/components/ReadMore";
+import TourCarousel from "@/components/TourCarousel";
 import TourPackages from "@/components/TourPackages";
 import { tourFromCoimbatore } from "@/data/CitiesData";
 import { coimbatoreFaq } from "@/data/faqData";
+import { allStatesImages } from "@/data/imageData";
 import { Coimbatore } from "@/data/tourByCitiesData";
 
 export const metadata = {
@@ -11,35 +13,38 @@ export const metadata = {
     description: "Depart the Rajasthan Tour from Coimbatore, which has majestic and historical landmarks, each with a to-tell and a culture. Book the Rajasthan tour package now.",
     keywords: [''],
     alternates: {
-        canonical: "http://www.rajasthantourpackages.in/rajasthan-tour-from-coimbatore",
+        canonical: "https://www.rajasthantourpackages.in/rajasthan-tour-from-coimbatore",
+    },
+    openGraph: {
+        title: 'Rajasthan Tour from Coimbatore | Rajasthan Tour Packages',
+        description: "Depart the Rajasthan Tour from Coimbatore, which has majestic and historical landmarks, each with a to-tell and a culture. Book the Rajasthan tour package now.",
+        url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-coimbatore",
+        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        siteName: 'Rajasthan Tour Packages',
+        type: 'website',
     },
 };
 
 const RajasthanTourFromCoimbatore = () => {
+    const images = [
+        { src: allStatesImages.coimbatore.coimbatoreBanner.src },
+    ];
+
+    const content = [
+        {
+            duration: '',
+            title: 'Rajasthan Tour From coimbatore',
+        },
+    ];
     return (
         <>
 
             {/* bread crumb */}
             <Breadcrumb breadcrumbKey="rajasthanTourFromCoimbatore" />
-
             {/* banner */}
-            {/* <div className="container-fluid home-banner destination-banner position-relative px-0">
-                <Carousel fade pause={false} controls={false}>
-                    <Carousel.Item>
-                        <img
-                            src={allStatesImages.coimbatore.coimbatoreBanner.src}
-                            alt="Home Banner"
-                        />
-                        <Carousel.Caption>
-                            <h1 className="text-capitalize">
-                                rajasthan tour from{' '}
-                                <span className="fw-bold text-capitalize">coimbatore</span>
-                            </h1>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                </Carousel>
-            </div> */}
-
+            <div className="container-fluid home-banner days-banner-container destination-banner position-relative px-0">
+                <TourCarousel images={images} content={content} />
+            </div>
             {/* data */}
             <div className="container-fluid">
                 <div className="container py-5">
@@ -59,7 +64,7 @@ const RajasthanTourFromCoimbatore = () => {
                                         ></span>
                                     ))}
                                 </>   </ReadMoreToggle>
-                                <span className="py-4 d-block"></span>
+                            <span className="py-4 d-block"></span>
                         </p>
                     </div>
                 </div>

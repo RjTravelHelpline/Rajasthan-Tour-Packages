@@ -1,25 +1,30 @@
-"use client";
+
 import Breadcrumb from "@/components/Breadcrumb";
-import { allCitiesImages } from "@/data/imageData";
-import { Carousel } from "react-bootstrap";
+
+export const metadata = {
+  title: 'bikaner',
+  description: '',
+  alternates: {
+    canonical: 'https://www.rajasthantourpackages.in/bikaner',
+  },
+  openGraph: {
+    title: 'bikaner',
+    description: '',
+    url: 'https://www.rajasthantourpackages.in/bikaner',
+    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    siteName: 'Rajasthan Tour Packages',
+    type: 'website',
+  },
+}
 
 const Bikaner = () => {
   return (
     <>
       <Breadcrumb breadcrumbKey="bikaner" />
-      {/* banner */}
-      <div className="container-fluid home-banner destination-banner position-relative px-0">
-        <Carousel fade pause={false} controls={false}>
-          <Carousel.Item>
-            <img
-              src={allCitiesImages.bikaner.bikanerBanner.src}
-              alt="Home Banner"
-            />
-            <Carousel.Caption>
-              <h1 className="text-capitalize">bikaner</h1>
-            </Carousel.Caption>
-          </Carousel.Item>
-        </Carousel>
+      <div className="container-fluid px-0 py-4 bg-black text-white">
+        <div className="row">
+          <h1 className="text-5">bikaner</h1>
+        </div>
       </div>
     </>
   );

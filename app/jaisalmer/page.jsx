@@ -1,34 +1,31 @@
-"use client";
 import Breadcrumb from "@/components/Breadcrumb";
 import TourPackages from "@/components/TourPackages";
 import { jaisalmerTourPackagesData } from "@/data/data";
-import { allCitiesImages } from "@/data/imageData";
-import useShowAll from "@/Utility/useShowAll";
-import { Carousel } from "react-bootstrap";
-import { MdExpandLess, MdExpandMore } from "react-icons/md";
+
+export const metadata = {
+  title: 'jaisalmer',
+  description: '',
+  alternates: {
+    canonical: 'https://www.rajasthantourpackages.in/jaisalmer',
+  },
+  openGraph: {
+    title: 'jaisalmer',
+    description: '',
+    url: 'https://www.rajasthantourpackages.in/jaisalmer',
+    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    siteName: 'Rajasthan Tour Packages',
+    type: 'website',
+  },
+}
 
 const Jaisalmer = () => {
-
-  // show all component
-  const { visibleItems, showAll, toggleShowAll } = useShowAll(
-    jaisalmerTourPackagesData
-  );
   return (
     <>
       <Breadcrumb breadcrumbKey="jaisalmer" />
-      {/* banner */}
-      <div className="container-fluid home-banner destination-banner position-relative px-0">
-        <Carousel fade pause={false} controls={false}>
-          <Carousel.Item>
-            <img
-              src={allCitiesImages.jaisalmer.jaisalmerBanner.src}
-              alt="Home Banner"
-            />
-            <Carousel.Caption>
-              <h1 className="text-capitalize">jaisalmer</h1>
-            </Carousel.Caption>
-          </Carousel.Item>
-        </Carousel>
+      <div className="container-fluid px-0 py-4 bg-black text-white">
+        <div className="row">
+          <h1 className="text-5">jaisalmer</h1>
+        </div>
       </div>
       {/* packages */}
       <div className="container packages">
@@ -37,11 +34,11 @@ const Jaisalmer = () => {
             jaisalmer <span className="fw-normal">tour packages</span>
           </h2>
           <div className="row py-4 d-flex align-items-stretch px-2">
-            {visibleItems.map((pkg, index) => (
+            {jaisalmerTourPackagesData.map((pkg, index) => (
               <TourPackages key={index} pkg={pkg} />
             ))}
           </div>
-          <div className="row d-flex w-100 justify-content-center align-items-center">
+          {/* <div className="row d-flex w-100 justify-content-center align-items-center">
             <button
               onClick={toggleShowAll}
               className="more-btn bg-transparent d-flex justify-content-center align-items-center gap-2"
@@ -56,7 +53,7 @@ const Jaisalmer = () => {
                 </>
               )}
             </button>
-          </div>
+          </div> */}
         </div>
       </div>
     </>

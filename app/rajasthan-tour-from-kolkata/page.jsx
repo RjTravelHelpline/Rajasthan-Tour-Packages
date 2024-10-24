@@ -1,9 +1,11 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import Faq from "@/components/Faq";
 import ReadMoreToggle from "@/components/ReadMore";
+import TourCarousel from "@/components/TourCarousel";
 import TourPackages from "@/components/TourPackages";
 import { tourFromKolkata } from "@/data/CitiesData";
 import { kolkataFaq } from "@/data/faqData";
+import { allStatesImages } from "@/data/imageData";
 import { Kolkata } from "@/data/tourByCitiesData";
 
 export const metadata = {
@@ -11,32 +13,37 @@ export const metadata = {
   description: "uncover Rajasthan our tour packages from Kolkata. Enjoy majestic forts, rich culture, and luxury stays. Plan your royal adventure today with customized options.",
   keywords: [''],
   alternates: {
-    canonical: "http://www.rajasthantourpackages.in/rajasthan-tour-from-kolkata",
+    canonical: "https://www.rajasthantourpackages.in/rajasthan-tour-from-kolkata",
+  },
+  openGraph: {
+    title: 'Rajasthan Tour Packages from Kolkata | Rajasthan Tour Packages',
+    description: "uncover Rajasthan our tour packages from Kolkata. Enjoy majestic forts, rich culture, and luxury stays. Plan your royal adventure today with customized options.",
+    url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-kolkata",
+    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    siteName: 'Rajasthan Tour Packages',
+    type: 'website',
   },
 };
 const RajasthanTourFromKolkata = () => {
+  const images = [
+    { src: allStatesImages.kolkata.kolkataBanner.src },
+  ];
+
+  const content = [
+    {
+      duration: '',
+      title: 'Rajasthan Tour From kolkata',
+    },
+  ];
 
   return (
     <>
       {/* bread crumb */}
       <Breadcrumb breadcrumbKey="rajasthanTourFromKolkata" />
       {/* banner */}
-      {/* <div className="container-fluid home-banner destination-banner position-relative px-0">
-        <Carousel fade pause={false} controls={false}>
-          <Carousel.Item>
-            <img
-              src={allStatesImages.kolkata.kolkataBanner.src}
-              alt="Home Banner"
-            />
-            <Carousel.Caption>
-              <h1 className="text-capitalize">
-                rajasthan tour from{' '}
-                <span className="fw-bold text-capitalize">kolkata</span>
-              </h1>
-            </Carousel.Caption>
-          </Carousel.Item>
-        </Carousel>
-      </div> */}
+      <div className="container-fluid home-banner days-banner-container destination-banner position-relative px-0">
+        <TourCarousel images={images} content={content} />
+      </div>
 
       {/* data */}
       <div className="container-fluid">

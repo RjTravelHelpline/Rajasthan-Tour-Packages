@@ -1,6 +1,7 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import Faq from "@/components/Faq";
 import ReadMoreToggle from "@/components/ReadMore";
+import TourCarousel from "@/components/TourCarousel";
 import TourPackages from "@/components/TourPackages";
 import { tourFromAndhraPradesh } from "@/data/CitiesData";
 import { andhraPradeshFaq } from "@/data/faqData";
@@ -13,33 +14,37 @@ export const metadata = {
     alternates: {
         canonical: "http://www.rajasthantourpackages.in/rajasthan-tour-from-andhra-pradesh",
     },
+    openGraph: {
+        title: 'Rajasthan Tour from Andhra Pradesh | Rajasthan Tour Packages',
+        description: 'Start your Rajasthan Tour from Andhra Pradesh with Rajasthan Tour Packages. Enjoy an immersive experience of the royal palaces, historic forts, and vibrant culture.',
+        url: "http://www.rajasthantourpackages.in/rajasthan-tour-from-andhra-pradesh",
+        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        siteName: 'Rajasthan Tour Packages',
+        type: 'website',
+    },
+
 };
 
 
 const RajasthanPackageTourFromAndhrapradesh = () => {
+    const images = [
+        { src: allStatesImages.andhraPradesh.andhraPradeshBanner.src },
+    ];
+
+    const content = [
+        {
+            duration: '',
+            title: 'Rajasthan Tour From Andhra Pradesh',
+        },
+    ];
     return (
         <>
             {/* bread crumb */}
             <Breadcrumb breadcrumbKey="rajasthanTourFromAndhraPradesh" />
-
             {/* banner */}
-            {/* <div className="container-fluid home-banner destination-banner position-relative px-0">
-                <Carousel fade pause={false} controls={false}>
-                    <Carousel.Item>
-                        <img
-                            src={allStatesImages.andhraPradesh.andhraPradeshBanner.src}
-                            alt="Home Banner"
-                        />
-                        <Carousel.Caption>
-                            <h1 className="text-capitalize">
-                                rajasthan tour from{' '}
-                                <span className="fw-bold text-capitalize">andhra pradesh</span>
-                            </h1>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                </Carousel>
-            </div> */}
-
+            <div className="container-fluid home-banner days-banner-container destination-banner position-relative px-0">
+                <TourCarousel images={images} content={content} />
+            </div>
             {/* data */}
             <div className="container-fluid">
                 <div className="container py-5">
@@ -62,12 +67,11 @@ const RajasthanPackageTourFromAndhrapradesh = () => {
                                         )
                                     )}
                                 </></ReadMoreToggle>
-                                <span className="py-4 d-block"></span>
+                            <span className="py-4 d-block"></span>
                         </p>
                     </div>
                 </div>
             </div>
-
             {/* packages */}
             <div className="container-fluid section-02 py-4">
                 <div className="container packages py-2">
@@ -86,7 +90,6 @@ const RajasthanPackageTourFromAndhrapradesh = () => {
                     </div>
                 </div>
             </div>
-
             {/* faq's */}
             <div className="container-fluid px-0 section-03">
                 <div className="container py-5">

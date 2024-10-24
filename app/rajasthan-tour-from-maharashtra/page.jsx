@@ -1,9 +1,11 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import Faq from "@/components/Faq";
 import ReadMoreToggle from "@/components/ReadMore";
+import TourCarousel from "@/components/TourCarousel";
 import TourPackages from "@/components/TourPackages";
 import { tourFromMaharashtra } from "@/data/CitiesData";
 import { maharashtraFaq } from "@/data/faqData";
+import { allCitiesImages, allStatesImages } from "@/data/imageData";
 import { Maharashtra } from "@/data/tourByCitiesData";
 
 export const metadata = {
@@ -11,33 +13,37 @@ export const metadata = {
   description: "Rajasthan Tour from Maharashtra to explore the royal palace, desert adventures, and vibrant festivals. You can just book your customized tour package today.",
   keywords: [''],
   alternates: {
-    canonical: "http://www.rajasthantourpackages.in/rajasthan-tour-from-maharashtra",
+    canonical: "https://www.rajasthantourpackages.in/rajasthan-tour-from-maharashtra",
+  },
+  openGraph: {
+    title: 'Rajasthan Tour from Maharashtra | Rajasthan Tour Packages',
+    description: "Rajasthan Tour from Maharashtra to explore the royal palace, desert adventures, and vibrant festivals. You can just book your customized tour package today.",
+    url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-maharashtra",
+    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    siteName: 'Rajasthan Tour Packages',
+    type: 'website',
   },
 };
 const RajasthanTourFromMaharashtra = () => {
+  const images = [
+    { src: allStatesImages.maharashtra.maharashtraBanner.src },
+  ];
+
+  const content = [
+    {
+      duration: '',
+      title: 'Rajasthan Tour From maharashtra',
+    },
+  ];
+
   return (
     <>
       {/* bread crumb */}
       <Breadcrumb breadcrumbKey="rajasthanTourFromMaharashtra" />
-
-      {/* banner */}
-      {/* <div className="container-fluid home-banner destination-banner position-relative px-0">
-        <Carousel fade pause={false} controls={false}>
-          <Carousel.Item>
-            <img
-              src={allStatesImages.maharashtra.maharashtraBanner.src}
-              alt="Home Banner"
-            />
-            <Carousel.Caption>
-              <h1 className="text-capitalize">
-                rajasthan tour from{' '}
-                <span className="fw-bold text-capitalize">maharashtra</span>
-              </h1>
-            </Carousel.Caption>
-          </Carousel.Item>
-        </Carousel>
-      </div> */}
-
+         {/* banner */}
+         <div className="container-fluid home-banner days-banner-container destination-banner position-relative px-0">
+        <TourCarousel images={images} content={content} />
+      </div>
       {/* data */}
       <div className="container-fluid">
         <div className="container py-5">
@@ -57,8 +63,8 @@ const RajasthanTourFromMaharashtra = () => {
                     ></span>
                   ))}
                 </>
-                 </ReadMoreToggle>
-                 <span className="py-4 d-block"></span>
+              </ReadMoreToggle>
+              <span className="py-4 d-block"></span>
             </p>
           </div>
         </div>

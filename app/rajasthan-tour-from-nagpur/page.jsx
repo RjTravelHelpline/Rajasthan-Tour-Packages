@@ -1,9 +1,11 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import Faq from "@/components/Faq";
 import ReadMoreToggle from "@/components/ReadMore";
+import TourCarousel from "@/components/TourCarousel";
 import TourPackages from "@/components/TourPackages";
 import { tourFromNagpur } from "@/data/CitiesData";
 import { nagpurFaq } from "@/data/faqData";
+import { allStatesImages } from "@/data/imageData";
 import { Nagpur } from "@/data/tourByCitiesData";
 
 export const metadata = {
@@ -11,35 +13,38 @@ export const metadata = {
   description: "Get the splendour of the Rajasthan Tour from Nagpur. Choose Rajasthan Tour Packages for a tailored travel Know rich in history, culture, and majestic landscapes.",
   keywords: [''],
   alternates: {
-    canonical: "http://www.rajasthantourpackages.in/rajasthan-tour-from-nagpur",
+    canonical: "https://www.rajasthantourpackages.in/rajasthan-tour-from-nagpur",
+  },
+  openGraph: {
+    title: 'Best Rajasthan Tour From Nagpur | Rajasthan Tour Packages',
+    description: "Get the splendour of the Rajasthan Tour from Nagpur. Choose Rajasthan Tour Packages for a tailored travel Know rich in history, culture, and majestic landscapes.",
+    url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-nagpur",
+    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    siteName: 'Rajasthan Tour Packages',
+    type: 'website',
   },
 };
 
 
 const RajasthanPackageTourFromNagpur = () => {
+  const images = [
+    { src: allStatesImages.nagpur.nagpurBanner.src },
+  ];
+
+  const content = [
+    {
+      duration: '',
+      title: 'Rajasthan Tour From nagpur',
+    },
+  ];
   return (
     <>
       {/* bread crumb */}
       <Breadcrumb breadcrumbKey="rajasthanTourFromNagpur" />
-
       {/* banner */}
-      {/* <div className="container-fluid home-banner destination-banner position-relative px-0">
-        <Carousel fade pause={false} controls={false}>
-          <Carousel.Item>
-            <img
-              src={allStatesImages.nagpur.nagpurBanner.src}
-              alt="Home Banner"
-            />
-            <Carousel.Caption>
-              <h1 className="text-capitalize">
-                rajasthan tour from{' '}
-                <span className="fw-bold text-capitalize">nagpur</span>
-              </h1>
-            </Carousel.Caption>
-          </Carousel.Item>
-        </Carousel>
-      </div> */}
-
+      <div className="container-fluid home-banner days-banner-container destination-banner position-relative px-0">
+        <TourCarousel images={images} content={content} />
+      </div>
       {/* data */}
       <div className="container-fluid">
         <div className="container py-5">

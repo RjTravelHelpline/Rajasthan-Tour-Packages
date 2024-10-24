@@ -2,11 +2,12 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import Faq from "@/components/Faq";
 import ReadMoreToggle from "@/components/ReadMore";
+import TourCarousel from "@/components/TourCarousel";
 import TourPackages from "@/components/TourPackages";
 import { tourFromBikaner } from "@/data/CitiesData";
 import { bikanerTourPackagesData } from "@/data/data";
 import { bikanerFaq } from "@/data/faqData";
-import { allCitiesImages } from "@/data/imageData";
+import { allCitiesImages, allStatesImages } from "@/data/imageData";
 export const metadata = {
     title: 'Rajasthan Tour From Bikaner | Rajasthan Tour Packages',
     description: "Uncover Rajasthans rich heritage from Bikaner with Rajasthan Tour Packages. Explore ancient forts, vibrant markets, and royal legacies across the state.",
@@ -14,33 +15,36 @@ export const metadata = {
     alternates: {
         canonical: "http://www.rajasthantourpackages.in/rajasthan-tour-from-bikaner",
     },
+    openGraph: {
+        title: 'Rajasthan Tour From Bikaner | Rajasthan Tour Packages',
+        description: "Uncover Rajasthans rich heritage from Bikaner with Rajasthan Tour Packages. Explore ancient forts, vibrant markets, and royal legacies across the state.",
+        url: "http://www.rajasthantourpackages.in/rajasthan-tour-from-bikaner",
+        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        siteName: 'Rajasthan Tour Packages',
+        type: 'website',
+    },
 };
 
 
 const RajasthanTourFromBikaner = () => {
+    const images = [
+        { src: allCitiesImages.bikaner.bikanerBanner01.src },
+    ];
+
+    const content = [
+        {
+            duration: '',
+            title: 'Rajasthan Tour From bikaner',
+        },
+    ];
     return (
         <>
-
             {/* bread crumb */}
             <Breadcrumb breadcrumbKey="rajasthanTourFromBikaner" />
-
-            {/* banner */}
-            {/* <div className="container-fluid home-banner destination-banner position-relative px-0">
-                <Carousel fade pause={false} controls={false}>
-                    <Carousel.Item>
-                        <img
-                            src={allCitiesImages.bikaner.bikanerBanner02.src}
-                            alt="Home Banner"
-                        />
-                        <Carousel.Caption>
-                            <h1 className="text-capitalize">
-                                rajasthan tour from{' '}
-                                <span className="fw-bold text-capitalize">bikaner</span>
-                            </h1>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                </Carousel>
-            </div> */}
+              {/* banner */}
+              <div className="container-fluid home-banner days-banner-container destination-banner position-relative px-0">
+                <TourCarousel images={images} content={content} />
+            </div>
             {/* data */}
             <div className="container-fluid">
                 <div className="container py-5">

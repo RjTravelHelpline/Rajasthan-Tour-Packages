@@ -1,43 +1,49 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import Faq from "@/components/Faq";
 import ReadMoreToggle from "@/components/ReadMore";
+import TourCarousel from "@/components/TourCarousel";
 import TourPackages from "@/components/TourPackages";
 import { tourFromJaipur } from "@/data/CitiesData";
 import { jaipurTourPackagesData } from "@/data/data";
 import { jaipurFaq } from "@/data/faqData";
+import { allCitiesImages, allStatesImages } from "@/data/imageData";
 
 export const metadata = {
   title: 'Rajasthan Tour Packages from Jaipur | Rajasthan Tour Packages',
   description: "Find the best of Rajasthan, beginning with Jaipur. Our expertly outlined visits offer a profound jump into the state's illustrious legacy and social abundance.",
   keywords: [''],
   alternates: {
-    canonical: "http://www.rajasthantourpackages.in/rajasthan-tour-from-jaipur",
+    canonical: "https://www.rajasthantourpackages.in/rajasthan-tour-from-jaipur",
+  },
+  openGraph: {
+    title: 'Rajasthan Tour Packages from Jaipur | Rajasthan Tour Packages',
+    description: "Find the best of Rajasthan, beginning with Jaipur. Our expertly outlined visits offer a profound jump into the state's illustrious legacy and social abundance.",
+    url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-jaipur",
+    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    siteName: 'Rajasthan Tour Packages',
+    type: 'website',
   },
 };
 
 const RajasthanTourFromJaipur = () => {
+  const images = [
+    { src: allCitiesImages.jaipur.jaipurBanner01.src },
+  ];
+
+  const content = [
+    {
+      duration: '',
+      title: 'Rajasthan Tour From jaipur',
+    },
+  ];
   return (
     <>
       {/* bread crumb */}
       <Breadcrumb breadcrumbKey="rajasthanTourFromJaipur" />
-
       {/* banner */}
-      {/* <div className="container-fluid home-banner destination-banner position-relative px-0">
-        <Carousel fade pause={false} controls={false}>
-          <Carousel.Item>
-            <img
-              src={allCitiesImages.jaipur.jaipurBanner02.src}
-              alt="Home Banner"
-            />
-            <Carousel.Caption>
-              <h1 className="text-capitalize">
-                rajasthan tour from{' '}
-                <span className="fw-bold text-capitalize">jaipur</span>
-              </h1>
-            </Carousel.Caption>
-          </Carousel.Item>
-        </Carousel>
-      </div> */}
+      <div className="container-fluid home-banner days-banner-container destination-banner position-relative px-0">
+        <TourCarousel images={images} content={content} />
+      </div>
       {/* data */}
       <div className="container-fluid">
         <div className="container py-5">

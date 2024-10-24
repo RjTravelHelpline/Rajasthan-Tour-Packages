@@ -2,13 +2,13 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 export const metadata = {
-    title: 'contact-us',
+    title: 'contact us',
     description: '',
     alternates: {
         canonical: 'https://www.rajasthantourpackages.in/contact-us',
     },
     openGraph: {
-        title: 'contact-us',
+        title: 'contact us',
         description: '',
         url: 'https://www.rajasthantourpackages.in/contact-us',
         image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
@@ -20,10 +20,9 @@ const ContactUs = () => {
     return (
         <>
             <Breadcrumb breadcrumbKey="contactUs" />
-            <div className="container-fluid py-5 bg-black text-white">
+            <div className="container-fluid px-0 py-4 bg-black text-white">
                 <div className="row">
-                    <h3 className="sec-heading mb-0 fw-normal">Contact Us</h3>
-                    <h1 className="sec-subhead">Get in Touch with Us</h1>
+                    <h1 className="text-5">contact us</h1>
                 </div>
             </div>
             <div className="container py-5">

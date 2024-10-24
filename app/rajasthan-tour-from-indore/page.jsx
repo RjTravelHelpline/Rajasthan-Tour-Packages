@@ -1,9 +1,11 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import Faq from "@/components/Faq";
 import ReadMoreToggle from "@/components/ReadMore";
+import TourCarousel from "@/components/TourCarousel";
 import TourPackages from "@/components/TourPackages";
 import { tourFromIndore } from "@/data/CitiesData";
 import { indoreFaq } from "@/data/faqData";
+import { allStatesImages } from "@/data/imageData";
 import { Indore } from "@/data/tourByCitiesData";
 
 export const metadata = {
@@ -11,34 +13,38 @@ export const metadata = {
     description: "Discover the splendor of Rajasthan with our tour from Indore. Tour majestic forts and palaces and immerse in local culture. Book your Rajasthan trip today.",
     keywords: [''],
     alternates: {
-        canonical: "http://www.rajasthantourpackages.in/rajasthan-tour-from-indore",
+        canonical: "https://www.rajasthantourpackages.in/rajasthan-tour-from-indore",
+    },
+    openGraph: {
+        title: 'Rajasthan Tour from Indore | Rajasthan Tour Packages',
+        description: "Discover the splendor of Rajasthan with our tour from Indore. Tour majestic forts and palaces and immerse in local culture. Book your Rajasthan trip today.",
+        url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-indore",
+        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        siteName: 'Rajasthan Tour Packages',
+        type: 'website',
     },
 };
 
 
 const RajasthanPackageTourFromIndore = () => {
+    const images = [
+        { src: allStatesImages.indore.indoreBanner.src },
+    ];
+
+    const content = [
+        {
+            duration: '',
+            title: 'Rajasthan Tour From indore',
+        },
+    ];
     return (
         <>
             {/* bread crumb */}
             <Breadcrumb breadcrumbKey="rajasthanTourFromIndore" />
-
             {/* banner */}
-            {/* <div className="container-fluid home-banner destination-banner position-relative px-0">
-                <Carousel fade pause={false} controls={false}>
-                    <Carousel.Item>
-                        <img
-                            src={allStatesImages.indore.indoreBanner.src}
-                            alt="Home Banner"
-                        />
-                        <Carousel.Caption>
-                            <h1 className="text-capitalize">
-                                rajasthan tour from{' '}
-                                <span className="fw-bold text-capitalize">indore</span>
-                            </h1>
-                        </Carousel.Caption>
-                    </Carousel.Item>
-                </Carousel>
-            </div> */}
+            <div className="container-fluid home-banner days-banner-container destination-banner position-relative px-0">
+                <TourCarousel images={images} content={content} />
+            </div>
             {/* data */}
             <div className="container-fluid">
                 <div className="container py-5">

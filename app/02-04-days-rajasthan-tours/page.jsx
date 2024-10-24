@@ -5,7 +5,7 @@ export const metadata = {
     description: "",
     keywords: [''],
     alternates: {
-      canonical: "https://www.rajasthantourpackages.in/02-04-days-rajasthan-tours",
+        canonical: "https://www.rajasthantourpackages.in/02-04-days-rajasthan-tours",
     },
     openGraph: {
         title: '02-04 Days Rajasthan Tour Packages',
@@ -15,17 +15,15 @@ export const metadata = {
         siteName: 'Rajasthan Tour Packages',
         type: 'website',
     },
-  };
+};
 
 const Two_Four_Days_RajasthanTours = () => {
     return (
         <>
             <Breadcrumb breadcrumbKey="_02_04Days" />
-            <div className="container packages">
-                <div className="row d-flex justify-content-center align-items-stretch my-5">
-                    <h3 className="text-capitalize">
-                        02-04 days rajasthan tour packages
-                    </h3>
+            <div className="container-fluid px-0 py-4 bg-black text-white">
+                <div className="row">
+                    <h1 className="text-5">02-04 Days Rajasthan Tour Packages</h1>
                 </div>
             </div>
         </>

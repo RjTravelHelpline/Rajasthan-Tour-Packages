@@ -32,14 +32,9 @@ export const metadata = {
 const ThreeDaysJaipurPushkarPackageTour = () => {
     const images = [
         { src: allCitiesImages.jaipur.jaipurAlberthall.src },
-        { src: allCitiesImages.ajmer.ajmerBanner.src },
     ];
 
     const content = [
-        {
-            duration: '02 nights • 03 days',
-            title: '03 Days Jaipur Ajmer Pushkar Tour',
-        },
         {
             duration: '02 nights • 03 days',
             title: '03 Days Jaipur Ajmer Pushkar Tour',

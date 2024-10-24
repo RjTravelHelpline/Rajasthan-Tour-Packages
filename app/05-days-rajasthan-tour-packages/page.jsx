@@ -3,13 +3,13 @@ import TourPackages from "@/components/TourPackages";
 import { _05DaysToursData } from "@/data/data";
 
 export const metadata = {
-  title: '05-days-rajasthan-tour-packages',
+  title: '05 days rajasthan tour packages',
   description: "",
   alternates: {
     canonical: 'https://www.rajasthantourpackages.in/05-days-rajasthan-tour-packages',
   },
   openGraph: {
-    title: '05-days-rajasthan-tour-packages',
+    title: '05 days rajasthan tour packages',
     description: "",
     url: 'https://www.rajasthantourpackages.in/05-days-rajasthan-tour-packages',
     image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',

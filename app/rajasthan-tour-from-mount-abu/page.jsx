@@ -2,10 +2,12 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import Faq from "@/components/Faq";
 import ReadMoreToggle from "@/components/ReadMore";
+import TourCarousel from "@/components/TourCarousel";
 import TourPackages from "@/components/TourPackages";
 import { tourFromMountAbu } from "@/data/CitiesData";
 import { mountabuTourPackagesData } from "@/data/data";
 import { mountAbuFaq } from "@/data/faqData";
+import { allCitiesImages } from "@/data/imageData";
 
 
 export const metadata = {
@@ -13,34 +15,38 @@ export const metadata = {
   description: "Begin your Rajasthan Tour from Mount Abu with the Rajasthan Tour Packages. Explore Rajasthan's regal charm and noteworthy points of interest. Book Now.",
   keywords: [''],
   alternates: {
-    canonical: "http://www.rajasthantourpackages.in/rajasthan-tour-from-mount-abu",
+    canonical: "https://www.rajasthantourpackages.in/rajasthan-tour-from-mount-abu",
+  },
+  openGraph: {
+    title: 'Rajasthan Tour From Mount Abu | Rajasthan Tour Packages',
+    description: "Begin your Rajasthan Tour from Mount Abu with the Rajasthan Tour Packages. Explore Rajasthan's regal charm and noteworthy points of interest. Book Now.",
+    url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-mount-abu",
+    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    siteName: 'Rajasthan Tour Packages',
+    type: 'website',
   },
 };
 
 const RajasthanTourFromMountabu = () => {
+  const images = [
+    { src: allCitiesImages.mountabu.mountabuBanner.src },
+  ];
+
+  const content = [
+    {
+      duration: '',
+      title: 'Rajasthan Tour From mount abu',
+    },
+  ];
+
   return (
     <>
       {/* bread crumb */}
       <Breadcrumb breadcrumbKey="rajasthanTourFromMountabu" />
-
       {/* banner */}
-      {/* <div className="container-fluid home-banner destination-banner position-relative px-0">
-        <Carousel fade pause={false} controls={false}>
-          <Carousel.Item>
-            <img
-              src={allCitiesImages.mountabu.mountabuBanner02.src}
-              alt="Home Banner"
-            />
-            <Carousel.Caption>
-              <h1 className="text-capitalize">
-                rajasthan tour from{' '}
-                <span className="fw-bold text-capitalize">mount abu</span>
-              </h1>
-            </Carousel.Caption>
-          </Carousel.Item>
-        </Carousel>
-      </div> */}
-
+      <div className="container-fluid home-banner days-banner-container destination-banner position-relative px-0">
+        <TourCarousel images={images} content={content} />
+      </div>
       {/* data */}
       <div className="container-fluid">
         <div className="container py-5">

@@ -23,12 +23,9 @@ const TwoDaysRajasthanTourPackages = () => {
   return (
     <>
       <Breadcrumb breadcrumbKey="_02Days" />
-      <div className="container-fluid py-5 page-head-section">
-        <div className="container">
-          <h1 className="text-capitalize">
-            02 days{' '}
-            <span className="fw-normal d-block"> rajasthan tour packages</span>
-          </h1>
+      <div className="container-fluid px-0 py-4 bg-black text-center">
+        <div className="row">
+          <h1 className="text-5">02 Days Rajasthan Tour Packages</h1>
         </div>
       </div>
       {/* tour packages */}

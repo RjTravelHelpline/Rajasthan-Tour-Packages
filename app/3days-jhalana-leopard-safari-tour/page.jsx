@@ -1,12 +1,14 @@
+import Breadcrumb from "@/components/Breadcrumb";
+
 export const metadata = {
-  title: '3days-jhalana-leopard-safari-tour',
+  title: '03 Days Jhalana Leopard Safari Tour',
   description: "",
   alternates: {
 
     canonical: 'https://www.rajasthantourpackages.in/3days-jhalana-leopard-safari-tour',
   },
   openGraph: {
-    title: '3days-jhalana-leopard-safari-tour',
+    title: '03 Days Jhalana Leopard Safari Tour',
     description: "",
     url: 'https://www.rajasthantourpackages.in/3days-jhalana-leopard-safari-tour',
     image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
@@ -17,8 +19,11 @@ export const metadata = {
 const ThreeDaysJhalanaLeopardSafariTour = () => {
   return (
     <>
-      <div>
-        <h2>3days-jhalana-leopard-safari-tour</h2>
+      <Breadcrumb breadcrumbKey="_3daysjhalanaleopardsafaritour" />
+      <div className="container-fluid px-0 py-4 bg-black text-white">
+        <div className="row">
+          <h1 className="text-5">03 Days Jhalana Leopard Safari Tour</h1>
+        </div>
       </div>
     </>
   );

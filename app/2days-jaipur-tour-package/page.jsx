@@ -15,30 +15,25 @@ export const metadata = {
     description: "Know Jaipur's vibrant culture and breathtaking architecture on our 2-Day Jaipur Tour Package that gives you unforgettable moments in Pink City. Book today.",
     keywords: [''],
     alternates: {
-        canonical: "https://www.rajasthantourpackages.in/2days-jaipur-package",
+        canonical: "https://www.rajasthantourpackages.in/2days-jaipur-tour-package",
     },
     openGraph: {
         title: 'Jaipur Tour Package For 02 Days | Rajasthan Tour Packages',
         description: "Know Jaipur's vibrant culture and breathtaking architecture on our 2-Day Jaipur Tour Package that gives you unforgettable moments in Pink City. Book today.",
-        url: "https://www.rajasthantourpackages.in/2days-jaipur-package",
+        url: "https://www.rajasthantourpackages.in/2days-jaipur-tour-package",
         image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
         siteName: 'Rajasthan Tour Packages',
         type: 'website',
-      },
+    },
 };
 
 
 const TwoDaysJaipurTourPackage = () => {
     const images = [
         { src: allCitiesImages.jaipur.jaipurBanner02.src },
-        { src: allCitiesImages.jaipur.jaipurBanner.src },
     ];
 
     const content = [
-        {
-            duration: '01 nights • 02 days',
-            title: '02 days jaipur tour package',
-        },
         {
             duration: '01 nights • 02 days',
             title: '02 days jaipur tour package',

@@ -1,14 +1,15 @@
+import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata = {
-  title: '3days-jodhpur-marwar-tour-package',
+  title: '03 Days Udaipur Kumbhalgarh Tour',
   description: "",
   alternates: {
-    canonical: 'https://www.rajasthantourpackages.in/3days-jodhpur-marwar-tour',
+    canonical: 'https://www.rajasthantourpackages.in/3days-udaipur-kumbhalgarh-tour',
   },
   openGraph: {
-    title: '3days-jodhpur-jaisalmer-desert-tour',
+    title: '03 Days Udaipur Kumbhalgarh Tour',
     description: "",
-    url: 'https://www.rajasthantourpackages.in/3days-jodhpur-marwar-tour',
+    url: 'https://www.rajasthantourpackages.in/3days-udaipur-kumbhalgarh-tour',
     image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     siteName: 'Rajasthan Tour Packages',
     type: 'website',
@@ -17,8 +18,11 @@ export const metadata = {
 const ThreeDaysUdaipurKumbhalgarhPackageTour = () => {
   return (
     <>
-      <div>
-        <h2>3days-udaipur-kumbhalgarh-package-tour</h2>
+      <Breadcrumb breadcrumbKey="_3daysudaipurkumbhalgarhtour" />
+      <div className="container-fluid px-0 py-4 bg-black text-white">
+        <div className="row">
+          <h1 className="text-5">03 Days Udaipur Kumbhalgarh Tour</h1>
+        </div>
       </div>
     </>
   );

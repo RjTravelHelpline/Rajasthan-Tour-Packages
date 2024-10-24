@@ -1,14 +1,31 @@
-"use client";
 import Breadcrumb from "@/components/Breadcrumb";
-import { allCitiesImages } from "@/data/imageData";
-import { Carousel } from "react-bootstrap";
 
+export const metadata = {
+  title: 'Jaipur',
+  description: '',
+  alternates: {
+    canonical: 'https://www.rajasthantourpackages.in/jaipur',
+  },
+  openGraph: {
+    title: 'Jaipur',
+    description: '',
+    url: 'https://www.rajasthantourpackages.in/jaipur',
+    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    siteName: 'Rajasthan Tour Packages',
+    type: 'website',
+  },
+};
 const Jaipur = () => {
   return (
     <>
       <Breadcrumb breadcrumbKey="jaipur" />
+      <div className="container-fluid px-0 py-4 bg-black text-white">
+        <div className="row">
+          <h1 className="text-5">jaipur</h1>
+        </div>
+      </div>
       {/* banner */}
-      <div className="container-fluid home-banner destination-banner position-relative px-0">
+      {/* <div className="container-fluid home-banner destination-banner position-relative px-0">
         <Carousel fade pause={false} controls={false}>
           <Carousel.Item>
             <img
@@ -20,7 +37,7 @@ const Jaipur = () => {
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
-      </div>
+      </div> */}
 
       <div className="container px-0 py-5 days-container overview destination">
         <div className="row d-flex justify-content-start align-items-start days-overview px-2">

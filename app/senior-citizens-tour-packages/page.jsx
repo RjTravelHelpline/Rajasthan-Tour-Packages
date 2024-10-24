@@ -1,15 +1,30 @@
 import Breadcrumb from "@/components/Breadcrumb";
-import { exclusiveTourPackagesData } from "@/data/pagesData";
+
+export const metadata = {
+    title: 'senior citizens tour packages',
+    description: "",
+    keywords: [''],
+    alternates: {
+        canonical: "https://www.rajasthantourpackages.in/senior-citizens-tour-packages",
+    },
+    openGraph: {
+        title: 'senior citizens tour packages',
+        description: "",
+        url: "https://www.rajasthantourpackages.in/senior-citizens-tour-packages",
+        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        siteName: 'Rajasthan Tour Packages',
+        type: 'website',
+    },
+};
 
 const SeniorCitizenTourPackage = () => {
-    const { heading, description } =
-        exclusiveTourPackagesData.seniorCitizenTourPackage;
     return (
         <>
             <Breadcrumb breadcrumbKey="seniorcitizenTour" />
-            <div className="container py-5">
-                <h3>{heading}</h3>
-                <p>{description}</p>
+            <div className="container-fluid px-0 py-4 bg-black text-white">
+                <div className="row">
+                    <h1 className="text-5">senior citizens tour packages</h1>
+                </div>
             </div>
         </>
     );

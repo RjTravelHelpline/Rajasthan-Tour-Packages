@@ -2,9 +2,11 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import Faq from "@/components/Faq";
 import ReadMoreToggle from "@/components/ReadMore";
+import TourCarousel from "@/components/TourCarousel";
 import TourPackages from "@/components/TourPackages";
 import { tourFromTamilNadu } from "@/data/CitiesData";
 import { tamilnaduFaq } from "@/data/faqData";
+import { allStatesImages } from "@/data/imageData";
 import { TamilNadu } from "@/data/tourByCitiesData";
 
 
@@ -13,33 +15,35 @@ export const metadata = {
   description: "Experience the magic of Rajasthan from Tamil Nadu with Rajasthan Tour Packages. Visit iconic forts, palaces, and cultural hubs in this royal destination.",
   keywords: [''],
   alternates: {
-    canonical: "http://www.rajasthantourpackages.in/rajasthan-tour-from-tamilnadu",
+    canonical: "https://www.rajasthantourpackages.in/rajasthan-tour-from-tamilnadu",
+  },
+  openGraph: {
+    title: 'Rajasthan Tour From Tamil Nadu | Rajasthan Tour Packages',
+    description: "Experience the magic of Rajasthan from Tamil Nadu with Rajasthan Tour Packages. Visit iconic forts, palaces, and cultural hubs in this royal destination.",
+    url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-tamilnadu",
+    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    siteName: 'Rajasthan Tour Packages',
+    type: 'website',
   },
 };
 const RajasthantourFromTamilNaduilnadu = () => {
+  const images = [
+    { src: allStatesImages.tamilnadu.tamilnaduBanner.src },
+  ];
+  const content = [
+    {
+      duration: '',
+      title: 'Rajasthan Tour From tamilnadu',
+    },
+  ];
   return (
     <>
       {/* bread crumb */}
       <Breadcrumb breadcrumbKey="rajasthantourFromTamilNaduilnadu" />
-
       {/* banner */}
-      {/* <div className="container-fluid home-banner destination-banner position-relative px-0">
-        <Carousel fade pause={false} controls={false}>
-          <Carousel.Item>
-            <img
-              src={allStatesImages.tamilnadu.tamilnaduBanner.src}
-              alt="Home Banner"
-            />
-            <Carousel.Caption>
-              <h1 className="text-capitalize">
-                rajasthan tour from{' '}
-                <span className="fw-bold text-capitalize">tamilnadu</span>
-              </h1>
-            </Carousel.Caption>
-          </Carousel.Item>
-        </Carousel>
-      </div> */}
-
+      <div className="container-fluid home-banner days-banner-container destination-banner position-relative px-0">
+        <TourCarousel images={images} content={content} />
+      </div>
       {/* data */}
       <div className="container-fluid">
         <div className="container py-5">

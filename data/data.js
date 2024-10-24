@@ -22,6 +22,8 @@ const breadcrumbData = {
     { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
     { label: 'popular tour packages' },
   ],
+ 
+
   // exclusive tour packages
   familyTour: [
     { label: 'home', link: '/' },
@@ -347,6 +349,67 @@ const breadcrumbData = {
     { label: 'Rajasthan Tour from west bengal' },
   ],
 
+  // tour packages
+  jaipurTourPackage: [
+    { label: 'home', link: '/' },
+    { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
+    { label: 'jaipur tour packages' },
+  ],
+  
+  ajmerTourPackage: [
+    { label: 'home', link: '/' },
+    { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
+    { label: 'ajmer tour packages' },
+  ],
+   
+  bikanerTourPackage: [
+    { label: 'home', link: '/' },
+    { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
+    { label: 'bikaner tour packages' },
+  ],
+  
+  bharatpurTourPackage: [
+    { label: 'home', link: '/' },
+    { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
+    { label: 'bharatpur tour packages' },
+  ],
+  
+  udaipurTourPackage: [
+    { label: 'home', link: '/' },
+    { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
+    { label: 'udaipur tour packages' },
+  ],
+  
+  ranthamboreTourPackage: [
+    { label: 'home', link: '/' },
+    { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
+    { label: 'ranthambore tour packages' },
+  ],
+  
+  jaisalmerTourPackage: [
+    { label: 'home', link: '/' },
+    { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
+    { label: 'jaisalmer tour packages' },
+  ],
+  
+  jodhpurTourPackage: [
+    { label: 'home', link: '/' },
+    { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
+    { label: 'jodhpur tour packages' },
+  ],
+  
+  mountabuTourPackage: [
+    { label: 'home', link: '/' },
+    { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
+    { label: 'mount abu tour packages' },
+  ],
+  
+  delhiTourPackage: [
+    { label: 'home', link: '/' },
+    { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
+    { label: 'delhi tour packages' },
+  ],
+
   // cab rentals
   homeCabRental: [{ label: 'Home', link: '/' }, { label: 'cab retal' }],
   jaipurCab: [
@@ -528,17 +591,78 @@ const breadcrumbData = {
     { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
     { label: '02 days jaipur tour package' },
   ],
-
   // 3 days
   _3daysjaipurajmerpushkartour: [
     { label: 'Home', link: '/' },
     { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
     { label: '03 days jaipur ajmer pushkar tour' },
   ],
+  _03DaysJaipurAgraTour: [
+    { label: 'home', link: '/' },
+    { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
+    { label: '03 days jaipur agra tour' },
+  ],
   _3daysjaisalmerdesertsafaritour: [
     { label: 'Home', link: '/' },
     { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
     { label: '03 days jaisalmer desert safari tour' },
+  ],
+  _3daysjaipurranthamboreweekendtour: [
+    { label: 'Home', link: '/' },
+    { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
+    { label: '03 Days Jaipur Ranthambore Weekend Tour' },
+  ],
+  _3daysjodhpurjaisalmerdeserttour: [
+    { label: 'Home', link: '/' },
+    { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
+    { label: '03 Days Jodhpur Jaisalmer Desert Tour' },
+  ],
+  _3daysjodhpurmarwartour: [
+    { label: 'Home', link: '/' },
+    { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
+    { label: '03 Days Jodhpur Marwar Tour' },
+  ],
+  _3daysudaipurkumbhalgarhtour: [
+    { label: 'Home', link: '/' },
+    { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
+    { label: '03 Days Udaipur Kumbhalgarh Tour' },
+  ],
+  _3daysudaipurmewartour: [
+    { label: 'Home', link: '/' },
+    { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
+    { label: '03 Days Udaipur Marwar Tour' },
+  ],
+  _3daysudaipurmountabutour: [
+    { label: 'Home', link: '/' },
+    { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
+    { label: '03 Days Udaipur Mountabu Tour' },
+  ],
+  _3daysjhalanaleopardsafaritour: [
+    { label: 'Home', link: '/' },
+    { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
+    { label: '03 Days Jhalana Leopard Safari tour' },
+  ],
+
+  // 4 days
+  _4daysdelhiagrajaipurtour: [
+    { label: 'Home', link: '/' },
+    { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
+    { label: '04 Days Delhi Agra Jaipur Tour' },
+  ],
+  _4daysjaipurjaisalmertour: [
+    { label: 'Home', link: '/' },
+    { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
+    { label: '04 Days Jaipur jaisalmer tour' },
+  ],
+  _4daysjaipurudaipurmountabutour: [
+    { label: 'Home', link: '/' },
+    { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
+    { label: '04 Days jaipur udaipur mountabu tour' },
+  ],
+  _4daysjaipurudaipurtour: [
+    { label: 'Home', link: '/' },
+    { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
+    { label: '04 Days Jaipur udaipur tour' },
   ],
   // 5 days
   _5daysgoldentriangletour: [
@@ -546,22 +670,151 @@ const breadcrumbData = {
     { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
     { label: '05 days golden triangle tour' },
   ],
-
+  _5daysjaipurudaipurjodhpurdeserttour: [
+    { label: 'Home', link: '/' },
+    { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
+    { label: '05 days jaipur udaipur jodhpur desert tour' },
+  ],
+  _5daysjodhpurjaisalmermountabutour: [
+    { label: 'Home', link: '/' },
+    { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
+    { label: '05 days jodhpur jaisalmer mountabu tour' },
+  ],
+  _5daysudaipurjodhpurjaisalmertour: [
+    { label: 'Home', link: '/' },
+    { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
+    { label: '05 days udaipur jodhpur jaisalmer tour' },
+  ],
   _5daysrajasthantour: [
     { label: 'Home', link: '/' },
     { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
     { label: '05 days rajasthan tour package' },
   ],
 
+  // 6 days
+  _6daysmarwartour: [
+    { label: 'Home', link: '/' },
+    { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
+    { label: '05 days marwar tour' },
+  ],
+  _6daysrajasthanfortsanddeserttour: [
+    { label: 'Home', link: '/' },
+    { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
+    { label: '05 days rajasthan forts and desert tour' },
+  ],
+  _6daysrajasthantour: [
+    { label: 'Home', link: '/' },
+    { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
+    { label: '06 days rajasthan tour' },
+  ],
+  _6daysudaipurjodhpurjaisalmerdeserttour: [
+    { label: 'Home', link: '/' },
+    { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
+    { label: '05 days udaipur jodhpur jaisalmer desert tour' },
+  ],
+  _6dayswildandhistoricrajasthantour: [
+    { label: 'Home', link: '/' },
+    { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
+    { label: '05 days wild and historical tour' },
+  ],
+
+  // 7 days
+  _7daysroyalrajasthantour: [
+    { label: 'Home', link: '/' },
+    { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
+    { label: '05 days royal rajasthan tour' },
+  ],
+  // 8 days
   _8daysrajasthanbudgettour: [
     { label: 'Home', link: '/' },
     { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
     { label: '08 days rajasthan budget tour' },
   ],
+  _8daysrajasthanheritagetour: [
+    { label: 'Home', link: '/' },
+    { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
+    { label: '08 days rajasthan heritage tour' },
+  ],
+  _8daysrajasthanroadtrip: [
+    { label: 'Home', link: '/' },
+    { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
+    { label: '08 days rajasthan road trip' },
+  ],
+  _8daysrajasthantourfromahmedabad: [
+    { label: 'Home', link: '/' },
+    { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
+    { label: '08 days rajasthan tour from ahmedabad' },
+  ],
+
+  // 9 days
+  _9daysbestofrajasthantour: [
+    { label: 'Home', link: '/' },
+    { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
+    { label: '09 days best of rajasthan tour' },
+  ],
+  _9daysrajasthanholidaypackage: [
+    { label: 'Home', link: '/' },
+    { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
+    { label: '09 days rajasthan holiday package' },
+  ],
+  _9daysrajasthanleisuretour: [
+    { label: 'Home', link: '/' },
+    { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
+    { label: '09 days rajasthan leisure tour' },
+  ],
+
+  // 10 days
   _10daysrajasthanvacationtour: [
     { label: 'Home', link: '/' },
     { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
     { label: '10 days rajasthan vacation tour' },
+  ],
+  _10daysrajasthanculinarytour: [
+    { label: 'Home', link: '/' },
+    { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
+    { label: '10 days rajasthan culinary tour' },
+  ],
+  _10daysrajasthanhoneymoontour: [
+    { label: 'Home', link: '/' },
+    { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
+    { label: '10 days rajasthan honeymoon tour' },
+  ],
+  // 11 days
+  _11daysrajasthantour: [
+    { label: 'Home', link: '/' },
+    { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
+    { label: '11 days rajasthan tour' },
+  ],
+
+  // 12 days
+  _12dayscompleterajasthantour: [
+    { label: 'Home', link: '/' },
+    { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
+    { label: '12 days complete rajasthan tour' },
+  ],
+  _12daysrajasthanfamilytrip: [
+    { label: 'Home', link: '/' },
+    { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
+    { label: '12 daus rajasthan family trip' },
+  ],
+
+  // 14 days
+  _14daysrajasthanroundtripfromjaipur: [
+    { label: 'Home', link: '/' },
+    { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
+    { label: '14 days rajasthan round trip from jaipur' },
+  ],
+
+  // 15 days
+  _15daysclassicrajasthantourfromdelhi: [
+    { label: 'Home', link: '/' },
+    { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
+    { label: '15 days classic rajasthan tour from delhi' },
+  ],
+  _15daysrajasthanwildlifeandhistoricaltour: [
+    { label: 'Home', link: '/' },
+    { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
+    { label: '15 days rajasthan wildlife & historical tour' },
   ],
 };
 export default breadcrumbData;

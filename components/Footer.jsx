@@ -12,7 +12,7 @@ import {
     tourByDaysLinks,
     usefulLinks,
 } from '../data/linksData';
-import { IoIosMail, IoMdClose } from 'react-icons/io';
+import { IoIosMail, } from 'react-icons/io';
 // import BackToTop from './BackToTop';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -124,7 +124,7 @@ const Footer = () => {
                                             {link.text}
                                         </Link>
                                     ))}
-                                    <Link className="explore-btn" to="/rajasthan-tour-packages">
+                                    <Link className="explore-btn" href="/rajasthan-tour-packages">
                                         Explore more →
                                     </Link>
                                 </div>
@@ -155,7 +155,7 @@ const Footer = () => {
                                             {link.text}
                                         </Link>
                                     ))}
-                                    <Link className="explore-btn" to="/rajasthan-tour-by-cities">
+                                    <Link className="explore-btn" href="/rajasthan-tour-by-cities">
                                         Explore more →
                                     </Link>
                                 </div>
@@ -214,7 +214,7 @@ const Footer = () => {
                                             {link.text}
                                         </Link>
                                     ))}
-                                    <Link className="explore-btn" to="/rajasthan-cab-rental">
+                                    <Link className="explore-btn" href="/rajasthan-cab-rental">
                                         Explore more →
                                     </Link>
                                 </div>

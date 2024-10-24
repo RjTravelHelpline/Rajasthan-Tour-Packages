@@ -2,9 +2,11 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import Faq from "@/components/Faq";
 import ReadMoreToggle from "@/components/ReadMore";
+import TourCarousel from "@/components/TourCarousel";
 import TourPackages from "@/components/TourPackages";
 import { tourFromTelangana } from "@/data/CitiesData";
 import { telanganaFaq } from "@/data/faqData";
+import { allStatesImages } from "@/data/imageData";
 import { Telangana } from "@/data/tourByCitiesData";
 
 export const metadata = {
@@ -12,32 +14,35 @@ export const metadata = {
   description: "Find Rajasthan's treasures on a visit from Telangana with Rajasthan Visit Bundles. Investigate antiquated fortifications, illustrious royal residences, and colourful festivals.",
   keywords: [''],
   alternates: {
-    canonical: "http://www.rajasthantourpackages.in/rajasthan-tour-from-telangana",
+    canonical: "https://www.rajasthantourpackages.in/rajasthan-tour-from-telangana",
+  },
+  openGraph: {
+    title: 'Rajasthan Tour From Telangana | Rajasthan Tour Packages',
+    description: "Find Rajasthan's treasures on a visit from Telangana with Rajasthan Visit Bundles. Investigate antiquated fortifications, illustrious royal residences, and colourful festivals.",
+    url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-telangana",
+    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    siteName: 'Rajasthan Tour Packages',
+    type: 'website',
   },
 };
 const RajasthanPackageTourFromTelangana = () => {
+  const images = [
+    { src: allStatesImages.telangana.telanganaBanner.src },
+  ];
+  const content = [
+    {
+      duration: '',
+      title: 'Rajasthan Tour From telangana',
+    },
+  ];
   return (
     <>
       {/* bread crumb */}
       <Breadcrumb breadcrumbKey="rajasthanTourFromTelangana" />
       {/* banner */}
-      {/* <div className="container-fluid home-banner destination-banner position-relative px-0">
-        <Carousel fade pause={false} controls={false}>
-          <Carousel.Item>
-            <img
-              src={allStatesImages.telangana.telanganaBanner.src}
-              alt="Home Banner"
-            />
-            <Carousel.Caption>
-              <h1 className="text-capitalize">
-                rajasthan tour from{' '}
-                <span className="fw-bold text-capitalize">telangana</span>
-              </h1>
-            </Carousel.Caption>
-          </Carousel.Item>
-        </Carousel>
-      </div> */}
-
+      <div className="container-fluid home-banner days-banner-container destination-banner position-relative px-0">
+        <TourCarousel images={images} content={content} />
+      </div>
       {/* data */}
       <div className="container-fluid">
         <div className="container py-5">

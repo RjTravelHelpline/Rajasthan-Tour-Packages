@@ -32,14 +32,9 @@ export const metadata = {
 const ThreeDaysJaisalmerDesertSafariTour = () => {
     const images = [
         { src: allCitiesImages.jaisalmer.jaisalmerHaweli.src },
-        { src: allCitiesImages.jaisalmer.jaisalmerLeisure.src },
     ];
 
     const content = [
-        {
-            duration: '02 nights • 03 days',
-            title: '03 Days Jaisalmer Desert Safari Tour',
-        },
         {
             duration: '02 nights • 03 days',
             title: '03 Days Jaisalmer Desert Safari Tour',

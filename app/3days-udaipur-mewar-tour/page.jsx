@@ -1,11 +1,11 @@
 export const metadata = {
-  title: '_3DaysUdaipurMarwarTour',
+  title: '03 Days Udaipur Marwar Tour',
   description: "",
   alternates: {
     canonical: 'https://www.rajasthantourpackages.in/3days-udaipur-marwar-tour',
   },
   openGraph: {
-    title: '_3DaysUdaipurMarwarTour',
+    title: '03 Days Udaipur Marwar Tour',
     description: "",
     url: 'https://www.rajasthantourpackages.in/3days-udaipur-marwar-tour',
     image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
@@ -15,8 +15,10 @@ export const metadata = {
 }
 const ThreeDaysUdaipurMarwarTour = () => {
   return (
-    <div>
-      <h2>_3DaysUdaipurMarwarTour</h2>
+    <div className="container-fluid px-0 py-4 bg-black text-white">
+      <div className="row">
+        <h1 className="text-5">03 Days Udaipur Marwar Tour</h1>
+      </div>
     </div>
   )
 }
