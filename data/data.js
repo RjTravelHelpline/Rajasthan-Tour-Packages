@@ -22,7 +22,6 @@ const breadcrumbData = {
     { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
     { label: 'popular tour packages' },
   ],
- 
 
   // exclusive tour packages
   familyTour: [
@@ -355,55 +354,55 @@ const breadcrumbData = {
     { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
     { label: 'jaipur tour packages' },
   ],
-  
+
   ajmerTourPackage: [
     { label: 'home', link: '/' },
     { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
     { label: 'ajmer tour packages' },
   ],
-   
+
   bikanerTourPackage: [
     { label: 'home', link: '/' },
     { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
     { label: 'bikaner tour packages' },
   ],
-  
+
   bharatpurTourPackage: [
     { label: 'home', link: '/' },
     { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
     { label: 'bharatpur tour packages' },
   ],
-  
+
   udaipurTourPackage: [
     { label: 'home', link: '/' },
     { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
     { label: 'udaipur tour packages' },
   ],
-  
+
   ranthamboreTourPackage: [
     { label: 'home', link: '/' },
     { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
     { label: 'ranthambore tour packages' },
   ],
-  
+
   jaisalmerTourPackage: [
     { label: 'home', link: '/' },
     { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
     { label: 'jaisalmer tour packages' },
   ],
-  
+
   jodhpurTourPackage: [
     { label: 'home', link: '/' },
     { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
     { label: 'jodhpur tour packages' },
   ],
-  
+
   mountabuTourPackage: [
     { label: 'home', link: '/' },
     { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
     { label: 'mount abu tour packages' },
   ],
-  
+
   delhiTourPackage: [
     { label: 'home', link: '/' },
     { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
@@ -411,7 +410,7 @@ const breadcrumbData = {
   ],
 
   // cab rentals
-  homeCabRental: [{ label: 'Home', link: '/' }, { label: 'cab retal' }],
+  homeCabRental: [{ label: 'Home', link: '/' }, { label: 'cab rental' }],
   jaipurCab: [
     { label: 'Home', link: '/' },
     { label: 'cab retal', link: '/rajasthan-cab-rental' },
@@ -455,7 +454,7 @@ const breadcrumbData = {
   ranthamboreCab: [
     { label: 'Home', link: '/' },
     { label: 'cab retal', link: '/rajasthan-cab-rental' },
-    { label: 'mountabu cab rental' },
+    { label: 'ranthambore cab rental' },
   ],
   udaipurCab: [
     { label: 'Home', link: '/' },
