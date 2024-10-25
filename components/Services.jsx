@@ -1,16 +1,15 @@
 import Image from "next/image";
+import { FaGripfire } from "react-icons/fa6";
 
 const Services = () => {
   return (
     <>
       <div className="section-04 py-4">
         <div className="container services">
-          <div className="row py-3">
-            <p className="text-uppercase mb-0 text-center text-uppercase sec-heading">
-              Services
-            </p>
-            <h2 className="text-center text-capitalize sec-subhead">
-              Services we provide
+        <div className="row py-2 px-2 d-flex justify-content-center align-items-center">
+            <h2 className="w-auto text-capitalize home-head">
+              services <span className="fw-normal"> we provide</span>
+              <FaGripfire className="icon" />
             </h2>
           </div>
           <div className="row service-cards my-4">
