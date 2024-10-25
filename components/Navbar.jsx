@@ -469,15 +469,6 @@ const Navbar = () => {
                                     </Link>
                                 );
                             })}
-                            <Link
-                                onClick={() => {
-                                    setShowNavigation(false);
-                                }}
-                                href="/destination"
-                                className="more-btn nav-more-btn"
-                            >
-                                explore more...
-                            </Link>
                         </div>
                     </div>
                     <div className="nav-mobile-item d-flex justify-content-center align-items-start flex-column">
