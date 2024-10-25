@@ -1,6 +1,23 @@
 import { AboutUs } from "@/components/AboutUs";
 import Breadcrumb from "@/components/Breadcrumb";
+
+export const metadata = {
+    title: '',
+    description: '',
+    alternates: {
+        canonical: "https://www.rajasthantourpackages.in/about-us",
+    },
+    openGraph: {
+        title: '',
+        description: '',
+        url: "https://www.rajasthantourpackages.in/about-us",
+        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        siteName: 'Rajasthan Tour Packages',
+        type: 'website',
+    },
+};
 const About = () => {
+
     return (
         <>
             <Breadcrumb breadcrumbKey="aboutUs" />

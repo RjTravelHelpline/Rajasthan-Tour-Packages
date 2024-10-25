@@ -14,6 +14,22 @@ import Breadcrumb from '@/components/Breadcrumb';
 import RTPNav from '@/components/RTPNav';
 import { TourPackageSection } from '@/components/TourPackageSection';
 
+export const metadata = {
+  title: 'Book Rajasthan Travel Packages | Rajasthan Tour Packages',
+  description: 'Get lost in Rajasthan with our Rajasthan travel packages. Find majestic forts, luxurious places, and carefully customized experiences. Book an ideal trip today.',
+  alternates: {
+    canonical: "https://www.rajasthantourpackages.in/rajasthan-tour-packages",
+  },
+  openGraph: {
+    title: 'Book Rajasthan Travel Packages | Rajasthan Tour Packages',
+    description: 'Get lost in Rajasthan with our Rajasthan travel packages. Find majestic forts, luxurious places, and carefully customized experiences. Book an ideal trip today.',
+    url: "https://www.rajasthantourpackages.in/rajasthan-tour-packages",
+    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    siteName: 'Rajasthan Tour Packages',
+    type: 'website',
+  },
+};
+
 const RajasthanTourPackages = () => {
 
   return (

@@ -10,12 +10,12 @@ export const metadata = {
   title: 'Best Rajasthan Tours and Travels | Rajasthan Tour Packages',
   description: 'Begin our famous Rajasthan Tours and Travels. Tour places, deserts, and treasures of culture by instant booking customized packages. Your royal adventure awaits.',
   alternates: {
-    canonical: "http://www.rajasthantourpackages.in",
+    canonical: "https://www.rajasthantourpackages.in",
   },
   openGraph: {
     title: 'Best Rajasthan Tours and Travels | Rajasthan Tour Packages',
     description: 'Begin our famous Rajasthan Tours and Travels. Tour places, deserts, and treasures of culture by instant booking customized packages. Your royal adventure awaits.',
-    url: "http://www.rajasthantourpackages.in",
+    url: "https://www.rajasthantourpackages.in",
     image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     siteName: 'Rajasthan Tour Packages',
     type: 'website',
