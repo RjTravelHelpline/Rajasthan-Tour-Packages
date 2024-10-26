@@ -77,10 +77,11 @@ const Footer = () => {
                             href="https://www.tripadvisor.in/Attraction_Review-g304555-d24123312-Reviews-Rajasthan_Travel_Helpline-Jaipur_Jaipur_District_Rajasthan.html"
                             className="image-link"
                             target="_blank"
+                            aria-label='trip advisor'
                         >
                             <Image width={300} height={50} src={tripAdvisorLogo} alt="Trip Advisor Logo" />
                         </a>
-                        <a href="" className="image-link" target="_blank">
+                        <a href="/" className="image-link" target="_blank" aria-label='google'>
                             <Image width={300} height={50} src={googleStars} alt="Goggle Rewiew Image" />
                         </a>
                     </div>
@@ -342,6 +343,7 @@ const Footer = () => {
                                     href="https://www.tourism.rajasthan.gov.in/"
                                     className="image-link"
                                     target="_blank"
+                                    aria-label='go to certification'
                                 >
                                     <Image width={200} height={100}
                                         src={certified01}
@@ -354,6 +356,7 @@ const Footer = () => {
                                     href="https://www.mca.gov.in/"
                                     className="image-link"
                                     target="_blank"
+                                    aria-label='go to certification'
                                 >
                                     <Image width={200} height={100}
                                         src={certified02}
@@ -366,6 +369,7 @@ const Footer = () => {
                                     href="https://atulyabhaarat.com/"
                                     className="image-link"
                                     target="_blank"
+                                    aria-label='go to certification'
                                 >
                                     <Image width={200} height={100}
                                         src={certified03}
@@ -378,6 +382,7 @@ const Footer = () => {
                                     href="https://frto.org/"
                                     className="image-link"
                                     target="_blank"
+                                    aria-label='go to certification'
                                 >
                                     <Image width={200} height={100}
                                         src={certified04}
@@ -396,6 +401,7 @@ const Footer = () => {
                                     href="https://rajasthantourpackages.in/"
                                     target="_blank"
                                     className="d-flex justify-content-center aiign-items-center footer-link"
+                                    aria-label='rajasthan travel helpline'
                                 >
                                     <Image width={600} height={300} src={footerLogo} alt="rtp-logo" layout='responsive' />
                                 </a>
@@ -405,6 +411,7 @@ const Footer = () => {
                                     href="https://www.instagram.com/rajasthantravelhelpline/"
                                     className="social-icon"
                                     target="_blank"
+                                    aria-label='go to social'
                                 >
                                     <FaInstagram />
                                 </a>
@@ -412,12 +419,15 @@ const Footer = () => {
                                     href="https://www.facebook.com/rajasthantravelhelpline/"
                                     className="social-icon"
                                     target="_blank"
+                                    aria-label='go to social'
                                 >
                                     <FaFacebook />
                                 </a>
                                 <a
                                     href="mailto:mail@rajasthantravelhelpline.com"
                                     className="social-icon"
+                                    target="_blank"
+                                    aria-label='go to social'
                                 >
                                     <IoIosMail />
                                 </a>
@@ -425,6 +435,7 @@ const Footer = () => {
                                     href="https://www.tripadvisor.in/Attraction_Review-g304555-d24123312-Reviews-Rajasthan_Travel_Helpline-Jaipur_Jaipur_District_Rajasthan.html"
                                     className="social-icon"
                                     target="_blank"
+                                    aria-label='go to social'
                                 >
                                     <FaTripadvisor />
                                 </a>

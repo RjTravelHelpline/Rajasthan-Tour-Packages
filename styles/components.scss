@@ -18,7 +18,8 @@
       .logo2 {
         color: var(--color-secondary);
       }
-      a {
+      a,
+      span {
         color: var(--color-secondary) !important;
       }
     }
@@ -52,13 +53,21 @@
   .nav-item {
     position: relative;
   }
-
   .nav-item {
     > a {
       font-weight: 500;
       color: var(--color-primary);
+      &:hover {
+        color: var(--color-black);
+        text-decoration: underline;
+      }
     }
-
+    span {
+      font-weight: 500;
+      cursor: pointer;
+      color: var(--color-primary);
+      text-transform: uppercase !important;
+    }
     .dropdown-menu {
       justify-content: center;
       align-items: center;
@@ -66,13 +75,15 @@
       overflow: hidden;
       position: absolute;
       top: 44px;
-      left: 0;
+      left: 50%;
+      transform: translateX(-50%);
       background-color: var(--color-primary);
       box-shadow: var(--color-shadow);
       padding: 16px;
       z-index: 10000;
       min-width: 150px;
       border-radius: 16px;
+      border: none !important;
       .nav-more-btn {
         color: var(--color-primary) !important;
         &:hover {
@@ -113,7 +124,6 @@
     filter: brightness(1) !important;
     transition: 0.1s ease-in-out;
     font-weight: normal;
-
     height: max-content !important;
   }
   a:hover {
@@ -831,12 +841,10 @@
   position: absolute;
   top: 8px;
   left: 8px;
-  @media (max-width: 768px) {
-    width: 35px;
-    height: 35px;
-  }
   img {
-    width: 5em;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
     @media (max-width: 768px) {
       width: 3.5em;
     }

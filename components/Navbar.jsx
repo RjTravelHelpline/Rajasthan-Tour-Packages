@@ -12,7 +12,9 @@ import {
     IoMdArrowDropdown,
     IoMdCall,
     IoMdClose,
+    IoMdHammer,
     IoMdPerson,
+    IoMdText,
 } from 'react-icons/io';
 import { MdEmail, MdOutlineClose } from 'react-icons/md';
 import {
@@ -21,11 +23,12 @@ import {
     headerTourByDaysLinks,
     headerTourFromLinks,
 } from '@/data/linksData';
-import { FaHome } from 'react-icons/fa';
+import { FaAddressBook, FaAddressCard, FaHamburger, FaHome, FaRegDotCircle } from 'react-icons/fa';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Modal } from 'react-bootstrap';
 import ContactForm from './ContactForm';
+import { FiMoreHorizontal } from 'react-icons/fi';
 
 const Navbar = () => {
     const location = usePathname();
@@ -121,9 +124,9 @@ const Navbar = () => {
                     </div>
                     <div className="col d-flex justify-content-start align-items-center nav-links">
                         <div className="nav-item">
-                            <a className="px-0 mx-3 py-4 text-nowrap text-uppercase">
+                            <span className="px-0 mx-3 py-4 text-nowrap text-uppercase anchor-link">
                                 tour by days <IoIosArrowDown className="dropdown-icon" />
-                            </a>
+                            </span>
                             <div className="dropdown-menu">
                                 {headerTourByDaysLinks.map((link, index) => (
                                     <Link
@@ -146,9 +149,9 @@ const Navbar = () => {
                             </div>
                         </div>
                         <div className="nav-item">
-                            <a className="px-0 mx-3 py-4 text-nowrap text-uppercase">
+                            <span className="px-0 mx-3 py-4 text-nowrap text-uppercase anchor-link">
                                 Tour by Cities <IoIosArrowDown className="dropdown-icon" />
-                            </a>
+                            </span>
                             <div className="dropdown-menu">
                                 {headerTourFromLinks.map((link, index) => (
                                     <Link
@@ -163,16 +166,15 @@ const Navbar = () => {
                                 <div className="w-100 py-4 position-relative"></div>
                                 <Link
                                     href="/rajasthan-tour-by-cities"
-                                    className="nav-more-btn text-center position-absolute bottom-0 bg-tertary w-100 text-white rounded-0"
-                                >
+                                    className="nav-more-btn text-center position-absolute bottom-0 bg-tertary w-100 text-white rounded-0">
                                     explore more
                                 </Link>
                             </div>
                         </div>
                         <div className="nav-item">
-                            <a className="px-0 mx-3 py-4 text-nowrap text-uppercase">
+                            <span className="px-0 mx-3 py-4 text-nowrap text-uppercase anchor-link">
                                 Cab Rental <IoIosArrowDown className="dropdown-icon" />
-                            </a>
+                            </span>
                             <div className="dropdown-menu">
                                 {headerCabRentalLinks.map((link, index) => (
                                     <Link
@@ -230,12 +232,13 @@ const Navbar = () => {
                                 <button
                                     className="d-flex justify-content-center align-items-center p-3 rounded-5  shadow-none contact-top-toggle-button"
                                     onClick={showContactPopup}
+                                    aria-label='go socials'
                                 >
                                     {/* <IoMdCall className="icon text-white" /> */}
                                     {contactPopup ? (
                                         <MdOutlineClose className="icon " />
                                     ) : (
-                                        <IoMdPerson className="icon " />
+                                        <FiMoreHorizontal className="icon" />
                                     )}
                                 </button>
                                 {ismobile && (
