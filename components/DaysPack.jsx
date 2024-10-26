@@ -6,6 +6,7 @@ import { useState } from "react";
 import { FaGripfire } from "react-icons/fa";
 import { daysPackage } from "@/data/data";
 import Link from "next/link";
+import Image from "next/image";
 
 const DaysPack = () => {
     const [readMore, setReadMore] = useState(false);
@@ -55,11 +56,13 @@ const DaysPack = () => {
                             >
                                 <Link href={pkg.navigate} className="text-capitalize">
                                     <Card className="card bg-transparent">
-                                        <Card.Img
+                                        <Image
                                             variant="top"
                                             src={pkg.imgSrc}
                                             alt="Card Packages"
                                             className="w-100 card-image"
+                                            width={500}
+                                            height={400}
                                         />
                                         <div className="row p-3 card-content d-flex align-items-center  justfiy-content-center flex-column">
                                             <h3 className="w-100 text-capitalize mx-1">

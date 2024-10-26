@@ -8,6 +8,7 @@ import SlickSlider from './SlickSlider';
 import { Card, Modal } from 'react-bootstrap';
 import { popularTourPackagesData } from '@/data/data';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const Packages = () => {
   const visiblePackages = popularTourPackagesData.slice(0, 6);
@@ -67,7 +68,8 @@ const Packages = () => {
                   >
                     <Card className="card bg-transparent">
                       <div className="card-image-container">
-                        <Card.Img src={pkg.imgSrc} alt="Card Package" />
+                        <Image src={pkg.imgSrc} alt="Card Package" width={600}
+                          height={800} />
                       </div>
 
                       <div className="row card-content d-flex align-items-center justify-content-center">

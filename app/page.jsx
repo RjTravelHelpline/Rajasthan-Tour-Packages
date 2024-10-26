@@ -1,5 +1,6 @@
 import BlogsSection from "@/components/BlogsSection";
 import DaysPack from "@/components/DaysPack";
+import Gallery from "@/components/Gallery";
 import HomeCarousel from "@/components/HomeCarousel";
 import PackagesByCities from "@/components/PackagesByCities";
 import Packages from "@/components/PopularPackages";
@@ -90,6 +91,7 @@ const Home = () => {
       <DaysPack />
       <PackagesByCities />
       <Reviews />
+      <Gallery />
       <BlogsSection />
     </>
   );

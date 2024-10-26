@@ -1086,12 +1086,9 @@ export const cabImages = {
 
 // function utilites
 
-export function getSortedGalleryImages(images) {
-  const imageEntries = Object.entries(images);
-
-  imageEntries.sort((a, b) => new Date(b[1].date) - new Date(a[1].date));
-
-  const sortedImages = Object.entries(imageEntries);
-
-  return sortedImages;
-}
+export const getSortedGalleryImages = () => {
+  // Convert the object of images into an array, then sort by date
+  return Object.values(allGalleryImages).sort(
+    (a, b) => new Date(b.date) - new Date(a.date)
+  ); // Sort by date descending
+};

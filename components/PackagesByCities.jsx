@@ -8,6 +8,7 @@ import { FaGripfire } from 'react-icons/fa';
 import SlickSlider from './SlickSlider';
 import Link from 'next/link';
 import { tourByCities } from '@/data/data';
+import Image from 'next/image';
 
 const PackagesByCities = () => {
   // visible cities
@@ -64,11 +65,12 @@ const PackagesByCities = () => {
               >
                 <Link href={pkg.navigate} className="text-capitalize">
                   <Card className="card bg-transparent">
-                    <Card.Img
-                      variant="top"
+                    <Image
                       src={pkg.imgSrc}
                       alt="Card Packages"
                       className="w-100 card-image"
+                      width={500}
+                      height={400}
                     />
                     <div className="row p-3 card-content d-flex align-items-center  justfiy-content-center flex-column">
                       <p className="mb-0">rajasthan tour from</p>

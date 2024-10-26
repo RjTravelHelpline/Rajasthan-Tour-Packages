@@ -16,11 +16,11 @@ const BlogsSection = () => {
           <div className="row py-2 px-2 d-flex justify-content-center align-items-center">
             <h2 className="w-auto text-capitalize home-head">
               <span className="fw-normal">latest </span> blogs
-              <FaGripfire className="icon section-01" />
+              <FaGripfire className="icon" />
             </h2>
           </div>
           <div className="row d-flex justify-content-center py-2">
-            <SlickSlider settings={{ slidesToShow: 2, autoplay: false }}>
+            <SlickSlider settings={{ slidesToShow: 3, autoplay: false }}>
               {visibleBlogs.map((blog) => {
                 const visibleDescription =
                   blog.description.split(' ').slice(0, 5).join(' ') + '...';

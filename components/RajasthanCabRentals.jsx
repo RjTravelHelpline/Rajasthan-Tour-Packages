@@ -1,5 +1,6 @@
 "use client"
 import { cabRentals } from "@/data/data";
+import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { Card } from "react-bootstrap";
@@ -54,11 +55,13 @@ export const RajasthanCabRentals = () => {
                         >
                             <Link href={pkg.navigate} className="text-capitalize">
                                 <Card className="card bg-transparent">
-                                    <Card.Img
+                                    <Image
                                         variant="top"
                                         src={pkg.imgSrc}
                                         alt="Card Packages"
                                         className="w-100 card-image"
+                                        width={800}
+                                        height={600}
                                     />
                                     <div className="row p-3 card-content d-flex align-items-center  justfiy-content-center flex-column">
                                         <p className="mb-0">cab rental</p>

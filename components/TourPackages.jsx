@@ -4,6 +4,7 @@ import { IoLogoWhatsapp, IoMdClose } from 'react-icons/io';
 import ContactForm from './ContactForm';
 import { useState } from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const TourPackages = ({ pkg }) => {
   const [show, setShow] = useState(false);
@@ -21,7 +22,8 @@ const TourPackages = ({ pkg }) => {
       <div className="col-12 col-sm-12 col-md-6 col-lg-4 mb-4 d-flex align-items-stretch px-2">
         <Card className="card bg-transparent">
           <div className="card-image-container">
-            <Card.Img src={pkg.imgSrc} alt="Card Package" />
+            <Image src={pkg.imgSrc} alt="Card Package" width={600}
+              height={800} />
           </div>
           <div className="row card-content d-flex align-items-center justify-content-center">
             <div className="w-100 card-header d-flex justify-content-between align-items-start pt-0 pb-0">

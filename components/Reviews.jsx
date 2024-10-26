@@ -5,6 +5,7 @@ import { MdArrowOutward } from 'react-icons/md';
 import SlickSlider from './SlickSlider';
 import { reviewers } from '@/data/data';
 import Link from 'next/link';
+import Image from 'next/image';
 const tripAdvisorLogo = '/Images/Logos/tripadvisor-logo.webp';
 const googleStars = '/Images/Logos/google-logo.webp';
 
@@ -46,10 +47,12 @@ const ReviewCard = ({ reviewer }) => {
         <div className="d-flex">
           {reviewer.Images.map((imgSrc, imgIndex) => (
             <div className="image-container px-1" key={imgIndex}>
-              <img
+              <Image
                 src={imgSrc}
                 alt="Customer Review"
                 className="review-image"
+                width={1000}
+                height={800}
               />
             </div>
           ))}
@@ -61,10 +64,10 @@ const ReviewCard = ({ reviewer }) => {
               className="image-link"
               target="_blank"
             >
-              <img src={tripAdvisorLogo} alt="Trip Advisor Logo" />
+              <Image width={300} height={50} src={tripAdvisorLogo} alt="Trip Advisor Logo" />
             </a>
             <a href="" className="image-link" target="_blank">
-              <img src={googleStars} alt="Google Review Image" />
+              <Image width={300} height={50} src={googleStars} alt="Goggle Rewiew Image" />
             </a>
           </div>
           <h3 className="text-capitalize review-title mx-2 text-center">
