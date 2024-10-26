@@ -6,10 +6,13 @@ import PackagesByCities from "@/components/PackagesByCities";
 import Packages from "@/components/PopularPackages";
 import ReadMoreToggle from "@/components/ReadMore";
 import Reviews from "@/components/Reviews";
-// Metadata for the application
+import Head from "next/head";
+import Script from "next/script";
+
 export const metadata = {
   title: 'Best Rajasthan Tours and Travels | Rajasthan Tour Packages',
   description: 'Begin our famous Rajasthan Tours and Travels. Tour places, deserts, and treasures of culture by instant booking customized packages. Your royal adventure awaits.',
+  keywords: ["Rajasthan Tours and Travels"],
   alternates: {
     canonical: "https://www.rajasthantourpackages.in",
   },
@@ -26,6 +29,7 @@ export const metadata = {
 const Home = () => {
   return (
     <>
+      {/* Using next/script for JSON-LD */}
       <HomeCarousel />
       <div className="container-fluid bg-tertary-down pt-5">
         <div className="container home px-0">
@@ -93,6 +97,60 @@ const Home = () => {
       <Reviews />
       <Gallery />
       <BlogsSection />
+      <Script type="application/ld+json" id="travel-agency-schema">
+        {JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "TravelAgency",
+          "name": "Rajasthan Tour Packages",
+          "image": "https://www.rajasthantourpackages.in/assets/rajasthan-travel-revisedy-COjnY8SE.webp",
+          "@id": "",
+          "url": "https://www.rajasthantourpackages.in/",
+          "telephone": "+91-9024-337-038",
+          "priceRange": "2000-5000 INR",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "G-18, City Plaza, Jhotwara Road, Bani Park",
+            "addressLocality": "Jaipur",
+            "postalCode": "302016",
+            "addressCountry": "IN",
+            "addressRegion": "Rajasthan"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 26.9355858,
+            "longitude": 75.7920494
+          },
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday",
+                "Saturday"
+              ],
+              "opens": "06:00",
+              "closes": "23:00"
+            }
+          ]
+        })}
+      </Script>
+
+      <Script type="application/ld+json" id="website-schema">
+        {JSON.stringify({
+          "@context": "https://schema.org/",
+          "@type": "WebSite",
+          "name": "Rajasthan Tour Packages",
+          "url": "https://www.rajasthantourpackages.in/",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://www.rajasthantourpackages.in/{search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        })}
+      </Script>
     </>
   );
 }
