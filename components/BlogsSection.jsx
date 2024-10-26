@@ -4,6 +4,7 @@ import { GoArrowRight } from 'react-icons/go';
 import { FaGripfire } from 'react-icons/fa';
 import { blogs, getLatestBlogs } from '@/data/Blogs';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const BlogsSection = () => {
   const latestBlogs = getLatestBlogs(blogs);
@@ -32,10 +33,12 @@ const BlogsSection = () => {
                     <div className="blog-card d-flex flex-column align-items-stretch justify-content-between rounded-4 w-100">
                       <Link href="/" className="view-blog-btn">view now</Link>
                       <div className="blog-image-container w-100 mb-3">
-                        <img
+                        <Image
                           src={blog.image}
                           alt={blog.heading}
-                          className="img-fluid "
+                          className="img-fluid"
+                          width={800}
+                          height={600}
                         />
                       </div>
                       <p className="blog-category mb-0">{blog.category}</p>

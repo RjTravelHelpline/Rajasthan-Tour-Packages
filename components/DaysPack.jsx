@@ -61,8 +61,8 @@ const DaysPack = () => {
                                             src={pkg.imgSrc}
                                             alt="Card Packages"
                                             className="w-100 card-image"
-                                            width={500}
-                                            height={400}
+                                            width={600}
+                                            height={800}
                                         />
                                         <div className="row p-3 card-content d-flex align-items-center  justfiy-content-center flex-column">
                                             <h3 className="w-100 text-capitalize mx-1">

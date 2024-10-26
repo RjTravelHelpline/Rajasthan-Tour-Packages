@@ -24,9 +24,9 @@ const HomeCarousel = () => {
 
     return (
         <div className="container-fluid home-banner position-relative px-0 bg-tertary-down">
-            <Carousel pause={false} controls={false} interval={3000}>
+            <Carousel pause={false} controls={false} interval={4000}>
                 <Carousel.Item>
-                    <Image src={HomeBanner01} alt="Home Banner" width={3000} height={2000} />
+                    <Image src={HomeBanner01} alt="Home Banner" width={1500} height={1000} priority={true} />
                     <Carousel.Caption>
                         <h2>Regal Rajasthan Heritage<span>.</span></h2>
                         <svg width="100" height="30" viewBox="0 0 120 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -35,7 +35,7 @@ const HomeCarousel = () => {
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <Image src={HomeBanner02} alt="Home Banner" width={3000} height={2000} />
+                    <Image src={HomeBanner02} alt="Home Banner" width={1500} height={1000} priority={true} />
                     <Carousel.Caption>
                         <h2>Adventurous Escapades Await<span>.</span></h2>
                         <svg width="100" height="30" viewBox="0 0 120 20" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -44,7 +44,7 @@ const HomeCarousel = () => {
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <Image src={HomeBanner03} alt="Home Banner" width={3000} height={2000} />
+                    <Image src={HomeBanner03} alt="Home Banner" width={1500} height={1000} priority={true} />
                     <Carousel.Caption>
                         <h2>Rajasthani Cultural Immersion<span>.</span></h2>
                         <svg width="100" height="30" viewBox="0 0 120 20" fill="none" xmlns="http://www.w3.org/2000/svg">

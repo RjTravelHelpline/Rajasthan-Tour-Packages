@@ -28,13 +28,14 @@
   .carousel-item {
     overflow: hidden;
     height: 80svh;
-    max-height: 900px;
     display: flex;
     justify-content: center;
     align-items: center;
     opacity: 0;
-    transform: translateY(-200px);
+    transform: translateY(-20px);
     transition: 0.8s ease-in-out;
+    border-bottom-left-radius: 48px;
+    border-bottom-right-radius: 48px;
   }
   .carousel-item.active {
     opacity: 1;
@@ -49,8 +50,6 @@
     height: 100%;
     width: 100%;
     object-fit: cover;
-    border-bottom-left-radius: 36px;
-    border-bottom-right-radius: 36px;
   }
   @media screen and (max-width: 768px) {
     .carousel-item {
