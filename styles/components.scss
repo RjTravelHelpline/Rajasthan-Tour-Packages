@@ -58,8 +58,7 @@
       font-weight: 500;
       color: var(--color-primary);
       &:hover {
-        color: var(--color-black);
-        text-decoration: underline;
+        color: var(--color-tertary) !important;
       }
     }
     span {
@@ -676,11 +675,6 @@
   }
   @media screen and (max-width: 768px) {
   }
-
-  .explore-btn {
-    color: var(--color-tertary) !important;
-    font-weight: 400 !important;
-  }
 }
 
 .accordian-icon {
@@ -884,8 +878,18 @@
   }
 }
 
-// image model
+.gallery-image-container {
+  img {
+    transition: 0.25s ease-in-out;
+  }
+  &:hover img {
+    opacity: 0.85;
+    transform: scale(1.03);
+  }
+  cursor: pointer;
+}
 
+// image model
 .modal-overlay {
   position: fixed;
   top: 0;
@@ -945,6 +949,7 @@
 }
 .modal-image {
   max-width: 100%;
+  height: auto;
   max-height: 80% !important;
   object-fit: cover;
   width: auto;
@@ -961,7 +966,7 @@
   background-color: var(--color-tertary);
   color: var(--color-primary);
   border-radius: 999px;
-  z-index: 1; /* Ensures buttons are above other content */
+  z-index: 1;
   padding: 10px !important;
   display: flex;
   justify-content: center;
@@ -975,8 +980,8 @@
   transform: translateY(-50%);
   z-index: 1;
   cursor: pointer;
-  color: var(--color-black); /* Default color */
-  background-color: var(--color-tertary-down); /* Background color */
+  color: var(--color-black);
+  background-color: var(--color-tertary-down);
   padding: 14px;
   border-radius: 999px;
   box-sizing: border-box !important;
@@ -1006,8 +1011,12 @@
 }
 
 /* Change the color of inactive dots */
+.slick-dots {
+  margin: auto;
+}
 .slick-dots li button:before {
-  color: var(--color-tertary) !important; /* Default dot color */
+  margin: 0 auto;
+  color: var(--color-tertary) !important;
   filter: brightness(1) !important;
   opacity: 0.5 !important;
   transition: 0.25s ease-in-out;
@@ -1268,16 +1277,18 @@ form {
 
 // reviews
 .reviewer {
+  margin: auto 0;
+  width: max-content !important;
   color: var(--color-tertary);
   background: var(--color-tertary-down);
   font-size: clamp(0.65em, 2vw, 0.99em);
-  padding-block: 8px;
-  border-radius: 999px;
+  padding: 8px 12px !important;
+  border-radius: 12px;
   position: relative;
   &::after {
     content: '';
-    height: 2px;
-    width: 40px;
+    height: 4px;
+    width: 4px;
     position: absolute;
     bottom: 0;
     left: 50%;
@@ -1301,7 +1312,7 @@ form {
     background-color: transparent !important;
 
     .review-card-insider {
-      box-shadow: 0 24px 24px #00000019;
+      border: 1px solid var(--color-border);
       display: flex;
       flex-direction: column;
       justify-content: space-between !important;
@@ -1328,7 +1339,7 @@ form {
     gap: 16px;
     padding-block: 12px;
     img {
-      width: clamp(8em, 12vw, 12em);
+      width: clamp(5em, 6vw, 6.5em);
       height: max-content;
     }
   }
@@ -1865,6 +1876,21 @@ form {
       &:hover {
         letter-spacing: 1px;
       }
+    }
+  }
+}
+
+// buttons
+.explore-button-container {
+  a {
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    border-bottom: 2px solid var(--color-tertary);
+    background-color: transparent !important;
+    &:hover {
+      background-color: transparent !important;
+      gap: 16px;
+      color: var(--color-tertary) !important;
     }
   }
 }

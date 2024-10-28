@@ -60,6 +60,7 @@ const TourPackages = ({ pkg }) => {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-center whatsapp-logo"
+                  aria-label="go to package inquiry"
                 >
                   <IoLogoWhatsapp />
                 </a>

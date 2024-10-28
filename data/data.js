@@ -7,7 +7,6 @@ import {
 
 // breadcrumb data
 // breadcrumbData.js
-
 const breadcrumbData = {
   // main
   aboutUs: [{ label: 'home', link: '/' }, { label: 'About us' }],
@@ -1474,6 +1473,16 @@ export const _06DaysToursData = [
     destination: [''],
   },
   {
+    title: 'BEST OF WILD LIFE PACKAGE',
+    price: 19000,
+    imgSrc: allCitiesImages.jaisalmer.jaisalmerFort.src,
+    duration: '05 nights • 06 Days',
+    alt: 'Package Image',
+    navigate: '/',
+    category: 'tourism',
+    destination: [''],
+  },
+  {
     title: 'Rajasthan Forts and Desert Tour',
     price: 19000,
     imgSrc: allCitiesImages.jaisalmer.jaisalmerFort.src,
@@ -1497,6 +1506,16 @@ export const _07DaysToursData = [
     category: 'popular',
     destination: [''],
   },
+  {
+    title: 'PEARLS OF RAJASTHAN',
+    price: 25000,
+    imgSrc: allCitiesImages.jaipur.jaipurAlberthall.src,
+    duration: '06 nights • 07 Days',
+    alt: 'Package Image',
+    navigate: '/',
+    category: 'tourism',
+    destination: [''],
+  },
 ];
 // _08DaysToursData.js
 export const _08DaysToursData = [
@@ -1508,6 +1527,16 @@ export const _08DaysToursData = [
     alt: 'Package Image',
     navigate: '/8days-rajasthan-budget-tour',
     category: 'popular',
+    destination: [''],
+  },
+  {
+    title: 'DESERT CIRCUIT',
+    price: 28000,
+    imgSrc: allCitiesImages.bikaner.bikanerBanner01.src,
+    duration: '07 nights • 08 Days',
+    alt: 'Package Image',
+    navigate: '/',
+    category: 'tourism',
     destination: [''],
   },
   {
@@ -1528,6 +1557,16 @@ export const _08DaysToursData = [
     alt: 'Package Image',
     navigate: '/8days-rajasthan-road-trip',
     category: null,
+    destination: [''],
+  },
+  {
+    title: 'BEST OF RAJASTHAN PART 2',
+    price: 30000,
+    imgSrc: allCitiesImages.jaipur.jaipurRoadTrip.src,
+    duration: '07 nights • 08 Days',
+    alt: 'Package Image',
+    navigate: '/',
+    category: 'tourism',
     destination: [''],
   },
   {
@@ -1561,7 +1600,7 @@ export const _09DaysToursData = [
     duration: '08 nights • 09 Days',
     alt: 'Package Image',
     navigate: '/9days-best-of-rajasthan-tour',
-    category: null,
+    category: 'tourism',
     destination: [''],
   },
   {
@@ -1572,6 +1611,16 @@ export const _09DaysToursData = [
     alt: 'Package Image',
     navigate: '/9days-rajasthan-leisure-tour',
     category: null,
+    destination: [''],
+  },
+  {
+    title: 'DESERT PACKAGE',
+    price: 35000,
+    imgSrc: allCitiesImages.jaisalmer.jaisalmerLeisure.src,
+    duration: '08 nights • 09 Days',
+    alt: 'Package Image',
+    navigate: '/',
+    category: 'tourism',
     destination: [''],
   },
 ];
@@ -1589,6 +1638,16 @@ export const _10DaysToursData = [
     destination: [''],
   },
   {
+    title: 'RAJASTHAN DARSHAN',
+    price: 36000,
+    imgSrc: allCitiesImages.jaipur.jaipurHoneymoon.src,
+    duration: '10 NIGHTS • 11 DAYS',
+    alt: 'Package Image',
+    navigate: '/',
+    category: 'tourism',
+    destination: [''],
+  },
+  {
     title: 'Rajasthan Vacation Tour',
     price: 26300,
     imgSrc: allCitiesImages.jaipur.jaipurNahargarh.src,
@@ -1596,6 +1655,16 @@ export const _10DaysToursData = [
     alt: 'Package Image',
     navigate: '/10days-rajasthan-vacation-tour',
     category: null,
+    destination: [''],
+  },
+  {
+    title: 'EXOTIC RAJASTHAN',
+    price: 35000,
+    imgSrc: allCitiesImages.jaipur.jaipurCulinary.src,
+    duration: '09 nights • 10 Days',
+    alt: 'Package Image',
+    navigate: '/',
+    category: 'tourism',
     destination: [''],
   },
   {
@@ -1620,6 +1689,26 @@ export const _11To15DaysToursData = [
     navigate: '/12days-complete-rajasthan-tour',
     category: 'popular',
     destination: [''],
+  },
+  {
+    title: 'RELIGIOUS TOUR',
+    price: 42000,
+    imgSrc: allCitiesImages.jaipur.jaipurAmber.src,
+    duration: '11 NIGHTS • 12 DAYS',
+    alt: 'Package Image',
+    navigate: '/',
+    category: 'tourism',
+    destination: [''],
+  },
+  {
+    title: 'RAJASTHAN PACKAGE',
+    price: 40000,
+    imgSrc: allStatesImages.delhi.delhiBanner.src,
+    duration: '12 nights • 13 Days',
+    alt: 'Package Image',
+    navigate: '/',
+    category: 'tourism',
+    destination: ['delhi'],
   },
   {
     title: 'Classic Rajasthan Tour from Delhi to Delhi',
@@ -1658,7 +1747,7 @@ export const _11To15DaysToursData = [
     duration: '10 nights • 11 Days',
     alt: 'Package Image',
     navigate: '/11days-rajasthan-tour',
-    category: null,
+    category: 'tourism',
     destination: [''],
   },
   {
@@ -1674,7 +1763,7 @@ export const _11To15DaysToursData = [
 ];
 
 // all tour packages data
-const allDaysToursData = [
+export const allDaysToursData = [
   ..._02DaysToursData,
   ..._03DaysToursData,
   ..._04DaysToursData,

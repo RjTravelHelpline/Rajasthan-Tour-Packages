@@ -1,4 +1,6 @@
 import Breadcrumb from "@/components/Breadcrumb";
+import TourPackages from "@/components/TourPackages";
+import { allDaysToursData } from "@/data/data";
 
 export const metadata = {
     title: 'Top Rajasthan Tourism Package | Rajasthan Tour Packages',
@@ -16,11 +18,21 @@ export const metadata = {
     },
 };
 const RajasthanTourismPackages = () => {
+    const filterdPackages = allDaysToursData.filter(
+        (pkg) => pkg.category === 'tourism'
+    );
     return (
         <>
             <Breadcrumb breadcrumbKey="tourismTour" />
             <div className="container py-5">
-                <h1 className="text-capitalize">rajasthan tourism tour packages</h1>
+                <h1 className="text-capitalize text-center">rajasthan tourism tour packages</h1>
+            </div>
+            <div className="container packages">
+                <div className="row py-4 d-flex align-items-stretch px-2">
+                    {filterdPackages.map((pkg, index) => (
+                        <TourPackages key={index} pkg={pkg} />
+                    ))}
+                </div>
             </div>
         </>
     );

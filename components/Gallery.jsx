@@ -5,6 +5,7 @@ import SlickSlider from './SlickSlider';
 import { getSortedGalleryImages } from '@/data/imageData';
 import Image from 'next/image';
 import ImageModal from './ImagesModel';
+import { ExploreAll } from './ExploreAll';
 
 const Gallery = () => {
     const [isModalOpen, setIsModalOpen] = useState(false);
@@ -24,8 +25,8 @@ const Gallery = () => {
 
     return (
         <>
-            <div className="container-fluid section-03 py-5">
-                <div className="container gallery d-flex justify-content-center align-items-center flex-column">
+            <div className="container-fluid section-01 py-5 position-relative">
+                <div className="container gallery d-flex justify-content-center align-items-center flex-column my-5">
                     <div className="row py-4 px-2 d-flex justify-content-center align-items-center">
                         <h2 className="w-auto text-capitalize home-head">
                             <span className="fw-normal">recent </span> memories
@@ -33,7 +34,7 @@ const Gallery = () => {
                         </h2>
                     </div>
                     <div className="row py-3 d-flex gallery-row justify-content-center align-items-center px-0">
-                        <SlickSlider settings={{ slidesToShow: 3, autoplay: false }}>
+                        <SlickSlider settings={{ slidesToShow: 4, autoplay: false }}>
                             {latestImages.slice(0, 8).map((image, index) => (
                                 <div
                                     key={index}
@@ -45,6 +46,7 @@ const Gallery = () => {
                             ))}
                         </SlickSlider>
                     </div>
+                    <ExploreAll text="explore full gallery" href="/gallery" />
                 </div>
             </div>
 

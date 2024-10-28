@@ -1,30 +1,14 @@
 "use client"
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import Image from 'next/image';
 const HomeBanner01 = '/Images/Banners/rajasthan-banner01.webp';
 const HomeBanner02 = '/Images/Banners/agra-banner.webp';
 const HomeBanner03 = '/Images/Banners/jaipur-banner.webp';
 const HomeCarousel = () => {
-    const headings = [
-        "Regal Rajasthan Heritage",
-        "Adventurous Escapades Await",
-        "Rajasthani Cultural Immersion",
-    ];
-
-    const [currentHeadingIndex, setCurrentHeadingIndex] = useState(0);
-
-    useEffect(() => {
-        const interval = setInterval(() => {
-            setCurrentHeadingIndex((prevIndex) => (prevIndex + 1) % headings.length);
-        }, 5000);
-
-        return () => clearInterval(interval);
-    }, [headings.length]);
-
     return (
         <div className="container-fluid home-banner position-relative px-0 bg-tertary-down">
-            <Carousel pause={false} controls={false} interval={4000}>
+            <Carousel fade pause={false} controls={false} interval={4000}>
                 <Carousel.Item style={{ minHeight: '500px' }}>
                     <Image src={HomeBanner01} alt="Home Banner" width={1500} height={1000} priority={true} />
                     <Carousel.Caption>

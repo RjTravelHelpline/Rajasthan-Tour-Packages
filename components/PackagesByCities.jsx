@@ -9,6 +9,7 @@ import SlickSlider from './SlickSlider';
 import Link from 'next/link';
 import { tourByCities } from '@/data/data';
 import Image from 'next/image';
+import { ExploreAll } from './ExploreAll';
 
 const PackagesByCities = () => {
   // visible cities
@@ -20,8 +21,8 @@ const PackagesByCities = () => {
   };
 
   return (
-    <div className="container-fluid section-01 py-4">
-      <div className="container bydayspackages py-4">
+    <div className="container-fluid section-01 py-4 position-relative">
+      <div className="container bydayspackages my-5">
         <div className="row py-2 px-2 d-flex justify-content-center align-items-center">
           <h2 className="w-auto text-capitalize home-head">
             <span className="fw-normal">tour packages </span> by cities
@@ -84,14 +85,8 @@ const PackagesByCities = () => {
             ))}
           </SlickSlider>
         </div>
-        <div className="row d-flex w-100 justify-content-start align-items-center mt-2">
-          <button className="more-btn bg-transparent d-flex justify-content-center align-items-center gap-2">
-            <Link href="/rajasthan-tour-by-cities" className="text-black">
-              view more <GoArrowRight />
-            </Link>
-          </button>
-        </div>
       </div>
+      <ExploreAll text="explore all" href="/rajasthan-tour-by-cities" />
     </div>
   );
 };

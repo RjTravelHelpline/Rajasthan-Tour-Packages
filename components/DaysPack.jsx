@@ -7,6 +7,7 @@ import { FaGripfire } from "react-icons/fa";
 import { daysPackage } from "@/data/data";
 import Link from "next/link";
 import Image from "next/image";
+import { ExploreAll } from "./ExploreAll";
 
 const DaysPack = () => {
     const [readMore, setReadMore] = useState(false);
@@ -15,8 +16,8 @@ const DaysPack = () => {
         setReadMore(!readMore);
     };
     return (
-        <div className="container-fluid section-01 py-4">
-            <div className="container bydayspackages py-4">
+        <div className="container-fluid section-01 py-4 position-relative">
+            <div className="container bydayspackages my-5">
                 <div className="row py-2 px-2 d-flex justify-content-center align-items-center">
                     <h2 className="w-auto text-capitalize home-head">
                         <span className="fw-normal">tour packages </span> by days
@@ -79,14 +80,8 @@ const DaysPack = () => {
                         ))}
                     </SlickSlider>
                 </div>
-                <div className="row d-flex w-100 justify-content-start align-items-center mt-2">
-                    <button className="more-btn bg-transparent d-flex justify-content-center align-items-center gap-2">
-                        <Link href="/rajasthan-tour-packages" className="text-black">
-                            view more <GoArrowRight />
-                        </Link>
-                    </button>
-                </div>
             </div>
+            <ExploreAll href="rajasthan-tour-packages" text="explore all"/>
         </div>
     );
 };

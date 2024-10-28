@@ -10,136 +10,107 @@ const delhiStreetFood = '/Images/Card/delhi-streetfood.webp';
 const bangaloreStreetFood = '/Images/Card/bangalore-streetfood.webp';
 
 // * Blog data
+const generateSlug = (heading) =>
+  heading
+    .toLowerCase()
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/(^-|-$)+/g, '');
 export const blogs = [
   {
     author: 'John Doe',
     image: allCitiesImages.jaipur.jaipurAmber02.src,
     date: '2024-08-22',
     heading: 'Discover the Hidden Gems of Rajasthan',
-    title: 'Hidden Gems of Rajasthan',
+    slug: generateSlug('Discover the Hidden Gems of Rajasthan'),
     description:
       'Explore the lesser-known attractions in Rajasthan that are off the beaten path. This blog reveals secret spots and hidden gems that offer a unique experience away from the usual tourist trails.',
     category: 'Tour & Travels',
+    more: `Rajasthan is renowned for its rich heritage, stunning palaces, and vibrant culture, 
+          but there’s more to this desert state than meets the eye. Beyond the well-trodden tourist 
+          spots like Jaipur, Udaipur, and Jodhpur, Rajasthan has countless hidden gems waiting to 
+          be discovered. Whether it's a quiet, lesser-known village with ancient temples, 
+          a secluded fort with stunning architecture, or a unique natural formation tucked away 
+          from bustling cities, Rajasthan offers many surprises. In this post, we take you through 
+          some of these hidden treasures where you can soak in the real charm of Rajasthan, far from 
+          the crowds. Explore lesser-known spots like the Bundi step wells, the remote Kumbhalgarh Fort, 
+          and the mysterious ruins of Bhangarh. Experience the tranquil beauty of these places, 
+          learn about their fascinating histories, and make unforgettable memories in Rajasthan's 
+          most secluded and serene settings.`,
   },
   {
     author: 'Jane Smith',
     image: allCitiesImages.jaipur.jaipurCulinary.src,
     date: '2024-08-15',
     heading: 'The Ultimate Guide to Indian Street Food',
-    title: 'Guide to Indian Street Food',
+    slug: generateSlug('The Ultimate Guide to Indian Street Food'),
     description:
       'Dive into the vibrant world of Indian street food. From spicy chaats to sweet delicacies, this guide covers the best street food experiences across various cities in India.',
     category: 'Food',
+    more: `India is known for its rich culinary diversity, and its street food culture is one 
+          of the most exciting aspects of exploring this land of flavors. Each region of India offers 
+          unique tastes and dishes that reflect the culture and history of the area. Whether you’re 
+          trying spicy chaats in Delhi, buttery pav bhaji in Mumbai, or tangy puchkas in Kolkata, 
+          every city has something delicious to offer. In this guide, we delve deep into India’s 
+          street food, providing a curated list of must-try dishes, popular vendors, and tips 
+          for enjoying street food safely. This guide also highlights street food’s cultural importance 
+          and how it shapes the culinary landscape of India. Perfect for food lovers, this blog will 
+          inspire your next gastronomic adventure through the bustling food streets of India.`,
   },
   {
     author: 'Amit Kumar',
     image: allStatesImages.hyderabad.hyderabad01.src,
     date: '2024-08-10',
     heading: 'Top 10 Historical Monuments in India',
-    title: 'Top Historical Monuments in India',
+    slug: generateSlug('Top 10 Historical Monuments in India'),
     description:
       "A comprehensive list of India's top 10 historical monuments that every traveler should visit. Learn about their history, architecture, and significance.",
     category: 'History & Culture',
+    more: `India’s historical monuments are more than just tourist attractions; they are 
+          standing reminders of the country’s vibrant past and architectural prowess. From the majestic 
+          Taj Mahal in Agra to the intricate carvings of the Sun Temple in Konark, each monument offers 
+          a glimpse into the artistry and culture of ancient India. In this blog post, we highlight 
+          the top 10 historical monuments every history enthusiast should visit. Discover the awe-inspiring 
+          forts, palaces, and temples, each with unique stories that reflect India’s rich heritage. 
+          We provide detailed information about the historical significance, architectural styles, 
+          and cultural importance of each monument, making this a must-read for anyone planning to 
+          explore India’s historical marvels.`,
   },
   {
     author: 'Riya Patel',
     image: allStatesImages.kerala.kerala01.src,
     date: '2024-08-05',
     heading: 'Planning Your Perfect Beach Vacation in Kerala',
-    title: 'Beach Vacation in Kerala',
+    slug: generateSlug('Planning Your Perfect Beach Vacation in Kerala'),
     description:
       'Kerala is renowned for its beautiful beaches. This blog offers tips on planning a beach vacation in Kerala, including the best beaches to visit and activities to enjoy.',
     category: 'Tour & Travels',
-  },
-  {
-    author: 'Rajesh Sharma',
-    image: allCitiesImages.jaipur.jaipurJhalanaLeopard,
-    date: '2024-07-30',
-    heading: 'Exploring the Wildlife Sanctuaries of India',
-    title: 'Wildlife Sanctuaries of India',
-    description:
-      'India is home to numerous wildlife sanctuaries. Discover the top sanctuaries to visit, the wildlife you can spot, and tips for making the most of your wildlife adventure.',
-    category: 'Wildlife',
+    more: `Kerala, with its serene backwaters and stunning beaches, is a paradise for beach 
+          lovers. From the lively shores of Kovalam to the tranquil sands of Varkala, Kerala offers 
+          a variety of beach experiences. In this blog, we help you plan the perfect beach vacation 
+          in Kerala, covering everything from the best times to visit to essential packing tips. 
+          Learn about the unique beach activities available, such as exploring local seafood delicacies, 
+          engaging in water sports, and enjoying Ayurvedic spa treatments by the shore. Whether you 
+          want a peaceful escape or an action-packed trip, Kerala’s beaches cater to every kind of 
+          traveler.`,
   },
   {
     author: 'Rajesh Sharma',
     image: allCitiesImages.jaipur.jaipurJhalanaLeopard.src,
-    date: '2024-08-23',
-    heading: 'Exploring the Advanced Wildlife Sanctuaries of India',
-    title: 'Advanced Wildlife Sanctuaries',
+    date: '2024-07-30',
+    heading: 'Exploring the Wildlife Sanctuaries of India',
+    slug: generateSlug('Exploring the Wildlife Sanctuaries of India'),
     description:
       'India is home to numerous wildlife sanctuaries. Discover the top sanctuaries to visit, the wildlife you can spot, and tips for making the most of your wildlife adventure.',
     category: 'Wildlife',
-  },
-  {
-    author: 'Emily Johnson',
-    image: indianStreetFood,
-    date: '2024-08-20',
-    heading: 'Must-Try Street Foods in Mumbai',
-    title: 'Street Foods of Mumbai',
-    description:
-      "Mumbai's street food scene is legendary. Explore the must-try dishes, from spicy pav bhaji to crispy vada pav, and discover why Mumbai is a food lover's paradise.",
-    category: 'Food',
-  },
-  {
-    author: 'Carlos Hernandez',
-    image: delhiStreetFood,
-    date: '2024-08-18',
-    heading: 'Exploring Authentic Street Food in Delhi',
-    title: 'Authentic Street Food in Delhi',
-    description:
-      "Delhi's street food offers a rich tapestry of flavors and textures. This blog covers the best spots to enjoy classic dishes like chole bhature and paranthas.",
-    category: 'Food',
-  },
-  {
-    author: 'Priya Singh',
-    image: kolkataStreetFood,
-    date: '2024-08-12',
-    heading: "A Culinary Tour of Kolkata's Street Food",
-    title: 'Kolkata Street Food Tour',
-    description:
-      "Kolkata's street food is a celebration of unique flavors. Discover the delights of puchka, kathi rolls, and other beloved street eats in this vibrant city.",
-    category: 'Food',
-  },
-  {
-    author: 'Sophie Lee',
-    image: chennaiStreetFood,
-    date: '2024-08-08',
-    heading: 'Savory and Sweet Street Foods of Chennai',
-    title: 'Chennai Street Food Highlights',
-    description:
-      "Chennai offers a blend of savory and sweet street foods that are sure to satisfy. From spicy idlis to sweet jaggery treats, explore the best of Chennai's street food culture.",
-    category: 'Food',
-  },
-  {
-    author: 'Ravi Patel',
-    image: bangaloreStreetFood,
-    date: '2024-08-02',
-    heading: 'Exploring the Best Street Food in Bangalore',
-    title: 'Bangalore Street Food Guide',
-    description:
-      "Bangalore's street food scene is diverse and delicious. This blog highlights the top spots for enjoying street snacks like dosas, vadas, and much more.",
-    category: 'Food',
-  },
-  {
-    author: 'Nisha Rao',
-    image: rajasthanImg,
-    date: '2024-08-25',
-    heading: 'Festivals of Rajasthan You Must Experience',
-    title: 'Rajasthan Festivals',
-    description:
-      'Rajasthan is known for its colorful festivals. This blog covers the major festivals of Rajasthan, including unique traditions and cultural celebrations.',
-    category: 'Fair & Festivals',
-  },
-  {
-    author: 'Arjun Mehta',
-    image: hyderabadImg,
-    date: '2024-08-30',
-    heading: 'Latest News in Indian Tourism',
-    title: 'Indian Tourism Updates',
-    description:
-      'Stay updated with the latest news and developments in Indian tourism. This blog provides insights into new destinations, travel trends, and industry news.',
-    category: 'News & Updates',
+    more: `India’s wildlife sanctuaries offer some of the most thrilling experiences for 
+          nature and wildlife enthusiasts. With its diverse flora and fauna, India is home to 
+          several well-known wildlife sanctuaries and national parks. From spotting the majestic 
+          Bengal tiger in Ranthambhore to watching the one-horned rhinoceros in Kaziranga, each 
+          sanctuary provides unique opportunities for wildlife sightings. In this blog, we explore 
+          the best wildlife sanctuaries in India, provide information on their prominent species, 
+          and share tips for planning a successful wildlife adventure. Whether you’re an avid 
+          photographer, a family looking for an adventure, or a solo traveler, these sanctuaries 
+          offer unforgettable experiences.`,
   },
 ];
 
@@ -147,11 +118,7 @@ export const blogs = [
 export const getLatestBlogs = (blogs, count = 5) => {
   return blogs
     .sort((a, b) => new Date(b.date) - new Date(a.date))
-    .slice(0, count)
-    .map((blog) => ({
-      ...blog,
-      shortTitle: blog.heading.split(' ').slice(0, 5).join(' '),
-    }));
+    .slice(0, count);
 };
 
 //* Function to get popular blogs

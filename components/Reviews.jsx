@@ -12,8 +12,8 @@ const googleStars = '/Images/Logos/google-logo.webp';
 const Reviews = () => {
   return (
     <>
-      <div className="container-fluid py-5">
-        <div className="container reviews px-0 py-4">
+      <div className="container-fluid py-5 section-01">
+        <div className="container reviews px-0 my-5">
           <div className="row py-2 px-2 d-flex justify-content-center align-items-center">
             <h2 className="w-auto text-capitalize home-head">
               <span className="fw-normal">customer </span>happiness
@@ -57,7 +57,7 @@ const ReviewCard = ({ reviewer }) => {
             </div>
           ))}
         </div>
-        <div>
+        <div className='d-flex flex-column align-items-center'>
           <div className="w-100 review-logo-container mx-2 d-flex justify-content-center align-items-center mb-2">
             <a
               href="https://www.tripadvisor.in/Attraction_Review-g304555-d24123312-Reviews-Rajasthan_Travel_Helpline-Jaipur_Jaipur_District_Rajasthan.html"
@@ -87,12 +87,6 @@ const ReviewCard = ({ reviewer }) => {
           <p className="text-uppercase fw-bold reviewer px-2 mx-2 text-center">
             {reviewer.name}
           </p>
-          <Link
-            href="/"
-            className="explore-btn w-auto d-flex justify-content-center align-items-center gap-2"
-          >
-            view on <MdArrowOutward />
-          </Link>
         </div>
       </div>
     </div>

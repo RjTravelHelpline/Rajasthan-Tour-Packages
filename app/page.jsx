@@ -6,7 +6,6 @@ import PackagesByCities from "@/components/PackagesByCities";
 import Packages from "@/components/PopularPackages";
 import ReadMoreToggle from "@/components/ReadMore";
 import Reviews from "@/components/Reviews";
-import Head from "next/head";
 import Script from "next/script";
 
 export const metadata = {
@@ -87,7 +86,6 @@ const Home = () => {
               </>
             </ReadMoreToggle>
             <div className="py-2"></div>
-
           </div>
         </div>
       </div>
@@ -137,7 +135,6 @@ const Home = () => {
           ]
         })}
       </Script>
-
       <Script type="application/ld+json" id="website-schema">
         {JSON.stringify({
           "@context": "https://schema.org/",

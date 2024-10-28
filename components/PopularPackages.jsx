@@ -9,6 +9,7 @@ import { Card, Modal } from 'react-bootstrap';
 import { popularTourPackagesData } from '@/data/data';
 import Link from 'next/link';
 import Image from 'next/image';
+import { ExploreAll } from './ExploreAll';
 
 const Packages = () => {
   const visiblePackages = popularTourPackagesData.slice(0, 6);
@@ -30,7 +31,7 @@ const Packages = () => {
 
   return (
     <>
-      <div className="container-fluid section-01 py-4">
+      <div className="container-fluid section-01 py-4 position-relative">
         <div className="container packages my-5">
           <div className="row py-2 px-2 d-flex justify-content-center align-items-center">
             <h2 className="w-auto text-capitalize home-head">
@@ -120,13 +121,7 @@ const Packages = () => {
               })}
             </SlickSlider>
           </div>
-          <div className="row d-flex w-100 justify-content-start align-items-center mt-2">
-            <button className="more-btn bg-transparent d-flex justify-content-center align-items-center gap-2">
-              <Link href="/popular-tour-packages">
-                view more <GoArrowRight />
-              </Link>
-            </button>
-          </div>
+          <ExploreAll text="explore all" href="/popular-tour-packages" />
         </div>
       </div>
 
