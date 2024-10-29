@@ -222,7 +222,7 @@ const Navbar = () => {
                             >
                                 {!ismobile && (
                                     <button
-                                        className="d-flex justify-content-center align-items-center gap-2"
+                                        className="d-flex justify-content-center align-items-center gap-2" style={{fontWeight:'500', textTransform:"uppercase" }}
                                         onClick={handleShow}
                                     >
                                         <FaLocationArrow className="icon text-black" />

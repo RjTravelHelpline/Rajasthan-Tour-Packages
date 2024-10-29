@@ -293,8 +293,9 @@ body {
   filter: brightness(1) !important;
 }
 .home-read-more {
-  background-color: var(--color-primary) !important;
-  padding: 6px 12px !important;
+  color: var(--color-black) !important;
+  text-transform: uppercase;
+  padding: 6px 16px !important;
   right: 0;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
@@ -539,10 +540,11 @@ table {
 }
 
 .home-heading {
-  font-size: clamp(1em, 2vw, 2em) !important;
+  font-size: clamp(1.2em, 3vw, 2em) !important;
 }
 
 // carousel
+
 .carousel-indicators button {
   border-radius: 999px !important;
   background-color: var(--color-tertary-down) !important;
@@ -562,6 +564,12 @@ table {
 
 .carousel-indicators {
   margin-block: 1.5rem !important;
+}
+.carousel-caption {
+  // width: 100% !important;
+  // margin: auto !important;
+  min-height: 100px !important;
+  padding-top: 20px !important;
 }
 
 .home-head {

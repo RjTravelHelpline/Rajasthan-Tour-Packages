@@ -1012,13 +1012,33 @@
 
 /* Change the color of inactive dots */
 .slick-dots {
-  margin: auto;
+  margin: auto !important;
+  padding: 10px 0 !important;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  width: auto !important;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.slick-dots li {
+  margin: 0 5px !important;
+}
+.slick-dots li button {
+  width: 48px;
+  height: 48px;
+  width: auto !important;
+  padding: 10px;
+  border-radius: 0 !important;
 }
 .slick-dots li button:before {
-  margin: 0 auto;
+  margin: 0 auto !important;
+  width: auto !important;
   color: var(--color-tertary) !important;
-  filter: brightness(1) !important;
   opacity: 0.5 !important;
+  font-size: 6px !important;
   transition: 0.25s ease-in-out;
 }
 

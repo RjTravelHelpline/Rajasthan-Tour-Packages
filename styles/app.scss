@@ -87,9 +87,6 @@
   }
   h1 {
     color: var(--color-primary);
-    span {
-      color: var(--color-tertary);
-    }
     @media screen and (max-width: 768px) {
       font-size: 1.8em;
     }
@@ -111,9 +108,8 @@
   p {
     text-align: justify;
     span {
-      font-weight: bold;
+      font-weight: 700;
       text-transform: capitalize;
-      color: var(--color-tertary);
     }
   }
   .row:last-child {

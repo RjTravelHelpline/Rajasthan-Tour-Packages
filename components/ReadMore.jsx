@@ -15,7 +15,7 @@ export default function ReadMoreToggle({ children, buttonText  }) {
             {readMore && <div>{children}</div>}
 
             <button
-                className="read-more-btn d-flex position-absolute bottom-0 home-read-more"
+                className="read-more-btn d-flex position-absolute bottom-0 home-read-more bg-transparent"
                 onClick={handleReadMore}
             >
                 {readMore ? <>Show Less</> : <>Read More</>}
