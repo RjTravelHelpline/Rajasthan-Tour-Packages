@@ -12,13 +12,15 @@ import {
     tourByDaysLinks,
     usefulLinks,
 } from '../data/linksData';
-import { IoIosMail, } from 'react-icons/io';
+import { IoIosMail, IoMdClose, } from 'react-icons/io';
 // import BackToTop from './BackToTop';
 import Image from 'next/image';
 import Link from 'next/link';
 import BackToTop from './BackToTop';
 import ChatBot from './ChatBot';
 import BottomSocials from './BottomSocials';
+import { Modal } from 'react-bootstrap';
+import ContactForm from './ContactForm';
 
 const Footer = () => {
     const tripAdvisorLogo = '/Images/Logos/tripadvisor-logo.webp';
@@ -451,6 +453,26 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
+
+            {/* Modal for Contact Form */}
+            <Modal
+                show={show}
+                onHide={handleClose}
+                centered
+                className="contact-model w-100"
+            >
+                <Modal.Body className="model-body ">
+                    <ContactForm onSuccess={handleClose} />{' '}
+                </Modal.Body>
+                <Modal.Footer className="d-flex justify-content-center align-items-center w-100 border-0 model-close pt-0">
+                    <button
+                        className="bg-black d-flex justify-content-center align-items-center p-3 border-0 rounded-5"
+                        onClick={handleClose}
+                    >
+                        <IoMdClose />
+                    </button>
+                </Modal.Footer>
+            </Modal>
 
             <BottomSocials />
             <ChatBot />

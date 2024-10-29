@@ -1088,11 +1088,19 @@
 }
 
 // contact form
-.package-form {
-  background-color: var(--color-tertary-down);
-  border-radius: 12px !important;
-  span:first-child {
-    color: var(--color-tertary);
+form {
+  .package-form {
+    position: absolute;
+    padding: 18px !important;
+    top: 0;
+    width: 100%;
+    border-radius: 0 !important;
+    text-align: center;
+    background-color: var(--color-tertary-down);
+    color: var(--color-black);
+    span:first-child {
+      color: var(--color-tertary);
+    }
   }
 }
 
@@ -1103,23 +1111,29 @@
   @media screen and (max-width: 900px) {
     width: 100% !important;
   }
-  .model-body {
-    border: 1px solid var(--color-primary) !important;
-    border: none !important;
-    padding: 16px !important;
-  }
-  .model-close {
-    border: none !important;
-    border-radius: 0 !important;
-    border-top-left-radius: 6px !important;
-    border-top-right-radius: 6px !important;
-    button {
-      background-color: var(--color-black) !important;
-      color: var(--color-primary);
-    }
-  }
 }
 
+.modal {
+  .modal-body {
+    position: relative;
+    padding: 0 !important;
+    overflow: hidden;
+    &::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      width: 12px;
+      height: 4px;
+      background-color: var(--color-tertary);
+    }
+  }
+  .modal-content {
+    padding: 12px !important;
+    overflow: hidden;
+    border-radius: 24px;
+    padding: 0 !important;
+  }
+}
 .contact-container {
   width: 100% !important;
   display: flex;
@@ -1127,15 +1141,19 @@
   justify-content: center;
   align-items: center;
   margin: auto !important;
+  .contact-popup {
+    padding: 0 !important;
+  }
 }
 form {
+  padding: 12px !important;
   .form-cat {
     color: var(--color-tertary);
+    border-radius: 0 !important;
   }
   .cat-price {
     color: var(--color-black);
     padding-inline: 8px !important;
-    border-radius: 8px;
   }
 
   .col-12 {
@@ -1173,7 +1191,6 @@ form {
 }
 
 // custom checkbox
-
 .check-container {
   cursor: pointer;
 }

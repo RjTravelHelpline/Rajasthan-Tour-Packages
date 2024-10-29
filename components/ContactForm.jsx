@@ -4,7 +4,7 @@ import { toast } from "react-toastify";
 import { IoLogoWhatsapp, IoMdCall } from "react-icons/io";
 import { FaCheck } from "react-icons/fa6";
 
-const ContactForm = ({ selectedPackage}) => {
+const ContactForm = ({ selectedPackage }) => {
   const [formData, setFormData] = useState({
     name: "",
     contact: "",
@@ -42,8 +42,8 @@ const ContactForm = ({ selectedPackage}) => {
         type === "checkbox"
           ? checked
           : name === "name"
-          ? value.charAt(0).toUpperCase() + value.slice(1)
-          : value, // Capitalize the first letter of the name
+            ? value.charAt(0).toUpperCase() + value.slice(1)
+            : value, // Capitalize the first letter of the name
     }));
   };
   const handleSubmit = async (e) => {
@@ -131,22 +131,25 @@ const ContactForm = ({ selectedPackage}) => {
               className="d-flex flex-column gap-2 justify-content-center p-0"
               onSubmit={handleSubmit}
             >
-              <p className="rounded-2 text-capitalize mb-0 p-3 package-form">
-                {selectedPackage ? (
-                  <>
-                    <span className="fw-bold">Enquiry for </span>
-                    <span className="package-form-name">{selectedPackage}</span>
-                  </>
-                ) : (
-                  <>
-                    <span className="fw-bold">Plan Your Journey </span>
-                    <span className="package-form-name text-capitalize">
-                      With Us
-                    </span>
-                  </>
-                )}
-              </p>
-              <div className="row">
+              <div className="w-100 py-4">
+                <p className="rounded-2 text-capitalize mb-0 p-3 package-form">
+                  {selectedPackage ? (
+                    <>
+                      <span className="fw-bold">Enquiry for </span>
+                      <span className="package-form-name">{selectedPackage}</span>
+                    </>
+                  ) : (
+                    <>
+                      <span className="fw-bold">Plan Your Journey </span>
+                      <span className="package-form-name text-capitalize">
+                        With Us
+                      </span>
+                    </>
+                  )}
+                </p>
+              </div>
+
+              <div className="row p-4">
                 <div className="col-12 col-lg-6 col-md-6 col-sm-12 my-2">
                   <input
                     type="text"
@@ -234,17 +237,16 @@ const ContactForm = ({ selectedPackage}) => {
                     </svg>
                   </label>
                   {/* <input type="checkbox" /> */}
-                  <p className="mb-0">I accept terms and conditions*</p>
+                  <p className="mb-0 fs-6">Confirm details meet requirements.</p>
                 </div>
               </div>
               <button
                 type="submit"
                 disabled={isButtonDisabled || isLoading}
-                className={`btn-submit ${
-                  isButtonDisabled || isLoading
-                    ? "submit-disabled"
-                    : "submit-active"
-                }`}
+                className={`btn-submit mx-3 mb-2 ${isButtonDisabled || isLoading
+                  ? "submit-disabled"
+                  : "submit-active"
+                  }`}
               >
                 {isLoading ? <div className="loading-spinner"></div> : "Submit"}
               </button>
