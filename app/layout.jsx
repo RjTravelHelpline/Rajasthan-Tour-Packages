@@ -1,3 +1,4 @@
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/globals.scss';
 import "../styles/components.scss";
@@ -5,8 +6,10 @@ import "../styles/app.scss";
 import "../styles/routes.scss";
 import "../styles/blog.scss";
 import Footer from '@/components/Footer';
-import Navbar from '@/components/Navbar';
 import GoogleAnalyticsClient from '@/components/GoogleAnalyticsClient';
+import NavbarSwitcher from '@/components/NavBarSwitcher';
+import BlogFooter from '@/components/BlogFooter';
+import FooterSwitcher from '@/components/FooterSwitcher';
 
 // Metadata for the application
 export const metadata = {
@@ -51,9 +54,9 @@ export default function RootLayout({ children }) {
       </head>
       <body>
         <GoogleAnalyticsClient />
-        <Navbar />
+        <NavbarSwitcher />
         {children}
-        <Footer />
+        <FooterSwitcher />
       </body>
     </html>
   );

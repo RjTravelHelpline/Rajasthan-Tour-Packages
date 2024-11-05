@@ -30,7 +30,7 @@ const BlogsSection = () => {
                     className={`col-lg-6 col-md-6 col-sm-12 px-2  overflow-auto py-2 d-flex justify-content-between align-items-stretch`}
                     key={blog.date}
                   >
-                    <Link href={`/blog/${blog.slug}`}>
+                    <Link href={`/blog/${blog.slug}`} className='w-100'>
                       <div className="blog-card d-flex flex-column justify-content-between rounded-4 w-100 p-2">
                         <div className="blog-image-container w-100 mb-3">
                           <Image

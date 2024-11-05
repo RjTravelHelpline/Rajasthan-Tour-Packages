@@ -53,8 +53,8 @@ const Packages = () => {
                   with our tour packages designed to create lifelong memories.
                 </>
               )}
-              <button className="read-more-btn" onClick={handleReadMore}>
-                {readMore ? <>Show Less</> : <>..Read More</>}
+              <button className="read-more-btn p-0 bg-transparent" onClick={handleReadMore}>
+                {readMore ? <>Less</> : <>...More</>}
               </button>
             </p>
           </div>

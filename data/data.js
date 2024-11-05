@@ -814,6 +814,20 @@ const breadcrumbData = {
     { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
     { label: '15 days rajasthan wildlife & historical tour' },
   ],
+
+  // blogs
+  food: [{ label: 'blog', link: '/blog' }, { label: 'food' }],
+  tourandtravels: [
+    { label: 'blog', link: '/blog' },
+    { label: 'tour and travel' },
+  ],
+  historyandculture: [
+    { label: 'blog', link: '/blog' },
+    { label: 'history and culture' },
+  ],
+  wildlife: [{ label: 'blog', link: '/blog' }, { label: 'wildlife' }],
+  newsandupdates: [{ label: 'blog', link: '/blog' }, { label: 'news and updates' }],
+  fairandfestivals: [{ label: 'blog', link: '/blog' }, { label: 'fair and festivals' }],
 };
 export default breadcrumbData;
 

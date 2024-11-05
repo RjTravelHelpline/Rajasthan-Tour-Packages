@@ -56,7 +56,6 @@ const TwoDaysJaipurTourPackage = () => {
                                 className="text-capitalize px-3 mb-3 text-center fw-normal"
                                 dangerouslySetInnerHTML={{ __html: tourOverview.title }}
                             ></h2>
-
                             <p
                                 className="home-para px-3"
                                 dangerouslySetInnerHTML={{

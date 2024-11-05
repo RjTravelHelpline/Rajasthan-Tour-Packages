@@ -1,52 +1,27 @@
+import SearchBar from "@/components/SearchBar";
 import SlickSlider from "@/components/SlickSlider";
 import { blogs, getBlogsByCategory, getLatestBlogs } from "@/data/Blogs";
 import Image from "next/image";
 import Link from "next/link";
 
-
-// Define blog categories with icons
-// const blogCategory = [
-//     {
-//         name: 'Tour & Travels',
-//         icon: <FaPlaneDeparture className="blog-cat-icon" />,
-//     },
-//     {
-//         name: 'Food',
-//         icon: <FaKitchenSet className="blog-cat-icon" />,
-//     },
-//     {
-//         name: 'Wildlife',
-//         icon: <FaCat className="blog-cat-icon" />,
-//     },
-//     {
-//         name: 'History & Culture',
-//         icon: <FaLandmark className="blog-cat-icon" />,
-//     },
-//     {
-//         name: 'Fair & Festivals',
-//         icon: <FaPersonRifle className="blog-cat-icon" />,
-//     },
-//     {
-//         name: 'News & Updates',
-//         icon: <FaLandmark className="blog-cat-icon" />,
-//     },
-// ];
-
 const Blogs = () => {
     const latestBlogs = getLatestBlogs(blogs);
     const travelBlogs = getBlogsByCategory(blogs, "tour & travels")
     const foodBlogs = getBlogsByCategory(blogs, "food")
+
     return (
         <>
-            <div className="container-fluid bg-black blog-header text-white py-5">
-                <div className="row">
-                    <h2 className=" text-center logo text-capitalize">
-                        rajasthan tour packages
-                    </h2>
+            <div className="container-fluid bg-black blog-header text-white py-5 pt-5">
+                <div className="row py-3 mt-5">
                     <h1 className="text-center text-capitalize">blog</h1>
                 </div>
+                <div className="row py-3 justify-content-center align-items-center">
+                    <div className="col-lg-6 col-md-8 col-sm-10 px-4">
+                        <SearchBar blogs={blogs} />
+                    </div>
+                </div>
             </div>
-            <div className="container-fluid py-5">
+            <div className="container-fluid py-5 section-01">
                 <div className="container blogs">
                     <div className="row px-2">
                         <h3 className="text-center text-uppercase">latest <span className='color-tertary'>insights</span></h3>
@@ -61,7 +36,7 @@ const Blogs = () => {
                                         className={`col-lg-6 col-md-6 col-sm-12 px-2  mb-3 overflow-auto py-2 d-flex justify-content-between align-items-stretch`}
                                         key={blog.date}
                                     >
-                                        <Link href={`/blog/${blog.slug}`}>
+                                        <Link href={`/blog/${blog.slug}`} className="w-100">
                                             <div className="blog-card d-flex flex-column justify-content-between rounded-4 w-100 p-2">
                                                 <div className="blog-image-container w-100 mb-3">
                                                     <Image
@@ -95,10 +70,10 @@ const Blogs = () => {
                     </div>
                 </div>
             </div>
-            <div className="container-fluid py-5">
+            <div className="container-fluid py-5 section-01">
                 <div className="container blogs">
                     <div className="row px-2">
-                        <h3 className="text-center text-uppercase">latest from <span className='color-tertary'>tour & travels</span></h3>
+                        <h3 className="text-center text-uppercase">from <span className='color-tertary'>tour & travels</span></h3>
                     </div>
                     <div className="row d-flex justify-content-center py-2">
                         {travelBlogs.map((blog) => {
@@ -142,10 +117,10 @@ const Blogs = () => {
                     </div>
                 </div>
             </div>
-            <div className="container-fluid py-5">
+            <div className="container-fluid py-5 section-01">
                 <div className="container blogs">
                     <div className="row px-2">
-                        <h3 className="text-center text-uppercase">latest from <span className='color-tertary'>food</span>
+                        <h3 className="text-center text-uppercase">from <span className='color-tertary'>food</span>
                         </h3>
                     </div>
                     <div className="row d-flex justify-content-center py-2">
@@ -190,6 +165,7 @@ const Blogs = () => {
                     </div>
                 </div>
             </div>
+
         </>
     );
 };

@@ -7,7 +7,7 @@ const TourCarousel = ({ images, content }) => {
     return (
         <Carousel fade pause={false} controls={false}>
             {images.map((image, index) => (
-                <Carousel.Item key={index}>
+                <Carousel.Item key={index} >
                     <Image src={image.src} alt={`Slide ${index + 1}`} width={3000} height={2000} />
                     <Carousel.Caption>
                         <div className="days-banner-content">

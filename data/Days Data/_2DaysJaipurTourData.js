@@ -119,7 +119,7 @@ export const packageData = [
 export const tourFaq = {
   questions: [
     {
-      question: `What Does Our 2-Day Jaipur Tour Package Encompass? `,
+      question: `What Does Our 2-Day Jaipur Tour Package Encompass?`,
       answer: `Our ${temp.bold(
         `2-Day Jaipur Tour Package`
       )} covers accommodations, meals, transportation services and guided visits of popular attractions like Amber Fort and City Palace.`,

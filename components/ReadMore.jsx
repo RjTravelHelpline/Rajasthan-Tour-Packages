@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-export default function ReadMoreToggle({ children, buttonText  }) {
+export default function ReadMoreToggle({ children, buttonText }) {
     const [readMore, setReadMore] = useState(false);
 
     const handleReadMore = () => {
@@ -15,10 +15,10 @@ export default function ReadMoreToggle({ children, buttonText  }) {
             {readMore && <div>{children}</div>}
 
             <button
-                className="read-more-btn d-flex position-absolute bottom-0 home-read-more bg-transparent"
+                className="read-more-btn d-flex position-absolute bottom-0"
                 onClick={handleReadMore}
             >
-                {readMore ? <>Show Less</> : <>Read More</>}
+                {readMore ? <>Less</> : <>More</>}
             </button>
         </>
     );

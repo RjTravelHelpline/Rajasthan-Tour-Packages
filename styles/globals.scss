@@ -38,6 +38,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+body li {
+  font-family: var(--font-head);
+  font-size: clamp(0.9em, 2vw, 0.9em);
+}
 .color-tertary {
   color: var(--color-tertary);
 }
@@ -175,6 +179,9 @@ body {
     color: var(--color-primary);
     border-radius: var(--border-r-default);
   }
+  input {
+    font-size: clamp(0.9em, 2vw, 1.1em);
+  }
 
   button:active {
     transform: scale(0.95);
@@ -282,23 +289,16 @@ body {
 
 // read more button
 .read-more-btn {
-  padding: 0 !important;
   color: var(--color-tertary) !important;
   font-size: 0.9em !important;
-  background-color: transparent !important;
-}
-.read-more-btn:hover {
-  color: var(--color-primary) !important;
-  background-color: var(--color-tertary) !important;
-  filter: brightness(1) !important;
-}
-.home-read-more {
-  color: var(--color-black) !important;
-  text-transform: uppercase;
-  padding: 6px 16px !important;
+  background-color: var(--color-tertary-down);
   right: 0;
+  padding: 6px 12px;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
+}
+.read-more-btn:hover {
+  filter: brightness(1) !important;
 }
 
 .explore-btn {
@@ -384,15 +384,6 @@ body {
     right: 12px;
     padding: 20px !important;
   }
-}
-
-.blog-header {
-  background: linear-gradient(
-    50deg,
-    var(--color-black),
-    var(--color-secondary)
-  );
-  color: var(--color-primary);
 }
 
 .toast {
@@ -691,4 +682,10 @@ table {
   font-size: 2em;
   padding: 8px;
   border-radius: 999px;
+}
+
+.copyright {
+  font-weight: normal;
+  font-size: 0.85em;
+  font-family: var(--font-head);
 }

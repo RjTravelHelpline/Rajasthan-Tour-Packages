@@ -21,7 +21,7 @@ const About = () => {
     return (
         <>
             <Breadcrumb breadcrumbKey="aboutUs" />
-            <div id="about" className="py-4 container-fluid">
+            <div id="about-us" className="py-4 container-fluid">
                 <div className="container about my-5">
                     <div className="row py-4">
                         <div className="col-12 about-col1 col-sm-12 col-md-12 py-4">

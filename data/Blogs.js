@@ -133,9 +133,29 @@ export const getBlogsByCategory = (blogs, category) => {
   );
 };
 
-// * Tour & Travels
-// * Food
-// * Wildlife
-// * History & Culture
-// * Fair & Festivals
-// * News & Updates
+export const blogCategories = [
+  {
+    path: '/food',
+    text: 'food',
+  },
+  {
+    path: '/wildlife',
+    text: 'wildlife',
+  },
+  {
+    path: '/tour-and-travels',
+    text: 'tour & travels',
+  },
+  {
+    path: '/history-and-culture',
+    text: 'history & culture',
+  },
+  {
+    path: '/news-and-updates',
+    text: 'News & Updates',
+  },
+  {
+    path: '/fair-and-festivals',
+    text: 'Fair & Festivals',
+  },
+];

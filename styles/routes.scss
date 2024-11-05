@@ -95,8 +95,8 @@ p {
       border-radius: 16px;
       box-shadow: 0 24px 24px rgba(0, 0, 0, 0.13);
       > h2 {
-        letter-spacing: 2px;
         padding-block: 16px;
+        font-weight: 500;
         background-color: var(--color-tertary-down);
         color: var(--color-black);
         border-top-left-radius: 16px;
@@ -104,8 +104,7 @@ p {
         position: relative;
         overflow: hidden;
         text-transform: uppercase !important;
-        font-size: clamp(1.45em, 2.5vw, 1.85em) !important;
-
+        font-size: clamp(1.4em, 2vw, 1.65em) !important;
         &::after {
           content: '';
           height: 12px;
@@ -194,7 +193,6 @@ p {
   position: sticky;
   top: 84px;
   .sidebar-menu {
-    background-color: var(--color-primary);
     padding: 16px;
     display: flex;
     flex-direction: column;
@@ -203,24 +201,50 @@ p {
     z-index: 99;
     box-shadow: 16px 16px 16px #00000018;
     transition: all 0.3s ease-out;
-    border-radius: 16px !important;
     border: 1px solid var(--color-gray);
-    &.show {
-      transform: translateX(0);
-    }
-    a {
-      color: var(--color-tertary);
-      text-decoration: none;
-      padding: 12px 0;
+    border-top: 2px solid var(--color-tertary);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    .list-group-item {
+      padding: 0;
+      &:hover {
+        cursor: pointer;
+        background-color: var(--color-tertary-down) !important;
+        border-left: 1px solid var(--color-tertary);
+      }
+      &:hover a {
+        color: var(--color-black);
+      }
+      a {
+        padding: 12px;
+        width: 100% !important;
+        font-weight: 700 !important;
+        font-size: inherit;
+      }
     }
   }
 }
 
-.destination {
+.side-nav {
+  @media (max-width: 900px) {
+    display: none;
+  }
   h2 {
-    font-size: clamp(1.2em, 2vw, 1.6em);
+    font-size: clamp(0.85em, 1em + 2vw, 1.4em);
   }
   p {
     font-size: clamp(0.85em, 1em + 2vw, 1em);
   }
+}
+
+.destination-accordion-head {
+  font-size: clamp(1em, 1.5vw, 2em) !important;
+  text-transform: capitalize !important;
+  color: var(--color-tertary);
+}
+.destination-accordion-para {
+  font-size: clamp(0.85em, 0.85vw, 1em) !important;
+}
+.destination-accordion-content {
+  font-size: clamp(0.85em, 1vw, 1em) !important;
 }

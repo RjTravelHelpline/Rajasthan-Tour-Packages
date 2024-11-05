@@ -1,12 +1,10 @@
-.header {
+.header,
+.blog-nav {
   .row {
     z-index: 999;
     background-color: transparent !important;
     transition: background-color 0.25s ease-in-out, top 0.25s ease-in-out;
     box-shadow: none !important;
-    // &.scrolled .mobile-hamburgur {
-    //   color: var(--color-secondary) !important;
-    // }
     &.scrolled {
       background-color: var(--color-primary) !important;
       box-shadow: var(--color-shadow) !important;
@@ -531,16 +529,7 @@
       }
     }
   }
-  .row:last-child {
-    .copyright {
-      font-weight: normal;
-      font-size: 0.85em;
-      font-family: var(--font-head);
-      span {
-        color: var(--color-tertary);
-      }
-    }
-  }
+  
   a {
     color: var(--color-border) !important;
     font-weight: normal;
@@ -888,7 +877,11 @@
   }
   cursor: pointer;
 }
-
+.modal-dialog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 // image model
 .modal-overlay {
   position: fixed;
@@ -1066,6 +1059,7 @@
     position: fixed;
     bottom: 78px;
     right: 16px;
+    z-index: 999;
     background-color: var(--color-tertary);
     border-radius: 999px;
     box-shadow: var(--color-shadow);
