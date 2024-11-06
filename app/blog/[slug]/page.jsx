@@ -1,7 +1,5 @@
-import CommentSection from '@/components/commentSection';
 import { blogs } from '@/data/Blogs';
 import Image from 'next/image';
-import { BiSolidCommentDetail } from 'react-icons/bi';
 
 export async function generateStaticParams() {
     return blogs.map((blog) => ({
