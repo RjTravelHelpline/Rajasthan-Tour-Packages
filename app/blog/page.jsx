@@ -1,19 +1,25 @@
+import { BlogDataSection } from "@/components/BlogDataSection";
+import RTPNav from "@/components/RTPNav";
 import SearchBar from "@/components/SearchBar";
-import SlickSlider from "@/components/SlickSlider";
 import { blogs, getBlogsByCategory, getLatestBlogs } from "@/data/Blogs";
-import Image from "next/image";
-import Link from "next/link";
+import { FaUtensils, FaPaw, FaLandmark, FaTheaterMasks, FaPlane, FaNewspaper } from "react-icons/fa";
+
 
 const Blogs = () => {
     const latestBlogs = getLatestBlogs(blogs);
     const travelBlogs = getBlogsByCategory(blogs, "tour & travels")
     const foodBlogs = getBlogsByCategory(blogs, "food")
+    const historyBlogs = getBlogsByCategory(blogs, "history & culture")
+    const wildlifeBlogs = getBlogsByCategory(blogs, "wildlife")
+    const festivalsBlogs = getBlogsByCategory(blogs, "fair & festivals")
+    const newsBlogs = getBlogsByCategory(blogs, "news & updates")
 
     return (
         <>
             <div className="container-fluid bg-black blog-header text-white py-5 pt-5">
                 <div className="row py-3 mt-5">
-                    <h1 className="text-center text-capitalize">blog</h1>
+                    <h1 className="text-center text-uppercase blog-head mb-3">blog</h1>
+                    <h2 className="blog-subhead text-center text-capitalize fw-normal">Find the Best <span className="blog-subhead-gradient">Travel Spots, Food</span> & <span className="blog-subhead-gradient">Heritage Sites</span>  across India.</h2>
                 </div>
                 <div className="row py-3 justify-content-center align-items-center">
                     <div className="col-lg-6 col-md-8 col-sm-10 px-4">
@@ -21,151 +27,35 @@ const Blogs = () => {
                     </div>
                 </div>
             </div>
-            <div className="container-fluid py-5 section-01">
-                <div className="container blogs">
-                    <div className="row px-2">
-                        <h3 className="text-center text-uppercase">latest <span className='color-tertary'>insights</span></h3>
-                    </div>
-                    <div className="row d-flex justify-content-center py-2">
-                        <SlickSlider settings={{ slideszToShow: 3 }}>
-                            {latestBlogs.slice(0, 4).map((blog) => {
-                                const visibleDescription =
-                                    blog.description.split(' ').slice(0, 5).join(' ') + '...';
-                                return (
-                                    <div
-                                        className={`col-lg-6 col-md-6 col-sm-12 px-2  mb-3 overflow-auto py-2 d-flex justify-content-between align-items-stretch`}
-                                        key={blog.date}
-                                    >
-                                        <Link href={`/blog/${blog.slug}`} className="w-100">
-                                            <div className="blog-card d-flex flex-column justify-content-between rounded-4 w-100 p-2">
-                                                <div className="blog-image-container w-100 mb-3">
-                                                    <Image
-                                                        src={blog.image}
-                                                        alt={blog.heading}
-                                                        className="img-fluid"
-                                                        width={800}
-                                                        height={600}
-                                                    />
-                                                </div>
-                                                <p className="blog-category mb-0">{blog.category}</p>
-                                                <h3 className="blog-heading">{blog.heading}</h3>
-                                                <p className="mb-2">{visibleDescription}</p>
-                                                <div className="row d-flex justify-content-start w-100 align-items-center">
-                                                    <p className="text-muted w-auto blog-author mb-0">
-                                                        {blog.author}
-                                                    </p>
-                                                    <p className="text-muted w-auto px-0 blog-dot mb-0">
-                                                        ▪
-                                                    </p>
-                                                    <p className="text-muted w-auto blog-date mb-0">
-                                                        {blog.date}
-                                                    </p>
-                                                </div>
-                                            </div>
-                                        </Link>
-                                    </div>
-                                );
-                            })}
-                        </SlickSlider>
-                    </div>
+            <RTPNav />
+            <div className="container-fluid px-0">
+                <div className="row tour-packages-nav blog-data-nav">
+                    <a href="#from-food">
+                        <FaUtensils className="me-1 color-tertary icon" /> Food
+                    </a>
+                    <a href="#from-wildlife">
+                        <FaPaw className="me-1 color-tertary icon" /> Wildlife
+                    </a>
+                    <a href="#from-history-and-culture">
+                        <FaLandmark className="me-1 color-tertary icon" /> History & Culture
+                    </a>
+                    <a href="#from-fair-and-festivals">
+                        <FaTheaterMasks className="me-1 color-tertary icon" /> Fair & Festivals
+                    </a>
+                    <a href="#from-tour-and-travels">
+                        <FaPlane className="me-1 color-tertary icon" /> Tour & Travels
+                    </a>
+                    <a href="#from-news-and-updates">
+                        <FaNewspaper className="me-1 color-tertary icon" /> News & Updates
+                    </a>
                 </div>
+                <BlogDataSection category="food" Data={foodBlogs} />
+                <BlogDataSection category="wildlife" Data={wildlifeBlogs} />
+                <BlogDataSection category="history-and-culture" Data={historyBlogs} />
+                <BlogDataSection category="fair-and-festivals" Data={festivalsBlogs} />
+                <BlogDataSection category="tour-and-travels" Data={travelBlogs} />
+                <BlogDataSection category="news-and-updates" Data={newsBlogs} />
             </div>
-            <div className="container-fluid py-5 section-01">
-                <div className="container blogs">
-                    <div className="row px-2">
-                        <h3 className="text-center text-uppercase">from <span className='color-tertary'>tour & travels</span></h3>
-                    </div>
-                    <div className="row d-flex justify-content-center py-2">
-                        {travelBlogs.map((blog) => {
-                            const visibleDescription =
-                                blog.description.split(' ').slice(0, 5).join(' ') + '...';
-                            return (
-                                <div
-                                    className={`col-12 col-lg-6 col-md-6 col-sm-12 px-2 mb-3 overflow-auto py-2 d-flex justify-content-center`}
-                                    key={blog.date}
-                                >
-                                    <Link href={`/blog/${blog.slug}`}>
-                                        <div className="blog-card w-100 d-flex flex-column justify-content-between rounded-4 w-100 p-2">
-                                            <div className="blog-image-container w-100 mb-3">
-                                                <Image
-                                                    src={blog.image}
-                                                    alt={blog.heading}
-                                                    className="img-fluid"
-                                                    width={800}
-                                                    height={600}
-                                                />
-                                            </div>
-                                            <p className="blog-category mb-0">{blog.category}</p>
-                                            <h3 className="blog-heading">{blog.heading}</h3>
-                                            <p className="mb-2">{visibleDescription}</p>
-                                            <div className="row d-flex justify-content-start w-100 align-items-center">
-                                                <p className="text-muted w-auto blog-author mb-0">
-                                                    {blog.author}
-                                                </p>
-                                                <p className="text-muted w-auto px-0 blog-dot mb-0">
-                                                    ▪
-                                                </p>
-                                                <p className="text-muted w-auto blog-date mb-0">
-                                                    {blog.date}
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </Link>
-                                </div>
-                            );
-                        })}
-                    </div>
-                </div>
-            </div>
-            <div className="container-fluid py-5 section-01">
-                <div className="container blogs">
-                    <div className="row px-2">
-                        <h3 className="text-center text-uppercase">from <span className='color-tertary'>food</span>
-                        </h3>
-                    </div>
-                    <div className="row d-flex justify-content-center py-2">
-                        {foodBlogs.map((blog) => {
-                            const visibleDescription =
-                                blog.description.split(' ').slice(0, 5).join(' ') + '...';
-                            return (
-                                <div
-                                    className={`col-lg-4 col-md-6 col-sm-12 px-2  mb-3 overflow-auto py-2 d-flex justify-content-between align-items-stretch`}
-                                    key={blog.date}
-                                >
-                                    <Link href={`/blog/${blog.slug}`}>
-                                        <div className="blog-card d-flex flex-column justify-content-between rounded-4 w-100 p-2">
-                                            <div className="blog-image-container w-100 mb-3">
-                                                <Image
-                                                    src={blog.image}
-                                                    alt={blog.heading}
-                                                    className="img-fluid"
-                                                    width={800}
-                                                    height={600}
-                                                />
-                                            </div>
-                                            <p className="blog-category mb-0">{blog.category}</p>
-                                            <h3 className="blog-heading">{blog.heading}</h3>
-                                            <p className="mb-2">{visibleDescription}</p>
-                                            <div className="row d-flex justify-content-start w-100 align-items-center">
-                                                <p className="text-muted w-auto blog-author mb-0">
-                                                    {blog.author}
-                                                </p>
-                                                <p className="text-muted w-auto px-0 blog-dot mb-0">
-                                                    ▪
-                                                </p>
-                                                <p className="text-muted w-auto blog-date mb-0">
-                                                    {blog.date}
-                                                </p>
-                                            </div>
-                                        </div>
-                                    </Link>
-                                </div>
-                            );
-                        })}
-                    </div>
-                </div>
-            </div>
-
         </>
     );
 };

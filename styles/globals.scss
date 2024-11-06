@@ -63,8 +63,8 @@ body li {
 }
 
 ::-webkit-scrollbar-button {
-  background-color: var(--color-secondary) !important;
-  // display: none;
+  background-color: var(--color-black) !important;
+  display: none;
 }
 
 ::-webkit-scrollbar-track {
@@ -73,8 +73,8 @@ body li {
 }
 
 ::-webkit-scrollbar {
-  display: none;
-  // width: 4px;
+  // display: none;
+  width: 4px;
 }
 .section-01 {
   background: linear-gradient(

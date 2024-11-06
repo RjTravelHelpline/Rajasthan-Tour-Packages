@@ -1,3 +1,18 @@
+.blog-subhead {
+  font-size: clamp(1.2em, 2vw, 2.4em) !important;
+}
+.blog-subhead-gradient {
+  background: linear-gradient(
+    45deg,
+    var(--color-tertary),
+    var(--color-tertary),
+    var(--color-tertary),
+    #643c3c67
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
+}
 .blogs {
   .blog-card,
   .first-blog {
@@ -237,31 +252,50 @@
     }
   }
 }
-
 .blog-search-bar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   input {
-    width: 100%;
+    width: 80%;
     border: 2px solid transparent;
     border-radius: 999px;
     padding: 20px 20px;
     font-family: var(--font-head);
     transition: 0.2s ease-in-out;
+
     &:hover {
-      box-shadow: 0 0 22px -4px var(--color-tertary);
+      box-shadow: 0 0 2px 0px var(--color-tertary);
+      animation: shadow-grow 1s infinite alternate;
     }
     &:focus {
+      width: 100%;
       outline: none;
-      box-shadow: 0 0 0px 2px var(--color-tertary) !important;
+      box-shadow: 0 0 2px 2px var(--color-tertary);
+      animation: shadow-grow 1.5s infinite alternate;
+    }
+  }
+  @keyframes shadow-grow {
+    0% {
+      box-shadow: 0 0px 0px 0px var(--color-tertary);
+    }
+    100% {
+      box-shadow: 0 0px 10px 2px var(--color-tertary);
     }
   }
   .search-results {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    overflow-y: auto;
     background-color: var(--color-primary);
     border-radius: 16px;
     display: flex;
     justify-content: start;
     align-items: center;
     flex-direction: column;
-    overflow: hidden;
     margin: 0 auto;
     padding: 0;
     li:not(.no-results) {
@@ -286,6 +320,17 @@
     }
   }
 }
+.blog-search-bar {
+  > div {
+    position: relative;
+    .input-clear-button {
+      position: absolute;
+      right: 12px;
+      bottom: 50%;
+      transform: translateY(50%);
+    }
+  }
+}
 
 .blog-nav {
   position: fixed;
@@ -302,6 +347,9 @@
       font-family: var(--font-head);
     }
   }
+  .blog-mobile-ham {
+    background-color: var(--color-tertary) !important;
+  }
 }
 
 .blog-nav {
@@ -317,6 +365,15 @@
   .nav-links {
     @media screen and (max-width: 1000px) {
       display: none !important;
+    }
+  }
+}
+
+.blog-data-nav {
+  top: 70px !important;
+  a.acive {
+    .icon {
+      color: var(--color-black) !important;
     }
   }
 }

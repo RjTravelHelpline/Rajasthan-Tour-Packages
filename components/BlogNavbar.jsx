@@ -12,7 +12,6 @@ const BlogNavbar = () => {
     const [ismobile, setIsmobile] = useState(false);
     const [showNavigation, setShowNavigation] = useState(false);
     const [activeIndex, setActiveIndex] = useState(null);
-    const [contactPopup, setContactPopup] = useState(false);
 
     // Handle scroll events
     useEffect(() => {
@@ -75,27 +74,9 @@ const BlogNavbar = () => {
                         </Link>
                     </div>
                     <div className="col d-flex justify-content-end align-items-center nav-links">
-                        <div className="nav-item blog-nav-item">
-                            <span className="px-0 mx-3 py-4 text-nowrap text-uppercase anchor-link">
-                                categories <IoIosArrowDown className="dropdown-icon" />
-                            </span>
-                            <div className="dropdown-menu blog-nav-dropdown">
-                                {blogCategories.map((link, index) => (
-                                    <Link
-                                        key={index}
-                                        href={`/blog/categories/${link.path}`}
-                                        className="w-100 d-block d-flex justify-content-start align-items-center gap-1"
-                                    >
-                                        <icon className="dropdown-icon02">≻</icon>
-                                        {link.text}
-                                    </Link>
-                                ))}
-                            </div>
-                        </div>
-
                         <div className="nav-item">
                             <Link
-                                href="/"
+                                href="/blog"
                                 className="px-0 mx-3 py-4 text-nowrap text-uppercase"
                                 activeclassname="active"
                             >
@@ -115,7 +96,7 @@ const BlogNavbar = () => {
                     </div>
                     {ismobile && (
                         <button
-                            className="d-flex justify-content-center align-items-center p-3 rounded-5 bg-black shadow-none mobile-ham"
+                            className="d-flex justify-content-center align-items-center p-3 rounded-5 bg-black shadow-none mobile-ham blog-mobile-ham "
                             onClick={handleNavigation}
                         >
                             <FaGripLines />

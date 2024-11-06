@@ -400,9 +400,9 @@
       filter: brightness(1) !important;
     }
     &.active {
-      background-color: var(--color-tertary) !important;
+      background-color: var(--color-tertary-down) !important;
+      border-bottom: 2px solid var(--color-tertary);
       color: var(--color-primary);
-      font-weight: bold !important;
       filter: brightness(1) !important;
     }
   }
@@ -529,7 +529,7 @@
       }
     }
   }
-  
+
   a {
     color: var(--color-border) !important;
     font-weight: normal;
