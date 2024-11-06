@@ -23,7 +23,7 @@ const Udaipur = () => {
   return (
     <>
       <Breadcrumb breadcrumbKey="udaipur" />
-      
+
     </>
   );
 };
