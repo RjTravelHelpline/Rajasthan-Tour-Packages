@@ -1,3 +1,4 @@
+import SearchBar from '@/components/SearchBar';
 import { blogCategories, blogs } from '@/data/Blogs';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -36,7 +37,11 @@ const BlogPost = ({ params }) => {
                             <p style={{ fontWeight: 500 }}>{blog.description}</p>
                             <p>{blog.more}</p>
                         </div>
-                        <div className="col-lg-3 col-ms-12 col-sm-12 side-nav">
+                        <div className="col-lg-3 col-ms-12 col-sm-12 side-nav px-0">
+                            <div className="sidebar-menu w-100 z-9999 mb-3">
+                                <h2 className="text-capitalize">search</h2>
+                                <SearchBar blogs={blogs} styles="rounded-4 w-100 p-3"/>
+                            </div>
                             <div className="sidebar-menu w-100 z-9999 mb-3">
                                 <h2 className="text-capitalize">category</h2>
                                 <ul className="list-group list-group-flush w-100">

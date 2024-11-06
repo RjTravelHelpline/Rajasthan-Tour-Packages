@@ -1,4 +1,5 @@
 import { BlogDataSection } from "@/components/BlogDataSection";
+import HorizontalScrollBlogs from "@/components/HorizontalScrollBlogs";
 import RTPNav from "@/components/RTPNav";
 import SearchBar from "@/components/SearchBar";
 import { blogs, getBlogsByCategory, getLatestBlogs } from "@/data/Blogs";
@@ -16,15 +17,17 @@ const Blogs = () => {
 
     return (
         <>
-            <div className="container-fluid bg-black blog-header text-white py-5 pt-5">
-                <div className="row py-3 mt-5">
+            <div className="container-fluid bg-black blog-header text-white pt-5 pt-5">
+                <div className="row py-3 mt-5 d-flex justify-content-center align-items-center">
                     <h1 className="text-center text-uppercase blog-head mb-3">blog</h1>
-                    <h2 className="blog-subhead text-center text-capitalize fw-normal">Find the Best <span className="blog-subhead-gradient">Travel Spots, Food</span> & <span className="blog-subhead-gradient">Heritage Sites</span>  across India.</h2>
                 </div>
                 <div className="row py-3 justify-content-center align-items-center">
                     <div className="col-lg-6 col-md-8 col-sm-10 px-4">
                         <SearchBar blogs={blogs} />
                     </div>
+                </div>
+                <div className="row">
+                    <HorizontalScrollBlogs blogs={latestBlogs} />
                 </div>
             </div>
             <RTPNav />

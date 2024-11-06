@@ -2,9 +2,11 @@
 import { blogCategories } from '@/data/Blogs';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
-import { Dropdown } from 'react-bootstrap';
-import { FaGripLines, FaGripLinesVertical, FaHome } from 'react-icons/fa';
+import { Dropdown, Modal } from 'react-bootstrap';
+import { FaGripLines, FaGripLinesVertical, FaHome, FaInbox, FaLocationArrow } from 'react-icons/fa';
 import { IoIosArrowDown, IoMdArrowDropdown, IoMdClose } from 'react-icons/io';
+import ContactForm from './ContactForm';
+import { FaMessage } from 'react-icons/fa6';
 
 const BlogNavbar = () => {
     const [show, setShow] = useState(false);
@@ -12,13 +14,15 @@ const BlogNavbar = () => {
     const [ismobile, setIsmobile] = useState(false);
     const [showNavigation, setShowNavigation] = useState(false);
     const [activeIndex, setActiveIndex] = useState(null);
+    const [selectedPackage, setSelectedPackage] = useState('');
+
 
     // Handle scroll events
     useEffect(() => {
         const handleScroll = () => {
             if (typeof window !== "undefined") {
                 const scrollTop = window.scrollY;
-                setIsScrolled(scrollTop > 30); // Adjust the scroll value as needed
+                setIsScrolled(scrollTop > 30);
             }
         };
 
@@ -53,8 +57,17 @@ const BlogNavbar = () => {
 
     // Mobile dropdown handling
     const handleMobileDropdown = (index) => {
-        setActiveIndex(activeIndex === index ? null : index); // Toggle the active class
+        setActiveIndex(activeIndex === index ? null : index);
     };
+
+
+
+    const handleClose = () => setShow(false);
+    const handleShow = (title) => {
+        setSelectedPackage(title);
+        setShow(true);
+    };
+
     return (
         <>
             <div
@@ -73,7 +86,7 @@ const BlogNavbar = () => {
                             </p>
                         </Link>
                     </div>
-                    <div className="col d-flex justify-content-end align-items-center nav-links">
+                    <div className="col d-flex justify-content-center align-items-center nav-links">
                         <div className="nav-item">
                             <Link
                                 href="/blog"
@@ -92,7 +105,40 @@ const BlogNavbar = () => {
                                 home
                             </Link>
                         </div>
+                        <div className="nav-item">
+                            <Link
+                                href="/"
+                                className="px-0 mx-3 py-4 text-nowrap text-uppercase"
+                                activeclassname="active"
+                            >
+                                contact us
+                            </Link>
+                        </div>
 
+                    </div>
+                    <div className="col d-flex justify-content-end align-items-end">
+                        <div
+                            className={`col d-flex justify-content-end align-items-center ${!ismobile ? 'gap-3' : 'gap-1'
+                                }`}
+                        >
+                            {!ismobile && (
+                                <button
+                                    className="d-flex justify-content-center align-items-center gap-2 rounded-5" style={{ fontWeight: '500', textTransform: "capitalize" }}
+                                    onClick={handleShow}
+                                >
+                                    <FaMessage className="icon text-black" />
+                                    enquiry
+                                </button>
+                            )}
+                            {ismobile && (
+                                <button
+                                    className="d-flex justify-content-center align-items-center p-3 rounded-5 bg-black shadow-none mobile-ham"
+                                    onClick={handleNavigation}
+                                >
+                                    <FaGripLines />
+                                </button>
+                            )}
+                        </div>
                     </div>
                     {ismobile && (
                         <button
@@ -169,7 +215,17 @@ const BlogNavbar = () => {
                             home
                         </Link>
                     </div>
-
+                    <div className="nav-mobile-item d-flex justify-content-center align-items-start flex-column">
+                        <Link
+                            href="/contact-us"
+                            onClick={() => {
+                                setShowNavigation(false);
+                            }}
+                            className="route"
+                        >
+                            contact-us
+                        </Link>
+                    </div>
                     <hr />
                 </div>
                 <div className=" w-100 row p-0 py-5 mobile-navigation-footer d-flex justify-content-center align-items-center bg-black text-white position-relative">
@@ -184,6 +240,28 @@ const BlogNavbar = () => {
                     </div>
                 </div>
             </div>
+
+
+
+            {/* Modal for Contact Form */}
+            <Modal
+                show={show}
+                onHide={handleClose}
+                centered
+                className="contact-model w-100"
+            >
+                <Modal.Body className="model-body ">
+                    <ContactForm onSuccess={handleClose} />{' '}
+                </Modal.Body>
+                <Modal.Footer className="d-flex justify-content-center align-items-center w-100 border-0 model-close pt-0">
+                    <button
+                        className="bg-black d-flex justify-content-center align-items-center p-3 border-0 rounded-5"
+                        onClick={handleClose}
+                    >
+                        <IoMdClose />
+                    </button>
+                </Modal.Footer>
+            </Modal>
         </>
     );
 };

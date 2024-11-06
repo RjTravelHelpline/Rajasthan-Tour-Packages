@@ -73,7 +73,7 @@ body li {
 }
 
 ::-webkit-scrollbar {
-  // display: none;
+  display: none;
   width: 4px;
 }
 .section-01 {
@@ -145,6 +145,11 @@ body {
     @media screen and (max-width: 768px) {
       font-size: 1.25em !important;
     }
+  }
+  h4 {
+    font-family: var(--font-head);
+    font-size: clamp(1.2em, 1.5vw, 1.5em);
+    font-weight: bold;
   }
 
   p {

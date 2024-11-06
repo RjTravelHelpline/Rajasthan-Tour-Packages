@@ -1,6 +1,3 @@
-.blog-subhead {
-  font-size: clamp(1.2em, 2vw, 2.4em) !important;
-}
 .blog-subhead-gradient {
   background: linear-gradient(
     45deg,
@@ -13,6 +10,46 @@
   -webkit-text-fill-color: transparent;
   font-weight: bold;
 }
+.scroll-container {
+  width: max-content !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: auto;
+  white-space: nowrap;
+  animation: scroll 20s linear infinite;
+}
+.scroll-wrapper {
+  overflow: hidden;
+  width: 100%;
+}
+.scroll-container::-webkit-scrollbar {
+  display: none !important;
+}
+.scroll-container:hover {
+  animation-play-state: paused;
+}
+
+.scroll-container > div {
+  width: auto !important;
+  display: inline-block;
+  margin-right: 12px;
+  background-color: #ffffff18;
+  border-radius: 16px;
+  &:hover p {
+    text-decoration: underline;
+  }
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
 .blogs {
   .blog-card,
   .first-blog {
@@ -265,24 +302,14 @@
     padding: 20px 20px;
     font-family: var(--font-head);
     transition: 0.2s ease-in-out;
-
+    box-shadow: 0 0 0px 2px var(--color-tertary-down);
     &:hover {
-      box-shadow: 0 0 2px 0px var(--color-tertary);
-      animation: shadow-grow 1s infinite alternate;
+      box-shadow: 0 0 0px 2px var(--color-black);
     }
     &:focus {
       width: 100%;
       outline: none;
-      box-shadow: 0 0 2px 2px var(--color-tertary);
-      animation: shadow-grow 1.5s infinite alternate;
-    }
-  }
-  @keyframes shadow-grow {
-    0% {
-      box-shadow: 0 0px 0px 0px var(--color-tertary);
-    }
-    100% {
-      box-shadow: 0 0px 10px 2px var(--color-tertary);
+      box-shadow: 0 0 0px 2px var(--color-tertary);
     }
   }
   .search-results {
@@ -370,10 +397,20 @@
 }
 
 .blog-data-nav {
-  top: 70px !important;
+  top: 74px !important;
+  @media screen and (max-width: 768px) {
+    top: 70px !important;
+  }
   a.acive {
     .icon {
       color: var(--color-black) !important;
     }
+  }
+}
+
+.blog-footer-links {
+  font-size: clamp(0.85em, 1vw, 1.1em);
+  &:hover {
+    color: var(--color-tertary) !important;
   }
 }
