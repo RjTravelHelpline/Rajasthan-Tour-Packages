@@ -115,7 +115,7 @@ const Jaipur = () => {
             </div>
           </div>
           {/* Sidebar Navigation */}
-          <div className="col-lg-3 col-sm-12 col-md-12 side-nav">
+          <div className="col-lg-3 col-sm-12 col-md-12 side-nav px-0">
             <SideNavigation sections={sections} offset={80} />
           </div>
         </div>

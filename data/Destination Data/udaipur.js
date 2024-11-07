@@ -8,7 +8,6 @@ export const about = {
   content: [
     `Udaipur, commonly named the City of Lakes, is a lovely city found in Rajasthan's south-central locale and renowned worldwide for its wealthy social history and breathtaking common scenes, along with radiant royal residences lining its lakeshores and breathtaking hillsides. It was built by Maharana Udai Singh II in 1559 as an idyllic retreat destination with scenic lakes, lush hillsides, and intricate architecture attracting visitors from across the world!`,
     `Udaipur nestles amidst the Aravalli Range and is famous for its three tranquil lakes: Pichola Lake, Fateh Sagar Lake and Udai Sagar Lake. Udaipur was once known for its rich history, valor and royal architecture not to mention warm hospitality from local people - making Udaipur stand out. A stunning landscape complete with rich cultural significance make Udaipur an essential stop-off on any journey through Rajasthan; so don't pass up this stop on your itinerary!`,
-    `Udaipur offers beautiful sunset scenes that photographers adore photographing, along with vibrant Rajasthani folk music performances and lively festivals that capture visitors' hearts year-round - experiences sure to please visitors at every step. Udaipur offers ideal weather for sightseeing tours and outdoor recreation from September through March. Pleasant temperatures create optimal conditions for exploration tours around this marvelous city, making sightseeing an enjoyable experience in addition to sightseeing itself! Udaipur offers some stunning sights at sunrise/sunset that leave photographers spellbound, particularly around sunset! Photography enthusiasts dream of going there to capture moments captured forever through camera lenses.`,
   ],
 };
 
@@ -154,28 +153,32 @@ export const excursions = {
     },
   ],
 };
-
-export const shopping = {
+export const restaurantsandmore = {
   content: [
     {
-      day: 'Johari Bazaar',
-      title: 'Famous for its exquisite jewelry',
-      content: `Famous for its exquisite jewelry, including traditional Rajasthani designs and contemporary pieces.`,
+      day: 'Dal Baati Churma',
+      title: 'authentic Rajasthani food and flavor',
+      content: `To experience authentic Rajasthani food and flavor, don't miss Dal Baati Churma: round wheat balls called baati served alongside lentil curry known as daal, and a sweet dish made by milling crushed wheat into flour known as Churma. These mouthwatering bites should not be missed on any trip to Rajasthan! This delectably fulfilling dish adds zest and energy to any culinary adventure.`,
     },
     {
-      day: 'Bapu Bazaar',
-      title: 'colorful fabrics and handicrafts',
-      content: `Ideal for souvenirs and traditional Rajasthani textiles, including colorful fabrics and handicrafts`,
+      day: 'Gatte Ki Sabzi',
+      title: 'gram flour dumplings in a fragrant yogurt-based sauce',
+      content: `Gatte Ki Sabzi is a tasty Rajasthani curry that features gram flour dumplings stewed in an aromatic yogurt-based sauce, offering maximum flavor. This dish is perfect as either a lunch or dinner option and gives a delicious taste of Rajasthani cuisine.`,
     },
     {
-      day: 'Tripolia Bazar',
-      title: 'lac bangles and brassware',
-      content: `Known for its lac bangles and brassware, offering a glimpse into Jaipur's traditional craftsmanship.`,
+      day: 'Laal Maas/Lamb Curry',
+      title: 'spicy lamb curry with red chilies and fragrant spices',
+      content: `Laal Maas, also known as Lamb Curry, is an irresistibly spicy blend of lamb meatballs seasoned with red chilies and fragrant spices. Loved both locally and by visitors, Laal Maas is a must-try dish for anyone looking for an authentic taste of Rajasthani food while touring the region.`,
     },
     {
-      day: 'MI Road',
-      title: 'high-end boutiques and local shops',
-      content: `A bustling commercial street where you can find a mix of high-end boutiques and local shops.`,
+      day: 'Rajasthani Sweets',
+      title: 'delicious and indulgent Rajasthani sweets',
+      content: `Udaipur is well known for its irresistibly delicious Rajasthani sweets, such as Ghevar, Malpua, and Kaju Katli. These time-honored recipes cater to those with a sweet tooth and are a must-try for anyone visiting the region.`,
+    },
+    {
+      day: 'Cultural Experiences',
+      title: 'immerse yourself in local culture and traditions',
+      content: `Udaipur offers guests numerous cultural experiences, allowing them to fully immerse themselves in the local way of life. Attend exhibitions by Ghoomar and Kathak dance groups at venues like Bagore Ki Haveli for a deeper exploration of Udaipur's rich heritage.`,
     },
   ],
 };
