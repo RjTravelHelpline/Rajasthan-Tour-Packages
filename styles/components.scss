@@ -467,6 +467,24 @@
     justify-content: start !important;
   }
 }
+
+.footer-links {
+  .blog-footer-link {
+    position: relative;
+    margin-inline: 6px; // Adjust as needed for spacing
+
+    &::after {
+      content: '|';
+      position: absolute;
+      right: -10px; // Adjust as needed for spacing
+      color: var(--color-tertary);
+    }
+
+    &:last-child::after {
+      content: '';
+    }
+  }
+}
 .footer-container,
 .packages-footer {
   .row {
@@ -538,7 +556,6 @@
     }
   }
   a:hover {
-    transform: translateX(12px);
     color: var(--color-tertary) !important;
     filter: brightness(1);
   }

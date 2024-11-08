@@ -11,7 +11,7 @@ import Script from "next/script";
 export const metadata = {
   title: 'Best Rajasthan Tours and Travels | Rajasthan Tour Packages',
   description: 'Begin our famous Rajasthan Tours and Travels. Tour places, deserts, and treasures of culture by instant booking customized packages. Your royal adventure awaits.',
-  keywords: ["Rajasthan Tours and Travels"],
+  keywords: ["Rajasthan Tours and Travels", "Rajasthan Tour Packages", "Popular Tour Packages", "Rajasthan tour by days", "Rajasthan trip", "Rajasthan tour package for families", "Rajasthan Tour from the United Kingdom"],
   alternates: {
     canonical: "https://www.rajasthantourpackages.in",
   },

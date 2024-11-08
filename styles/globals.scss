@@ -73,8 +73,10 @@ body li {
 }
 
 ::-webkit-scrollbar {
-  display: none;
+  // display: none;
   width: 4px;
+  max-width: 4px;
+  max-height: 4px;
 }
 .section-01 {
   background: linear-gradient(
@@ -192,11 +194,6 @@ body {
     transform: scale(0.95);
   }
 
-  button:hover,
-  a:hover {
-    filter: brightness(0.85);
-  }
-
   hr {
     width: 100%;
     border: none;
@@ -301,6 +298,7 @@ body {
   padding: 6px 12px;
   border-bottom-left-radius: 0;
   border-bottom-right-radius: 0;
+  text-transform: lowercase;
 }
 .read-more-btn:hover {
   filter: brightness(1) !important;
@@ -339,7 +337,8 @@ body {
 
 @media screen and (max-width: 768px) {
   ::-webkit-scrollbar {
-    display: none;
+    width: 2px;
+    max-width: 2px;
   }
 }
 

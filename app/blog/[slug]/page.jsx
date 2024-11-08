@@ -1,5 +1,5 @@
 import SearchBar from '@/components/SearchBar';
-import { blogCategories, blogs } from '@/data/Blogs';
+import { blogCategories, blogs, getBlogsByCategory } from '@/data/Blogs';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -9,10 +9,12 @@ export async function generateStaticParams() {
     }));
 }
 const BlogPost = ({ params }) => {
+
     const blog = blogs.find((b) => b.slug === params.slug);
     if (!blog) {
         return <p>Blog not found</p>;
     }
+    const filteredBlogs = getBlogsByCategory(blogs, blog.category)
     return (
         <>
             <div className="container-fluid py-4 blog-slug mt-5 pt-5">
@@ -39,8 +41,20 @@ const BlogPost = ({ params }) => {
                         </div>
                         <div className="col-lg-3 col-ms-12 col-sm-12 side-nav px-0">
                             <div className="sidebar-menu w-100 z-9999 mb-3">
-                                <h2 className="text-capitalize">search</h2>
-                                <SearchBar blogs={blogs} styles="rounded-4 w-100 p-3"/>
+                                <p className='mb-0 text-uppercase'><span className='blog-subhead-gradient d-inline'>{blog.category}</span> </p>
+                                <h2 className="text-capitalize py-1">popular <span className="fw-normal d-inline">insights</span></h2>
+                                <ul className="list-group list-group-flush w-100">
+                                    {filteredBlogs.slice(0, 3).map((item, index) => (
+                                        <li key={index} className="list-group-item ">
+                                            <Link className='w-100 d-flex px-0' href={`${item.slug}`}> <span className="color-tertary me-1">|</span> {item.heading}</Link>
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+                            <div className="sidebar-menu w-100 z-9999 mb-3 search-sidebar">
+                                <p className='mb-0 text-uppercase'><span className='blog-subhead-gradient d-inline'>{blog.category}</span></p>
+                                <h2 className="text-capitalize py-1">search</h2>
+                                <SearchBar blogs={filteredBlogs} styles="rounded-4 w-100 p-3" placeholder="search here" />
                             </div>
                             <div className="sidebar-menu w-100 z-9999 mb-3">
                                 <h2 className="text-capitalize">category</h2>
@@ -52,6 +66,7 @@ const BlogPost = ({ params }) => {
                                     ))}
                                 </ul>
                             </div>
+
                         </div>
                     </div>
                 </div>

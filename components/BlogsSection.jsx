@@ -12,7 +12,7 @@ const BlogsSection = () => {
 
   return (
     <>
-      <div className="container-fluid py-5 mb-4 section-03 position-relative">
+      <div className="container-fluid py-5 section-03 position-relative">
         <div className="container blogs px-0 py-4">
           <div className="row py-2 px-2 d-flex justify-content-center align-items-center">
             <h2 className="w-auto text-capitalize home-head">

@@ -210,7 +210,6 @@ p {
       &:hover {
         cursor: pointer;
         background-color: var(--color-tertary-down) !important;
-        border-left: 1px solid var(--color-tertary);
       }
       &:hover a {
         color: var(--color-black);
@@ -226,8 +225,20 @@ p {
 }
 
 .side-nav {
-  @media (max-width: 900px) {
-    display: none;
+  .sidebar-menu {
+    @media (max-width: 900px) {
+      display: none;
+    }
+  }
+  :nth-child(2) {
+    @media (max-width: 900px) {
+      display: block;
+    }
+  }
+  :nth-child(1) {
+    @media (max-width: 900px) {
+      display: block;
+    }
   }
   h2 {
     font-size: clamp(0.85em, 1em + 2vw, 1.4em);

@@ -52,7 +52,7 @@ const PackagesByCities = () => {
                 matter where you start your adventure.
               </>
             )}
-            <button className="read-more-btn" onClick={handleReadMore}>
+            <button className="read-more-btn p-0 bg-transparent" onClick={handleReadMore}>
               {readMore ? <>Show Less</> : <>..Read More</>}
             </button>
           </p>

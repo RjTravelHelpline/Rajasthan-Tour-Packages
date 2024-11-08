@@ -29,43 +29,50 @@ const BlogFooter = () => {
         setShow(true);
     };
 
+    const archives = {
+        '2024': [
+            { title: 'November 2024', date: 'November, 2024' },
+            { title: 'October 2024', date: 'October, 2024' },
+            { title: 'September 2024', date: 'September, 2024' },
+            { title: 'August 2024', date: 'September, 2024' },
+        ]
+    }
+
     return (
         <>
             <BackToTop />
-            <div className="container-fluid py-5 bg-black text-white px-0">
+            <div className="container-fluid py-3 bg-black text-white px-0 blog-footer">
                 <div className="container">
-                    <div className="row justify-content-center align-items-center">
-                        <div className="col-12 col-lg-6 col-sm-12 col-md-12">
-                            <SearchBar blogs={blogs} styles="rounded-4"/>
-                        </div>
-                    </div>
-                    <div className="row justify-content-center my-5">
+                    <div className="row justify-content-center my-3">
                         <div className="col-12 py-3">
                             <h3 className='text-capitalize text-center'>Categories</h3>
-                            <ul className="list-unstyled d-flex justify-content-center align-items-center flex-wrap">
+                            <ul className="list-unstyled d-flex justify-content-center align-items-center flex-wrap footer-links">
                                 {blogCategories.map((category, index) => (
-                                    <li key={index} className="p-0 text-white">
-                                        <Link href={`/blog${category.path}`} className='text-white p-2 text-uppercase blog-footer-links'>
+                                    <li key={index} className="p-0 text-white blog-footer-link">
+                                        <Link href={`/blog${category.path}`} className='text-white p-2 text-uppercase '>
                                             {category.text}
                                         </Link>
                                     </li>
                                 ))}
                             </ul>
+                        </div>
+                        <div className="col-12 col-lg-8 col-sm-10">
+                            <hr />
                         </div>
                         <div className="col-12 py-3">
                             <h3 className='text-capitalize text-center'>Archives</h3>
-                            <ul className="list-unstyled footer-links d-flex justify-content-center align-items-center flex-wrap">
-                                {blogCategories.map((category, index) => (
-                                    <li key={index} className="p-0 text-white">
-                                        <Link href={`/blog${category.path}`} className='text-white p-2 text-uppercase blog-footer-links'>
-                                            {category.text}
+                            <ul className="list-unstyled  d-flex justify-content-center align-items-center flex-wrap footer-links">
+                                {archives[2024].map((category, index) => (
+                                    <li key={index} className="p-0 text-white blog-footer-link" >
+                                        <Link href={`/blog${category.date}`} className='text-white p-2 text-uppercase '>
+                                            {category.title}
                                         </Link>
                                     </li>
                                 ))}
                             </ul>
                         </div>
                     </div>
-                    <div className="row footer-end">
+                    <div className="row footer-end mb-5">
                         <hr />
                         <p className="copyright text-center mb-0 py-2 text-lowercase">
                             Copyright © {mydate} | Rajasthan travel helpline. All Rights

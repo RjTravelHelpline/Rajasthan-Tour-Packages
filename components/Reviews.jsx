@@ -80,7 +80,7 @@ const ReviewCard = ({ reviewer }) => {
             {isReadMore
               ? reviewer.review
               : `${reviewer.review.substring(0, 100)}...`}
-            <button className="read-more-btn" onClick={toggleReadMore}>
+            <button className="read-more-btn p-0 bg-transparent" onClick={toggleReadMore}>
               {isReadMore ? '-Less' : 'More'}
             </button>
           </p>

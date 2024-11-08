@@ -1,12 +1,14 @@
 "use client";
-import { blogCategories } from '@/data/Blogs';
+import { blogCategories, blogs } from '@/data/Blogs';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
-import { Dropdown, Modal } from 'react-bootstrap';
-import { FaGripLines, FaGripLinesVertical, FaHome, FaInbox, FaLocationArrow } from 'react-icons/fa';
-import { IoIosArrowDown, IoMdArrowDropdown, IoMdClose } from 'react-icons/io';
+import { Button, Modal } from 'react-bootstrap';
+import { FaGripLines, FaGripLinesVertical, FaSearch } from 'react-icons/fa';
+import { IoMdArrowDropdown, IoMdClose } from 'react-icons/io';
 import ContactForm from './ContactForm';
 import { FaMessage } from 'react-icons/fa6';
+import SearchBar from './SearchBar';
+import { IoClose } from 'react-icons/io5';
 
 const BlogNavbar = () => {
     const [show, setShow] = useState(false);
@@ -15,6 +17,7 @@ const BlogNavbar = () => {
     const [showNavigation, setShowNavigation] = useState(false);
     const [activeIndex, setActiveIndex] = useState(null);
     const [selectedPackage, setSelectedPackage] = useState('');
+    const [showSearch, setShowSearch] = useState(false);
 
 
     // Handle scroll events
@@ -68,6 +71,8 @@ const BlogNavbar = () => {
         setShow(true);
     };
 
+    const handleCloseSearch = () => setShowSearch(false);
+    const handleShowSearch = () => setShowSearch(true);
     return (
         <>
             <div
@@ -93,51 +98,47 @@ const BlogNavbar = () => {
                                 className="px-0 mx-3 py-4 text-nowrap text-uppercase"
                                 activeclassname="active"
                             >
-                                blog home
-                            </Link>
-                        </div>
-                        <div className="nav-item">
-                            <Link
-                                href="/"
-                                className="px-0 mx-3 py-4 text-nowrap text-uppercase"
-                                activeclassname="active"
-                            >
                                 home
                             </Link>
                         </div>
                         <div className="nav-item">
                             <Link
-                                href="/"
+                                href="/about-us"
+                                className="px-0 mx-3 py-4 text-nowrap text-uppercase"
+                                activeclassname="active"
+                            >
+                                about us
+                            </Link>
+                        </div>
+                        <div className="nav-item">
+                            <Link
+                                href="/contact-us"
                                 className="px-0 mx-3 py-4 text-nowrap text-uppercase"
                                 activeclassname="active"
                             >
                                 contact us
                             </Link>
                         </div>
-
                     </div>
-                    <div className="col d-flex justify-content-end align-items-end">
+                    <div className="col d-flex justify-content-center align-items-center px-2">
                         <div
                             className={`col d-flex justify-content-end align-items-center ${!ismobile ? 'gap-3' : 'gap-1'
-                                }`}
-                        >
-                            {!ismobile && (
-                                <button
-                                    className="d-flex justify-content-center align-items-center gap-2 rounded-5" style={{ fontWeight: '500', textTransform: "capitalize" }}
-                                    onClick={handleShow}
-                                >
-                                    <FaMessage className="icon text-black" />
-                                    enquiry
+                                }`} >
+                            <>
+                                <button className="d-flex justify-content-center align-items-center p-3 rounded-5 shadow-none bg-white color-tertary" onClick={handleShowSearch}>
+                                    <FaSearch />
                                 </button>
-                            )}
-                            {ismobile && (
-                                <button
-                                    className="d-flex justify-content-center align-items-center p-3 rounded-5 bg-black shadow-none mobile-ham"
-                                    onClick={handleNavigation}
-                                >
-                                    <FaGripLines />
-                                </button>
-                            )}
+                                {!ismobile && (
+                                    <button
+                                        className="d-flex justify-content-center align-items-center gap-2 rounded-4" style={{ fontWeight: '500', textTransform: "capitalize" }}
+                                        onClick={handleShow}
+                                    >
+                                        <FaMessage className="icon text-black" />
+                                        enquiry
+                                    </button>
+                                )}
+                            </>
+
                         </div>
                     </div>
                     {ismobile && (
@@ -149,13 +150,14 @@ const BlogNavbar = () => {
                         </button>
                     )}
                 </div>
-            </div>
+            </div >
 
 
             {/* mobile navigation */}
-            <div
+            < div
                 className={`container mobile-navigation  px-0 pt-5 ${showNavigation ? 'show-navigation' : ''
-                    }`}
+                    }`
+                }
             >
                 <button
                     className="d-flex justify-content-center align-items-center p-3 rounded-5 bg-black shadow-none mobile-close-ham"
@@ -201,18 +203,18 @@ const BlogNavbar = () => {
                             }}
                             className="route"
                         >
-                            blog home
+                            home
                         </Link>
                     </div>
                     <div className="nav-mobile-item d-flex justify-content-center align-items-start flex-column">
                         <Link
-                            href="/"
+                            href="/about-us"
                             onClick={() => {
                                 setShowNavigation(false);
                             }}
                             className="route"
                         >
-                            home
+                            about us
                         </Link>
                     </div>
                     <div className="nav-mobile-item d-flex justify-content-center align-items-start flex-column">
@@ -223,7 +225,7 @@ const BlogNavbar = () => {
                             }}
                             className="route"
                         >
-                            contact-us
+                            contact us
                         </Link>
                     </div>
                     <hr />
@@ -239,12 +241,12 @@ const BlogNavbar = () => {
                         </p>
                     </div>
                 </div>
-            </div>
+            </div >
 
 
 
             {/* Modal for Contact Form */}
-            <Modal
+            < Modal
                 show={show}
                 onHide={handleClose}
                 centered
@@ -262,6 +264,23 @@ const BlogNavbar = () => {
                     </button>
                 </Modal.Footer>
             </Modal>
+            {/* search model */}
+            <Modal show={showSearch} style={{ padding: '20px' }} onHide={handleCloseSearch} className='search-modal'>
+                <Modal.Header className='d-flex flex-column p-4 w-auto'>
+                    <h4 className='text-uppercase w-100 text-center fw-normal d-flex justify-content-center align-items-center gap-2'> <hr style={{ borderColor: 'var(--color-tertary)' }} />search <span className='color-tertary fw-bold'>blog</span> <hr style={{ borderColor: 'var(--color-tertary)' }} /></h4>
+                    <p className='text-lowercase w-100 text-center mb-0'>what you are looking for</p>
+                </Modal.Header>
+                <Modal.Dialog style={{ width: '100%' }} >
+                    <Modal.Body style={{ width: '100%' }}>
+                        <SearchBar blogs={blogs} styles="rounded-5 w-100" placeholder="search here" autofocus={true} />
+                    </Modal.Body>
+                </Modal.Dialog>
+                <Modal.Footer>
+                    <Button onClick={handleCloseSearch} className='bg-black rounded-5 text-white d-flex jutify-content-center align-items center p-3 border-0'>
+                        <IoClose />
+                    </Button>
+                </Modal.Footer>
+            </Modal >
         </>
     );
 };
