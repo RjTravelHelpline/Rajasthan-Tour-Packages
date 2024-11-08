@@ -826,8 +826,14 @@ const breadcrumbData = {
     { label: 'history and culture' },
   ],
   wildlife: [{ label: 'blog', link: '/blog' }, { label: 'wildlife' }],
-  newsandupdates: [{ label: 'blog', link: '/blog' }, { label: 'news and updates' }],
-  fairandfestivals: [{ label: 'blog', link: '/blog' }, { label: 'fair and festivals' }],
+  newsandupdates: [
+    { label: 'blog', link: '/blog' },
+    { label: 'news and updates' },
+  ],
+  fairandfestivals: [
+    { label: 'blog', link: '/blog' },
+    { label: 'fair and festivals' },
+  ],
 };
 export default breadcrumbData;
 
@@ -1172,6 +1178,24 @@ export const tourByCities = [
 
 // reviewers
 export const reviewers = [
+  {
+    name: 'OnAir53686466218',
+    Images: [allGalleryImages.img27.src],
+    rating: 5,
+    date: '10 days ago',
+    title: 'Cozy cooking class and culture',
+    review:
+      'We felt home the moment we stepped out of the car. The family welcomed us and after the welcoming we went inside to do a little cooking. The family already cut everything, so it was not the hardest job for us. We could relax, talk and eat with the family after and we celebrated Divali for a while. Thanks again for the hospitality!',
+  },
+  {
+    name: 'aditya b',
+    Images: [allGalleryImages.img28.src, allGalleryImages.img29.src],
+    rating: 5,
+    date: '10 days ago',
+    title: 'Khamma ghani jaipur!!!',
+    review:
+      'They will provide good driver , who will guide you as well. Sunil bhai was with us as driver and he covers the maximum spots in a day and provide us all the information too. We had great experiance in jaipur and udaipur. Thank you so much for your service, we will definitely book again.',
+  },
   {
     name: 'Sally M',
     Images: [allGalleryImages.img25.src, allGalleryImages.img26.src],

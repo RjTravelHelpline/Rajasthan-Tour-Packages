@@ -93,6 +93,9 @@ const galleryImg23 = '/Images/Gallery/cooking-class-latest01.webp';
 const galleryImg24 = '/Images/Gallery/cooking-class-latest02.webp';
 const galleryImg25 = '/Images/Reviews/review-0601.webp';
 const galleryImg26 = '/Images/Reviews/review-0602.webp';
+const galleryImg27 = '/Images/Gallery/cooking-class-latest001.webp';
+const galleryImg28 = '/Images/Gallery/jaipur-tour.webp';
+const galleryImg29 = '/Images/Gallery/jaipur-tour02.webp';
 const agraFortImg = '/Images/Card/agra-fort.jpg';
 const agraTajImg = '/Images/Card/agra-taj.jpg';
 const fatepurSikariImg = '/Images/Card/fatepur-sikari.jpg';
@@ -309,17 +312,35 @@ export const allGalleryImages = {
     title: 'Customer visiting Udaipur',
     date: '2024-09-28',
   },
+  img25: {
+    src: galleryImg25,
+    alt: 'Customer visiting Udaipur',
+    title: 'Customer visiting Udaipur',
+    date: '2024-09-28',
+  },
   img26: {
     src: galleryImg26,
     alt: 'Customer visiting Udaipur',
     title: 'Customer visiting Udaipur',
     date: '2024-09-28',
   },
-  img25: {
-    src: galleryImg25,
+  img27: {
+    src: galleryImg27,
     alt: 'Customer visiting Udaipur',
     title: 'Customer visiting Udaipur',
-    date: '2024-09-28',
+    date: '2024-10-30',
+  },
+  img28: {
+    src: galleryImg28,
+    alt: 'Customer visiting Udaipur',
+    title: 'Customer visiting Udaipur',
+    date: '2024-10-30',
+  },
+  img29: {
+    src: galleryImg29,
+    alt: 'Customer visiting Udaipur',
+    title: 'Customer visiting Udaipur',
+    date: '2024-10-30',
   },
 };
 

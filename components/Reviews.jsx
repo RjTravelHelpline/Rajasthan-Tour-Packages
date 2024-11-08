@@ -44,9 +44,9 @@ const ReviewCard = ({ reviewer }) => {
   return (
     <div className="col-12 col-sm-12 col-md-6 col-lg-4 mb-4 px-2 d-flex review-card">
       <div className="review-card-insider">
-        <div className="d-flex">
+        <div className="d-flex w-100">
           {reviewer.Images.map((imgSrc, imgIndex) => (
-            <div className="image-container px-1" key={imgIndex}>
+            <div className={`image-container px-1 ${reviewer.Images.length === 1 ? 'single-image' : ''}`} key={imgIndex}>
               <Image
                 src={imgSrc}
                 alt="Customer Review"

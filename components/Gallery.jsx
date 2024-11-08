@@ -41,7 +41,7 @@ const Gallery = () => {
                                     className="col-12 px-2 mb-4 border-2 image-item border-black d-flex justify-content-center align-items-center"
                                     onClick={() => handleImageClick(image)}
                                 >
-                                    <Image alt={image.alt} width={800} height={1000} src={image.src} className="w-100" />
+                                    <Image alt={image.alt} width={800} height={800} src={image.src} className="w-100" />
                                 </div>
                             ))}
                         </SlickSlider>

@@ -15,8 +15,8 @@ const ItineraryAccordion = ({ tourItinerary, style, stylePara, showIcon = false,
                     >
                         <Accordion.Header className="d-flex w-100 justify-content-between align-items-center accord-head bg-white">
                             {showIcon && (
-                                <span className="me-3">
-                                    <FaStarOfLife className="icon text-black rounded-5" />
+                                <span className="me-3 bg-tertary-down d-flex p-2 rounded-5 ">
+                                    <FaStarOfLife className="icon color-tertary" />
                                 </span>
                             )}
                             <div className="d-flex flex-column">

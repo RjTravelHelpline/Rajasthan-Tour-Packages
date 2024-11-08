@@ -1324,6 +1324,22 @@ form {
 }
 
 // reviews
+
+.image-container {
+  flex: 1;
+  padding: 0.5rem;
+}
+
+.single-image {
+  width: 100% !important;
+  margin: 0 auto; 
+}
+
+.review-image {
+  width: 100% !important;
+  height: auto;
+}
+
 .reviewer {
   margin: auto 0;
   width: max-content !important;
