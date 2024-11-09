@@ -28,7 +28,7 @@ const ItineraryAccordion = ({ tourItinerary, style, stylePara, showIcon = false,
                                 </p>
                             </div>
                         </Accordion.Header>
-                        <Accordion.Body>
+                        <Accordion.Body style={{ width: '100% !important' }}>
                             <p
                                 className="w-100 d-flex flex-column justify-content-start align-items-start mb-1 py-0 px-3"
                                 dangerouslySetInnerHTML={{ __html: item.content }}

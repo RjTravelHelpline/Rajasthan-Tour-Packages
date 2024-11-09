@@ -1,8 +1,8 @@
 "use client"; // Mark this component as client-side
 
-import { useState } from "react";
+import React, { useState } from "react";
 
-export default function ReadMoreToggle({ children, buttonText }) {
+export default function ReadMoreToggle({ children, buttonText, tag = 'div', className = '' }) {
     const [readMore, setReadMore] = useState(false);
 
     const handleReadMore = () => {
@@ -12,7 +12,7 @@ export default function ReadMoreToggle({ children, buttonText }) {
     return (
         <>
             {/* Conditionally render the children content based on state */}
-            {readMore && <div>{children}</div>}
+            {readMore && React.createElement(tag, { className }, children)}
 
             <button
                 className="read-more-btn d-flex position-absolute bottom-0"

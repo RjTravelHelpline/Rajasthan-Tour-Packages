@@ -463,66 +463,18 @@ const breadcrumbData = {
 
   // destinations
   destinationHome: [{ label: 'Home', link: '/' }, { label: 'destination' }],
-  jaipur: [
-    { label: 'Home', link: '/' },
-    { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
-    { label: 'jaipur' },
-  ],
-  jodhpur: [
-    { label: 'Home', link: '/' },
-    { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
-    { label: 'jodhpur' },
-  ],
-  bikaner: [
-    { label: 'Home', link: '/' },
-    { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
-    { label: 'bikaner' },
-  ],
-  jaisalmer: [
-    { label: 'Home', link: '/' },
-    { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
-    { label: 'jaisalmer' },
-  ],
-  ranthambore: [
-    { label: 'Home', link: '/' },
-    { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
-    { label: 'ranthambore' },
-  ],
-  bharatpur: [
-    { label: 'Home', link: '/' },
-    { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
-    { label: 'bharatpur' },
-  ],
-  agra: [
-    { label: 'Home', link: '/' },
-    { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
-    { label: 'agra' },
-  ],
-  delhi: [
-    { label: 'Home', link: '/' },
-    { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
-    { label: 'delhi' },
-  ],
-  mountabu: [
-    { label: 'Home', link: '/' },
-    { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
-    { label: 'mountabu' },
-  ],
-  udaipur: [
-    { label: 'Home', link: '/' },
-    { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
-    { label: 'udaipur' },
-  ],
-  ajmer: [
-    { label: 'Home', link: '/' },
-    { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
-    { label: 'ajmer' },
-  ],
-  pushkar: [
-    { label: 'Home', link: '/' },
-    { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
-    { label: 'pushkar' },
-  ],
+  jaipur: [{ label: 'Home', link: '/' }, { label: 'jaipur' }],
+  jodhpur: [{ label: 'Home', link: '/' }, { label: 'jodhpur' }],
+  bikaner: [{ label: 'Home', link: '/' }, { label: 'bikaner' }],
+  jaisalmer: [{ label: 'Home', link: '/' }, { label: 'jaisalmer' }],
+  ranthambore: [{ label: 'Home', link: '/' }, { label: 'ranthambore' }],
+  bharatpur: [{ label: 'Home', link: '/' }, { label: 'bharatpur' }],
+  agra: [{ label: 'Home', link: '/' }, { label: 'agra' }],
+  delhi: [{ label: 'Home', link: '/' }, { label: 'delhi' }],
+  mountabu: [{ label: 'Home', link: '/' }, { label: 'mountabu' }],
+  udaipur: [{ label: 'Home', link: '/' }, { label: 'udaipur' }],
+  ajmer: [{ label: 'Home', link: '/' }, { label: 'ajmer' }],
+  pushkar: [{ label: 'Home', link: '/' }, { label: 'pushkar' }],
 
   // tour packages by theme
   wildlifeTour: [

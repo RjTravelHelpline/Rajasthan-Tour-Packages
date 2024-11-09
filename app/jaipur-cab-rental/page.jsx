@@ -1,21 +1,10 @@
+"use client"
 import Breadcrumb from "@/components/Breadcrumb";
-
-export const metadata = {
-  title: 'Jaipur cab rental',
-  description: '',
-  alternates: {
-    canonical: 'https://www.rajasthantourpackages.in/jaipur-cab-rental',
-  },
-  openGraph: {
-    title: 'Jaipur cab rental',
-    description: '',
-    url: 'https://www.rajasthantourpackages.in/jaipur-cab-rental',
-    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
-    siteName: 'Rajasthan Tour Packages',
-    type: 'website',
-  },
-};
-
+import SlickSlider from "@/components/SlickSlider";
+import { allCabRentals } from "@/data/cabRentalData";
+import { Card } from "react-bootstrap";
+import { FaArrowRight, FaFire, FaSnowflake, FaSuitcase, FaUserFriends } from "react-icons/fa";
+import { IoLogoWhatsapp } from "react-icons/io";
 const JaipurCabRental = () => {
   return (
     <>
@@ -25,7 +14,7 @@ const JaipurCabRental = () => {
           <h1 className="text-5">jaipur cab rental</h1>
         </div>
       </div>
-      {/* <div className="container-fluid section-02">
+      <div className="container-fluid section-02">
         <div className="container py-5 packages rental-container">
           <div className="row py-2 px-2 d-flex justify-content-center align-items-center">
             <h2 className="w-auto text-capitalize home-head">
@@ -86,7 +75,7 @@ const JaipurCabRental = () => {
                               className="w-100 rounded-3"
                               onClick={() => handleShow(rental.title)}
                             >
-                              Enquire now <BsArrowRight />
+                              Enquire now <FaArrowRight />
                             </button>
                           </div>
                           <div className="col-2 d-flex justify-content-end">
@@ -108,7 +97,7 @@ const JaipurCabRental = () => {
             </SlickSlider>
           </div>
         </div>
-      </div> */}
+      </div>
 
       {/* <div className="container-fluid section-02 mb-5">
         <div className="container py-5 packages">

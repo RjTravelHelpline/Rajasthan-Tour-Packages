@@ -135,6 +135,7 @@ const BlogNavbar = () => {
                                     >
                                         <FaMessage className="icon text-black" />
                                         enquiry
+
                                     </button>
                                 )}
                             </>
@@ -247,6 +248,7 @@ const BlogNavbar = () => {
 
             {/* Modal for Contact Form */}
             < Modal
+
                 show={show}
                 onHide={handleClose}
                 centered
@@ -265,7 +267,7 @@ const BlogNavbar = () => {
                 </Modal.Footer>
             </Modal>
             {/* search model */}
-            <Modal show={showSearch} style={{ padding: '20px' }} onHide={handleCloseSearch} className='search-modal'>
+            <Modal size='lg' show={showSearch} style={{ padding: '20px' }} onHide={handleCloseSearch} className='search-modal'>
                 <Modal.Header className='d-flex flex-column p-4 w-auto'>
                     <h4 className='text-uppercase w-100 text-center fw-normal d-flex justify-content-center align-items-center gap-2'> <hr style={{ borderColor: 'var(--color-tertary)' }} />search <span className='color-tertary fw-bold'>blog</span> <hr style={{ borderColor: 'var(--color-tertary)' }} /></h4>
                     <p className='text-lowercase w-100 text-center mb-0'>what you are looking for</p>

@@ -1,7 +1,7 @@
 "use client"
 import { useEffect } from 'react';
 
-const SideNavigation = ({ sections, offset = 80, onClose }) => {
+const SideNavigation = ({ sections, offset = 80, onClose, containerStyle, childStyle }) => {
   useEffect(() => {
     const handleScrollOffset = (event) => {
       const targetId = event.target.getAttribute('href').slice(1);
@@ -29,10 +29,10 @@ const SideNavigation = ({ sections, offset = 80, onClose }) => {
 
   return (
     <div className="sidebar-menu w-100 z-9999 mb-3 shadow-none">
-      <ul className="list-group list-group-flush w-100">
+      <ul className={`list-group list-group-flush w-100 ${containerStyle}`}>
         {sections.map((section) => (
           <li key={section.id} className={`list-group-item`}>
-            <a className='w-100 d-flex' href={`#${section.id}`}>{section.label}</a>
+            <a className={` w-100 ${childStyle}`} href={`#${section.id}`}> <span className='color-tertary me-1'>{section.icon}</span> {section.label}</a>
           </li>
         ))}
       </ul>

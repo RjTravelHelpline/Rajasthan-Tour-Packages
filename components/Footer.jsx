@@ -349,7 +349,8 @@ const Footer = () => {
                                 >
                                     <Image width={200} height={100}
                                         src={certified01}
-                                        alt="certification image"
+                                        alt="Rajasthan Tourism Certification"
+                                        title='Rajasthan Tourism Certification for Travel Services'
                                         className="pb-2 border-bottom border-white"
                                         layout='responsive'
                                     />
@@ -362,7 +363,8 @@ const Footer = () => {
                                 >
                                     <Image width={200} height={100}
                                         src={certified02}
-                                        alt="certification image"
+                                        alt="Ministry of Corporate Affairs Certification"
+                                        title='Ministry of Corporate Affairs Certification'
                                         className="pb-2 border-bottom border-white"
                                         layout='responsive'
                                     />
@@ -375,7 +377,8 @@ const Footer = () => {
                                 >
                                     <Image width={200} height={100}
                                         src={certified03}
-                                        alt="certification image"
+                                        alt="Incredible India Certification"
+                                        title='Incredible India Certification for Tourism'
                                         className="pb-2 border-bottom border-white"
                                         layout='responsive'
                                     />
@@ -388,7 +391,8 @@ const Footer = () => {
                                 >
                                     <Image width={200} height={100}
                                         src={certified04}
-                                        alt="certification image"
+                                        alt="FRTO Certification"
+                                        title='Obtaining of FRTO Certification for Travel Services'
                                         className="pb-2 border-bottom border-white"
                                         layout='responsive'
                                     />

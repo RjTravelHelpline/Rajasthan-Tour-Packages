@@ -170,38 +170,38 @@ const forceUrbaniaImg = '/Images/Cabs/force-urbania.webp';
 export const allGalleryImages = {
   img01: {
     src: galleryImg01,
-    alt: 'Customer enjoying a foreign trip',
-    title: 'Customer enjoying a foreign trip',
+    alt: 'Foreign and Harsh Vardhan',
+    title: 'Foreign Visitor with Harsh Vardhan Cultural Visit',
     date: '2023-03-04',
   },
   img02: {
     src: galleryImg02,
-    alt: 'Customer participating in a cooking class',
-    title: 'Customer participating in a cooking class',
+    alt: 'Foreign Cooking Class',
+    title: 'Foreign Cooking Class Experience in India',
     date: '2023-03-15',
   },
   img03: {
     src: galleryImg03,
-    alt: 'Customer cooking a traditional dish',
-    title: 'Customer cooking a traditional dish',
+    alt: 'Cooking Class',
+    title: 'Learn Traditional Cooking Class',
     date: '2023-03-15',
   },
   img04: {
     src: galleryImg04,
-    alt: 'Customer learning to cook local cuisine',
-    title: 'Customer learning to cook local cuisine',
+    alt: 'Cooking Class Foregin and Indian Family',
+    title: 'Cooking Class for Foreign & Indian Families',
     date: '2023-03-15',
   },
   img05: {
     src: galleryImg05,
-    alt: 'Customer enjoying a foreign trip',
-    title: 'Customer enjoying a foreign trip',
+    alt: 'Foreign and Driver Sedan at Amar Fort',
+    title: 'Sedan with Driver at Amar Fort for Tourists',
     date: '2023-03-15',
   },
   img06: {
     src: galleryImg06,
-    alt: 'Customer exploring Jaipur',
-    title: 'Customer exploring Jaipur',
+    alt: 'City Palace in Jaipur',
+    title: 'City Palace Jaipur Majestic Royal Architecture',
     date: '2023-03-15',
   },
   img07: {
@@ -369,8 +369,8 @@ export const allStatesImages = {
     },
     agraTaj: {
       src: agraTajImg,
-      alt: 'View of Agra city',
-      title: 'View of Agra city',
+      alt: 'Taj Mahal in agra',
+      title: 'Taj Mahal Agra : Symbol of Love and Architecture',
     },
     abhaneri: {
       src: abhaneriImg,
@@ -381,8 +381,8 @@ export const allStatesImages = {
   ahmedabad: {
     ahmedabadBanner: {
       src: ahmedabadBannerImg,
-      alt: 'Cityscape of Ahmedabad',
-      title: 'Cityscape of Ahmedabad',
+      alt: 'Atal Pedestrian Bridge',
+      title: 'Atal Pedestrian Bridge Ahmedabad Modern Marvel',
     },
     ahmedabad01: {
       src: ahmedabadImg,
@@ -398,8 +398,8 @@ export const allStatesImages = {
     },
     bangalore01: {
       src: bangaloreImg,
-      alt: 'Bangalore city view',
-      title: 'Bangalore city view',
+      alt: 'Vidhana Soudha in Bangalore',
+      title: 'Vidhana Soudha Bangalore Architectural Landmark',
     },
   },
   bhubaneshwar: {
@@ -410,8 +410,8 @@ export const allStatesImages = {
     },
     bhubaneshwar01: {
       src: bhubaneshwarImg,
-      alt: 'Bhubaneshwar city view',
-      title: 'Bhubaneshwar city view',
+      alt: 'Bhubaneshwar Room',
+      title: 'Bhubaneswar Rooms Comfortable Stay in Odisha',
     },
   },
   chennai: {
@@ -422,8 +422,8 @@ export const allStatesImages = {
     },
     chennai01: {
       src: chennaiImg,
-      alt: 'Chennai cityscape',
-      title: 'Chennai cityscape',
+      alt: 'Sri Mangadu Kamakshi Amman Temple in Chennai',
+      title: "Sri Mangadu Kamakshi Amman Temple Chennai's Gem",
     },
   },
   cochin: {
@@ -463,8 +463,9 @@ export const allStatesImages = {
     },
     gujrat01: {
       src: gujratImg,
-      alt: 'Gujrat city view',
-      title: 'Gujrat city view',
+      alt: 'Gujrat',
+      title:
+        'Discover Gujarat Culture and Heritage, Architecture and the Coast',
     },
   },
   indore: {
@@ -511,8 +512,8 @@ export const allStatesImages = {
     },
     kerala01: {
       src: keralaImg,
-      alt: 'Scenic view of Kerala',
-      title: 'Scenic view of Kerala',
+      alt: 'Boat house in Kerala',
+      title: 'Kerala Boat House - Unique Backwater Experience',
     },
   },
   mysore: {
@@ -552,8 +553,8 @@ export const allStatesImages = {
     },
     punjabGoldenTemple: {
       src: punjabGoldenTempleImg,
-      alt: 'Punjab cityscape',
-      title: 'Punjab cityscape',
+      alt: 'Golden Temple In Punjab',
+      title: 'New Delhi Spiritual Tour: Golden Temple Amritsar',
     },
   },
   rajkot: {
@@ -648,8 +649,8 @@ export const allStatesImages = {
     },
     hyderabad01: {
       src: hyderabadImg,
-      alt: 'Hyderabad city view',
-      title: 'Hyderabad city view',
+      alt: 'Golconda Fort in Hyderabad',
+      title: 'Golconda Fort Hyderabad Historic Fort & Views',
     },
   },
   maharashtra: {
@@ -772,8 +773,9 @@ export const allCitiesImages = {
     },
     ajmerBanner: {
       src: ajmerBannerImg,
-      alt: 'View of Ajmer city',
-      title: 'View of Ajmer city',
+      alt: 'Ajmer',
+      title:
+        'Ajmer Pilgrimage City with the Historical and Cultural Significance',
     },
   },
   pushkar: {
@@ -786,8 +788,8 @@ export const allCitiesImages = {
   kota: {
     kota01: {
       src: jaipurHeritageImg,
-      alt: 'View of Bikaner city',
-      title: 'View of Bikaner city',
+      alt: 'Heritage Jaipur',
+      title: 'Heritage Jaipur Discover the Rich Culture of Rajasthan',
     },
     kotaBanner: {
       src: kotaBannerImg,
@@ -837,8 +839,8 @@ export const allCitiesImages = {
     },
     jaipurBanner01: {
       src: jaipurImg,
-      alt: 'View of Jaipur city',
-      title: 'View of Jaipur city',
+      alt: 'Jaipur hawa Mahal',
+      title: 'Hawa Mahal Jaipur Iconic Palace of Winds',
     },
     jaipurBanner02: {
       src: jaipurBanner02Img,
@@ -852,23 +854,23 @@ export const allCitiesImages = {
     },
     jaipurRoadTrip: {
       src: roadTripJaipurImg,
-      alt: 'Heritage sites in Jaipur',
-      title: 'Heritage sites in Jaipur',
+      alt: 'Jaipur Albert Hall',
+      title: 'Jaipur Albert Hall - Museum with Rich Heritage',
     },
     jaipurCulinary: {
       src: jaipurCulinaryImg,
-      alt: 'Heritage sites in Jaipur',
-      title: 'Heritage sites in Jaipur',
+      alt: 'Food Dice',
+      title: 'Food Dice - Unique Dining Experience for Foodies',
     },
     jaipurNahargarh: {
       src: jaipurNahargarhImg,
-      alt: 'Heritage sites in Jaipur',
-      title: 'Heritage sites in Jaipur',
+      alt: 'Nahargarh in Jaipur',
+      title: 'Nahargarh Fort: awe inspiring look down on the city',
     },
     jaipurNahargarh02: {
       src: jaipurNahargarh02Img,
-      alt: 'Heritage sites in Jaipur',
-      title: 'Heritage sites in Jaipur',
+      alt: 'Nahargarh Fort in Jaipur',
+      title: 'Nahargarh Fort Jaipur; awe inspiring look down on the city',
     },
     jaipurHawamahal: {
       src: jaipurHawamahalImg,
@@ -877,38 +879,38 @@ export const allCitiesImages = {
     },
     jaipurAlberthall: {
       src: jaipurAlberthallImg,
-      alt: 'Heritage sites in Jaipur',
-      title: 'Heritage sites in Jaipur',
+      alt: 'Albert hall museum night in Jaipur',
+      title: 'Albert Hall Museum Jaipur Stunning Night Views',
     },
     jaipurPinkCity: {
       src: pinkCityImg,
-      alt: 'Heritage sites in Jaipur',
-      title: 'Heritage sites in Jaipur',
+      alt: 'Jaipur Pink City',
+      title: 'Jaipur pink city the gateway to Rajasthan',
     },
     jaipurWaterPool: {
       src: jaipurWaterPoolImg,
-      alt: 'Heritage sites in Jaipur',
-      title: 'Heritage sites in Jaipur',
+      alt: 'Swimming pool kids',
+      title: 'Swimming Pool for Kids Fun Family Experience',
     },
     jaipurJhalanaLeopard: {
       src: jaipurJhalanaLeopardImg,
-      alt: 'Heritage sites in Jaipur',
-      title: 'Heritage sites in Jaipur',
+      alt: 'Jhalana Leopard Safari Tiger',
+      title: 'Jhalana Leopard Safari Spot Tigers and Leopards',
     },
     jaipurJhalanaLeopard02: {
       src: jaipurJhalanaLeopard2Img,
-      alt: 'Heritage sites in Jaipur',
-      title: 'Heritage sites in Jaipur',
+      alt: 'Jhalana Leopard Safari',
+      title: 'Jhalana Leopard Safari: Tigers',
     },
     jaipurAmber: {
       src: jaipurAmberImg,
-      alt: 'Heritage sites in Jaipur',
-      title: 'Heritage sites in Jaipur',
+      alt: 'Amber Fort in Jaipur',
+      title: 'Amber Fort Jaipur Great Fort with Royal Blend',
     },
     jaipurAmber02: {
       src: jaipurAmber02Img,
-      alt: 'Heritage sites in Jaipur',
-      title: 'Heritage sites in Jaipur',
+      alt: 'Amber is light Show',
+      title: 'Amber Fort Light Show Jaipur Evening Spectacle',
     },
     jaipurAmber03: {
       src: jaipurAmber03Img,
@@ -917,28 +919,28 @@ export const allCitiesImages = {
     },
     jaipurPatrikaGate: {
       src: jaipurPatrikaGateImg,
-      alt: 'Heritage sites in Jaipur',
-      title: 'Heritage sites in Jaipur',
+      alt: 'Patrika Gate in Jaipur',
+      title: 'Patrika Gate Jaipur Architectural Beauty and Heritage',
     },
     jaipurLake: {
       src: jaipurLakeImg,
-      alt: 'Heritage sites in Jaipur',
-      title: 'Heritage sites in Jaipur',
+      alt: 'lake In jaipur',
+      title: 'Boat ride in Jaipur Serenity and Serene beauty',
     },
     jaipurLake02: {
       src: jaipurLake02Img,
-      alt: 'Heritage sites in Jaipur',
-      title: 'Heritage sites in Jaipur',
+      alt: 'Lake Jaipur',
+      title: 'Lake Jaipur Serene Waters in the Pink City',
     },
     jaipurHoneymoon: {
       src: honeymoonImg,
-      alt: 'Heritage sites in Jaipur',
-      title: 'Heritage sites in Jaipur',
+      alt: 'honeymoon jaipur',
+      title: 'Honeymoon in Jaipur Romantic Getaway in Rajasthan',
     },
     jaipurGator: {
       src: jaipurGatorImg,
-      alt: 'Heritage sites in Jaipur',
-      title: 'Heritage sites in Jaipur',
+      alt: 'Gaitore Ki Chhatriyan in Jaipur',
+      title: 'Gaitore Ki Chhatriyan Jaipur Royal Cenotaphs',
     },
   },
   udaipur: {
@@ -954,8 +956,8 @@ export const allCitiesImages = {
     },
     udaipur01: {
       src: udaipurImg,
-      alt: 'View of Udaipur city',
-      title: 'View of Udaipur city',
+      alt: 'Blue City Room in Udaipur',
+      title: 'Blue City Room in Udaipur - Royal Comfort Stay',
     },
   },
   ranthambore: {
@@ -966,32 +968,32 @@ export const allCitiesImages = {
     },
     ranthambore01: {
       src: ranthamboreImg,
-      alt: 'View of ranthambore city',
-      title: 'View of ranthambore city',
+      alt: 'Ranthambore National Park',
+      title: 'Ranthambore National Park - Wildlife Safari Tours',
     },
   },
   kumbhalgarh: {
     kumbhalgarh01: {
       src: kumbhalgarhImg,
-      alt: 'View of Kumbhalgarh Fort',
-      title: 'View of Kumbhalgarh Fort',
+      alt: 'Jaiwana Haveli in kumbhalgarh',
+      title: 'Jaiwana Haveli Kumbhalgarh - Historic Haveli Stay',
     },
   },
   mountabu: {
     mountabuBanner: {
       src: mountabuBannerImg,
-      alt: 'View of Mount Abu',
-      title: 'View of Mount Abu',
+      alt: 'Mount Abu Mountain',
+      title: 'Mount Abu The Scenic Hill Station of Rajasthan',
     },
     mountabuBanner02: {
       src: mountabuBanner02Img,
-      alt: 'View of Mount Abu',
-      title: 'View of Mount Abu',
+      alt: 'Mount Abu Mountain',
+      title: 'Mount Abu The Scenic Hill Station of Rajasthan',
     },
     mountabu01: {
       src: mountabuImg,
-      alt: 'View of Mount Abu',
-      title: 'View of Mount Abu',
+      alt: 'Mount Abu Mountain',
+      title: 'Mount Abu The Scenic Hill Station of Rajasthan',
     },
   },
   jaisalmer: {
@@ -1007,33 +1009,35 @@ export const allCitiesImages = {
     },
     jaisalmer01: {
       src: jaisalmerImg,
-      alt: 'View of Jaisalmer city',
-      title: 'View of Jaisalmer city',
+      alt: 'Jaisalmer Tour',
+      title: 'Jaisalmer Tour Explore the Golden City of Rajasthan',
     },
     jaisalmerDesert01: {
       src: desertImg,
-      alt: 'View of Jaisalmer city',
-      title: 'View of Jaisalmer city',
+      alt: 'Jaisalmer Desert Camal Safari',
+      title: 'A camel riding experience in the dunes of Thar desert Jaisalmer',
     },
     jaisalmerDesert02: {
       src: desert02Img,
-      alt: 'View of Jaisalmer city',
-      title: 'View of Jaisalmer city',
+      alt: 'Jodhpur Marwar Desert',
+      title:
+        'Jodhpur – Marwar Desert Go on a Safari across the Large Sand Dunes',
     },
     jaisalmerFort: {
       src: jaisalamerFortsImg,
-      alt: 'View of Jaisalmer city',
-      title: 'View of Jaisalmer city',
+      alt: 'Jaisalmer Fort Camel Safari',
+      title:
+        'Camel Safari at Jaisalmer Fort is an amazing Wildlife and desert experience.',
     },
     jaisalmerLeisure: {
       src: jaisalmerLeisureImg,
-      alt: 'View of Jaisalmer city',
-      title: 'View of Jaisalmer city',
+      alt: 'Jaisalmer Desert Safari Cold Drink',
+      title: 'Jaisalmer Desert Safari with Cold Drink Pickup',
     },
     jaisalmerHaweli: {
       src: jaisalmerHaweliImg,
-      alt: 'View of Jaisalmer city',
-      title: 'View of Jaisalmer city',
+      alt: 'Patwon Ki Haveli in jaisalmer',
+      title: 'Patwon Ki Haveli Jaisalmer - Architectural Marvel',
     },
   },
   jodhpur: {
@@ -1056,8 +1060,8 @@ export const allCitiesImages = {
   marwar: {
     marwar01: {
       src: marwarImg,
-      alt: 'View of Jodhpur city',
-      title: 'View of Jodhpur city',
+      alt: 'marwar rajasthan ektara musical instrument man',
+      title: 'Ektara Player in Marwar Rajasthan - Cultural Heritage',
     },
   },
 };
