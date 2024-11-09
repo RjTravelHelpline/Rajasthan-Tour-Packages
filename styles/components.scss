@@ -1133,6 +1133,8 @@ form {
       content: '';
       position: absolute;
       top: 0;
+      left: 50%;
+      transform: translateX(-50%);
       width: 12px;
       height: 4px;
       background-color: var(--color-tertary);
@@ -1332,7 +1334,7 @@ form {
 
 .single-image {
   width: 100% !important;
-  margin: 0 auto; 
+  margin: 0 auto;
 }
 
 .review-image {

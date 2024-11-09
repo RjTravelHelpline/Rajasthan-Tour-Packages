@@ -1,27 +1,42 @@
+"use client"
 import Breadcrumb from "@/components/Breadcrumb";
 import ItineraryAccordion from "@/components/ItineraryAccordion";
 import SideNavigation from "@/components/SideNavigation";
 import TourCarousel from "@/components/TourCarousel";
 import { about, excursions, fairandfestivals, museumsandart, restaurantsandmore, shopping, sightseeing } from "@/data/Destination Data/jaipur";
 import { allCitiesImages } from "@/data/imageData";
+import { useState } from "react";
+import { Button, Modal } from "react-bootstrap";
+import { FaBars, FaListAlt, FaMapSigns, FaSearchLocation } from "react-icons/fa";
+import { FiSidebar } from "react-icons/fi";
+import { GoListOrdered } from "react-icons/go";
+import { IoMdClose } from "react-icons/io";
+import { MdOutlineViewList } from "react-icons/md";
 
-export const metadata = {
-  title: 'Jaipur',
-  description: '',
-  alternates: {
-    canonical: 'https://www.rajasthantourpackages.in/jaipur',
-  },
-  openGraph: {
-    title: 'Jaipur',
-    description: '',
-    url: 'https://www.rajasthantourpackages.in/jaipur',
-    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
-    siteName: 'Rajasthan Tour Packages',
-    type: 'website',
-  },
-};
+// export const metadata = {
+//   title: 'Jaipur',
+//   description: '',
+//   alternates: {
+//     canonical: 'https://www.rajasthantourpackages.in/jaipur',
+//   },
+//   openGraph: {
+//     title: 'Jaipur',
+//     description: '',
+//     url: 'https://www.rajasthantourpackages.in/jaipur',
+//     image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+//     siteName: 'Rajasthan Tour Packages',
+//     type: 'website',
+//   },
+// };
 
 const Jaipur = () => {
+
+  const [lgShow, setLgShow] = useState(false);
+
+  const handleClose = () => setLgShow(false);
+  const handleShow = () => setLgShow(true);
+
+
   const sections = [
     { id: 'about', label: 'About Jaipur' },
     { id: 'historical-attractions', label: 'Jaipur Sightseeing' },
@@ -50,9 +65,9 @@ const Jaipur = () => {
         <TourCarousel images={images} content={content} />
       </div>
       {/* Main Content */}
-      <div className="container px-0 py-4 days-container overview destination">
-        <div className="row d-flex justify-content-start align-items-start days-overview px-2">
-          <div className="col-12 col-lg-9 col-sm-12 px-3">
+      <div className="container py-4 days-container overview destination">
+        <div className="row d-flex justify-content-center align-items-center days-overview px-2">
+          <div className="col-12 col-lg-10 col-sm-12 px-3">
             {/* About Section */}
             <div className="w-100 insider section-offset mb-4" id="about">
               <h2 className="text-capitalize px-3 mb-3 text-center fw-normal">
@@ -114,12 +129,33 @@ const Jaipur = () => {
               </div>
             </div>
           </div>
-          {/* Sidebar Navigation */}
-          <div className="col-lg-3 col-sm-12 col-md-12 side-nav px-0">
-            <SideNavigation sections={sections} offset={80} />
-          </div>
+          <Modal size="lg"
+            show={lgShow}
+            onHide={() => setLgShow(false)}>
+            <Modal.Header >
+              <Modal.Title> <h4 className="text-capitalize fw-normal">Explore <span className="fw-bold color-tertary">Jaipur
+              </span> </h4></Modal.Title>
+            </Modal.Header>
+            <Modal.Body style={{ width: '100%' }}>
+              {/* Sidebar Navigation */}
+              <div className="side-nav px-0 w-100 d-flex justify-content-center align-items-center">
+                <SideNavigation sections={sections} offset={80} onClose={handleClose} />
+              </div>
+            </Modal.Body>
+            <Modal.Footer className="d-flex justify-content-center align-items-center w-100 border-0 model-close pt-0">
+              <button
+                className="bg-black d-flex justify-content-center align-items-center p-2 border-0 rounded-5"
+                onClick={handleClose}
+              >
+                <IoMdClose />
+              </button>
+            </Modal.Footer>
+          </Modal>
         </div>
       </div>
+      <button onClick={handleShow} style={{ position: "fixed", bottom: '16px', left: '50%', translate: '-50%', margin: 'auto', width: 'auto', display: 'flex', justifyContent: 'center', alignItems: 'center', zIndex: 999 }} className="bg-tertary rounded-5 text-white border-0">
+        <FaSearchLocation className="text-black me-2" /> Explore
+      </button>
     </>
   );
 };

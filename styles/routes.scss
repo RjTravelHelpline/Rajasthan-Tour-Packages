@@ -202,9 +202,7 @@ p {
     box-shadow: 16px 16px 16px #00000018;
     transition: all 0.3s ease-out;
     border: 1px solid var(--color-gray);
-    border-top: 2px solid var(--color-tertary);
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
+    border-radius: 24px;
     .list-group-item {
       padding: 0;
       &:hover {
