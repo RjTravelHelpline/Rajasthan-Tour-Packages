@@ -208,3 +208,23 @@ export const restaurantsandmore = {
     },
   ],
 };
+
+export const howToReach = {
+  content: [
+    {
+      day: 'By Air',
+      title: '',
+      content: `Now there are many flights from Jodhpur Airport (JDH) that connect with most of the cities of India including Delhi, Mumbai, and Jaipur. It is about 5 km away from the city center of the town, also known as the city proper.`,
+    },
+    {
+      day: 'By Train',
+      title: '',
+      content: `Jodhpur Railway Station is an important hub of the Northern Railway Line and directly connects the city with other major cities such as Delhi, Jaipur, and Mumbai.`,
+    },
+    {
+      day: 'By Road',
+      title: '',
+      content: `The public transport of Rajasthan has buses running from cities close to Jodhpur like Jaisalmer, Udaipur, and Jaipur, and commercial taxis also ply between these places.`,
+    },
+  ],
+};

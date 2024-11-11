@@ -29,7 +29,11 @@ export const metadata = {
 
 const RajasthanPackageTourFromMysore = () => {
     const images = [
-        { src: allStatesImages.mysore.mysoreBanner.src },
+        {
+            src: allStatesImages.mysore.mysoreBanner.src,
+            alt: allStatesImages.mysore.mysoreBanner.alt,
+            title: allStatesImages.mysore.mysoreBanner.title,
+        },
     ];
 
     const content = [

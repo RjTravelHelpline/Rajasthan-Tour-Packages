@@ -154,3 +154,23 @@ export const restaurantsandmore = {
     },
   ],
 };
+
+export const howToReach = {
+  content: [
+    {
+      day: 'By Air',
+      title: '',
+      content: `There is an airport in Jaisalmer, located about 15 km from the city center. However, only a few flights are available, most of which cover the route between Jaisalmer and Delhi. Many travelers pass through Jodhpur Airport, which is 285 km away, and then continue by road.`,
+    },
+    {
+      day: 'By Train',
+      title: '',
+      content: `Jaisalmer Railway Station is one of the most preferred and accessible stations for train travel. It is well-connected to Delhi, Jodhpur, and Jaipur, with both daily and weekly services available. Notable trains include the Golden Temple Mail and the Jaisalmer Express.`,
+    },
+    {
+      day: 'By Road',
+      title: '',
+      content: `Jaisalmer is connected to nearby cities like Jodhpur, Jaipur, and Ahmedabad through a network of roads. You can reach Jaisalmer by a self-owned vehicle or a long-distance bus. The scenic journey through the desert adds a unique richness to the experience.`,
+    },
+  ],
+};

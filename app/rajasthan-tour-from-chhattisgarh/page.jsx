@@ -27,7 +27,11 @@ export const metadata = {
 
 const RajasthanTourFromChattisgarh = () => {
   const images = [
-    { src: allStatesImages.chhattisgarh.chhattisgarhBanner.src },
+    {
+      src: allStatesImages.chhattisgarh.chhattisgarhBanner.src,
+      alt: allStatesImages.chhattisgarh.chhattisgarhBanner.alt,
+      title: allStatesImages.chhattisgarh.chhattisgarhBanner.title,
+    },
   ];
 
   const content = [

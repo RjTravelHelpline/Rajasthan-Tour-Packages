@@ -27,7 +27,11 @@ export const metadata = {
 
 const RajasthanPackageTourFromRajkot = () => {
   const images = [
-    { src: allStatesImages.rajkot.rajkotBanner.src },
+    {
+      src: allStatesImages.rajkot.rajkotBanner.src,
+      alt: allStatesImages.rajkot.rajkotBanner.alt,
+      title: allStatesImages.rajkot.rajkotBanner.title,
+    },
   ];
   const content = [
     {

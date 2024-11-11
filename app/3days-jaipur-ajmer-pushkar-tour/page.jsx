@@ -31,7 +31,11 @@ export const metadata = {
 
 const ThreeDaysJaipurPushkarPackageTour = () => {
     const images = [
-        { src: allCitiesImages.jaipur.jaipurAlberthall.src },
+        {
+            src: allCitiesImages.jaipur.jaipurAlberthall.src,
+            alt: allCitiesImages.jaipur.jaipurAlberthall.alt,
+            title: allCitiesImages.jaipur.jaipurAlberthall.title,
+        },
     ];
 
     const content = [

@@ -28,7 +28,11 @@ export const metadata = {
 
 const RajasthanTourFromMumbai = () => {
   const images = [
-    { src: allStatesImages.mumbai.mumbaiBanner.src },
+    {
+      src: allStatesImages.mumbai.mumbaiBanner.src,
+      alt: allStatesImages.mumbai.mumbaiBanner.alt,
+      title: allStatesImages.mumbai.mumbaiBanner.title,
+    },
   ];
 
   const content = [

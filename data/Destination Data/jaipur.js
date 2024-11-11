@@ -1,11 +1,8 @@
-
 const temp = {
   bold: (text) => `<span class='fw-bold'>${text}</span>`,
   link: (text, url) =>
     `<a class='text-web' target='_blank' href='${url}'>${text}</a>`,
 };
-
-
 
 export const about = {
   content: [
@@ -218,6 +215,26 @@ Must-Try Dishes: Dal Baati Churma, Laal Maas`,
       day: ' Rawat Mishthan Bhandar',
       title: 'renowned for its pyaz ki kachori',
       content: `Rawat is renowned for its pyaz ki kachori, a popular Rajasthani snack, along with other local delicacies.`,
+    },
+  ],
+};
+
+export const howToReach = {
+  content: [
+    {
+      day: 'By Air',
+      title: '',
+      content: `The airport of the city is Jaipur International Airport, located about 13 km from the city center. Jaipur airport has both domestic and international terminals, with airlines covering Jaipur to Delhi, Mumbai, Kolkata, Dubai, Bangkok, and many others.`,
+    },
+    {
+      day: 'By Train',
+      title: '',
+      content: `Located in the heart of Jaipur, the Jaipur Railway Station is well linked with all the leading cities of the country – Delhi, Mumbai, Kolkata, and Ahmedabad, among others. The station has fully equipped facilities and several express and superfast trains are available hourly for Jaipur.`,
+    },
+    {
+      day: 'By Road',
+      title: '',
+      content: `Jaipur is also well-connected by road to other nearby cities. Delhi is around 280 km, Agra is around 240 km, and Jodhpur is around 200 km. One can easily reach Jaipur by buses, hired private vehicles, or self-driven cars. The road network has improved, providing a comfortable ride.`,
     },
   ],
 };

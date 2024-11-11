@@ -28,7 +28,11 @@ export const metadata = {
 
 const RajasthanPackageTourFromDelhi = () => {
   const images = [
-    { src: allStatesImages.delhi.delhiBanner.src },
+    {
+      src: allStatesImages.delhi.delhiBanner.src,
+      alt: allStatesImages.delhi.delhiBanner.alt,
+      title: allStatesImages.delhi.delhiBanner.title,
+    },
   ];
 
   const content = [

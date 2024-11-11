@@ -182,3 +182,24 @@ export const restaurantsandmore = {
     },
   ],
 };
+
+
+export const howToReach = {
+  content: [
+    {
+      day: 'By Air',
+      title: '',
+      content: `About 22 km from the city of Udaipur there is Maharana Pratap Airport providing flights to New Delhi, Mumbai, Ahmedabad, Lucknow, and Jaipur among others.`,
+    },
+    {
+      day: 'By Train',
+      title: '',
+      content: `Udaipur enjoys a rail network by the Udaipur City Railway Station, and other luxury trains like Palace on Wheels pass through Udaipur.`,
+    },
+    {
+      day: 'By Road',
+      title: '',
+      content: `Local transportation is easily available by private cabs and buses, with many buses operating between Udaipur and other cities such as Jaipur, Jodhpur, and Ahmedabad.`,
+    },
+  ],
+};

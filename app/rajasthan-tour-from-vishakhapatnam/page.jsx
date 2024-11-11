@@ -27,7 +27,11 @@ export const metadata = {
 };
 const RajasthanTourFromVisakhapatnam = () => {
   const images = [
-    { src: allStatesImages.vishakhapatnam.visakhapatnamBanner.src },
+    {
+      src: allStatesImages.vishakhapatnam.visakhapatnamBanner.src,
+      alt: allStatesImages.vishakhapatnam.visakhapatnamBanner.alt,
+      title: allStatesImages.vishakhapatnam.visakhapatnamBanner.title,
+    },
   ];
   const content = [
     {

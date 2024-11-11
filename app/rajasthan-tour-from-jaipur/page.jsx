@@ -27,7 +27,11 @@ export const metadata = {
 
 const RajasthanTourFromJaipur = () => {
   const images = [
-    { src: allCitiesImages.jaipur.jaipurBanner01.src },
+    {
+      src: allCitiesImages.jaipur.jaipurBanner01.src,
+      alt: allCitiesImages.jaipur.jaipurBanner01.alt,
+      title: allCitiesImages.jaipur.jaipurBanner01.title,
+    },
   ];
 
   const content = [

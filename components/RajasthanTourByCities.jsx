@@ -58,7 +58,8 @@ export const RajasthanTourByCities = () => {
                                     <Image
                                         variant="top"
                                         src={pkg.imgSrc}
-                                        alt="Card Packages"
+                                        alt={pkg.alt}
+                                        title={pkg.imgTitle}
                                         className="w-100 card-image"
                                         width={800}
                                         height={600}

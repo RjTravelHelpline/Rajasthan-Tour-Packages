@@ -34,7 +34,7 @@ const Gallery = () => {
                     <div className="row d-flex flex-wrap w-100 justify-content-center align-items-center gap-2 overflow-hidden px-0">
                         {sorted.map((item, index) => (
                             <div key={index} className="gallery-image-container bg-black px-0 overflow-hidden" style={{ width: '400px', height: '300px', borderRadius: "24px" }} onClick={() => handleImageClick(item)}>
-                                <Image width={800} height={400} alt='gallery image' src={item.src} style={{ objectFit: "cover", height: '100%', width: '100%' }} />
+                                <Image width={800} height={400} alt={item.alt} title={item.title} src={item.src} style={{ objectFit: "cover", height: '100%', width: '100%' }} />
                             </div>
                         ))}
                     </div>

@@ -30,7 +30,11 @@ export const metadata = {
 
 const RajasthanPackageTourFromGujrat = () => {
   const images = [
-    { src: allStatesImages.gujrat.gujaratBanner.src },
+    {
+      src: allStatesImages.gujrat.gujaratBanner.src,
+      alt: allStatesImages.gujrat.gujaratBanner.alt,
+      title: allStatesImages.gujrat.gujaratBanner.title,
+    },
   ];
 
   const content = [

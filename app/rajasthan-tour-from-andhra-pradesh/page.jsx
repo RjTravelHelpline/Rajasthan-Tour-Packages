@@ -28,7 +28,11 @@ export const metadata = {
 
 const RajasthanPackageTourFromAndhrapradesh = () => {
     const images = [
-        { src: allStatesImages.andhraPradesh.andhraPradeshBanner.src },
+        {
+            src: allStatesImages.andhraPradesh.andhraPradeshBanner.src,
+            alt: allStatesImages.andhraPradesh.andhraPradeshBanner.alt,
+            title: allStatesImages.andhraPradesh.andhraPradeshBanner.title
+        },
     ];
 
     const content = [

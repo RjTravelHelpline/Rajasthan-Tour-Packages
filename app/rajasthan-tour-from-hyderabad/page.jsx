@@ -29,7 +29,11 @@ export const metadata = {
 
 const RajasthanTourFromHyderabad = () => {
   const images = [
-    { src: allStatesImages.hyderabad.hyderabadBanner.src },
+    {
+      src: allStatesImages.hyderabad.hyderabadBanner.src,
+      alt: allStatesImages.hyderabad.hyderabadBanner.alt,
+      title: allStatesImages.hyderabad.hyderabadBanner.title,
+    },
   ];
 
   const content = [

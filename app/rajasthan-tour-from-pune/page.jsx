@@ -27,7 +27,11 @@ export const metadata = {
 
 const RajasthanTourFromPune = () => {
   const images = [
-    { src: allStatesImages.pune.puneBanner.src },
+    {
+      src: allStatesImages.pune.puneBanner.src,
+      alt: allStatesImages.pune.puneBanner.alt,
+      title: allStatesImages.pune.puneBanner.title,
+    },
   ];
 
   const content = [

@@ -27,7 +27,10 @@ export const metadata = {
 
 const RajasthanTourFromUdaipur = () => {
   const images = [
-    { src: allCitiesImages.udaipur.udaipurBanner02.src },
+    { src: allCitiesImages.udaipur.udaipurBanner02.src,
+      alt: allCitiesImages.udaipur.udaipurBanner02.alt,
+      title: allCitiesImages.udaipur.udaipurBanner02.title,
+     },
   ];
   const content = [
     {

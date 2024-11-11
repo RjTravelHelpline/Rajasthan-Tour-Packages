@@ -10,7 +10,7 @@ const HomeCarousel = () => {
         <div className="container-fluid home-banner position-relative px-0 bg-tertary-down">
             <Carousel fade pause={false} controls={false} interval={4000}>
                 <Carousel.Item style={{ minHeight: '500px' }}>
-                    <Image src={HomeBanner01} alt="Home Banner" width={1500} height={1000} priority={true} />
+                    <Image src={HomeBanner01} alt="Rajasthan Shotmen also Camel during sunset in desert" title='India is a country of Temples, Tradition and Scenic beauty' width={1500} height={1000} priority={true} />
                     <Carousel.Caption>
                         <h2>Regal Rajasthan Heritage</h2>
                         <svg width="100" height="30" viewBox="0 0 120 20" fill="none" xmlns="http://www.w3.org/2000/svg">

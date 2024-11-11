@@ -26,7 +26,11 @@ export const metadata = {
 
 const RajasthanPackageTourFromAgra = () => {
     const images = [
-        { src: allStatesImages.agra.agraBanner.src },
+        {
+            src: allStatesImages.agra.agraBanner.src,
+            alt: allStatesImages.agra.agraBanner.alt,
+            title: allStatesImages.agra.agraBanner.title
+        },
     ];
 
     const content = [

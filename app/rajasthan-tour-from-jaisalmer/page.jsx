@@ -28,7 +28,11 @@ export const metadata = {
 
 const RajasthanTourFromJaisalmer = () => {
   const images = [
-    { src: allCitiesImages.jaisalmer.jaisalmerBanner.src },
+    {
+      src: allCitiesImages.jaisalmer.jaisalmerBanner.src,
+      alt: allCitiesImages.jaisalmer.jaisalmerBanner.alt,
+      title: allCitiesImages.jaisalmer.jaisalmerBanner.title,
+    },
   ];
 
   const content = [

@@ -28,7 +28,11 @@ export const metadata = {
 
 const RajasthanTourFromOdisha = () => {
   const images = [
-    { src: allStatesImages.odisha.odishaBanner.src },
+    {
+      src: allStatesImages.odisha.odishaBanner.src,
+      alt: allStatesImages.odisha.odishaBanner.alt,
+      title: allStatesImages.odisha.odishaBanner.title,
+    },
   ];
 
   const content = [
@@ -41,8 +45,8 @@ const RajasthanTourFromOdisha = () => {
     <>
       {/* bread crumb */}
       <Breadcrumb breadcrumbKey="rajasthanTourFromOdisha" />
-       {/* banner */}
-       <div className="container-fluid home-banner days-banner-container destination-banner position-relative px-0">
+      {/* banner */}
+      <div className="container-fluid home-banner days-banner-container destination-banner position-relative px-0">
         <TourCarousel images={images} content={content} />
       </div>
       {/* data */}

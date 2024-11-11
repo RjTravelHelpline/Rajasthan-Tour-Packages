@@ -22,7 +22,7 @@ const TourPackages = ({ pkg }) => {
       <div className="col-12 col-sm-12 col-md-6 col-lg-4 mb-4 d-flex align-items-stretch px-2">
         <Card className="card bg-transparent">
           <div className="card-image-container">
-            <Image src={pkg.imgSrc} alt="Card Package" width={600}
+            <Image src={pkg.imgSrc} alt={pkg.alt} title={pkg.imgTitle} width={600}
               height={800} />
           </div>
           <div className="row card-content d-flex align-items-center justify-content-center">

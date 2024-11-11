@@ -26,7 +26,11 @@ export const metadata = {
 };
 const RajasthanTourFromKolkata = () => {
   const images = [
-    { src: allStatesImages.kolkata.kolkataBanner.src },
+    {
+      src: allStatesImages.kolkata.kolkataBanner.src,
+      alt: allStatesImages.kolkata.kolkataBanner.alt,
+      title: allStatesImages.kolkata.kolkataBanner.title,
+    },
   ];
 
   const content = [

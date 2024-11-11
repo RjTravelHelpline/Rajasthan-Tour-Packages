@@ -9,7 +9,7 @@ const BottomSocials = () => {
       <div className="container-fluid">
         <div className="bottom-contact-container row overflow-hidden d-flex  align-items-center p-2">
           <div className="w-auto d-flex justify-content-start align-items-center gap-2">
-            <a href="https://wa.me/919166555888" target="_blank" aria-label="go to phone">
+            <a href="tel:+919024337038" target="_blank" aria-label="go to phone">
               <IoCall className="fixed-footer-icon" />
             </a>
             <a

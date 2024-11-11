@@ -29,7 +29,10 @@ export const metadata = {
 
 const RajasthanTourFromMountabu = () => {
   const images = [
-    { src: allCitiesImages.mountabu.mountabuBanner.src },
+    { src: allCitiesImages.mountabu.mountabuBanner.src,
+      alt: allCitiesImages.mountabu.mountabuBanner.alt,
+      title: allCitiesImages.mountabu.mountabuBanner.title,
+     },
   ];
 
   const content = [

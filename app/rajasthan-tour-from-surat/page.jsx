@@ -28,7 +28,11 @@ export const metadata = {
 
 const RajasthanTourFromSurat = () => {
   const images = [
-    { src: allStatesImages.surat.suratBanner.src },
+    {
+      src: allStatesImages.surat.suratBanner.src,
+      alt: allStatesImages.surat.suratBanner.alt,
+      title: allStatesImages.surat.suratBanner.title,
+    },
   ];
   const content = [
     {

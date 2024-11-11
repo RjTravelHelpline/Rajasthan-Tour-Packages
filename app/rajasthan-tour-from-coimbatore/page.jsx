@@ -27,7 +27,10 @@ export const metadata = {
 
 const RajasthanTourFromCoimbatore = () => {
     const images = [
-        { src: allStatesImages.coimbatore.coimbatoreBanner.src },
+        { src: allStatesImages.coimbatore.coimbatoreBanner.src,
+            alt: allStatesImages.coimbatore.coimbatoreBanner.alt,
+            title: allStatesImages.coimbatore.coimbatoreBanner.title,
+         },
     ];
 
     const content = [

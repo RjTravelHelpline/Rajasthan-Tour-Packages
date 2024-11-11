@@ -28,7 +28,11 @@ export const metadata = {
 
 const RajasthanTourFromBikaner = () => {
     const images = [
-        { src: allCitiesImages.bikaner.bikanerBanner01.src },
+        {
+            src: allCitiesImages.bikaner.bikanerBanner01.src,
+            alt: allCitiesImages.bikaner.bikanerBanner01.alt,
+            title: allCitiesImages.bikaner.bikanerBanner01.title,
+        },
     ];
 
     const content = [
@@ -41,8 +45,8 @@ const RajasthanTourFromBikaner = () => {
         <>
             {/* bread crumb */}
             <Breadcrumb breadcrumbKey="rajasthanTourFromBikaner" />
-              {/* banner */}
-              <div className="container-fluid home-banner days-banner-container destination-banner position-relative px-0">
+            {/* banner */}
+            <div className="container-fluid home-banner days-banner-container destination-banner position-relative px-0">
                 <TourCarousel images={images} content={content} />
             </div>
             {/* data */}

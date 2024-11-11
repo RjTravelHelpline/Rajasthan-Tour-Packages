@@ -16,7 +16,7 @@
       .logo2 {
         color: var(--color-secondary);
       }
-      a,
+      a:not(.contact-header a),
       span {
         color: var(--color-secondary) !important;
       }

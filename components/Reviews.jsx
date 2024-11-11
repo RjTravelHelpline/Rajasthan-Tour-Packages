@@ -45,11 +45,12 @@ const ReviewCard = ({ reviewer }) => {
     <div className="col-12 col-sm-12 col-md-6 col-lg-4 mb-4 px-2 d-flex review-card">
       <div className="review-card-insider">
         <div className="d-flex w-100">
-          {reviewer.Images.map((imgSrc, imgIndex) => (
+          {reviewer.Images.map((img, imgIndex) => (
             <div className={`image-container px-1 ${reviewer.Images.length === 1 ? 'single-image' : ''}`} key={imgIndex}>
               <Image
-                src={imgSrc}
-                alt="Customer Review"
+                src={img.src}
+                alt={img.alt}
+                title={img.title}
                 className="review-image"
                 width={1000}
                 height={800}
@@ -64,10 +65,10 @@ const ReviewCard = ({ reviewer }) => {
               className="image-link"
               target="_blank"
             >
-              <Image width={300} height={50} src={tripAdvisorLogo} alt="Trip Advisor Logo" />
+              <Image width={300} height={50} src={tripAdvisorLogo} alt="Trip Advisor Logo" title='Tripadvisor logo representing trusted travel reviews' />
             </a>
             <a href="" className="image-link" target="_blank">
-              <Image width={300} height={50} src={googleStars} alt="Goggle Rewiew Image" />
+              <Image width={300} height={50} src={googleStars} alt="Google Review Logo" title='Google Review logo showcasing customer feedback' />
             </a>
           </div>
           <h3 className="text-capitalize review-title mx-2 text-center">

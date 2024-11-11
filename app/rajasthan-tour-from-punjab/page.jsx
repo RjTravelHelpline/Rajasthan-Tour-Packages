@@ -27,7 +27,11 @@ export const metadata = {
 
 const RajasthanPackageTourFromPunjab = () => {
   const images = [
-    { src: allStatesImages.punjab.punjabBanner.src },
+    {
+      src: allStatesImages.punjab.punjabBanner.src,
+      alt: allStatesImages.punjab.punjabBanner.alt,
+      title: allStatesImages.punjab.punjabBanner.title,
+    },
   ];
   const content = [
     {

@@ -27,7 +27,10 @@ export const metadata = {
 };
 const RajasthanTourFromWestBengal = () => {
   const images = [
-    { src: allStatesImages.westBengal.westBengalBanner.src },
+    { src: allStatesImages.westBengal.westBengalBanner.src,
+      alt: allStatesImages.westBengal.westBengalBanner.alt,
+      title: allStatesImages.westBengal.westBengalBanner.title,
+     },
   ];
   const content = [
     {

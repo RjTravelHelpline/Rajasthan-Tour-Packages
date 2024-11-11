@@ -82,6 +82,25 @@ export const themeTourPackageLinks = [
   },
 ];
 
+export const headerCompanyLinks = [
+  {
+    path: '/about-us',
+    text: 'About Us',
+  },
+  {
+    path: '/gallery',
+    text: 'our gallery',
+  },
+  {
+    path: '/contact-us',
+    text: 'contact us',
+  },
+  {
+    path: '/blog',
+    text: 'blog',
+  },
+];
+
 // company
 export const companyLinks = [
   {
@@ -289,12 +308,8 @@ export const destinationLinks = [
     text: 'Bharatpur',
   },
   {
-    path: '/delhi',
-    text: 'delhi',
-  },
-  {
-    path: '/agra',
-    text: 'agra',
+    path: '/ajmer',
+    text: 'ajmer',
   },
 ];
 

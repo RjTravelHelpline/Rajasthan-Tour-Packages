@@ -27,7 +27,11 @@ export const metadata = {
 const RajasthanPackageTourFromCochin = () => {
 
   const images = [
-    { src: allStatesImages.cochin.cochinBanner.src },
+    {
+      src: allStatesImages.cochin.cochinBanner.src,
+      alt: allStatesImages.cochin.cochinBanner.alt,
+      title: allStatesImages.cochin.cochinBanner.title,
+    },
   ];
 
   const content = [

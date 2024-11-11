@@ -177,3 +177,24 @@ export const restaurantsandmore = {
         },
     ],
 };
+
+export const howToReach = {
+    content: [
+      {
+        day: 'By Air',
+        title: '',
+        content: `Maharana Pratap Airport (Udaipur), located around 165 km from Mount Abu, is the most convenient option. Alternatively, you can reach Ahmedabad Airport, which is 210 km away.`,
+      },
+      {
+        day: 'By Train',
+        title: '',
+        content: `The nearest railway station is Abu Road Railway Station, 27 km from Mount Abu. It is connected to major cities like Jaipur, Delhi, and Mumbai.`,
+      },
+      {
+        day: 'By Road',
+        title: '',
+        content: `Mount Abu is easily accessible by road to nearby cities like Udaipur, Ahmedabad, and Jaipur. Buses and taxis are readily available for easy access.`,
+      },
+    ],
+  };
+  

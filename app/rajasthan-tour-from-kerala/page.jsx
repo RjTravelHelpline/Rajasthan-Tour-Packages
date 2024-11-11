@@ -27,7 +27,11 @@ export const metadata = {
 
 const RajasthanPackageTourFromKerala = () => {
   const images = [
-    { src: allStatesImages.kerala.keralaBanner.src },
+    {
+      src: allStatesImages.kerala.keralaBanner.src,
+      alt: allStatesImages.kerala.keralaBanner.alt,
+      title: allStatesImages.kerala.keralaBanner.title,
+    },
   ];
 
   const content = [

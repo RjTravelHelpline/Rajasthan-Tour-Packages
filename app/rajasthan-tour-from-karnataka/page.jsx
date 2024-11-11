@@ -28,7 +28,11 @@ export const metadata = {
 
 const RajasthanPackageTourFromKarnataka = () => {
   const images = [
-    { src: allStatesImages.karnataka.karnatakaBanner.src },
+    {
+      src: allStatesImages.karnataka.karnatakaBanner.src,
+      alt: allStatesImages.karnataka.karnatakaBanner.alt,
+      title: allStatesImages.karnataka.karnatakaBanner.title,
+    },
   ];
 
   const content = [

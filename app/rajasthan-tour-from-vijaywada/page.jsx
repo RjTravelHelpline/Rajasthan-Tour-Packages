@@ -29,7 +29,11 @@ export const metadata = {
 
 const RajasthanPackageTourFromVijaywada = () => {
     const images = [
-        { src: allStatesImages.vijayawada.vijayawadaBanner.src },
+        {
+            src: allStatesImages.vijayawada.vijayawadaBanner.src,
+            alt: allStatesImages.vijayawada.vijayawadaBanner.alt,
+            title: allStatesImages.vijayawada.vijayawadaBanner.title,
+        },
     ];
     const content = [
         {

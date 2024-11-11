@@ -31,7 +31,11 @@ export const metadata = {
 
 const ThreeDaysJaisalmerDesertSafariTour = () => {
     const images = [
-        { src: allCitiesImages.jaisalmer.jaisalmerHaweli.src },
+        {
+            src: allCitiesImages.jaisalmer.jaisalmerHaweli.src,
+            alt: 'Jaisalmer Haweli',
+            caption: 'Jaisalmer Haweli',
+        },
     ];
 
     const content = [

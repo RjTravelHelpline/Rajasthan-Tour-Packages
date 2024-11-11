@@ -28,7 +28,11 @@ export const metadata = {
 
 const RajasthanPackageTourFromChennai = () => {
     const images = [
-        { src: allStatesImages.chennai.chennaiBanner.src },
+        {
+            src: allStatesImages.chennai.chennaiBanner.src,
+            alt: allStatesImages.chennai.chennaiBanner.alt,
+            title: allStatesImages.chennai.chennaiBanner.title,
+        },
     ];
 
     const content = [

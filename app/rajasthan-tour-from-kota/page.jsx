@@ -27,7 +27,11 @@ export const metadata = {
 };
 const RajasthanTourFromKota = () => {
   const images = [
-    { src: allCitiesImages.kota.kotaBanner.src },
+    {
+      src: allCitiesImages.kota.kotaBanner.src,
+      alt: allCitiesImages.kota.kotaBanner.alt,
+      title: allCitiesImages.kota.kotaBanner.title,
+    },
   ];
 
   const content = [

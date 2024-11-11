@@ -26,7 +26,11 @@ export const metadata = {
 
 const RajasthanPackageTourFromAhmedabad = () => {
     const images = [
-        { src: allStatesImages.ahmedabad.ahmedabadBanner.src },
+        {
+            src: allStatesImages.ahmedabad.ahmedabadBanner.src,
+            alt: allStatesImages.ahmedabad.ahmedabadBanner.alt,
+            title: allStatesImages.ahmedabad.ahmedabadBanner.title
+        },
     ];
 
     const content = [

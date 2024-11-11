@@ -1,7 +1,7 @@
 "use client"
 import { useEffect } from 'react';
 
-const SideNavigation = ({ sections, offset = 80, onClose, containerStyle, childStyle }) => {
+const SideNavigation = ({ sections, offset = 90, onClose, containerStyle, childStyle }) => {
   useEffect(() => {
     const handleScrollOffset = (event) => {
       const targetId = event.target.getAttribute('href').slice(1);

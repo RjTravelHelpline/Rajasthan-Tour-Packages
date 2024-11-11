@@ -32,7 +32,7 @@ const Footer = () => {
     const footerLogo = '/rajasthan-travel-helpline.png';
 
     const date = new Date();
-    const mydate = date.getFullYear();
+    const mydate = date.getUTCFullYear();
     const [activeSection, setActiveSection] = useState(null);
 
     const toggleSection = (section) => {
@@ -409,7 +409,7 @@ const Footer = () => {
                                     className="d-flex justify-content-center aiign-items-center footer-link"
                                     aria-label='rajasthan travel helpline'
                                 >
-                                    <Image width={600} height={300} src={footerLogo} alt="rtp-logo" layout='responsive' />
+                                    <Image width={600} height={300} src={footerLogo} alt="Rajasthan Travel Helpline" layout='responsive' title='Rajasthan Travel Helpline Contact Details' />
                                 </a>
                             </div>
                             <div className="social-icons w-100 d-flex justify-content-center align-items-center gap-4 my-4">
@@ -477,7 +477,6 @@ const Footer = () => {
                     </button>
                 </Modal.Footer>
             </Modal>
-
             <BottomSocials />
             <ChatBot />
         </>

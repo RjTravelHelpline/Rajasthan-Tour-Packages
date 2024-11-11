@@ -27,7 +27,11 @@ export const metadata = {
 };
 const RajasthanPackageTourFromTelangana = () => {
   const images = [
-    { src: allStatesImages.telangana.telanganaBanner.src },
+    {
+      src: allStatesImages.telangana.telanganaBanner.src,
+      alt: allStatesImages.telangana.telanganaBanner.alt,
+      title: allStatesImages.telangana.telanganaBanner.title,
+    },
   ];
   const content = [
     {

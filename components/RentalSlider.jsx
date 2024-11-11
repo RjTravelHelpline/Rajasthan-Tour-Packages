@@ -31,7 +31,7 @@ const RentalSlider = ({ rentals }) => {
                             >
                                 <Card className="card bg-transparent">
                                     <div className="card-image-container">
-                                        <Card.Img src={rental.imgSrc} alt="Card Package" />
+                                        <Card.Img src={rental.imgSrc} alt={rental.alt} title={rental.title} />
                                     </div>
                                     <div className="row card-content d-flex align-items-center justify-content-center gap-0">
                                         <div className="w-100 card-header d-flex justify-content-center flex-column align-items-start pt-0">

@@ -30,7 +30,11 @@ export const metadata = {
 
 const TwoDaysJaipurTourPackage = () => {
     const images = [
-        { src: allCitiesImages.jaipur.jaipurBanner02.src },
+        {
+            src: allCitiesImages.jaipur.jaipurBanner02.src,
+            alt: allCitiesImages.jaipur.jaipurBanner02.alt,
+            title: allCitiesImages.jaipur.jaipurBanner02.title,
+        },
     ];
 
     const content = [

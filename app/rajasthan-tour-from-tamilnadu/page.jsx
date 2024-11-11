@@ -28,7 +28,10 @@ export const metadata = {
 };
 const RajasthantourFromTamilNaduilnadu = () => {
   const images = [
-    { src: allStatesImages.tamilnadu.tamilnaduBanner.src },
+    { src: allStatesImages.tamilnadu.tamilnaduBanner.src,
+      alt: allStatesImages.tamilnadu.tamilnaduBanner.alt,
+      title: allStatesImages.tamilnadu.tamilnaduBanner.title,
+     },
   ];
   const content = [
     {

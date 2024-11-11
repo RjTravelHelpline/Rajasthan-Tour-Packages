@@ -23,7 +23,6 @@ const BikanerTourPackage = () => {
         <div className="row">
           <h1 className="text-5">bikaner tour packages</h1>
         </div>
-
       </div>
     </>
   )

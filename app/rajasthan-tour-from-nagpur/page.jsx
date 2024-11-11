@@ -28,7 +28,11 @@ export const metadata = {
 
 const RajasthanPackageTourFromNagpur = () => {
   const images = [
-    { src: allStatesImages.nagpur.nagpurBanner.src },
+    {
+      src: allStatesImages.nagpur.nagpurBanner.src,
+      alt: allStatesImages.nagpur.nagpurBanner.alt,
+      title: allStatesImages.nagpur.nagpurBanner.title,
+    },
   ];
 
   const content = [

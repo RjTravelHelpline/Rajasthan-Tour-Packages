@@ -8,7 +8,7 @@ import RentalSlider from "@/components/RentalSlider";
 import TourCarousel from "@/components/TourCarousel";
 import { allCabRentals } from "@/data/cabRentalData";
 import { bharatpurTourPackagesData } from "@/data/data";
-import { about, excursions, fairandfestivals, museumsandart, restaurantsandmore, shopping, sightseeing } from "@/data/Destination Data/bharatpur";
+import { about, excursions, fairandfestivals, howToReach, museumsandart, restaurantsandmore, shopping, sightseeing } from "@/data/Destination Data/bharatpur";
 import { allCitiesImages } from "@/data/imageData";
 import { AiFillCustomerService } from 'react-icons/ai';
 import {
@@ -22,6 +22,7 @@ import {
   FaUtensils,
 } from 'react-icons/fa';
 import { GoLocation } from 'react-icons/go';
+import { IoLocate } from "react-icons/io5";
 import { MdOutlineExplore, MdTour } from 'react-icons/md';
 
 export const metadata = {
@@ -73,9 +74,18 @@ const Bharatpur = () => {
       label: 'tourist guide services',
       icon: <AiFillCustomerService />,
     },
+    {
+      id: 'how-to-reach',
+      label: 'how to reach',
+      icon: <IoLocate />,
+    },
   ];
   const images = [
-    { src: allCitiesImages.bharatpur.bharatpurBanner.src },
+    {
+      src: allCitiesImages.bharatpur.bharatpurBanner.src,
+      alt: allCitiesImages.bharatpur.bharatpurBanner.alt,
+      title: allCitiesImages.bharatpur.bharatpurBanner.title
+    },
   ];
 
   const content = [
@@ -170,6 +180,14 @@ const Bharatpur = () => {
                 cab  <span className="fw-bold">rentals</span>
               </h2>
               <RentalSlider rentals={allCabRentals} />
+            </div>
+            <div className="w-100 insider section-offset mb-4" id="how-to-reach">
+              <h2 className="text-capitalize px-3 mb-3 text-center fw-normal">
+                how to<span className="fw-bold">reach</span>
+              </h2>
+              <div className="col-12 px-2">
+                <ItineraryAccordion tourItinerary={howToReach} stylePara='destination-accordion-para' style="destination-accordion-head" showIcon={true} />
+              </div>
             </div>
             <div className="w-100 insider section-offset mb-4" id="day-tours">
               <h2 className="text-capitalize px-3 mb-3 text-center fw-normal">

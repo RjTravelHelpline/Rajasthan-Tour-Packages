@@ -8,7 +8,7 @@ const TourCarousel = ({ images, content }) => {
         <Carousel fade pause={false} controls={false}>
             {images.map((image, index) => (
                 <Carousel.Item key={index} >
-                    <Image src={image.src} alt={`Slide ${index + 1}`} width={3000} height={2000} />
+                    <Image src={image.src} alt={image.alt} title={image.title} width={3000} height={2000} />
                     <Carousel.Caption>
                         <div className="days-banner-content">
                             <h3 className="text-center color-tertary px-0 w-auto text-uppercase">

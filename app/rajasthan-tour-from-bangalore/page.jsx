@@ -29,7 +29,10 @@ export const metadata = {
 
 const RajasthanTourFromBangalore = () => {
   const images = [
-    { src: allStatesImages.bangalore.bangaloreBanner.src },
+    { src: allStatesImages.bangalore.bangaloreBanner.src,
+      alt: allStatesImages.bangalore.bangaloreBanner.alt,
+      title: allStatesImages.bangalore.bangaloreBanner.title,
+     },
   ];
 
   const content = [

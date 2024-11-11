@@ -28,7 +28,11 @@ export const metadata = {
 
 const RajasthanPackageTourFromIndore = () => {
     const images = [
-        { src: allStatesImages.indore.indoreBanner.src },
+        {
+            src: allStatesImages.indore.indoreBanner.src,
+            alt: allStatesImages.indore.indoreBanner.alt,
+            title: allStatesImages.indore.indoreBanner.title,
+        },
     ];
 
     const content = [
