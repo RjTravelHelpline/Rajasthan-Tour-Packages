@@ -119,6 +119,15 @@ const Jodhpur = () => {
                 {about.content}
               </ReadMoreToggle>
             </div>
+            {/* how to reach */}
+            <div className="w-100 insider section-offset mb-4" id="how-to-reach">
+              <h2 className="text-capitalize px-3 mb-3 text-center fw-normal">
+                how to<span className="fw-bold">reach</span>
+              </h2>
+              <div className="col-12 px-2">
+                <ItineraryAccordion tourItinerary={howToReach} stylePara='destination-accordion-para' style="destination-accordion-head" showIcon={true} />
+              </div>
+            </div>
             {/* Sightseeing Section */}
             <div className="w-100 insider section-offset mb-4" id="historical-attractions">
               <h2 className="text-capitalize px-3 mb-3 text-center fw-normal">
@@ -183,14 +192,6 @@ const Jodhpur = () => {
                 cab  <span className="fw-bold">rentals</span>
               </h2>
               <RentalSlider rentals={allCabRentals} />
-            </div>
-            <div className="w-100 insider section-offset mb-4" id="how-to-reach">
-              <h2 className="text-capitalize px-3 mb-3 text-center fw-normal">
-                how to<span className="fw-bold">reach</span>
-              </h2>
-              <div className="col-12 px-2">
-                <ItineraryAccordion tourItinerary={howToReach} stylePara='destination-accordion-para' style="destination-accordion-head" showIcon={true} />
-              </div>
             </div>
             <div className="w-100 insider section-offset mb-4" id="day-tours">
               <h2 className="text-capitalize px-3 mb-3 text-center fw-normal">
