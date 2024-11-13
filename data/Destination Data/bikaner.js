@@ -1,15 +1,33 @@
 const temp = {
   bold: (text) => `<span class='fw-bold'>${text}</span>`,
   link: (text, url) =>
-    `<a class='text-web' target='_blank' href='${url}'>${text}</a>`,
+    `<a class='text-web fw-bold' target='_blank' href='${url}'>${text}</a>`,
+};
+export const overview = {
+  heading: 'Bikaner: A Porthouse to the Rajasthan History and Culture',
+  content: [
+    `The city of   ${temp.link(
+      `Bikaner`,
+      `https://www.jaipurtaxiservice.com/tourist-cities-of-rajasthan/bikaner.html`
+    )} is one of the oldest cities in Rajasthan and it possesses an immense beauty that lets any visitor experience true history. Famous for some of the finest forts, palaces, temples and kurs, the sight of the great Thar desert gives Bikaner an unparalleled charm among all the places of Rajasthan. Bikaner also known as the royal city is a city alive with colors, flavors, the past and the palaces of which carry deep historical meaning to the region. As an adventurer, if you are passionate about history; if you are a foodie, therefore, Bikaner can indeed provide for all these. In this comprehensive guide, we have covered important aspects of Bikaner like its history, key tourist attractions, museums, fairs and festivals, places of excursion, shopping and the sumptuous Bikaner food.`,
+  ],
 };
 export const about = {
+  heading: '',
   content: [
-    `The city of Bikaner is one of the oldest cities in Rajasthan and it possesses an immense beauty that lets any visitor experience true history. Famous for some of the finest forts, palaces, temples and kurs, the sight of the great Thar desert gives Bikaner an unparalleled charm among all the places of Rajasthan. Bikaner also known as the royal city is a city alive with colors, flavors, the past and the palaces of which carry deep historical meaning to the region. As an adventurer, if you are passionate about history; if you are a foodie, therefore, Bikaner can indeed provide for all these. In this comprehensive guide, we have covered important aspects of Bikaner like its history, key tourist attractions, museums, fairs, and festivals, places of excursion, shopping and the sumptuous Bikaner food.`,
-    'Bikaner is located in the north western part of Rajasthan on the northern edge of the great Indian desert, the Thar desert. The Jodhpur has been established in the year of 1488 AD by Rao Bika, who was the second son of the great Rao Jodha, the architect of Jodhpur state. Beside desert fort, royal palaces and well known bazaars Bikaner also has other interesting places to explore. Jaipur is culturally an old world city and houses some of the famous edifices of Rajasthan and epitome of the Rajput architecture at its best.',
+    `Bikaner is located in the north western part of Rajasthan on the northern edge of the great Indian desert, the Thar desert. The ${temp.link(
+      `jodhpur`,
+      `https://www.jaipurtaxiservice.com/tourist-cities-of-rajasthan/jodhpur.html`
+    )} has been established in the year of 1488 AD by Rao Bika, who was the second son of the great Rao Jodha, the architect of Jodhpur state. Beside desert fort, royal palaces and well known bazaars Bikaner also has other interesting places to explore. Jaipur is culturally an old world city and houses some of the famous edifices of Rajasthan and epitome of the Rajput architecture at its best.`,
+    'The rich cultural base of Bikaner is also reflected in its geographical location at the cross road of ancient trading routes. In terms of culture aspects, Jaipur has been designed in the form of the Rajasthani, Mughal, Persia, and many other styles. Yiwu has very good road, rail and air connectivity and hence is much frequented by both domestic and international tourists.',
   ],
 };
 export const sightseeing = {
+  heading: `We have several appealing ${temp.bold(
+    `Bikaner Sightseeing`
+  )} Tour options which gives the guests an idea of Royals, Architectural designs and Thar desert view. Here are some of the top attractions that should be on every  ${temp.bold(
+    `Bikaner Travel Itinerary:`
+  )}`,
   content: [
     {
       day: 'Junagarh Fort',
@@ -22,7 +40,10 @@ export const sightseeing = {
     {
       day: 'Lalgarh Palace',
       title: 'heritage palace with architectural fusion',
-      content: `Lalgarh Palace, originally the residence of Maharaja Ganga Singh, was constructed in the early 20th century. This palace blends Rajput, Mughal, and European architectural styles. Now a heritage hotel, it boasts stunning gardens, marble works, and intricate interiors, making it a must-see attraction for anyone visiting Bikaner.`,
+      content: `The next popular place in Bikaner is the Lalgarh Palace. Originally the residence of Maharaja Ganga Singh it was constructed in early twentieth century and includes elements of Rajput, Mughal and European architecture. Now it is a ${temp.link(
+        `heritage hotels`,
+        `https://www.rajasthantourpackages.in/heritage-hotels-tour-packages`
+      )} where many people can feel themselves real Maharajas. It boasts gorgeous and vast gardens, some of the best marbles works and pretty interiors making this palace to be such a important tourist attraction.`,
       highlights: {
         points: [],
       },
@@ -30,7 +51,9 @@ export const sightseeing = {
     {
       day: 'Deshnok Karni Mata Temple',
       title: 'temple of rats and devotion',
-      content: `The Karni Mata Temple, located in Deshnok, about 30 km south of Bikaner, is one of the most unique and revered temples in Rajasthan. Dedicated to Karni Mata, the temple is home to thousands of sacred rats that roam freely. Devotees consider the rats as pious, and the temple is a major pilgrimage site that attracts many visitors annually.`,
+      content: `The ${temp.bold(
+        `Karni Mata Temple`
+      )}, located in Deshnok, about 30 km south of Bikaner, is one of the most unique and revered temples in Rajasthan. Dedicated to Karni Mata, the temple is home to thousands of sacred rats that roam freely. Devotees consider the rats as pious, and the temple is a major pilgrimage site that attracts many visitors annually.`,
       highlights: {
         points: [],
       },
@@ -46,7 +69,10 @@ export const sightseeing = {
     {
       day: 'Gajner Palace and Wildlife Sanctuary',
       title: 'royal palace amidst wildlife',
-      content: `Located about 25 kilometers from Bikaner, Gajner Palace is a magnificent structure on the banks of a lake, originally used as a hunting lodge by the royal family. The palace is surrounded by a wildlife sanctuary, making it a perfect destination for bird-watching. The palace is an excellent example of Rajput architecture and now serves as a heritage hotel offering a peaceful retreat amidst natural beauty.`,
+      content: `Roughly 25 kilometers away from Bikaner, we have the Gajner Palace which looks like a magnificent palace by the lake which was formerly a royal hunting camp. To be honest, this place is surrounded fully with ${temp.link(
+        `wildlife tour Packages`,
+        'https://www.rajasthantourpackages.in/wildlife-tour-packages'
+      )} reserve and it gives the guests the excellent cinemat for bird watching tourism. The Palace is an example of the Rajput style of architecture and is at present part of a heritage hotel, where people can take their vacation, away from noise and confusion, in the lap of natural beauty.`,
       highlights: {
         points: [],
       },
@@ -62,6 +88,9 @@ export const sightseeing = {
   ],
 };
 export const museumsandart = {
+  heading: `There is ample of ${temp.bold(
+    `museums and art galleries`
+  )} which are there in Bikaner showcasing the history and arts of Bikaner. These museums provide tourists with modern and personal insights into history and artistry of the area.`,
   content: [
     {
       day: 'Bikaner State Museum',
@@ -81,11 +110,16 @@ export const museumsandart = {
   ],
 };
 export const fairandfestivals = {
+  heading: '',
   content: [
     {
       day: 'Bikaner Camel Festival',
       title: 'celebrating camels and cultural traditions',
-      content: `The Bikaner Camel Festival, held annually in January, is one of the region's largest and most vibrant festivals. This event highlights the cultural and economic importance of camels in Rajasthan. Activities include camel racing, camel riding, live music, dance performances, and much more. The festival is full of colorful decorations, traditional Rajasthani music, and a lively atmosphere, making it a highly memorable experience for tourists.`,
+      content: `The ${temp.bold(
+        `Bikaner Camel Festival`
+      )} organized in January each year is one of the biggest fests of the region. The food festival also brings out cultural and economic importance of camels in the region. Some of the events that are held are; camel racing, ${temp.bold(
+        `Bikaner camel Safari Adventures`
+      )}, live music and dance floor and many other events. Decorations and balls attached to the annual festival are full vibrant, coloured, and Rajasthani, traditional musical accompaniment to make the event highly memorable for tourists.`,
     },
     {
       day: 'Desert Festival',
@@ -100,6 +134,8 @@ export const fairandfestivals = {
   ],
 };
 export const excursions = {
+  heading:
+    'Bikaner is the fascinating desert city situated in Rajasthan and you can get number of things to do around Bikaner tourist attractions and picturesque spots. Here are some exciting excursions you can enjoy during your stay:',
   content: [
     {
       day: 'Khichan Village',
@@ -119,6 +155,8 @@ export const excursions = {
   ],
 };
 export const shopping = {
+  heading:
+    'In regards to the shopping in Bikaner, it is always interesting because the city has lots of things to offer starting from handicrafts and ending with spices in jewelry stores or textiles shops. This region is popular for excellent terracotta items, leather dolls, embroidered shoes, and artfully embroidered dresses. Here are some of the best shopping experiences in Bikaner:',
   content: [
     {
       day: 'Bikaner’s Local Markets',
@@ -138,6 +176,8 @@ export const shopping = {
   ],
 };
 export const restaurantsandmore = {
+  heading:
+    'The city of Bikaner is famous for the exotic tasteful food it offers , and tasty delicious recipes are cooked authentically in the principality of Rajasthan. The city has ample of convention food to taste like veg and non veg both. Here are some of the best dishes and restaurants you must try in Bikaner:',
   content: [
     {
       day: 'Bikaneri Bhujia',
@@ -160,8 +200,11 @@ export const restaurantsandmore = {
       content: `Bikaner is home to several restaurants that serve both local and royal Rajasthani cuisines. Some recommended spots include Chappal Restaurant, Bikaner Sweets, and the Laxmi Niwas Palace Hotel restaurant. At Laxmi Niwas, you can taste the traditional royal dishes of Rajasthan, making it a truly unique dining experience.`,
     },
   ],
+  footer:
+    'Some of the recommended restaurants In Bikaner are Chappal Restaurant, Bikaner sweets and very special restaurant is Laxmi Niwas Palace Hotel restaurant where one can taste the typical royal cuisines of Rajasthan.',
 };
 export const howToReach = {
+  heading: '',
   content: [
     {
       day: 'By Air',

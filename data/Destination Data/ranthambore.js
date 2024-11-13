@@ -1,17 +1,36 @@
 const temp = {
   bold: (text) => `<span class='fw-bold'>${text}</span>`,
   link: (text, url) =>
-    `<a class='text-web' target='_blank' href='${url}'>${text}</a>`,
+    `<a class='text-web fw-bold' target='_blank' href='${url}'>${text}</a>`,
 };
 
-export const about = {
+export const overview = {
+  heading: 'Ranthambore: A Total Direct to the Gem of Rajasthan',
   content: [
-    `Ranthambore, a title that summons pictures of magnificent tigers, rich timberlands, and noteworthy fortifications, is one of India’s biggest and most eminent national parks. Settled in the Sawai Madhopur area of Rajasthan, it offers guests an interesting mix of natural life and wealthy social legacy. Known for its assorted vegetation and fauna, particularly the well known Bengal tigers, Ranthambore is a heaven for nature darlings and natural life devotees. This Ranthambore travel guide will take you through the captivating encounters anticipating you in Ranthambore, Ranthambore sightseeing, historical centers, fairs, trips, shopping, and nearby cuisine.`,
-    `Ranthambore National Stop, covering an area of around 1,334 square kilometers, is a noteworthy natural life save that draws in visitors from over the globe. The stop is named after the noteworthy Ranthambore Fort, a UNESCO World Legacy Location that stands tall inside the park’s boundaries. Once a chasing ground for the maharajas of Jaipur, the stop has changed into a haven for natural life, advertising a secure living space for different species, counting panthers, sambar deer, and crocodiles.`,
+    `Ranthambore, a title that summons pictures of magnificent tigers, rich timberlands, and noteworthy fortifications, is one of India’s biggest and most eminent national parks. Settled in the Sawai Madhopur area of Rajasthan, it offers guests an interesting mix of natural life and wealthy social legacy. Known for its assorted vegetation and fauna, particularly the well known Bengal tigers, Ranthambore is a heaven for nature darlings and natural life devotees. This ${temp.bold(
+      `Ranthambore travel guide`
+    )} will take you through the captivating encounters anticipating you in Ranthambore, ${temp.bold(
+      `Ranthambore sightseeing`
+    )}, historical centers, fairs, trips, shopping, and nearby cuisine.`,
+  ],
+};
+export const about = {
+  heading: ``,
+  content: [
+    `Ranthambore National Stop, covering an area of around 1,334 square kilometers, is a noteworthy natural life save that draws in visitors from over the globe. The stop is named after the noteworthy ${temp.bold(
+      `Ranthambore Fort`
+    )}, a UNESCO World Legacy Location that stands tall inside the park’s boundaries. Once a chasing ground for the maharajas of ${temp.link(
+      `Jaipur`,
+      `https://www.rajasthantourpackages.in/jaipur`
+    )}, the stop has changed into a haven for natural life, advertising a secure living space for different species, counting panthers, sambar deer, and crocodiles.`,
+    `The scene of Ranthambore is characterized by dry deciduous timberlands, rough slopes, and open prairies, making it an assorted environment. The stop is partitioned into different zones, each advertising one of a kind openings for natural life sightings and investigation. Guests can select from Ranthambore safaris, jeep rides, and nature strolls to encounter the park's magnificence up close.`,
   ],
 };
 
 export const sightseeing = {
+  heading: `Ranthambore is more than fair a natural life asylum. It is a treasure trove of ${temp.bold(
+    `Ranthambore Sightseeing`
+  )} openings that reflect the region’s wealthy history and common magnificence. Here are a few of the must-visit attractions in and around Ranthambore:`,
   content: [
     {
       day: 'Ranthambore National Park',
@@ -32,7 +51,10 @@ export const sightseeing = {
     {
       day: 'Padam Talao',
       title: 'largest lake in Ranthambore National Park',
-      content: `One of the largest lakes in Ranthambore National Park, Padam Talao is a wildlife hotspot surrounded by lush greenery. This serene lake attracts various birds and animals, especially during the winter months. It’s a fantastic location for birdwatching and offers stunning views, especially during sunrise and sunset.`,
+      content: `One of the largest lakes in ${temp.link(
+        `Ranthambore National Park`,
+        `https://www.jaipurtaxiservice.com/day-trips-from-jaipur/ranthambhore-tiger-reserve-tour-from-jaipur.html`
+      )}, Padam Talao is a wildlife hotspot surrounded by lush greenery. This serene lake attracts various birds and animals, especially during the winter months. It’s a fantastic location for birdwatching and offers stunning views, especially during sunrise and sunset.`,
       highlights: {
         points: [],
       },
@@ -40,7 +62,9 @@ export const sightseeing = {
     {
       day: 'Jogi Mahal',
       title: 'ancient hunting lodge turned heritage hotel',
-      content: `Located near Padam Talao, Jogi Mahal is an ancient hunting lodge that has been converted into a heritage hotel. The structure showcases the architectural brilliance of a bygone era and is surrounded by dense forests. It’s an ideal place for a leisurely walk and offers stunning views of the lake and the park.`,
+      content: `Located near Padam Talao, ${temp.bold(
+        `Jogi Mahal`
+      )} is an ancient hunting lodge that has been converted into a heritage hotel. The structure showcases the architectural brilliance of a bygone era and is surrounded by dense forests. It’s an ideal place for a leisurely walk and offers stunning views of the lake and the park.`,
       highlights: {
         points: [],
       },
@@ -49,6 +73,7 @@ export const sightseeing = {
 };
 
 export const museumsandart = {
+  heading: `While Ranthambore is transcendently known for its natural life and normal magnificence, it moreover has a few historical centers and craftsmanship exhibitions that exhibit the wealthy social legacy of the region.`,
   content: [
     {
       day: 'The Ranthambore School of Art',
@@ -64,11 +89,16 @@ export const museumsandart = {
 };
 
 export const fairandfestivals = {
+  heading: `Ranthambore is not as it were a safe house for natural life devotees but moreover a dynamic center for social celebrations. The locale celebrates a few ${temp.bold(
+    `Ranthambore fairs and celebrations`
+  )} that reflect its wealthy conventions and customs.`,
   content: [
     {
       day: 'Ranthambore Festival',
       title: 'celebration of wildlife and culture',
-      content: `Held every year in March, the Ranthambore Festival celebrates the region's rich culture and wildlife. The festival features various events, including wildlife photography exhibitions, nature walks, and traditional music and dance performances. It aims to raise awareness about wildlife conservation and the importance of preserving the natural environment.`,
+      content: `Held every year in March, the ${temp.bold(
+        `Ranthambore Festival`
+      )} celebrates the region's rich culture and wildlife. The festival features various events, including wildlife photography exhibitions, nature walks, and traditional music and dance performances. It aims to raise awareness about wildlife conservation and the importance of preserving the natural environment.`,
     },
     {
       day: 'Ganesh Chaturthi',
@@ -84,6 +114,7 @@ export const fairandfestivals = {
 };
 
 export const excursions = {
+  heading: `For those looking to investigate past the national stop, Ranthambore offers an assortment of exercises and trips that exhibit the region's characteristic excellence and social heritage.`,
   content: [
     {
       day: 'Khandar Fort',
@@ -104,6 +135,7 @@ export const excursions = {
 };
 
 export const shopping = {
+  heading: `Shopping in Ranthambore provides an interesting shopping experience at local markets featuring typical Rajasthani arts and souvenirs.`,
   content: [
     {
       day: 'Local Handicrafts Ranthambore',
@@ -124,6 +156,7 @@ export const shopping = {
 };
 
 export const restaurantsandmore = {
+  heading: `Ranthambore not as it were offers breathtaking characteristic excellence but too a delightful culinary encounter. The neighborhood food is a reflection of Rajasthan's wealthy culinary legacy, characterized by striking flavors and fragrant spices.`,
   content: [
     {
       day: 'Dal Baati Churma',
@@ -159,16 +192,21 @@ export const restaurantsandmore = {
 };
 
 export const howToReach = {
+  heading: ``,
   content: [
     {
       day: 'By Air',
       title: '',
-      content: `The nearest airport is Sawai Madhopur Airport (SWM), about 10 km from Ranthambore. It has limited connectivity, so you may need to fly to Jaipur or Delhi first.`,
+      content: `The nearest airport is ${temp.bold(
+        `Sawai Madhopur Airport (SWM)`
+      )}, about 10 km from Ranthambore. It has limited connectivity, so you may need to fly to Jaipur or Delhi first.`,
     },
     {
       day: 'By Train',
       title: '',
-      content: `Sawai Madhopur Railway Station is well-connected to major cities like Delhi, Mumbai, and Jaipur. It is the nearest railhead to Ranthambore National Park.`,
+      content: `${temp.bold(
+        `Sawai Madhopur Railway Station`
+      )} is well-connected to major cities like Delhi, Mumbai, and Jaipur. It is the nearest railhead to Ranthambore National Park.`,
     },
     {
       day: 'By Road',

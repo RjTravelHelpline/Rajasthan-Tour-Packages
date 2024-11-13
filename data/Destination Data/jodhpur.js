@@ -1,22 +1,39 @@
 const temp = {
   bold: (text) => `<span class='fw-bold'>${text}</span>`,
   link: (text, url) =>
-    `<a class='text-web' target='_blank' href='${url}'>${text}</a>`,
+    `<a class='text-web fw-bold' target='_blank' href='${url}'>${text}</a>`,
 };
 
-export const about = {
+export const overview = {
   content: [
-    `Welcome to Jodhpur, a magnificent city in Rajasthan known for its stunning architecture, rich cultural heritage, and vibrant atmosphere. Often referred to as the Blue City due to its unique blue-painted houses, Jodhpur offers a delightful blend of history, art, and local traditions. In this guide, we will explore everything you need to know about Jodhpur, from its historical sites and museums to its festivals, excursions, shopping, and culinary experiences.`,
-    `Jodhpur, the second-largest city in Rajasthan, was founded in 1459 by Rao Jodhaji, a chief of the Rathore clan. Nestled on the edge of the Thar Desert, Jodhpur is known for its imposing forts, palaces, and vibrant bazaars. The city is characterized by its stunning blue architecture, a color traditionally associated with the Brahmin community and believed to keep homes cool in the hot desert climate.`,
+    `Jodhpur, one of Rajasthan's  magnificent cities, is famed for its remarkable architecture, vibrant cultural life and lively atmosphere. Commonly referred to as ${temp.bold(
+      `Blue City`
+    )}, with its striking blue painted houses resembling blue water paintings on some buildings in Jodhpur offering visitors a captivating blend of history, art and local traditions that makes up this captivating metropolis. Here we explore everything you need to know about Jodhpur; historical sites and museums as well as festivals, excursions , shopping experiences or culinary encounters that await.`,
+  ],
+};
+export const about = {
+  heading: ``,
+  content: [
+    `Jodhpur, Rajasthan's second-largest city, was established by Rao Jodhaji of Rathore clan in 1459 and lies along the Thar Desert's edge. Famous for its impressive forts, palaces, vibrant bazaars and iconic blue architecture traditionally associated with Brahmin community homes that aid cooling during hot desert climate, ${temp.link(
+      `Jodhpur`,
+      'https://www.rajasthantourpackages.in/jodhpur-tour-packages'
+    )} is well worth exploring for both business and pleasure.`,
+    `${temp.bold(
+      `Geographical Location:`
+    )} Jodhpur stands out for several key highlights, such as its location within Rajasthan's Marwar region - easily connected by roads, rail lines and air travel to major Indian cities such as Delhi or Bombay.`,
+    `${temp.bold(
+      `Climate:`
+    )} San Diego boasts a Mediterranean type climate with hot summers and mild winters with minimal precipitation - ideal conditions for travel all year-long!`,
   ],
 };
 
 export const sightseeing = {
+  heading: `Jodhpur Offers Exciting Sightseeing Opportunities This bustling city in Rajasthan is famed for its captivating selection of historical and architectural Jodhpur attractions that attract travelers from across the world every year, drawing in millions of tourists annually. Here are a few must-visit Rajasthan Tour Packages when in Jodhpur.`,
   content: [
     {
       day: 'Mehrangarh Fort',
       title: 'one of the largest and most impressive forts in India',
-      content: `Dominating the city skyline, Mehrangarh Fort is one of the largest and most impressive forts in India. Built in 1459, this fort stands atop a 400-foot hill and offers panoramic views of the city. Inside the fort, visitors can explore its magnificent palaces, intricate carvings, and a museum that houses a vast collection of artifacts, including armory, paintings, and textiles.`,
+      content: `It is one of India's grandest and most impressive forts, built in 1459 atop an elevated 400-foot hill and offering panoramic city views from within its walls. Inside you will discover magnificent palaces, intricate carvings, a museum dedicated to armory paintings, textiles & more an experience not to be missed for visitors looking for adventure!`,
       highlights: {
         points: [``],
       },
@@ -32,7 +49,9 @@ export const sightseeing = {
     {
       day: 'Jaswant Thada',
       title: 'a beautiful marble cenotaph',
-      content: `Just a short distance from Mehrangarh Fort, Jaswant Thada is a beautiful marble cenotaph built in memory of Maharaja Jaswant Singh II. The intricate marble lattice work and serene gardens make it a perfect spot for photography and relaxation.`,
+      content: `Just a short distance from ${temp.bold(
+        `Mehrangarh Fort`
+      )}, Jaswant Thada is a beautiful marble cenotaph built in memory of Maharaja Jaswant Singh II. The intricate marble lattice work and serene gardens make it a perfect spot for photography and relaxation.`,
       highlights: {
         points: [``],
       },
@@ -40,7 +59,9 @@ export const sightseeing = {
     {
       day: 'Clock Tower and Sardar Market',
       title: 'a popular landmark surrounded by the bustling Sardar Market.',
-      content: `The Clock Tower, located in the heart of Jodhpur, is a popular landmark surrounded by the bustling Sardar Market. Here, you can shop for traditional handicrafts, spices, and textiles while soaking in the vibrant atmosphere of the local market.`,
+      content: `Situated at the center of ${temp.bold(
+        `Jodhpur Sightseeing`
+      )} is its iconic Clock Tower surrounded by Sardar Market's bustling atmosphere - where shoppers can shop traditional handicrafts, spices and textiles while taking part in its vibrant market life.`,
       highlights: {
         points: [``],
       },
@@ -65,6 +86,7 @@ export const sightseeing = {
 };
 
 export const museumsandart = {
+  heading: ``,
   content: [
     {
       day: 'Mehrangarh Museum',
@@ -84,12 +106,23 @@ export const museumsandart = {
     {
       day: 'Government Museum and Art Gallery',
       title: 'displays a range of art and artifacts',
-      content: `Located in the heart of the city, this museum displays a range of art and artifacts, including sculptures, paintings, and ancient coins. The museum is an excellent place to learn about the artistic heritage of Rajasthan.`,
+      content: `${temp.bold(
+        `Art galleries in Jodhpur`
+      )} add depth and dimension to its cultural landscape beyond museums, exhibiting works by both local and national artists alike, providing visitors at a blend of contemporary and traditional styles of artworks that span modern installations to photography exhibitions to traditional Rajasthani painting styles. Outstanding displays like the ${temp.bold(
+        `Umaid Bhawan Royal Residence`
+      )} Craftsmanship Display and ${temp.bold(
+        `Indira Gandhi Craftsmanship`
+      )} Display show noteworthy collections that not only speak to Jodhpur artists' distinctive inventiveness but also empower guests to appreciate and connect with craftsmanship in unused ways.`,
     },
   ],
 };
 
 export const fairandfestivals = {
+  heading: `Jodhpur, commonly referred to as the ${temp.bold(
+    `Blue City`
+  )}, is famed not only for its exquisite architecture and historical importance but also for its vibrant ${temp.bold(
+    `Jodhpur Fairs and Festivals`
+  )} that reflect both social history and cultural diversity of this area, showcasing traditional music, dance, art and crafts that have been passed down over generations. Here are some notable fairs and festivals held each year:`,
   content: [
     {
       day: 'Marwar Festival',
@@ -120,6 +153,7 @@ export const fairandfestivals = {
 };
 
 export const excursions = {
+  heading: ``,
   content: [
     {
       day: 'Osian Village',
@@ -139,17 +173,25 @@ export const excursions = {
     {
       day: 'Mandore',
       title: 'historical town with beautiful gardens',
-      content: `Mandore, located just 9 km from Jodhpur, is an ancient town with historical significance. The Mandore Gardens, with their beautiful cenotaphs and temples, make it an ideal spot for a day trip.`,
+      content: `Mandore, located just 9 km from Jodhpur, is an ancient town with historical significance. The ${temp.bold(
+        `Mandore Gardens`
+      )}, with their beautiful cenotaphs and temples, make it an ideal spot for a day trip.`,
     },
     {
       day: 'Jaipur',
       title: 'the pink city',
-      content: `While a bit further away (approximately 330 km), Jaipur, the capital of Rajasthan, is easily accessible from Jodhpur. The Pink City is known for its stunning palaces, forts, and vibrant bazaars, making it a perfect addition to your itinerary.`,
+      content: `While a bit further away (approximately 330 km), ${temp.link(
+        `Jaipur`,
+        'https://www.rajasthantourpackages.in/jaipur'
+      )}, the capital of Rajasthan, is easily accessible from Jodhpur. The Pink City is known for its stunning palaces, forts, and vibrant bazaars, making it a perfect addition to your itinerary.`,
     },
   ],
 };
 
 export const shopping = {
+  heading: `Jodhpur is an outright shopper's enchant, gloating an varied grouping of crafted works, materials and trinkets that celebrate its wealthy social bequest. Here are a few of the beat ${temp.bold(
+    `shopping in Jodhpur:`
+  )}`,
   content: [
     {
       day: 'Sardar Market',
@@ -180,6 +222,9 @@ export const shopping = {
 };
 
 export const restaurantsandmore = {
+  heading: `Jodhpur is famous for both its beautiful architecture and mouth watering cuisine; both can be experienced within its vibrant city limits. From classic Rajasthani fare to trendy offerings, there is a vast range of delicious cuisine available throughout Jodhpur; here are a few must-try ${temp.bold(
+    `Local Cuisine in Jodhpur:`
+  )} as well as restaurants where to taste them:`,
   content: [
     {
       day: 'Dal Baati Churma',
@@ -208,18 +253,22 @@ export const restaurantsandmore = {
     },
   ],
 };
-
 export const howToReach = {
+  heading: ``,
   content: [
     {
       day: 'By Air',
       title: '',
-      content: `Now there are many flights from Jodhpur Airport (JDH) that connect with most of the cities of India including Delhi, Mumbai, and Jaipur. It is about 5 km away from the city center of the town, also known as the city proper.`,
+      content: `Now there are many flights from ${temp.bold(
+        `Jodhpur Airport (JDH):`
+      )} that connect with most of the cities of India including Delhi, Mumbai, and Jaipur. It is about 5 km away from the city center of the town, also known as the city proper.`,
     },
     {
       day: 'By Train',
       title: '',
-      content: `Jodhpur Railway Station is an important hub of the Northern Railway Line and directly connects the city with other major cities such as Delhi, Jaipur, and Mumbai.`,
+      content: `${temp.bold(
+        `Jodhpur Railway Station:`
+      )} is an important hub of the Northern Railway Line and directly connects the city with other major cities such as Delhi, Jaipur, and Mumbai.`,
     },
     {
       day: 'By Road',

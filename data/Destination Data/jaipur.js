@@ -1,16 +1,41 @@
 const temp = {
   bold: (text) => `<span class='fw-bold'>${text}</span>`,
   link: (text, url) =>
-    `<a class='text-web' target='_blank' href='${url}'>${text}</a>`,
+    `<a class='text-web fw-bold' target='_blank' href='${url}'>${text}</a>`,
 };
 
+export const overview = {
+  content: [``],
+};
 export const about = {
   content: [
-    `Jaipur, the vibrant capital of Rajasthan, is renowned for its regal history, stunning architecture, and rich cultural heritage. Known as the Pink City due to its distinctive pink-hued buildings, Jaipur offers an unforgettable experience for travelers. Discover why Jaipur is a must-visit destination with our tailored Jaipur Tour Packages.`,
-    `Jaipur, the vibrant capital of Rajasthan, is renowned for its regal history, stunning architecture, and rich cultural heritage. Known as the Pink City due to its distinctive pink-hued buildings, Jaipur offers an unforgettable experience for travelers. Discover why Jaipur is a must-visit destination with our tailored Jaipur Tour Packages.`,
+    `Jaipur, the vibrant capital of Rajasthan, is renowned for its regal history, stunning architecture, and rich cultural heritage. Known as the Pink City due to its particular pink-hued buildings, Jaipur offers exceptional involvement for travelers. Discover why Jaipur is a must-visit destination with our tailored ${temp.bold(
+      `Jaipur Tour Packages`
+    )}.`,
+    `${temp.bold(
+      `Historical Attractions:`
+    )} Jaipur, a city with a unique blend of Hindu and Mughal architecture, is home to several iconic landmarks that reflect its royal past. ${temp.bold(
+      `The Amber Fort`
+    )}, standing majestically on a hill, is a stunning blend of these two architectural styles. The City Palace, a magnificent complex of palaces, courtyards, and gardens, showcases the grandeur of the erstwhile royal family. And then there's the ${temp.link(
+      `Hawa Mahal`,
+      `https://www.jaipurtaxiservice.com/places-to-visit-in-jaipur/hawa-mahal-jaipur.html`
+    )} (Palace of Winds), an architectural marvel with its intricately designed façade. These unique attractions are sure to pique your interest.`,
+    `${temp.bold(
+      `Cultural Experiences:`
+    )} Jaipur’s vibrant bazaars offer a treasure trove of handicrafts, textiles, and traditional Rajasthani jewelry. The bustling Johari Bazaar and Bapu Bazaar are perfect for shopping enthusiasts. But the cultural experiences in Jaipur are not just limited to shopping. Immerse yourself in local traditions by attending a lively Rajasthani folk dance or music performance. The variety of cultural experiences in Jaipur is sure to excite you.`,
+    `${temp.bold(
+      `Modern Attractions:`
+    )} For a taste of contemporary Jaipur, visit the ${temp.bold(
+      `Jantar Mantar`
+    )}, an astronomical observatory that blends science and art. The Rambagh Palace, now a luxury hotel, provides a glimpse into royal life with its opulent design and serene surroundings.`,
+    `${temp.bold(
+      `Culinary Delights:`
+    )} Jaipur’s nourishment scene is as different as its attractions. Savor conventional Rajasthani dishes like dal bati churma and gatte ki sabzi at nearby eateries and upscale eateries alike.`,
+    `Our Jaipur Travel Packages offer a comprehensive exploration of this enchanting city. They are designed to provide a balanced mix of historical tours, cultural experiences, and leisure activities. Whether you’re here for a short visit or an extended stay, our packages ensure that you don't miss out on any aspect of Jaipur. Jaipur promises a rich and memorable journey, and our comprehensive packages are here to make sure of that. Book your Jaipur tour today and experience the charm of the Pink City.`,
   ],
 };
 export const sightseeing = {
+  heading: `Jaipur is packed with incredible attractions, offering a diverse range of sightseeing opportunities, from forts and palaces to temples and gardens. Let's explore the top tourist attractions in the city.`,
   content: [
     {
       day: 'Amber Fort',
@@ -91,13 +116,18 @@ export const sightseeing = {
       },
     },
   ],
+  footer: '',
 };
 export const museumsandart = {
+  heading:
+    "Jaipur, the dynamic capital of Rajasthan, is not as famous for its magnificent posts and royal residences, but, moreover, its wealthy social legacy showcased through its galleries and craftsmanship galleries. Dive into the heart of Jaipur's artistic and historical legacy with our comprehensive Jaipur tour packages, designed to highlight the best of the city's cultural treasures and ensure you take advantage of all of the city's unique experiences.",
   content: [
     {
       day: 'Albert Hall Museum',
       title: 'oldest museum in Rajasthan',
-      content: `As one of the oldest museums in Rajasthan, the Albert Hall Museum is a must-visit. It houses an extensive collection of artifacts, including ancient coins, textiles, and sculptures. The museum’s Indo-Saracenic architecture adds to its charm, making it a prominent landmark in Jaipur.`,
+      content: `As one of the oldest museums in Rajasthan, the ${temp.bold(
+        `Albert Hall Museum`
+      )} is a must-visit. It houses an extensive collection of artifacts, including ancient coins, textiles, and sculptures. The museum’s Indo-Saracenic architecture adds to its charm, making it a prominent landmark in Jaipur.`,
     },
     {
       day: 'City Palace Museum',
@@ -112,11 +142,18 @@ export const museumsandart = {
     {
       day: 'Rajasthan Art Gallery',
       title: 'traditional and contemporary Rajasthani art',
-      content: `A haven for art enthusiasts, the Rajasthan Art Gallery is a platform that celebrates traditional and contemporary Rajasthani art. Its diverse collection of paintings, sculptures, and handicrafts is a testament to the region's rich artistic heritage, making it a must-visit for anyone interested in art and culture.`,
+      content: `A haven for art enthusiasts, the Rajasthan Art Gallery is a platform that celebrates traditional and contemporary Rajasthani art. Its diverse collection of paintings, sculptures, and handicrafts is a testament to the region's rich artistic heritage, making it a must-visit for anyone interested in art and culture.
+`,
     },
   ],
+  footer: `Discover Jaipur's vibrant cultural scene with our ${temp.link(
+    `Jaipur Sightseeing Tours`,
+    `https://www.jaipurtaxiservice.com/jaipur-sightseeing-tours.html`
+  )}, ensuring a memorable experience exploring the city's renowned museums and art galleries. Each location provides an in-depth understanding of Jaipur's rich history and artistic evolution. Book your Jaipur tour package today and immerse yourself in the city's cultural splendor`,
 };
 export const fairandfestivals = {
+  heading:
+    'Jaipur, the vibrant capital of Rajasthan, is renowned for its rich cultural heritage, stunning architecture, and lively festivals. Known as the Pink City, Jaipur is a popular goal in Rajasthan, advertising an interesting mix of chronic magnificence and dynamic celebrations. Discover the essence of this magnificent city with our specially curated Jaipur Tour Packages.',
   content: [
     {
       day: 'Jaipur Literature Festival',
@@ -144,8 +181,15 @@ export const fairandfestivals = {
       content: `The festival of lights transforms Jaipur into a dazzling spectacle with illuminated markets, vibrant celebrations, and festive events throughout the city in October or November.`,
     },
   ],
+  footer: `Explore Jaipur's rich tapestry of culture and tradition through our Jaipur Tour Packages, offering personalized itineraries that include these must-see festivals and landmarks. Experience the magic of Jaipur, where history meets celebration, ensuring an unforgettable journey through Rajasthan's capital. Jaipur, the enchanting capital of Rajasthan, is not only known for its majestic palaces and historic forts but also for its vibrant shopping scene and diverse excursions. Our ${temp.link(
+    `Rajasthan Tour Packages`,
+    `https://www.rajasthantourpackages.in/`
+  )} offer a comprehensive experience that captures the essence of this culturally rich city, combining sightseeing, shopping, and local exploration.
+`,
 };
 export const excursions = {
+  heading:
+    'Jaipur is brimming with captivating excursions that showcase its royal heritage and natural beauty. Key highlights include:',
   content: [
     {
       day: 'Golden Post',
@@ -168,8 +212,11 @@ export const excursions = {
       content: `This cosmic observatory is a UNESCO World Legacy location known for its noteworthy collection of galactic disobedience.`,
     },
   ],
+  footer: '',
 };
 export const shopping = {
+  heading:
+    "Jaipur is a shopper's paradise with its vibrant markets and traditional bazaars, each offering a unique shopping experience. Key shopping destinations include:",
   content: [
     {
       day: 'Johari Bazaar',
@@ -192,8 +239,14 @@ export const shopping = {
       content: `A bustling commercial street where you can find a mix of high-end boutiques and local shops.`,
     },
   ],
+  footer: `Our ${temp.link(
+    `Jaipur Tour Packages`,
+    `https://www.rajasthantourpackages.in`
+  )} are meticulously designed to provide an immersive experience, allowing you to delve into the city's historical landmarks and indulge in its vibrant shopping scene. Whether you're seeking cultural excursions or unique shopping finds, Jaipur promises a memorable adventure filled with rich experiences and treasures. Explore Jaipur's charm with our tailored packages and discover why this Pink City, with its unique blend of royal heritage and modern development, is a must Tour destination in Rajasthan.`,
 };
 export const restaurantsandmore = {
+  heading:
+    "Jaipur's culinary scene is as dynamic as its culture. The city offers a variety of traditional Rajasthani dishes, such as dal baati churma, gatte ki sabzi, and ker sangri, as well as modern cuisine. Don't miss the opportunity to taste the local street food, which includes pyaz ki kachori, mirchi bada, and lassi.",
   content: [
     {
       day: 'Chokhi Dhani',
@@ -217,14 +270,18 @@ Must-Try Dishes: Dal Baati Churma, Laal Maas`,
       content: `Rawat is renowned for its pyaz ki kachori, a popular Rajasthani snack, along with other local delicacies.`,
     },
   ],
+  footer: '',
 };
-
 export const howToReach = {
+  heading:
+    'Jaipur, the capital of Rajasthan is very much in link with the rest of India and even the international market. The mode of transport to Jaipur whether by air, rail or road is fairly easy depending on your origin.',
   content: [
     {
       day: 'By Air',
       title: '',
-      content: `The airport of the city is Jaipur International Airport, located about 13 km from the city center. Jaipur airport has both domestic and international terminals, with airlines covering Jaipur to Delhi, Mumbai, Kolkata, Dubai, Bangkok, and many others.`,
+      content: `The airport of the city is ${temp.bold(
+        `Jaipur International Airport`
+      )}, located about 13 km from the city center. Jaipur airport has both domestic and international terminals, with airlines covering Jaipur to Delhi, Mumbai, Kolkata, Dubai, Bangkok, and many others.`,
     },
     {
       day: 'By Train',

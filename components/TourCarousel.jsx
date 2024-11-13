@@ -14,8 +14,8 @@ const TourCarousel = ({ images, content }) => {
                             <h3 className="text-center color-tertary px-0 w-auto text-uppercase">
                                 {content[index].duration}
                             </h3>
-                            <h1 className="mb-4 text-capitalize w-100 fw-bold text-center text-white">
-                                {content[index].title}
+                            <h1 className="mb-4 text-uppercase w-100 fw-bold text-center text-white">
+                                {content[index].title} <hr style={{ borderColor: 'white' }} /> <span className='color-tertary d-block text-capitalize fw-normal'>{content[index].subhead}</span>
                             </h1>
                         </div>
                     </Carousel.Caption>

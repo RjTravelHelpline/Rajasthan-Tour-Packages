@@ -3,14 +3,19 @@ const temp = {
   link: (text, url) =>
     `<a class='text-web' target='_blank' href='${url}'>${text}</a>`,
 };
-export const about = {
+export const overview = {
+  heading:
+    'Ajmer: A Total Travel Direct to the Social and Otherworldly Center of Rajasthan',
   content: [
     `Ajmer, a memorable city found in the heart of Rajasthan, is one of the most noteworthy journeys and social goals in India. Encompassed by the Aravalli slopes, this city offers a culminating mix of the most profound sense of being, history, and culture, making it a fundamental halt for anybody going to Rajasthan. From religious places to fairs and festivals, Ajmer provides a complete and leisure ${temp.bold(
       `Ajmer Tour Packages`
-    )}  to the travelers.`,
-    `This extensive ${temp.bold(
-      `Ajmer Rajasthan Travel`
-    )} Guide will provide you with the city’s landmarks, sightseeing sites, galleries, art markets, fairs, shopping and the quizzical tastes of local food. Whether you are looking for otherworldly comfort or an investigation of Rajasthan’s wealthy history, Ajmer has something to offer.`,
+    )} to the travelers.`,
+    `This extensive Ajmer Rajasthan Travel Guide will provide you with the city’s landmarks, sightseeing sites, galleries, art markets, fairs, shopping and the quizzical tastes of local food. Whether you are looking for otherworldly comfort or an investigation of Rajasthan’s wealthy history, Ajmer has something to offer.`,
+  ],
+};
+export const about = {
+  heading: ``,
+  content: [
     `Ajmer is a city with a profound otherworldly and social history. Established in the 11th century by Raja Ajaypal Chauhan, the city was once the capital of the Chauhan tradition some time recently becoming a key center for Muslim rulers. It is most popular for being the home of the ${temp.bold(
       `Ajmer Sharif Dargah`
     )}, the hallowed place of the beloved Sufi holy person Khwaja Moinuddin Chishti, which pulls in millions of aficionados each year. Ajmer is a city that delightfully mixes Hindu and Muslim societies, making it an interesting destination for those interested in India's different heritage.`,
@@ -18,6 +23,7 @@ export const about = {
   ],
 };
 export const sightseeing = {
+  heading: `Ajmer is domestic to a wide assortment of chronicled points of interest, devout destinations, and characteristic ponders. A few of the most unmistakable places to visit in Ajmer include:`,
   content: [
     {
       day: 'Ajmer Sharif Dargah',
@@ -72,6 +78,7 @@ export const sightseeing = {
   ],
 };
 export const museumsandart = {
+  heading: `Ajmer’s historical centers and craftsmanship displays offer important bits of knowledge into the city’s history, craftsmanship, and culture. Here are a few places that grandstand Ajmer’s aesthetic heritage:`,
   content: [
     {
       day: 'Ajmer Government Museum',
@@ -99,6 +106,7 @@ export const museumsandart = {
   ],
 };
 export const fairandfestivals = {
+  heading: `This city is also famous due to its vigor, related to several fairs and festivals which are influenced by both Hindu and Muslims cultural traditions. Its festivities are a fantastic reproduction of the social diversities of the city and it offers an opportunity to see conventional music, dance and performances.`,
   content: [
     {
       day: 'Urs Celebration at Ajmer Sharif',
@@ -129,6 +137,7 @@ export const fairandfestivals = {
   ],
 };
 export const excursions = {
+  heading: `Ajmer’s vicinity to different authentic and devout points of interest makes it a great base for investigating the encompassing locale. Here are a few well known trips from Ajmer:`,
   content: [
     {
       day: 'Pushkar',
@@ -165,6 +174,7 @@ export const excursions = {
   ],
 };
 export const shopping = {
+  heading: `Neighborhood markets of Ajmer provide a unique shopping experience where guests can select souvenirs, hand made toys and Rajasthani local products. Here are a few prevalent shopping areas:`,
   content: [
     {
       day: 'Ajmer Bazaars',
@@ -187,6 +197,7 @@ export const shopping = {
   ],
 };
 export const restaurantsandmore = {
+  heading: `Ajmer has a rich and varying specter of feasting that tells about the industrial gourmet tradition of the state of Rajasthan. Also, locals have world famous dishes like Dal Baati Churma, Gatte ki Sabzi, and Laal Maas ( a zesty curry of lamb).`,
   content: [
     {
       day: 'Nearby Food',
@@ -202,6 +213,7 @@ export const restaurantsandmore = {
 };
 
 export const howToReach = {
+  heading: ``,
   content: [
     {
       day: 'By Air',

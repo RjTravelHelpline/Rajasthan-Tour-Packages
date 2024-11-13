@@ -8,7 +8,7 @@ import RentalSlider from "@/components/RentalSlider";
 import TourCarousel from "@/components/TourCarousel";
 import { allCabRentals } from "@/data/cabRentalData";
 import { mountabuTourPackagesData } from "@/data/data";
-import { about, excursions, fairandfestivals, howToReach, museumsandart, restaurantsandmore, shopping, sightseeing } from "@/data/Destination Data/mountabu";
+import { about, excursions, fairandfestivals, howToReach, museumsandart, overview, restaurantsandmore, shopping, sightseeing } from "@/data/Destination Data/mountabu";
 import { allCitiesImages } from "@/data/imageData";
 import { AiFillCustomerService } from 'react-icons/ai';
 import {
@@ -26,20 +26,46 @@ import { IoLocate } from "react-icons/io5";
 import { MdOutlineExplore, MdTour } from 'react-icons/md';
 
 export const metadata = {
-  title: 'mount abu',
-  description: "",
+  title: "Mount Abu Heritage and History | Rajasthan Tour Packages",
+  description: "Explore the historical temples and natural beauty of Mount Abu, Rajasthan's only hill station. Book your Mount Abu heritage tour with Rajasthan Tour Packages.",
+  keywords: [
+    "Mount Abu Tour Packages",
+    "Mount Abu Hill Station Travel",
+    "Mount Abu Sightseeing Tour",
+    "Mount Abu Travel Experience",
+    "Rajasthan Tour Packages",
+    "Mount Abu Attractions Guide",
+    "Hidden Gems of Mount Abu",
+    "Mount Abu Temples and Culture",
+    "Mount Abu Heritage and History",
+    "Mount Abu Nature Walks",
+    "Mount Abu Eco-Tourism"
+  ],
   alternates: {
-    canonical: 'https://www.rajasthantourpackages.in/mount-abu',
+    canonical: "https://www.rajasthantourpackages.in/mountabu",
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@rajasthantourpackages",
+    title: "Mount Abu Heritage and History | Rajasthan Tour Packages",
+    description: "Explore the historical temples and natural beauty of Mount Abu, Rajasthan's only hill station. Book your Mount Abu heritage tour with Rajasthan Tour Packages.",
+    image: "", // Add image URL if needed
   },
   openGraph: {
-    title: 'mount abu',
-    description: "",
-    url: 'https://www.rajasthantourpackages.in/mount-abu',
-    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
-    siteName: 'Rajasthan Tour Packages',
-    type: 'website',
-  },
-}
+    title: "Mount Abu Heritage and History | Rajasthan Tour Packages",
+    description: "Explore the historical temples and natural beauty of Mount Abu, Rajasthan's only hill station. Book your Mount Abu heritage tour with Rajasthan Tour Packages.",
+    url: "https://www.rajasthantourpackages.in/mountabu",
+    sitename: "Rajasthan Tour Packages",
+    images: [
+      {
+        url: '', // Add image URL if needed
+      }
+    ],
+    locale: 'en_US',
+    type: "website",
+  }
+};
+
 
 const Mountabu = () => {
   const sections = [
@@ -91,8 +117,9 @@ const Mountabu = () => {
 
   const content = [
     {
-      duration: '',
-      title: 'mountabu',
+      duration: null,
+      title: 'Mount Abu',
+      subhead: 'Oasis in the Desert'
     },
   ];
   return (
@@ -105,25 +132,28 @@ const Mountabu = () => {
       <div className="container py-4 days-container overview destination">
         <div className="row d-flex justify-content-center align-items-center days-overview px-2">
           <div className="col-12 col-lg-12 col-sm-12 px-3">
+            {/* overview */}
+            {overview && (
+              <div className="w-100 insider section-offset mb-4" id="about">
+                <h2 className="text-capitalize px-3 mb-3 text-center fw-normal">
+                  <span className="fw-bold"> overview</span>
+                </h2>
+                <p
+                  className="text-justify home-para px-3"
+                  dangerouslySetInnerHTML={{ __html: overview.content }}
+                />
+              </div>
+            )}
             {/* About Section */}
             <div className="w-100 insider section-offset mb-4" id="about">
               <h2 className="text-capitalize px-3 mb-3 text-center fw-normal">
-                <span className="fw-bold"> overview</span>
+                about <span className="fw-bold"> mount abu</span>
               </h2>
-              <p className="text-justify home-para px-3">
-                {about.content.slice(0, 1)}
-              </p>
-              <ReadMoreToggle className="text-justify home-para px-3" tag="p">
-                {about.content}
-              </ReadMoreToggle>
-            </div>
-            <div className="w-100 insider section-offset mb-4" id="how-to-reach">
-              <h2 className="text-capitalize px-3 mb-3 text-center fw-normal">
-                how to<span className="fw-bold">reach</span>
-              </h2>
-              <div className="col-12 px-2">
-                <ItineraryAccordion tourItinerary={howToReach} stylePara='destination-accordion-para' style="destination-accordion-head" showIcon={true} />
-              </div>
+              <p
+                className="text-justify home-para px-3"
+                dangerouslySetInnerHTML={{ __html: about.content[0] }}
+              />
+              <ReadMoreToggle className="text-justify home-para px-3" tag="div" contentArray={about.content.slice(1)} />
             </div>
             {/* Sightseeing Section */}
             <div className="w-100 insider section-offset mb-4" id="historical-attractions">
@@ -132,6 +162,7 @@ const Mountabu = () => {
                 <span className="fw-bold"> sightseeing</span>
               </h2>
               <div className="col-12 px-2">
+                <p dangerouslySetInnerHTML={{ __html: sightseeing.heading }} className="px-2 text-justify" />
                 <ItineraryAccordion tourItinerary={sightseeing} stylePara='destination-accordion-para' style="destination-accordion-head" showIcon={true} more={true} />
               </div>
             </div>
@@ -141,6 +172,7 @@ const Mountabu = () => {
                 Museums &   <span className="fw-bold">Art Galleries</span>
               </h2>
               <div className="col-12 px-2">
+                <p dangerouslySetInnerHTML={{ __html: museumsandart.heading }} className="px-2 text-justify" />
                 <ItineraryAccordion tourItinerary={museumsandart} stylePara='destination-accordion-para' style="destination-accordion-head" showIcon={true} />
               </div>
             </div>
@@ -150,33 +182,51 @@ const Mountabu = () => {
                 Fairs &  <span className="fw-bold"> Festivals</span>
               </h2>
               <div className="col-12 px-2">
+                <p dangerouslySetInnerHTML={{ __html: fairandfestivals.heading }} className="px-2 text-justify" />
                 <ItineraryAccordion tourItinerary={fairandfestivals} stylePara='destination-accordion-para' style="destination-accordion-head" showIcon={true} />
               </div>
             </div>
+            {/* excursions */}
             <div className="w-100 insider section-offset mb-4" id="excursions">
               <h2 className="text-capitalize px-3 mb-3 text-center fw-normal">
                 Places to  <span className="fw-bold"> visit</span>
               </h2>
               <div className="col-12 px-2">
+                <p dangerouslySetInnerHTML={{ __html: excursions.heading }} className="px-2 text-justify" />
                 <ItineraryAccordion tourItinerary={excursions} stylePara='destination-accordion-para' style="destination-accordion-head" showIcon={true} />
               </div>
             </div>
+            {/* shopping */}
             <div className="w-100 insider section-offset mb-4" id="shopping">
               <h2 className="text-capitalize px-3 mb-3 text-center fw-normal">
                 <span className="fw-bold">shopping</span>
               </h2>
               <div className="col-12 px-2">
+                <p dangerouslySetInnerHTML={{ __html: shopping.heading }} className="px-2 text-justify" />
                 <ItineraryAccordion tourItinerary={shopping} stylePara='destination-accordion-para' style="destination-accordion-head" showIcon={true} />
               </div>
             </div>
+            {/* restaurants */}
             <div className="w-100 insider section-offset mb-4" id="restaurantsandmore">
               <h2 className="text-capitalize px-3 mb-3 text-center fw-normal">
                 restaurants &  <span className="fw-bold">Local Cuisine</span>
               </h2>
               <div className="col-12 px-2">
+                <p dangerouslySetInnerHTML={{ __html: restaurantsandmore.heading }} className="px-2 text-justify" />
                 <ItineraryAccordion tourItinerary={restaurantsandmore} stylePara='destination-accordion-para' style="destination-accordion-head" showIcon={true} />
               </div>
             </div>
+            {/* how to reach */}
+            <div className="w-100 insider section-offset mb-4" id="how-to-reach">
+              <h2 className="text-capitalize px-3 mb-3 text-center fw-normal">
+                how to <span className="fw-bold">reach</span>
+              </h2>
+              <div className="col-12 px-2">
+                <p dangerouslySetInnerHTML={{ __html: howToReach.heading }} className="px-2 text-justify" />
+                <ItineraryAccordion tourItinerary={howToReach} stylePara='destination-accordion-para' style="destination-accordion-head" showIcon={true} />
+              </div>
+            </div>
+            {/* tour packages */}
             <div className="w-100 insider section-offset mb-4" id="tour-packages">
               <h2 className="text-capitalize px-3 mb-3 text-center fw-normal">
                 tour
@@ -184,23 +234,26 @@ const Mountabu = () => {
               </h2>
               <PackagesSlider packages={mountabuTourPackagesData} href='/mountabu-tour-packages' />
             </div>
+            {/* cab rentals */}
             <div className="w-100 insider section-offset mb-4" id="cab-rentals">
               <h2 className="text-capitalize px-3 mb-3 text-center fw-normal">
                 cab  <span className="fw-bold">rentals</span>
               </h2>
               <RentalSlider rentals={allCabRentals} />
             </div>
-
+            {/* day trips */}
             <div className="w-100 insider section-offset mb-4" id="day-tours">
               <h2 className="text-capitalize px-3 mb-3 text-center fw-normal">
                 day <span className="fw-bold">tours</span>
               </h2>
             </div>
+            {/* best hotels */}
             <div className="w-100 insider section-offset mb-4" id="best-hotels">
               <h2 className="text-capitalize px-3 mb-3 text-center fw-normal">
                 best  <span className="fw-bold">hotels</span>
               </h2>
             </div>
+            {/* tourist guide */}
             <div className="w-100 insider section-offset mb-4" id="tourist-guide-services">
               <h2 className="text-capitalize px-3 mb-3 text-center fw-normal">
                 tourist <span className="fw-bold">guide </span>services

@@ -1,22 +1,44 @@
 const temp = {
   bold: (text) => `<span class='fw-bold'>${text}</span>`,
   link: (text, url) =>
-    `<a class='text-web' target='_blank' href='${url}'>${text}</a>`,
+    `<a class='text-web fw-bold' target='_blank' href='${url}'>${text}</a>`,
 };
-
+export const overview = {
+  heading: 'Udaipur: The Jewel of Rajasthan',
+  content: [
+    `Being proudly nicknamed the ${temp.bold(
+      `City of Lakes`
+    )}, Udaipur is a beautiful city in Rajasthan with numerous tiny lakes, upscale palaces, ornat temples, and colorful markets. Sometimes it is mentioned that it was founded by Maharana Udai Singh II in 1559, while earlier it was the capital of the Mewar Kingdom. As a city that has preserved its beauty and royal charm over the years, along with having some of the most scenic backdrops in India, it is one of the most important travel destinations in India. For further details about visiting Udaipur and other beautiful places of Rajasthan, you can visit our ${temp.link(
+      `Rajasthan Tour Packages`,
+      `https://rajasthantourpackages.in/`
+    )}. In the coming sections, we will discuss in detail where you can go sightseeing, where the local markets are, what to eat, and everything you need to know about ${temp.bold(
+      `Places to Visit in Udaipur`
+    )}.`,
+  ],
+};
 export const about = {
   content: [
-    `Udaipur, commonly named the City of Lakes, is a lovely city found in Rajasthan's south-central locale and renowned worldwide for its wealthy social history and breathtaking common scenes, along with radiant royal residences lining its lakeshores and breathtaking hillsides. It was built by Maharana Udai Singh II in 1559 as an idyllic retreat destination with scenic lakes, lush hillsides, and intricate architecture attracting visitors from across the world!`,
-    `Udaipur nestles amidst the Aravalli Range and is famous for its three tranquil lakes: Pichola Lake, Fateh Sagar Lake and Udai Sagar Lake. Udaipur was once known for its rich history, valor and royal architecture not to mention warm hospitality from local people - making Udaipur stand out. A stunning landscape complete with rich cultural significance make Udaipur an essential stop-off on any journey through Rajasthan; so don't pass up this stop on your itinerary!`,
+    `Located in the southern region of the Aravalli hill range, ${temp.link(
+      `Udaipur`,
+      `https://www.jaipurtaxiservice.com/tourist-cities-of-rajasthan/udaipur.html`
+    )} has widely become one of the favorite cities of Rajasthan. Its name as the Venice of the East is due to its five beautiful lakes out of which the famous one would be ${temp.bold(
+      `Lake Pichola`
+    )}, Fateh Sagar, Swaroop Sagar, Rangsagar and Doodh Talai. The city is ultra modern and yet it boasts of rich history; there are palaces, forts, museums, temples and everything else that a traveler could dream of seeing in this region of Rajasthan.`,
+    `Udaipur is also undoubtedly a city that cherishes the traditions of India. Where ancient traditions meet the modern ways of living – at the same time, all visitors will have a great chance to enjoy the time of their lives.`,
   ],
 };
 
 export const sightseeing = {
+  heading: `Udaipur is absolutely teeming with historical places and beautiful points of interest. Here are some of the ${temp.bold(
+    `Top Places to Visit in Udaipur`
+  )}:`,
   content: [
     {
       day: 'City Palace',
       title: "Udaipur's architectural marvel",
-      content: `Udaipur's architectural marvel, City Palace offers visitors a glimpse into Udaipur's royal history. Built over several centuries and featuring both Rajasthani and Mughal architectural styles, visitors to this grandiose complex may explore its courtyards, gardens, museums containing artifacts of its royal past as well as breathtaking panoramic lakeside views from this grand structure.`,
+      content: `City Palace is actually an opulent ensemble of structures constructed for numerous decades by different Mewar kings. Lying on the shore of Lake Pichola this palace is a classic representation of Rajput style of architecture with finely carved balconies, courts as well as towers. We have Chhatris, ${temp.bold(
+        `City Palace Museum`
+      )} which has various armories and marvelous treasures that include artifacts, weapons, paintings etc.`,
       highlights: {
         points: [``],
       },
@@ -24,7 +46,9 @@ export const sightseeing = {
     {
       day: 'Lake Pichola',
       title: 'one of the most beautiful lakes',
-      content: `Lake Pichola is one of the most beautiful lakes in Udaipur, set in the midst of slopes, royal residences, and sanctuaries. A watercraft ride offers shocking views of City Royal residence and Jag Mandir Island whereas at dusk it turns into an charming sentimental elude spot pulling in both local people and guests.`,
+      content: `Lake Pichola is one of the most beautiful lakes in Udaipur, set in the midst of slopes, royal residences, and sanctuaries. A watercraft ride offers shocking views of City Royal residence and ${temp.bold(
+        `Jag Mandir`
+      )} Island whereas at dusk it turns into an charming sentimental elude spot pulling in both local people and guests.`,
       highlights: {
         points: [``],
       },
@@ -46,17 +70,21 @@ export const sightseeing = {
       },
     },
     {
-      day: 'Jagdish Temple',
-      title: 'committed to Master Vishnu',
-      content: `Udaipur's Jagdish Sanctuary, committed to Master Vishnu and including complex carvings and mind blowing design, invites every day guests who come for ceremonies that cultivate its otherworldly air and take an interest in extraordinary reverential administrations that include assisting profundity of commitment. Guests may witness every day ceremonies at this reverential spot that offer guests the chance to submerge themselves into its otherworldly atmosphere.`,
+      day: 'Fateh Sagar Lake',
+      title: 'artificial lake of Udaipur',
+      content: `Fateh Sagar is another artificial lake of Udaipur where boating is also available and there’s a view of mountains as well. It also has the Nehru Park, a beautiful garden, reachable by boat, and the ${temp.bold(
+        `Udaipur Solar Observatory`
+      )}is said to be the best site for solar observation in the entire continent of Asia.`,
       highlights: {
         points: [``],
       },
     },
     {
-      day: 'Sajjangarh Royal residence',
-      title: 'encompassing views of Udaipur from over.',
-      content: `Situated on a slope, Sajjangarh Royal residence manages marvelous all encompassing views of Udaipur from over. Built initially as a storm retreat for illustrious families amid rainstorm season, this royal residence serves as an amazing stage from which to watch nightfall. Rich slopes and lakes include charm.`,
+      day: 'Monsoon Palace',
+      title: 'also known as Sajjangarh Palace',
+      content: `Palace was constructed at a hill top by Maharana Sajjan Singh for his ${temp.bold(
+        `monsoon palace`
+      )} residence. Here then the people may look at commanding views of the Udaipur palaces, lakes, and countryside vistas.`,
       highlights: {
         points: [``],
       },
@@ -65,12 +93,8 @@ export const sightseeing = {
 };
 
 export const museumsandart = {
+  heading: `Culture and history-lovers will find lots to do in Udaipur; there are a number of museums and art galleries telling the story of Rajasthan’s history.`,
   content: [
-    {
-      day: 'City Palace Museum',
-      title: 'City Royal residence Historical center',
-      content: `Arranged inside the City Royal residence complex is the City Royal residence Historical center, boasting an exceptional determination of antiques, depictions and regal memorabilia that give understanding into Mewar Kingdom history and culture.`,
-    },
     {
       day: 'Bagore Ki Haveli Museum',
       title: 'exhibiting traditional arts and crafts of Rajasthan',
@@ -87,34 +111,36 @@ export const museumsandart = {
       content: `Shilpgram, located just outside Udaipur, is an arts and crafts complex featuring traditional handicrafts, textiles and artwork created by local artisans. Visitors are free to wander the complex's crafts village while meeting with artisans themselves as well as buying unique souvenirs.`,
     },
     {
-      day: 'Folk Art Museum',
-      title: 'Bharatiya Lok Kala Museum',
-      content: `The Folk Art Museum, also known as Bharatiya Lok Kala Museum in Rajasthan, aims to preserve its rich folk art and culture with an exhibit featuring folk art pieces, traditional costumes and artifacts that showcase Rajasthan's vibrant cultural landscape.`,
+      day: 'Crystal Gallery',
+      title: 'crystal furniture, chandeliers & more',
+      content: `This gallery is also located inside the City Palace complex, containing crystal furniture, chandeliers and other articles for which Maharana Sajjan Singh placed order in the mid nineteenth century. The artworks displayed in the gallery promote rich detailing of the reign of Mewar dynasty in India.`,
     },
   ],
 };
 
 export const fairandfestivals = {
+  heading: `What makes Udaipur special are numerous festivals and fairs: visiting this place one can still see traditions of local people.`,
   content: [
     {
       day: 'Mewar Festival',
       title: 'an idol of Goddess Gangaur',
-      content: `The Mewar Celebration takes place each April to commemorate spring. Bringing Udaipur's vibrant culture alive through music, dance, and colorful processions; its highlight being taking an idol of Goddess Gangaur all the way down Lake Pichola in grand style celebration.`,
+      content: `The ${temp.bold(
+        `Mewar Celebration`
+      )} takes place each April to commemorate spring. Bringing Udaipur's vibrant culture alive through music, dance, and colorful processions; its highlight being taking an idol of Goddess Gangaur all the way down Lake Pichola in grand style celebration.`,
     },
     {
-      day: 'Jagannath Rath Yatra',
-      title: 'annual festival to honor Lord Jagannath',
-      content: `Udaipur hosts the magnificent Jagannath Rath Yatra as an annual festival to honor Lord Jagannath, featuring colorfully decorated chariots carrying deities' idols while performing traditional Indian music and dance accompanied by lively fanfares of trumpeters, drummers, singers, drummers, drummerettes, violins and flute players as part of its grand procession through its streets accompanied by traditional Indian music and dance performances and much fanfare from festival goers and tourists alike! This festival draws both local devotees as well as tourists for this spectacular spectacle event!`,
-    },
-    {
-      day: 'Diwali',
-      title: 'festival of lights',
-      content: `Udaipur celebrates Diwali with great gusto every year! The city lights up beautifully as locals participate in prayers and festivities to mark this festive occasion, adding even greater festivity to this festive holiday. And to add even further festive spirit, Udaipur's royal family also shows their festive side by throwing grand celebrations during this day of lights!`,
+      day: 'Shilpgram Crafts Fair',
+      title: 'encompasses dance and music shows',
+      content: `Organized annually in December, ${temp.bold(
+        `Shilpgram Crafts Fair`
+      )} is an amazing concept where artists from all over India gather to display their work. It encompasses common dance and music shows and is extremely lively to depict folk culture of India.`,
     },
     {
       day: 'Teej',
       title: 'festival of colors',
-      content: `Celebrated annually by women of Udaipur to mark the arrival of monsoon season, features traditional attire worn by participants, folk songs sung and cultural programs taking place simultaneously during this celebration of love, fertility and monsoon season.`,
+      content: `The ${temp.bold(
+        `Teej Festival`
+      )} is very popular and it is most enjoyable for the women of Udaipur, who wear colorful dresses, sing and dance on their teeth. This festival is celebrated in honor of Goddess Parvati and is turned into a very lively carnival of marital felicity and affluence.`,
     },
     {
       day: 'Gangaur Festival',
@@ -125,11 +151,19 @@ export const fairandfestivals = {
 };
 
 export const excursions = {
+  heading: `There are several places nearby Udaipur which are quite suitable for visit. Below is the list of sites suggested for sightseeing outside the city.`,
   content: [
     {
       day: 'Kumbhalgarh Fort',
       title: 'encompassing sees of Aravalli Extend Mountains',
       content: `The breathtaking Kumbhalgarh Fortification lies approximately 85 kilometers outside Udaipur and stands as an astonishing case of Rajput military engineering and is recorded on UNESCO's World Legacy list. Encased inside an gigantic divider and giving radiant all encompassing sees of Aravalli Extend Mountains, guests to Kumbhalgarh can investigate sanctuaries, royal residences and climbing trails inside its dividers`,
+    },
+    {
+      day: 'Eklingji Temple',
+      title: 'famous Hindu temple of Lord Shiva',
+      content: `Sitting 22 km from Udaipur, ${temp.bold(
+        `Eklingji Temple`
+      )} is a .famous Hindu temple of Lord Shiva Erected at the beginning of the 8th century, its fine ornaments are expressed in stone and it hosts a black marble Lingam of Lord Shiva, four-faced.`,
     },
     {
       day: 'Chittorgarh Fort',
@@ -139,21 +173,42 @@ export const excursions = {
     {
       day: 'Ranakpur Jain Temple',
       title: 'devoted to Tirthankara Adinatha',
-      content: `Situated approximately 90 kilometers outside Udaipur is Ranakpur Jain Temple - an exquisite temple complex noted for its exquisite marble architecture and stunning carvings devoted to Tirthankara Adinatha for use as a haven of inner peace, it attracts spiritual seekers searching for inner calmness.`,
+      content: `Situated approximately 90 kilometers outside Udaipur is ${temp.link(
+        `Ranakpur`,
+        'https://www.jaipurtaxiservice.com/tourist-cities-of-rajasthan/ranakpur.html'
+      )}Jain Temple - an exquisite temple complex noted for its exquisite marble architecture and stunning carvings devoted to Tirthankara Adinatha for use as a haven of inner peace, it attracts spiritual seekers searching for inner calmness.`,
+    },
+  ],
+};
+export const shopping = {
+  heading: `${temp.bold(
+    `Shopping in Udaipur`
+  )} is also easy going; Udaipur is flooded with lots of shops where people can get standard Rajasthani Handicrafts, Textile goods and souvenirs at cheap rates.`,
+  content: [
+    {
+      day: 'Hathi Pol Bazaar',
+      title: 'most marked shopping place',
+      content: `That’s why Hathi Pol Bazaar is one of the most marked shopping places of Udaipur that offers the true samples of Rajasthani art such as miniatures, crafts, and fabrics. This is a good place to visit for souvenirs and art crafts.`,
     },
     {
-      day: 'Jaisamand Lake',
-      title: 'Dhebar Lake',
-      content: `Jaisamand Lake (also referred to as Dhebar Lake), situated 50 kilometers outside Udaipur is home to numerous activities for boating and picnicking as well as stunning scenic beauty - providing an ideal day trip from Udaipur.`,
+      day: 'Bada Bazaar',
+      title: 'jewelries, fabrics, leather products & more',
+      content: `Purchases can be made here of jewelries, fabrics, leather products and traditional Rajasthani costumes among others. This busy market also has some of the conventional jewelry like Kundan and Polki as well.`,
     },
     {
-      day: 'Haldighati',
-      title: 'an historical site battlefield',
-      content: `Situated approximately 40 kilometers outside Udaipur is Haldighati - an historical site best known as the battlefield between Maharana Pratap and Mughal forces, which visitors to Haldighati can explore by learning of Maharana Pratap's bravery while uncovering more history! Come explore Haldighati today.`,
+      day: 'Shilpgram',
+      title: 'jewelries, fabrics, leather products & more',
+      content: `The Shilpgram is a marketplace for artists and hence a great place to shop for pottery, hand woven fabrics, crafts and more. The annual fair is visited by people from all over the country and it is the best time to buy the true gourmet of handmade works.`,
+    },
+    {
+      day: 'Clock Tower Market',
+      title: 'shopping for foods such as spices, teas & more',
+      content: `The Clock Tower Market is also a good area for shopping for foods such as spices, teas and some weaving and carving art crafts. Famously associated with the atmosphere of bright colors, the market attracts both residents and guests of the city.`,
     },
   ],
 };
 export const restaurantsandmore = {
+  heading: `Rajasthani foods are very spicy and the food found in Udaipur are a perfect reflection for the flavor of Rajasthan.`,
   content: [
     {
       day: 'Dal Baati Churma',
@@ -183,18 +238,25 @@ export const restaurantsandmore = {
   ],
 };
 
-
 export const howToReach = {
+  heading: ``,
   content: [
     {
       day: 'By Air',
       title: '',
-      content: `About 22 km from the city of Udaipur there is Maharana Pratap Airport providing flights to New Delhi, Mumbai, Ahmedabad, Lucknow, and Jaipur among others.`,
+      content: `About 22 km from the city of Udaipur there is ${temp.bold(
+        `Maharana Pratap Airport`
+      )} providing flights to New Delhi, Mumbai, Ahmedabad, Lucknow, and  ${temp.link(
+        `Jaipur`,
+        'https://www.rajasthantourpackages.in/jaipur'
+      )} among others.`,
     },
     {
       day: 'By Train',
       title: '',
-      content: `Udaipur enjoys a rail network by the Udaipur City Railway Station, and other luxury trains like Palace on Wheels pass through Udaipur.`,
+      content: `Udaipur enjoys a rail network by the Udaipur City Railway Station, and other luxury trains like ${temp.bold(
+        `Palace on Wheels`
+      )} pass through Udaipur.`,
     },
     {
       day: 'By Road',

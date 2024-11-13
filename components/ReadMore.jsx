@@ -2,7 +2,7 @@
 
 import React, { useState } from "react";
 
-export default function ReadMoreToggle({ children, buttonText, tag = 'div', className = '' }) {
+export default function ReadMoreToggle({ contentArray, tag = 'div', className = '' }) {
     const [readMore, setReadMore] = useState(false);
 
     const handleReadMore = () => {
@@ -11,9 +11,16 @@ export default function ReadMoreToggle({ children, buttonText, tag = 'div', clas
 
     return (
         <>
-            {/* Conditionally render the children content based on state */}
-            {readMore && React.createElement(tag, { className }, children)}
-
+            {/* Conditionally render each item in the content array based on state */}
+            {readMore &&
+                React.createElement(
+                    tag,
+                    { className },
+                    contentArray.map((item, index) => (
+                        <p key={index} dangerouslySetInnerHTML={{ __html: item }} />
+                    ))
+                )
+            }
             <button
                 className="read-more-btn d-flex position-absolute bottom-0"
                 onClick={handleReadMore}
