@@ -12,6 +12,9 @@ const routes = [
     path: '/blog',
   },
   {
+    path: '/gallery',
+  },
+  {
     path: '/contact-us',
   },
   {
@@ -25,11 +28,11 @@ const routes = [
   { path: '/udaipur' },
   { path: '/jaisalmer' },
   { path: '/ajmer' },
-  { path: '/pushkar' },
   { path: '/jodhpur' },
   { path: '/bharatpur' },
   { path: '/agra' },
   { path: '/delhi' },
+  { path: '/kota' },
 
   // detination packages
 
@@ -43,7 +46,6 @@ const routes = [
   { path: '/jaisalmer-tour-packages' },
   { path: '/jaipur-tour-packages' },
   { path: '/ajmer-tour-packages' },
-  { path: '/pushkar-tour-packages' },
 
   {
     path: '/02-04-days-rajasthan-tours',
@@ -259,6 +261,7 @@ const routes = [
   { path: '/delhi-cab-rental' },
   { path: '/agra-cab-rental' },
   { path: '/ajmer-cab-rental' },
+  { path: '/kota-cab-rental' },
 
   {
     path: '/rajasthan-tour-by-cities',

@@ -18,12 +18,6 @@ export const metadata = {
     index: true,
     follow: true,
   },
-  meta: [
-    {
-      name: 'google-site-verification',
-      content: 'PU85YcSvNVLnD66cxW67fVE1Xig2NKBngonkdHmyb5s',
-    },
-  ],
   authors: [{ name: "Rajasthan Tour Packages", url: "https://www.rajasthantourpackages.in" }],
   publisher: "Rajasthan Tour Packages",
 
@@ -37,6 +31,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+        <meta name="google-site-verification" content="PU85YcSvNVLnD66cxW67fVE1Xig2NKBngonkdHmyb5s" />
         {/* Preloading Google Fonts */}
         <link
           rel="preload"

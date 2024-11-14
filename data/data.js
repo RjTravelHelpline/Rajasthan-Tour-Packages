@@ -1188,6 +1188,13 @@ export const tourByCities = [
     navigate: '/rajasthan-tour-from-mount-abu',
   },
   {
+    imgSrc: allCitiesImages.ranthambore.ranthamboreBanner.src,
+    title: 'Ranthambore',
+    alt: allCitiesImages.ranthambore.ranthamboreBanner.alt,
+    imgTitle: allCitiesImages.ranthambore.ranthamboreBanner.title,
+    navigate: '/rajasthan-tour-from-ranthambore',
+  },
+  {
     imgSrc: allCitiesImages.jaipur.jaipurAlberthall.src,
     title: 'Kota',
     alt: allCitiesImages.jaipur.jaipurAlberthall.alt,
