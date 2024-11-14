@@ -24,15 +24,24 @@ export const metadata = {
     image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     siteName: 'Rajasthan Tour Packages',
     type: 'website',
+    locale: 'en_US',
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@rajasthantourpackages",
+    title: 'Rajasthan Tour From Mount Abu | Rajasthan Tour Packages',
+    description: "Begin your Rajasthan Tour from Mount Abu with the Rajasthan Tour Packages. Explore Rajasthan's regal charm and noteworthy points of interest. Book Now.",
+    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
   },
 };
 
 const RajasthanTourFromMountabu = () => {
   const images = [
-    { src: allCitiesImages.mountabu.mountabuBanner.src,
+    {
+      src: allCitiesImages.mountabu.mountabuBanner.src,
       alt: allCitiesImages.mountabu.mountabuBanner.alt,
       title: allCitiesImages.mountabu.mountabuBanner.title,
-     },
+    },
   ];
 
   const content = [
@@ -52,30 +61,16 @@ const RajasthanTourFromMountabu = () => {
       </div>
       {/* data */}
       <div className="container-fluid">
-        <div className="container py-5">
-          <div className="row px-2">
-            <p className="home-para cities-para">
-              <span
-                className="home-para d-block"
-                dangerouslySetInnerHTML={{ __html: tourFromMountAbu.intro }}
-              ></span>
-              <ReadMoreToggle>
-                <>
-                  {tourFromMountAbu.showMoreContent.map((content, index) => (
-                    <span
-                      className="home-para d-block"
-                      key={index}
-                      dangerouslySetInnerHTML={{ __html: content }}
-                    ></span>
-                  ))}
-                </>
-              </ReadMoreToggle>
-              <span className="py-4 d-block"></span>
-            </p>
+        <div className="container py-5 px-0 position-relative">
+          <div className="row px-0">
+            <p
+              className="text-justify home-para px-3"
+              dangerouslySetInnerHTML={{ __html: tourFromMountAbu.intro }}
+            />
+            <ReadMoreToggle className="text-justify home-para px-3" tag="div" contentArray={tourFromMountAbu.showMoreContent} />
           </div>
         </div>
       </div>
-
       {/* packages */}
       <div className="container-fluid section-02 py-4">
         <div className="container packages py-2">

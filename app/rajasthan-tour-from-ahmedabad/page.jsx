@@ -11,16 +11,26 @@ import { Ahmedabad } from "@/data/tourByCitiesData";
 export const metadata = {
     title: 'Book Rajasthan Tour From Ahmedabad | Rajasthan Tour Packages',
     description: 'Discover exclusive Rajasthan tour packages from Ahmedabad. Explore historic forts, vibrant markets, and rich cultural treasures on this memorable journey.',
+    keywords: [
+    ],
     alternates: {
         canonical: "http://www.rajasthantourpackages.in/rajasthan-tour-from-ahmedabad",
     },
     openGraph: {
         title: 'Book Rajasthan Tour From Ahmedabad | Rajasthan Tour Packages',
         description: 'Discover exclusive Rajasthan tour packages from Ahmedabad. Explore historic forts, vibrant markets, and rich cultural treasures on this memorable journey.',
-        url: "http://www.rajasthantourpackages.in/rajasthan-tour-from-ahmedabad",
         image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        url: "http://www.rajasthantourpackages.in/rajasthan-tour-from-ahmedabad",
         siteName: 'Rajasthan Tour Packages',
         type: 'website',
+        locale: 'en_US',
+    },
+    twitter: {
+        card: "summary_large_image",
+        site: "@rajasthantourpackages",
+        title: 'Book Rajasthan Tour From Ahmedabad | Rajasthan Tour Packages',
+        description: 'Discover exclusive Rajasthan tour packages from Ahmedabad. Explore historic forts, vibrant markets, and rich cultural treasures on this memorable journey.',
+        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     },
 };
 
@@ -49,26 +59,13 @@ const RajasthanPackageTourFromAhmedabad = () => {
             </div>
             {/* data */}
             <div className="container-fluid">
-                <div className="container py-5">
-                    <div className="row px-2">
-                        <p className="home-para cities-para">
-                            <span
-                                className="home-para d-block"
-                                dangerouslySetInnerHTML={{ __html: tourFromAhmedabad.intro }}
-                            ></span>
-                            <ReadMoreToggle>
-                                <>
-                                    {tourFromAhmedabad.showMoreContent.map((content, index) => (
-                                        <span
-                                            className="home-para d-block"
-                                            key={index}
-                                            dangerouslySetInnerHTML={{ __html: content }}
-                                        ></span>
-                                    ))}
-                                </>
-                            </ReadMoreToggle>
-                            <span className="py-4 d-block"></span>
-                        </p>
+                <div className="container py-5 px-0 position-relative">
+                    <div className="row px-0">
+                        <p
+                            className="text-justify home-para px-3"
+                            dangerouslySetInnerHTML={{ __html: tourFromAhmedabad.intro }}
+                        />
+                        <ReadMoreToggle className="text-justify home-para px-3" tag="div" contentArray={tourFromAhmedabad.showMoreContent} />
                     </div>
                 </div>
             </div>

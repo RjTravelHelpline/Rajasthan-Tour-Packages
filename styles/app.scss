@@ -3,10 +3,10 @@
   position: relative;
   .carousel-item {
     overflow: hidden;
-    height: 70vh !important;
+    height: 80vh !important;
     max-height: 900px;
     @media screen and (max-width: 768px) {
-      height: 50vh !important;
+      height: 40vh !important;
       object-fit: cover;
     }
     img {
@@ -21,13 +21,13 @@
 }
 
 .home-banner {
-  position: relative;
+  // position: relative;
   .carousel-indicators {
     display: none;
   }
   .carousel-item {
     overflow: hidden;
-    height: 80svh;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,6 +35,9 @@
     transition: 0.8s ease-in-out;
     border-bottom-left-radius: 48px;
     border-bottom-right-radius: 48px;
+    @media screen and (max-width: 768px) {
+      height: 40vh;
+    }
   }
   .carousel-item.active {
     opacity: 1;
@@ -48,23 +51,13 @@
     width: 100%;
     object-fit: cover;
   }
-  @media screen and (max-width: 768px) {
-    .carousel-item {
-      height: 50vh;
-    }
-  }
   h2 {
-    position: relative;
+    // position: relative;
     font-size: clamp(1.6em, 4vw, 5em) !important;
     text-align: center !important;
     span {
       color: var(--color-tertary);
     }
-  }
-  svg {
-    position: absolute;
-    top: -20px;
-    right: 30%;
   }
 
   img {

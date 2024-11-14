@@ -20,7 +20,15 @@ export const metadata = {
         url: "http://www.rajasthantourpackages.in/rajasthan-tour-from-agra",
         image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
         siteName: 'Rajasthan Tour Packages',
-        type: 'website',
+        type: "website",
+        locale: 'en_US',
+    },
+    twitter: {
+        card: "summary_large_image",
+        site: "@rajasthantourpackages",
+        title: 'Rajasthan Tour from Agra | Rajasthan Tour Packages',
+        description: 'Rajasthan Tour from Agra to explore historic landmarks, regal palaces, and unique cultural experiences. You can go ahead and book your personalized tour package now.',
+        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     },
 };
 
@@ -54,26 +62,13 @@ const RajasthanPackageTourFromAgra = () => {
             </div>
             {/* data */}
             <div className="container-fluid">
-                <div className="container py-5">
-                    <div className="row px-2">
-                        <p className="home-para cities-para">
-                            <span
-                                className="home-para d-block"
-                                dangerouslySetInnerHTML={{ __html: tourFromAgra.intro }}
-                            ></span>
-                            <ReadMoreToggle>
-                                <>
-                                    {tourFromAgra.showMoreContent.map((content, index) => (
-                                        <span
-                                            className="home-para d-block"
-                                            key={index}
-                                            dangerouslySetInnerHTML={{ __html: content }}
-                                        ></span>
-                                    ))}
-                                </>
-                            </ReadMoreToggle>
-                            <span className="py-4 d-block"></span>
-                        </p>
+                <div className="container py-5 px-0 position-relative">
+                    <div className="row px-0">
+                        <p
+                            className="text-justify home-para px-3"
+                            dangerouslySetInnerHTML={{ __html: tourFromAgra.intro }}
+                        />
+                        <ReadMoreToggle className="text-justify home-para px-3" tag="div" contentArray={tourFromAgra.showMoreContent} />
                     </div>
                 </div>
             </div>

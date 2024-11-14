@@ -121,7 +121,7 @@ const Udaipur = () => {
     {
       duration: null,
       title: 'Udaipur',
-      subhead: 'The Venice of the East'
+      subhead: 'The Jewel of Rajasthan'
     },
   ];
   return (

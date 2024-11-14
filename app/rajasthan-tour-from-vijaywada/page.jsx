@@ -24,6 +24,15 @@ export const metadata = {
         image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
         siteName: 'Rajasthan Tour Packages',
         type: 'website',
+        locale: 'en_US',
+    },
+    twitter: {
+        card: "summary_large_image",
+        site: "@rajasthantourpackages",
+        title: 'Rajasthan Tour From Vijaywada | Rajasthan Tour Packages',
+        description:
+            'Rajasthan Tour from Vijayawada to the land of kings at Rajasthan Tour Packages. Experience the royal forts, palaces, and colourful traditions of Rajasthan. Book Now.',
+        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     },
 };
 

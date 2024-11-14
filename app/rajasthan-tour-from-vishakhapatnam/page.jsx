@@ -11,18 +11,26 @@ import { Visakhapatnam } from "@/data/tourByCitiesData";
 
 export const metadata = {
   title: 'Rajasthan Tour From Visakhapatnam | Rajasthan Tour Packages',
-  description: "Travel from Visakhapatnam to the heart of Rajasthan with Rajasthan Tour Packages. Experience the state's royal splendor, cultural richness, and scenic beauty.",
+  description: "Rajasthan Tour Packages helps you to travel from Vishakhapatnam to the heart of Rajasthan. Find state value as well as royalty, culture, and natural resources.",
   keywords: [''],
   alternates: {
     canonical: "https://www.rajasthantourpackages.in/rajasthan-tour-from-visakhapatnam",
   },
   openGraph: {
     title: 'Rajasthan Tour From Visakhapatnam | Rajasthan Tour Packages',
-    description: "Travel from Visakhapatnam to the heart of Rajasthan with Rajasthan Tour Packages. Experience the state's royal splendor, cultural richness, and scenic beauty.",
+    description: "Rajasthan Tour Packages helps you to travel from Vishakhapatnam to the heart of Rajasthan. Find state value as well as royalty, culture, and natural resources.",
     url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-visakhapatnam",
     image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     siteName: 'Rajasthan Tour Packages',
     type: 'website',
+    locale: 'en_US',
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@rajasthantourpackages",
+    title: 'Rajasthan Tour From Visakhapatnam | Rajasthan Tour Packages',
+    description: "Rajasthan Tour Packages helps you to travel from Vishakhapatnam to the heart of Rajasthan. Find state value as well as royalty, culture, and natural resources.",
+    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
   },
 };
 const RajasthanTourFromVisakhapatnam = () => {
@@ -49,29 +57,13 @@ const RajasthanTourFromVisakhapatnam = () => {
       </div>
       {/* data */}
       <div className="container-fluid">
-        <div className="container py-5">
-          <div className="row px-2">
-            <p className="home-para cities-para">
-              <span
-                className="home-para d-block"
-                dangerouslySetInnerHTML={{
-                  __html: tourFromVisakhapatnam.intro,
-                }}
-              ></span>
-              <ReadMoreToggle>
-                <>
-                  {tourFromVisakhapatnam.showMoreContent.map(
-                    (content, index) => (
-                      <span
-                        className="home-para d-block"
-                        key={index}
-                        dangerouslySetInnerHTML={{ __html: content }}
-                      ></span>
-                    )
-                  )}
-                </>   </ReadMoreToggle>
-              <span className="py-4 d-block"></span>
-            </p>
+        <div className="container py-5 px-0 position-relative">
+          <div className="row px-0">
+            <p
+              className="text-justify home-para px-3"
+              dangerouslySetInnerHTML={{ __html: tourFromVisakhapatnam.intro }}
+            />
+            <ReadMoreToggle className="text-justify home-para px-3" tag="div" contentArray={tourFromVisakhapatnam.showMoreContent} />
           </div>
         </div>
       </div>

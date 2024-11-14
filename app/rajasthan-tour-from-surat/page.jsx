@@ -23,6 +23,14 @@ export const metadata = {
     image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     siteName: 'Rajasthan Tour Packages',
     type: 'website',
+    locale: 'en_US',
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@rajasthantourpackages",
+    title: 'Rajasthan Tour From Surat | Rajasthan Tour Packages',
+    description: "Discover Rajasthan's grandeur with a customized tour from Surat. Rajasthan Tour Packages offers an unforgettable blend of culture, history, and natural beauty.",
+    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
   },
 };
 
@@ -50,26 +58,13 @@ const RajasthanTourFromSurat = () => {
       </div>
       {/* data */}
       <div className="container-fluid">
-        <div className="container py-5">
-          <div className="row px-2">
-            <p className="home-para cities-para">
-              <span
-                className="home-para d-block"
-                dangerouslySetInnerHTML={{ __html: tourFromSurat.intro }}
-              ></span>
-              <ReadMoreToggle>
-                <>
-                  {tourFromSurat.showMoreContent.map((content, index) => (
-                    <span
-                      className="home-para d-block"
-                      key={index}
-                      dangerouslySetInnerHTML={{ __html: content }}
-                    ></span>
-                  ))}
-                </>
-              </ReadMoreToggle>
-              <span className="py-4 d-block"></span>
-            </p>
+        <div className="container py-5 px-0 position-relative">
+          <div className="row px-0">
+            <p
+              className="text-justify home-para px-3"
+              dangerouslySetInnerHTML={{ __html: tourFromSurat.intro }}
+            />
+            <ReadMoreToggle className="text-justify home-para px-3" tag="div" contentArray={tourFromSurat.showMoreContent} />
           </div>
         </div>
       </div>

@@ -118,7 +118,7 @@ const Ajmer = () => {
     {
       duration: null,
       title: 'Ajmer',
-      subhead: 'Sacred City of Sufi Saints'
+      subhead: 'Travel guide rajasthan spiritual and cultural center'
     },
   ];
   return (

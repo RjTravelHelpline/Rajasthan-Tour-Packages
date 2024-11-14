@@ -115,7 +115,7 @@ const Bharatpur = () => {
     {
       duration: null,
       title: 'Bharatpur',
-      subhead: 'Bird Paradise of India'
+      subhead: 'A Complete Direct to the Eastern Door of Rajasthan'
     },
   ];
   return (

@@ -116,7 +116,7 @@ const Agra = () => {
         {
             duration: null,
             title: 'Agra',
-            subhead: 'Home of the Taj Mahal'
+            subhead: 'The Land of the Taj Mahal'
         },
     ];
     return (

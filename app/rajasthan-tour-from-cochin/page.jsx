@@ -22,6 +22,14 @@ export const metadata = {
     image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     siteName: 'Rajasthan Tour Packages',
     type: 'website',
+    locale: 'en_US',
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@rajasthantourpackages",
+    title: 'Rajasthan Tour from Cochin | Rajasthan Tour Packages',
+    description: "Uncover the wonders of the Rajasthan Tour from Cochin with a meticulously planned tour highlighting the state's rich history and stunning landscapes. Book now.",
+    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
   },
 };
 const RajasthanPackageTourFromCochin = () => {
@@ -50,26 +58,13 @@ const RajasthanPackageTourFromCochin = () => {
       </div>
       {/* data */}
       <div className="container-fluid">
-        <div className="container py-5">
-          <div className="row px-2">
-            <p className="home-para cities-para">
-              <span
-                className="home-para d-block"
-                dangerouslySetInnerHTML={{ __html: tourFromCochin.intro }}
-              ></span>
-
-              <ReadMoreToggle>
-                <>
-                  {tourFromCochin.showMoreContent.map((content, index) => (
-                    <span
-                      className="home-para d-block"
-                      key={index}
-                      dangerouslySetInnerHTML={{ __html: content }}
-                    ></span>
-                  ))}
-                </>   </ReadMoreToggle>
-              <span className="py-4 d-block"></span>
-            </p>
+        <div className="container py-5 px-0 position-relative">
+          <div className="row px-0">
+            <p
+              className="text-justify home-para px-3"
+              dangerouslySetInnerHTML={{ __html: tourFromCochin.intro }}
+            />
+            <ReadMoreToggle className="text-justify home-para px-3" tag="div" contentArray={tourFromCochin.showMoreContent} />
           </div>
         </div>
       </div>

@@ -112,7 +112,7 @@ const Jaisalmer = () => {
     {
       duration: null,
       title: 'Jaisalmer',
-      subhead: 'Golden Sands of the Desert'
+      subhead: 'A Golden City in Rajasthan'
     },
   ];
   return (

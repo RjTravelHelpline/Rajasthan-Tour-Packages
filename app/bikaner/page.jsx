@@ -123,7 +123,7 @@ const Bikaner = () => {
     {
       duration: null,
       title: 'Bikaner',
-      subhead: 'City of Forts and Camels'
+      subhead: 'A Porthouse to the Rajasthan History and Culture'
     },
   ];
   return (

@@ -119,7 +119,7 @@ const Ranthambore = () => {
     {
       duration: null,
       title: 'Ranthambore',
-      subhead: 'Wildlife Haven of Rajasthan'
+      subhead: 'A Total Direct to the Gem of Rajasthan'
     },
   ];
   return (

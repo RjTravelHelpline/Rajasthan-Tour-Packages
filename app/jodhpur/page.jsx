@@ -120,7 +120,7 @@ const Jodhpur = () => {
     {
       duration: null,
       title: 'Jodhpur',
-      subhead: 'The Blue Jewel of Rajasthan'
+      subhead: 'The Blue City of Rajasthan'
     },
   ];
   return (

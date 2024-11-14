@@ -119,7 +119,7 @@ const Mountabu = () => {
     {
       duration: null,
       title: 'Mount Abu',
-      subhead: 'Oasis in the Desert'
+      subhead: 'A Total Direct to Rajasthan’s Slope Station Retreat'
     },
   ];
   return (

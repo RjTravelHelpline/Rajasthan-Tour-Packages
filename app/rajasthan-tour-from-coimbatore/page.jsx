@@ -22,15 +22,24 @@ export const metadata = {
         image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
         siteName: 'Rajasthan Tour Packages',
         type: 'website',
+        locale: 'en_US',
+    },
+    twitter: {
+        card: "summary_large_image",
+        site: "@rajasthantourpackages",
+        title: 'Rajasthan Tour from Coimbatore | Rajasthan Tour Packages',
+        description: "Depart the Rajasthan Tour from Coimbatore, which has majestic and historical landmarks, each with a to-tell and a culture. Book the Rajasthan tour package now.",
+        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     },
 };
 
 const RajasthanTourFromCoimbatore = () => {
     const images = [
-        { src: allStatesImages.coimbatore.coimbatoreBanner.src,
+        {
+            src: allStatesImages.coimbatore.coimbatoreBanner.src,
             alt: allStatesImages.coimbatore.coimbatoreBanner.alt,
             title: allStatesImages.coimbatore.coimbatoreBanner.title,
-         },
+        },
     ];
 
     const content = [
@@ -50,25 +59,13 @@ const RajasthanTourFromCoimbatore = () => {
             </div>
             {/* data */}
             <div className="container-fluid">
-                <div className="container py-5">
-                    <div className="row px-2">
-                        <p className="home-para cities-para">
-                            <span
-                                className="home-para d-block"
-                                dangerouslySetInnerHTML={{ __html: tourFromCoimbatore.intro }}
-                            ></span>
-                            <ReadMoreToggle>
-                                <>
-                                    {tourFromCoimbatore.showMoreContent.map((content, index) => (
-                                        <span
-                                            className="home-para d-block"
-                                            key={index}
-                                            dangerouslySetInnerHTML={{ __html: content }}
-                                        ></span>
-                                    ))}
-                                </>   </ReadMoreToggle>
-                            <span className="py-4 d-block"></span>
-                        </p>
+                <div className="container py-5 px-0 position-relative">
+                    <div className="row px-0">
+                        <p
+                            className="text-justify home-para px-3"
+                            dangerouslySetInnerHTML={{ __html: tourFromCoimbatore.intro }}
+                        />
+                        <ReadMoreToggle className="text-justify home-para px-3" tag="div" contentArray={tourFromCoimbatore.showMoreContent} />
                     </div>
                 </div>
             </div>

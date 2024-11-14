@@ -24,14 +24,23 @@ export const metadata = {
     image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     siteName: 'Rajasthan Tour Packages',
     type: 'website',
+    locale: 'en_US',
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@rajasthantourpackages",
+    title: 'Rajasthan Tour From Tamil Nadu | Rajasthan Tour Packages',
+    description: "Experience the magic of Rajasthan from Tamil Nadu with Rajasthan Tour Packages. Visit iconic forts, palaces, and cultural hubs in this royal destination.",
+    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
   },
 };
 const RajasthantourFromTamilNaduilnadu = () => {
   const images = [
-    { src: allStatesImages.tamilnadu.tamilnaduBanner.src,
+    {
+      src: allStatesImages.tamilnadu.tamilnaduBanner.src,
       alt: allStatesImages.tamilnadu.tamilnaduBanner.alt,
       title: allStatesImages.tamilnadu.tamilnaduBanner.title,
-     },
+    },
   ];
   const content = [
     {
@@ -49,26 +58,13 @@ const RajasthantourFromTamilNaduilnadu = () => {
       </div>
       {/* data */}
       <div className="container-fluid">
-        <div className="container py-5">
-          <div className="row px-2">
-            <p className="home-para cities-para">
-              <span
-                className="home-para d-block"
-                dangerouslySetInnerHTML={{ __html: tourFromTamilNadu.intro }}
-              ></span>
-              <ReadMoreToggle>
-                <>
-                  {tourFromTamilNadu.showMoreContent.map((content, index) => (
-                    <span
-                      className="home-para d-block"
-                      key={index}
-                      dangerouslySetInnerHTML={{ __html: content }}
-                    ></span>
-                  ))}
-                </>
-              </ReadMoreToggle>
-              <span className="py-4 d-block"></span>
-            </p>
+        <div className="container py-5 px-0 position-relative">
+          <div className="row px-0">
+            <p
+              className="text-justify home-para px-3"
+              dangerouslySetInnerHTML={{ __html: tourFromTamilNadu.intro }}
+            />
+            <ReadMoreToggle className="text-justify home-para px-3" tag="div" contentArray={tourFromTamilNadu.showMoreContent} />
           </div>
         </div>
       </div>

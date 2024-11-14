@@ -5,7 +5,17 @@ const temp = {
 };
 
 export const overview = {
-  content: [``],
+  content: [
+    `The main attraction of ${temp.link(
+      `Jaipur tourism packages`,
+      `https://www.rajasthantourpackages.in/2days-jaipur-tour-package`
+    )} is the possibility of meeting essential tourist destinations such as the Mahal, City Palace, ${temp.bold(
+      `Amer Fort`
+    )}, Jantar Mantar and others. It covers all aspects of the demands a traveler faces. Lid vacancies ensure the best travel experience for the Jaipur package, with historical and modern elements for comfortable sightseeing. For instance, you may seek the best Jaipur tourism packages, ${temp.link(
+      `sightseeing tours or travel packages`,
+      `https://www.jaipurtaxiservice.com/jaipur-sightseeing-tours.html`
+    )}. In that case, our guides have rich experience and will show you the city's significant historical resorts and exciting markets. Be our guest for an unforgettable Jaipur trip so that your dream of visiting one of India's most beautiful cities becomes a reality.`,
+  ],
 };
 export const about = {
   content: [
