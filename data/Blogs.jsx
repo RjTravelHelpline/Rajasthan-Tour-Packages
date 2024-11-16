@@ -153,9 +153,9 @@ export const blogs = [
 
   // Wildlife Category
   {
-    author: 'Rajesh Sharma',
+    author: 'Admin',
     image: allCitiesImages.jaipur.jaipurJhalanaLeopard.src,
-    date: '2024-07-30',
+    date: '2024-11-16',
     heading: ' Rajasthan Wildlife Trails for Adventurers',
     slug: generateSlug('wildlife-trails-rajasthan-nature-adventures'),
     description:
