@@ -17,7 +17,7 @@ const BlogPost = ({ params }) => {
     const filteredBlogs = getBlogsByCategory(blogs, blog.category)
     return (
         <>
-            <div className="container-fluid py-4 blog-slug mt-5 pt-5" >
+            <div className="container-fluid py-4 blog-slug mt-5 pt-5 px-0" >
                 <div className="container px-0 d-flex justify-content-center align-items-center w-100 days-container overview destination">
                     <div className="row d-flex justify-content-center align-items-start px-0 w-100 ">
                         <div className="col-lg-8 col-md-12 col-sm-12 px-sm-0 px-md-0 px-lg-2">
@@ -38,7 +38,9 @@ const BlogPost = ({ params }) => {
                                 <h1>{blog.heading}</h1>
                                 <hr style={{ borderColor: 'var(--color-black)' }} />
                                 <p style={{ fontWeight: 500 }}>{blog.description}</p>
-                                <p>{blog.more}</p>
+                                <div className='blog-content-slug'>
+                                    {blog.more}
+                                </div>
                             </div>
                         </div>
                         <div className="col-lg-4 col-ms-12 col-sm-12 side-nav px-sm-0 px-md-0 px-lg-2">
