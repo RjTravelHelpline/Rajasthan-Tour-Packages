@@ -190,7 +190,7 @@ export const blogs = [
         <p className="fw-bold mt-2 mb-0">
           Timings:
         </p>
-        <Table className='Table-responsive rounded-Table mx-2 my-0'>
+        <Table responsive className='table table-rounded mx-2 my-0'>
           <thead>
             <tr>
               <th>Month</th>
@@ -229,7 +229,7 @@ export const blogs = [
         <p className="fw-bold mt-2 mb-0">
           Charges:
         </p>
-        <Table className='Table-responsive rounded-Table mx-2 my-0'>
+        <Table responsive className='table table-rounded mx-2 my-0'>
           <thead>
             <tr>
               <th>Vehicle</th>
