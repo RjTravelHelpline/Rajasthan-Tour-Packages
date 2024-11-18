@@ -46,7 +46,7 @@ export const metadata = {
         site: "@rajasthantourpackages",
         title: "Popular Attractions in Agra | Rajasthan Tour Packages",
         description: "Explore Agra's famous attractions including the Taj Mahal, Agra Fort, Fatehpur Sikri, and more. Book your Agra sightseeing tour and uncover the city's rich heritage.",
-        image: "",
+        image: 'https://www.rajasthantourpackages.in/Images/Banners/agra-banner.webp',
     },
     openGraph: {
         title: "Popular Attractions in Agra | Rajasthan Tour Packages",
@@ -55,7 +55,7 @@ export const metadata = {
         sitename: "Rajasthan Tour Packages",
         images: [
             {
-                url: '',
+                url: 'https://www.rajasthantourpackages.in/Images/Banners/agra-banner.webp',
             },
         ],
         locale: 'en_US',

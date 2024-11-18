@@ -23,7 +23,7 @@ const FourDaysRajasthanTourPackages = () => {
       {/* bread crumb */}
       <Breadcrumb breadcrumbKey="_04Days" />
       {/* header */}
-      <div className="container-fluid py-5 page-head-section">
+      <div className="container-fluid page-head-section">
         <div className="container">
           <h1 className="text-capitalize">
             04 days{" "}

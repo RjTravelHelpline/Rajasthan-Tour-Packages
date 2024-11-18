@@ -1,5 +1,9 @@
-
-
+.blog-category-link {
+  &:hover {
+    background-color: var(--color-tertary);
+    color: var(--color-primary);
+  }
+}
 .blog-subhead-gradient {
   background: linear-gradient(
     45deg,

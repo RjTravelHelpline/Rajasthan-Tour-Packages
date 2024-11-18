@@ -19,7 +19,7 @@ export const metadata = {
         title: 'Rajasthan Tour from Indore | Rajasthan Tour Packages',
         description: "Discover the splendor of Rajasthan with our tour from Indore. Tour majestic forts and palaces and immerse in local culture. Book your Rajasthan trip today.",
         url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-indore",
-        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        image: "https://www.rajasthantourpackages.in/Images/Banners/indore-banner.webp",
         siteName: 'Rajasthan Tour Packages',
         type: 'website',
         locale: 'en_US',
@@ -29,7 +29,7 @@ export const metadata = {
         site: "@rajasthantourpackages",
         title: 'Rajasthan Tour from Indore | Rajasthan Tour Packages',
         description: "Discover the splendor of Rajasthan with our tour from Indore. Tour majestic forts and palaces and immerse in local culture. Book your Rajasthan trip today.",
-        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        image: "https://www.rajasthantourpackages.in/Images/Banners/indore-banner.webp",
     },
 };
 

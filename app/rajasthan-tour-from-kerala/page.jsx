@@ -19,7 +19,7 @@ export const metadata = {
     title: 'Rajasthan Tour Packages from Kerala | Rajasthan Tour Packages',
     description: "Experience the royal heritage of Rajasthan tours from Kerala. Explore historic cities, enjoy desert safari, and savor the vibrant culture with our curated packages.",
     url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-kerala",
-    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    image: "https://www.rajasthantourpackages.in/Images/Banners/kerala-banner.webp",
     siteName: 'Rajasthan Tour Packages',
     type: 'website',
     locale: 'en_US',
@@ -29,7 +29,7 @@ export const metadata = {
     site: "@rajasthantourpackages",
     title: 'Rajasthan Tour Packages from Kerala | Rajasthan Tour Packages',
     description: "Experience the royal heritage of Rajasthan tours from Kerala. Explore historic cities, enjoy desert safari, and savor the vibrant culture with our curated packages.",
-    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    image: "https://www.rajasthantourpackages.in/Images/Banners/kerala-banner.webp",
   },
 };
 

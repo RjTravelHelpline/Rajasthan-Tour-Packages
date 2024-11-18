@@ -3,19 +3,19 @@
   position: relative;
   .carousel-item {
     overflow: hidden;
-    height: 80vh !important;
+    height: 60vh !important;
     max-height: 900px;
     @media screen and (max-width: 768px) {
       height: 40vh !important;
       object-fit: cover;
     }
     img {
-      filter: brightness(0.45) !important;
-      height: 100%;
+      filter: brightness(0.35) !important;
+      height: 100% !important;
       width: 100%;
       object-fit: cover;
-      border-bottom-left-radius: 36px;
-      border-bottom-right-radius: 36px;
+      border-bottom-left-radius: 24px;
+      border-bottom-right-radius: 24px;
     }
   }
 }
@@ -33,8 +33,8 @@
     align-items: center;
     opacity: 0;
     transition: 0.8s ease-in-out;
-    border-bottom-left-radius: 48px;
-    border-bottom-right-radius: 48px;
+    border-bottom-left-radius: 24px;
+    border-bottom-right-radius: 24px;
     @media screen and (max-width: 768px) {
       height: 40vh;
     }
@@ -49,7 +49,7 @@
     background-size: 100%;
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    object-fit:cover;
   }
   h2 {
     // position: relative;

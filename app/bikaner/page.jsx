@@ -53,7 +53,7 @@ export const metadata = {
     site: "@rajasthantourpackages",
     title: "Bikaner Royal History and Legacy | Rajasthan Tour Packages",
     description: "Explore the royal history of Bikaner, its historic forts, and vibrant culture. Book your Bikaner heritage tour with Rajasthan Tour Packages for an unforgettable experience.",
-    image: "", // Add image URL if needed
+    image: 'https://www.rajasthantourpackages.in/Images/Banners/bikaner-banner02.webp',
   },
   openGraph: {
     title: "Bikaner Royal History and Legacy | Rajasthan Tour Packages",
@@ -62,7 +62,7 @@ export const metadata = {
     sitename: "Rajasthan Tour Packages",
     images: [
       {
-        url: '', // Add image URL if needed
+        url: 'https://www.rajasthantourpackages.in/Images/Banners/bikaner-banner02.webp',
       }
     ],
     locale: 'en_US',

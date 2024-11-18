@@ -13,7 +13,7 @@ import {
     IoMdCall,
     IoMdClose,
 } from 'react-icons/io';
-import { MdEmail, MdOutlineClose, MdWhatsapp } from 'react-icons/md';
+import { MdEmail, MdOutlineClose } from 'react-icons/md';
 import {
     destinationLinks,
     headerCabRentalLinks,
@@ -21,12 +21,11 @@ import {
     headerTourByDaysLinks,
     headerTourFromLinks,
 } from '@/data/linksData';
-import { FaAddressBook, FaAddressCard, FaHamburger, FaHome, FaRegDotCircle } from 'react-icons/fa';
+import { FaHome } from 'react-icons/fa';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Modal } from 'react-bootstrap';
 import ContactForm from './ContactForm';
-import { FiMoreHorizontal } from 'react-icons/fi';
 
 const Navbar = () => {
     const location = usePathname();
@@ -108,34 +107,9 @@ const Navbar = () => {
 
             >
                 <div
-                    className={`w-100 row pt-0 px-0 d-flex justify-content-center align-items-center  ${navClass} ${isScrolled ? 'scrolled' : ''
+                    className={`w-100 row px-0 d-flex justify-content-center align-items-center  ${navClass} ${isScrolled ? 'scrolled' : ''
                         }`}
                 >
-                    {!ismobile && (
-                        <div className="px-0 py-1 contact-header d-flex justify-content-center align-items-center w-100 bg-black">
-                            <div className="contact-info px-3 d-flex justify-content-center align-items-center" style={{ borderRight: '1px solid gray' }}>
-                                <MdEmail className="text-white me-1" />
-                                <a href="mailto:mail@rajasthantravelhelpline.com" target='_blank' className="contact-link text-lowercase color-tertary">
-                                    mail@rajasthantravelhelpline.com
-                                </a>
-                            </div>
-                            <div className="contact-info px-3 d-flex justify-content-center align-items-center" style={{ borderRight: '1px solid gray' }}>
-                                <IoMdCall className="text-white me-1" />
-                                <a href="tel:+919024337038" target='_blank' className="contact-link color-tertary">
-                                    +91-9024337038
-                                </a>
-                            </div>
-                            <div className="contact-info px-3 d-flex justify-content-center align-items-center">
-                                <IoLogoWhatsapp className="text-white me-1" />
-                                <a href="tel:+919166555888" target='_blank' className="contact-link color-tertary">
-                                    +91-9166555888
-                                </a>
-                            </div>
-                        </div>
-                    )}
-                    <div className="pt-2">
-
-                    </div>
                     <div className="col d-flex flex-column justify-content-center align-items-start logo-container">
                         <Link href="/">
                             <h3 className="text-capitalize mb-0 text-nowrap logo">
@@ -210,12 +184,6 @@ const Navbar = () => {
                                         {link.text}
                                     </Link>
                                 ))}
-                                <div className="w-100 py-4 position-relative"></div>
-                                <Link
-                                    href="/rajasthan-tour-by-cities"
-                                    className="nav-more-btn text-center position-absolute bottom-0 bg-tertary w-100 text-white rounded-0">
-                                    explore more
-                                </Link>
                             </div>
                         </div>
                         <div className="nav-item">
@@ -266,6 +234,17 @@ const Navbar = () => {
                                 className={`col d-flex justify-content-end align-items-center ${!ismobile ? 'gap-3' : 'gap-1'
                                     }`}
                             >
+                                <button
+                                    className="d-flex justify-content-center align-items-center p-3 rounded-5  shadow-none contact-top-toggle-button"
+                                    onClick={showContactPopup}
+                                    aria-label='go socials'
+                                >
+                                    {contactPopup ? (
+                                        <MdOutlineClose className="icon" />
+                                    ) : (
+                                        <IoMdCall className="icon text-white" />
+                                    )}
+                                </button>
                                 {!ismobile && (
                                     <>
                                         <button
@@ -280,17 +259,6 @@ const Navbar = () => {
                                 {ismobile && (
                                     <>
                                         <button
-                                            className="d-flex justify-content-center align-items-center p-3 rounded-5  shadow-none contact-top-toggle-button"
-                                            onClick={showContactPopup}
-                                            aria-label='go socials'
-                                        >
-                                            {contactPopup ? (
-                                                <MdOutlineClose className="icon " />
-                                            ) : (
-                                                <IoMdCall className="icon" />
-                                            )}
-                                        </button>
-                                        <button
                                             className="d-flex justify-content-center align-items-center p-3 rounded-5 bg-black shadow-none mobile-ham"
                                             onClick={handleNavigation}
                                         >
@@ -302,77 +270,72 @@ const Navbar = () => {
                         </div>
                     </>
                     {/* opens the contact popup */}
-                    {
-                        ismobile && (
-                            <div className="row justify-content-end px-4">
-                                <div
-                                    className={`row contact-popup bg-white text-black d-flex flex-column align-items-left justify-content-start fixed mt-5
+                    <div className="row justify-content-end px-4">
+                        <div
+                            className={`row contact-popup bg-white text-black d-flex flex-column align-items-left justify-content-start fixed mt-5
                 w-auto pt-4 px-0`}
-                                    style={{
-                                        transform: `translateY(${translateY}) scale(${scale})`,
-                                        transformOrigin: `top right`,
-                                        transition: 'transform 0.3s ease-in-out',
-                                    }}
-                                >
-                                    <div className="bg-white text-black w-100 border-2 border-black rounded-5 p-4 insider">
-                                        <div className="col-12 w-100 bg-white d-flex flex-column gap-0 px-0">
-                                            <a
-                                                href="tel:+91-9024337038"
-                                                target="_blank"
-                                                className=" d-block p-3 fw-bold social-icon"
-                                            >
-                                                <IoMdCall className="mx-0 bg-black text-white p-2 fs-1 rounded-5 icon" />{' '}
-                                                <span className="px-2"></span>+91-9024337038
-                                            </a>
-                                            <a
-                                                href="https://wa.me/919166555888"
-                                                target="_blank"
-                                                className=" d-block p-3 fw-bold social-icon"
-                                            >
-                                                <IoLogoWhatsapp className="mx-0 bg-black text-white p-2 fs-1 rounded-5 icon" />{' '}
-                                                <span className="px-2"></span>+91-9166555888
-                                            </a>
-                                            <a
-                                                href="mailto:mail@rajasthantravelhelpline.com"
-                                                target="_blank"
-                                                className="text-lowercase p-3 fw-bold social-icon"
-                                            >
-                                                <MdEmail className="mx-0 bg-black text-white p-2 fs-1 rounded-5 icon" />{' '}
-                                                <span className="px-2"></span>
-                                                mail@rajasthantravelhelpline.com
-                                            </a>
-                                            <a
-                                                href="mailto:mail@rajasthantravelhelpline.com"
-                                                target="_blank"
-                                                className="text-lowercase p-3 fw-bold social-icon"
-                                            >
-                                                <FaInstagram className="mx-0 bg-black text-white p-2 fs-1 rounded-5 icon" />{' '}
-                                                <span className="px-2"></span>instagram
-                                            </a>
-                                            <a
-                                                href="mailto:mail@rajasthantravelhelpline.com"
-                                                target="_blank"
-                                                className="text-lowercase p-3 fw-bold social-icon"
-                                            >
-                                                <FaFacebook className="mx-0 bg-black text-white p-2 fs-1 rounded-5 icon" />{' '}
-                                                <span className="px-2"></span>facebook
-                                            </a>
-                                            <div className="col-12 p-2">
-                                                <Link
-                                                    href="/contact-us"
-                                                    className="text-uppercase d-flex align-items-start justify-content-start gap-2 w-auto m-auto px-3"
-                                                >
-                                                    <p className="mb-0">contact us</p>{' '}
-                                                    <span className="fw-bold">→</span>
-                                                </Link>
-                                            </div>
-                                        </div>
+                            style={{
+                                transform: `translateY(${translateY}) scale(${scale})`,
+                                transformOrigin: `top right`,
+                                transition: 'transform 0.3s ease-in-out',
+                            }}
+                        >
+                            <div className="bg-white text-black w-100 border-2 border-black rounded-5 p-4 insider">
+                                <div className="col-12 w-100 bg-white d-flex flex-column gap-0 px-0">
+                                    <a
+                                        href="tel:+91-9024337038"
+                                        target="_blank"
+                                        className=" d-block p-3 fw-bold social-icon"
+                                    >
+                                        <IoMdCall className="mx-0 bg-black text-white p-2 fs-1 rounded-5 icon" />{' '}
+                                        <span className="px-2"></span>+91-9024337038
+                                    </a>
+                                    <a
+                                        href="https://wa.me/919166555888"
+                                        target="_blank"
+                                        className=" d-block p-3 fw-bold social-icon"
+                                    >
+                                        <IoLogoWhatsapp className="mx-0 bg-black text-white p-2 fs-1 rounded-5 icon" />{' '}
+                                        <span className="px-2"></span>+91-9166555888
+                                    </a>
+                                    <a
+                                        href="mailto:mail@rajasthantravelhelpline.com"
+                                        target="_blank"
+                                        className="text-lowercase p-3 fw-bold social-icon"
+                                    >
+                                        <MdEmail className="mx-0 bg-black text-white p-2 fs-1 rounded-5 icon" />{' '}
+                                        <span className="px-2"></span>
+                                        mail@rajasthantravelhelpline.com
+                                    </a>
+                                    <a
+                                        href="mailto:mail@rajasthantravelhelpline.com"
+                                        target="_blank"
+                                        className="text-lowercase p-3 fw-bold social-icon"
+                                    >
+                                        <FaInstagram className="mx-0 bg-black text-white p-2 fs-1 rounded-5 icon" />{' '}
+                                        <span className="px-2"></span>instagram
+                                    </a>
+                                    <a
+                                        href="mailto:mail@rajasthantravelhelpline.com"
+                                        target="_blank"
+                                        className="text-lowercase p-3 fw-bold social-icon"
+                                    >
+                                        <FaFacebook className="mx-0 bg-black text-white p-2 fs-1 rounded-5 icon" />{' '}
+                                        <span className="px-2"></span>facebook
+                                    </a>
+                                    <div className="col-12 p-2">
+                                        <Link
+                                            href="/contact-us"
+                                            className="text-uppercase d-flex align-items-start justify-content-start gap-2 w-auto m-auto px-3"
+                                        >
+                                            <p className="mb-0">contact us</p>{' '}
+                                            <span className="fw-bold">→</span>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
-                        )
-                    }
-
+                        </div>
+                    </div>
                 </div>
             </div>
             <div
@@ -575,9 +538,8 @@ const Navbar = () => {
                     </div>
                 </div>
             </div>
-
             {/* Modal for Contact Form */}
-            <Modal
+            <Modal size='lg'
                 show={show}
                 onHide={handleClose}
                 centered

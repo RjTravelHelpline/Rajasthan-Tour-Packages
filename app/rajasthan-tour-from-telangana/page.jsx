@@ -20,7 +20,7 @@ export const metadata = {
     title: 'Rajasthan Tour From Telangana | Rajasthan Tour Packages',
     description: "Find Rajasthan's treasures on a visit from Telangana with Rajasthan Visit Bundles. Investigate antiquated fortifications, illustrious royal residences, and colourful festivals.",
     url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-telangana",
-    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    image: "https://www.rajasthantourpackages.in/Images/Banners/telangana-banner.webp",
     siteName: 'Rajasthan Tour Packages',
     type: 'website',
     locale: 'en_US',
@@ -30,7 +30,7 @@ export const metadata = {
     site: "@rajasthantourpackages",
     title: 'Rajasthan Tour From Telangana | Rajasthan Tour Packages',
     description: "Find Rajasthan's treasures on a visit from Telangana with Rajasthan Visit Bundles. Investigate antiquated fortifications, illustrious royal residences, and colourful festivals.",
-    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    image: "https://www.rajasthantourpackages.in/Images/Banners/telangana-banner.webp",
   },
 };
 const RajasthanPackageTourFromTelangana = () => {

@@ -19,7 +19,7 @@ export const metadata = {
     title: 'Rajasthan Tour from Udaipur | Rajasthan Tour Packages',
     description: "Explore the regal splendor and cultural richness of Rajasthan with a personalized tour from Udaipur. Let us take you on an unforgettable journey across the state.",
     url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-udaipur",
-    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    image: "https://www.rajasthantourpackages.in/Images/Banners/udaipur-banner02.webp",
     siteName: 'Rajasthan Tour Packages',
     type: 'website',
     locale: 'en_US',
@@ -29,7 +29,7 @@ export const metadata = {
     site: "@rajasthantourpackages",
     title: 'Rajasthan Tour from Udaipur | Rajasthan Tour Packages',
     description: "Explore the regal splendor and cultural richness of Rajasthan with a personalized tour from Udaipur. Let us take you on an unforgettable journey across the state.",
-    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    image: "https://www.rajasthantourpackages.in/Images/Banners/udaipur-banner02.webp",
   },
 };
 

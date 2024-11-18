@@ -19,7 +19,7 @@ const JodhpurTourPackages = () => {
     return (
         <>
             <Breadcrumb breadcrumbKey="jodhpurTourPackage" />
-            <div className="container-fluid px-0 py-4 bg-black text-white">
+            <div className="container-fluid py-4 bg-black text-white">
                 <div className="row">
                     <h1 className="text-5">jodhpur tour packages</h1>
                 </div>

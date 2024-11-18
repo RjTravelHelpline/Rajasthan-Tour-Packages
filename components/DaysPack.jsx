@@ -16,13 +16,17 @@ const DaysPack = () => {
         setReadMore(!readMore);
     };
     return (
-        <div className="container-fluid section-01 py-4 position-relative">
-            <div className="container bydayspackages my-5">
+        <div className="container-fluid section-01 py-2 position-relative">
+            <div className="container bydayspackages mb-5">
                 <div className="row py-2 px-2 d-flex justify-content-center align-items-center">
-                    <h2 className="w-auto text-capitalize home-head">
-                        <span className="fw-normal">tour packages </span> by days
-                        <FaGripfire className="icon" />
-                    </h2>
+                    <div className="d-flex-justify-content-center align-items-center">
+                        <hr style={{ borderColor: 'var(--color-tertary)' }} />
+                        <h2 className="text-center text-capitalize home-head fw-normal">
+                            tour packages <span className="fw-bold">by days </span>
+                        </h2>
+                        <hr style={{ borderColor: 'var(--color-tertary)' }} />
+                    </div>
+
                     <p className="text-center home-para">
                         Explore the best of Rajasthan with our{" "}
                         <span className="fw-bold">Rajasthan tour by days</span>, offering
@@ -81,7 +85,7 @@ const DaysPack = () => {
                     </SlickSlider>
                 </div>
             </div>
-            <ExploreAll href="rajasthan-tour-packages" text="explore all"/>
+            <ExploreAll href="rajasthan-tour-packages" text="explore all" />
         </div>
     );
 };

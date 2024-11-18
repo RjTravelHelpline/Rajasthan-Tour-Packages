@@ -497,7 +497,7 @@ table {
 
 .table {
   border-radius: 16px !important;
-  min-width: 800px;
+  min-width: 500px;
 }
 .rounded-table {
   border-radius: 16px; /* Adjust for desired roundness */
@@ -569,11 +569,7 @@ table {
 
 .home-head {
   position: relative;
-  letter-spacing: 4px;
   text-transform: uppercase !important;
-  @media (max-width: 768px) {
-    letter-spacing: 2px;
-  }
   .icon {
     font-size: 0.75em;
     position: absolute;
@@ -692,4 +688,11 @@ table {
   font-weight: normal;
   font-size: 0.85em;
   font-family: var(--font-head);
+}
+
+.hovered-link {
+  &:hover {
+    color: var(--color-tertary) !important;
+    text-decoration: underline !important;
+  }
 }

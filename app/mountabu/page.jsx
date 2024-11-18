@@ -49,7 +49,7 @@ export const metadata = {
     site: "@rajasthantourpackages",
     title: "Mount Abu Heritage and History | Rajasthan Tour Packages",
     description: "Explore the historical temples and natural beauty of Mount Abu, Rajasthan's only hill station. Book your Mount Abu heritage tour with Rajasthan Tour Packages.",
-    image: "", // Add image URL if needed
+    image: 'https://www.rajasthantourpackages.in/Images/Banners/mount-abu-banner02.webp',
   },
   openGraph: {
     title: "Mount Abu Heritage and History | Rajasthan Tour Packages",
@@ -58,7 +58,7 @@ export const metadata = {
     sitename: "Rajasthan Tour Packages",
     images: [
       {
-        url: '', // Add image URL if needed
+        url: 'https://www.rajasthantourpackages.in/Images/Banners/mount-abu-banner02.webp',
       }
     ],
     locale: 'en_US',

@@ -186,7 +186,7 @@ const BlogNavbar = () => {
                                             setShowNavigation(false);
                                         }}
                                         key={index}
-                                        href={link.path}
+                                        href={`/blog/categories/${link.path}`}
                                         className="w-100 d-block d-flex justify-content-start align-items-center gap-1"
                                     >
                                         <icon className="dropdown-icon02">≻</icon>

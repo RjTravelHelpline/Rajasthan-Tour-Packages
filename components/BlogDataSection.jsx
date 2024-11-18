@@ -97,7 +97,7 @@ export const BlogDataSection = ({ category, Data, icon, subhead }) => {
                                 )}
                             </button>
                             <Link
-                                href={`/blog/${category}`}
+                                href={`/blog/categories/${category}`}
                                 className="explore-btn card-button w-auto d-flex justify-content-between align-items-center gap-2"
                             >
                                 Explore now <MdArrowOutward />

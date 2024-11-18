@@ -20,7 +20,7 @@ export const metadata = {
     title: 'Rajasthan Tour From Kota | Rajasthan Tour Packages',
     description: "Explore Rajasthan's royal heritage on a tour from Kota with Rajasthan Tour Packages. Discover vibrant cities, ancient palaces, and rich cultural experiences.",
     url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-kota",
-    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    image: "https://www.rajasthantourpackages.in/Images/Banners/kota-banner.webp",
     siteName: 'Rajasthan Tour Packages',
     type: 'website',
     locale: 'en_US',
@@ -30,7 +30,7 @@ export const metadata = {
     site: "@rajasthantourpackages",
     title: 'Rajasthan Tour From Kota | Rajasthan Tour Packages',
     description: "Explore Rajasthan's royal heritage on a tour from Kota with Rajasthan Tour Packages. Discover vibrant cities, ancient palaces, and rich cultural experiences.",
-    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    image: "https://www.rajasthantourpackages.in/Images/Banners/kota-banner.webp",
   },
 };
 const RajasthanTourFromKota = () => {

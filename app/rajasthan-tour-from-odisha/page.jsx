@@ -19,7 +19,7 @@ export const metadata = {
     title: 'Rajasthan Tour from Odisha | Rajasthan Tour Packages',
     description: "Embark on a Rajasthan Tour from Odisha and yourself in its timeless beauty, historic sites, and cultural treasures. Book your tailored tour package today.",
     url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-odisha",
-    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    image: "https://www.rajasthantourpackages.in/Images/Banners/odisha-banner.webp",
     siteName: 'Rajasthan Tour Packages',
     type: 'website',
     locale: 'en_US',
@@ -29,7 +29,7 @@ export const metadata = {
     site: "@rajasthantourpackages",
     title: 'Rajasthan Tour from Odisha | Rajasthan Tour Packages',
     description: "Embark on a Rajasthan Tour from Odisha and yourself in its timeless beauty, historic sites, and cultural treasures. Book your tailored tour package today.",
-    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    image: "https://www.rajasthantourpackages.in/Images/Banners/odisha-banner.webp",
   },
 };
 

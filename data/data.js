@@ -786,6 +786,10 @@ const breadcrumbData = {
     { label: 'blog', link: '/blog' },
     { label: 'fair and festivals' },
   ],
+
+  // archives
+  november2024: [{ label: 'blog', link: '/blog' }, { label: 'november 2024' }],
+  october2024: [{ label: 'blog', link: '/blog' }, { label: 'october 2024' }],
 };
 export default breadcrumbData;
 
@@ -805,7 +809,6 @@ export const daysPackage = [
 
     navigate: '/05-07-days-rajasthan-tours',
   },
-
   {
     duration: '07 Nights | 08 days',
     imgSrc: allCitiesImages.jaipur.jaipurPatrikaGate.src,
@@ -818,7 +821,7 @@ export const daysPackage = [
     imgSrc: allCitiesImages.jaipur.jaipurGator.src,
     title: '11-15 Days',
 
-    navigate: '/11-15-days-rajasthan-tours',
+    navigate: '/11-15-days-rajasthan-tour-packages',
   },
 ];
 
@@ -1237,7 +1240,7 @@ export const reviewers = [
     name: 'OnAir53686466218',
     Images: [
       {
-        src: allGalleryImages.img27.src,
+        src: allGalleryImages.img26.src,
         title: 'Cozy cooking class and culture',
         alt: 'Customer review by OnAir53686466218: Cozy cooking class and culture',
       },
@@ -1252,12 +1255,12 @@ export const reviewers = [
     name: 'aditya b',
     Images: [
       {
-        src: allGalleryImages.img28.src,
+        src: allGalleryImages.img27.src,
         title: 'Khamma ghani jaipur!!!',
         alt: 'Customer review by aditya b: Khamma ghani jaipur!!!',
       },
       {
-        src: allGalleryImages.img29.src,
+        src: allGalleryImages.img28.src,
         title: 'Khamma ghani jaipur!!!',
         alt: 'Customer review by aditya b: Khamma ghani jaipur!!!',
       },

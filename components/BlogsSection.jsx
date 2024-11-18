@@ -12,13 +12,16 @@ const BlogsSection = () => {
 
   return (
     <>
-      <div className="container-fluid py-5 section-03 position-relative">
-        <div className="container blogs px-0 py-4">
+      <div className="container-fluid section-01 py-2 position-relative">
+        <div className="container blogs mb-5">
           <div className="row py-2 px-2 d-flex justify-content-center align-items-center">
-            <h2 className="w-auto text-capitalize home-head">
-              <span className="fw-normal">latest </span> blog
-              <FaGripfire className="icon" />
-            </h2>
+            <div className="d-flex-justify-content-center align-items-center">
+              <hr style={{ borderColor: 'var(--color-tertary)' }} />
+              <h2 className="text-center text-capitalize home-head fw-normal">
+                latest <span className="fw-bold">blogs </span>
+              </h2>
+              <hr style={{ borderColor: 'var(--color-tertary)' }} />
+            </div>
           </div>
           <div className="row d-flex justify-content-center py-2">
             <SlickSlider settings={{ slidesToShow: 3, autoplay: false }}>

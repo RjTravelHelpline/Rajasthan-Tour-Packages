@@ -48,7 +48,7 @@ export const metadata = {
     site: "@rajasthantourpackages",
     title: "Ajmer Adventure and Nature Tours | Rajasthan Tour Packages",
     description: "Experience the adventure and natural beauty of Ajmer. Explore one of India's most culturally vibrant cities with Rajasthan Tour Packages offering a unique journey.",
-    image: "", // Add image URL if needed
+    image: 'https://www.rajasthantourpackages.in/Images/Banners/ajmer-banner.webp',
   },
   openGraph: {
     title: "Ajmer Adventure and Nature Tours | Rajasthan Tour Packages",
@@ -57,7 +57,7 @@ export const metadata = {
     sitename: "Rajasthan Tour Packages",
     images: [
       {
-        url: '', // Add image URL if needed
+        url: 'https://www.rajasthantourpackages.in/Images/Banners/ajmer-banner.webp',
       }
     ],
     locale: 'en_US',

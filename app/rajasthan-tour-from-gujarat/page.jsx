@@ -20,7 +20,7 @@ export const metadata = {
     title: 'Rajasthan Tour from Gujarat | Rajasthan Tour Packages',
     description: "Explore rich history and culture on a Rajasthan tour from Gujarat. Enjoy personalized itineraries that include iconic landmarks and immersive local experiences.",
     url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-gujarat",
-    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    image: "https://www.rajasthantourpackages.in/Images/Banners/gujarat-banner.webp",
     siteName: 'Rajasthan Tour Packages',
     type: 'website',
     locale: 'en_US',
@@ -30,7 +30,7 @@ export const metadata = {
     site: "@rajasthantourpackages",
     title: 'Rajasthan Tour from Gujarat | Rajasthan Tour Packages',
     description: "Explore rich history and culture on a Rajasthan tour from Gujarat. Enjoy personalized itineraries that include iconic landmarks and immersive local experiences.",
-    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    image: "https://www.rajasthantourpackages.in/Images/Banners/gujarat-banner.webp",
   },
 };
 

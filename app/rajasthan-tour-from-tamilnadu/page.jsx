@@ -21,7 +21,7 @@ export const metadata = {
     title: 'Rajasthan Tour From Tamil Nadu | Rajasthan Tour Packages',
     description: "Experience the magic of Rajasthan from Tamil Nadu with Rajasthan Tour Packages. Visit iconic forts, palaces, and cultural hubs in this royal destination.",
     url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-tamilnadu",
-    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    image: "https://www.rajasthantourpackages.in/Images/Banners/tamilnadu-banner.webp",
     siteName: 'Rajasthan Tour Packages',
     type: 'website',
     locale: 'en_US',
@@ -31,7 +31,7 @@ export const metadata = {
     site: "@rajasthantourpackages",
     title: 'Rajasthan Tour From Tamil Nadu | Rajasthan Tour Packages',
     description: "Experience the magic of Rajasthan from Tamil Nadu with Rajasthan Tour Packages. Visit iconic forts, palaces, and cultural hubs in this royal destination.",
-    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    image: "https://www.rajasthantourpackages.in/Images/Banners/tamilnadu-banner.webp",
   },
 };
 const RajasthantourFromTamilNaduilnadu = () => {

@@ -19,7 +19,7 @@ export const metadata = {
         title: 'Rajasthan Tour from Chandigarh | Rajasthan Tour Packages',
         description: "Explore Rajasthan with our tour packages from Chandigarh. Enjoy iconic forts, cultural experiences, and luxury accommodations. Plan your rajasthan holiday from chandigarh now.",
         url: "http://www.rajasthantourpackages.in/rajasthan-tour-from-chandigarh",
-        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        image: "https://www.rajasthantourpackages.in/Images/Banners/chandigarh-banner.webp",
         siteName: 'Rajasthan Tour Packages',
         type: 'website',
         locale: 'en_US',
@@ -29,7 +29,7 @@ export const metadata = {
         site: "@rajasthantourpackages",
         title: 'Rajasthan Tour from Chandigarh | Rajasthan Tour Packages',
         description: "Explore Rajasthan with our tour packages from Chandigarh. Enjoy iconic forts, cultural experiences, and luxury accommodations. Plan your rajasthan holiday from chandigarh now.",
-        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        image: "https://www.rajasthantourpackages.in/Images/Banners/chandigarh-banner.webp",
     },
 };
 

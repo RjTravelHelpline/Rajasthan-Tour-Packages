@@ -19,7 +19,7 @@ const ThreeDaysJodhpurMarwarTourPackage = () => {
   return (
     <>
       <Breadcrumb breadcrumbKey="_3daysjodhpurmarwartour" />
-      <div className="container-fluid px-0 py-4 bg-black text-white">
+      <div className="container-fluid py-4 bg-black text-white">
         <div className="row">
           <h1 className="text-5">03 Days Jodhpur Marwar Tour</h1>
         </div>

@@ -31,13 +31,17 @@ const Packages = () => {
 
   return (
     <>
-      <div className="container-fluid section-01 py-4 position-relative">
-        <div className="container packages my-5">
+      <div className="container-fluid section-01 py-2 position-relative">
+        <div className="container packages mb-5">
           <div className="row py-2 px-2 d-flex justify-content-center align-items-center">
-            <h2 className="w-auto text-capitalize home-head">
-              <span className="fw-normal">popular </span> tour packages
-              <FaGripfire className="icon" />
-            </h2>
+            <div className="d-flex-justify-content-center align-items-center">
+              <hr style={{ borderColor: 'var(--color-tertary)' }} />
+              <h2 className="text-center text-capitalize home-head">
+                <span className="fw-normal">popular </span> tour packages
+                {/* <FaGripfire className="icon bg-tertary-down p-1 rounded-5" /> */}
+              </h2>
+              <hr style={{ borderColor: 'var(--color-tertary)' }} />
+            </div>
             <p className="text-center home-para">
               Discover the essence of Rajasthan with our{' '}
               <span className="fw-bold">Popular Tour Packages </span>We offer

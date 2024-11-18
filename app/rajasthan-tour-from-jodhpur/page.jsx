@@ -19,7 +19,7 @@ export const metadata = {
     title: 'Rajasthan Tour From Jodhpur | Rajasthan Tour Packages',
     description: "Connect Rajasthan Visit Bundles for a surprising visit from Jodhpur. Reveal Rajasthan's illustrious legacy, grand fortifications, and immortal conventions.",
     url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-jodhpur",
-    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    image: "https://www.rajasthantourpackages.in/Images/Banners/jodhpur-banner.webp",
     siteName: 'Rajasthan Tour Packages',
     type: 'website',
     locale: 'en_US',
@@ -29,7 +29,7 @@ export const metadata = {
     site: "@rajasthantourpackages",
     title: 'Rajasthan Tour From Jodhpur | Rajasthan Tour Packages',
     description: "Connect Rajasthan Visit Bundles for a surprising visit from Jodhpur. Reveal Rajasthan's illustrious legacy, grand fortifications, and immortal conventions.",
-    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    image: "https://www.rajasthantourpackages.in/Images/Banners/jodhpur-banner.webp",
   },
 };
 

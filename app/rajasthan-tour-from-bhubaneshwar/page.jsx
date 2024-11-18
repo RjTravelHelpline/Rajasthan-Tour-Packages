@@ -20,7 +20,7 @@ export const metadata = {
         title: 'Top Rajasthan Tours from Bhubaneswar | Rajasthan Tour Packages',
         description: 'Explore Rajasthan with tailored tours from Bhubaneswar. Discover Jaipur, Udaipur, and Jaisalmer with our customised Rajasthan tours. Book your adventure today.',
         url: "http://www.rajasthantourpackages.in/rajasthan-tour-from-bhubaneshwar",
-        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        image: "https://www.rajasthantourpackages.in/Images/Banners/bhubaneshwar-banner.webp",
         siteName: 'Rajasthan Tour Packages',
         type: 'website',
         locale: 'en_US',
@@ -30,7 +30,7 @@ export const metadata = {
         site: "@rajasthantourpackages",
         title: 'Top Rajasthan Tours from Bhubaneswar | Rajasthan Tour Packages',
         description: 'Explore Rajasthan with tailored tours from Bhubaneswar. Discover Jaipur, Udaipur, and Jaisalmer with our customised Rajasthan tours. Book your adventure today.',
-        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        image: "https://www.rajasthantourpackages.in/Images/Banners/bhubaneshwar-banner.webp",
     },
 };
 

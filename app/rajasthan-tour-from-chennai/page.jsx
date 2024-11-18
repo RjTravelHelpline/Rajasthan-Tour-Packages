@@ -19,7 +19,7 @@ export const metadata = {
         title: 'Book Rajasthan Tour from Chennai | Rajasthan Tour Packages',
         description: "Make your Rajasthan tour from Chennai to experience the lively heritage and rich culture. Find magnificent castles, desert landscapes, and traditional art forms.",
         url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-chennai",
-        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        image: "https://www.rajasthantourpackages.in/Images/Banners/chennai-banner.webp",
         siteName: 'Rajasthan Tour Packages',
         type: 'website',
         locale: 'en_US',
@@ -29,7 +29,7 @@ export const metadata = {
         site: "@rajasthantourpackages",
         title: 'Book Rajasthan Tour from Chennai | Rajasthan Tour Packages',
         description: "Make your Rajasthan tour from Chennai to experience the lively heritage and rich culture. Find magnificent castles, desert landscapes, and traditional art forms.",
-        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        image: "https://www.rajasthantourpackages.in/Images/Banners/chennai-banner.webp",
     },
 };
 

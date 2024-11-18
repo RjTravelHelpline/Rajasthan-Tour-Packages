@@ -51,7 +51,7 @@ export const metadata = {
         site: "@rajasthantourpackages",
         title: "Delhi Sightseeing City Tour | Rajasthan Tour Packages",
         description: "Explore Delhi's famous attractions, historical sites, markets, and culture with a guided city tour.",
-        image: "",
+        image: 'https://www.rajasthantourpackages.in/Images/Banners/delhi-banner.webp',
     },
     openGraph: {
         title: "Delhi Sightseeing City Tour | Rajasthan Tour Packages",
@@ -60,7 +60,7 @@ export const metadata = {
         sitename: "Rajasthan Tour Packages",
         images: [
             {
-                url: '',
+                url: 'https://www.rajasthantourpackages.in/Images/Banners/delhi-banner.webp',
             },
         ],
         locale: 'en_US',

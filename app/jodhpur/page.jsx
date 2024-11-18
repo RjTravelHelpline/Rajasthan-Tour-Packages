@@ -50,7 +50,7 @@ export const metadata = {
     site: "@rajasthantourpackages",
     title: "Things to Do in Jodhpur Tourism | Rajasthan Tour Packages",
     description: "Learn about Jodhpur Fort sporting and leisure activities, city markets, and more. Check out Rajasthan Tour Packages for the ideal planning of our Jodhpur tour.",
-    image: "", // Add image URL if needed
+    image: 'https://www.rajasthantourpackages.in/Images/Banners/jodhpur-banner02.webp'// Add image URL if needed
   },
   openGraph: {
     title: "Things to Do in Jodhpur Tourism | Rajasthan Tour Packages",
@@ -59,7 +59,7 @@ export const metadata = {
     sitename: "Rajasthan Tour Packages",
     images: [
       {
-        url: '', // Add image URL if needed
+        url: 'https://www.rajasthantourpackages.in/Images/Banners/jodhpur-banner02.webp', // Add image URL if needed
       }
     ],
     locale: 'en_US',

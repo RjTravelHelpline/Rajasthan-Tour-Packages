@@ -19,7 +19,7 @@ export const metadata = {
     title: 'Rajasthan Tour from Maharashtra | Rajasthan Tour Packages',
     description: "Rajasthan Tour from Maharashtra to explore the royal palace, desert adventures, and vibrant festivals. You can just book your customized tour package today.",
     url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-maharashtra",
-    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    image: "https://www.rajasthantourpackages.in/Images/Banners/maharashtra-banner.webp",
     siteName: 'Rajasthan Tour Packages',
     type: 'website',
     locale: 'en_US',
@@ -29,7 +29,7 @@ export const metadata = {
     site: "@rajasthantourpackages",
     title: 'Rajasthan Tour from Maharashtra | Rajasthan Tour Packages',
     description: "Rajasthan Tour from Maharashtra to explore the royal palace, desert adventures, and vibrant festivals. You can just book your customized tour package today.",
-    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    image: "https://www.rajasthantourpackages.in/Images/Banners/maharashtra-banner.webp",
   },
 };
 const RajasthanTourFromMaharashtra = () => {

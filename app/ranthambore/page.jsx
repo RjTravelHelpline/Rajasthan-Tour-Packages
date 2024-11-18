@@ -1,4 +1,3 @@
-
 import Breadcrumb from "@/components/Breadcrumb";
 import ItineraryAccordion from "@/components/ItineraryAccordion";
 import NavigationModal from "@/components/NavigationModal";
@@ -7,7 +6,6 @@ import ReadMoreToggle from "@/components/ReadMore";
 import RentalSlider from "@/components/RentalSlider";
 import TourCarousel from "@/components/TourCarousel";
 import { allCabRentals } from "@/data/cabRentalData";
-import { ranthamboreTourPackagesData } from "@/data/data";
 import { about, excursions, fairandfestivals, howToReach, museumsandart, overview, restaurantsandmore, shopping, sightseeing } from "@/data/Destination Data/ranthambore";
 import { allCitiesImages } from "@/data/imageData";
 import { AiFillCustomerService } from 'react-icons/ai';
@@ -50,7 +48,7 @@ export const metadata = {
     site: "@rajasthantourpackages",
     title: "Ranthambore National Park | Rajasthan Tour Packages",
     description: "Exploring the vast beauty of Ranthambore National Park. Find the best Rajasthan Tour Packages and enjoy tiger safaris, scenic landscapes, and rich wildlife.",
-    image: "", // Add image URL if needed
+    image: 'https://www.rajasthantourpackages.in/Images/Banners/ranthambore-banner.webp',
   },
   openGraph: {
     title: "Ranthambore National Park | Rajasthan Tour Packages",
@@ -59,7 +57,7 @@ export const metadata = {
     sitename: "Rajasthan Tour Packages",
     images: [
       {
-        url: '', // Add image URL if needed
+        url: 'https://www.rajasthantourpackages.in/Images/Banners/ranthambore-banner.webp',
       }
     ],
     locale: 'en_US',

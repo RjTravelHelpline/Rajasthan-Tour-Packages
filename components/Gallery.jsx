@@ -25,15 +25,18 @@ const Gallery = () => {
 
     return (
         <>
-            <div className="container-fluid section-01 py-5 position-relative">
-                <div className="container gallery d-flex justify-content-center align-items-center flex-column my-5">
-                    <div className="row py-4 px-2 d-flex justify-content-center align-items-center">
-                        <h2 className="w-auto text-capitalize home-head">
-                            <span className="fw-normal">recent </span> memories
-                            <FaGripfire className="icon" />
-                        </h2>
+            <div className="container-fluid section-01 py-2 position-relative">
+                <div className="container gallery d-flex  justify-content-center align-items-center flex-column mb-5">
+                    <div className="row py-2 px-2 d-flex justify-content-center align-items-center w-100">
+                        <div className="d-flex-justify-content-center align-items-center">
+                            <hr style={{ borderColor: 'var(--color-tertary)' }} />
+                            <h2 className="text-center text-capitalize home-head fw-normal">
+                                recent <span className="fw-bold">memories </span>
+                            </h2>
+                            <hr style={{ borderColor: 'var(--color-tertary)' }} />
+                        </div>
                     </div>
-                    <div className="row py-3 d-flex gallery-row justify-content-center align-items-center px-0">
+                    <div className="row py-3 d-flex gallery-row justify-content-center align-items-center px-0 mb-4">
                         <SlickSlider settings={{ slidesToShow: 4, autoplay: false }}>
                             {latestImages.slice(0, 8).map((image, index) => (
                                 <div
