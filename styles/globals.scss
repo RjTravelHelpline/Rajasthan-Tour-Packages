@@ -327,6 +327,9 @@ body {
 .anchor-link {
   text-transform: lowercase !important;
 }
+.anchor {
+  font-size: clamp(0.95em, 2vw, 1em) !important;
+}
 
 .image-link {
   &:hover {
@@ -696,3 +699,5 @@ table {
     text-decoration: underline !important;
   }
 }
+
+

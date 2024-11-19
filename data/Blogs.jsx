@@ -2,6 +2,12 @@ import { Table } from 'react-bootstrap';
 import { allCitiesImages, allStatesImages } from './imageData';
 import Image from 'next/image';
 
+const Link = (text, url) => {
+  return <a href={url} target="_blank" rel="noopener noreferrer" className='anchor text-web fw-bold'>{text}</a>;
+};
+const Bold = (text) => {
+  return <strong>{text}</strong>;
+};
 // * wildlife
 const wildlifeBanner = '/Images/Blog/wildlife-banner.png';
 const wildlifeSariska = '/Images/Blog/wildlife-sariska.png';
@@ -1078,6 +1084,8 @@ export const blogs = [
   {
     author: 'author',
     image: newsJaipurBanner,
+    alt: "Hawa Mahal Pink City, Jaipur",
+    title: "Hawa Mahal, Jaipur - The Iconic Landmark of the Pink City",
     date: '2024-11-18',
     heading: 'Pink City Jaipur Turns 297: Discover Why It Attracts Visitors from Across the Globe',
     slug: `pink-city-jaipur-turns-297-discover-why-it-attracts-visitors-from-across-the-globe`,
@@ -1086,18 +1094,18 @@ export const blogs = [
     category: 'News & Updates',
     more: (
       <>
-        <p className='mb-0'>This is the 297th anniversary of the establishment of Jaipur, the Pink City, which retains the honor of being on the world’s tourist map. Having tourist attractions and so many things to do and see, Jaipur continues to emerge as a key attraction for tourists. As part of the elucidation of this topic in this blog, the discovery of the journey of Jaipur, which has made it a tourist city in this world, is also explained.
+        <p className='mb-0'>This is the <strong>297th anniversary</strong> of the establishment of Jaipur, the <strong>Pink City</strong>, which retains the honor of being on the world’s tourist map. Having tourist attractions and so many things to do and see, Jaipur continues to emerge as a key attraction for tourists. As part of the elucidation of this topic in this blog, the discovery of the journey of Jaipur, which has made it a tourist city in this world, is also explained.
         </p>
         <hr />
         <h2>Jaipur’s Rich History: A 297-Year Journey</h2>
         <p>
-          Jaipur, the city that was established in 1727, was the founding father of Maharaja Sawai Jai Singh II. It may have been a royal city, but it was designed with impressive forts and palaces, and the pink city is particularly famous for it. In particular, this city grew a lot, from being a princely state to a modern-day city with all that a modern-day city comes with, but retaining its legacy. This little gem has 297 years of history and tells a lot about Jaipur and its culture as one of the most distinguished cities in India.
+          Jaipur, the city that was established in <strong>1727</strong>, was the founding father of Maharaja <strong>Sawai Jai Singh II</strong>. It may have been a royal city, but it was designed with impressive forts and palaces, and the pink city is particularly famous for it. In particular, this city grew a lot, from being a princely state to a modern-day city with all that a modern-day city comes with, but retaining its legacy. This little gem has <strong>297 years of history</strong> and tells a lot about Jaipur and its culture as one of the most distinguished cities in India.
         </p>
-        <p>Over the years, Jaipur has come out brightly and full of glamor, as it was during the kings of Rajput, to be one of the UNESCO World Heritage Cities now. They all have played their part in making the city unique in terms of the architectural and traditional facelifts.</p>
+        <p>Over the years, {Link("Jaipur", "https://www.rajasthantourpackages.in/jaipur")} has come out brightly and full of glamor, as it was during the <strong>kings of Rajput</strong>, to be one of the <strong>UNESCO World Heritage Cities</strong> now. They all have played their part in making the city unique in terms of the architectural and traditional facelifts.</p>
         <h3>Why Jaipur Attracts Global Visitors: The Pink City’s Global Appeal</h3>
         <p>This places Jaipur in a league of world cities that people dream of visiting as they are not only from India but from all over the world. There are several reasons why tourists from all over the world flock to this vibrant city:</p>
         <h4>Architectural Wonders:</h4>
-        <p>Three of the top visited attractions in the entire country are located right in the city of Jaipur. 11 Temples and Forts: Amber Fort and Hawa Mahal, Jaipur, City Palace of Jaipur and Jantar Mantar. Following is a list of some of the prime spots and places that are offering a thrilling sightseeing Show to millions of visitors around the globe. They show the typical royal façade of the architectural designs in Rajasthan, India.</p>
+        <p>Three of the top visited attractions in the entire country are located right in the city of Jaipur. 11 Temples and Forts: <strong>Amber Fort</strong> and <strong>Hawa Mahal</strong>, Jaipur, {Link("city palace of jaipur", "https://www.jaipurtaxiservice.com/places-to-visit-in-jaipur/city-palace-jaipur.html")} and <strong>Jantar Mantar</strong>. Following is a list of some of the prime spots and places that are offering a thrilling sightseeing Show to millions of visitors around the globe. They show the typical royal façade of the architectural designs in Rajasthan, India.</p>
         <div className="slug-image-container my-2">
           <Image
             src={newsJaipur}
@@ -1108,21 +1116,21 @@ export const blogs = [
           />
         </div>
         <h4>Cultural Richness:</h4>
-        <p>This is because it is able to offer the pre-requisite value proposition of appealing to at least a multiple-person entity interested in Rajasthani culture, music, dance, and food. Teej festival is one, the Diwali festival is the other, and the literary festival conducted in Jaipur are some of the events that have placed the city’s cultural tourism map.</p>
+        <p>This is because it is able to offer the pre-requisite value proposition of appealing to at least a multiple-person entity interested in <strong>Rajasthani culture</strong>, music, dance, and food. <strong>Teej festival</strong> is one, the <strong>Diwali festival</strong> is the other, and the <strong>literary festival</strong> conducted in Jaipur are some of the events that have placed the city’s <strong>cultural tourism map</strong>.</p>
         <h4>Royal Experience: </h4>
-        <p>The tourists are interested in royalty – to spend a night in a palace turned into a hotel and take a camel ride in the Thar desert. As the second part of its name spells it out, Jaipur does have that royal feel to it, and this appears to be infused almost everywhere in the town.
+        <p>The tourists are interested in royalty – to spend a night in a palace turned into a hotel and take a <strong>camel ride</strong> in the Thar desert. As the second part of its name spells it out, Jaipur does have that royal feel to it, and this appears to be infused almost everywhere in the town.
         </p>
         <h4>Shopping and Handicrafts: </h4>
-        <p>Jaipur also has many old markets that again sell arts and crafts, textiles, jewelry, and bright-colored sarees, and the entire outlook of the city has an imperial flavor. The two bazaars you would perhaps encounter are the bazaars that are likely to flood the walking tours, the Johari Bazaar and and Bapu Bazaar the one that sells Rajasthani products.</p>
+        <p>Jaipur also has many <strong>old markets</strong> that again sell arts and crafts, textiles, jewelry, and bright-colored sarees, and the entire outlook of the city has an imperial flavor. The two bazaars you would perhaps encounter are the bazaars that are likely to flood the walking tours, the <strong>Johari Bazaar</strong> and <strong>Bapu Bazaar</strong> the one that sells Rajasthani products.</p>
         <h4>Strategic Location: </h4>
-        <p>Jaipur is part of the Golden Triangle circuit, including (Delhi, Agra, and Jaipur), so people coming to Northern India can easily plan their tour of this place.</p>
+        <p>Jaipur is part of the <strong>Golden Triangle circuit</strong>, including (Delhi, Agra, and Jaipur), so people coming to Northern India can easily plan their tour of this place.</p>
         <h3>Jaipur Today: A Modern Metropolis with a Heritage Soul</h3>
-        <p>Although the city of Jaipur has preserved its historical details, it is a city of the twenty-first century. Facelifted roads, new luxury hotels, and smart city development in Jaipur are turning this city into an international city. Tourists do not have to forego modern facilities in order to experience Rajasthani warmth or have to stay in typical Rajasthani homes but can have the two rolled into one.</p>
-        <p>Jaipur is gradually developing into a world city in that several world events are being held, such as the annual Writers and Artists Jaipur Literature Festival for writers, artists, and professors. This city has taken firm root in embracing its cultural part of India, which includes arts, architecture, and food.</p>
+        <p>Although the city of Jaipur has preserved its historical details, it is a city of the twenty-first century. Facelifted roads, new <strong>luxury hotels</strong>, and <strong>smart city development</strong> in Jaipur are turning this city into an <strong>international city</strong>. Tourists do not have to forego modern facilities in order to experience Rajasthani warmth or have to stay in typical Rajasthani homes but can have the two rolled into one.</p>
+        <p>Jaipur is gradually developing into a world city in that several world events are being held, such as the annual Writers and Artists <strong>Jaipur Literature Festival</strong> for writers, artists, and professors. This city has taken firm root in embracing its cultural part of India, which includes arts, architecture, and food.</p>
         <h3>The Future of Jaipur: A City That is Both Traditional and Modern</h3>
         <p>In later years, Jaipur prepared itself for a much more promising future. As a part of the sustainable development of infrastructure, the approach to tourism development is seen in Jaipur vision to become one of the prime tourist spots in the world. Because of the conservation of its antecedent and the novelties it experiences, tourists from the international scene will still flock to the Pink City in the coming years.</p>
         <h4>Conclusion:</h4>
-        <p>On the eve of Jaipur 297th Foundation Day, it only becomes apparent why this Pink City still mesmerizes global tourists. As known, it is culturally grounded and historically linked. It is one of the leading and the most valuable aspects of the Jaipur Tourism industry in India. If it is the first time you have visited Jaipur or the time you have visited Jaipur after a long time, do not worry; the city has something new to offer. Here are the five reasons that make Jaipur complement its royal charm with beauty and contribute uniqueness to the global map.</p>
+        <p>On the eve of Jaipur <strong>297th Foundation Day</strong>, it only becomes apparent why this <strong>Pink City</strong> still mesmerizes global tourists. As known, it is culturally grounded and historically linked. It is one of the leading and the most valuable aspects of the <strong>Jaipur Tourism</strong> industry in India. If it is the first time you have visited Jaipur or the time you have visited Jaipur after a long time, do not worry; the city has something new to offer. Here are the five reasons that make Jaipur complement its royal charm with beauty and contribute uniqueness to the global map.</p>
       </>
     )
   },
