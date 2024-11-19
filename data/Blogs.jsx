@@ -2,7 +2,7 @@ import { Table } from 'react-bootstrap';
 import { allCitiesImages, allStatesImages } from './imageData';
 import Image from 'next/image';
 
-// * consting the assets
+// * wildlife
 const wildlifeBanner = '/Images/Blog/wildlife-banner.png';
 const wildlifeSariska = '/Images/Blog/wildlife-sariska.png';
 const wildlifeRanthambore = '/Images/Blog/wildlife-ranthambore.png';
@@ -18,14 +18,9 @@ const wildlifeJawai = '/Images/Blog/wildlife-jawai.png';
 
 
 // news and updates
+// jaipur
 const newsJaipurBanner = '/Images/Blog/news-banner.png';
 const newsJaipur = '/Images/Blog/news-jaipur.png';
-const hyderabadImg = '/Images/Card/hyderabad.webp';
-const indianStreetFood = '/Images/Card/indian-streetfood.webp';
-const kolkataStreetFood = '/Images/Card/kolkata-streetfood.webp';
-const chennaiStreetFood = '/Images/Card/chennai-streetfood.webp';
-const delhiStreetFood = '/Images/Card/delhi-streetfood.webp';
-const bangaloreStreetFood = '/Images/Card/bangalore-streetfood.webp';
 
 // * Blog data
 const generateSlug = (heading) =>
