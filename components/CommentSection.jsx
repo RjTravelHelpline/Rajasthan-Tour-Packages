@@ -122,13 +122,25 @@ const Comment = ({ selectedBlog }) => {
                             onSubmit={handleSubmit}
                         >
                             <div className="bg-tertary-down mt-3 py-2 rounded-4 d-flex flex-column justify-content-center align-items-center">
-                                <span className="color-tertary">
+                                <span className="color-tertary bg-tertary-down rounded-5 p-2 my-2 d-flex justify-content-center align-items-center">
                                     <FaCommentAlt />
                                 </span>
-                                <h3 className='text-center text-capitalize'>comment <span className="fw-normal">section</span></h3>
+                                <h3 className='text-center text-capitalize'>comments <span className="fw-normal"></span></h3>
+                                <p>No comments yet. Why don’t you start the discussion?</p>
                             </div>
                             <div className="row p-4">
-                                <div className="col-12 col-lg-6 col-md-6 col-sm-12 my-2">
+                                <div className="col-12 my-2 w-100">
+                                    <textarea
+                                        placeholder="write a comment..."
+                                        name="comment"
+                                        className="w-100"
+                                        cols={40}
+                                        rows={2}
+                                        value={formData.comment}
+                                        onChange={handleChange}
+                                    />
+                                </div>
+                                <div className="col-12 col-lg-4 col-md-4 col-sm-12 my-2">
                                     <input
                                         type="text"
                                         placeholder="Name*"
@@ -139,7 +151,7 @@ const Comment = ({ selectedBlog }) => {
                                         className="w-100"
                                     />
                                 </div>
-                                <div className="col-12 col-lg-6 col-md-6 my-2">
+                                <div className="col-12 col-lg-4 col-md-4 my-2">
                                     <input
                                         type="email"
                                         placeholder="Email*"
@@ -150,15 +162,15 @@ const Comment = ({ selectedBlog }) => {
                                         className="w-100"
                                     />
                                 </div>
-                                <div className="col-12 my-2 w-100">
-                                    <textarea
-                                        placeholder="comment*"
-                                        name="comment"
-                                        className="w-100"
-                                        cols={40}
-                                        rows={2}
-                                        value={formData.comment}
+                                <div className="col-12 col-lg-4 col-md-4 my-2">
+                                    <input
+                                        type="text"
+                                        placeholder="website"
+                                        name="website"
+                                        required
+                                        value={formData.website}
                                         onChange={handleChange}
+                                        className="w-100"
                                     />
                                 </div>
                             </div>
@@ -170,7 +182,7 @@ const Comment = ({ selectedBlog }) => {
                                     : "submit-active"
                                     }`}
                             >
-                                {isLoading ? <div className="loading-spinner"></div> : "Submit"}
+                                {isLoading ? <div className="loading-spinner"></div> : "Post Comment"}
                             </button>
                         </form>
                     )}
