@@ -25,6 +25,10 @@ const wildlifeJawai = '/Images/Blog/wildlife-jawai.png';
 const newsJaipurBanner = '/Images/Blog/news-banner.png';
 const newsJaipur = '/Images/Blog/news-jaipur.png';
 
+// jammu & kashmir
+const newsJammuBanner = '/Images/Blog/news-jammu-banner.png';
+const newsChenabBridge = '/Images/Blog/news-chenab-bridge.png';
+
 // history & culture
 const historyRajasthan = '/Images/Blog/history-rajasthan.jpeg';
 const historyMehrangarh = '/Images/Blog/history-mehrangarh.jpeg';
@@ -1139,17 +1143,112 @@ export const blogs = [
     )
   },
   {
-    author: 'Amit Kumar',
-    image: allCitiesImages.jaipur.jaipurAmber02.src,
-    date: '2024-08-12',
-    heading: 'Tourism Industry’s Recovery Post-Pandemic',
-    slug: generateSlug('Tourism Industry Recovery Post-Pandemic'),
+    author: 'admin',
+    image: newsJammuBanner,
+    alt: 'Delhi to Srinagar Train Journey',
+    title: 'Delhi to Srinagar Rail Tour Scenic Routes and Travel Information',
+    date: '2024-11-23',
+    heading: 'Connecting Hearts: Delhi to Srinagar Train - Kashmir Train Tour & Jammu Railway Routes',
+    slug: 'delhi-to-srinagar-train-kashmir-train-tour-jammu-railway-routes',
     description:
-      'An in-depth look at how the tourism industry is bouncing back after the pandemic. This article covers the challenges faced and the new trends shaping the future of travel.',
+      "Getting to Srinagar by rail from Delhi is comfortable, takes considerably less time, and offers some of the best scenery. As one of India's most eagerly awaited new railway lines, it is an excellent opportunity to get closer to Kashmir's beautiful nature. The Delhi to Kashmir Train Tour is recommended to those fond of traveling and seeking spiritual experience since it will reveal the beauty of Jammu and Kashmir to you.",
     category: 'News & Updates',
-    more: `The tourism industry has shown resilience as it rebounds from the pandemic’s 
-              impact. Innovations in health and safety protocols and a focus on local tourism have 
-              helped revive travel across regions.`,
+    more: (
+      <>
+        <p>
+          Getting to Srinagar by rail from Delhi is comfortable, takes considerably less time, and offers some of the best scenery. As one of India's most eagerly awaited new railway lines, it is an excellent opportunity to get closer to Kashmir's beautiful nature. The <strong>Delhi to Kashmir Train Tour </strong>is recommended to those fond of traveling and seeking spiritual experience since it will reveal the beauty of Jammu and Kashmir to you.
+        </p>
+        <h4>Key Highlights</h4>
+        <p className="fw-bold mb-0">Distance:</p>
+        <p>
+          This train covers about 897 kilometers from <strong>Delhi to Srinagar</strong>. Its voyage passes through a combination of country, city, and hilly landscapes for its guests; therefore, it is hardly uninteresting.
+        </p>
+        <p className="fw-bold mb-0">Journey Time:
+        </p>
+        <p>Normally, it takes anything between 24 hours to travel by railway from <strong>Delhi to Srinagar</strong>, depending on the train that one hires. The Indian Railways guarantees a comfortable and smooth journey through this beautiful landscape so that everyone aboard can cherish every view of the journey.
+        </p>
+        <h4>Major Stations:
+        </h4>
+        <div className="slug-image-container my-2">
+          <Image
+            src={newsChenabBridge}
+            alt="Chenab Railway Bridge"
+            title="Chenab Railway Bridge Spanning the Mighty Chenab River in India"
+            width={1500}
+            height={600}
+          />
+        </div>
+        <p>This route has several other unique places in terms of geography and rails, all listed below. These stations include:</p>
+        <p><strong>Delhi:</strong> The engaging and liberated capital is the initial viewpoint on this charming voyage.</p>
+        <p><strong>Pathankot:</strong> This junction is known for offering connectivity to Jammu and Kashmir. This is likely why this railway terminal constantly witnesses many people changing their train to board another train for the state.</p>
+        <p><strong>Katra:</strong>  katra is well known as the starting point for the Yatra to the shrine of Mata {Link('Vaishno Devi Taxi Service', 'https://www.jaipurtaxiservice.com/jaipur-outstation-use/jaipur-to-vaishnodevi-taxi.html')}.</p>
+        <p><strong>Jammu:</strong> Jammu is the state's winter capital and one of India's holiest cities.</p>
+        <p><strong>Udhampur:</strong> For the real leg of the journey, we must first reach Udhampur, a major station on the Jammu Kashmir line and fondly called the Gateway to the Lidder Valley and the valleys of Kashmir.
+        </p>
+        <p><strong>Anantnag:</strong> Finally, just before the end of the video, Anantnag unfolds a glimpse of Kashmir's natural beauty.
+        </p>
+        <p className="fw-bold mb-0">Srinagar</p>
+        <p> In the end, Sri Nagar seems to open the great scene of the prestigious Dal Lake and Mughal gardens and the heavenly land of Jammu and Kashmir.</p>
+        <p><strong>Baramulla:</strong> It is an essential station of the Jammu Kashmir Railway and the last railway line station.</p>
+        <p>
+          <strong>Scenic Views:</strong> The only facilitative element around which visitors continue to concentrate on the Delhi to Srinagar train ride is the scenery during the journey. Train paths in the hills of Jammu and Kashmir are also suitable for looking at; you see valleys, rivers, snow mountains, and forests. The newscasts switch to the new beautiful to look at, and the long hours of travel are made rewarding.
+        </p>
+        <p>
+          <strong>A Journey of Wonders:</strong> As with other train tours, such as the <strong>Delhi to Kashmir Train Tour</strong>, the destination is less important than the adventure. These are different trains as we go from Delhi's posh, crowded markets to Kashmir's natural, scenic beauty. Delhi needs no introduction. It has emerged as a cosmopolitan city in certain areas Today. Kashmir has valleys and mountains, adding beauty to travel. Tourists can interact with nature and culture, which means a discovery tour. Even the train's movement map represents to what extent the Indian Railways has transformed itself regarding engineering benchmarks. The well-built tracks, efficient service, and lovely stations offer something about the history of Indian railways.
+        </p>
+        <p><strong>Indian Railways' Achievement:</strong> It was indeed a moment for Indian Railways to launch the train services between <strong>Delhi to Kashmir</strong>. For example, it has the additional benefit of improving the quality of life of millions of consumers and is tightly connected with the creation of tourism and commercial and cultural aspects. The construction of the railway has benefited Kashmir and made it easy for everyone in India to feel like they are in a beautiful and culturally unique place. The development of the railway network in Jammu & Kashmir, one of the most visually stunning and technically tricky areas in the world, is proof of the Indian Railways' mission to connect the country.
+        </p>
+        <h4>Conclusion</h4>
+        <p>The {Link('delhi', 'https://www.rajasthantourpackages.in/delhi')} Srinagar route is famous with tourists because of the beautiful places witnessed throughout the road trip, the cultural significance of the places, and the discomfort of traveling by train not being essentially stressful. Whether religious, an adventure, or a desire for pleasure, this train tour to Kashmir has lots in store and would be an unforgettable experience. The <strong>Jammu Kashmir Railway Routes</strong> are proper and correct rail-line trips that make significant components of the overall tour around India's terrains, giving a first look into one of the most beautiful terrains of the country. Because of INDIA RAILWAYS on this incredible journey, we will continue to join the hearts and souls of different Indian citizens with this beautiful land, KASHMIR.
+        </p>
+        <h4>FAQ</h4>
+        <p className="fw-bold mb-0">
+          Are Delhi to Srinagar trains safe for tourists?
+        </p>
+        <p>Yes, tourists still take trains from Delhi to Srinagar via Jammu because the roots are still secure. Indian Railways information about security measures; prepared with patrols of railway squads, cameras installation, and helping staff at crucial stations. The passengers are encouraged to observe certain precautions for comfort during the trip.</p>
+        <p className="fw-bold mb-0">What are the popular trains for Delhi to Jammu Kashmir ?
+        </p>
+        <p>Some popular trains from Delhi to Jammu Tawi include:
+        </p>
+        <p className="mb-0"><strong>Jammu Rajdhani Express:</strong>  Fast and premium option.
+        </p>
+        <p className="mb-0"><strong>Shri Shakti Express:</strong>  Ideal for Vaishno Devi pilgrims.
+        </p>
+        <p className="mb-0"><strong>Jammu Mail:</strong> Affordable in cost with consistent connectivity.
+        </p>
+        <p className="fw-bold mb-0">Can I take a direct train from Delhi to Srinagar?
+        </p>
+        <p>Well, no straight train from Delhi can operate in Srinagar now. People can also travel by train to Jammu Tawi and by road to Srinagar. Trains can link to other stations, as in Banihal, partially, with probable integration of the entire line to Srinagar.
+        </p>
+        <p className="fw-bold mb-0"> What is the Banihal-Baramulla Railway Line?
+        </p>
+        <p>The Banihal-Baramulla line is part of the Kashmir Railway Project. It links Banihal in Jammu with Baramulla in Kashmir and offers a world-class, stunning view of the valley.
+        </p>
+        <p className="fw-bold mb-0">What are the ways to travel from Jammu to Srinagar?</p>
+        <p>After reaching Jammu, you can:
+        </p>
+        <p className='mb-0'>Get a taxi or a bus to Srinagar, but avoid public taxis.</p>
+        <p className='mb-0'> Take the Banihal train and then further travel by road to Srinagar.</p>
+        <p>If available, I should hire a helicopter for transportation, which only results in delays most of the time.</p>
+        <p className="fw-bold">
+          What is the best season to visit Kashmir?
+        </p>
+        <p className="mb-0"><strong>Spring (March to May):</strong> Blooming flowers and pleasant weather.</p>
+        <p className="mb-0"> <strong>Summer (June to August):</strong> Relax from hot climate in Srinagar and Gulmarg with colder climate.</p>
+        <p className="mb-0"><strong>Autumn (September to November):</strong> Golden chinars and picturesque landscapes.</p>
+        <p>  <strong>Winter (December to February):</strong> It is appropriate for skiing in Gulmarg and Pahalgam.</p>
+        <p className="fw-bold mb-0">What are the expected date of train start from Delhi to Srinagar, Jammu Kashmir ?
+        </p>
+        <p>The direct train service from Delhi to Srinagar, Jammu & Kashmir, is expected to start in January 2025. This will be India's first Vande Bharat Sleeper train, providing overnight semi-high-speed connectivity. It will operate on the Udhampur-Srinagar-Baramulla Rail Link, covering over 800 km in under 13 hours​.
+
+        </p>
+
+
+
+
+
+      </>
+    ),
   },
   // Tour & Travels
   {

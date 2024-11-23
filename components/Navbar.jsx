@@ -523,7 +523,6 @@ const Navbar = () => {
                             contact us
                         </Link>
                     </div>
-
                     <hr />
                 </div>
                 <div className=" w-100 row p-0 py-5 mobile-navigation-footer d-flex justify-content-center align-items-center bg-black text-white position-relative">

@@ -2,7 +2,6 @@
 import React from 'react';
 import { Carousel } from 'react-bootstrap';
 import Image from 'next/image';
-import { MdTour } from 'react-icons/md';
 const HomeBanner01 = '/Images/Banners/rajasthan-banner01.webp';
 const HomeBanner02 = '/Images/Banners/agra-banner.webp';
 const HomeBanner03 = '/Images/Banners/jaipur-banner.webp';

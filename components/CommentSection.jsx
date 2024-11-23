@@ -121,7 +121,7 @@ const Comment = ({ selectedBlog }) => {
                             className="d-flex flex-column gap-2 justify-content-center p-0"
                             onSubmit={handleSubmit}
                         >
-                            <div className="bg-tertary-down mt-3 py-2 rounded-4 d-flex flex-column justify-content-center align-items-center">
+                            <div className="bg-tertary-down mt-3 p-2 rounded-4 d-flex flex-column justify-content-center align-items-center">
                                 <span className="color-tertary bg-tertary-down rounded-5 p-2 my-2 d-flex justify-content-center align-items-center">
                                     <FaCommentAlt />
                                 </span>
