@@ -1,0 +1,1543 @@
+2:I[5878,["7240","static/chunks/53c13509-261018b94671cc58.js","5452","static/chunks/5e22fd23-78c362d8f38bcb3c.js","7699","static/chunks/8e1d74a4-15f2288209cfd4f9.js","5706","static/chunks/9c4e2130-fc2b0b10fc897646.js","6779","static/chunks/6779-2ebaa4fe8a607e4f.js","5878","static/chunks/5878-206698e104a21ee8.js","7261","static/chunks/7261-b1ca2bf42577a2e7.js","308","static/chunks/app/blog/%5Bslug%5D/page-d8af160d3c9ccdae.js"],"Image"]
+3:I[4273,["7240","static/chunks/53c13509-261018b94671cc58.js","5452","static/chunks/5e22fd23-78c362d8f38bcb3c.js","7699","static/chunks/8e1d74a4-15f2288209cfd4f9.js","5706","static/chunks/9c4e2130-fc2b0b10fc897646.js","6779","static/chunks/6779-2ebaa4fe8a607e4f.js","5878","static/chunks/5878-206698e104a21ee8.js","7261","static/chunks/7261-b1ca2bf42577a2e7.js","308","static/chunks/app/blog/%5Bslug%5D/page-d8af160d3c9ccdae.js"],"default"]
+4:I[3629,["7240","static/chunks/53c13509-261018b94671cc58.js","5452","static/chunks/5e22fd23-78c362d8f38bcb3c.js","7699","static/chunks/8e1d74a4-15f2288209cfd4f9.js","5706","static/chunks/9c4e2130-fc2b0b10fc897646.js","6779","static/chunks/6779-2ebaa4fe8a607e4f.js","5878","static/chunks/5878-206698e104a21ee8.js","7261","static/chunks/7261-b1ca2bf42577a2e7.js","308","static/chunks/app/blog/%5Bslug%5D/page-d8af160d3c9ccdae.js"],"default"]
+5:I[2972,["7240","static/chunks/53c13509-261018b94671cc58.js","5452","static/chunks/5e22fd23-78c362d8f38bcb3c.js","7699","static/chunks/8e1d74a4-15f2288209cfd4f9.js","5706","static/chunks/9c4e2130-fc2b0b10fc897646.js","6779","static/chunks/6779-2ebaa4fe8a607e4f.js","5878","static/chunks/5878-206698e104a21ee8.js","7261","static/chunks/7261-b1ca2bf42577a2e7.js","308","static/chunks/app/blog/%5Bslug%5D/page-d8af160d3c9ccdae.js"],""]
+6:I[873,["7240","static/chunks/53c13509-261018b94671cc58.js","5452","static/chunks/5e22fd23-78c362d8f38bcb3c.js","7699","static/chunks/8e1d74a4-15f2288209cfd4f9.js","5706","static/chunks/9c4e2130-fc2b0b10fc897646.js","6779","static/chunks/6779-2ebaa4fe8a607e4f.js","5878","static/chunks/5878-206698e104a21ee8.js","7261","static/chunks/7261-b1ca2bf42577a2e7.js","308","static/chunks/app/blog/%5Bslug%5D/page-d8af160d3c9ccdae.js"],"default"]
+600:I[4707,[],""]
+602:I[6423,[],""]
+603:I[7343,["7240","static/chunks/53c13509-261018b94671cc58.js","5452","static/chunks/5e22fd23-78c362d8f38bcb3c.js","7699","static/chunks/8e1d74a4-15f2288209cfd4f9.js","6051","static/chunks/795d4814-aa38cb6c1d0e3dc0.js","5706","static/chunks/9c4e2130-fc2b0b10fc897646.js","9956","static/chunks/ee560e2c-1d09c13a58b41089.js","6779","static/chunks/6779-2ebaa4fe8a607e4f.js","5878","static/chunks/5878-206698e104a21ee8.js","5438","static/chunks/5438-b95f221a60d98822.js","7261","static/chunks/7261-b1ca2bf42577a2e7.js","296","static/chunks/296-16ab98ad6c1adc60.js","965","static/chunks/965-8ea72847527a4a4e.js","173","static/chunks/173-c69e1402c8405026.js","2130","static/chunks/2130-606c10455f3b1d12.js","2599","static/chunks/2599-42f691d6ac4fa9cf.js","3185","static/chunks/app/layout-8ef0955630b5ad06.js"],"default"]
+604:I[8425,["7240","static/chunks/53c13509-261018b94671cc58.js","5452","static/chunks/5e22fd23-78c362d8f38bcb3c.js","7699","static/chunks/8e1d74a4-15f2288209cfd4f9.js","6051","static/chunks/795d4814-aa38cb6c1d0e3dc0.js","5706","static/chunks/9c4e2130-fc2b0b10fc897646.js","9956","static/chunks/ee560e2c-1d09c13a58b41089.js","6779","static/chunks/6779-2ebaa4fe8a607e4f.js","5878","static/chunks/5878-206698e104a21ee8.js","5438","static/chunks/5438-b95f221a60d98822.js","7261","static/chunks/7261-b1ca2bf42577a2e7.js","296","static/chunks/296-16ab98ad6c1adc60.js","965","static/chunks/965-8ea72847527a4a4e.js","173","static/chunks/173-c69e1402c8405026.js","2130","static/chunks/2130-606c10455f3b1d12.js","2599","static/chunks/2599-42f691d6ac4fa9cf.js","3185","static/chunks/app/layout-8ef0955630b5ad06.js"],"default"]
+605:I[4073,["7240","static/chunks/53c13509-261018b94671cc58.js","5452","static/chunks/5e22fd23-78c362d8f38bcb3c.js","7699","static/chunks/8e1d74a4-15f2288209cfd4f9.js","6051","static/chunks/795d4814-aa38cb6c1d0e3dc0.js","5706","static/chunks/9c4e2130-fc2b0b10fc897646.js","9956","static/chunks/ee560e2c-1d09c13a58b41089.js","6779","static/chunks/6779-2ebaa4fe8a607e4f.js","5878","static/chunks/5878-206698e104a21ee8.js","5438","static/chunks/5438-b95f221a60d98822.js","7261","static/chunks/7261-b1ca2bf42577a2e7.js","296","static/chunks/296-16ab98ad6c1adc60.js","965","static/chunks/965-8ea72847527a4a4e.js","173","static/chunks/173-c69e1402c8405026.js","2130","static/chunks/2130-606c10455f3b1d12.js","2599","static/chunks/2599-42f691d6ac4fa9cf.js","3185","static/chunks/app/layout-8ef0955630b5ad06.js"],"default"]
+a:{"className":"fw-bold mt-2 mb-0","children":"Introduction:"}
+9:["$","p",null,"$a"]
+f:{"children":"best Wildlife Sanctuary"}
+e:["$","strong",null,"$f"]
+11:{"children":"Rajasthan wildlife trails for adventurers"}
+10:["$","strong",null,"$11"]
+13:{"href":"https://www.rajasthantourpackages.in/wildlife-tour-packages","target":"_blank","rel":"noopener noreferrer","className":"anchor text-web fw-bold","children":"Wildlife Tour Packages"}
+12:["$","a",null,"$13"]
+d:["Rich in a royal legacy and magnificent forts and palaces Rajasthan also boasts of some of the ","$e"," and National Park in India. Peace and serenity are two qualities that no traveler would associate with this enthralling state of Rajasthan, but for the part of the traveler who wants to cut through the jungle and feel the off beat rugged look of Rajasthan it offers some of the best track of wildlife tours. In this blog we will share further details about the ","$10"," and the many options available for those interested in a non-conventional ","$12"," destination."]
+c:{"className":"mb-0","children":"$d"}
+b:["$","p",null,"$c"]
+15:{"className":"fw-bold mt-2 mb-0","children":"The Untouched Wilderness of Rajasthan:"}
+14:["$","p",null,"$15"]
+17:{"className":"mb-0","children":" Although Rajasthan is traditionally regarded as a land of history and architecture it is also an area with a vibrant and diverse wildlife population. It has the huge Thar desert stretching over a vast area in the west endangered greens of Aravalli forests in the South, Where the state’s wildlife safari gives tourists a welcome opportunity of indulgence in adventures and ecstasize in witnessing the unadulterated natural beauty."}
+16:["$","p",null,"$17"]
+19:{}
+18:["$","hr",null,"$19"]
+1b:{"className":"mt-3","children":"Top Rajasthan Wildlife Trails for Adventurers:"}
+1a:["$","h4",null,"$1b"]
+1d:{"className":"fw-bold mt-2 mb-0","children":"1. Sariska Tiger Reserve: A Journey Through the Jungle"}
+1c:["$","p",null,"$1d"]
+21:{"src":"/Images/Blog/wildlife-sariska.png","alt":"Sariska Tiger Reserve","width":1500,"height":600}
+20:["$","$L2",null,"$21"]
+1f:{"className":"slug-image-container my-2","children":"$20"}
+1e:["$","div",null,"$1f"]
+26:{"href":"https://www.jaipurtaxiservice.com/day-trips-from-jaipur/sariska-tiger-reserve-tour-from-jaipur.html","target":"_blank","rel":"noopener noreferrer","className":"anchor text-web fw-bold","children":"Sariska Tiger Reserve"}
+25:["$","a",null,"$26"]
+24:["The ","$25"," situated in the hills of Aravalli in Rajasthan is a wonderful world for a dedicated adventure tourist. Sariska occupies a terrain of high ridge with extensive scrub, dense forest and is famous for bengal tiger. Tiger reserve is among those sanctuaries which are more famous in Rajasthan and provides many options for trekking to travelers. Here one has bar privileges to spot tigers from the jungle safaris apart from other animals such as leopards, wild pigs and some species of deers."]
+23:{"className":"mb-0","children":"$24"}
+22:["$","p",null,"$23"]
+28:{"className":"fw-bold mt-2 mb-0","children":"Things to do:"}
+27:["$","p",null,"$28"]
+2a:{"className":"mb-0","children":"• Sariska has several trails for the more adventurous and up close view of the wild animals."}
+29:["$","p",null,"$2a"]
+2c:{"className":"mb-0","children":"• Jeep tours for the purpose of viewing tiger and leopard plus other birds of the wild."}
+2b:["$","p",null,"$2c"]
+2e:{"className":"mb-0","children":"• Tenting out in the forests and other areas with no light from any source apart from the moon."}
+2d:["$","p",null,"$2e"]
+30:{"className":"fw-bold mt-2 mb-0","children":"Timings:"}
+2f:["$","p",null,"$30"]
+3a:{"children":"Month"}
+39:["$","th",null,"$3a"]
+3c:{"children":"Morning Trip Timing"}
+3b:["$","th",null,"$3c"]
+3e:{"children":"Evening Trip Timing"}
+3d:["$","th",null,"$3e"]
+38:["$39","$3b","$3d"]
+37:{"children":"$38"}
+36:["$","tr",null,"$37"]
+35:{"children":"$36"}
+34:["$","thead",null,"$35"]
+46:{"children":"1 October to 31 October"}
+45:["$","td",null,"$46"]
+48:{"children":"06.30 to 10.00 AM"}
+47:["$","td",null,"$48"]
+4a:{"children":"2.30 to 6.00 PM"}
+49:["$","td",null,"$4a"]
+44:["$45","$47","$49"]
+43:{"children":"$44"}
+42:["$","tr",null,"$43"]
+4f:{"children":"1 November to 31 January"}
+4e:["$","td",null,"$4f"]
+51:{"children":"07.00 to 10.30 AM"}
+50:["$","td",null,"$51"]
+53:{"children":"2.00 to 5.30 PM"}
+52:["$","td",null,"$53"]
+4d:["$4e","$50","$52"]
+4c:{"children":"$4d"}
+4b:["$","tr",null,"$4c"]
+58:{"children":"1 February to 31 March"}
+57:["$","td",null,"$58"]
+5a:{"children":"06.30 to 10.00 AM"}
+59:["$","td",null,"$5a"]
+5c:{"children":"2.30 to 6.00 PM"}
+5b:["$","td",null,"$5c"]
+56:["$57","$59","$5b"]
+55:{"children":"$56"}
+54:["$","tr",null,"$55"]
+61:{"children":"1 April to 15 May"}
+60:["$","td",null,"$61"]
+63:{"children":"06.00 to 09.30 AM"}
+62:["$","td",null,"$63"]
+65:{"children":"3.00 to 6.30 PM"}
+64:["$","td",null,"$65"]
+5f:["$60","$62","$64"]
+5e:{"children":"$5f"}
+5d:["$","tr",null,"$5e"]
+6a:{"children":"15 May to 30 June"}
+69:["$","td",null,"$6a"]
+6c:{"children":"06.00 to 09.30 AM"}
+6b:["$","td",null,"$6c"]
+6e:{"children":"3.30 to 7.00 PM"}
+6d:["$","td",null,"$6e"]
+68:["$69","$6b","$6d"]
+67:{"children":"$68"}
+66:["$","tr",null,"$67"]
+41:["$42","$4b","$54","$5d","$66"]
+40:{"children":"$41"}
+3f:["$","tbody",null,"$40"]
+33:["$34","$3f"]
+32:{"responsive":true,"className":"table table-rounded my-0 table-striped","children":"$33"}
+31:["$","$L3",null,"$32"]
+70:{"className":"fw-bold mt-2 mb-0","children":"Charges:"}
+6f:["$","p",null,"$70"]
+7a:{"children":"Vehicle"}
+79:["$","th",null,"$7a"]
+7c:{"children":"Sariska Gate"}
+7b:["$","th",null,"$7c"]
+7e:{"children":"Tehla Gate"}
+7d:["$","th",null,"$7e"]
+78:["$79","$7b","$7d"]
+77:{"children":"$78"}
+76:["$","tr",null,"$77"]
+75:{"children":"$76"}
+74:["$","thead",null,"$75"]
+86:{"children":"Gypsy Amount (Indian)"}
+85:["$","td",null,"$86"]
+88:{"children":"1270"}
+87:["$","td",null,"$88"]
+8a:{"children":"1270"}
+89:["$","td",null,"$8a"]
+84:["$85","$87","$89"]
+83:{"children":"$84"}
+82:["$","tr",null,"$83"]
+8f:{"children":"Canter Amount (Indian)"}
+8e:["$","td",null,"$8f"]
+91:{"children":"856"}
+90:["$","td",null,"$91"]
+93:{"children":"856"}
+92:["$","td",null,"$93"]
+8d:["$8e","$90","$92"]
+8c:{"children":"$8d"}
+8b:["$","tr",null,"$8c"]
+98:{"children":"Gypsy Amount (Foreigner)"}
+97:["$","td",null,"$98"]
+9a:{"children":"2084"}
+99:["$","td",null,"$9a"]
+9c:{"children":"2084"}
+9b:["$","td",null,"$9c"]
+96:["$97","$99","$9b"]
+95:{"children":"$96"}
+94:["$","tr",null,"$95"]
+a1:{"children":"Canter Amount (Foreigner)"}
+a0:["$","td",null,"$a1"]
+a3:{"children":"1670"}
+a2:["$","td",null,"$a3"]
+a5:{"children":"1670"}
+a4:["$","td",null,"$a5"]
+9f:["$a0","$a2","$a4"]
+9e:{"children":"$9f"}
+9d:["$","tr",null,"$9e"]
+81:["$82","$8b","$94","$9d"]
+80:{"children":"$81"}
+7f:["$","tbody",null,"$80"]
+73:["$74","$7f"]
+72:{"responsive":true,"className":"table table-rounded my-0 table-striped","children":"$73"}
+71:["$","$L3",null,"$72"]
+a7:{"className":"mt-3","children":"2. Ranthambore National Park: A Royal Adventure"}
+a6:["$","h4",null,"$a7"]
+ab:{"src":"/Images/Blog/wildlife-ranthambore.png","alt":"Ranthambore National Park","title":"Tiger pose during the golden light time","width":1500,"height":600}
+aa:["$","$L2",null,"$ab"]
+a9:{"className":"slug-image-container my-2","children":"$aa"}
+a8:["$","div",null,"$a9"]
+b0:{"href":"https://www.jaipurtaxiservice.com/day-trips-from-jaipur/ranthambhore-tiger-reserve-tour-from-jaipur.html","target":"_blank","rel":"noopener noreferrer","className":"anchor text-web fw-bold","children":"Ranthambore National Park"}
+af:["$","a",null,"$b0"]
+b2:{"children":"jeep safaris"}
+b1:["$","strong",null,"$b2"]
+ae:["$af"," is among the most popular and culturally typical Indian parks for wildlife lovers. This park is situated in the center of Rajasthan, which allows lovers of complex adventurous ","$b1"," to intersect the desired wildlife tour with an archaeological tour. Various accommodations are available within and adjacent to the park, and the Ranthambore Fort looming within the park remains an added attraction to wilderness-loving visitors and adventurers who like to have an affair with historical adventures."]
+ad:{"className":"mb-0","children":"$ae"}
+ac:["$","p",null,"$ad"]
+b4:{"className":"mb-0","children":"Stuffed with fabulous Thick forests, abundant water resources, and having proliferation of wildlife like Tigers, Leopards, Wild boars etc Ranthambore is the paradise for the wildlife trekkers and the photographers."}
+b3:["$","p",null,"$b4"]
+b6:{"className":"fw-bold mt-2 mb-0","children":"Things to do:"}
+b5:["$","p",null,"$b6"]
+b8:{"className":"mb-0","children":"• Morning game drives to access tiger, crocodile, and bird’s documentary."}
+b7:["$","p",null,"$b8"]
+ba:{"className":"mb-0","children":"• Traveling through the forests with a local guide to find some less-known interesting places        "}
+b9:["$","p",null,"$ba"]
+bc:{"className":"mb-0","children":"• Taking a historical and a wild tour around the Ranthambore Fort"}
+bb:["$","p",null,"$bc"]
+be:{"className":"fw-bold mt-2 mb-0","children":"Timings:"}
+bd:["$","p",null,"$be"]
+c8:{"children":"Month"}
+c7:["$","th",null,"$c8"]
+ca:{"children":"Morning Trip Timing"}
+c9:["$","th",null,"$ca"]
+cc:{"children":"Evening Trip Timing"}
+cb:["$","th",null,"$cc"]
+c6:["$c7","$c9","$cb"]
+c5:{"children":"$c6"}
+c4:["$","tr",null,"$c5"]
+c3:{"children":"$c4"}
+c2:["$","thead",null,"$c3"]
+d4:{"children":"1 October to 31 October"}
+d3:["$","td",null,"$d4"]
+d6:{"children":"06.30 to 10.00 AM"}
+d5:["$","td",null,"$d6"]
+d8:{"children":"2.30 to 6.00 PM"}
+d7:["$","td",null,"$d8"]
+d2:["$d3","$d5","$d7"]
+d1:{"children":"$d2"}
+d0:["$","tr",null,"$d1"]
+dd:{"children":"1 November to 31 January"}
+dc:["$","td",null,"$dd"]
+df:{"children":"07.00 to 10.30 AM"}
+de:["$","td",null,"$df"]
+e1:{"children":"2.00 to 5.30 PM"}
+e0:["$","td",null,"$e1"]
+db:["$dc","$de","$e0"]
+da:{"children":"$db"}
+d9:["$","tr",null,"$da"]
+e6:{"children":"1 February to 31 March"}
+e5:["$","td",null,"$e6"]
+e8:{"children":"06.30 to 10.00 AM"}
+e7:["$","td",null,"$e8"]
+ea:{"children":"2.30 to 6.00 PM"}
+e9:["$","td",null,"$ea"]
+e4:["$e5","$e7","$e9"]
+e3:{"children":"$e4"}
+e2:["$","tr",null,"$e3"]
+ef:{"children":"1 April to 16 May"}
+ee:["$","td",null,"$ef"]
+f1:{"children":"06.00 to 09.30 AM"}
+f0:["$","td",null,"$f1"]
+f3:{"children":"3.00 to 6.30 PM"}
+f2:["$","td",null,"$f3"]
+ed:["$ee","$f0","$f2"]
+ec:{"children":"$ed"}
+eb:["$","tr",null,"$ec"]
+f8:{"children":"16 May to 30 June"}
+f7:["$","td",null,"$f8"]
+fa:{"children":"06.00 to 09.30 AM"}
+f9:["$","td",null,"$fa"]
+fc:{"children":"3.30 to 7.00 PM"}
+fb:["$","td",null,"$fc"]
+f6:["$f7","$f9","$fb"]
+f5:{"children":"$f6"}
+f4:["$","tr",null,"$f5"]
+cf:["$d0","$d9","$e2","$eb","$f4"]
+ce:{"children":"$cf"}
+cd:["$","tbody",null,"$ce"]
+c1:["$c2","$cd"]
+c0:{"responsive":true,"className":"table table-rounded my-0 table-striped","children":"$c1"}
+bf:["$","$L3",null,"$c0"]
+fe:{"className":"fw-bold mt-2 mb-0","children":"Charges:"}
+fd:["$","p",null,"$fe"]
+108:{"children":"Vehicle"}
+107:["$","th",null,"$108"]
+10a:{"children":"Advance Ticket"}
+109:["$","th",null,"$10a"]
+10c:{"children":"Tatkal Ticket"}
+10b:["$","th",null,"$10c"]
+10e:{"children":"Current Ticket"}
+10d:["$","th",null,"$10e"]
+106:["$107","$109","$10b","$10d"]
+105:{"children":"$106"}
+104:["$","tr",null,"$105"]
+103:{"children":"$104"}
+102:["$","thead",null,"$103"]
+116:{"children":"Gypsy Amount (Indian)"}
+115:["$","td",null,"$116"]
+118:{"children":"1458"}
+117:["$","td",null,"$118"]
+11a:{"children":"20848"}
+119:["$","td",null,"$11a"]
+11c:{"children":"1458"}
+11b:["$","td",null,"$11c"]
+114:["$115","$117","$119","$11b"]
+113:{"children":"$114"}
+112:["$","tr",null,"$113"]
+121:{"children":"Canter Amount (Indian)"}
+120:["$","td",null,"$121"]
+123:{"children":"891"}
+122:["$","td",null,"$123"]
+125:{"children":"-"}
+124:["$","td",null,"$125"]
+127:{"children":"891"}
+126:["$","td",null,"$127"]
+11f:["$120","$122","$124","$126"]
+11e:{"children":"$11f"}
+11d:["$","tr",null,"$11e"]
+12c:{"children":"Gypsy Amount (Foreigner)"}
+12b:["$","td",null,"$12c"]
+12e:{"children":"2746"}
+12d:["$","td",null,"$12e"]
+130:{"children":"28576"}
+12f:["$","td",null,"$130"]
+132:{"children":"2746"}
+131:["$","td",null,"$132"]
+12a:["$12b","$12d","$12f","$131"]
+129:{"children":"$12a"}
+128:["$","tr",null,"$129"]
+137:{"children":"Canter Amount (Foreigner)"}
+136:["$","td",null,"$137"]
+139:{"children":"2179"}
+138:["$","td",null,"$139"]
+13b:{"children":"-"}
+13a:["$","td",null,"$13b"]
+13d:{"children":"2179"}
+13c:["$","td",null,"$13d"]
+135:["$136","$138","$13a","$13c"]
+134:{"children":"$135"}
+133:["$","tr",null,"$134"]
+111:["$112","$11d","$128","$133"]
+110:{"children":"$111"}
+10f:["$","tbody",null,"$110"]
+101:["$102","$10f"]
+100:{"responsive":true,"className":"table table-rounded my-0 table-striped","children":"$101"}
+ff:["$","$L3",null,"$100"]
+13f:{"className":"fw-bold","children":"Other Booking Extra Charges"}
+13e:["$","p",null,"$13f"]
+149:{"children":"Details"}
+148:["$","th",null,"$149"]
+14b:{"children":"Charges"}
+14a:["$","th",null,"$14b"]
+147:["$148","$14a"]
+146:{"children":"$147"}
+145:["$","tr",null,"$146"]
+144:{"children":"$145"}
+143:["$","thead",null,"$144"]
+153:{"children":"Choice Gypsy (Indian/Foreigner)"}
+152:["$","td",null,"$153"]
+155:{"children":"7476"}
+154:["$","td",null,"$155"]
+151:["$152","$154"]
+150:{"children":"$151"}
+14f:["$","tr",null,"$150"]
+15a:{"children":"Choice Guide Charges for Gypsy (Indian/Foreigner)"}
+159:["$","td",null,"$15a"]
+15c:{"children":"1697"}
+15b:["$","td",null,"$15c"]
+158:["$159","$15b"]
+157:{"children":"$158"}
+156:["$","tr",null,"$157"]
+161:{"children":"Choice Guide Charges for Canter (Indian/Foreigner)"}
+160:["$","td",null,"$161"]
+163:{"children":"1903"}
+162:["$","td",null,"$163"]
+15f:["$160","$162"]
+15e:{"children":"$15f"}
+15d:["$","tr",null,"$15e"]
+14e:["$14f","$156","$15d"]
+14d:{"children":"$14e"}
+14c:["$","tbody",null,"$14d"]
+142:["$143","$14c"]
+141:{"responsive":true,"className":"table table-rounded my-0 table-striped","children":"$142"}
+140:["$","$L3",null,"$141"]
+165:{"className":"fw-bold","children":"Zone Charges"}
+164:["$","p",null,"$165"]
+16f:{"children":"Zone Details"}
+16e:["$","th",null,"$16f"]
+171:{"children":"Indian Citizen"}
+170:["$","th",null,"$171"]
+173:{"children":"Foreigner Citizen"}
+172:["$","th",null,"$173"]
+16d:["$16e","$170","$172"]
+16c:{"children":"$16d"}
+16b:["$","tr",null,"$16c"]
+16a:{"children":"$16b"}
+169:["$","thead",null,"$16a"]
+17b:{"children":"Gypsy (Inter Zones), Zone 1-5 to Zone 6-10 or Zone 6-10 to Zone 1-5"}
+17a:["$","td",null,"$17b"]
+17d:{"children":"820"}
+17c:["$","td",null,"$17d"]
+17f:{"children":"3300"}
+17e:["$","td",null,"$17f"]
+179:["$17a","$17c","$17e"]
+178:{"children":"$179"}
+177:["$","tr",null,"$178"]
+184:{"children":"Canter (Inter Zones), Zone 1-5 to Zone 6-10 or Zone 6-10 to Zone 1-5"}
+183:["$","td",null,"$184"]
+186:{"children":"444"}
+185:["$","td",null,"$186"]
+188:{"children":"1650"}
+187:["$","td",null,"$188"]
+182:["$183","$185","$187"]
+181:{"children":"$182"}
+180:["$","tr",null,"$181"]
+18d:{"children":"Gypsy (Within Zones), Zone 01 to 05 or Zone 06 to 10"}
+18c:["$","td",null,"$18d"]
+18f:{"children":"410"}
+18e:["$","td",null,"$18f"]
+191:{"children":"2924"}
+190:["$","td",null,"$191"]
+18b:["$18c","$18e","$190"]
+18a:{"children":"$18b"}
+189:["$","tr",null,"$18a"]
+196:{"children":"Canter (Within Zones), Zone 01 to 05 or Zone 06 to 10"}
+195:["$","td",null,"$196"]
+198:{"children":"222"}
+197:["$","td",null,"$198"]
+19a:{"children":"1462"}
+199:["$","td",null,"$19a"]
+194:["$195","$197","$199"]
+193:{"children":"$194"}
+192:["$","tr",null,"$193"]
+176:["$177","$180","$189","$192"]
+175:{"children":"$176"}
+174:["$","tbody",null,"$175"]
+168:["$169","$174"]
+167:{"responsive":true,"className":"table table-rounded my-0 table-striped","children":"$168"}
+166:["$","$L3",null,"$167"]
+19c:{}
+19b:["$","hr",null,"$19c"]
+19e:{"className":"mt-3","children":"3. Keoladeo Ghana National Park: A Birdwatcher’s Paradise"}
+19d:["$","h4",null,"$19e"]
+1a2:{"src":"/Images/Blog/wildlife-keoladeo.png","alt":"Keoladeo Ghana National Park","title":"flamingos standing in water","width":1500,"height":600}
+1a1:["$","$L2",null,"$1a2"]
+1a0:{"className":"slug-image-container my-2","children":"$1a1"}
+19f:["$","div",null,"$1a0"]
+1a7:{"href":"https://en.wikipedia.org/wiki/Keoladeo_National_Park","target":"_blank","rel":"noopener noreferrer","className":"anchor text-web fw-bold","children":"Keoladeo Ghana National Park"}
+1a6:["$","a",null,"$1a7"]
+1a9:{"children":"Bharatpur Bird Sanctuary"}
+1a8:["$","strong",null,"$1a9"]
+1ab:{"children":"world inheritance site"}
+1aa:["$","strong",null,"$1ab"]
+1a5:["If this is the kind of adventurous act in which an individual is interested more than anything, the ","$1a6"," also famously known as the ","$1a8"," should be on his/her list of must visit places. This is an ideal breeding place for birds and there are many migratory birds because of its status as a ","$1aa",". If You want to see birds, you should visit the park during winter since thousands of birds flock the park making it among the best places in the world to watch birds.Besides birds the park is also inhabited by a couple of species of animals such as jackals, wild boars and monkeys which makes it an excellent wildlife trail for wildlife lovers interested in watching birds and animals."]
+1a4:{"className":"mb-0","children":"$1a5"}
+1a3:["$","p",null,"$1a4"]
+1ad:{"className":"fw-bold","children":"Things to do:"}
+1ac:["$","p",null,"$1ad"]
+1af:{"className":"mb-0","children":"• Phestival for stewards including directional bird watching to view different species of birds."}
+1ae:["$","p",null,"$1af"]
+1b1:{"className":"mb-0","children":"• Take your car or bicycle/ walking trip to tour the park that is endowed with different attractions."}
+1b0:["$","p",null,"$1b1"]
+1b3:{"className":"mb-0","children":"• Half day boat ride through wetlands of the park for trip"}
+1b2:["$","p",null,"$1b3"]
+1b5:{"className":"fw-bold mt-2 mb-0","children":"Timings:"}
+1b4:["$","p",null,"$1b5"]
+1bf:{"children":"Month"}
+1be:["$","th",null,"$1bf"]
+1c1:{"children":"Morning Trip Timing"}
+1c0:["$","th",null,"$1c1"]
+1c3:{"children":"Evening Trip Timing"}
+1c2:["$","th",null,"$1c3"]
+1bd:["$1be","$1c0","$1c2"]
+1bc:{"children":"$1bd"}
+1bb:["$","tr",null,"$1bc"]
+1ba:{"children":"$1bb"}
+1b9:["$","thead",null,"$1ba"]
+1cb:{"children":"1 October to 31 October"}
+1ca:["$","td",null,"$1cb"]
+1cd:{"children":"6:30 AM - 10:00 AM"}
+1cc:["$","td",null,"$1cd"]
+1cf:{"children":"2:30 PM - 6:00 PM"}
+1ce:["$","td",null,"$1cf"]
+1c9:["$1ca","$1cc","$1ce"]
+1c8:{"children":"$1c9"}
+1c7:["$","tr",null,"$1c8"]
+1d4:{"children":"1 November to 31 January"}
+1d3:["$","td",null,"$1d4"]
+1d6:{"children":"7:00 AM - 10:30 AM"}
+1d5:["$","td",null,"$1d6"]
+1d8:{"children":"2:00 PM - 5:30 PM"}
+1d7:["$","td",null,"$1d8"]
+1d2:["$1d3","$1d5","$1d7"]
+1d1:{"children":"$1d2"}
+1d0:["$","tr",null,"$1d1"]
+1dd:{"children":"1 February to 31 March"}
+1dc:["$","td",null,"$1dd"]
+1df:{"children":"6:30 AM - 10:00 AM"}
+1de:["$","td",null,"$1df"]
+1e1:{"children":"2:30 PM - 6:00 PM"}
+1e0:["$","td",null,"$1e1"]
+1db:["$1dc","$1de","$1e0"]
+1da:{"children":"$1db"}
+1d9:["$","tr",null,"$1da"]
+1e6:{"children":"1 April to 16 May"}
+1e5:["$","td",null,"$1e6"]
+1e8:{"children":"6:00 AM - 09:30 AM"}
+1e7:["$","td",null,"$1e8"]
+1ea:{"children":"3:00 PM - 6:30 PM"}
+1e9:["$","td",null,"$1ea"]
+1e4:["$1e5","$1e7","$1e9"]
+1e3:{"children":"$1e4"}
+1e2:["$","tr",null,"$1e3"]
+1ef:{"children":"16 May to 30 June"}
+1ee:["$","td",null,"$1ef"]
+1f1:{"children":"6:00 AM - 09:30 AM"}
+1f0:["$","td",null,"$1f1"]
+1f3:{"children":"3:30 PM - 7:00 PM"}
+1f2:["$","td",null,"$1f3"]
+1ed:["$1ee","$1f0","$1f2"]
+1ec:{"children":"$1ed"}
+1eb:["$","tr",null,"$1ec"]
+1c6:["$1c7","$1d0","$1d9","$1e2","$1eb"]
+1c5:{"children":"$1c6"}
+1c4:["$","tbody",null,"$1c5"]
+1b8:["$1b9","$1c4"]
+1b7:{"responsive":true,"className":"table table-rounded my-0 table-striped","children":"$1b8"}
+1b6:["$","$L3",null,"$1b7"]
+1f5:{"className":"fw-bold mt-2 mb-0","children":"Charges:"}
+1f4:["$","p",null,"$1f5"]
+1ff:{"children":"Visitors"}
+1fe:["$","th",null,"$1ff"]
+201:{"children":"Amount"}
+200:["$","th",null,"$201"]
+1fd:["$1fe","$200"]
+1fc:{"children":"$1fd"}
+1fb:["$","tr",null,"$1fc"]
+1fa:{"children":"$1fb"}
+1f9:["$","thead",null,"$1fa"]
+209:{"children":"Indian Visitors"}
+208:["$","td",null,"$209"]
+20b:{"children":"₹50"}
+20a:["$","td",null,"$20b"]
+207:["$208","$20a"]
+206:{"children":"$207"}
+205:["$","tr",null,"$206"]
+210:{"children":"Foreign Visitors"}
+20f:["$","td",null,"$210"]
+212:{"children":"₹400"}
+211:["$","td",null,"$212"]
+20e:["$20f","$211"]
+20d:{"children":"$20e"}
+20c:["$","tr",null,"$20d"]
+217:{"children":"Cycle Rickshaw"}
+216:["$","td",null,"$217"]
+219:{"children":"₹300/hour (with a guide)"}
+218:["$","td",null,"$219"]
+215:["$216","$218"]
+214:{"children":"$215"}
+213:["$","tr",null,"$214"]
+204:["$205","$20c","$213"]
+203:{"children":"$204"}
+202:["$","tbody",null,"$203"]
+1f8:["$1f9","$202"]
+1f7:{"responsive":true,"className":"table table-rounded my-0 table-striped","children":"$1f8"}
+1f6:["$","$L3",null,"$1f7"]
+21b:{"className":"mt-3","children":"4. Desert National Park: Experience in Sam Sand Dunes of Rajasthan"}
+21a:["$","h4",null,"$21b"]
+21f:{"src":"/Images/Blog/wildlife-desert-national.png","alt":"Desert National Park","title":"Richtersveld park","width":1500,"height":600}
+21e:["$","$L2",null,"$21f"]
+21d:{"className":"slug-image-container my-2","children":"$21e"}
+21c:["$","div",null,"$21d"]
+224:{"href":"https://en.wikipedia.org/wiki/Desert_National_Park","target":"_blank","rel":"noopener noreferrer","className":"anchor text-web fw-bold","children":"Desert National Park"}
+223:["$","a",null,"$224"]
+222:["For those who wish to have another side of wildlife, which is adventurous in a real sense, then ","$223"," of Jaisalmer is the place. This park is in the center of the Thar desert and is a good chance to get acquainted with the desert in Rajasthan. The park is inhabited by Great Indian Bustards, foxes, camels, desert foxes, and other creatures of the desert, that is why it attracts those tourists who are in search of a quite unusual experience of fauna-watching. The area is desolate and arid, thus providing a dramatic difference to the green midland forests covering other wildlife districts in the state. Hiking, making camp in high sands, and observing the large open skies are a few of the attractions in this trail."]
+221:{"className":"mb-0","children":"$222"}
+220:["$","p",null,"$221"]
+226:{"className":"fw-bold mt-2 mb-0","children":"Things to do:"}
+225:["$","p",null,"$226"]
+228:{"className":"mb-0","children":"• scarred by careless sand ruts and crowned with humped animals, designed for traveling the desert and searching for wild animals."}
+227:["$","p",null,"$228"]
+22a:{"className":"mb-0","children":"• Expedition by crossing through the desert in order to taste the difficulty of it."}
+229:["$","p",null,"$22a"]
+22c:{"className":"mb-0","children":"• The desert is a prime location to camp to have an incredible and unusual adventure."}
+22b:["$","p",null,"$22c"]
+22e:{}
+22d:["$","hr",null,"$22e"]
+230:{"className":"fw-bold mt-2 mb-0","children":"Timings:"}
+22f:["$","p",null,"$230"]
+23a:{"children":"Month"}
+239:["$","th",null,"$23a"]
+23c:{"children":"Morning Trip Timing"}
+23b:["$","th",null,"$23c"]
+23e:{"children":"Evening Trip Timing"}
+23d:["$","th",null,"$23e"]
+238:["$239","$23b","$23d"]
+237:{"children":"$238"}
+236:["$","tr",null,"$237"]
+235:{"children":"$236"}
+234:["$","thead",null,"$235"]
+246:{"children":"1 October to 31 October"}
+245:["$","td",null,"$246"]
+248:{"children":"6:30 AM - 10:00 AM"}
+247:["$","td",null,"$248"]
+24a:{"children":"2:30 PM - 6:00 PM"}
+249:["$","td",null,"$24a"]
+244:["$245","$247","$249"]
+243:{"children":"$244"}
+242:["$","tr",null,"$243"]
+24f:{"children":"1 November to 31 January"}
+24e:["$","td",null,"$24f"]
+251:{"children":"7:00 AM - 10:30 AM"}
+250:["$","td",null,"$251"]
+253:{"children":"2:00 PM - 5:30 PM"}
+252:["$","td",null,"$253"]
+24d:["$24e","$250","$252"]
+24c:{"children":"$24d"}
+24b:["$","tr",null,"$24c"]
+258:{"children":"1 February to 31 March"}
+257:["$","td",null,"$258"]
+25a:{"children":"6:30 AM - 10:00 AM"}
+259:["$","td",null,"$25a"]
+25c:{"children":"2:30 PM - 6:00 PM"}
+25b:["$","td",null,"$25c"]
+256:["$257","$259","$25b"]
+255:{"children":"$256"}
+254:["$","tr",null,"$255"]
+261:{"children":"1 April to 16 May"}
+260:["$","td",null,"$261"]
+263:{"children":"6:00 AM - 09:30 AM"}
+262:["$","td",null,"$263"]
+265:{"children":"3:00 PM - 6:30 PM"}
+264:["$","td",null,"$265"]
+25f:["$260","$262","$264"]
+25e:{"children":"$25f"}
+25d:["$","tr",null,"$25e"]
+26a:{"children":"16 May to 30 June"}
+269:["$","td",null,"$26a"]
+26c:{"children":"6:00 AM - 09:30 AM"}
+26b:["$","td",null,"$26c"]
+26e:{"children":"3:30 PM - 7:00 PM"}
+26d:["$","td",null,"$26e"]
+268:["$269","$26b","$26d"]
+267:{"children":"$268"}
+266:["$","tr",null,"$267"]
+241:["$242","$24b","$254","$25d","$266"]
+240:{"children":"$241"}
+23f:["$","tbody",null,"$240"]
+233:["$234","$23f"]
+232:{"responsive":true,"className":"table table-rounded my-0 table-striped","children":"$233"}
+231:["$","$L3",null,"$232"]
+270:{"className":"fw-bold mt-2 mb-0","children":"Charges:"}
+26f:["$","p",null,"$270"]
+27a:{"children":"Visitors"}
+279:["$","th",null,"$27a"]
+27c:{"children":"Amount"}
+27b:["$","th",null,"$27c"]
+278:["$279","$27b"]
+277:{"children":"$278"}
+276:["$","tr",null,"$277"]
+275:{"children":"$276"}
+274:["$","thead",null,"$275"]
+284:{"children":"Gypsy Amount (Indian)"}
+283:["$","td",null,"$284"]
+286:{"children":"Starting From ₹1000 Per Person"}
+285:["$","td",null,"$286"]
+282:["$283","$285"]
+281:{"children":"$282"}
+280:["$","tr",null,"$281"]
+28b:{"children":"Gypsy Amount (Foreigner)"}
+28a:["$","td",null,"$28b"]
+28d:{"children":"₹2084"}
+28c:["$","td",null,"$28d"]
+289:["$28a","$28c"]
+288:{"children":"$289"}
+287:["$","tr",null,"$288"]
+27f:["$280","$287"]
+27e:{"children":"$27f"}
+27d:["$","tbody",null,"$27e"]
+273:["$274","$27d"]
+272:{"responsive":true,"className":"table table-rounded my-0 table-striped","children":"$273"}
+271:["$","$L3",null,"$272"]
+28f:{"className":"mt-3","children":"5. Mount Abu Wildlife Sanctuary: A Cool Retreat in the Hills"}
+28e:["$","h4",null,"$28f"]
+293:{"src":"/Images/Blog/wildlife-mountabu.png","alt":"Mount Abu Wildlife Sanctuary","title":"Building in the forest on the mountain","width":1500,"height":600}
+292:["$","$L2",null,"$293"]
+291:{"className":"slug-image-container my-2","children":"$292"}
+290:["$","div",null,"$291"]
+298:{"href":"https://en.wikipedia.org/wiki/Mount_Abu_Wildlife_Sanctuary","target":"_blank","rel":"noopener noreferrer","className":"anchor text-web fw-bold","children":"Mount Abu Wildlife Sanctuary"}
+297:["$","a",null,"$298"]
+296:["Those who want to escape the heat and at the same time go through a Wildlife trail will find ","$297"," perfect. founded in the Aravalli hill range, it is one of the conservative kinds in Rajasthan because of the favorable pleasant weather as well as the diversity in fauna. This place has various types of plants, as well as animal species such as leopards, crocodiles, sloth bears and several birds."]
+295:{"className":"mb-0","children":"$296"}
+294:["$","p",null,"$295"]
+29a:{"className":"mb-0","children":"Nature lovers may hike the sanctuary’s trekking paths which provide novelty and exciting views of hills and valleys not forgetting the wildlife therein. It is also the place where the Nakki lake which is famous all around is and after chasing wild lives one can take a boat ride on the lake."}
+299:["$","p",null,"$29a"]
+29c:{"className":"fw-bold mt-2 mb-0","children":"Things to do:"}
+29b:["$","p",null,"$29c"]
+2a1:{"href":"https://www.rajasthantourpackages.in/mountabu","target":"_blank","rel":"noopener noreferrer","className":"anchor text-web fw-bold","children":"Mount Abu"}
+2a0:["$","a",null,"$2a1"]
+29f:["• Walking a hike in the beautiful trails of ","$2a0"]
+29e:{"className":"mb-0","children":"$29f"}
+29d:["$","p",null,"$29e"]
+2a3:{"className":"mb-0","children":"• Visiting the sanctuary by car or on foot"}
+2a2:["$","p",null,"$2a3"]
+2a5:{"className":"mb-0","children":"• Drinking tea while boating in Nakki Lake which comes just after a day of trying to explore the entire place."}
+2a4:["$","p",null,"$2a5"]
+2a7:{"className":"fw-bold mt-2 mb-0","children":"Timings:"}
+2a6:["$","p",null,"$2a7"]
+2b1:{"children":"Month"}
+2b0:["$","th",null,"$2b1"]
+2b3:{"children":"Morning Trip Timing"}
+2b2:["$","th",null,"$2b3"]
+2b5:{"children":"Evening Trip Timing"}
+2b4:["$","th",null,"$2b5"]
+2af:["$2b0","$2b2","$2b4"]
+2ae:{"children":"$2af"}
+2ad:["$","tr",null,"$2ae"]
+2ac:{"children":"$2ad"}
+2ab:["$","thead",null,"$2ac"]
+2bd:{"children":"1 October to 31 October"}
+2bc:["$","td",null,"$2bd"]
+2bf:{"children":"6:30 AM - 10:00 AM"}
+2be:["$","td",null,"$2bf"]
+2c1:{"children":"2:30 PM - 6:00 PM"}
+2c0:["$","td",null,"$2c1"]
+2bb:["$2bc","$2be","$2c0"]
+2ba:{"children":"$2bb"}
+2b9:["$","tr",null,"$2ba"]
+2c6:{"children":"1 November to 31 January"}
+2c5:["$","td",null,"$2c6"]
+2c8:{"children":"7:00 AM - 10:30 AM"}
+2c7:["$","td",null,"$2c8"]
+2ca:{"children":"2:00 PM - 5:30 PM"}
+2c9:["$","td",null,"$2ca"]
+2c4:["$2c5","$2c7","$2c9"]
+2c3:{"children":"$2c4"}
+2c2:["$","tr",null,"$2c3"]
+2cf:{"children":"1 February to 31 March"}
+2ce:["$","td",null,"$2cf"]
+2d1:{"children":"6:30 AM - 10:00 AM"}
+2d0:["$","td",null,"$2d1"]
+2d3:{"children":"2:30 PM - 6:00 PM"}
+2d2:["$","td",null,"$2d3"]
+2cd:["$2ce","$2d0","$2d2"]
+2cc:{"children":"$2cd"}
+2cb:["$","tr",null,"$2cc"]
+2d8:{"children":"1 April to 16 May"}
+2d7:["$","td",null,"$2d8"]
+2da:{"children":"6:00 AM - 09:30 AM"}
+2d9:["$","td",null,"$2da"]
+2dc:{"children":"3:00 PM - 6:30 PM"}
+2db:["$","td",null,"$2dc"]
+2d6:["$2d7","$2d9","$2db"]
+2d5:{"children":"$2d6"}
+2d4:["$","tr",null,"$2d5"]
+2e1:{"children":"16 May to 30 June"}
+2e0:["$","td",null,"$2e1"]
+2e3:{"children":"6:00 AM - 09:30 AM"}
+2e2:["$","td",null,"$2e3"]
+2e5:{"children":"3:30 PM - 7:00 PM"}
+2e4:["$","td",null,"$2e5"]
+2df:["$2e0","$2e2","$2e4"]
+2de:{"children":"$2df"}
+2dd:["$","tr",null,"$2de"]
+2b8:["$2b9","$2c2","$2cb","$2d4","$2dd"]
+2b7:{"children":"$2b8"}
+2b6:["$","tbody",null,"$2b7"]
+2aa:["$2ab","$2b6"]
+2a9:{"responsive":true,"className":"table table-rounded my-0 table-striped","children":"$2aa"}
+2a8:["$","$L3",null,"$2a9"]
+2e7:{"className":"fw-bold mt-2 mb-0","children":"Charges:"}
+2e6:["$","p",null,"$2e7"]
+2f1:{"children":"Visitors"}
+2f0:["$","th",null,"$2f1"]
+2f3:{"children":"Amount"}
+2f2:["$","th",null,"$2f3"]
+2ef:["$2f0","$2f2"]
+2ee:{"children":"$2ef"}
+2ed:["$","tr",null,"$2ee"]
+2ec:{"children":"$2ed"}
+2eb:["$","thead",null,"$2ec"]
+2fb:{"children":"Gypsy Amount (Indian)"}
+2fa:["$","td",null,"$2fb"]
+2fd:{"children":"₹300 (Jeep Safari included)"}
+2fc:["$","td",null,"$2fd"]
+2f9:["$2fa","$2fc"]
+2f8:{"children":"$2f9"}
+2f7:["$","tr",null,"$2f8"]
+302:{"children":"Gypsy Amount (Foreigner)"}
+301:["$","td",null,"$302"]
+304:{"children":"₹300"}
+303:["$","td",null,"$304"]
+300:["$301","$303"]
+2ff:{"children":"$300"}
+2fe:["$","tr",null,"$2ff"]
+2f6:["$2f7","$2fe"]
+2f5:{"children":"$2f6"}
+2f4:["$","tbody",null,"$2f5"]
+2ea:["$2eb","$2f4"]
+2e9:{"responsive":true,"className":"table table-rounded my-0 table-striped","children":"$2ea"}
+2e8:["$","$L3",null,"$2e9"]
+306:{"className":"mt-3","children":"6. Gajner Wildlife Sanctuary: Off-the-Beaten-Path Adventure"}
+305:["$","h4",null,"$306"]
+30a:{"src":"/Images/Blog/wildlife-gajner.png","alt":"Gajner Wildlife Sanctuary","title":"Wild deer congregated in water at green trees in the lake surroundings","width":1500,"height":600}
+309:["$","$L2",null,"$30a"]
+308:{"className":"slug-image-container my-2","children":"$309"}
+307:["$","div",null,"$308"]
+30f:{"href":"https://en.wikipedia.org/wiki/Gajner_Wildlife_Sanctuary","target":"_blank","rel":"noopener noreferrer","className":"anchor text-web fw-bold","children":"Gajner Wildlife Sanctuary"}
+30e:["$","a",null,"$30f"]
+30d:["For those wishing to be somewhat insulated from the typical tourist crowd and actually see wildlife which are virtually all over the place, one of the best places to visit is the ","$30e"," in Bikaner. Situated towards Gajner Palace, the sanctuary is a perfect way to relax into nature where tourists get to experience different animals like antelopes, black bucks, wild boars and many migratory birds. This relatively unknown wildlife trail provides excellent opportunities for those who prefer to be on their own and who want to discover the lesser known wildlife area in Rajasthan."]
+30c:{"className":"mb-0","children":"$30d"}
+30b:["$","p",null,"$30c"]
+311:{"className":"fw-bold mt-2 mb-0","children":"Things to do:"}
+310:["$","p",null,"$311"]
+313:{"className":"mb-0","children":"• Wildlife tours to look at antelopes, wild boars and birds"}
+312:["$","p",null,"$313"]
+315:{"className":"mb-0","children":"• Walking along the sanctuary’s beautiful quiet ground or using a jeep."}
+314:["$","p",null,"$315"]
+317:{"className":"mb-0","children":"• Refurbished Palace With A Palace Interior View & Enjoying A Peaceful Vacation At Gajner Palace"}
+316:["$","p",null,"$317"]
+319:{"className":"fw-bold mt-2 mb-0","children":"Timings:"}
+318:["$","p",null,"$319"]
+323:{"children":"Month"}
+322:["$","th",null,"$323"]
+325:{"children":"Morning Trip Timing"}
+324:["$","th",null,"$325"]
+327:{"children":"Evening Trip Timing"}
+326:["$","th",null,"$327"]
+321:["$322","$324","$326"]
+320:{"children":"$321"}
+31f:["$","tr",null,"$320"]
+31e:{"children":"$31f"}
+31d:["$","thead",null,"$31e"]
+32f:{"children":"1 October to 31 October"}
+32e:["$","td",null,"$32f"]
+331:{"children":"6:30 AM - 10:00 AM"}
+330:["$","td",null,"$331"]
+333:{"children":"2:30 PM - 6:00 PM"}
+332:["$","td",null,"$333"]
+32d:["$32e","$330","$332"]
+32c:{"children":"$32d"}
+32b:["$","tr",null,"$32c"]
+338:{"children":"1 November to 31 January"}
+337:["$","td",null,"$338"]
+33a:{"children":"7:00 AM - 10:30 AM"}
+339:["$","td",null,"$33a"]
+33c:{"children":"2:00 PM - 5:30 PM"}
+33b:["$","td",null,"$33c"]
+336:["$337","$339","$33b"]
+335:{"children":"$336"}
+334:["$","tr",null,"$335"]
+341:{"children":"1 February to 31 March"}
+340:["$","td",null,"$341"]
+343:{"children":"6:30 AM - 10:00 AM"}
+342:["$","td",null,"$343"]
+345:{"children":"2:30 PM - 6:00 PM"}
+344:["$","td",null,"$345"]
+33f:["$340","$342","$344"]
+33e:{"children":"$33f"}
+33d:["$","tr",null,"$33e"]
+34a:{"children":"1 April to 16 May"}
+349:["$","td",null,"$34a"]
+34c:{"children":"6:00 AM - 09:30 AM"}
+34b:["$","td",null,"$34c"]
+34e:{"children":"3:00 PM - 6:30 PM"}
+34d:["$","td",null,"$34e"]
+348:["$349","$34b","$34d"]
+347:{"children":"$348"}
+346:["$","tr",null,"$347"]
+353:{"children":"16 May to 30 June"}
+352:["$","td",null,"$353"]
+355:{"children":"6:00 AM - 09:30 AM"}
+354:["$","td",null,"$355"]
+357:{"children":"3:30 PM - 7:00 PM"}
+356:["$","td",null,"$357"]
+351:["$352","$354","$356"]
+350:{"children":"$351"}
+34f:["$","tr",null,"$350"]
+32a:["$32b","$334","$33d","$346","$34f"]
+329:{"children":"$32a"}
+328:["$","tbody",null,"$329"]
+31c:["$31d","$328"]
+31b:{"responsive":true,"className":"table table-rounded my-0 table-striped","children":"$31c"}
+31a:["$","$L3",null,"$31b"]
+359:{"className":"fw-bold mt-2 mb-0","children":"Charges:"}
+358:["$","p",null,"$359"]
+363:{"children":"Visitors"}
+362:["$","th",null,"$363"]
+365:{"children":"Amount"}
+364:["$","th",null,"$365"]
+361:["$362","$364"]
+360:{"children":"$361"}
+35f:["$","tr",null,"$360"]
+35e:{"children":"$35f"}
+35d:["$","thead",null,"$35e"]
+36d:{"children":"Gypsy Amount (Indian)"}
+36c:["$","td",null,"$36d"]
+36f:{"children":"₹1270"}
+36e:["$","td",null,"$36f"]
+36b:["$36c","$36e"]
+36a:{"children":"$36b"}
+369:["$","tr",null,"$36a"]
+374:{"children":"Canter Amount (Indian)"}
+373:["$","td",null,"$374"]
+376:{"children":"₹856"}
+375:["$","td",null,"$376"]
+372:["$373","$375"]
+371:{"children":"$372"}
+370:["$","tr",null,"$371"]
+37b:{"children":"Gypsy Amount (Foreigner)"}
+37a:["$","td",null,"$37b"]
+37d:{"children":"₹2084"}
+37c:["$","td",null,"$37d"]
+379:["$37a","$37c"]
+378:{"children":"$379"}
+377:["$","tr",null,"$378"]
+382:{"children":"Canter Amount (Foreigner)"}
+381:["$","td",null,"$382"]
+384:{"children":"₹1670"}
+383:["$","td",null,"$384"]
+380:["$381","$383"]
+37f:{"children":"$380"}
+37e:["$","tr",null,"$37f"]
+368:["$369","$370","$377","$37e"]
+367:{"children":"$368"}
+366:["$","tbody",null,"$367"]
+35c:["$35d","$366"]
+35b:{"responsive":true,"className":"table table-rounded my-0 table-striped","children":"$35c"}
+35a:["$","$L3",null,"$35b"]
+386:{"className":"mt-3","children":"7. Mukundra Hills Tiger Reserve: A Hidden Gem"}
+385:["$","h4",null,"$386"]
+38a:{"src":"/Images/Blog/wildlife-mukundra.png","alt":"Mukundra Hills Tiger Reserve","title":"Amazing tiger in the natural habitat","width":1500,"height":600}
+389:["$","$L2",null,"$38a"]
+388:{"className":"slug-image-container my-2","children":"$389"}
+387:["$","div",null,"$388"]
+38f:{"href":"https://en.wikipedia.org/wiki/Mukundara_Hills_National_Park","target":"_blank","rel":"noopener noreferrer","className":"anchor text-web fw-bold","children":"Mukundra Hills Tiger Reserve"}
+38e:["$","a",null,"$38f"]
+38d:["$38e"," is among all the wildlife destinations of Rajasthan a truly offbeat destination and is located around Kota. This reserve, which has not been recognised widely even to this date, houses some of the important species like the Bengal tigers, leopards and the deer. The reserve also presents fabulous views of the hills, making it as suiTable for filmmakers and wildlife photographers as for travelers who like thrilling adventures."]
+38c:{"className":"mb-0","children":"$38d"}
+38b:["$","p",null,"$38c"]
+391:{"className":"mb-0","children":"This park has very strange territorial features; steep slopes and amazingly thick growth of vegetation especially trees in Mukundra Hills so formulating this as a less difficult trip would be misleading to those who would still prefer to trek through it."}
+390:["$","p",null,"$391"]
+393:{"className":"fw-bold mt-2 mb-0","children":"Things to do:"}
+392:["$","p",null,"$393"]
+395:{"className":"mb-0","children":"• Walking across the difficult terrains of Mukundra Hills"}
+394:["$","p",null,"$395"]
+397:{"className":"mb-0","children":"• Tiger tracking safaris, leopard tracking safaris etc."}
+396:["$","p",null,"$397"]
+399:{"className":"mb-0","children":"• Safari and nature photography to get stunning shots of the great features of the planet."}
+398:["$","p",null,"$399"]
+39b:{"className":"fw-bold mt-2 mb-0","children":"Timings:"}
+39a:["$","p",null,"$39b"]
+3a5:{"children":"Month"}
+3a4:["$","th",null,"$3a5"]
+3a7:{"children":"Morning Trip Timing"}
+3a6:["$","th",null,"$3a7"]
+3a9:{"children":"Evening Trip Timing"}
+3a8:["$","th",null,"$3a9"]
+3a3:["$3a4","$3a6","$3a8"]
+3a2:{"children":"$3a3"}
+3a1:["$","tr",null,"$3a2"]
+3a0:{"children":"$3a1"}
+39f:["$","thead",null,"$3a0"]
+3b1:{"children":"1 October to 31 October"}
+3b0:["$","td",null,"$3b1"]
+3b3:{"children":"6:30 AM - 10:00 AM"}
+3b2:["$","td",null,"$3b3"]
+3b5:{"children":"2:30 PM - 6:00 PM"}
+3b4:["$","td",null,"$3b5"]
+3af:["$3b0","$3b2","$3b4"]
+3ae:{"children":"$3af"}
+3ad:["$","tr",null,"$3ae"]
+3ba:{"children":"1 November to 31 January"}
+3b9:["$","td",null,"$3ba"]
+3bc:{"children":"7:00 AM - 10:30 AM"}
+3bb:["$","td",null,"$3bc"]
+3be:{"children":"2:00 PM - 5:30 PM"}
+3bd:["$","td",null,"$3be"]
+3b8:["$3b9","$3bb","$3bd"]
+3b7:{"children":"$3b8"}
+3b6:["$","tr",null,"$3b7"]
+3c3:{"children":"1 February to 31 March"}
+3c2:["$","td",null,"$3c3"]
+3c5:{"children":"6:30 AM - 10:00 AM"}
+3c4:["$","td",null,"$3c5"]
+3c7:{"children":"2:30 PM - 6:00 PM"}
+3c6:["$","td",null,"$3c7"]
+3c1:["$3c2","$3c4","$3c6"]
+3c0:{"children":"$3c1"}
+3bf:["$","tr",null,"$3c0"]
+3cc:{"children":"1 April to 16 May"}
+3cb:["$","td",null,"$3cc"]
+3ce:{"children":"6:00 AM - 09:30 AM"}
+3cd:["$","td",null,"$3ce"]
+3d0:{"children":"3:00 PM - 6:30 PM"}
+3cf:["$","td",null,"$3d0"]
+3ca:["$3cb","$3cd","$3cf"]
+3c9:{"children":"$3ca"}
+3c8:["$","tr",null,"$3c9"]
+3d5:{"children":"16 May to 30 June"}
+3d4:["$","td",null,"$3d5"]
+3d7:{"children":"6:00 AM - 09:30 AM"}
+3d6:["$","td",null,"$3d7"]
+3d9:{"children":"3:30 PM - 7:00 PM"}
+3d8:["$","td",null,"$3d9"]
+3d3:["$3d4","$3d6","$3d8"]
+3d2:{"children":"$3d3"}
+3d1:["$","tr",null,"$3d2"]
+3ac:["$3ad","$3b6","$3bf","$3c8","$3d1"]
+3ab:{"children":"$3ac"}
+3aa:["$","tbody",null,"$3ab"]
+39e:["$39f","$3aa"]
+39d:{"responsive":true,"className":"table table-rounded my-0 table-striped","children":"$39e"}
+39c:["$","$L3",null,"$39d"]
+3db:{"className":"fw-bold mt-2 mb-0","children":"Charges:"}
+3da:["$","p",null,"$3db"]
+3e5:{"children":"Visitors"}
+3e4:["$","th",null,"$3e5"]
+3e7:{"children":"Amount"}
+3e6:["$","th",null,"$3e7"]
+3e3:["$3e4","$3e6"]
+3e2:{"children":"$3e3"}
+3e1:["$","tr",null,"$3e2"]
+3e0:{"children":"$3e1"}
+3df:["$","thead",null,"$3e0"]
+3ef:{"children":"Gypsy Amount (Indian)"}
+3ee:["$","td",null,"$3ef"]
+3f1:{"children":"₹1270"}
+3f0:["$","td",null,"$3f1"]
+3ed:["$3ee","$3f0"]
+3ec:{"children":"$3ed"}
+3eb:["$","tr",null,"$3ec"]
+3f6:{"children":"Canter Amount (Indian)"}
+3f5:["$","td",null,"$3f6"]
+3f8:{"children":"₹856"}
+3f7:["$","td",null,"$3f8"]
+3f4:["$3f5","$3f7"]
+3f3:{"children":"$3f4"}
+3f2:["$","tr",null,"$3f3"]
+3fd:{"children":"Gypsy Amount (Foreigner)"}
+3fc:["$","td",null,"$3fd"]
+3ff:{"children":"₹2084"}
+3fe:["$","td",null,"$3ff"]
+3fb:["$3fc","$3fe"]
+3fa:{"children":"$3fb"}
+3f9:["$","tr",null,"$3fa"]
+404:{"children":"Canter Amount (Foreigner)"}
+403:["$","td",null,"$404"]
+406:{"children":"₹1670"}
+405:["$","td",null,"$406"]
+402:["$403","$405"]
+401:{"children":"$402"}
+400:["$","tr",null,"$401"]
+3ea:["$3eb","$3f2","$3f9","$400"]
+3e9:{"children":"$3ea"}
+3e8:["$","tbody",null,"$3e9"]
+3de:["$3df","$3e8"]
+3dd:{"responsive":true,"className":"table table-rounded my-0 table-striped","children":"$3de"}
+3dc:["$","$L3",null,"$3dd"]
+408:{"className":"mt-3","children":"8. Kumbhalgarh Wildlife Sanctuary: An editorial A walk along history and wilderness"}
+407:["$","h4",null,"$408"]
+40c:{"src":"/Images/Blog/wildlife-kumbhalgarh.png","alt":"Kumbhalgarh Wildlife Sanctuary","title":"High angle view of bongos on grassy field","width":1500,"height":600}
+40b:["$","$L2",null,"$40c"]
+40a:{"className":"slug-image-container my-2","children":"$40b"}
+409:["$","div",null,"$40a"]
+411:{"href":"https://en.wikipedia.org/wiki/Kumbhalgarh_Wildlife_Sanctuary","target":"_blank","rel":"noopener noreferrer","className":"anchor text-web fw-bold","children":"Kumbhalgarh Wildlife Sanctuary"}
+410:["$","a",null,"$411"]
+40f:["Stretching around the circumference of the historical Kumbhalgarh Fort, the ","$410"," is blended with historical importance as well as bio-geographical richness. This sanctuary spreads over the Aravalli range of hills and encompasses many forms of life, like leopards, wolves, Hyenas, jungle cats, etc., with many different species of trees and plants. The ideal time for it is in the cold season which ranges from October to March because the climate will be fine and many animals are easily spotted. This sanctuary’s terrain offers some challenging terrains and magnificent sceneries that explain why visitors interested in wildlife would like to visit the place."]
+40e:{"className":"mb-0","children":"$40f"}
+40d:["$","p",null,"$40e"]
+413:{"className":"fw-bold mt-2 mb-0","children":"Things to do:"}
+412:["$","p",null,"$413"]
+415:{"className":"mb-0","children":"• Walking tracks and trails offering sights of unusual fauna"}
+414:["$","p",null,"$415"]
+417:{"className":"mb-0","children":"• After that, although the sanctuary trek should be of interest, go to the Kumbhalgarh Fort, which has UNESCO World Heritage Site status."}
+416:["$","p",null,"$417"]
+419:{"className":"mb-0","children":"• Having a taste of night camping amidst beautiful stars in the Aravalli hills"}
+418:["$","p",null,"$419"]
+41b:{"className":"fw-bold mt-2 mb-0","children":"Timings:"}
+41a:["$","p",null,"$41b"]
+425:{"children":"Month"}
+424:["$","th",null,"$425"]
+427:{"children":"Morning Trip Timing"}
+426:["$","th",null,"$427"]
+429:{"children":"Evening Trip Timing"}
+428:["$","th",null,"$429"]
+423:["$424","$426","$428"]
+422:{"children":"$423"}
+421:["$","tr",null,"$422"]
+420:{"children":"$421"}
+41f:["$","thead",null,"$420"]
+431:{"children":"1 October to 31 October"}
+430:["$","td",null,"$431"]
+433:{"children":"6:30 AM - 10:00 AM"}
+432:["$","td",null,"$433"]
+435:{"children":"2:30 PM - 6:00 PM"}
+434:["$","td",null,"$435"]
+42f:["$430","$432","$434"]
+42e:{"children":"$42f"}
+42d:["$","tr",null,"$42e"]
+43a:{"children":"1 November to 31 January"}
+439:["$","td",null,"$43a"]
+43c:{"children":"7:00 AM - 10:30 AM"}
+43b:["$","td",null,"$43c"]
+43e:{"children":"2:00 PM - 5:30 PM"}
+43d:["$","td",null,"$43e"]
+438:["$439","$43b","$43d"]
+437:{"children":"$438"}
+436:["$","tr",null,"$437"]
+443:{"children":"1 February to 31 March"}
+442:["$","td",null,"$443"]
+445:{"children":"6:30 AM - 10:00 AM"}
+444:["$","td",null,"$445"]
+447:{"children":"2:30 PM - 6:00 PM"}
+446:["$","td",null,"$447"]
+441:["$442","$444","$446"]
+440:{"children":"$441"}
+43f:["$","tr",null,"$440"]
+44c:{"children":"1 April to 16 May"}
+44b:["$","td",null,"$44c"]
+44e:{"children":"6:00 AM - 09:30 AM"}
+44d:["$","td",null,"$44e"]
+450:{"children":"3:00 PM - 6:30 PM"}
+44f:["$","td",null,"$450"]
+44a:["$44b","$44d","$44f"]
+449:{"children":"$44a"}
+448:["$","tr",null,"$449"]
+455:{"children":"16 May to 30 June"}
+454:["$","td",null,"$455"]
+457:{"children":"6:00 AM - 09:30 AM"}
+456:["$","td",null,"$457"]
+459:{"children":"3:30 PM - 7:00 PM"}
+458:["$","td",null,"$459"]
+453:["$454","$456","$458"]
+452:{"children":"$453"}
+451:["$","tr",null,"$452"]
+42c:["$42d","$436","$43f","$448","$451"]
+42b:{"children":"$42c"}
+42a:["$","tbody",null,"$42b"]
+41e:["$41f","$42a"]
+41d:{"responsive":true,"className":"table table-rounded my-0 table-striped","children":"$41e"}
+41c:["$","$L3",null,"$41d"]
+45b:{"className":"mt-3","children":"9. Jaisamand Wildlife Sanctuary: Wilderness by the Lake"}
+45a:["$","h4",null,"$45b"]
+45f:{"src":"/Images/Blog/wildlife-jaisalmer.png","alt":"Jaisamand Wildlife Sanctuary by the Lake","title":"Beautiful shot of deer standing on a grassy field with a blurred natural","width":1500,"height":600}
+45e:["$","$L2",null,"$45f"]
+45d:{"className":"slug-image-container my-2","children":"$45e"}
+45c:["$","div",null,"$45d"]
+464:{"children":"Jaisamand Lake"}
+463:["$","strong",null,"$464"]
+466:{"href":"https://en.wikipedia.org/wiki/Dhebar_Lake#Jaisamand_Wildlife_Sanctuary","target":"_blank","rel":"noopener noreferrer","className":"anchor text-web fw-bold","children":"Jaisamand Wildlife Sanctuary"}
+465:["$","a",null,"$466"]
+462:["Located in proximity to ","$463",", the second largest artificial lake in Asia, the ","$465"," is a blend of water and land Wildlife tours. It is the reserve of panthers, deer and crocodiles among the land animals and birds and a migrational land for birds. The location that has been adopted is the lake; with the added advantage of the beauty of the whole place, the sanctuary becomes an out-of-the-ordinary experience for anybody willing to have an experience of adventure in nature."]
+461:{"className":"mb-0","children":"$462"}
+460:["$","p",null,"$461"]
+468:{"className":"fw-bold mt-2 mb-0","children":"Things to do:"}
+467:["$","p",null,"$468"]
+46a:{"className":"mb-0","children":"• Hiking around Jaisamand Lake and into the woods"}
+469:["$","p",null,"$46a"]
+46c:{"className":"mb-0","children":"• Boat service for bird watching and crocodile sighting in Jaisamand Lake"}
+46b:["$","p",null,"$46c"]
+46e:{"className":"mb-0","children":"• Nature and wildlife, especially birds and fish photography in a calm and magnificent climate"}
+46d:["$","p",null,"$46e"]
+470:{"className":"fw-bold mt-2 mb-0","children":"Timings:"}
+46f:["$","p",null,"$470"]
+47a:{"children":"Month"}
+479:["$","th",null,"$47a"]
+47c:{"children":"Morning Trip Timing"}
+47b:["$","th",null,"$47c"]
+47e:{"children":"Evening Trip Timing"}
+47d:["$","th",null,"$47e"]
+478:["$479","$47b","$47d"]
+477:{"children":"$478"}
+476:["$","tr",null,"$477"]
+475:{"children":"$476"}
+474:["$","thead",null,"$475"]
+486:{"children":"1 October to 31 October"}
+485:["$","td",null,"$486"]
+488:{"children":"6:30 AM - 10:00 AM"}
+487:["$","td",null,"$488"]
+48a:{"children":"2:30 PM - 6:00 PM"}
+489:["$","td",null,"$48a"]
+484:["$485","$487","$489"]
+483:{"children":"$484"}
+482:["$","tr",null,"$483"]
+48f:{"children":"1 November to 31 January"}
+48e:["$","td",null,"$48f"]
+491:{"children":"7:00 AM - 10:30 AM"}
+490:["$","td",null,"$491"]
+493:{"children":"2:00 PM - 5:30 PM"}
+492:["$","td",null,"$493"]
+48d:["$48e","$490","$492"]
+48c:{"children":"$48d"}
+48b:["$","tr",null,"$48c"]
+498:{"children":"1 February to 31 March"}
+497:["$","td",null,"$498"]
+49a:{"children":"6:30 AM - 10:00 AM"}
+499:["$","td",null,"$49a"]
+49c:{"children":"2:30 PM - 6:00 PM"}
+49b:["$","td",null,"$49c"]
+496:["$497","$499","$49b"]
+495:{"children":"$496"}
+494:["$","tr",null,"$495"]
+4a1:{"children":"1 April to 16 May"}
+4a0:["$","td",null,"$4a1"]
+4a3:{"children":"6:00 AM - 09:30 AM"}
+4a2:["$","td",null,"$4a3"]
+4a5:{"children":"3:00 PM - 6:30 PM"}
+4a4:["$","td",null,"$4a5"]
+49f:["$4a0","$4a2","$4a4"]
+49e:{"children":"$49f"}
+49d:["$","tr",null,"$49e"]
+4aa:{"children":"16 May to 30 June"}
+4a9:["$","td",null,"$4aa"]
+4ac:{"children":"6:00 AM - 09:30 AM"}
+4ab:["$","td",null,"$4ac"]
+4ae:{"children":"3:30 PM - 7:00 PM"}
+4ad:["$","td",null,"$4ae"]
+4a8:["$4a9","$4ab","$4ad"]
+4a7:{"children":"$4a8"}
+4a6:["$","tr",null,"$4a7"]
+481:["$482","$48b","$494","$49d","$4a6"]
+480:{"children":"$481"}
+47f:["$","tbody",null,"$480"]
+473:["$474","$47f"]
+472:{"responsive":true,"className":"table table-rounded my-0 table-striped","children":"$473"}
+471:["$","$L3",null,"$472"]
+4b0:{"className":"fw-bold mt-2 mb-0","children":"Charges:"}
+4af:["$","p",null,"$4b0"]
+4ba:{"children":"Visitors"}
+4b9:["$","th",null,"$4ba"]
+4bc:{"children":"Amount"}
+4bb:["$","th",null,"$4bc"]
+4b8:["$4b9","$4bb"]
+4b7:{"children":"$4b8"}
+4b6:["$","tr",null,"$4b7"]
+4b5:{"children":"$4b6"}
+4b4:["$","thead",null,"$4b5"]
+4c4:{"children":"Gypsy Amount (Indian)"}
+4c3:["$","td",null,"$4c4"]
+4c6:{"children":"₹1270"}
+4c5:["$","td",null,"$4c6"]
+4c2:["$4c3","$4c5"]
+4c1:{"children":"$4c2"}
+4c0:["$","tr",null,"$4c1"]
+4cb:{"children":"Canter Amount (Indian)"}
+4ca:["$","td",null,"$4cb"]
+4cd:{"children":"₹856"}
+4cc:["$","td",null,"$4cd"]
+4c9:["$4ca","$4cc"]
+4c8:{"children":"$4c9"}
+4c7:["$","tr",null,"$4c8"]
+4d2:{"children":"Gypsy Amount (Foreigner)"}
+4d1:["$","td",null,"$4d2"]
+4d4:{"children":"₹2084"}
+4d3:["$","td",null,"$4d4"]
+4d0:["$4d1","$4d3"]
+4cf:{"children":"$4d0"}
+4ce:["$","tr",null,"$4cf"]
+4d9:{"children":"Canter Amount (Foreigner)"}
+4d8:["$","td",null,"$4d9"]
+4db:{"children":"₹1670"}
+4da:["$","td",null,"$4db"]
+4d7:["$4d8","$4da"]
+4d6:{"children":"$4d7"}
+4d5:["$","tr",null,"$4d6"]
+4bf:["$4c0","$4c7","$4ce","$4d5"]
+4be:{"children":"$4bf"}
+4bd:["$","tbody",null,"$4be"]
+4b3:["$4b4","$4bd"]
+4b2:{"responsive":true,"className":"table table-rounded my-0 table-striped","children":"$4b3"}
+4b1:["$","$L3",null,"$4b2"]
+4dd:{"className":"mt-3","children":"10. Sajjangarh Wildlife Sanctuary (Monsoon Palace): A Rainy Season Paradise"}
+4dc:["$","h4",null,"$4dd"]
+4e1:{"src":"/Images/Blog/wildlife-sajjangarh.jpg","alt":"Sajjangarh Wildlife Sanctuary","title":"Sajjangarh Wildlife Sanctuary: Monsoon Palace Escape","width":1500,"height":600}
+4e0:["$","$L2",null,"$4e1"]
+4df:{"className":"slug-image-container my-2","children":"$4e0"}
+4de:["$","div",null,"$4df"]
+4e6:{"href":"https://en.wikipedia.org/wiki/Sajjangarh_Wildlife_Sanctuary","target":"_blank","rel":"noopener noreferrer","className":"anchor text-web fw-bold","children":"Sajjangarh Wildlife Sanctuary"}
+4e5:["$","a",null,"$4e6"]
+4e8:{"children":"Monsoon Palace"}
+4e7:["$","strong",null,"$4e8"]
+4e4:["Located in the Aravalli range overlooking the city of Udaipur, ","$4e5",", or Monsoon Palace Sanctuary, is an ideal place for literal adventurers, specifically during the monsoon. This sanctuary is located around ","$4e7",", which is an extremely beautiful site of picturesque lakes and royal palaces along with Jharokhas in Udai Sagar and Swaroop Sagar, mainly including rain forest and greenery sights of Udai Sagar. Wildlife species sheltered in the sanctuary include sambhar, wild boars, hyenas and bird life."]
+4e3:{"className":"mb-0","children":"$4e4"}
+4e2:["$","p",null,"$4e3"]
+4ea:{"className":"fw-bold mt-2 mb-0","children":"Things to do:"}
+4e9:["$","p",null,"$4ea"]
+4ec:{"className":"mb-0","children":"• Walking through the fog in the rain forest for the lover of adventures during the period of monsoon."}
+4eb:["$","p",null,"$4ec"]
+4ee:{"className":"mb-0","children":"• Visiting Mardan Palace finally with the view over the sanctuary and Udaipur"}
+4ed:["$","p",null,"$4ee"]
+4f0:{"className":"mb-0","children":"• Picnicking and feeding the fishes, as the sanctuary supports different types of avian after a day’s rainfall."}
+4ef:["$","p",null,"$4f0"]
+4f2:{"className":"fw-bold mt-2 mb-0","children":"Timings:"}
+4f1:["$","p",null,"$4f2"]
+4fc:{"children":"Month"}
+4fb:["$","th",null,"$4fc"]
+4fe:{"children":"Morning Trip Timing"}
+4fd:["$","th",null,"$4fe"]
+500:{"children":"Evening Trip Timing"}
+4ff:["$","th",null,"$500"]
+4fa:["$4fb","$4fd","$4ff"]
+4f9:{"children":"$4fa"}
+4f8:["$","tr",null,"$4f9"]
+4f7:{"children":"$4f8"}
+4f6:["$","thead",null,"$4f7"]
+508:{"children":"1 October to 31 October"}
+507:["$","td",null,"$508"]
+50a:{"children":"6:30 AM - 10:00 AM"}
+509:["$","td",null,"$50a"]
+50c:{"children":"2:30 PM - 6:00 PM"}
+50b:["$","td",null,"$50c"]
+506:["$507","$509","$50b"]
+505:{"children":"$506"}
+504:["$","tr",null,"$505"]
+511:{"children":"1 November to 31 January"}
+510:["$","td",null,"$511"]
+513:{"children":"7:00 AM - 10:30 AM"}
+512:["$","td",null,"$513"]
+515:{"children":"2:00 PM - 5:30 PM"}
+514:["$","td",null,"$515"]
+50f:["$510","$512","$514"]
+50e:{"children":"$50f"}
+50d:["$","tr",null,"$50e"]
+51a:{"children":"1 February to 31 March"}
+519:["$","td",null,"$51a"]
+51c:{"children":"6:30 AM - 10:00 AM"}
+51b:["$","td",null,"$51c"]
+51e:{"children":"2:30 PM - 6:00 PM"}
+51d:["$","td",null,"$51e"]
+518:["$519","$51b","$51d"]
+517:{"children":"$518"}
+516:["$","tr",null,"$517"]
+523:{"children":"1 April to 16 May"}
+522:["$","td",null,"$523"]
+525:{"children":"6:00 AM - 09:30 AM"}
+524:["$","td",null,"$525"]
+527:{"children":"3:00 PM - 6:30 PM"}
+526:["$","td",null,"$527"]
+521:["$522","$524","$526"]
+520:{"children":"$521"}
+51f:["$","tr",null,"$520"]
+52c:{"children":"16 May to 30 June"}
+52b:["$","td",null,"$52c"]
+52e:{"children":"6:00 AM - 09:30 AM"}
+52d:["$","td",null,"$52e"]
+530:{"children":"3:30 PM - 7:00 PM"}
+52f:["$","td",null,"$530"]
+52a:["$52b","$52d","$52f"]
+529:{"children":"$52a"}
+528:["$","tr",null,"$529"]
+503:["$504","$50d","$516","$51f","$528"]
+502:{"children":"$503"}
+501:["$","tbody",null,"$502"]
+4f5:["$4f6","$501"]
+4f4:{"responsive":true,"className":"table table-rounded my-0 table-striped","children":"$4f5"}
+4f3:["$","$L3",null,"$4f4"]
+532:{"className":"fw-bold mt-2 mb-0","children":"Charges:"}
+531:["$","p",null,"$532"]
+53c:{"children":"Visitors"}
+53b:["$","th",null,"$53c"]
+53e:{"children":"Amount"}
+53d:["$","th",null,"$53e"]
+53a:["$53b","$53d"]
+539:{"children":"$53a"}
+538:["$","tr",null,"$539"]
+537:{"children":"$538"}
+536:["$","thead",null,"$537"]
+546:{"children":"Adult (Indian)"}
+545:["$","td",null,"$546"]
+548:{"children":"Rs 30/- per head"}
+547:["$","td",null,"$548"]
+544:["$545","$547"]
+543:{"children":"$544"}
+542:["$","tr",null,"$543"]
+54d:{"children":"Golf Car"}
+54c:["$","td",null,"$54d"]
+54f:{"children":"Rs 50/- per head"}
+54e:["$","td",null,"$54f"]
+54b:["$54c","$54e"]
+54a:{"children":"$54b"}
+549:["$","tr",null,"$54a"]
+554:{"children":"Adult (Foreigner)"}
+553:["$","td",null,"$554"]
+556:{"children":"Rs 300/- per head"}
+555:["$","td",null,"$556"]
+552:["$553","$555"]
+551:{"children":"$552"}
+550:["$","tr",null,"$551"]
+55b:{"children":"Electric Car"}
+55a:["$","td",null,"$55b"]
+55d:{"children":"Rs 30/- per head"}
+55c:["$","td",null,"$55d"]
+559:["$55a","$55c"]
+558:{"children":"$559"}
+557:["$","tr",null,"$558"]
+541:["$542","$549","$550","$557"]
+540:{"children":"$541"}
+53f:["$","tbody",null,"$540"]
+535:["$536","$53f"]
+534:{"responsive":true,"className":"table table-rounded my-0 table-striped","children":"$535"}
+533:["$","$L3",null,"$534"]
+55f:{"className":"mt-3","children":"11. Jawai Leopard Safari: Wildlife Tour in Rajasthan"}
+55e:["$","h4",null,"$55f"]
+563:{"src":"/Images/Blog/wildlife-jawai.png","alt":"Jawai Leopard Safari","title":"Close up shot of a leopard lying on the ground","width":1500,"height":600}
+562:["$","$L2",null,"$563"]
+561:{"className":"slug-image-container my-2","children":"$562"}
+560:["$","div",null,"$561"]
+568:{"href":"https://www.rajasthantourpackages.in/15days-rajasthan-wildlife-and-historical-tour","target":"_blank","rel":"noopener noreferrer","className":"anchor text-web fw-bold","children":"wildlife tour"}
+567:["$","a",null,"$568"]
+566:["Among the attractions of the area for tourists and lovers of animals and adventures, the Jawai Leopard Safari is a concentrated version of the ","$567"," in the region of Rajasthan. Located in the picturesque Jawai area, this safari helps you explore the difficult terrains of aravalli hills famous as the wonder of the world. The safari is famous more for its leopard, of which the visitor can sight this animal in its natural environment. The Jawai Leopard Safari is the best place to spot these amazing big cats at work mostly early in the morning and late in the evening."]
+565:{"className":"mb-0","children":"$566"}
+564:["$","p",null,"$565"]
+56a:{"className":"mb-0","children":"Talking about other animals the region encompasses spotted deer, crocodiles, hyenas and an incredible number of bird creatures making the photography enthusiasts and bird watchers fall in love with the place. There are also possibilities to witness daily life of the population which is living in the villages neighboring the safari, and this is a plus to the visiting experience."}
+569:["$","p",null,"$56a"]
+56f:{"children":"Jawai Leopard Safari"}
+56e:["$","strong",null,"$56f"]
+56d:["Panoramic natural beauty, variety of birds and wild animals, in addition to the opportunity to meet leopards, the ","$56e"," offers an exciting tour in Rajasthan."]
+56c:{"className":"mb-0","children":"$56d"}
+56b:["$","p",null,"$56c"]
+571:{"className":"fw-bold mt-2 mb-0","children":"Things to do:"}
+570:["$","p",null,"$571"]
+573:{"className":"mb-0","children":"• Seeing Leopards and other animals during the safari"}
+572:["$","p",null,"$573"]
+575:{"className":"mb-0","children":"• Bird watching in the different habitat"}
+574:["$","p",null,"$575"]
+577:{"className":"mb-0","children":"• Culturally, I went around the local villages to discover the whole culture."}
+576:["$","p",null,"$577"]
+579:{"className":"fw-bold mt-2 mb-0","children":"Timing:"}
+578:["$","p",null,"$579"]
+583:{"children":"Season"}
+582:["$","th",null,"$583"]
+585:{"children":"Morning Trip Timing"}
+584:["$","th",null,"$585"]
+587:{"children":"Evening Trip Timing"}
+586:["$","th",null,"$587"]
+581:["$582","$584","$586"]
+580:{"children":"$581"}
+57f:["$","tr",null,"$580"]
+57e:{"children":"$57f"}
+57d:["$","thead",null,"$57e"]
+58f:{"children":"Summer Season"}
+58e:["$","td",null,"$58f"]
+591:{"children":"5:30 AM – 08:30 AM"}
+590:["$","td",null,"$591"]
+593:{"children":"4:00 PM – 7:00 PM"}
+592:["$","td",null,"$593"]
+58d:["$58e","$590","$592"]
+58c:{"children":"$58d"}
+58b:["$","tr",null,"$58c"]
+598:{"children":"Winter Season"}
+597:["$","td",null,"$598"]
+59a:{"children":"6:00 AM – 09:00 AM"}
+599:["$","td",null,"$59a"]
+59c:{"children":"4:00 PM – 7:00 PM"}
+59b:["$","td",null,"$59c"]
+596:["$597","$599","$59b"]
+595:{"children":"$596"}
+594:["$","tr",null,"$595"]
+5a1:{"children":"Bird, Crocodile & Jawai Dam Visit"}
+5a0:["$","td",null,"$5a1"]
+5a3:{"children":"7:00 AM – 10:00 AM"}
+5a2:["$","td",null,"$5a3"]
+5a5:{"children":"-"}
+5a4:["$","td",null,"$5a5"]
+59f:["$5a0","$5a2","$5a4"]
+59e:{"children":"$59f"}
+59d:["$","tr",null,"$59e"]
+5aa:{"children":"Village Safari"}
+5a9:["$","td",null,"$5aa"]
+5ac:{"children":"9:00 AM - 11:00 AM"}
+5ab:["$","td",null,"$5ac"]
+5ae:{"children":"-"}
+5ad:["$","td",null,"$5ae"]
+5a8:["$5a9","$5ab","$5ad"]
+5a7:{"children":"$5a8"}
+5a6:["$","tr",null,"$5a7"]
+5b3:{"children":"Jungle Safari"}
+5b2:["$","td",null,"$5b3"]
+5b5:{"children":"5:30 AM - 08:00 AM"}
+5b4:["$","td",null,"$5b5"]
+5b7:{"children":"-"}
+5b6:["$","td",null,"$5b7"]
+5b1:["$5b2","$5b4","$5b6"]
+5b0:{"children":"$5b1"}
+5af:["$","tr",null,"$5b0"]
+58a:["$58b","$594","$59d","$5a6","$5af"]
+589:{"children":"$58a"}
+588:["$","tbody",null,"$589"]
+57c:["$57d","$588"]
+57b:{"responsive":true,"className":"table table-rounded my-0 table-striped","children":"$57c"}
+57a:["$","$L3",null,"$57b"]
+5b9:{"className":"fw-bold mt-2 mb-0","children":"Charges:"}
+5b8:["$","p",null,"$5b9"]
+5c3:{"children":"Visitors"}
+5c2:["$","th",null,"$5c3"]
+5c5:{"children":"Amount"}
+5c4:["$","th",null,"$5c5"]
+5c1:["$5c2","$5c4"]
+5c0:{"children":"$5c1"}
+5bf:["$","tr",null,"$5c0"]
+5be:{"children":"$5bf"}
+5bd:["$","thead",null,"$5be"]
+5cd:{"children":"Gypsy Amount (Indian)"}
+5cc:["$","td",null,"$5cd"]
+5cf:{"children":"Rs 4000/- Per Gypsy"}
+5ce:["$","td",null,"$5cf"]
+5cb:["$5cc","$5ce"]
+5ca:{"children":"$5cb"}
+5c9:["$","tr",null,"$5ca"]
+5d4:{"children":"Gypsy Amount (Foreigner)"}
+5d3:["$","td",null,"$5d4"]
+5d6:{"children":"-"}
+5d5:["$","td",null,"$5d6"]
+5d2:["$5d3","$5d5"]
+5d1:{"children":"$5d2"}
+5d0:["$","tr",null,"$5d1"]
+5c8:["$5c9","$5d0"]
+5c7:{"children":"$5c8"}
+5c6:["$","tbody",null,"$5c7"]
+5bc:["$5bd","$5c6"]
+5bb:{"responsive":true,"className":"table table-rounded my-0 table-striped","children":"$5bc"}
+5ba:["$","$L3",null,"$5bb"]
+5d8:{"className":"fw-bold mt-2 mb-0","children":"Conclusion:"}
+5d7:["$","h4",null,"$5d8"]
+5dd:{"children":"Rajasthan wildlife trails for adventurers"}
+5dc:["$","strong",null,"$5dd"]
+5db:["Rajasthan is not all about palace and fort; it is all about the wild and the wilder. For passionates who look for an accurate feeling of the wild nature and who want to feel the taste of the hunting but strictly non-lethal, there is nothing better than the ","$5dc"," which combined the toughest terrains for the harshest climate and the treks along with the sightseeing of different regions along with various types of forests that give you the preference to see the animals in the natural habitats. If you are hiking through the jungle, traveling through desert or embarking on a safari in savannah, the wildlife tours of Rajasthan will definitely not leave you disappointed along with providing memories of a lifetime."]
+5da:{"className":"mb-0","children":"$5db"}
+5d9:["$","p",null,"$5da"]
+5df:{}
+5de:["$","hr",null,"$5df"]
+5e1:{"className":"fw-bold mt-2 mb-0","children":"FAQs"}
+5e0:["$","p",null,"$5e1"]
+5e3:{"className":"fw-bold mt-2 mb-0","children":"1. Which parks are worth visiting in Rajasthan?"}
+5e2:["$","p",null,"$5e3"]
+5e8:{"href":"https://www.rajasthantourpackages.in/rajasthan-tour-from-ranthambore","target":"_blank","rel":"noopener noreferrer","className":"anchor text-web fw-bold","children":"Ranthambore National Park"}
+5e7:["$","a",null,"$5e8"]
+5e6:["The finest National parks tourists should visit in India are ","$5e7",", Sariska Tiger Reserve and Keoladeo National Park. There are many similarities between the two parks; they both have generic products like tigers, wild animals, birds, and so on, but one can do it differently."]
+5e5:{"className":"mb-0","children":"$5e6"}
+5e4:["$","p",null,"$5e5"]
+5ea:{"className":"fw-bold mt-2 mb-0","children":"2. What wild animals can a tourist hope to encounter in Ranthambore National Park?"}
+5e9:["$","p",null,"$5ea"]
+5ec:{"className":"mb-0","children":"Local people of Rajasthan tour From Ranthambore this way will be able to get the best out of the tiger-spotting safaris inside the park. The conservation value of this park is relatively high & some historical buildings further enhance the park beauty."}
+5eb:["$","p",null,"$5ec"]
+5ee:{"className":"fw-bold mt-2 mb-0","children":"3. What are the best time to visit Ranthambore National Park?"}
+5ed:["$","p",null,"$5ee"]
+5f0:{"className":"mb-0","children":"Some of the most famous adventurous activities for wildlife tours are jeep safari, nature walks and camel safari tours. All such activities make the visitors more aware of the natural systems in the region as they participate in respective activities."}
+5ef:["$","p",null,"$5f0"]
+5f2:{"className":"fw-bold mt-2 mb-0","children":"4. What is the best time to go bird watching in Keoladeo National Park?"}
+5f1:["$","p",null,"$5f2"]
+5f7:{"children":"Keoladeo National Park"}
+5f6:["$","strong",null,"$5f7"]
+5f5:["The ideal months to go bird watching in ","$5f6"," is during the migration periods, which fall between October and March. Tourists can observe different endangered birds and other animals, and the park is part of a UNESCO list."]
+5f4:{"className":"mb-0","children":"$5f5"}
+5f3:["$","p",null,"$5f4"]
+5f9:{"className":"fw-bold mt-2 mb-0","children":"5. In what ways do the camel safaris improve the cultural experience in the region of Rajasthan?"}
+5f8:["$","p",null,"$5f9"]
+5fb:{"className":"mb-0","children":"Camel safaris are ideal to move through some of the world most extensive and arid terrains while interacting with some of the native tribes. What is more important is that it allows tourists to discover the native customs and traditions and value the history and culture of Rajasthan.        "}
+5fa:["$","p",null,"$5fb"]
+5fd:{"className":"fw-bold mt-2 mb-0","children":"6. What is in it for the visitor to receive customized adventure packages in Rajasthan?"}
+5fc:["$","p",null,"$5fd"]
+5ff:{"className":"mb-0","children":"New travel products in Rajasthan make it possible to take packaged trips where choices of activities like cooking demonstrations and visits to villages are provided. The guides improve these experiences with their experience to give the guests a better understanding of the area."}
+5fe:["$","p",null,"$5ff"]
+8:["$9","$b","$14","$16","$18","$1a","$1c","$1e","$22","$27","$29","$2b","$2d","$2f","$31","$6f","$71","$a6","$a8","$ac","$b3","$b5","$b7","$b9","$bb","$bd","$bf","$fd","$ff","$13e","$140","$164","$166","$19b","$19d","$19f","$1a3","$1ac","$1ae","$1b0","$1b2","$1b4","$1b6","$1f4","$1f6","$21a","$21c","$220","$225","$227","$229","$22b","$22d","$22f","$231","$26f","$271","$28e","$290","$294","$299","$29b","$29d","$2a2","$2a4","$2a6","$2a8","$2e6","$2e8","$305","$307","$30b","$310","$312","$314","$316","$318","$31a","$358","$35a","$385","$387","$38b","$390","$392","$394","$396","$398","$39a","$39c","$3da","$3dc","$407","$409","$40d","$412","$414","$416","$418","$41a","$41c","$45a","$45c","$460","$467","$469","$46b","$46d","$46f","$471","$4af","$4b1","$4dc","$4de","$4e2","$4e9","$4eb","$4ed","$4ef","$4f1","$4f3","$531","$533","$55e","$560","$564","$569","$56b","$570","$572","$574","$576","$578","$57a","$5b8","$5ba","$5d7","$5d9","$5de","$5e0","$5e2","$5e4","$5e9","$5eb","$5ed","$5ef","$5f1","$5f3","$5f8","$5fa","$5fc","$5fe"]
+7:"$8"
+601:["slug","wildlife-trails-rajasthan-nature-adventures","d"]
+0:["x5uFsM6I2LE9O4JcP_ti1",[[["",{"children":["blog",{"children":[["slug","wildlife-trails-rajasthan-nature-adventures","d"],{"children":["__PAGE__?{\"slug\":\"wildlife-trails-rajasthan-nature-adventures\"}",{}]}]}]},"$undefined","$undefined",true],["",{"children":["blog",{"children":[["slug","wildlife-trails-rajasthan-nature-adventures","d"],{"children":["__PAGE__",{},[["$L1",["$","div",null,{"className":"container-fluid py-4 blog-slug mt-5 pt-5 px-0","children":["$","div",null,{"className":"container px-0 d-flex justify-content-center align-items-center w-100 days-container overview destination","children":["$","div",null,{"className":"row d-flex justify-content-center align-items-start px-0 w-100","children":[["$","div",null,{"className":"col-lg-8 col-md-12 col-sm-12 px-sm-0 px-md-0 px-lg-2","children":[["$","div",null,{"className":"insider px-3","children":[["$","div",null,{"className":"slug-image-container mb-2","children":["$","$L2",null,{"src":"/Images/Blog/wildlife-banner.png","alt":"$undefined","title":"$undefined","width":1500,"height":600}]}],["$","hr",null,{}],["$","div",null,{"className":"d-flex justify-content-start align-items-center gap-2 mb-2","children":[["$","p",null,{"className":"w-auto blog-author mb-0 fw-bold d-flex align-items-center justify-content-center","children":[["$","span",null,{"className":"color-tertary me-2 d-flex p-2 bg-tertary-down rounded-5","children":["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 448 512","children":["$undefined",[["$","path","0",{"d":"M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z","children":[]}]]],"className":"$undefined","style":{"color":"$undefined"},"height":"1em","width":"1em","xmlns":"http://www.w3.org/2000/svg"}]}],"Admin"]}],["$","p",null,{"className":"text-black w-auto px-0 blog-dot mb-0","children":"▪"}],["$","p",null,{"className":"w-auto blog-date mb-0 fw-bold d-flex align-items-center justify-content-center","children":[["$","span",null,{"className":"color-tertary me-2 d-flex p-2 bg-tertary-down rounded-5","children":["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 448 512","children":["$undefined",[["$","path","0",{"d":"M128 0c17.7 0 32 14.3 32 32V64H288V32c0-17.7 14.3-32 32-32s32 14.3 32 32V64h48c26.5 0 48 21.5 48 48v48H0V112C0 85.5 21.5 64 48 64H96V32c0-17.7 14.3-32 32-32zM0 192H448V464c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V192zm64 80v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H80c-8.8 0-16 7.2-16 16zm128 0v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H208c-8.8 0-16 7.2-16 16zm144-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V272c0-8.8-7.2-16-16-16H336zM64 400v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H80c-8.8 0-16 7.2-16 16zm144-16c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H208zm112 16v32c0 8.8 7.2 16 16 16h32c8.8 0 16-7.2 16-16V400c0-8.8-7.2-16-16-16H336c-8.8 0-16 7.2-16 16z","children":[]}]]],"className":"$undefined","style":{"color":"$undefined"},"height":"1em","width":"1em","xmlns":"http://www.w3.org/2000/svg"}]}],"2024-11-16"]}]]}],["$","h1",null,{"children":"Rajasthan Wildlife Trails: A Paradise for Adventurers Explorers"}],["$","hr",null,{"style":{"borderColor":"var(--color-black)"}}],["$","div",null,{"className":"blog-content-slug","children":[["$","p",null,{"className":"fw-bold mt-2 mb-0","children":"Introduction:"}],["$","p",null,{"className":"mb-0","children":["Rich in a royal legacy and magnificent forts and palaces Rajasthan also boasts of some of the ",["$","strong",null,{"children":"best Wildlife Sanctuary"}]," and National Park in India. Peace and serenity are two qualities that no traveler would associate with this enthralling state of Rajasthan, but for the part of the traveler who wants to cut through the jungle and feel the off beat rugged look of Rajasthan it offers some of the best track of wildlife tours. In this blog we will share further details about the ",["$","strong",null,{"children":"Rajasthan wildlife trails for adventurers"}]," and the many options available for those interested in a non-conventional ",["$","a",null,{"href":"https://www.rajasthantourpackages.in/wildlife-tour-packages","target":"_blank","rel":"noopener noreferrer","className":"anchor text-web fw-bold","children":"Wildlife Tour Packages"}]," destination."]}],["$","p",null,{"className":"fw-bold mt-2 mb-0","children":"The Untouched Wilderness of Rajasthan:"}],["$","p",null,{"className":"mb-0","children":" Although Rajasthan is traditionally regarded as a land of history and architecture it is also an area with a vibrant and diverse wildlife population. It has the huge Thar desert stretching over a vast area in the west endangered greens of Aravalli forests in the South, Where the state’s wildlife safari gives tourists a welcome opportunity of indulgence in adventures and ecstasize in witnessing the unadulterated natural beauty."}],["$","hr",null,{}],["$","h4",null,{"className":"mt-3","children":"Top Rajasthan Wildlife Trails for Adventurers:"}],["$","p",null,{"className":"fw-bold mt-2 mb-0","children":"1. Sariska Tiger Reserve: A Journey Through the Jungle"}],["$","div",null,{"className":"slug-image-container my-2","children":["$","$L2",null,{"src":"/Images/Blog/wildlife-sariska.png","alt":"Sariska Tiger Reserve","width":1500,"height":600}]}],["$","p",null,{"className":"mb-0","children":["The ",["$","a",null,{"href":"https://www.jaipurtaxiservice.com/day-trips-from-jaipur/sariska-tiger-reserve-tour-from-jaipur.html","target":"_blank","rel":"noopener noreferrer","className":"anchor text-web fw-bold","children":"Sariska Tiger Reserve"}]," situated in the hills of Aravalli in Rajasthan is a wonderful world for a dedicated adventure tourist. Sariska occupies a terrain of high ridge with extensive scrub, dense forest and is famous for bengal tiger. Tiger reserve is among those sanctuaries which are more famous in Rajasthan and provides many options for trekking to travelers. Here one has bar privileges to spot tigers from the jungle safaris apart from other animals such as leopards, wild pigs and some species of deers."]}],["$","p",null,{"className":"fw-bold mt-2 mb-0","children":"Things to do:"}],["$","p",null,{"className":"mb-0","children":"• Sariska has several trails for the more adventurous and up close view of the wild animals."}],["$","p",null,{"className":"mb-0","children":"• Jeep tours for the purpose of viewing tiger and leopard plus other birds of the wild."}],["$","p",null,{"className":"mb-0","children":"• Tenting out in the forests and other areas with no light from any source apart from the moon."}],["$","p",null,{"className":"fw-bold mt-2 mb-0","children":"Timings:"}],["$","$L3",null,{"responsive":true,"className":"table table-rounded my-0 table-striped","children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Month"}],["$","th",null,{"children":"Morning Trip Timing"}],["$","th",null,{"children":"Evening Trip Timing"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":"1 October to 31 October"}],["$","td",null,{"children":"06.30 to 10.00 AM"}],["$","td",null,{"children":"2.30 to 6.00 PM"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"1 November to 31 January"}],["$","td",null,{"children":"07.00 to 10.30 AM"}],["$","td",null,{"children":"2.00 to 5.30 PM"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"1 February to 31 March"}],["$","td",null,{"children":"06.30 to 10.00 AM"}],["$","td",null,{"children":"2.30 to 6.00 PM"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"1 April to 15 May"}],["$","td",null,{"children":"06.00 to 09.30 AM"}],["$","td",null,{"children":"3.00 to 6.30 PM"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"15 May to 30 June"}],["$","td",null,{"children":"06.00 to 09.30 AM"}],["$","td",null,{"children":"3.30 to 7.00 PM"}]]}]]}]]}],["$","p",null,{"className":"fw-bold mt-2 mb-0","children":"Charges:"}],["$","$L3",null,{"responsive":true,"className":"table table-rounded my-0 table-striped","children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Vehicle"}],["$","th",null,{"children":"Sariska Gate"}],["$","th",null,{"children":"Tehla Gate"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":"Gypsy Amount (Indian)"}],["$","td",null,{"children":"1270"}],["$","td",null,{"children":"1270"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"Canter Amount (Indian)"}],["$","td",null,{"children":"856"}],["$","td",null,{"children":"856"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"Gypsy Amount (Foreigner)"}],["$","td",null,{"children":"2084"}],["$","td",null,{"children":"2084"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"Canter Amount (Foreigner)"}],["$","td",null,{"children":"1670"}],["$","td",null,{"children":"1670"}]]}]]}]]}],["$","h4",null,{"className":"mt-3","children":"2. Ranthambore National Park: A Royal Adventure"}],["$","div",null,{"className":"slug-image-container my-2","children":["$","$L2",null,{"src":"/Images/Blog/wildlife-ranthambore.png","alt":"Ranthambore National Park","title":"Tiger pose during the golden light time","width":1500,"height":600}]}],["$","p",null,{"className":"mb-0","children":[["$","a",null,{"href":"https://www.jaipurtaxiservice.com/day-trips-from-jaipur/ranthambhore-tiger-reserve-tour-from-jaipur.html","target":"_blank","rel":"noopener noreferrer","className":"anchor text-web fw-bold","children":"Ranthambore National Park"}]," is among the most popular and culturally typical Indian parks for wildlife lovers. This park is situated in the center of Rajasthan, which allows lovers of complex adventurous ",["$","strong",null,{"children":"jeep safaris"}]," to intersect the desired wildlife tour with an archaeological tour. Various accommodations are available within and adjacent to the park, and the Ranthambore Fort looming within the park remains an added attraction to wilderness-loving visitors and adventurers who like to have an affair with historical adventures."]}],["$","p",null,{"className":"mb-0","children":"Stuffed with fabulous Thick forests, abundant water resources, and having proliferation of wildlife like Tigers, Leopards, Wild boars etc Ranthambore is the paradise for the wildlife trekkers and the photographers."}],["$","p",null,{"className":"fw-bold mt-2 mb-0","children":"Things to do:"}],["$","p",null,{"className":"mb-0","children":"• Morning game drives to access tiger, crocodile, and bird’s documentary."}],["$","p",null,{"className":"mb-0","children":"• Traveling through the forests with a local guide to find some less-known interesting places        "}],["$","p",null,{"className":"mb-0","children":"• Taking a historical and a wild tour around the Ranthambore Fort"}],["$","p",null,{"className":"fw-bold mt-2 mb-0","children":"Timings:"}],["$","$L3",null,{"responsive":true,"className":"table table-rounded my-0 table-striped","children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Month"}],["$","th",null,{"children":"Morning Trip Timing"}],["$","th",null,{"children":"Evening Trip Timing"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":"1 October to 31 October"}],["$","td",null,{"children":"06.30 to 10.00 AM"}],["$","td",null,{"children":"2.30 to 6.00 PM"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"1 November to 31 January"}],["$","td",null,{"children":"07.00 to 10.30 AM"}],["$","td",null,{"children":"2.00 to 5.30 PM"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"1 February to 31 March"}],["$","td",null,{"children":"06.30 to 10.00 AM"}],["$","td",null,{"children":"2.30 to 6.00 PM"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"1 April to 16 May"}],["$","td",null,{"children":"06.00 to 09.30 AM"}],["$","td",null,{"children":"3.00 to 6.30 PM"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"16 May to 30 June"}],["$","td",null,{"children":"06.00 to 09.30 AM"}],["$","td",null,{"children":"3.30 to 7.00 PM"}]]}]]}]]}],["$","p",null,{"className":"fw-bold mt-2 mb-0","children":"Charges:"}],["$","$L3",null,{"responsive":true,"className":"table table-rounded my-0 table-striped","children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Vehicle"}],["$","th",null,{"children":"Advance Ticket"}],["$","th",null,{"children":"Tatkal Ticket"}],["$","th",null,{"children":"Current Ticket"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":"Gypsy Amount (Indian)"}],["$","td",null,{"children":"1458"}],["$","td",null,{"children":"20848"}],["$","td",null,{"children":"1458"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"Canter Amount (Indian)"}],["$","td",null,{"children":"891"}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"891"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"Gypsy Amount (Foreigner)"}],["$","td",null,{"children":"2746"}],["$","td",null,{"children":"28576"}],["$","td",null,{"children":"2746"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"Canter Amount (Foreigner)"}],["$","td",null,{"children":"2179"}],["$","td",null,{"children":"-"}],["$","td",null,{"children":"2179"}]]}]]}]]}],["$","p",null,{"className":"fw-bold","children":"Other Booking Extra Charges"}],["$","$L3",null,{"responsive":true,"className":"table table-rounded my-0 table-striped","children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Details"}],["$","th",null,{"children":"Charges"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":"Choice Gypsy (Indian/Foreigner)"}],["$","td",null,{"children":"7476"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"Choice Guide Charges for Gypsy (Indian/Foreigner)"}],["$","td",null,{"children":"1697"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"Choice Guide Charges for Canter (Indian/Foreigner)"}],["$","td",null,{"children":"1903"}]]}]]}]]}],["$","p",null,{"className":"fw-bold","children":"Zone Charges"}],["$","$L3",null,{"responsive":true,"className":"table table-rounded my-0 table-striped","children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Zone Details"}],["$","th",null,{"children":"Indian Citizen"}],["$","th",null,{"children":"Foreigner Citizen"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":"Gypsy (Inter Zones), Zone 1-5 to Zone 6-10 or Zone 6-10 to Zone 1-5"}],["$","td",null,{"children":"820"}],["$","td",null,{"children":"3300"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"Canter (Inter Zones), Zone 1-5 to Zone 6-10 or Zone 6-10 to Zone 1-5"}],["$","td",null,{"children":"444"}],["$","td",null,{"children":"1650"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"Gypsy (Within Zones), Zone 01 to 05 or Zone 06 to 10"}],["$","td",null,{"children":"410"}],["$","td",null,{"children":"2924"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"Canter (Within Zones), Zone 01 to 05 or Zone 06 to 10"}],["$","td",null,{"children":"222"}],["$","td",null,{"children":"1462"}]]}]]}]]}],["$","hr",null,{}],["$","h4",null,{"className":"mt-3","children":"3. Keoladeo Ghana National Park: A Birdwatcher’s Paradise"}],["$","div",null,{"className":"slug-image-container my-2","children":["$","$L2",null,{"src":"/Images/Blog/wildlife-keoladeo.png","alt":"Keoladeo Ghana National Park","title":"flamingos standing in water","width":1500,"height":600}]}],["$","p",null,{"className":"mb-0","children":["If this is the kind of adventurous act in which an individual is interested more than anything, the ",["$","a",null,{"href":"https://en.wikipedia.org/wiki/Keoladeo_National_Park","target":"_blank","rel":"noopener noreferrer","className":"anchor text-web fw-bold","children":"Keoladeo Ghana National Park"}]," also famously known as the ",["$","strong",null,{"children":"Bharatpur Bird Sanctuary"}]," should be on his/her list of must visit places. This is an ideal breeding place for birds and there are many migratory birds because of its status as a ",["$","strong",null,{"children":"world inheritance site"}],". If You want to see birds, you should visit the park during winter since thousands of birds flock the park making it among the best places in the world to watch birds.Besides birds the park is also inhabited by a couple of species of animals such as jackals, wild boars and monkeys which makes it an excellent wildlife trail for wildlife lovers interested in watching birds and animals."]}],["$","p",null,{"className":"fw-bold","children":"Things to do:"}],["$","p",null,{"className":"mb-0","children":"• Phestival for stewards including directional bird watching to view different species of birds."}],["$","p",null,{"className":"mb-0","children":"• Take your car or bicycle/ walking trip to tour the park that is endowed with different attractions."}],["$","p",null,{"className":"mb-0","children":"• Half day boat ride through wetlands of the park for trip"}],["$","p",null,{"className":"fw-bold mt-2 mb-0","children":"Timings:"}],["$","$L3",null,{"responsive":true,"className":"table table-rounded my-0 table-striped","children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Month"}],["$","th",null,{"children":"Morning Trip Timing"}],["$","th",null,{"children":"Evening Trip Timing"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":"1 October to 31 October"}],["$","td",null,{"children":"6:30 AM - 10:00 AM"}],["$","td",null,{"children":"2:30 PM - 6:00 PM"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"1 November to 31 January"}],["$","td",null,{"children":"7:00 AM - 10:30 AM"}],["$","td",null,{"children":"2:00 PM - 5:30 PM"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"1 February to 31 March"}],["$","td",null,{"children":"6:30 AM - 10:00 AM"}],["$","td",null,{"children":"2:30 PM - 6:00 PM"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"1 April to 16 May"}],["$","td",null,{"children":"6:00 AM - 09:30 AM"}],["$","td",null,{"children":"3:00 PM - 6:30 PM"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"16 May to 30 June"}],["$","td",null,{"children":"6:00 AM - 09:30 AM"}],["$","td",null,{"children":"3:30 PM - 7:00 PM"}]]}]]}]]}],["$","p",null,{"className":"fw-bold mt-2 mb-0","children":"Charges:"}],["$","$L3",null,{"responsive":true,"className":"table table-rounded my-0 table-striped","children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Visitors"}],["$","th",null,{"children":"Amount"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":"Indian Visitors"}],["$","td",null,{"children":"₹50"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"Foreign Visitors"}],["$","td",null,{"children":"₹400"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"Cycle Rickshaw"}],["$","td",null,{"children":"₹300/hour (with a guide)"}]]}]]}]]}],["$","h4",null,{"className":"mt-3","children":"4. Desert National Park: Experience in Sam Sand Dunes of Rajasthan"}],["$","div",null,{"className":"slug-image-container my-2","children":["$","$L2",null,{"src":"/Images/Blog/wildlife-desert-national.png","alt":"Desert National Park","title":"Richtersveld park","width":1500,"height":600}]}],["$","p",null,{"className":"mb-0","children":["For those who wish to have another side of wildlife, which is adventurous in a real sense, then ",["$","a",null,{"href":"https://en.wikipedia.org/wiki/Desert_National_Park","target":"_blank","rel":"noopener noreferrer","className":"anchor text-web fw-bold","children":"Desert National Park"}]," of Jaisalmer is the place. This park is in the center of the Thar desert and is a good chance to get acquainted with the desert in Rajasthan. The park is inhabited by Great Indian Bustards, foxes, camels, desert foxes, and other creatures of the desert, that is why it attracts those tourists who are in search of a quite unusual experience of fauna-watching. The area is desolate and arid, thus providing a dramatic difference to the green midland forests covering other wildlife districts in the state. Hiking, making camp in high sands, and observing the large open skies are a few of the attractions in this trail."]}],["$","p",null,{"className":"fw-bold mt-2 mb-0","children":"Things to do:"}],["$","p",null,{"className":"mb-0","children":"• scarred by careless sand ruts and crowned with humped animals, designed for traveling the desert and searching for wild animals."}],["$","p",null,{"className":"mb-0","children":"• Expedition by crossing through the desert in order to taste the difficulty of it."}],["$","p",null,{"className":"mb-0","children":"• The desert is a prime location to camp to have an incredible and unusual adventure."}],["$","hr",null,{}],["$","p",null,{"className":"fw-bold mt-2 mb-0","children":"Timings:"}],["$","$L3",null,{"responsive":true,"className":"table table-rounded my-0 table-striped","children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Month"}],["$","th",null,{"children":"Morning Trip Timing"}],["$","th",null,{"children":"Evening Trip Timing"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":"1 October to 31 October"}],["$","td",null,{"children":"6:30 AM - 10:00 AM"}],["$","td",null,{"children":"2:30 PM - 6:00 PM"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"1 November to 31 January"}],["$","td",null,{"children":"7:00 AM - 10:30 AM"}],["$","td",null,{"children":"2:00 PM - 5:30 PM"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"1 February to 31 March"}],["$","td",null,{"children":"6:30 AM - 10:00 AM"}],["$","td",null,{"children":"2:30 PM - 6:00 PM"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"1 April to 16 May"}],["$","td",null,{"children":"6:00 AM - 09:30 AM"}],["$","td",null,{"children":"3:00 PM - 6:30 PM"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"16 May to 30 June"}],["$","td",null,{"children":"6:00 AM - 09:30 AM"}],["$","td",null,{"children":"3:30 PM - 7:00 PM"}]]}]]}]]}],["$","p",null,{"className":"fw-bold mt-2 mb-0","children":"Charges:"}],["$","$L3",null,{"responsive":true,"className":"table table-rounded my-0 table-striped","children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Visitors"}],["$","th",null,{"children":"Amount"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":"Gypsy Amount (Indian)"}],["$","td",null,{"children":"Starting From ₹1000 Per Person"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"Gypsy Amount (Foreigner)"}],["$","td",null,{"children":"₹2084"}]]}]]}]]}],["$","h4",null,{"className":"mt-3","children":"5. Mount Abu Wildlife Sanctuary: A Cool Retreat in the Hills"}],["$","div",null,{"className":"slug-image-container my-2","children":["$","$L2",null,{"src":"/Images/Blog/wildlife-mountabu.png","alt":"Mount Abu Wildlife Sanctuary","title":"Building in the forest on the mountain","width":1500,"height":600}]}],["$","p",null,{"className":"mb-0","children":["Those who want to escape the heat and at the same time go through a Wildlife trail will find ",["$","a",null,{"href":"https://en.wikipedia.org/wiki/Mount_Abu_Wildlife_Sanctuary","target":"_blank","rel":"noopener noreferrer","className":"anchor text-web fw-bold","children":"Mount Abu Wildlife Sanctuary"}]," perfect. founded in the Aravalli hill range, it is one of the conservative kinds in Rajasthan because of the favorable pleasant weather as well as the diversity in fauna. This place has various types of plants, as well as animal species such as leopards, crocodiles, sloth bears and several birds."]}],["$","p",null,{"className":"mb-0","children":"Nature lovers may hike the sanctuary’s trekking paths which provide novelty and exciting views of hills and valleys not forgetting the wildlife therein. It is also the place where the Nakki lake which is famous all around is and after chasing wild lives one can take a boat ride on the lake."}],["$","p",null,{"className":"fw-bold mt-2 mb-0","children":"Things to do:"}],["$","p",null,{"className":"mb-0","children":["• Walking a hike in the beautiful trails of ",["$","a",null,{"href":"https://www.rajasthantourpackages.in/mountabu","target":"_blank","rel":"noopener noreferrer","className":"anchor text-web fw-bold","children":"Mount Abu"}]]}],["$","p",null,{"className":"mb-0","children":"• Visiting the sanctuary by car or on foot"}],["$","p",null,{"className":"mb-0","children":"• Drinking tea while boating in Nakki Lake which comes just after a day of trying to explore the entire place."}],["$","p",null,{"className":"fw-bold mt-2 mb-0","children":"Timings:"}],["$","$L3",null,{"responsive":true,"className":"table table-rounded my-0 table-striped","children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Month"}],["$","th",null,{"children":"Morning Trip Timing"}],["$","th",null,{"children":"Evening Trip Timing"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":"1 October to 31 October"}],["$","td",null,{"children":"6:30 AM - 10:00 AM"}],["$","td",null,{"children":"2:30 PM - 6:00 PM"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"1 November to 31 January"}],["$","td",null,{"children":"7:00 AM - 10:30 AM"}],["$","td",null,{"children":"2:00 PM - 5:30 PM"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"1 February to 31 March"}],["$","td",null,{"children":"6:30 AM - 10:00 AM"}],["$","td",null,{"children":"2:30 PM - 6:00 PM"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"1 April to 16 May"}],["$","td",null,{"children":"6:00 AM - 09:30 AM"}],["$","td",null,{"children":"3:00 PM - 6:30 PM"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"16 May to 30 June"}],["$","td",null,{"children":"6:00 AM - 09:30 AM"}],["$","td",null,{"children":"3:30 PM - 7:00 PM"}]]}]]}]]}],["$","p",null,{"className":"fw-bold mt-2 mb-0","children":"Charges:"}],["$","$L3",null,{"responsive":true,"className":"table table-rounded my-0 table-striped","children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Visitors"}],["$","th",null,{"children":"Amount"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":"Gypsy Amount (Indian)"}],["$","td",null,{"children":"₹300 (Jeep Safari included)"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"Gypsy Amount (Foreigner)"}],["$","td",null,{"children":"₹300"}]]}]]}]]}],["$","h4",null,{"className":"mt-3","children":"6. Gajner Wildlife Sanctuary: Off-the-Beaten-Path Adventure"}],["$","div",null,{"className":"slug-image-container my-2","children":["$","$L2",null,{"src":"/Images/Blog/wildlife-gajner.png","alt":"Gajner Wildlife Sanctuary","title":"Wild deer congregated in water at green trees in the lake surroundings","width":1500,"height":600}]}],["$","p",null,{"className":"mb-0","children":["For those wishing to be somewhat insulated from the typical tourist crowd and actually see wildlife which are virtually all over the place, one of the best places to visit is the ",["$","a",null,{"href":"https://en.wikipedia.org/wiki/Gajner_Wildlife_Sanctuary","target":"_blank","rel":"noopener noreferrer","className":"anchor text-web fw-bold","children":"Gajner Wildlife Sanctuary"}]," in Bikaner. Situated towards Gajner Palace, the sanctuary is a perfect way to relax into nature where tourists get to experience different animals like antelopes, black bucks, wild boars and many migratory birds. This relatively unknown wildlife trail provides excellent opportunities for those who prefer to be on their own and who want to discover the lesser known wildlife area in Rajasthan."]}],["$","p",null,{"className":"fw-bold mt-2 mb-0","children":"Things to do:"}],["$","p",null,{"className":"mb-0","children":"• Wildlife tours to look at antelopes, wild boars and birds"}],["$","p",null,{"className":"mb-0","children":"• Walking along the sanctuary’s beautiful quiet ground or using a jeep."}],["$","p",null,{"className":"mb-0","children":"• Refurbished Palace With A Palace Interior View & Enjoying A Peaceful Vacation At Gajner Palace"}],["$","p",null,{"className":"fw-bold mt-2 mb-0","children":"Timings:"}],["$","$L3",null,{"responsive":true,"className":"table table-rounded my-0 table-striped","children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Month"}],["$","th",null,{"children":"Morning Trip Timing"}],["$","th",null,{"children":"Evening Trip Timing"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":"1 October to 31 October"}],["$","td",null,{"children":"6:30 AM - 10:00 AM"}],["$","td",null,{"children":"2:30 PM - 6:00 PM"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"1 November to 31 January"}],["$","td",null,{"children":"7:00 AM - 10:30 AM"}],["$","td",null,{"children":"2:00 PM - 5:30 PM"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"1 February to 31 March"}],["$","td",null,{"children":"6:30 AM - 10:00 AM"}],["$","td",null,{"children":"2:30 PM - 6:00 PM"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"1 April to 16 May"}],["$","td",null,{"children":"6:00 AM - 09:30 AM"}],["$","td",null,{"children":"3:00 PM - 6:30 PM"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"16 May to 30 June"}],["$","td",null,{"children":"6:00 AM - 09:30 AM"}],["$","td",null,{"children":"3:30 PM - 7:00 PM"}]]}]]}]]}],["$","p",null,{"className":"fw-bold mt-2 mb-0","children":"Charges:"}],["$","$L3",null,{"responsive":true,"className":"table table-rounded my-0 table-striped","children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Visitors"}],["$","th",null,{"children":"Amount"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":"Gypsy Amount (Indian)"}],["$","td",null,{"children":"₹1270"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"Canter Amount (Indian)"}],["$","td",null,{"children":"₹856"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"Gypsy Amount (Foreigner)"}],["$","td",null,{"children":"₹2084"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"Canter Amount (Foreigner)"}],["$","td",null,{"children":"₹1670"}]]}]]}]]}],["$","h4",null,{"className":"mt-3","children":"7. Mukundra Hills Tiger Reserve: A Hidden Gem"}],["$","div",null,{"className":"slug-image-container my-2","children":["$","$L2",null,{"src":"/Images/Blog/wildlife-mukundra.png","alt":"Mukundra Hills Tiger Reserve","title":"Amazing tiger in the natural habitat","width":1500,"height":600}]}],["$","p",null,{"className":"mb-0","children":[["$","a",null,{"href":"https://en.wikipedia.org/wiki/Mukundara_Hills_National_Park","target":"_blank","rel":"noopener noreferrer","className":"anchor text-web fw-bold","children":"Mukundra Hills Tiger Reserve"}]," is among all the wildlife destinations of Rajasthan a truly offbeat destination and is located around Kota. This reserve, which has not been recognised widely even to this date, houses some of the important species like the Bengal tigers, leopards and the deer. The reserve also presents fabulous views of the hills, making it as suiTable for filmmakers and wildlife photographers as for travelers who like thrilling adventures."]}],["$","p",null,{"className":"mb-0","children":"This park has very strange territorial features; steep slopes and amazingly thick growth of vegetation especially trees in Mukundra Hills so formulating this as a less difficult trip would be misleading to those who would still prefer to trek through it."}],["$","p",null,{"className":"fw-bold mt-2 mb-0","children":"Things to do:"}],["$","p",null,{"className":"mb-0","children":"• Walking across the difficult terrains of Mukundra Hills"}],["$","p",null,{"className":"mb-0","children":"• Tiger tracking safaris, leopard tracking safaris etc."}],["$","p",null,{"className":"mb-0","children":"• Safari and nature photography to get stunning shots of the great features of the planet."}],["$","p",null,{"className":"fw-bold mt-2 mb-0","children":"Timings:"}],["$","$L3",null,{"responsive":true,"className":"table table-rounded my-0 table-striped","children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Month"}],["$","th",null,{"children":"Morning Trip Timing"}],["$","th",null,{"children":"Evening Trip Timing"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":"1 October to 31 October"}],["$","td",null,{"children":"6:30 AM - 10:00 AM"}],["$","td",null,{"children":"2:30 PM - 6:00 PM"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"1 November to 31 January"}],["$","td",null,{"children":"7:00 AM - 10:30 AM"}],["$","td",null,{"children":"2:00 PM - 5:30 PM"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"1 February to 31 March"}],["$","td",null,{"children":"6:30 AM - 10:00 AM"}],["$","td",null,{"children":"2:30 PM - 6:00 PM"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"1 April to 16 May"}],["$","td",null,{"children":"6:00 AM - 09:30 AM"}],["$","td",null,{"children":"3:00 PM - 6:30 PM"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"16 May to 30 June"}],["$","td",null,{"children":"6:00 AM - 09:30 AM"}],["$","td",null,{"children":"3:30 PM - 7:00 PM"}]]}]]}]]}],["$","p",null,{"className":"fw-bold mt-2 mb-0","children":"Charges:"}],["$","$L3",null,{"responsive":true,"className":"table table-rounded my-0 table-striped","children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Visitors"}],["$","th",null,{"children":"Amount"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":"Gypsy Amount (Indian)"}],["$","td",null,{"children":"₹1270"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"Canter Amount (Indian)"}],["$","td",null,{"children":"₹856"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"Gypsy Amount (Foreigner)"}],["$","td",null,{"children":"₹2084"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"Canter Amount (Foreigner)"}],["$","td",null,{"children":"₹1670"}]]}]]}]]}],["$","h4",null,{"className":"mt-3","children":"8. Kumbhalgarh Wildlife Sanctuary: An editorial A walk along history and wilderness"}],["$","div",null,{"className":"slug-image-container my-2","children":["$","$L2",null,{"src":"/Images/Blog/wildlife-kumbhalgarh.png","alt":"Kumbhalgarh Wildlife Sanctuary","title":"High angle view of bongos on grassy field","width":1500,"height":600}]}],["$","p",null,{"className":"mb-0","children":["Stretching around the circumference of the historical Kumbhalgarh Fort, the ",["$","a",null,{"href":"https://en.wikipedia.org/wiki/Kumbhalgarh_Wildlife_Sanctuary","target":"_blank","rel":"noopener noreferrer","className":"anchor text-web fw-bold","children":"Kumbhalgarh Wildlife Sanctuary"}]," is blended with historical importance as well as bio-geographical richness. This sanctuary spreads over the Aravalli range of hills and encompasses many forms of life, like leopards, wolves, Hyenas, jungle cats, etc., with many different species of trees and plants. The ideal time for it is in the cold season which ranges from October to March because the climate will be fine and many animals are easily spotted. This sanctuary’s terrain offers some challenging terrains and magnificent sceneries that explain why visitors interested in wildlife would like to visit the place."]}],["$","p",null,{"className":"fw-bold mt-2 mb-0","children":"Things to do:"}],["$","p",null,{"className":"mb-0","children":"• Walking tracks and trails offering sights of unusual fauna"}],["$","p",null,{"className":"mb-0","children":"• After that, although the sanctuary trek should be of interest, go to the Kumbhalgarh Fort, which has UNESCO World Heritage Site status."}],["$","p",null,{"className":"mb-0","children":"• Having a taste of night camping amidst beautiful stars in the Aravalli hills"}],["$","p",null,{"className":"fw-bold mt-2 mb-0","children":"Timings:"}],["$","$L3",null,{"responsive":true,"className":"table table-rounded my-0 table-striped","children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Month"}],["$","th",null,{"children":"Morning Trip Timing"}],["$","th",null,{"children":"Evening Trip Timing"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":"1 October to 31 October"}],["$","td",null,{"children":"6:30 AM - 10:00 AM"}],["$","td",null,{"children":"2:30 PM - 6:00 PM"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"1 November to 31 January"}],["$","td",null,{"children":"7:00 AM - 10:30 AM"}],["$","td",null,{"children":"2:00 PM - 5:30 PM"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"1 February to 31 March"}],["$","td",null,{"children":"6:30 AM - 10:00 AM"}],["$","td",null,{"children":"2:30 PM - 6:00 PM"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"1 April to 16 May"}],["$","td",null,{"children":"6:00 AM - 09:30 AM"}],["$","td",null,{"children":"3:00 PM - 6:30 PM"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"16 May to 30 June"}],["$","td",null,{"children":"6:00 AM - 09:30 AM"}],["$","td",null,{"children":"3:30 PM - 7:00 PM"}]]}]]}]]}],["$","h4",null,{"className":"mt-3","children":"9. Jaisamand Wildlife Sanctuary: Wilderness by the Lake"}],["$","div",null,{"className":"slug-image-container my-2","children":["$","$L2",null,{"src":"/Images/Blog/wildlife-jaisalmer.png","alt":"Jaisamand Wildlife Sanctuary by the Lake","title":"Beautiful shot of deer standing on a grassy field with a blurred natural","width":1500,"height":600}]}],["$","p",null,{"className":"mb-0","children":["Located in proximity to ",["$","strong",null,{"children":"Jaisamand Lake"}],", the second largest artificial lake in Asia, the ",["$","a",null,{"href":"https://en.wikipedia.org/wiki/Dhebar_Lake#Jaisamand_Wildlife_Sanctuary","target":"_blank","rel":"noopener noreferrer","className":"anchor text-web fw-bold","children":"Jaisamand Wildlife Sanctuary"}]," is a blend of water and land Wildlife tours. It is the reserve of panthers, deer and crocodiles among the land animals and birds and a migrational land for birds. The location that has been adopted is the lake; with the added advantage of the beauty of the whole place, the sanctuary becomes an out-of-the-ordinary experience for anybody willing to have an experience of adventure in nature."]}],["$","p",null,{"className":"fw-bold mt-2 mb-0","children":"Things to do:"}],["$","p",null,{"className":"mb-0","children":"• Hiking around Jaisamand Lake and into the woods"}],["$","p",null,{"className":"mb-0","children":"• Boat service for bird watching and crocodile sighting in Jaisamand Lake"}],["$","p",null,{"className":"mb-0","children":"• Nature and wildlife, especially birds and fish photography in a calm and magnificent climate"}],["$","p",null,{"className":"fw-bold mt-2 mb-0","children":"Timings:"}],["$","$L3",null,{"responsive":true,"className":"table table-rounded my-0 table-striped","children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Month"}],["$","th",null,{"children":"Morning Trip Timing"}],["$","th",null,{"children":"Evening Trip Timing"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":"1 October to 31 October"}],["$","td",null,{"children":"6:30 AM - 10:00 AM"}],["$","td",null,{"children":"2:30 PM - 6:00 PM"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"1 November to 31 January"}],["$","td",null,{"children":"7:00 AM - 10:30 AM"}],["$","td",null,{"children":"2:00 PM - 5:30 PM"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"1 February to 31 March"}],["$","td",null,{"children":"6:30 AM - 10:00 AM"}],["$","td",null,{"children":"2:30 PM - 6:00 PM"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"1 April to 16 May"}],["$","td",null,{"children":"6:00 AM - 09:30 AM"}],["$","td",null,{"children":"3:00 PM - 6:30 PM"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"16 May to 30 June"}],["$","td",null,{"children":"6:00 AM - 09:30 AM"}],["$","td",null,{"children":"3:30 PM - 7:00 PM"}]]}]]}]]}],["$","p",null,{"className":"fw-bold mt-2 mb-0","children":"Charges:"}],["$","$L3",null,{"responsive":true,"className":"table table-rounded my-0 table-striped","children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Visitors"}],["$","th",null,{"children":"Amount"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":"Gypsy Amount (Indian)"}],["$","td",null,{"children":"₹1270"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"Canter Amount (Indian)"}],["$","td",null,{"children":"₹856"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"Gypsy Amount (Foreigner)"}],["$","td",null,{"children":"₹2084"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"Canter Amount (Foreigner)"}],["$","td",null,{"children":"₹1670"}]]}]]}]]}],["$","h4",null,{"className":"mt-3","children":"10. Sajjangarh Wildlife Sanctuary (Monsoon Palace): A Rainy Season Paradise"}],["$","div",null,{"className":"slug-image-container my-2","children":["$","$L2",null,{"src":"/Images/Blog/wildlife-sajjangarh.jpg","alt":"Sajjangarh Wildlife Sanctuary","title":"Sajjangarh Wildlife Sanctuary: Monsoon Palace Escape","width":1500,"height":600}]}],["$","p",null,{"className":"mb-0","children":["Located in the Aravalli range overlooking the city of Udaipur, ",["$","a",null,{"href":"https://en.wikipedia.org/wiki/Sajjangarh_Wildlife_Sanctuary","target":"_blank","rel":"noopener noreferrer","className":"anchor text-web fw-bold","children":"Sajjangarh Wildlife Sanctuary"}],", or Monsoon Palace Sanctuary, is an ideal place for literal adventurers, specifically during the monsoon. This sanctuary is located around ",["$","strong",null,{"children":"Monsoon Palace"}],", which is an extremely beautiful site of picturesque lakes and royal palaces along with Jharokhas in Udai Sagar and Swaroop Sagar, mainly including rain forest and greenery sights of Udai Sagar. Wildlife species sheltered in the sanctuary include sambhar, wild boars, hyenas and bird life."]}],["$","p",null,{"className":"fw-bold mt-2 mb-0","children":"Things to do:"}],["$","p",null,{"className":"mb-0","children":"• Walking through the fog in the rain forest for the lover of adventures during the period of monsoon."}],["$","p",null,{"className":"mb-0","children":"• Visiting Mardan Palace finally with the view over the sanctuary and Udaipur"}],["$","p",null,{"className":"mb-0","children":"• Picnicking and feeding the fishes, as the sanctuary supports different types of avian after a day’s rainfall."}],["$","p",null,{"className":"fw-bold mt-2 mb-0","children":"Timings:"}],["$","$L3",null,{"responsive":true,"className":"table table-rounded my-0 table-striped","children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Month"}],["$","th",null,{"children":"Morning Trip Timing"}],["$","th",null,{"children":"Evening Trip Timing"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":"1 October to 31 October"}],["$","td",null,{"children":"6:30 AM - 10:00 AM"}],["$","td",null,{"children":"2:30 PM - 6:00 PM"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"1 November to 31 January"}],["$","td",null,{"children":"7:00 AM - 10:30 AM"}],["$","td",null,{"children":"2:00 PM - 5:30 PM"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"1 February to 31 March"}],["$","td",null,{"children":"6:30 AM - 10:00 AM"}],["$","td",null,{"children":"2:30 PM - 6:00 PM"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"1 April to 16 May"}],["$","td",null,{"children":"6:00 AM - 09:30 AM"}],["$","td",null,{"children":"3:00 PM - 6:30 PM"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"16 May to 30 June"}],["$","td",null,{"children":"6:00 AM - 09:30 AM"}],["$","td",null,{"children":"3:30 PM - 7:00 PM"}]]}]]}]]}],["$","p",null,{"className":"fw-bold mt-2 mb-0","children":"Charges:"}],["$","$L3",null,{"responsive":true,"className":"table table-rounded my-0 table-striped","children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Visitors"}],["$","th",null,{"children":"Amount"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":"Adult (Indian)"}],["$","td",null,{"children":"Rs 30/- per head"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"Golf Car"}],["$","td",null,{"children":"Rs 50/- per head"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"Adult (Foreigner)"}],["$","td",null,{"children":"Rs 300/- per head"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"Electric Car"}],["$","td",null,{"children":"Rs 30/- per head"}]]}]]}]]}],["$","h4",null,{"className":"mt-3","children":"11. Jawai Leopard Safari: Wildlife Tour in Rajasthan"}],["$","div",null,{"className":"slug-image-container my-2","children":["$","$L2",null,{"src":"/Images/Blog/wildlife-jawai.png","alt":"Jawai Leopard Safari","title":"Close up shot of a leopard lying on the ground","width":1500,"height":600}]}],["$","p",null,{"className":"mb-0","children":["Among the attractions of the area for tourists and lovers of animals and adventures, the Jawai Leopard Safari is a concentrated version of the ",["$","a",null,{"href":"https://www.rajasthantourpackages.in/15days-rajasthan-wildlife-and-historical-tour","target":"_blank","rel":"noopener noreferrer","className":"anchor text-web fw-bold","children":"wildlife tour"}]," in the region of Rajasthan. Located in the picturesque Jawai area, this safari helps you explore the difficult terrains of aravalli hills famous as the wonder of the world. The safari is famous more for its leopard, of which the visitor can sight this animal in its natural environment. The Jawai Leopard Safari is the best place to spot these amazing big cats at work mostly early in the morning and late in the evening."]}],["$","p",null,{"className":"mb-0","children":"Talking about other animals the region encompasses spotted deer, crocodiles, hyenas and an incredible number of bird creatures making the photography enthusiasts and bird watchers fall in love with the place. There are also possibilities to witness daily life of the population which is living in the villages neighboring the safari, and this is a plus to the visiting experience."}],["$","p",null,{"className":"mb-0","children":["Panoramic natural beauty, variety of birds and wild animals, in addition to the opportunity to meet leopards, the ",["$","strong",null,{"children":"Jawai Leopard Safari"}]," offers an exciting tour in Rajasthan."]}],["$","p",null,{"className":"fw-bold mt-2 mb-0","children":"Things to do:"}],["$","p",null,{"className":"mb-0","children":"• Seeing Leopards and other animals during the safari"}],["$","p",null,{"className":"mb-0","children":"• Bird watching in the different habitat"}],["$","p",null,{"className":"mb-0","children":"• Culturally, I went around the local villages to discover the whole culture."}],["$","p",null,{"className":"fw-bold mt-2 mb-0","children":"Timing:"}],["$","$L3",null,{"responsive":true,"className":"table table-rounded my-0 table-striped","children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Season"}],["$","th",null,{"children":"Morning Trip Timing"}],["$","th",null,{"children":"Evening Trip Timing"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":"Summer Season"}],["$","td",null,{"children":"5:30 AM – 08:30 AM"}],["$","td",null,{"children":"4:00 PM – 7:00 PM"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"Winter Season"}],["$","td",null,{"children":"6:00 AM – 09:00 AM"}],["$","td",null,{"children":"4:00 PM – 7:00 PM"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"Bird, Crocodile & Jawai Dam Visit"}],["$","td",null,{"children":"7:00 AM – 10:00 AM"}],["$","td",null,{"children":"-"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"Village Safari"}],["$","td",null,{"children":"9:00 AM - 11:00 AM"}],["$","td",null,{"children":"-"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"Jungle Safari"}],["$","td",null,{"children":"5:30 AM - 08:00 AM"}],["$","td",null,{"children":"-"}]]}]]}]]}],["$","p",null,{"className":"fw-bold mt-2 mb-0","children":"Charges:"}],["$","$L3",null,{"responsive":true,"className":"table table-rounded my-0 table-striped","children":[["$","thead",null,{"children":["$","tr",null,{"children":[["$","th",null,{"children":"Visitors"}],["$","th",null,{"children":"Amount"}]]}]}],["$","tbody",null,{"children":[["$","tr",null,{"children":[["$","td",null,{"children":"Gypsy Amount (Indian)"}],["$","td",null,{"children":"Rs 4000/- Per Gypsy"}]]}],["$","tr",null,{"children":[["$","td",null,{"children":"Gypsy Amount (Foreigner)"}],["$","td",null,{"children":"-"}]]}]]}]]}],["$","h4",null,{"className":"fw-bold mt-2 mb-0","children":"Conclusion:"}],["$","p",null,{"className":"mb-0","children":["Rajasthan is not all about palace and fort; it is all about the wild and the wilder. For passionates who look for an accurate feeling of the wild nature and who want to feel the taste of the hunting but strictly non-lethal, there is nothing better than the ",["$","strong",null,{"children":"Rajasthan wildlife trails for adventurers"}]," which combined the toughest terrains for the harshest climate and the treks along with the sightseeing of different regions along with various types of forests that give you the preference to see the animals in the natural habitats. If you are hiking through the jungle, traveling through desert or embarking on a safari in savannah, the wildlife tours of Rajasthan will definitely not leave you disappointed along with providing memories of a lifetime."]}],["$","hr",null,{}],["$","p",null,{"className":"fw-bold mt-2 mb-0","children":"FAQs"}],["$","p",null,{"className":"fw-bold mt-2 mb-0","children":"1. Which parks are worth visiting in Rajasthan?"}],["$","p",null,{"className":"mb-0","children":["The finest National parks tourists should visit in India are ",["$","a",null,{"href":"https://www.rajasthantourpackages.in/rajasthan-tour-from-ranthambore","target":"_blank","rel":"noopener noreferrer","className":"anchor text-web fw-bold","children":"Ranthambore National Park"}],", Sariska Tiger Reserve and Keoladeo National Park. There are many similarities between the two parks; they both have generic products like tigers, wild animals, birds, and so on, but one can do it differently."]}],["$","p",null,{"className":"fw-bold mt-2 mb-0","children":"2. What wild animals can a tourist hope to encounter in Ranthambore National Park?"}],["$","p",null,{"className":"mb-0","children":"Local people of Rajasthan tour From Ranthambore this way will be able to get the best out of the tiger-spotting safaris inside the park. The conservation value of this park is relatively high & some historical buildings further enhance the park beauty."}],["$","p",null,{"className":"fw-bold mt-2 mb-0","children":"3. What are the best time to visit Ranthambore National Park?"}],["$","p",null,{"className":"mb-0","children":"Some of the most famous adventurous activities for wildlife tours are jeep safari, nature walks and camel safari tours. All such activities make the visitors more aware of the natural systems in the region as they participate in respective activities."}],["$","p",null,{"className":"fw-bold mt-2 mb-0","children":"4. What is the best time to go bird watching in Keoladeo National Park?"}],["$","p",null,{"className":"mb-0","children":["The ideal months to go bird watching in ",["$","strong",null,{"children":"Keoladeo National Park"}]," is during the migration periods, which fall between October and March. Tourists can observe different endangered birds and other animals, and the park is part of a UNESCO list."]}],["$","p",null,{"className":"fw-bold mt-2 mb-0","children":"5. In what ways do the camel safaris improve the cultural experience in the region of Rajasthan?"}],["$","p",null,{"className":"mb-0","children":"Camel safaris are ideal to move through some of the world most extensive and arid terrains while interacting with some of the native tribes. What is more important is that it allows tourists to discover the native customs and traditions and value the history and culture of Rajasthan.        "}],["$","p",null,{"className":"fw-bold mt-2 mb-0","children":"6. What is in it for the visitor to receive customized adventure packages in Rajasthan?"}],["$","p",null,{"className":"mb-0","children":"New travel products in Rajasthan make it possible to take packaged trips where choices of activities like cooking demonstrations and visits to villages are provided. The guides improve these experiences with their experience to give the guests a better understanding of the area."}]]}]]}],["$","div",null,{"className":"insider px-3 mt-3","children":["$","$L4",null,{"selectedBlog":"Rajasthan Wildlife Trails: A Paradise for Adventurers Explorers"}]}],["$","div",null,{"className":"insider px-3 mt-3","children":[["$","div",null,{"className":"bg-tertary-down mt-3 p-2 rounded-4 d-flex flex-column justify-content-center align-items-center","children":[["$","span",null,{"className":"color-tertary bg-tertary-down rounded-5 p-2 my-2 d-flex justify-content-center align-items-center","children":["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 448 512","children":["$undefined",[["$","path","0",{"d":"M352 320c-22.608 0-43.387 7.819-59.79 20.895l-102.486-64.054a96.551 96.551 0 0 0 0-41.683l102.486-64.054C308.613 184.181 329.392 192 352 192c53.019 0 96-42.981 96-96S405.019 0 352 0s-96 42.981-96 96c0 7.158.79 14.13 2.276 20.841L155.79 180.895C139.387 167.819 118.608 160 96 160c-53.019 0-96 42.981-96 96s42.981 96 96 96c22.608 0 43.387-7.819 59.79-20.895l102.486 64.054A96.301 96.301 0 0 0 256 416c0 53.019 42.981 96 96 96s96-42.981 96-96-42.981-96-96-96z","children":[]}]]],"className":"$undefined","style":{"color":"$undefined"},"height":"1em","width":"1em","xmlns":"http://www.w3.org/2000/svg"}]}],["$","h3",null,{"className":"text-center text-capitalize fw-normal","children":["share this ",["$","span",null,{"className":"fw-bold","children":" blog"}]]}]]}],["$","div",null,{"className":"col","children":["$","div",null,{"className":"rounded-4 py-4 social-icons d-flex justify-content-center gap-3","children":[["$","a",null,{"href":"https://www.facebook.com/sharer/sharer.php?u=https://rajasthantourpackages.in/blog/wildlife-trails-rajasthan-nature-adventures","target":"_blank","rel":"noopener noreferrer","className":"border rounded-5 border-black text-black p-3 d-flex","children":["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 512 512","children":["$undefined",[["$","path","0",{"d":"M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z","children":[]}]]],"className":"$undefined","style":{"color":"$undefined"},"height":"1em","width":"1em","xmlns":"http://www.w3.org/2000/svg"}]}],["$","a",null,{"href":"https://www.instagram.com/?url=https://rajasthantourpackages.in/blog/wildlife-trails-rajasthan-nature-adventures","target":"_blank","rel":"noopener noreferrer","className":"border rounded-5 border-black text-black p-3 d-flex","children":["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 448 512","children":["$undefined",[["$","path","0",{"d":"M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z","children":[]}]]],"className":"$undefined","style":{"color":"$undefined"},"height":"1em","width":"1em","xmlns":"http://www.w3.org/2000/svg"}]}],["$","a",null,{"href":"https://twitter.com/intent/tweet?url=https://rajasthantourpackages.in/blog/wildlife-trails-rajasthan-nature-adventures&text=Check+this+out!","target":"_blank","rel":"noopener noreferrer","className":"border rounded-5 border-black text-black p-3 d-flex","children":["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 512 512","children":["$undefined",[["$","path","0",{"d":"M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z","children":[]}]]],"className":"$undefined","style":{"color":"$undefined"},"height":"1em","width":"1em","xmlns":"http://www.w3.org/2000/svg"}]}],["$","a",null,{"href":"https://api.whatsapp.com/send?text=Check+out+this+blog!+https://rajasthantourpackages.in/blog/wildlife-trails-rajasthan-nature-adventures","target":"_blank","rel":"noopener noreferrer","className":"border rounded-5 border-black text-black p-3 d-flex","children":["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 448 512","children":["$undefined",[["$","path","0",{"d":"M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z","children":[]}]]],"className":"$undefined","style":{"color":"$undefined"},"height":"1em","width":"1em","xmlns":"http://www.w3.org/2000/svg"}]}],["$","a",null,{"href":"mailto:?subject=Check+out+this+blog&body=https://rajasthantourpackages.in/blog/wildlife-trails-rajasthan-nature-adventures","className":"border rounded-5 border-black text-black p-3 d-flex","children":["$","svg",null,{"stroke":"currentColor","fill":"currentColor","strokeWidth":"0","viewBox":"0 0 512 512","children":["$undefined",[["$","path","0",{"d":"M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z","children":[]}]]],"className":"$undefined","style":{"color":"$undefined"},"height":"1em","width":"1em","xmlns":"http://www.w3.org/2000/svg"}]}]]}]}],["$","hr",null,{}],["$","h4",null,{"className":"my-2 text-center text-capitalize","children":["$","$L5",null,{"href":"https://rajasthantourpackages.in.in/contact-us","style":{"textDecoration":"underline","color":"var(--color-tertary)","fontWeight":"bold"},"children":"contact us"}]}]]}]]}],["$","div",null,{"className":"col-lg-4 col-ms-12 col-sm-12 side-nav px-sm-0 px-md-0 px-lg-2","children":[["$","div",null,{"className":"sidebar-menu w-100 z-9999 mb-3 search-sidebar flex-column","children":[["$","p",null,{"className":"mb-0 text-uppercase","children":["$","span",null,{"className":"blog-subhead-gradient d-inline","children":"Wildlife"}]}],["$","h2",null,{"className":"text-capitalize py-1","children":"search"}],["$","$L6",null,{"blogs":[{"author":"Admin","image":"/Images/Blog/wildlife-banner.png","date":"2024-11-16","heading":"Rajasthan Wildlife Trails: A Paradise for Adventurers Explorers","slug":"wildlife-trails-rajasthan-nature-adventures","description":"Rich in a royal legacy and magnificent forts and palaces Rajasthan also boasts of some of the best Wildlife Sanctuary and National Park in India. Peace and serenity are two qualities that no traveler would associate with this enthralling state of Rajasthan.","category":"Wildlife","more":"$7"},{"author":"Sandeep Verma","image":"/Images/Card/kerala.webp","date":"2024-06-25","heading":"A Guide to Bird Watching in India","slug":"a-guide-to-bird-watching-in-india","description":"India’s diverse habitats make it a paradise for bird watchers. This guide covers the best places to observe rare and exotic bird species across the country.","category":"Wildlife","more":"From the migratory birds of Bharatpur to the rich bird life in Kerala’s forests, \n                India offers prime spots for bird watching enthusiasts to catch a glimpse of vibrant \n                and rare species."}],"styles":"rounded-4 w-100 p-3","placeholder":"search here"}]]}],["$","div",null,{"className":"sidebar-menu mb-3 w-100 z-9999 flex-column","children":[["$","h2",null,{"className":"text-capitalize py-1","children":["popular ",["$","span",null,{"className":"fw-normal d-inline","children":"insights"}]]}],["$","ul",null,{"className":"list-group list-group-flush w-100","children":[["$","li","0",{"className":"list-group-item hovered-link","children":["$","$L5",null,{"className":"w-100 px-0 d-flex border-0 ","href":"wildlife-trails-rajasthan-nature-adventures","children":"Rajasthan Wildlife Trails: A Paradise for Adventurers Explorers"}]}],["$","li","1",{"className":"list-group-item hovered-link","children":["$","$L5",null,{"className":"w-100 px-0 d-flex border-0 ","href":"a-guide-to-bird-watching-in-india","children":"A Guide to Bird Watching in India"}]}]]}]]}],["$","div",null,{"className":"sidebar-menu w-100 z-9999 flex-column","children":[["$","h2",null,{"className":"text-capitalize py-1","children":"comments"}],["$","ul",null,{"className":"p-0 w-100 d-flex justify-content-start flex-wrap align-items-center gap-2","children":["$","p",null,{"className":"mb-0 text-capitalize","children":"no comments to show"}]}]]}],["$","div",null,{"className":"sidebar-menu w-100 z-9999 flex-column","children":[["$","h2",null,{"className":"text-capitalize py-1","children":"categories"}],["$","ul",null,{"className":"p-0 w-100 d-flex justify-content-start flex-wrap align-items-center gap-2","children":[["$","li","0",{"className":"list-group-item","children":["$","$L5",null,{"className":"w-100 d-flex border-0","href":"/blog/categories/food","children":[" ",["$","span",null,{"className":"color-tertary me-1","children":"•"}]," ","food"]}]}],["$","li","1",{"className":"list-group-item","children":["$","$L5",null,{"className":"w-100 d-flex border-0","href":"/blog/categories/wildlife","children":[" ",["$","span",null,{"className":"color-tertary me-1","children":"•"}]," ","wildlife"]}]}],["$","li","2",{"className":"list-group-item","children":["$","$L5",null,{"className":"w-100 d-flex border-0","href":"/blog/categories/tour-and-travels","children":[" ",["$","span",null,{"className":"color-tertary me-1","children":"•"}]," ","tour & travels"]}]}],["$","li","3",{"className":"list-group-item","children":["$","$L5",null,{"className":"w-100 d-flex border-0","href":"/blog/categories/history-and-culture","children":[" ",["$","span",null,{"className":"color-tertary me-1","children":"•"}]," ","history & culture"]}]}],["$","li","4",{"className":"list-group-item","children":["$","$L5",null,{"className":"w-100 d-flex border-0","href":"/blog/categories/news-and-updates","children":[" ",["$","span",null,{"className":"color-tertary me-1","children":"•"}]," ","News & Updates"]}]}],["$","li","5",{"className":"list-group-item","children":["$","$L5",null,{"className":"w-100 d-flex border-0","href":"/blog/categories/fair-and-festivals","children":[" ",["$","span",null,{"className":"color-tertary me-1","children":"•"}]," ","Fair & Festivals"]}]}]]}]]}]]}]]}]}]}],null],null],null]},[null,["$","$L600",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","$601","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L602",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[null,["$","$L600",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L602",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined"}]],null]},[[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d3df112486f97f47.css","precedence":"next","crossOrigin":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/css/e22adf06f5a27a65.css","precedence":"next","crossOrigin":"$undefined"}]],["$","html",null,{"lang":"en","children":[["$","head",null,{"children":[["$","meta",null,{"name":"google-site-verification","content":"PU85YcSvNVLnD66cxW67fVE1Xig2NKBngonkdHmyb5s"}],["$","link",null,{"rel":"preload","href":"https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Lobster&display=swap","as":"style"}],["$","link",null,{"rel":"stylesheet","href":"https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Lobster&display=swap"}],["$","noscript",null,{"children":["$","link",null,{"rel":"stylesheet","href":"https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Lobster&display=swap"}]}]]}],["$","body",null,{"children":[["$","$L603",null,{}],["$","$L604",null,{}],["$","$L600",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L602",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[]}],["$","$L605",null,{}]]}]]}]],null],null],["$L606",null]]]]
+606:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Rajasthan Wildlife Trails for Adventurers | Rajasthan Tour Packages"}],["$","meta","3",{"name":"description","content":"Check out exciting wildlife tours in Rajasthan with Rajasthan Tour Packages. Explore Ranthambore, Sariska and lots more for a close glimpse of the wild."}],["$","link","4",{"rel":"author","href":"https://www.rajasthantourpackages.in"}],["$","meta","5",{"name":"author","content":"Rajasthan Tour Packages"}],["$","meta","6",{"name":"publisher","content":"Rajasthan Tour Packages"}],["$","meta","7",{"name":"robots","content":"index, follow"}],["$","link","8",{"rel":"icon","href":"/rajasthan-travel-helpline.png"}]]
+1:null
