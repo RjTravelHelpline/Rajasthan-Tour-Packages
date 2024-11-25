@@ -76,7 +76,7 @@ const BlogNavbar = () => {
     return (
         <>
             <div
-                className={`container-fluid blog-nav d-flex justify-content-center align-items-center px-0 bg-tertary `}
+                className={`container-fluid blog-nav`}
             >
                 <div
                     className={`w-100 row d-flex justify-content-between align-items-center`}

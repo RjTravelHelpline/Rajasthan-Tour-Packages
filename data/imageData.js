@@ -101,7 +101,6 @@ const fatepurSikariImg = '/Images/Card/fatepur-sikari.jpg';
 const delhiFortImg = '/Images/Card/delhi-fort.jpg';
 const abhaneriImg = '/Images/Card/abhaneri.jpg';
 const puneBannerImg = '/Images/Banners/pune-banner.webp';
-
 // banners
 // Rajasthan Cities
 const jaipurBannerImg = '/Images/Banners/jaipur-banner.webp';

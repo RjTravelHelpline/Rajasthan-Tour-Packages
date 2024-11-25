@@ -103,10 +103,12 @@
     }
     &:hover {
       img {
-        transform: scale(1.1);
+        transform: scale(1.05);
+        filter: opacity(0.85);
       }
     }
     h3 {
+      font-size: clamp(1.4em, 1.5vw, 1.85em) !important;
       &:hover {
         text-decoration: underline !important;
         cursor: pointer;

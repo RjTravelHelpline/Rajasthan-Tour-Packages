@@ -12,7 +12,7 @@ const BlogsSection = () => {
 
   return (
     <>
-      <div className="container-fluid section-01 py-2 position-relative">
+      <div className="container-fluid py-2 position-relative">
         <div className="container blogs mb-5">
           <div className="row py-2 px-2 d-flex justify-content-center align-items-center">
             <div className="d-flex-justify-content-center align-items-center">

@@ -1,4 +1,6 @@
 import Breadcrumb from "@/components/Breadcrumb";
+import TourCarousel from "@/components/TourCarousel";
+import { allCitiesImages } from "@/data/imageData";
 
 export const metadata = {
     title: '06-10 days rajasthan tours',
@@ -16,14 +18,25 @@ export const metadata = {
     },
 }
 const Six_Ten_DaysRajasthanTours = () => {
-
+    const images = [
+        {
+            src: allCitiesImages.jaipur.jaipurBanner01.src,
+            alt: allCitiesImages.jaipur.jaipurBanner01.alt,
+            title: allCitiesImages.jaipur.jaipurBanner01.title
+        },
+    ];
+    const content = [
+        {
+            duration: null,
+            title: '06-10 days rajasthan tours',
+            subhead: null
+        },
+    ];
     return (
         <>
             <Breadcrumb breadcrumbKey="_06_10Days" />
-            <div className="container-fluid py-4 bg-black text-white">
-                <div className="row">
-                    <h1 className="text-5">06-10 days rajasthan tours</h1>
-                </div>
+            <div className="container-fluid days-banner-container home-banner destination-banner px-0 bg-tertary-down">
+                <TourCarousel images={images} content={content} />
             </div>
         </>
     );

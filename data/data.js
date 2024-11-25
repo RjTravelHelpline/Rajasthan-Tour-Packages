@@ -1240,7 +1240,7 @@ export const reviewers = [
     name: 'OnAir53686466218',
     Images: [
       {
-        src: allGalleryImages.img26.src,
+        src: allGalleryImages.img24.src,
         title: 'Cozy cooking class and culture',
         alt: 'Customer review by OnAir53686466218: Cozy cooking class and culture',
       },

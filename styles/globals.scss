@@ -346,6 +346,10 @@ body {
 }
 
 // bootstrap custom classes
+
+.container-fluid:not(.blog-nav) {
+  max-width: 1600px !important;
+}
 .pt-6 {
   padding-top: 3.5em;
 }
@@ -699,5 +703,3 @@ table {
     text-decoration: underline !important;
   }
 }
-
-

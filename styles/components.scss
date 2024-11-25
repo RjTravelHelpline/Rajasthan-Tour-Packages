@@ -29,7 +29,6 @@
     }
     .logo2 {
       font-size: clamp(0.65em, 2vw, 0.75em) !important;
-      // font-weight: normal !important;
       font-weight: 600 !important;
       color: var(--color-primary);
     }
@@ -47,7 +46,6 @@
       background-color: var(--color-tertary);
     }
   }
-
   .nav-item {
     position: relative;
   }
@@ -380,8 +378,7 @@
   flex-wrap: nowrap !important;
   justify-content: center;
   align-items: center;
-  // overflow: scroll;
-  top: 100px;
+  top: 73px;
   background-color: #000;
   box-shadow: var(--color-shadow);
   @media (max-width: 768px) {
@@ -409,7 +406,7 @@
 
   @media screen and (max-width: 900px) {
     // display: none;
-    top: 66px;
+    top: 70px;
     justify-content: start;
     overflow-x: scroll;
     flex-wrap: nowrap;
@@ -421,11 +418,14 @@
 
 // blog nav
 .blog-nav {
+  width: 100 !important;
   background-color: var(--color-black) !important;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
   .row {
     box-shadow: none !important;
-
+width: 100% !important;
     a {
       color: var(--color-primary) !important;
     }
@@ -654,9 +654,22 @@
   background-color: black !important;
   padding-bottom: 130px !important;
 }
+.certifications {
+  .image-link {
+    width: auto !important;
+    img {
+      width: 100% !important;
+      height: auto !important;
+    }
+  }
+}
 
 .footer-container {
   .image-link {
+    width: auto !important;
+    img {
+      height: auto !important;
+    }
     &:hover {
       transform: translateX(0) !important;
     }
@@ -869,6 +882,10 @@
         height: 100%;
         object-fit: cover !important;
         border-radius: 16px;
+        transition: .25s ease-in-out;
+        &:hover {
+          filter: opacity(0.85);
+        }
       }
     }
     &::after {
@@ -1512,7 +1529,7 @@ form {
     &:hover img {
       filter: blur(2px) brightness(0.6);
       background-color: var(--color-tertary-down);
-      transform: scale(1.12);
+      transform: scale(1.05);
     }
   }
   .tours {
@@ -1770,7 +1787,7 @@ form {
     }
 
     &:hover img {
-      transform: scale(1.1);
+      transform: scale(1.05);
     }
     .card-header {
       border-radius: 16px;

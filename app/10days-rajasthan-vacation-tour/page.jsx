@@ -54,30 +54,13 @@ const TenDaysRajasthanVacationTour = () => {
                             <h2
                                 className="text-capitalize px-3 mb-3 text-center fw-normal"
                                 dangerouslySetInnerHTML={{ __html: tourOverview.title }}
-                            ></h2>
-
-                            <p
+                            ></h2><p
                                 className="home-para px-3"
                                 dangerouslySetInnerHTML={{
-                                    __html: tourOverview.content.slice(0, 1),
+                                    __html: tourOverview.content[0],
                                 }}
-                            ></p>   <ReadMoreToggle>
-                                <>
-                                    {' '}
-                                    <p
-                                        className="home-para px-3"
-                                        dangerouslySetInnerHTML={{
-                                            __html: tourOverview.content.slice(1, 2),
-                                        }}
-                                    ></p>
-                                    <p
-                                        className="home-para px-3"
-                                        dangerouslySetInnerHTML={{
-                                            __html: tourOverview.content.slice(2, 3),
-                                        }}
-                                    ></p>
-                                </>   </ReadMoreToggle>
-                            <span className="py-3 d-block"></span>
+                            ></p>
+                            <ReadMoreToggle className="text-justify home-para px-3" tag="div" contentArray={tourOverview.content.slice(1)} />
                         </div>
                     </div>
                 </div>
@@ -93,7 +76,6 @@ const TenDaysRajasthanVacationTour = () => {
                             ></h2>
                             <div className="w-100 px-2 days-highlights-pts">
                                 {tourHighlights.content
-                                    .slice(0, 3)
                                     .map((item, index) => (
                                         <p className="home-para px-2 py-1 bg-white" key={index}>
                                             <span className="me-2">
@@ -102,18 +84,6 @@ const TenDaysRajasthanVacationTour = () => {
                                             {item}
                                         </p>
                                     ))}
-                                <ReadMoreToggle buttonText="Read More">
-                                    {tourHighlights.content
-                                        .slice(3)
-                                        .map((item, index) => (
-                                            <p className="home-para px-2 py-1 bg-white" key={index}>
-                                                <span className="me-2">
-                                                    <FaStarOfLife className="icon" />
-                                                </span>
-                                                {item}
-                                            </p>
-                                        ))}
-                                </ReadMoreToggle>
                             </div>
                         </div>
                     </div>
