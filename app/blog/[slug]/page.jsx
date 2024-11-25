@@ -1,22 +1,19 @@
+import Image from "next/image";
 import Comment from '@/components/CommentSection';
 import SearchBar from '@/components/SearchBar';
 import { blogCategories, blogs, getBlogsByCategory } from '@/data/Blogs';
-import Image from 'next/image';
 import Link from 'next/link';
-import { FaEnvelope, FaFacebook, FaInstagram, FaShare, FaShareAlt, FaTwitter, FaUser, FaWhatsapp } from 'react-icons/fa';
+import {
+    FaEnvelope,
+    FaFacebook,
+    FaInstagram,
+    FaShareAlt,
+    FaTwitter,
+    FaUser,
+    FaWhatsapp,
+} from 'react-icons/fa';
 import { FaCalendarDays } from 'react-icons/fa6';
 
-export const metadata = {
-    title: 'Rajasthan Wildlife Trails for Adventurers | Rajasthan Tour Packages',
-    description: "Check out exciting wildlife tours in Rajasthan with Rajasthan Tour Packages. Explore Ranthambore, Sariska and lots more for a close glimpse of the wild.",
-};
-
-
-export async function generateStaticParams() {
-    return blogs.map((blog) => ({
-        slug: blog.slug,
-    }));
-}
 const BlogPost = ({ params }) => {
 
     const blog = blogs.find((b) => b.slug === params.slug);
@@ -57,9 +54,9 @@ const BlogPost = ({ params }) => {
                             </div>
                             <div className="insider px-3 mt-3">
                                 <div className="bg-tertary-down mt-3 p-2 rounded-4 d-flex flex-column justify-content-center align-items-center">
-                                <span className="color-tertary bg-tertary-down rounded-5 p-2 my-2 d-flex justify-content-center align-items-center">
-                                    <FaShareAlt />
-                                </span>
+                                    <span className="color-tertary bg-tertary-down rounded-5 p-2 my-2 d-flex justify-content-center align-items-center">
+                                        <FaShareAlt />
+                                    </span>
                                     <h3 className='text-center text-capitalize fw-normal'>share this <span className="fw-bold"> blog</span></h3>
                                 </div>
                                 <div className="col">
