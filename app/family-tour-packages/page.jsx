@@ -1,6 +1,4 @@
-
 import Breadcrumb from "@/components/Breadcrumb";
-import { exclusiveTourPackagesData } from "@/data/pagesData";
 export const metadata = {
     title: 'family tour packages',
     description: '',
@@ -18,7 +16,6 @@ export const metadata = {
 }
 
 const FamilyTourPackage = () => {
-    const { heading, description } = exclusiveTourPackagesData.familyTourPackage;
     return (
         <>
             <Breadcrumb breadcrumbKey="familyTour" />
