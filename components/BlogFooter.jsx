@@ -47,7 +47,7 @@ const BlogFooter = () => {
                             <ul className="list-unstyled d-flex justify-content-center align-items-center flex-wrap footer-links">
                                 {blogCategories.map((category, index) => (
                                     <li key={index} className="p-0 text-white blog-footer-link">
-                                        <Link href={`/blog/categories/${category.path}`} className='text-white p-2 text-uppercase '>
+                                        <Link href={`/blog/categories${category.path}`} className='text-white p-2 text-uppercase '>
                                             {category.text}
                                         </Link>
                                     </li>
@@ -62,7 +62,7 @@ const BlogFooter = () => {
                             <ul className="list-unstyled  d-flex justify-content-center align-items-center flex-wrap footer-links">
                                 {archives[2024].map((category, index) => (
                                     <li key={index} className="p-0 text-white blog-footer-link" >
-                                        <Link href={`/blog/archives/${category.path}`} className='text-white p-2 text-uppercase '>
+                                        <Link href={`/blog/archives${category.path}`} className='text-white p-2 text-uppercase '>
                                             {category.title}
                                         </Link>
                                     </li>

@@ -134,7 +134,7 @@ const BlogPost = ({ params }) => {
                             <div className="sidebar-menu w-100 z-9999 flex-column">
                                 <h2 className="text-capitalize py-1">comments</h2>
                                 <ul className="p-0 w-100 d-flex justify-content-start flex-wrap align-items-center gap-2">
-                                    <p className='mb-0 text-capitalize'>no comments to show</p>
+                                    <p className='mb-0 text-capitalize text-center'>no comments to show</p>
                                 </ul>
                             </div>
                             <div className="sidebar-menu w-100 z-9999 flex-column">

@@ -6,6 +6,7 @@ import React from 'react'
 
 const page = () => {
     const novemberBlogs = filterBlogsByMonth(blogs, 11, 2024)
+    const sortedBlogs = novemberBlogs.sort((a, b) => new Date(b.date) - new Date(a.date))
     return (
         <>
             <div className="container-fluid mt-4 pt-5 bg-black">
@@ -25,12 +26,12 @@ const page = () => {
                 <div className="container">
                     <div className="row py-2 d-flex align-items-stretch justify-content-center px-2 blogs">
                         <div className="row d-flex justify-content-center py-2">
-                            {novemberBlogs.map((blog) => {
+                            {sortedBlogs.map((blog) => {
                                 const visibleDescription =
                                     blog.description.split(' ').slice(0, 5).join(' ') + '...';
                                 return (
                                     <div
-                                        className={`col-12 col-lg-6 col-md-6 col-sm-12 px-0 overflow-auto d-flex justify-content-center py-2 px-2`}
+                                        className={`col-12 col-lg-6 col-md-10 col-sm-12 px-0 overflow-auto d-flex justify-content-center py-2 px-2`}
                                         key={blog.date}
                                     >
                                         <Link href={`/blog/${blog.slug}`} className="w-100 mb-1 p-2 px-2 rounded-4" style={{ border: '1px solid #dbdbdb4f', backgroundColor: 'rgb(251,214,200)' }}>
