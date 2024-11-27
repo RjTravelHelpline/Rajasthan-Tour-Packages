@@ -69,7 +69,6 @@ const TourPackages = ({ pkg }) => {
           </div>
         </Card>
       </div>
-
       {/* Modal for Contact Form */}
       <Modal
         show={show}
