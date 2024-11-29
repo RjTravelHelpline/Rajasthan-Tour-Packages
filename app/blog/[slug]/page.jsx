@@ -111,8 +111,12 @@ const BlogPost = ({ params }) => {
                                     </div>
                                 </div>
                                 <hr />
-                                <h4 className='my-2 text-center text-capitalize'><Link href="https://rajasthantourpackages.in.in/contact-us" style={{ textDecoration: 'underline', color: 'var(--color-tertary)', fontWeight: 'bold' }}>contact us
-                                </Link></h4>
+                                <div className="row d-flex align-items-center justify-content-between py-2">
+                                    <Link href="https://rajasthantourpackages.in/contact-us" className="w-auto d-inline" style={{ textDecoration: 'underline', color: 'var(--color-tertary)', fontWeight: 'bold' }}>contact us
+                                    </Link>
+                                    <Link href="/" className="w-auto d-inline" style={{ textDecoration: 'underline', color: 'var(--color-tertary)', fontWeight: 'bold' }}>Rajasthan Tour Packages
+                                    </Link>
+                                </div>
                             </div>
                         </div>
                         <div className="col-lg-4 col-ms-12 col-sm-12 side-nav px-sm-0 px-md-0 px-lg-2">

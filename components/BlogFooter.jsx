@@ -7,6 +7,7 @@ import { blogCategories, blogs } from '@/data/Blogs';
 // import SearchBar from './SearchBar';
 import BottomSocials from './BottomSocials';
 import ChatBot from './ChatBot';
+import { FaArrowRight } from 'react-icons/fa';
 
 const BlogFooter = () => {
     const footerLogo = '/rajasthan-travel-helpline.png';
