@@ -9,16 +9,16 @@ import { ranthamboreFaq } from "@/data/faqData";
 import { allCitiesImages } from "@/data/imageData";
 
 export const metadata = {
-    title: 'Rajasthan Tour From ranthamore | Rajasthan Tour Packages',
-    description: "Arrange your Rajasthan enterprise from ranthamore with Rajasthan Visit Bundles. Encounter illustrious royal residences, posts, and dynamic cities when rulers arrive.",
+    title: 'Rajasthan Tour From ranthambore | Rajasthan Tour Packages',
+    description: "Arrange your Rajasthan enterprise from ranthambore with Rajasthan Visit Bundles. Encounter illustrious royal residences, posts, and dynamic cities when rulers arrive.",
     keywords: [''],
     alternates: {
-        canonical: "https://www.rajasthantourpackages.in/rajasthan-tour-from-ranthamore",
+        canonical: "https://www.rajasthantourpackages.in/rajasthan-tour-from-ranthambore",
     },
     openGraph: {
-        title: 'Rajasthan Tour From ranthamore | Rajasthan Tour Packages',
-        description: "Arrange your Rajasthan enterprise from ranthamore with Rajasthan Visit Bundles. Encounter illustrious royal residences, posts, and dynamic cities when rulers arrive.",
-        url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-ranthamore",
+        title: 'Rajasthan Tour From ranthambore | Rajasthan Tour Packages',
+        description: "Arrange your Rajasthan enterprise from ranthambore with Rajasthan Visit Bundles. Encounter illustrious royal residences, posts, and dynamic cities when rulers arrive.",
+        url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-ranthambore",
         image: "https://www.rajasthantourpackages.in/Images/Banners/ranthambore-banner.webp",
         siteName: 'Rajasthan Tour Packages',
         type: 'website',
@@ -27,8 +27,8 @@ export const metadata = {
     twitter: {
         card: "summary_large_image",
         site: "@rajasthantourpackages",
-        title: 'Rajasthan Tour From ranthamore | Rajasthan Tour Packages',
-        description: "Arrange your Rajasthan enterprise from ranthamore with Rajasthan Visit Bundles. Encounter illustrious royal residences, posts, and dynamic cities when rulers arrive.",
+        title: 'Rajasthan Tour From ranthambore | Rajasthan Tour Packages',
+        description: "Arrange your Rajasthan enterprise from ranthambore with Rajasthan Visit Bundles. Encounter illustrious royal residences, posts, and dynamic cities when rulers arrive.",
         image: "https://www.rajasthantourpackages.in/Images/Banners/ranthambore-banner.webp",
     },
 };

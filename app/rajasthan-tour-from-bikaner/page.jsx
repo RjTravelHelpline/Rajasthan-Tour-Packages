@@ -13,12 +13,12 @@ export const metadata = {
     description: "Uncover Rajasthans rich heritage from Bikaner with Rajasthan Tour Packages. Explore ancient forts, vibrant markets, and royal legacies across the state.",
     keywords: [''],
     alternates: {
-        canonical: "http://www.rajasthantourpackages.in/rajasthan-tour-from-bikaner",
+        canonical: "https://www.rajasthantourpackages.in/rajasthan-tour-from-bikaner",
     },
     openGraph: {
         title: 'Rajasthan Tour From Bikaner | Rajasthan Tour Packages',
         description: "Uncover Rajasthans rich heritage from Bikaner with Rajasthan Tour Packages. Explore ancient forts, vibrant markets, and royal legacies across the state.",
-        url: "http://www.rajasthantourpackages.in/rajasthan-tour-from-bikaner",
+        url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-bikaner",
         image: "https://www.rajasthantourpackages.in/Images/Banners/bikaner-banner.webp';",
         siteName: 'Rajasthan Tour Packages',
         type: 'website',

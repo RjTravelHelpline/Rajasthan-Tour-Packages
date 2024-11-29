@@ -35,7 +35,7 @@ export const BlogDataSection = ({ category, Data, icon, subhead }) => {
                                     </div>
                                 </div>
                                 <h2 className="text-capitalize fw-normal">
-                                    <span className="fw-bold blog-subhead-gradient d-block text-center text-uppercase">{category.replace(/-/g, ' ')}</span>
+                                    <span className="fw-bold blog-subhead-gradient d-block text-center text-uppercase">{category}</span>
                                 </h2>
                             </div>
                         </div>
@@ -97,7 +97,7 @@ export const BlogDataSection = ({ category, Data, icon, subhead }) => {
                                 )}
                             </button>
                             <Link
-                                href={`/blog/categories/${category}`}
+                                href={`/blog/categories/${category.replace(/&/g, 'and')}`}
                                 className="explore-btn card-button w-auto d-flex justify-content-between align-items-center gap-2"
                             >
                                 Explore now <MdArrowOutward />

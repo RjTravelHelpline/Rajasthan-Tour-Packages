@@ -412,52 +412,57 @@ const breadcrumbData = {
   homeCabRental: [{ label: 'Home', link: '/' }, { label: 'cab rental' }],
   jaipurCab: [
     { label: 'Home', link: '/' },
-    { label: 'cab retal', link: '/rajasthan-cab-rental' },
+    { label: 'cab rental', link: '/rajasthan-cab-rental' },
     { label: 'jaipur cab rental' },
   ],
   agraCab: [
     { label: 'Home', link: '/' },
-    { label: 'cab retal', link: '/rajasthan-cab-rental' },
+    { label: 'cab rental', link: '/rajasthan-cab-rental' },
     { label: 'agra cab rental' },
   ],
   jodhpurCab: [
     { label: 'Home', link: '/' },
-    { label: 'cab retal', link: '/rajasthan-cab-rental' },
+    { label: 'cab rental', link: '/rajasthan-cab-rental' },
     { label: 'jodhpur cab rental' },
   ],
   bikanerCab: [
     { label: 'Home', link: '/' },
-    { label: 'cab retal', link: '/rajasthan-cab-rental' },
+    { label: 'cab rental', link: '/rajasthan-cab-rental' },
     { label: 'bikaner cab rental' },
   ],
   ajmerCab: [
     { label: 'Home', link: '/' },
-    { label: 'cab retal', link: '/rajasthan-cab-rental' },
+    { label: 'cab rental', link: '/rajasthan-cab-rental' },
     { label: 'ajmer cab rental' },
   ],
   delhiCab: [
     { label: 'Home', link: '/' },
-    { label: 'cab retal', link: '/rajasthan-cab-rental' },
+    { label: 'cab rental', link: '/rajasthan-cab-rental' },
     { label: 'delhi cab rental' },
   ],
   jaisalmerCab: [
     { label: 'Home', link: '/' },
-    { label: 'cab retal', link: '/rajasthan-cab-rental' },
+    { label: 'cab rental', link: '/rajasthan-cab-rental' },
     { label: 'jaisalmer cab rental' },
+  ],
+  kotaCab: [
+    { label: 'Home', link: '/' },
+    { label: 'cab rental', link: '/rajasthan-cab-rental' },
+    { label: 'kota cab rental' },
   ],
   mountabuCab: [
     { label: 'Home', link: '/' },
-    { label: 'cab retal', link: '/rajasthan-cab-rental' },
+    { label: 'cab rental', link: '/rajasthan-cab-rental' },
     { label: 'mountabu cab rental' },
   ],
   ranthamboreCab: [
     { label: 'Home', link: '/' },
-    { label: 'cab retal', link: '/rajasthan-cab-rental' },
+    { label: 'cab rental', link: '/rajasthan-cab-rental' },
     { label: 'ranthambore cab rental' },
   ],
   udaipurCab: [
     { label: 'Home', link: '/' },
-    { label: 'cab retal', link: '/rajasthan-cab-rental' },
+    { label: 'cab rental', link: '/rajasthan-cab-rental' },
     { label: 'udaipur cab rental' },
   ],
 

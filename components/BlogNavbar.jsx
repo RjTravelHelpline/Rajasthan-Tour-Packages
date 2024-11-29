@@ -266,23 +266,23 @@ const BlogNavbar = () => {
                     </button>
                 </Modal.Footer>
             </Modal>
-            {/* search model */}
-            <Modal size='lg' show={showSearch} style={{ padding: '20px' }} onHide={handleCloseSearch} className='search-modal'>
-                <Modal.Header className='d-flex flex-column p-4 w-auto'>
-                    <h4 className='text-uppercase w-100 text-center fw-normal d-flex justify-content-center align-items-center gap-2'> <hr style={{ borderColor: 'var(--color-tertary)' }} />search <span className='color-tertary fw-bold'>blog</span> <hr style={{ borderColor: 'var(--color-tertary)' }} /></h4>
-                    <p className='text-lowercase w-100 text-center mb-0'>what you are looking for</p>
-                </Modal.Header>
-                <Modal.Dialog style={{ width: '100%' }} >
-                    <Modal.Body style={{ width: '100%' }}>
-                        <SearchBar blogs={blogs} styles="rounded-5 w-100" placeholder="search here" autofocus={true} />
-                    </Modal.Body>
-                </Modal.Dialog>
-                <Modal.Footer>
-                    <Button onClick={handleCloseSearch} className='bg-black rounded-5 text-white d-flex jutify-content-center align-items center p-3 border-0'>
-                        <IoClose />
-                    </Button>
-                </Modal.Footer>
-            </Modal >
+                {/* search model */}
+                <Modal size='lg' show={showSearch} style={{ padding: '20px' }} onHide={handleCloseSearch} className='search-modal'>
+                    <Modal.Header className='d-flex flex-column p-4 w-auto'>
+                        <h4 className='text-uppercase w-100 text-center fw-normal d-flex justify-content-center align-items-center gap-2'> <hr style={{ borderColor: 'var(--color-tertary)' }} />search <span className='color-tertary fw-bold'>blog</span> <hr style={{ borderColor: 'var(--color-tertary)' }} /></h4>
+                        <p className='text-lowercase w-100 text-center mb-0'>what you are looking for</p>
+                    </Modal.Header>
+                    <Modal.Dialog style={{ width: '100%' }} >
+                        <Modal.Body style={{ width: '100%' }}>
+                            <SearchBar blogs={blogs} styles="rounded-5 w-100" placeholder="search here" autofocus={true} />
+                        </Modal.Body>
+                    </Modal.Dialog>
+                    <Modal.Footer>
+                        <Button onClick={handleCloseSearch} className='bg-black rounded-5 text-white d-flex jutify-content-center align-items center p-3 border-0'>
+                            <IoClose />
+                        </Button>
+                    </Modal.Footer>
+                </Modal >
         </>
     );
 };

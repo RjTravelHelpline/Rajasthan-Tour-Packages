@@ -12,12 +12,12 @@ export const metadata = {
     title: 'Rajasthan Tour from Agra | Rajasthan Tour Packages',
     description: 'Rajasthan Tour from Agra to explore historic landmarks, regal palaces, and unique cultural experiences. You can go ahead and book your personalized tour package now.',
     alternates: {
-        canonical: "http://www.rajasthantourpackages.in/rajasthan-tour-from-agra",
+        canonical: "https://www.rajasthantourpackages.in/rajasthan-tour-from-agra",
     },
     openGraph: {
         title: 'Rajasthan Tour from Agra | Rajasthan Tour Packages',
         description: 'Rajasthan Tour from Agra to explore historic landmarks, regal palaces, and unique cultural experiences. You can go ahead and book your personalized tour package now.',
-        url: "http://www.rajasthantourpackages.in/rajasthan-tour-from-agra",
+        url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-agra",
         image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
         siteName: 'Rajasthan Tour Packages',
         type: "website",
@@ -51,11 +51,6 @@ const RajasthanPackageTourFromAgra = () => {
         <>
             {/* bread crumb */}
             <Breadcrumb breadcrumbKey="rajasthanTourFromAgra" />
-            <div className="container-fluid px-0 py-4 bg-black text-white">
-                <div className="row">
-                    <h1 className="text-5">rajasthan tour from agra</h1>
-                </div>
-            </div>
             {/* banner */}
             <div className="container-fluid home-banner days-banner-container destination-banner position-relative px-0">
                 <TourCarousel images={images} content={content} />

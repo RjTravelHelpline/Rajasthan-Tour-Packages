@@ -14,12 +14,12 @@ export const metadata = {
     description: 'Explore Rajasthan with tailored tours from Bhubaneswar. Discover Jaipur, Udaipur, and Jaisalmer with our customised Rajasthan tours. Book your adventure today.',
     keywords: [''],
     alternates: {
-        canonical: "http://www.rajasthantourpackages.in/rajasthan-tour-from-bhubaneshwar",
+        canonical: "https://www.rajasthantourpackages.in/rajasthan-tour-from-bhubaneshwar",
     },
     openGraph: {
         title: 'Top Rajasthan Tours from Bhubaneswar | Rajasthan Tour Packages',
         description: 'Explore Rajasthan with tailored tours from Bhubaneswar. Discover Jaipur, Udaipur, and Jaisalmer with our customised Rajasthan tours. Book your adventure today.',
-        url: "http://www.rajasthantourpackages.in/rajasthan-tour-from-bhubaneshwar",
+        url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-bhubaneshwar",
         image: "https://www.rajasthantourpackages.in/Images/Banners/bhubaneshwar-banner.webp",
         siteName: 'Rajasthan Tour Packages',
         type: 'website',

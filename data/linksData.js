@@ -311,6 +311,14 @@ export const destinationLinks = [
     path: '/ajmer',
     text: 'ajmer',
   },
+  {
+    path: '/delhi',
+    text: 'delhi',
+  },
+  {
+    path: '/kota',
+    text: 'kota',
+  },
 ];
 
 // headerLinks.js

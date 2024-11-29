@@ -14,12 +14,12 @@ export const metadata = {
   description: 'Learn the beauty of the Rajasthan tour package from Bangalore. Enjoy royal experiences, cultural sights, and luxury stays. Book your Rajasthan tour today.',
   keywords: ['Rajasthan Tour Package From Bangalore', 'Rajasthan Tour From Bangalore', 'Rajasthan Honeymoon Packages', 'honeymoon tour packages'],
   alternates: {
-    canonical: "http://www.rajasthantourpackages.in/rajasthan-tour-from-banglore",
+    canonical: "https://www.rajasthantourpackages.in/rajasthan-tour-from-bangalore",
   },
   openGraph: {
     title: 'Rajasthan Tour Package from Bangalore | Rajasthan Tour Packages',
     description: 'Learn the beauty of the Rajasthan tour package from Bangalore. Enjoy royal experiences, cultural sights, and luxury stays. Book your Rajasthan tour today.',
-    url: "http://www.rajasthantourpackages.in/rajasthan-tour-from-banglore",
+    url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-banglore",
     image: "https://www.rajasthantourpackages.in/Images/Banners/bangalore-banner.webp",
     siteName: 'Rajasthan Tour Packages',
     type: 'website',

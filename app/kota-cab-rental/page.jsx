@@ -1,32 +1,31 @@
 import Breadcrumb from "@/components/Breadcrumb";
-
 export const metadata = {
-    title: 'Ranthambore tour packages',
+    title: 'kota cab rental',
     description: "",
-    keywords: [''],
     alternates: {
-        canonical: "https://www.rajasthantourpackages.in/ranthambore-tour-packages",
+        canonical: 'https://www.rajasthantourpackages.in/kota-cab-rental',
     },
     openGraph: {
-        title: 'Ranthambore tour packages',
+        title: 'kota cab rental',
         description: "",
-        url: "https://www.rajasthantourpackages.in/ranthambore-tour-packages",
+        url: 'https://www.rajasthantourpackages.in/kota-cab-rental',
         image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
         siteName: 'Rajasthan Tour Packages',
         type: 'website',
     },
-};
-const RanthamborePackageTours = () => {
+}
+
+const KotaCabRental = () => {
     return (
         <>
-         <Breadcrumb breadcrumbKey="ranthamboreTourPackage" />
+            <Breadcrumb breadcrumbKey="mountabuCab" />
             <div className="container-fluid py-4 bg-black text-white">
                 <div className="row">
-                    <h1 className="text-5">Ranthambore tour packages</h1>
+                    <h1 className="text-5">kota cab rental</h1>
                 </div>
             </div>
         </>
     );
 };
 
-export default RanthamborePackageTours;
+export default KotaCabRental;

@@ -25,7 +25,7 @@ const routes = [
   },
   // destination
   { path: '/jaipur' },
-  { path: '/mountabu' },
+  { path: '/mount-abu' },
   { path: '/bikaner' },
   { path: '/ranthambore' },
   { path: '/udaipur' },
@@ -37,18 +37,6 @@ const routes = [
   { path: '/delhi' },
   { path: '/kota' },
 
-  // detination packages
-
-  { path: '/bharatpur-tour-packages' },
-  { path: '/ajmer-pushkar-tour-packages' },
-  { path: '/bikaner-tour-packages' },
-  { path: '/mountabu-tour-packages' },
-  { path: '/ranthambore-tour-packages' },
-  { path: '/jodhpur-tour-packages' },
-  { path: '/udaipur-tour-packages' },
-  { path: '/jaisalmer-tour-packages' },
-  { path: '/jaipur-tour-packages' },
-  { path: '/ajmer-tour-packages' },
 
   {
     path: '/02-04-days-rajasthan-tours',
@@ -89,7 +77,7 @@ const routes = [
     path: '/3days-jaipur-ranthambore-weekend-tour',
   },
   {
-    path: '/3days-udaipur-mewar-tour',
+    path: '/3days-udaipur-mawar-tour',
   },
   {
     path: '/3days-jaisalmer-desert-safari-tour',
@@ -238,7 +226,6 @@ const routes = [
   { path: '/wildlife-tour-packages' },
   { path: '/religious-tour-packages' },
   { path: '/village-tour-packages' },
-  { path: '/rtdc-hotels' },
   { path: '/weekend-tour-packages' },
   { path: '/rajasthan-tourism-hotels' },
   {
@@ -260,7 +247,7 @@ const routes = [
   { path: '/jodhpur-cab-rental' },
   { path: '/ranthambore-cab-rental' },
   { path: '/bikaner-cab-rental' },
-  { path: '/mountabu-cab-rental' },
+  { path: '/mount-abu-cab-rental' },
   { path: '/delhi-cab-rental' },
   { path: '/agra-cab-rental' },
   { path: '/ajmer-cab-rental' },
