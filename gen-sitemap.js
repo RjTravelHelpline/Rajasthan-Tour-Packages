@@ -37,7 +37,6 @@ const routes = [
   { path: '/delhi' },
   { path: '/kota' },
 
-
   {
     path: '/02-04-days-rajasthan-tours',
   },
@@ -199,7 +198,7 @@ const routes = [
 
   // 11-15 days (6+1=7)
   {
-    path: '/11-15-days-rajasthan-tour-packages',
+    path: '/11-15-days-rajasthan-tours',
   },
   {
     path: '/12days-complete-rajasthan-tour',
