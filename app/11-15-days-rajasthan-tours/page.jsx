@@ -8,12 +8,12 @@ export const metadata = {
   title: '11-15 days rajasthan tour packages',
   description: '',
   alternates: {
-    canonical: 'https://www.rajasthantourpackages.in/11-15-days-rajasthan-tour-packages',
+    canonical: 'https://www.rajasthantourpackages.in/11-15-days-rajasthan-tours',
   },
   openGraph: {
     title: "11-15 days rajasthan tour packages",
     description: '',
-    url: 'https://www.rajasthantourpackages.in/11-15-days-rajasthan-tour-packages',
+    url: 'https://www.rajasthantourpackages.in/11-15-days-rajasthan-tours',
     image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     siteName: 'Rajasthan Tour Packages',
     type: 'website',

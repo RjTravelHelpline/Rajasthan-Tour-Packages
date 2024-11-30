@@ -157,7 +157,7 @@ export const excursions = {
       content: `${temp.link(
         `Jaipur`,
         'https://www.rajasthantourpackages.in/jaipur'
-      )} the capital of Rajasthan is much nearer from Ajmer and is located at hardly 130 km from the city. The place is especially famous for its marvelous royal palaces, fortified structures, religious shrines that include ${temp.link(
+      )} the capital of Rajasthan is much nearer from Ajmer and is located at hardly 130 km from the city. The place is especially famous for its marvelous royal palaces, fortified structures, religious shrines that include ${temp.bold(
         `Golden Barracks`
       )}, ${temp.bold(`Hawa Mahal`)} and ${temp.bold(
         `City Palace`

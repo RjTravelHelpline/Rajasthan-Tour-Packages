@@ -42,7 +42,7 @@ export const metadata = {
     "Mount Abu Eco-Tourism"
   ],
   alternates: {
-    canonical: "https://www.rajasthantourpackages.in/mountabu",
+    canonical: "https://www.rajasthantourpackages.in/mount-abu",
   },
   twitter: {
     card: "summary_large_image",
@@ -54,7 +54,7 @@ export const metadata = {
   openGraph: {
     title: "Mount Abu Heritage and History | Rajasthan Tour Packages",
     description: "Explore the historical temples and natural beauty of Mount Abu, Rajasthan's only hill station. Book your Mount Abu heritage tour with Rajasthan Tour Packages.",
-    url: "https://www.rajasthantourpackages.in/mountabu",
+    url: "https://www.rajasthantourpackages.in/mount-abu",
     sitename: "Rajasthan Tour Packages",
     images: [
       {
@@ -232,7 +232,7 @@ const Mountabu = () => {
                 tour
                 <span className="fw-bold"> packages</span>
               </h2>
-              <PackagesSlider packages={mountabuTourPackagesData} href='/mountabu-tour-packages' />
+              <PackagesSlider exploreAll={false} packages={mountabuTourPackagesData} href='/mountabu-tour-packages' />
             </div>
             {/* cab rentals */}
             <div className="w-100 insider section-offset mb-4" id="cab-rentals">

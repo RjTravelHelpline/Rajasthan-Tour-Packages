@@ -50,7 +50,7 @@ export const sightseeing = {
     {
       day: ' Jagmandir Palace',
       title: 'an island in the Kishore Sagar Lake',
-      content: `Located on an island in the Kishore Sagar Lake, this beautiful palace has a splendid view especially towards the evening. Going boating to the palace is one of the things that tourists prefer to do while on their ${temp.link(
+      content: `Located on an island in the Kishore Sagar Lake, this beautiful palace has a splendid view especially towards the evening. Going boating to the palace is one of the things that tourists prefer to do while on their ${temp.bold(
         `Kota Holiday Packages`
       )}.`,
       highlights: {
@@ -92,7 +92,7 @@ export const sightseeing = {
     {
       day: 'Garadia Mahadev Temple',
       title: 'tourists to hang around in the evening',
-      content: `This temple is situated on the hill top and runs along the Chambal River to give the much needed serenity to carry out ${temp.link(
+      content: `This temple is situated on the hill top and runs along the Chambal River to give the much needed serenity to carry out ${temp.bold(
         `Kota cultural experiences`
       )}.`,
       highlights: {

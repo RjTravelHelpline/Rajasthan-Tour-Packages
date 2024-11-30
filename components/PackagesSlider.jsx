@@ -8,7 +8,7 @@ import SlickSlider from './SlickSlider';
 import { ExploreAll } from './ExploreAll';
 import ContactForm from './ContactForm';
 
-const PackagesSlider = ({ packages, href }) => {
+const PackagesSlider = ({ packages, href, exploreAll = true }) => {
     const [show, setShow] = useState(false);
 
     const handleClose = () => setShow(false);
@@ -83,7 +83,12 @@ const PackagesSlider = ({ packages, href }) => {
                     })}
                 </SlickSlider>
             </div>
-            <ExploreAll text="explore all" href={href} />
+            {
+                exploreAll && (
+
+                    <ExploreAll text="explore all" href={href} />
+                )
+            }
 
             {/* Modal for Contact Form */}
             <Modal

@@ -228,7 +228,7 @@ const Bharatpur = () => {
                 tour
                 <span className="fw-bold"> packages</span>
               </h2>
-              <PackagesSlider packages={bharatpurTourPackagesData} href='/bharatpur-tour-packages' />
+              <PackagesSlider exploreAll={false} packages={bharatpurTourPackagesData} href='/bharatpur-tour-packages' />
             </div>
             {/* cab rentals */}
             <div className="w-100 insider section-offset mb-4" id="cab-rentals">

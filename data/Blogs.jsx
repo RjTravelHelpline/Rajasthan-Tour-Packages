@@ -490,7 +490,7 @@ export const blogs = [
         <p className="fw-bold mt-2 mb-0">
           Things to do:
         </p>
-        <p className='mb-0'>• Walking a hike in the beautiful trails of {Link('Mount Abu', 'https://www.rajasthantourpackages.in/mountabu')}</p>
+        <p className='mb-0'>• Walking a hike in the beautiful trails of {Link('Mount Abu', 'https://www.rajasthantourpackages.in/mount-abu')}</p>
         <p className='mb-0'>• Visiting the sanctuary by car or on foot</p>
         <p className='mb-0'>• Drinking tea while boating in Nakki Lake which comes just after a day of trying to explore the entire place.</p>
 

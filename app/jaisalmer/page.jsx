@@ -226,7 +226,7 @@ const Jaisalmer = () => {
                 tour
                 <span className="fw-bold"> packages</span>
               </h2>
-              <PackagesSlider packages={jaisalmerTourPackagesData} href='/jaisalmer-tour-packages' />
+              <PackagesSlider exploreAll={false} packages={jaisalmerTourPackagesData} href='/jaisalmer-tour-packages' />
             </div>
             {/* cab rentals */}
             <div className="w-100 insider section-offset mb-4" id="cab-rentals">

@@ -162,7 +162,8 @@ export const fairandfestivals = {
 };
 export const excursions = {
   heading: `One day traveling areas that can be visited from Delhi are numerous and they depict cultural history and ethnic diversity. Here are some of the top excursions you can enjoy ${temp.link(
-    `Rajasthan Tour from Delhi`
+    `Rajasthan Tour from Delhi`,
+    'https://www.rajasthantourpackages.in/rajasthan-tour-from-delhi'
   )}`,
   content: [
     {

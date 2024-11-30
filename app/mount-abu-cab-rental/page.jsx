@@ -3,12 +3,12 @@ export const metadata = {
   title: 'mount abu cab rental',
   description: "",
   alternates: {
-    canonical: 'https://www.rajasthantourpackages.in/mountabu-cab-rental',
+    canonical: 'https://www.rajasthantourpackages.in/mount-abu-cab-rental',
   },
   openGraph: {
     title: 'mount abu cab rental',
     description: "",
-    url: 'https://www.rajasthantourpackages.in/mountabu-cab-rental',
+    url: 'https://www.rajasthantourpackages.in/mount-abu-cab-rental',
     image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     siteName: 'Rajasthan Tour Packages',
     type: 'website',

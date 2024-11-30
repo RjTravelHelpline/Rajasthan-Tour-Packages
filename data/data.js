@@ -826,7 +826,7 @@ export const daysPackage = [
     imgSrc: allCitiesImages.jaipur.jaipurGator.src,
     title: '11-15 Days',
 
-    navigate: '/11-15-days-rajasthan-tour-packages',
+    navigate: '/11-15-days-rajasthan-tours',
   },
 ];
 

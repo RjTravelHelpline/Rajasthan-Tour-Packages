@@ -229,7 +229,7 @@ const Agra = () => {
                                 tour
                                 <span className="fw-bold"> packages</span>
                             </h2>
-                            <PackagesSlider packages={agraTourPackagesData} href='/agra-tour-packages' />
+                            <PackagesSlider exploreAll={false} packages={agraTourPackagesData} href='/agra-tour-packages' />
                         </div>
                         {/* cab rentals */}
                         <div className="w-100 insider section-offset mb-4" id="cab-rentals">
