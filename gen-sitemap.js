@@ -12,9 +12,6 @@ const routes = [
     path: '/blog',
   },
   {
-    path: '/blog/*',
-  },
-  {
     path: '/gallery',
   },
   {
