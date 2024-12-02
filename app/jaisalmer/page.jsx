@@ -48,14 +48,14 @@ export const metadata = {
     title: "Jaisalmer’s Golden Fort and Desert | Rajasthan Tour Packages",
     description: "Meet the desert of Jaisalmer, the great Golden Fort, and learn more about India. Visit Rajasthan Tour Packages for the best plans of our Jaisalmer tour today.",
     url: "https://www.rajasthantourpackages.in/jaisalmer",
-    sitename: "Rajasthan Tour Packages",
     images: [
       {
         url: 'https://www.rajasthantourpackages.in/Images/Card/jaisalmer-patwa-haweli.webp',
       },
     ],
+    site_name: 'Rajasthan Tour Packages',
+    type: 'website',
     locale: 'en_US',
-    type: "website",
   }
 };
 

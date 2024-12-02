@@ -1,18 +1,26 @@
 import Breadcrumb from "@/components/Breadcrumb"
 
 export const metadata = {
-  title: '12 days complete rajasthan tour',
-  description: '',
+  title: 'Complete Rajasthan 12-Day Itinerary | Rajasthan Tour Packages',
+  description: 'Complete the Rajasthan Tour for 12 days at the best cities, forts, palaces, and the richness of the culture. Plan a Rajasthan tour with Rajasthan Tour Packages.',
   alternates: {
     canonical: 'https://www.rajasthantourpackages.in/12days-complete-rajasthan-tour',
   },
   openGraph: {
-    title: '12 days complete rajasthan tour',
-    description: '',
+    title: 'Complete Rajasthan 12-Day Itinerary | Rajasthan Tour Packages',
+    description: 'Complete the Rajasthan Tour for 12 days at the best cities, forts, palaces, and the richness of the culture. Plan a Rajasthan tour with Rajasthan Tour Packages.',
     url: 'https://www.rajasthantourpackages.in/12days-complete-rajasthan-tour',
     image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
-    siteName: 'Rajasthan Tour Packages',
+    site_name: 'Rajasthan Tour Packages',
     type: 'website',
+    locale: 'en_US',
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@rajasthantourpackages",
+    title: 'Complete Rajasthan 12-Day Itinerary | Rajasthan Tour Packages',
+    description: 'Complete the Rajasthan Tour for 12 days at the best cities, forts, palaces, and the richness of the culture. Plan a Rajasthan tour with Rajasthan Tour Packages.',
+    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
   },
 }
 const TwelveDaysCompleteRajasthanPackageTour = () => {

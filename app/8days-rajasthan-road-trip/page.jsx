@@ -11,8 +11,16 @@ export const metadata = {
     description: '',
     url: 'https://www.rajasthantourpackages.in/8days-rajasthan-road-trip',
     image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
-    siteName: 'Rajasthan Tour Packages',
+    site_name: 'Rajasthan Tour Packages',
     type: 'website',
+    locale: 'en_US',
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@rajasthantourpackages",
+    title: "08 days rajasthan road trip",
+    description: '',
+    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
   },
 }
 const EightDaysRajasthanRoadTrip = () => {

@@ -19,9 +19,9 @@ export const metadata = {
         description: 'Rajasthan Tour from Agra to explore historic landmarks, regal palaces, and unique cultural experiences. You can go ahead and book your personalized tour package now.',
         url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-agra",
         image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
-        siteName: 'Rajasthan Tour Packages',
-        type: "website",
-        locale: 'en_US',
+        site_name: 'Rajasthan Tour Packages',
+    type: 'website',
+    locale: 'en_US',
     },
     twitter: {
         card: "summary_large_image",

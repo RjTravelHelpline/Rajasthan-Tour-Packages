@@ -1,16 +1,24 @@
 export const metadata = {
-  title: '03 Days Udaipur Marwar Tour',
-  description: "",
+  title: 'Jodhpur Marwar 3 Days Tour | Rajasthan Tour Packages',
+  description: "Go on a 3-day Jodhpur Marwar Tour to discover the impressive forts, palaces and desert of Rajasthan. Find the real taste of Marwar with Rajasthan Tour Packages.",
   alternates: {
     canonical: 'https://www.rajasthantourpackages.in/3days-udaipur-marwar-tour',
   },
   openGraph: {
-    title: '03 Days Udaipur Marwar Tour',
-    description: "",
+    title: 'Jodhpur Marwar 3 Days Tour | Rajasthan Tour Packages',
+    description: "Go on a 3-day Jodhpur Marwar Tour to discover the impressive forts, palaces and desert of Rajasthan. Find the real taste of Marwar with Rajasthan Tour Packages.",
     url: 'https://www.rajasthantourpackages.in/3days-udaipur-marwar-tour',
     image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
-    siteName: 'Rajasthan Tour Packages',
+    site_name: 'Rajasthan Tour Packages',
     type: 'website',
+    locale: 'en_US',
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@rajasthantourpackages",
+    title: 'Jodhpur Marwar 3 Days Tour | Rajasthan Tour Packages',
+    description: "Go on a 3-day Jodhpur Marwar Tour to discover the impressive forts, palaces and desert of Rajasthan. Find the real taste of Marwar with Rajasthan Tour Packages.",
+    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
   },
 }
 const ThreeDaysUdaipurMarwarTour = () => {

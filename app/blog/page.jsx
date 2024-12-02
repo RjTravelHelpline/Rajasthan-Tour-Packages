@@ -5,7 +5,29 @@ import SearchBar from "@/components/SearchBar";
 import { blogCategories, blogs, getBlogsByCategory, getLatestBlogs } from "@/data/Blogs";
 import { FaUtensils, FaPaw, FaLandmark, FaTheaterMasks, FaPlane, FaNewspaper, FaGripfire } from "react-icons/fa";
 
-
+export const metadata = {
+    title: 'Rajasthan Travel Blog & Tips | Rajasthan Tour Packages',
+    description: 'Stay updated at our Rajasthan Travel Blog & Tips. Get valuable guides and travel advice for find Rajasthan. Plan your next adventure at Rajasthan Tour Packages.',
+    alternates: {
+        canonical: "https://www.rajasthantourpackages.in/blog",
+    },
+    openGraph: {
+        title: 'Rajasthan Travel Blog & Tips | Rajasthan Tour Packages',
+        description: 'Stay updated at our Rajasthan Travel Blog & Tips. Get valuable guides and travel advice for find Rajasthan. Plan your next adventure at Rajasthan Tour Packages.',
+        url: "https://www.rajasthantourpackages.in/blog",
+        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        site_name: 'Rajasthan Tour Packages',
+        type: 'website',
+        locale: 'en_US',
+    },
+    twitter: {
+        card: "summary_large_image",
+        site: "@rajasthantourpackages",
+        title: 'Rajasthan Travel Blog & Tips | Rajasthan Tour Packages',
+        description: 'Stay updated at our Rajasthan Travel Blog & Tips. Get valuable guides and travel advice for find Rajasthan. Plan your next adventure at Rajasthan Tour Packages.',
+        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    },
+};
 const Blogs = () => {
     const latestBlogs = getLatestBlogs(blogs);
     const travelBlogs = getBlogsByCategory(blogs, "tour & travels")

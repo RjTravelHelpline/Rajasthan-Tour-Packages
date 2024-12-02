@@ -6,18 +6,26 @@ import { _08DaysToursData } from "@/data/data";
 import { allCitiesImages } from "@/data/imageData";
 
 export const metadata = {
-  title: '08 days rajasthan tour packages',
-  description: "",
+  title: '8-Day Rajasthan Travel Plan | Rajasthan Tour Packages',
+  description: "Discover the rich history of Rajasthan on this 8-day tour, including a city tour, palace and forts. Rajasthan Tour Packages you to plan for your Rajasthan tour.",
   alternates: {
     canonical: 'https://www.rajasthantourpackages.in/08-days-rajasthan-tour-packages',
   },
   openGraph: {
-    title: '08 days rajasthan tour packages',
-    description: "",
+    title: '8-Day Rajasthan Travel Plan | Rajasthan Tour Packages',
+    description: "Discover the rich history of Rajasthan on this 8-day tour, including a city tour, palace and forts. Rajasthan Tour Packages you to plan for your Rajasthan tour.",
     url: 'https://www.rajasthantourpackages.in/08-days-rajasthan-tour-packages',
     image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
-    siteName: 'Rajasthan Tour Packages',
+    site_name: 'Rajasthan Tour Packages',
     type: 'website',
+    locale: 'en_US',
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@rajasthantourpackages",
+    title: '8-Day Rajasthan Travel Plan | Rajasthan Tour Packages',
+    description: "Discover the rich history of Rajasthan on this 8-day tour, including a city tour, palace and forts. Rajasthan Tour Packages you to plan for your Rajasthan tour.",
+    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
   },
 }
 

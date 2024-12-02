@@ -4,6 +4,31 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react'
 
+
+export const metadata = {
+    title: 'Rajasthan Tour and Travel Guides | Rajasthan Tour Packages',
+    description: 'Find Rajasthan Tour and Travel Guides for top destinations, expert itineraries, and travel tips. Plan your dream trip with Rajasthan Tour Packages today.',
+    alternates: {
+        canonical: "https://www.rajasthantourpackages.in/blog",
+    },
+    twitter: {
+        card: "summary_large_image",
+        site: "@rajasthantourpackages",
+        title: 'Rajasthan Tour and Travel Guides | Rajasthan Tour Packages',
+        description: 'Find Rajasthan Tour and Travel Guides for top destinations, expert itineraries, and travel tips. Plan your dream trip with Rajasthan Tour Packages today.',
+        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    },
+    openGraph: {
+        title: 'Rajasthan Tour and Travel Guides | Rajasthan Tour Packages',
+        description: 'Find Rajasthan Tour and Travel Guides for top destinations, expert itineraries, and travel tips. Plan your dream trip with Rajasthan Tour Packages today.',
+        url: "https://www.rajasthantourpackages.in/blog",
+        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        site_name: 'Rajasthan Tour Packages',
+        type: 'website',
+        locale: 'en_US',
+    },
+};
+
 const page = () => {
     const travelBlogs = getBlogsByCategory(blogs, "tour & travels")
     return (

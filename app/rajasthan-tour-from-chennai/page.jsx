@@ -20,9 +20,9 @@ export const metadata = {
         description: "Make your Rajasthan tour from Chennai to experience the lively heritage and rich culture. Find magnificent castles, desert landscapes, and traditional art forms.",
         url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-chennai",
         image: "https://www.rajasthantourpackages.in/Images/Banners/chennai-banner.webp",
-        siteName: 'Rajasthan Tour Packages',
-        type: 'website',
-        locale: 'en_US',
+        site_name: 'Rajasthan Tour Packages',
+    type: 'website',
+    locale: 'en_US',
     },
     twitter: {
         card: "summary_large_image",

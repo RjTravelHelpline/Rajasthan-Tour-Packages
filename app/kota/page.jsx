@@ -52,14 +52,14 @@ export const metadata = {
         title: "Kota History, Culture & Appeal | Rajasthan Tour Packages",
         description: "Plan your Kota tour at Rajasthan Tour Packages. We feature hard sightseeing and tour packages to find historic sites in attractions and cultural landmarks.",
         url: "https://www.rajasthantourpackages.in/kota",
-        sitename: "Rajasthan Tour Packages",
         images: [
             {
                 url: 'https://www.rajasthantourpackages.in/Images/Banners/kota-banner.webp',
             },
         ],
+        site_name: 'Rajasthan Tour Packages',
+        type: 'website',
         locale: 'en_US',
-        type: "website",
     }
 };
 

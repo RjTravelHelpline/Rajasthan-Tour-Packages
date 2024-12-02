@@ -18,13 +18,20 @@ export const metadata = {
   openGraph: {
     title: 'Best Rajasthan Tours and Travels | Rajasthan Tour Packages',
     description: 'Begin our famous Rajasthan Tours and Travels. Tour places, deserts, and treasures of culture by instant booking customized packages. Your royal adventure awaits.',
-    url: "https://www.rajasthantourpackages.in",
     image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
-    siteName: 'Rajasthan Tour Packages',
+    url: "https://www.rajasthantourpackages.in",
+    site_name: 'Rajasthan Tour Packages',
     type: 'website',
+    locale: 'en_US',
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@rajasthantourpackages",
+    title: 'Best Rajasthan Tours and Travels | Rajasthan Tour Packages',
+    description: 'Begin our famous Rajasthan Tours and Travels. Tour places, deserts, and treasures of culture by instant booking customized packages. Your royal adventure awaits.',
+    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
   },
 };
-
 const homeData = {
   heading: ``,
   content: [
@@ -86,7 +93,7 @@ const Home = () => {
               dangerouslySetInnerHTML={{ __html: homeData.content[0] }}
             />
             <ReadMoreToggle className="text-justify home-para px-2" tag="div" contentArray={homeData.content.slice(1)} />
-          <div className="py-2"></div>
+            <div className="py-2"></div>
           </div>
         </div>
       </div>

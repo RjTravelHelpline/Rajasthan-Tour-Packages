@@ -59,14 +59,14 @@ export const metadata = {
     title: "Bikaner Royal History and Legacy | Rajasthan Tour Packages",
     description: "Explore the royal history of Bikaner, its historic forts, and vibrant culture. Book your Bikaner heritage tour with Rajasthan Tour Packages for an unforgettable experience.",
     url: "https://www.rajasthantourpackages.in/bikaner",
-    sitename: "Rajasthan Tour Packages",
     images: [
       {
         url: 'https://www.rajasthantourpackages.in/Images/Banners/bikaner-banner02.webp',
       }
     ],
+    site_name: 'Rajasthan Tour Packages',
+    type: 'website',
     locale: 'en_US',
-    type: "website",
   }
 };
 

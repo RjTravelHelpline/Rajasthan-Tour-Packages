@@ -21,9 +21,9 @@ export const metadata = {
         description: 'Discover exclusive Rajasthan tour packages from Ahmedabad. Explore historic forts, vibrant markets, and rich cultural treasures on this memorable journey.',
         image: "https://www.rajasthantourpackages.in/Images/Banners/ahmedabad-banner.webp",
         url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-ahmedabad",
-        siteName: 'Rajasthan Tour Packages',
-        type: 'website',
-        locale: 'en_US',
+        site_name: 'Rajasthan Tour Packages',
+    type: 'website',
+    locale: 'en_US',
     },
     twitter: {
         card: "summary_large_image",

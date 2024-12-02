@@ -58,14 +58,14 @@ export const metadata = {
     title: "Places to Visit in Udaipur | Rajasthan Tour Packages",
     description: "Find the Rajasthan appeal on the outskirts of Udaipur, including lakes, palaces, and temples. Rajasthan Tour Packages will take you along the scenic Udaipur.",
     url: "https://www.rajasthantourpackages.in/udaipur",
-    sitename: "Rajasthan Tour Packages",
     images: [
       {
         url: 'https://www.rajasthantourpackages.in//Images/Banners/udaipur-banner.webp',
       },
     ],
+    site_name: 'Rajasthan Tour Packages',
+    type: 'website',
     locale: 'en_US',
-    type: "website",
   }
 };
 

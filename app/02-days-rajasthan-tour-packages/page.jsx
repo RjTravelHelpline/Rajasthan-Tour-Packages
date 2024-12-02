@@ -5,21 +5,30 @@ import { _02DaysToursData } from "@/data/data";
 import { allCitiesImages } from "@/data/imageData";
 
 export const metadata = {
-  title: '02 Days Rajasthan Tour Packages',
-  description: "",
+  title: 'Get 02 Days Trip in Rajasthan | Rajasthan Tour Packages',
+  description: 'It is possible to capture the spirit of Rajasthan in 2 days. Book your Rajasthan Tour Packages for a short and enjoyable trip to the most visited tourist place.',
   keywords: [''],
   alternates: {
     canonical: "https://www.rajasthantourpackages.in/02-days-rajasthan-tour-packages",
   },
   openGraph: {
-    title: '02 Days Rajasthan Tour Packages',
-    description: '',
+    title: 'Get 02 Days Trip in Rajasthan | Rajasthan Tour Packages',
+    description: 'It is possible to capture the spirit of Rajasthan in 2 days. Book your Rajasthan Tour Packages for a short and enjoyable trip to the most visited tourist place.',
     url: "https://www.rajasthantourpackages.in/02-days-rajasthan-tour-packages",
     image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
-    siteName: 'Rajasthan Tour Packages',
+    site_name: 'Rajasthan Tour Packages',
     type: 'website',
+    locale: 'en_US',
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@rajasthantourpackages",
+    title: 'Get 02 Days Trip in Rajasthan | Rajasthan Tour Packages',
+    description: 'It is possible to capture the spirit of Rajasthan in 2 days. Book your Rajasthan Tour Packages for a short and enjoyable trip to the most visited tourist place.',
+    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
   },
 };
+
 
 const TwoDaysRajasthanTourPackages = () => {
   const images = [

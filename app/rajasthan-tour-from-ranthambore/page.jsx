@@ -20,7 +20,7 @@ export const metadata = {
         description: "Arrange your Rajasthan enterprise from ranthambore with Rajasthan Visit Bundles. Encounter illustrious royal residences, posts, and dynamic cities when rulers arrive.",
         url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-ranthambore",
         image: "https://www.rajasthantourpackages.in/Images/Banners/ranthambore-banner.webp",
-        siteName: 'Rajasthan Tour Packages',
+        site_name: 'Rajasthan Tour Packages',
         type: 'website',
         locale: 'en_US',
     },

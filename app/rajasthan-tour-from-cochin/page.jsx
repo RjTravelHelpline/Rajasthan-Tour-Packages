@@ -20,7 +20,7 @@ export const metadata = {
     description: "Uncover the wonders of the Rajasthan Tour from Cochin with a meticulously planned tour highlighting the state's rich history and stunning landscapes. Book now.",
     url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-cochin",
     image: "https://www.rajasthantourpackages.in/Images/Banners/cochin-banner.webp",
-    siteName: 'Rajasthan Tour Packages',
+    site_name: 'Rajasthan Tour Packages',
     type: 'website',
     locale: 'en_US',
   },

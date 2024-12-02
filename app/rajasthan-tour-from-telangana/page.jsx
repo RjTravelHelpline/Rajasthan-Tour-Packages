@@ -21,7 +21,7 @@ export const metadata = {
     description: "Find Rajasthan's treasures on a visit from Telangana with Rajasthan Visit Bundles. Investigate antiquated fortifications, illustrious royal residences, and colourful festivals.",
     url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-telangana",
     image: "https://www.rajasthantourpackages.in/Images/Banners/telangana-banner.webp",
-    siteName: 'Rajasthan Tour Packages',
+    site_name: 'Rajasthan Tour Packages',
     type: 'website',
     locale: 'en_US',
   },

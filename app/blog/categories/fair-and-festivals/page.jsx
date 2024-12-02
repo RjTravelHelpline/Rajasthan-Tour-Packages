@@ -2,7 +2,32 @@ import Breadcrumb from '@/components/Breadcrumb'
 import { blogs, getBlogsByCategory } from '@/data/Blogs';
 import Image from 'next/image';
 import Link from 'next/link';
-import React from 'react'
+
+export const metadata = {
+    title: 'Rajasthan Fairs & Festivals Guide | Rajasthan Tour Packages',
+    description: 'Get the ultimate guide to Fairs and Festivals. Rajasthan Tour Packages offers a colourful and lively trip at the celebration of cultural fairs and festivals.',
+    alternates: {
+        canonical: "https://www.rajasthantourpackages.in/blog/categories/fair-and-festivals",
+    },
+    twitter: {
+        card: "summary_large_image",
+        site: "@rajasthantourpackages",
+        title: 'Rajasthan Fairs & Festivals Guide | Rajasthan Tour Packages',
+        description: 'Get the ultimate guide to Fairs and Festivals. Rajasthan Tour Packages offers a colourful and lively trip at the celebration of cultural fairs and festivals.',
+        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    
+    },
+
+    openGraph: {
+        title: 'Rajasthan Fairs & Festivals Guide | Rajasthan Tour Packages',
+        description: 'Get the ultimate guide to Fairs and Festivals. Rajasthan Tour Packages offers a colourful and lively trip at the celebration of cultural fairs and festivals.',
+        url: "https://www.rajasthantourpackages.in/blog/categories/fair-and-festivals",
+        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        site_name: 'Rajasthan Tour Packages',
+        type: 'website',
+        locale: 'en_US',
+    },
+};
 
 const page = () => {
     const festivalsBlogs = getBlogsByCategory(blogs, "fair & festivals")

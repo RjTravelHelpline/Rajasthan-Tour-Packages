@@ -4,8 +4,35 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react'
 
+export const metadata = {
+    title: 'December 2024 Blog Archives | Rajasthan Tour Packages',
+    description: '',
+    keywords: [
+    ],
+    alternates: {
+        canonical: "https://www.rajasthantourpackages.in/blog/archives/december-2024",
+    },
+    openGraph: {
+        title: 'December 2024 Blog Archives | Rajasthan Tour Packages',
+        description: '',
+        image: "https://www.rajasthantourpackages.in/Images/Banners/ahmedabad-banner.webp",
+        url: "https://www.rajasthantourpackages.in/blog/archives/december-2024",
+        site_name: 'Rajasthan Tour Packages',
+        type: 'website',
+        locale: 'en_US',
+    },
+    twitter: {
+        card: "summary_large_image",
+        site: "@rajasthantourpackages",
+        title: 'December 2024 Blog Archives | Rajasthan Tour Packages',
+        description: '',
+        image: "https://www.rajasthantourpackages.in/Images/Banners/ahmedabad-banner.webp",
+    },
+};
+
+
 const page = () => {
-    const octoberBlogs = filterBlogsByMonth(blogs, 10, 2024)
+    const octoberBlogs = filterBlogsByMonth(blogs, 12, 2024)
     return (
         <>
             <div className="container-fluid mt-4 pt-5 bg-black">
@@ -14,7 +41,7 @@ const page = () => {
             <div className="container-fluid px-0 py-5">
                 <div className="container">
                     <div className="row">
-                        <h1 className='text-center text-uppercase color-tertary'>october, <span className="text-black fw-normal">
+                        <h1 className='text-center text-uppercase color-tertary'>december, <span className="text-black fw-normal">
                             2024 </span> </h1>
                         <p className="text-center">
                             Explore the latest blogs and stories published in <span className="fw-bold">october 2024</span>.

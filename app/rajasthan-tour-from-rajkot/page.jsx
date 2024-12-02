@@ -20,7 +20,7 @@ export const metadata = {
     description: "Arrange your Rajasthan enterprise from Rajkot with Rajasthan Visit Bundles. Encounter illustrious royal residences, posts, and dynamic cities when rulers arrive.",
     url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-rajkot",
     image: "https://www.rajasthantourpackages.in/Images/Banners/rajkot-banner.webp",
-    siteName: 'Rajasthan Tour Packages',
+    site_name: 'Rajasthan Tour Packages',
     type: 'website',
     locale: 'en_US',
   },

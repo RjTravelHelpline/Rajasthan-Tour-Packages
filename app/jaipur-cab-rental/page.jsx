@@ -1,17 +1,50 @@
-"use client"
 import Breadcrumb from "@/components/Breadcrumb";
-import SlickSlider from "@/components/SlickSlider";
+import RentalSlider from "@/components/RentalSlider";
 import { allCabRentals } from "@/data/cabRentalData";
-import { Card } from "react-bootstrap";
-import { FaArrowRight, FaFire, FaSnowflake, FaSuitcase, FaUserFriends } from "react-icons/fa";
-import { IoLogoWhatsapp } from "react-icons/io";
+
+
+export const metadata = {
+  title: "Jaipur Cab Rental Services | Rajasthan Tour Packages",
+  description: "Hire a taxi in Jaipur to have a comfortable and convenient travel. Rajasthan Tour Packages Book Jaipur Cab Rental Services for Safe transportation in the city.",
+  keywords: [
+    ""
+  ],
+  alternates: {
+    canonical: "https://www.rajasthantourpackages.in/jaipur-cab-rental",
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@rajasthantourpackages",
+    title: "Jaipur Cab Rental Services | Rajasthan Tour Packages",
+    description: "Hire a taxi in Jaipur to have a comfortable and convenient travel. Rajasthan Tour Packages Book Jaipur Cab Rental Services for Safe transportation in the city.",
+    image: 'https://www.rajasthantourpackages.in/Images/Card/jaipur.webp',
+  },
+  openGraph: {
+    title: "Jaipur Cab Rental Services | Rajasthan Tour Packages",
+    description: "Hire a taxi in Jaipur to have a comfortable and convenient travel. Rajasthan Tour Packages Book Jaipur Cab Rental Services for Safe transportation in the city.",
+    url: "https://www.rajasthantourpackages.in/jaipur-cab-rental",
+    images: [
+      {
+        url: 'https://www.rajasthantourpackages.in/Images/Card/jaipur.webp',
+      },
+    ],
+    site_name: 'Rajasthan Tour Packages',
+    type: 'website',
+    locale: 'en_US',
+  }
+};
+
 const JaipurCabRental = () => {
   return (
     <>
       <Breadcrumb breadcrumbKey="jaipurCab" />
-      <div className="container-fluid px-0 py-4 bg-black text-white">
-        <div className="row">
-          <h1 className="text-5">jaipur cab rental</h1>
+      <div className="container-fluid px-0 py-5 bg-black text-white">
+        <div className="container">
+          <div className="row">
+            <h1 className="text-5 text-capitalize fw-normal text-center">jaipur cab rental</h1>
+            <hr />
+            <h2 className="text-center fw-normal fs-5">Jaipur Cab Rental Services | Rajasthan Tour Packages</h2>
+          </div>
         </div>
       </div>
       <div className="container-fluid section-02">
@@ -21,8 +54,8 @@ const JaipurCabRental = () => {
               <span className="fw-normal">popular </span> cabs
             </h2>
           </div>
-          <div className="row py-4 d-flex align-items-stretch px-2">
-            <SlickSlider>
+          <div className="row py-4 d-flex justify-content-center align-items-center px-2">
+            {/* <SlickSlider>
               {allCabRentals.map((rental, index) => {
                 const whatsappLink = `https://wa.me/919166555888?text=I am interested in the ${rental.title} package for ₹${rental.price}/-. Please provide more details.`;
                 return (
@@ -94,7 +127,8 @@ const JaipurCabRental = () => {
                   </div>
                 );
               })}
-            </SlickSlider>
+            </SlickSlider> */}
+            <RentalSlider rentals={allCabRentals} />
           </div>
         </div>
       </div>

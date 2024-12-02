@@ -4,13 +4,10 @@ import BackToTop from './BackToTop';
 import Image from 'next/image';
 import Link from 'next/link';
 import { blogCategories, blogs } from '@/data/Blogs';
-// import SearchBar from './SearchBar';
 import BottomSocials from './BottomSocials';
 import ChatBot from './ChatBot';
-import { FaArrowRight } from 'react-icons/fa';
 
 const BlogFooter = () => {
-    const footerLogo = '/rajasthan-travel-helpline.png';
 
     const date = new Date();
     const mydate = date.getFullYear();
@@ -33,7 +30,7 @@ const BlogFooter = () => {
     const archives = {
         '2024': [
             { title: 'November 2024', date: 'November, 2024', path: '/november-2024' },
-            { title: 'October 2024', date: 'October, 2024', path: '/october-2024' },
+            { title: 'december 2024', date: 'October, 2024', path: '/december-2024' },
         ]
     }
 

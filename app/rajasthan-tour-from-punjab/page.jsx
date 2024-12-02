@@ -20,7 +20,7 @@ export const metadata = {
     description: "Leave on a Rajasthan Tour from Punjab with our comprehensive bundles. Find memorable, energetic culture and imperial royal residences. Book yours today.",
     url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-punjab",
     image: "https://www.rajasthantourpackages.in/Images/Banners/punjab-banner.webp",
-    siteName: 'Rajasthan Tour Packages',
+    site_name: 'Rajasthan Tour Packages',
     type: 'website',
     locale: 'en_US',
   },

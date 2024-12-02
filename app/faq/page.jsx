@@ -2,18 +2,26 @@
 import Faq from "@/components/Faq";
 import { homeFaq } from "@/data/faqData";
 export const metadata = {
-    title: 'faq',
+    title: 'Common Asked Questions | FAQ | Rajasthan Tour Packages',
     description: '',
     alternates: {
         canonical: 'https://www.rajasthantourpackages.in/faq',
     },
     openGraph: {
-        title: 'faq',
+        title: 'Common Asked Questions | FAQ | Rajasthan Tour Packages',
         description: '',
         url: 'https://www.rajasthantourpackages.in/faq',
         image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
-        siteName: 'Rajasthan Tour Packages',
+        site_name: 'Rajasthan Tour Packages',
         type: 'website',
+        locale: 'en_US',
+    },
+    twitter: {
+        card: "summary_large_image",
+        site: "@rajasthantourpackages",
+        title: 'Common Asked Questions | FAQ | Rajasthan Tour Packages',
+        description: '',
+        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     },
 }
 

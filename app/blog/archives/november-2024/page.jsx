@@ -2,7 +2,33 @@ import Breadcrumb from '@/components/Breadcrumb'
 import { blogs, filterBlogsByMonth } from '@/data/Blogs';
 import Image from 'next/image';
 import Link from 'next/link';
-import React from 'react'
+
+export const metadata = {
+    title: 'November 2024 Blog Archives | Rajasthan Tour Packages',
+    description: '',
+    keywords: [
+    ],
+    alternates: {
+        canonical: "https://www.rajasthantourpackages.in/blog/archives/november-2024",
+    },
+    openGraph: {
+        title: 'November 2024 Blog Archives | Rajasthan Tour Packages',
+        description: '',
+        image: "https://www.rajasthantourpackages.in/Images/Banners/ahmedabad-banner.webp",
+        url: "https://www.rajasthantourpackages.in/blog/archives/november-2024",
+        site_name: 'Rajasthan Tour Packages',
+        type: 'website',
+        locale: 'en_US',
+    },
+    twitter: {
+        card: "summary_large_image",
+        site: "@rajasthantourpackages",
+        title: 'November 2024 Blog Archives | Rajasthan Tour Packages',
+        description: '',
+        image: "https://www.rajasthantourpackages.in/Images/Banners/ahmedabad-banner.webp",
+    },
+};
+
 
 const page = () => {
     const novemberBlogs = filterBlogsByMonth(blogs, 11, 2024)

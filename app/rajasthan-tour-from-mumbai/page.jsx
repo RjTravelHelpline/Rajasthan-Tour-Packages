@@ -21,7 +21,7 @@ export const metadata = {
     description: "Discover Rajasthan holiday packages from Mumbai. Take pleasure in luxurious stays, vibrant culture, and custom tours. Start your trip and book now today.",
     url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-mumbai",
     image: "https://www.rajasthantourpackages.in/Images/Banners/mumbai-banner.webp",
-    siteName: 'Rajasthan Tour Packages',
+    site_name: 'Rajasthan Tour Packages',
     type: 'website',
     locale: 'en_US',
   },

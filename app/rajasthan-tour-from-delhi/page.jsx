@@ -20,7 +20,7 @@ export const metadata = {
     description: "Embark on the Rajasthan Tour From Delhi. Our curated tour packages offer the perfect blend of heritage sites, colorful markets, and unforgettable experiences.",
     url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-delhi",
     image: "https://www.rajasthantourpackages.in/Images/Banners/delhi-banner.webp",
-    siteName: 'Rajasthan Tour Packages',
+    site_name: 'Rajasthan Tour Packages',
     type: 'website',
     locale: 'en_US',
   },

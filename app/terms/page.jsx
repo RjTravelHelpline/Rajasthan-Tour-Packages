@@ -1,19 +1,27 @@
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata = {
-    title: 'terms',
+    title: 'Terms and Conditions | Rajasthan Tour Packages',
     description: "",
     keywords: [''],
     alternates: {
         canonical: "https://www.rajasthantourpackages.in/terms",
     },
     openGraph: {
-        title: 'terms',
+        title: 'Terms and Conditions | Rajasthan Tour Packages',
         description: "",
         url: "https://www.rajasthantourpackages.in/terms",
         image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
-        siteName: 'Rajasthan Tour Packages',
+        site_name: 'Rajasthan Tour Packages',
         type: 'website',
+        locale: 'en_US',
+    },
+    twitter: {
+        card: "summary_large_image",
+        site: "@rajasthantourpackages",
+        title: 'Terms and Conditions | Rajasthan Tour Packages',
+        description: "",
+        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     },
 };
 

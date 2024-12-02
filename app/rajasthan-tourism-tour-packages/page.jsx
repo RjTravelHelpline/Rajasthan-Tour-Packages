@@ -13,8 +13,16 @@ export const metadata = {
         description: 'Experience the greatness of Rajasthan tourism packages. Get to know royal palaces, vibrant culture, and luxury rentals. Book your exceptional journey now.',
         url: 'https://www.rajasthantourpackages.in/rajasthan-tourism-tour-packages',
         image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        site_name: 'Rajasthan Tour Packages',
         type: 'website',
-        siteName: 'Rajasthan Tour Packages',
+        locale: 'en_US',
+    },
+    twitter: {
+        card: "summary_large_image",
+        site: "@rajasthantourpackages",
+        title: 'Top Rajasthan Tourism Package | Rajasthan Tour Packages',
+        description: 'Experience the greatness of Rajasthan tourism packages. Get to know royal palaces, vibrant culture, and luxury rentals. Book your exceptional journey now.',
+        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     },
 };
 const RajasthanTourismPackages = () => {

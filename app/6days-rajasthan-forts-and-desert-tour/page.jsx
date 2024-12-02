@@ -1,18 +1,26 @@
 import Breadcrumb from "@/components/Breadcrumb"
 
 export const metadata = {
-  title: '06 days rajasthan forts and desert tour',
-  description: "",
+  title: 'Know 6 Days Forts and Desert Tour | Rajasthan Tour Packages',
+  description: 'Explore the Rajasthan by visiting forts and confronting the desert on this 6-day trip. For a historical tour of a lifetime, contact Rajasthan Tour Packages.',
   alternates: {
     canonical: 'https://www.rajasthantourpackages.in/6days-rajasthan-forts-and-desert-tour',
   },
   openGraph: {
-    title: '06 days rajasthan forts and desert tour',
-    description: "",
+    title: 'Know 6 Days Forts and Desert Tour | Rajasthan Tour Packages',
+    description: 'Explore the Rajasthan by visiting forts and confronting the desert on this 6-day trip. For a historical tour of a lifetime, contact Rajasthan Tour Packages.',
     url: 'https://www.rajasthantourpackages.in/6days-rajasthan-forts-and-desert-tour',
     image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
-    siteName: 'Rajasthan Tour Packages',
+    site_name: 'Rajasthan Tour Packages',
     type: 'website',
+    locale: 'en_US',
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@rajasthantourpackages",
+    title: 'Know 6 Days Forts and Desert Tour | Rajasthan Tour Packages',
+    description: 'Explore the Rajasthan by visiting forts and confronting the desert on this 6-day trip. For a historical tour of a lifetime, contact Rajasthan Tour Packages.',
+    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
   },
 }
 const SixDaysRajasthanFortsAndDesertTour = () => {

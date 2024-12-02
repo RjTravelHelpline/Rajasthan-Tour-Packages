@@ -6,18 +6,26 @@ import { _09DaysToursData } from "@/data/data";
 import { allCitiesImages } from "@/data/imageData";
 
 export const metadata = {
-  title: '09 days rajasthan tour packages',
-  description: '',
+  title: 'Rajasthan 9-Day Excursion Package | Rajasthan Tour Packages',
+  description: 'Grand historic state of Rajasthan in 9 days with trips to forts, palaces, and other appeal. You can complete the tour within 9 days of Rajasthan tour packages.',
   alternates: {
     canonical: 'https://www.rajasthantourpackages.in/09-days-rajasthan-tour-packages',
   },
   openGraph: {
-    title: "09 days rajasthan tour packages",
-    description: '',
+    title: "Rajasthan 9-Day Excursion Package | Rajasthan Tour Packages",
+    description: 'Grand historic state of Rajasthan in 9 days with trips to forts, palaces, and other appeal. You can complete the tour within 9 days of Rajasthan tour packages.',
     url: 'https://www.rajasthantourpackages.in/09-days-rajasthan-tour-packages',
     image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
-    siteName: 'Rajasthan Tour Packages',
+    site_name: 'Rajasthan Tour Packages',
     type: 'website',
+    locale: 'en_US',
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@rajasthantourpackages",
+    title: "Rajasthan 9-Day Excursion Package | Rajasthan Tour Packages",
+    description: 'Grand historic state of Rajasthan in 9 days with trips to forts, palaces, and other appeal. You can complete the tour within 9 days of Rajasthan tour packages.',
+    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
   },
 }
 const NineDaysRajasthanTourPackages = () => {

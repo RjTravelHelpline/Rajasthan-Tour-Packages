@@ -54,14 +54,14 @@ export const metadata = {
     title: "Ajmer Adventure and Nature Tours | Rajasthan Tour Packages",
     description: "Experience the adventure and natural beauty of Ajmer. Explore one of India's most culturally vibrant cities with Rajasthan Tour Packages offering a unique journey.",
     url: "https://www.rajasthantourpackages.in/ajmer",
-    sitename: "Rajasthan Tour Packages",
     images: [
       {
         url: 'https://www.rajasthantourpackages.in/Images/Banners/ajmer-banner.webp',
       }
     ],
+    site_name: 'Rajasthan Tour Packages',
+    type: 'website',
     locale: 'en_US',
-    type: "website",
   }
 };
 

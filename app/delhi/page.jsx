@@ -57,14 +57,14 @@ export const metadata = {
         title: "Delhi Sightseeing City Tour | Rajasthan Tour Packages",
         description: "Explore Delhi's famous attractions, historical sites, markets, and culture with a guided city tour.",
         url: "https://www.rajasthantourpackages.in/delhi",
-        sitename: "Rajasthan Tour Packages",
         images: [
             {
                 url: 'https://www.rajasthantourpackages.in/Images/Banners/delhi-banner.webp',
             },
         ],
+        site_name: 'Rajasthan Tour Packages',
+        type: 'website',
         locale: 'en_US',
-        type: "website",
     }
 };
 

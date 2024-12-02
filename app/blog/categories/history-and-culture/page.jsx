@@ -2,7 +2,30 @@ import Breadcrumb from '@/components/Breadcrumb'
 import { blogs, getBlogsByCategory } from '@/data/Blogs';
 import Image from 'next/image';
 import Link from 'next/link';
-import React from 'react'
+
+export const metadata = {
+    title: 'Find Rajasthan History and Culture | Rajasthan Tour Packages',
+    description: 'Discover the history and the colourful culture of Rajasthan. Rajasthan Tour Packages make you aware of the rich heritage and traditions of this royal place.',
+    alternates: {
+        canonical: "https://www.rajasthantourpackages.in/blog",
+    },
+    twitter: {
+        card: "summary_large_image",
+        site: "@rajasthantourpackages",
+        title: 'Find Rajasthan History and Culture | Rajasthan Tour Packages',
+        description: 'Discover the history and the colourful culture of Rajasthan. Rajasthan Tour Packages make you aware of the rich heritage and traditions of this royal place.',
+        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    },
+    openGraph: {
+        title: 'Find Rajasthan History and Culture | Rajasthan Tour Packages',
+        description: 'Discover the history and the colourful culture of Rajasthan. Rajasthan Tour Packages make you aware of the rich heritage and traditions of this royal place.',
+        url: "https://www.rajasthantourpackages.in/blog",
+        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        site_name: 'Rajasthan Tour Packages',
+        type: 'website',
+        locale: 'en_US',
+    },
+};
 
 const page = () => {
     const historyBlogs = getBlogsByCategory(blogs, "history & culture")

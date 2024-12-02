@@ -20,7 +20,7 @@ export const metadata = {
     description: "Find the best of Rajasthan, beginning with Jaipur. Our expertly outlined visits offer a profound jump into the state's illustrious legacy and social abundance.",
     url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-jaipur",
     image: "https://www.rajasthantourpackages.in/Images/Card/jaipur.webp",
-    siteName: 'Rajasthan Tour Packages',
+    site_name: 'Rajasthan Tour Packages',
     type: 'website',
     locale: 'en_US',
   },

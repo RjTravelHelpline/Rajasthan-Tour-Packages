@@ -21,8 +21,16 @@ export const metadata = {
         description: "Book a 2-day Jaisalmer tour package from Rajasthan Tour Packages to explore forts, desert dunes, and cultural wonders in Jaisalmer, all its best features.",
         url: "https://www.rajasthantourpackages.in/2days-jaisalmer-tour-package",
         image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
-        siteName: 'Rajasthan Tour Packages',
+        site_name: 'Rajasthan Tour Packages',
         type: 'website',
+        locale: 'en_US',
+    },
+    twitter: {
+        card: "summary_large_image",
+        site: "@rajasthantourpackages",
+        title: 'Jaisalmer Tour Package For 02 Days | Rajasthan Tour Packages',
+        description: "Book a 2-day Jaisalmer tour package from Rajasthan Tour Packages to explore forts, desert dunes, and cultural wonders in Jaisalmer, all its best features.",
+        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     },
 };
 const TwoDaysJaisalmerTourPackage = () => {

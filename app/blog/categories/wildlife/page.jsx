@@ -2,7 +2,31 @@ import Breadcrumb from '@/components/Breadcrumb'
 import { blogs, getBlogsByCategory } from '@/data/Blogs'
 import Image from 'next/image'
 import Link from 'next/link'
-import React from 'react'
+
+export const metadata = {
+    title: 'Rajasthan Wildlife Safari Tours | Rajasthan Tour Packages',
+    description: 'Experience the exciting Rajasthan Wildlife Safari Tours. Discover the wildlife of the state with Rajasthan Tour Packages and enjoy the wildlife tour of the state.',
+    alternates: {
+        canonical: "https://www.rajasthantourpackages.in/blog/categories/wildlife",
+    },
+    openGraph: {
+        title: 'Rajasthan Wildlife Safari Tours | Rajasthan Tour Packages',
+        description: 'Experience the exciting Rajasthan Wildlife Safari Tours. Discover the wildlife of the state with Rajasthan Tour Packages and enjoy the wildlife tour of the state.',
+        url: "https://www.rajasthantourpackages.in/blog/categories/wildlife",
+        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        site_name: 'Rajasthan Tour Packages',
+        type: 'website',
+        locale: 'en_US',
+    },
+    twitter: {
+        card: "summary_large_image",
+        site: "@rajasthantourpackages",
+        title: 'Rajasthan Wildlife Safari Tours | Rajasthan Tour Packages',
+        description: 'Experience the exciting Rajasthan Wildlife Safari Tours. Discover the wildlife of the state with Rajasthan Tour Packages and enjoy the wildlife tour of the state.',
+        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    },
+};
+
 
 const page = () => {
     const wildlifeBlogs = getBlogsByCategory(blogs, "wildlife")

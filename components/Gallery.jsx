@@ -1,6 +1,5 @@
 "use client"
 import { useState } from 'react';
-import { FaGripfire } from 'react-icons/fa';
 import SlickSlider from './SlickSlider';
 import { getSortedGalleryImages } from '@/data/imageData';
 import Image from 'next/image';
@@ -12,7 +11,6 @@ const Gallery = () => {
     const [selectedImage, setSelectedImage] = useState(null);
 
     const latestImages = getSortedGalleryImages();
-
     const handleImageClick = (image) => {
         setSelectedImage(image);
         setIsModalOpen(true);

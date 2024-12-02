@@ -21,7 +21,7 @@ export const metadata = {
     description: 'Learn the beauty of the Rajasthan tour package from Bangalore. Enjoy royal experiences, cultural sights, and luxury stays. Book your Rajasthan tour today.',
     url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-banglore",
     image: "https://www.rajasthantourpackages.in/Images/Banners/bangalore-banner.webp",
-    siteName: 'Rajasthan Tour Packages',
+    site_name: 'Rajasthan Tour Packages',
     type: 'website',
     locale: 'en_US',
   },

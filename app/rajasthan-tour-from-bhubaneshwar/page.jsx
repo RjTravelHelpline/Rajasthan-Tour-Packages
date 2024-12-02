@@ -21,7 +21,7 @@ export const metadata = {
         description: 'Explore Rajasthan with tailored tours from Bhubaneswar. Discover Jaipur, Udaipur, and Jaisalmer with our customised Rajasthan tours. Book your adventure today.',
         url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-bhubaneshwar",
         image: "https://www.rajasthantourpackages.in/Images/Banners/bhubaneshwar-banner.webp",
-        siteName: 'Rajasthan Tour Packages',
+        site_name: 'Rajasthan Tour Packages',
         type: 'website',
         locale: 'en_US',
     },

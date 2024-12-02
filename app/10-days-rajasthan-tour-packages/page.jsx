@@ -5,18 +5,26 @@ import TourPackages from "@/components/TourPackages";
 import { _10DaysToursData } from "@/data/data";
 import { allCitiesImages } from "@/data/imageData";
 export const metadata = {
-  title: '10 days rajasthan tour packages',
-  description: '',
+  title: 'Rajasthan 10-Day Travel Itinerary | Rajasthan Tour Packages',
+  description: 'Discover Rajasthan’s destinations and landmarks, and visit the state’s main cities in 10 days. Visit the Rajasthan Tour for your 10-Da Rajasthan Tour Package.',
   alternates: {
     canonical: 'https://www.rajasthantourpackages.in/10-days-rajasthan-tour-packages',
   },
   openGraph: {
-    title: "10 days rajasthan tour packages",
-    description: '',
+    title: 'Rajasthan 10-Day Travel Itinerary | Rajasthan Tour Packages',
+    description: 'Discover Rajasthan’s destinations and landmarks, and visit the state’s main cities in 10 days. Visit the Rajasthan Tour for your 10-Da Rajasthan Tour Package.',
     url: 'https://www.rajasthantourpackages.in/10-days-rajasthan-tour-packages',
     image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
-    siteName: 'Rajasthan Tour Packages',
+    site_name: 'Rajasthan Tour Packages',
     type: 'website',
+    locale: 'en_US',
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@rajasthantourpackages",
+    title: 'Rajasthan 10-Day Travel Itinerary | Rajasthan Tour Packages',
+    description: 'Discover Rajasthan’s destinations and landmarks, and visit the state’s main cities in 10 days. Visit the Rajasthan Tour for your 10-Da Rajasthan Tour Package.',
+    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
   },
 }
 const TenDaysRajasthanTourPackages = () => {

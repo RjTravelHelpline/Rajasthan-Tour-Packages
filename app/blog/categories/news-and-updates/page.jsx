@@ -2,7 +2,32 @@ import Breadcrumb from '@/components/Breadcrumb'
 import { blogs, getBlogsByCategory } from '@/data/Blogs';
 import Image from 'next/image';
 import Link from 'next/link';
-import React from 'react'
+
+
+export const metadata = {
+    title: 'Latest News & Updates on Rajasthan | Rajasthan Tour Packages',
+    description: 'Stay informed with the latest news and updates on Rajasthan travel. Plan your perfect trip at timely updates from Rajasthan Tour Packages for a smooth Know.',
+    alternates: {
+        canonical: "https://www.rajasthantourpackages.in/blog/categories/news-and-updates",
+    },
+    twitter: {
+        card: "summary_large_image",
+        site: "@rajasthantourpackages",
+        title: 'Latest News & Updates on Rajasthan | Rajasthan Tour Packages',
+        description: 'Stay informed with the latest news and updates on Rajasthan travel. Plan your perfect trip at timely updates from Rajasthan Tour Packages for a smooth Know.',
+        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    },
+    openGraph: {
+        title: 'Latest News & Updates on Rajasthan | Rajasthan Tour Packages',
+        description: 'Stay informed with the latest news and updates on Rajasthan travel. Plan your perfect trip at timely updates from Rajasthan Tour Packages for a smooth Know.',
+        url: "https://www.rajasthantourpackages.in/blog/categories/news-and-updates",
+        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        site_name: 'Rajasthan Tour Packages',
+        type: 'website',
+        locale: 'en_US',
+    },
+};
+
 
 const page = () => {
     const newsBlogs = getBlogsByCategory(blogs, "news & updates")

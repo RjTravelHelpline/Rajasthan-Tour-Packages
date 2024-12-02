@@ -21,7 +21,7 @@ export const metadata = {
     description: "Explore the vast beauty of Rajasthan from Jaisalmer with Rajasthan Tour Packages. Enjoy desert adventures, historical forts, and rich cultural experiences.",
     url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-jaisalmer",
     image: "https://www.rajasthantourpackages.in/Images/Banners/jaisalmer-banner.webp",
-    siteName: 'Rajasthan Tour Packages',
+    site_name: 'Rajasthan Tour Packages',
     type: 'website',
     locale: 'en_US',
   },

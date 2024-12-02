@@ -20,7 +20,7 @@ export const metadata = {
         description: "Depart the Rajasthan Tour from Coimbatore, which has majestic and historical landmarks, each with a to-tell and a culture. Book the Rajasthan tour package now.",
         url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-coimbatore",
         image: "https://www.rajasthantourpackages.in/Images/Banners/coimbatore-banner.webp",
-        siteName: 'Rajasthan Tour Packages',
+        site_name: 'Rajasthan Tour Packages',
         type: 'website',
         locale: 'en_US',
     },

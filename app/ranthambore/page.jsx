@@ -54,14 +54,14 @@ export const metadata = {
     title: "Ranthambore National Park | Rajasthan Tour Packages",
     description: "Exploring the vast beauty of Ranthambore National Park. Find the best Rajasthan Tour Packages and enjoy tiger safaris, scenic landscapes, and rich wildlife.",
     url: "https://www.rajasthantourpackages.in/ranthambore",
-    sitename: "Rajasthan Tour Packages",
     images: [
       {
         url: 'https://www.rajasthantourpackages.in/Images/Banners/ranthambore-banner.webp',
       }
     ],
+    site_name: 'Rajasthan Tour Packages',
+    type: 'website',
     locale: 'en_US',
-    type: "website",
   }
 };
 

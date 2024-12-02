@@ -11,8 +11,16 @@ export const metadata = {
     description: "",
     url: 'https://www.rajasthantourpackages.in/3days-jodhpur-marwar-tour',
     image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
-    siteName: 'Rajasthan Tour Packages',
+    site_name: 'Rajasthan Tour Packages',
     type: 'website',
+    locale: 'en_US',
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@rajasthantourpackages",
+    title: '03 Days Jodhpur Marwar Tour',
+    description: "",
+    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
   },
 }
 const ThreeDaysJodhpurMarwarTourPackage = () => {

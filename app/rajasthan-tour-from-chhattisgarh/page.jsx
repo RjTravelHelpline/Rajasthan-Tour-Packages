@@ -19,7 +19,7 @@ export const metadata = {
     description: "Enjoy the Rajasthan Tour from Chhattisgarh's regal charm, historic sites, and vibrant local culture. Get your expertly curated and confident tour package today.",
     url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-chhattisgarh",
     image: "https://www.rajasthantourpackages.in/Images/Banners/chhattisgarh-banner.webp",
-    siteName: 'Rajasthan Tour Packages',
+    site_name: 'Rajasthan Tour Packages',
     type: 'website',
     locale: 'en_US',
   },

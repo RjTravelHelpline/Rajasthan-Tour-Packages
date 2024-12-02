@@ -5,19 +5,27 @@ import { _03DaysToursData } from "@/data/data";
 import { allCitiesImages } from "@/data/imageData";
 
 export const metadata = {
-    title: '03 Days Rajasthan Tour Packages',
-    description: "",
+    title: 'Enjoy 03 Days Getaway in Rajasthan | Rajasthan Tour Packages',
+    description: 'Discover Rajasthan heritage destinations in 3 days. Explore the most significant cities and famous historical places with Rajasthan Tour Packages quickly.',
     keywords: [],
     alternates: {
         canonical: "https://www.rajasthantourpackages.in/03-days-rajasthan-tour-packages",
     },
     openGraph: {
-        title: '03 Days Rajasthan Tour Packages',
-        description: "",
+        title: 'Enjoy 03 Days Getaway in Rajasthan | Rajasthan Tour Packages',
+        description: 'Discover Rajasthan heritage destinations in 3 days. Explore the most significant cities and famous historical places with Rajasthan Tour Packages quickly.',
         url: "https://www.rajasthantourpackages.in/03-days-rajasthan-tour-packages",
         image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
-        siteName: 'Rajasthan Tour Packages',
+        site_name: 'Rajasthan Tour Packages',
         type: 'website',
+        locale: 'en_US',
+    },
+    twitter: {
+        card: "summary_large_image",
+        site: "@rajasthantourpackages",
+        title: 'Enjoy 03 Days Getaway in Rajasthan | Rajasthan Tour Packages',
+        description: 'Discover Rajasthan heritage destinations in 3 days. Explore the most significant cities and famous historical places with Rajasthan Tour Packages quickly.',
+        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     },
 };
 

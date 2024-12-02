@@ -52,14 +52,14 @@ export const metadata = {
     title: "Bharatpur Bird Sanctuary Tour | Rajasthan Tour Packages",
     description: "Bharatpur Bird Sanctuary is one of the best destinations for bird watching and wildlife lovers. Explore nature at its best with Rajasthan Tour Packages.",
     url: "https://www.rajasthantourpackages.in/bharatpur",
-    sitename: "Rajasthan Tour Packages",
     images: [
       {
         url: 'https://www.rajasthantourpackages.in/Images/Banners/bharatpur-banner.webp',// Add image URL if needed
       }
     ],
+    site_name: 'Rajasthan Tour Packages',
+    type: 'website',
     locale: 'en_US',
-    type: "website",
   }
 };
 

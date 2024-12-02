@@ -11,8 +11,16 @@ export const metadata = {
     description: "",
     url: 'https://www.rajasthantourpackages.in/5days-jaipur-udaipur-jodhpur-desert-tour',
     image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
-    siteName: 'Rajasthan Tour Packages',
+    site_name: 'Rajasthan Tour Packages',
     type: 'website',
+    locale: 'en_US',
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@rajasthantourpackages",
+    title: '05 days jaipur udaipur jodhpur desert tour',
+    description: "",
+    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
   },
 }
 const FiveDaysJaipurUdaipurJodhpurDesertTour = () => {

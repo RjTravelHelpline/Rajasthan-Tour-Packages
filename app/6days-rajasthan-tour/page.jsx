@@ -1,18 +1,26 @@
 import Breadcrumb from "@/components/Breadcrumb"
 
 export const metadata = {
-  title: '06 days rajasthan tour',
-  description: "",
+  title: 'Rajasthan Heritage 6 Days Tour | Rajasthan Tour Packages',
+  description: "Get a 6-day Rajasthan Tour package and visit the best places. Rajasthan Tour Packages offers an opportunity to find Rajasthan's heritage, culture, and beauty.",
   alternates: {
     canonical: 'https://www.rajasthantourpackages.in/6days-rajasthan-tour',
   },
   openGraph: {
-    title: '06 days rajasthan tour',
-    description: "",
+    title: 'Rajasthan Heritage 6 Days Tour | Rajasthan Tour Packages',
+    description: "Get a 6-day Rajasthan Tour package and visit the best places. Rajasthan Tour Packages offers an opportunity to find Rajasthan's heritage, culture, and beauty.",
     url: 'https://www.rajasthantourpackages.in/6days-rajasthan-tour',
     image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
-    siteName: 'Rajasthan Tour Packages',
+    site_name: 'Rajasthan Tour Packages',
     type: 'website',
+    locale: 'en_US',
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@rajasthantourpackages",
+    title: 'Rajasthan Heritage 6 Days Tour | Rajasthan Tour Packages',
+    description: "Get a 6-day Rajasthan Tour package and visit the best places. Rajasthan Tour Packages offers an opportunity to find Rajasthan's heritage, culture, and beauty.",
+    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
   },
 }
 const SixDaysRajasthanPackageTour = () => {

@@ -20,7 +20,7 @@ export const metadata = {
     description: "Get the splendour of the Rajasthan Tour from Nagpur. Choose Rajasthan Tour Packages for a tailored travel Know rich in history, culture, and majestic landscapes.",
     url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-nagpur",
     image: "https://www.rajasthantourpackages.in/Images/Banners/nagpur-banner.webp",
-    siteName: 'Rajasthan Tour Packages',
+    site_name: 'Rajasthan Tour Packages',
     type: 'website',
     locale: 'en_US',
   },

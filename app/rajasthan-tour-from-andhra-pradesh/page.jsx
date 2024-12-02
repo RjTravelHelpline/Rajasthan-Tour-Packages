@@ -19,7 +19,7 @@ export const metadata = {
         description: 'Start your Rajasthan Tour from Andhra Pradesh with Rajasthan Tour Packages. Enjoy an immersive experience of the royal palaces, historic forts, and vibrant culture.',
         url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-andhra-pradesh",
         image: "https://www.rajasthantourpackages.in/Images/Banners/andhra-pradesh-banner.webp",
-        siteName: 'Rajasthan Tour Packages',
+        site_name: 'Rajasthan Tour Packages',
         type: 'website',
         locale: 'en_US',
     },

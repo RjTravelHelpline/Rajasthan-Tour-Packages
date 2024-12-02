@@ -21,7 +21,7 @@ export const metadata = {
     description: "Discover Rajasthan's grandeur with a customized tour from Surat. Rajasthan Tour Packages offers an unforgettable blend of culture, history, and natural beauty.",
     url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-surat",
     image: "https://www.rajasthantourpackages.in/Images/Banners/surat-banner.webp",
-    siteName: 'Rajasthan Tour Packages',
+    site_name: 'Rajasthan Tour Packages',
     type: 'website',
     locale: 'en_US',
   },

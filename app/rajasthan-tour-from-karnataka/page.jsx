@@ -21,7 +21,7 @@ export const metadata = {
     description: "Experience Rajasthan royal palaces, desert adventure, and cultural heritage. Book your customized Rajasthan Tour from Karnataka today for an unforgettable journey.",
     url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-karnataka",
     image: "https://www.rajasthantourpackages.in/Images/Banners/karnataka-banner.webp",
-    siteName: 'Rajasthan Tour Packages',
+    site_name: 'Rajasthan Tour Packages',
     type: 'website',
     locale: 'en_US',
   },

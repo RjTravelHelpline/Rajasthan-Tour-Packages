@@ -56,14 +56,14 @@ export const metadata = {
     title: "Things to Do in Jodhpur Tourism | Rajasthan Tour Packages",
     description: "Learn about Jodhpur Fort sporting and leisure activities, city markets, and more. Check out Rajasthan Tour Packages for the ideal planning of our Jodhpur tour.",
     url: "https://www.rajasthantourpackages.in/jodhpur",
-    sitename: "Rajasthan Tour Packages",
     images: [
       {
         url: 'https://www.rajasthantourpackages.in/Images/Banners/jodhpur-banner02.webp', // Add image URL if needed
       }
     ],
+    site_name: 'Rajasthan Tour Packages',
+    type: 'website',
     locale: 'en_US',
-    type: "website",
   }
 };
 
