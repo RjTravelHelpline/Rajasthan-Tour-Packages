@@ -9,7 +9,7 @@ export const metadata = {
     title: 'Rajasthan Tour and Travel Guides | Rajasthan Tour Packages',
     description: 'Find Rajasthan Tour and Travel Guides for top destinations, expert itineraries, and travel tips. Plan your dream trip with Rajasthan Tour Packages today.',
     alternates: {
-        canonical: "https://www.rajasthantourpackages.in/blog",
+        canonical: "https://www.rajasthantourpackages.in/blog/categories/tour-and-travels",
     },
     twitter: {
         card: "summary_large_image",
@@ -21,7 +21,7 @@ export const metadata = {
     openGraph: {
         title: 'Rajasthan Tour and Travel Guides | Rajasthan Tour Packages',
         description: 'Find Rajasthan Tour and Travel Guides for top destinations, expert itineraries, and travel tips. Plan your dream trip with Rajasthan Tour Packages today.',
-        url: "https://www.rajasthantourpackages.in/blog",
+        url: "https://www.rajasthantourpackages.in/blog/categories/tour-and-travels",
         image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
         site_name: 'Rajasthan Tour Packages',
         type: 'website',

@@ -1094,7 +1094,6 @@ export const blogs = [
                 India offers prime spots for bird watching enthusiasts to catch a glimpse of vibrant 
                 and rare species.`,
   },
-
   // News & Updates
   {
     author: 'admin',
@@ -1332,7 +1331,7 @@ export const blogs = [
       <>
         <p>Rajasthan, also known as the land of kings, is a storehouse of conglomeration of historical legends and traditional wealth of art and craft. This is a desert state of India, more known as The <strong>Cultural capital of India</strong>, which is perfect for discovering the magical touch of history, traditions and art for any adventurous tourist. Regarding Royal culture, Rajasthan remains unbeatable and what with its forts and palaces, arts and crafts? Now, let us take a closer look at what makes <strong>Rajasthan Cultural Heritage Tours</strong> so unique, paying great attention to <strong>Royal History </strong>and <strong>traditional folk arts and crafts</strong>.
         </p>
-        <h2>The Majestic Rajasthan: A Land of Timeless Splendor</h2>
+        <h3>The Majestic Rajasthan: A Land of Timeless Splendor</h3>
         <p>The city of Rajasthan means the <strong>Land of Kings</strong>, which is why it is so popular with royal buildings and architectural designs. Every corner of this state has something to do with heroes, knights, lovers and all the fairy tales coming alive. The forts, palaces, and Havelis of Jaipur, Jodhpur, Udaipur and Jaisalmer present the royal Rajasthan. All the cities have different tastes and versions of Rajasthani culture, making the tourists explore other stories in the same state.
         </p>
         <h3>Rajasthan Royal History: A Story of Courage and Magnificence</h3>

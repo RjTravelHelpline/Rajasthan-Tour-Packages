@@ -572,10 +572,10 @@ const breadcrumbData = {
     { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
     { label: '03 Days Jodhpur Jaisalmer Desert Tour' },
   ],
-  _3daysjodhpurmarwartour: [
+  _3daysjodhpurmewartour: [
     { label: 'Home', link: '/' },
     { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
-    { label: '03 Days Jodhpur Marwar Tour' },
+    { label: '03 Days Jodhpur Mewar Tour' },
   ],
   _3daysudaipurkumbhalgarhtour: [
     { label: 'Home', link: '/' },
@@ -585,7 +585,7 @@ const breadcrumbData = {
   _3daysudaipurmewartour: [
     { label: 'Home', link: '/' },
     { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
-    { label: '03 Days Udaipur Marwar Tour' },
+    { label: '03 Days Udaipur Mewar Tour' },
   ],
   _3daysudaipurmountabutour: [
     { label: 'Home', link: '/' },
@@ -647,10 +647,10 @@ const breadcrumbData = {
   ],
 
   // 6 days
-  _6daysmarwartour: [
+  _6daysmerwartour: [
     { label: 'Home', link: '/' },
     { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
-    { label: '05 days marwar tour' },
+    { label: '05 days merwar tour' },
   ],
   _6daysrajasthanfortsanddeserttour: [
     { label: 'Home', link: '/' },
@@ -1473,15 +1473,15 @@ export const _03DaysToursData = [
     destination: ['jodhpur', 'jaisalmer'],
   },
   {
-    title: 'Jodhpur Marwar Tour',
+    title: 'Jodhpur Mewar Tour',
     price: 9500,
     duration: '02 nights • 03 Days',
     imgSrc: allCitiesImages.jaisalmer.jaisalmerDesert02.src,
     alt: allCitiesImages.jaisalmer.jaisalmerDesert02.alt,
     imgTitle: allCitiesImages.jaisalmer.jaisalmerDesert02.title,
-    navigate: '/3days-jodhpur-marwar-tour',
+    navigate: '/3days-jodhpur-mewar-tour',
     category: null,
-    destination: ['jodhpur', 'marwar'],
+    destination: ['jodhpur', 'mewar'],
   },
   {
     title: 'Udaipur Mount-Abu Tour',
@@ -1649,15 +1649,15 @@ export const _06DaysToursData = [
     destination: [''],
   },
   {
-    title: 'Marwar Tour',
+    title: 'Mewar Tour',
     price: 18000,
     duration: '05 nights • 06 Days',
     imgSrc: allCitiesImages.marwar.marwar01.src,
     alt: allCitiesImages.marwar.marwar01.src,
     imgTitle: allCitiesImages.marwar.marwar01.src,
-    navigate: '/6days-marwar-tour',
+    navigate: '/6days-mewar-tour',
     category: null,
-    destination: ['marwar'],
+    destination: ['mewar'],
   },
   {
     title: 'Rajasthan Tour',

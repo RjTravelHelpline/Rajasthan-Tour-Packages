@@ -73,7 +73,7 @@ const routes = [
     path: '/3days-jaipur-ranthambore-weekend-tour',
   },
   {
-    path: '/3days-udaipur-mawar-tour',
+    path: '/3days-udaipur-mewar-tour',
   },
   {
     path: '/3days-jaisalmer-desert-safari-tour',
@@ -85,7 +85,7 @@ const routes = [
     path: '/3days-jodhpur-jaisalmer-desert-tour',
   },
   {
-    path: '/3days-jodhpur-marwar-tour',
+    path: '/3days-jodhpur-mewar-tour',
   },
   {
     path: '/3days-udaipur-mountabu-tour',
@@ -141,7 +141,7 @@ const routes = [
     path: '/6days-wild-and-historic-rajasthan-tour',
   },
 
-  { path: '/6days-marwar-tour' },
+  { path: '/6days-mewar-tour' },
   {
     path: '/6days-rajasthan-tour',
   },

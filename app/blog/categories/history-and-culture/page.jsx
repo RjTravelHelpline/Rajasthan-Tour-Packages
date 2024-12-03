@@ -7,7 +7,7 @@ export const metadata = {
     title: 'Find Rajasthan History and Culture | Rajasthan Tour Packages',
     description: 'Discover the history and the colourful culture of Rajasthan. Rajasthan Tour Packages make you aware of the rich heritage and traditions of this royal place.',
     alternates: {
-        canonical: "https://www.rajasthantourpackages.in/blog",
+        canonical: "https://www.rajasthantourpackages.in/blog/categories/history-and-culture",
     },
     twitter: {
         card: "summary_large_image",
@@ -19,7 +19,7 @@ export const metadata = {
     openGraph: {
         title: 'Find Rajasthan History and Culture | Rajasthan Tour Packages',
         description: 'Discover the history and the colourful culture of Rajasthan. Rajasthan Tour Packages make you aware of the rich heritage and traditions of this royal place.',
-        url: "https://www.rajasthantourpackages.in/blog",
+        url: "https://www.rajasthantourpackages.in/blog/categories/history-and-culture",
         image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
         site_name: 'Rajasthan Tour Packages',
         type: 'website',

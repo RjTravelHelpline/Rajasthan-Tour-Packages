@@ -48,10 +48,11 @@
     width: 100%;
     object-fit: cover;
   }
-  h2 {
+  .home-banner-caption {
     // position: relative;
     font-size: clamp(1.6em, 4vw, 5em) !important;
     text-align: center !important;
+    text-transform: capitalize;
     span {
       color: var(--color-tertary);
     }

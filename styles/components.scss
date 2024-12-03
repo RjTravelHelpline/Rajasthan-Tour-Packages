@@ -425,7 +425,7 @@
   align-items: center;
   .row {
     box-shadow: none !important;
-width: 100% !important;
+    width: 100% !important;
     a {
       color: var(--color-primary) !important;
     }
@@ -436,7 +436,7 @@ width: 100% !important;
 .footer-container {
   background-color: var(--color-secondary) !important;
   color: var(--color-primary);
-  h2 {
+  h3 {
     span {
       color: var(--color-tertary);
     }
@@ -602,7 +602,6 @@ width: 100% !important;
     font-size: clamp(0.85em, 2vw, 1em);
     font-weight: normal;
     text-align: justify;
-    // display: none;
   }
   .footer-end {
     a:hover {
@@ -882,7 +881,7 @@ width: 100% !important;
         height: 100%;
         object-fit: cover !important;
         border-radius: 16px;
-        transition: .25s ease-in-out;
+        transition: 0.25s ease-in-out;
         &:hover {
           filter: opacity(0.85);
         }

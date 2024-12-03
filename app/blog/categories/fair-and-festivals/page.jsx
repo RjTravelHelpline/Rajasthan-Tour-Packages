@@ -15,7 +15,7 @@ export const metadata = {
         title: 'Rajasthan Fairs & Festivals Guide | Rajasthan Tour Packages',
         description: 'Get the ultimate guide to Fairs and Festivals. Rajasthan Tour Packages offers a colourful and lively trip at the celebration of cultural fairs and festivals.',
         image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
-    
+
     },
 
     openGraph: {

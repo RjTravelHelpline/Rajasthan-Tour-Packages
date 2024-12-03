@@ -55,17 +55,14 @@ const Footer = () => {
             <div className="footer-container py-4 footer-request container-fluid">
                 <div className="container py-4">
                     <div className="row d-flex justify-content-center align-items-center">
-                        <div className="col-12 col-lg-6 mb-3 mb-lg-0">
-                            <h2 className="text-capitalize mb-2 text-black">
-                                Looking to explore <span>something Specific</span>?
-                            </h2>
-                            <p className="text-black text-capitalize fw-normal">
-                                Let our expert helps you to make your own package.
-                            </p>
-                        </div>
-                        <div className="col-12 col-lg-6 d-flex justify-content-end">
-                            <button onClick={handleShow}>Request a quote now </button>
-                        </div>
+                        <h3 className="text-capitalize mb-2 text-black text-center">
+                            Looking to explore <span className='color-tertary'>something Specific</span>?
+                        </h3>
+                        <p className="text-black text-capitalize fw-normal text-center">
+                            Let our expert helps you to make your own package.
+                        </p>
+                        <hr />
+                        <button onClick={handleShow}>Request a quote now </button>
                     </div>
                 </div>
             </div>
@@ -96,9 +93,9 @@ const Footer = () => {
                 <div className="packages-footer pt-5">
                     <div className="container">
                         <div className="row mb-4">
-                            <h2 className="text-center text-capitalize">
-                                our <span>Packages </span>& Insights
-                            </h2>
+                            <h3 className="text-center text-capitalize">
+                                our <span className='color-tertary'>Packages </span>& Insights
+                            </h3>
                             <p className="text-center fw-normal text-capitalize">
                                 Explore our diverse range of tour packages designed to cater your
                                 preferences.

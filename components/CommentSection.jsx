@@ -125,7 +125,7 @@ const Comment = ({ selectedBlog }) => {
                                 <span className="color-tertary bg-tertary-down rounded-5 p-2 my-2 d-flex justify-content-center align-items-center">
                                     <FaCommentAlt />
                                 </span>
-                                <h3 className='text-center text-capitalize'>comments <span className="fw-normal"></span></h3>
+                                <h4 className='text-center text-capitalize'>comments <span className="fw-normal"></span></h4>
                                 <p>No comments yet. Why don’t you start the discussion?</p>
                             </div>
                             <div className="row p-4">

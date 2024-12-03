@@ -39,15 +39,10 @@ export const metadata = {
 const FiveDaysGoldenTriangleTour = () => {
 
     const images = [
-        { src: allCitiesImages.jaisalmer.jaisalmerHaweli.src },
         { src: allCitiesImages.jaisalmer.jaisalmerLeisure.src },
     ];
 
     const content = [
-        {
-            duration: '04 nights • 05 days',
-            title: '05 Days Golden Triangle Tour',
-        },
         {
             duration: '04 nights • 05 days',
             title: '05 Days Golden Triangle Tour',
@@ -70,10 +65,10 @@ const FiveDaysGoldenTriangleTour = () => {
                 <div className="container days-container overview">
                     <div className="row d-flex justify-content-center align-items-center days-overview px-2">
                         <div className="col-12 col-lg-11 col-sm-12 insider px-0">
-                            <h2
+                            <h3
                                 className="text-capitalize px-3 mb-3 text-center fw-normal"
                                 dangerouslySetInnerHTML={{ __html: tourOverview.title }}
-                            ></h2>
+                            ></h3>
                             <p
                                 className="home-para px-3"
                                 dangerouslySetInnerHTML={{
@@ -90,10 +85,10 @@ const FiveDaysGoldenTriangleTour = () => {
                 <div className="container overview">
                     <div className="row px-2 d-flex justify-content-center align-items-center days-highlights">
                         <div className="col-12 col-lg-11 col-sm-12 insider px-0">
-                            <h2
+                            <h3
                                 className="text-capitalize px-3 mb-3 text-center fw-normal"
                                 dangerouslySetInnerHTML={{ __html: tourHighlights.title }}
-                            ></h2>
+                            ></h3>
                             <div className="w-100 px-2 days-highlights-pts">
                                 {tourHighlights.content
                                     .map((item, index) => (
@@ -114,10 +109,10 @@ const FiveDaysGoldenTriangleTour = () => {
                 <div className="container overview">
                     <div className="row d-flex justify-content-center align-items-center days-overview days-highlights px-2">
                         <div className="col-12 col-lg-11 col-sm-12 px-0 insider">
-                            <h2
+                            <h3
                                 className="text-capitalize px-3 mb-3 text-center fw-normal"
                                 dangerouslySetInnerHTML={{ __html: tourItinerary.title }}
-                            ></h2>
+                            ></h3>
                             <div className="w-100">
                                 <p className="px-3 text-capitalize fw-bold">
                                     {destinationCovered.title}
@@ -144,9 +139,9 @@ const FiveDaysGoldenTriangleTour = () => {
                 <div className="container overview">
                     <div className="row px-2 d-flex justify-content-center align-items-center package-cost">
                         <div className="col-12 col-lg-11 col-sm-12 cost-table insider px-0">
-                            <h2 className="text-capitalize px-3 text-center fw-normal mb-2">
+                            <h3 className="text-capitalize px-3 text-center fw-normal mb-2">
                                 package <span className="fw-bold">cost</span>
-                            </h2>
+                            </h3>
                             <div className="table-responsive rounded-table mx-2 my-0">
                                 <Table
                                     responsive
@@ -203,9 +198,9 @@ const FiveDaysGoldenTriangleTour = () => {
                 <div className="container overview">
                     <div className="row px-2 d-flex justify-content-center align-items-center package-more">
                         <div className="col-12 col-lg-11 col-sm-12 cost-table insider px-0">
-                            <h2 className="text-capitalize px-3 text-center fw-normal mb-2">
+                            <h3 className="text-capitalize px-3 text-center fw-normal mb-2">
                                 more <span className="fw-bold">on</span>
-                            </h2>
+                            </h3>
                             <PackageAccordion packageData={packageData} />
                         </div>
                     </div>

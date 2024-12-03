@@ -34,9 +34,9 @@ export const BlogDataSection = ({ category, Data, icon, subhead }) => {
                                         <hr style={{ borderColor: 'var(--color-black)' }} />
                                     </div>
                                 </div>
-                                <h2 className="text-capitalize fw-normal">
+                                <h3 className="text-capitalize fw-normal">
                                     <span className="fw-bold blog-subhead-gradient d-block text-center text-uppercase">{category}</span>
-                                </h2>
+                                </h3>
                             </div>
                         </div>
                         <div className="row py-2 d-flex align-items-stretch justify-content-center px-2 blogs">

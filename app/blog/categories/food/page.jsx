@@ -5,17 +5,17 @@ import Link from 'next/link';
 
 export const metadata = {
     title: 'Food Guide Cuisine & Delights | Rajasthan Tour Packages',
-    description: 'Discover exclusive Rajasthan tour packages from Ahmedabad. Explore historic forts, vibrant markets, and rich cultural treasures on this memorable journey.',
+    description: '',
     keywords: [
     ],
     alternates: {
-        canonical: "https://www.rajasthantourpackages.in/rajasthan-tour-from-ahmedabad",
+        canonical: "https://www.rajasthantourpackages.in/blog/categories/food",
     },
     openGraph: {
         title: 'Food Guide Cuisine & Delights | Rajasthan Tour Packages',
-        description: 'Discover exclusive Rajasthan tour packages from Ahmedabad. Explore historic forts, vibrant markets, and rich cultural treasures on this memorable journey.',
-        image: "https://www.rajasthantourpackages.in/Images/Banners/ahmedabad-banner.webp",
-        url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-ahmedabad",
+        description: '',
+        images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        url: "https://www.rajasthantourpackages.in/blog/categories/food",
         site_name: 'Rajasthan Tour Packages',
         type: 'website',
         locale: 'en_US',
@@ -24,8 +24,8 @@ export const metadata = {
         card: "summary_large_image",
         site: "@rajasthantourpackages",
         title: 'Food Guide Cuisine & Delights | Rajasthan Tour Packages',
-        description: 'Discover exclusive Rajasthan tour packages from Ahmedabad. Explore historic forts, vibrant markets, and rich cultural treasures on this memorable journey.',
-        image: "https://www.rajasthantourpackages.in/Images/Banners/ahmedabad-banner.webp",
+        description: '',
+        images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     },
 };
 

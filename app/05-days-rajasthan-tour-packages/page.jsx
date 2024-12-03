@@ -39,7 +39,7 @@ const FiveDaysRajasthanTourPackages = () => {
   const content = [
     {
       duration: '04 nights • 05 days',
-      title: 'Explore 05 Days Tour in Rajasthan | Rajasthan Tour Packages',
+      title: '05 Days Rajasthan Tour Packages',
       subhead: null
     },
   ];

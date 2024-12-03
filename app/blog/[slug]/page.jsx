@@ -91,7 +91,7 @@ const BlogPost = ({ params }) => {
                                     <span className="color-tertary bg-tertary-down rounded-5 p-2 my-2 d-flex justify-content-center align-items-center">
                                         <FaShareAlt />
                                     </span>
-                                    <h3 className='text-center text-capitalize fw-normal'>share this <span className="fw-bold"> blog</span></h3>
+                                    <h4 className='text-center text-capitalize fw-normal'>share this <span className="fw-bold"> blog</span></h4>
                                 </div>
                                 <div className="col">
                                     <div className="rounded-4 py-4 social-icons d-flex justify-content-center gap-3">
@@ -156,11 +156,11 @@ const BlogPost = ({ params }) => {
                         <div className="col-lg-4 col-ms-12 col-sm-12 side-nav px-sm-0 px-md-0 px-lg-2">
                             <div className="sidebar-menu w-100 z-9999 mb-3 search-sidebar flex-column">
                                 <p className='mb-0 text-uppercase'><span className='blog-subhead-gradient d-inline'>{blog.category}</span></p>
-                                <h2 className="text-capitalize py-1">search</h2>
+                                <h4 className="text-capitalize py-1">search</h4>
                                 <SearchBar blogs={filteredBlogs} styles="rounded-4 w-100 p-3" placeholder="search here" />
                             </div>
                             <div className="sidebar-menu mb-3 w-100 z-9999 flex-column">
-                                <h2 className="text-capitalize py-1">popular <span className="fw-normal d-inline">insights</span></h2>
+                                <h4 className="text-capitalize py-1">popular <span className="fw-normal d-inline">insights</span></h4>
                                 <ul className="list-group list-group-flush w-100">
                                     {filteredBlogs.slice(0, 3).map((item, index) => (
                                         <li key={index} className="list-group-item hovered-link">
@@ -170,13 +170,13 @@ const BlogPost = ({ params }) => {
                                 </ul>
                             </div>
                             <div className="sidebar-menu w-100 z-9999 flex-column">
-                                <h2 className="text-capitalize py-1">comments</h2>
+                                <h4 className="text-capitalize py-1">comments</h4>
                                 <ul className="p-0 w-100 d-flex justify-content-start flex-wrap align-items-center gap-2">
                                     <p className='mb-0 text-capitalize text-center'>no comments to show</p>
                                 </ul>
                             </div>
                             <div className="sidebar-menu w-100 z-9999 flex-column">
-                                <h2 className="text-capitalize py-1">categories</h2>
+                                <h4 className="text-capitalize py-1">categories</h4>
                                 <ul className="p-0 w-100 d-flex justify-content-start flex-wrap align-items-center gap-2">
                                     {blogCategories.map((item, index) => (
                                         <li key={index} className="list-group-item">

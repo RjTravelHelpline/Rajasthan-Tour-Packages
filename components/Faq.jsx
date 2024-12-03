@@ -15,10 +15,12 @@ const Faq = ({ faqs }) => {
                 key={index}
               >
                 <Accordion.Header className="d-flex w-100 justify-content-between">
-                  <FaLightbulb className="me-2 accordion-question-icon" />
-                  <p className="mb-0 accordion-question fw-normal">
-                    {item.question}
-                  </p>
+                  <div role="heading" aria-level="3" className="d-flex align-items-center">
+                    <FaLightbulb className="me-2 accordion-question-icon" />
+                    <p className="mb-0 accordion-question fw-normal">
+                      {item.question}
+                    </p>
+                  </div>
                 </Accordion.Header>
                 <Accordion.Body>
                   <p
