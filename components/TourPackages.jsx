@@ -15,7 +15,13 @@ const TourPackages = ({ pkg }) => {
     setSelectedPackage(title);
     setShow(true);
   };
-  const whatsappLink = `https://wa.me/?text=I am interested in the ${pkg.title} package for ₹${pkg.price}/-. Please provide more details.`;
+  const messageText = `I am interested in the ${pkg.title} package for ₹${pkg.price}/-. Please provide more details.`;
+
+  // Encoding the message for safe URL use
+  const encodedText = encodeURIComponent(messageText);
+
+  // Constructing the WhatsApp link with the encoded text
+  const whatsappLink = `https://api.whatsapp.com/send/?phone=919166555888&text=${encodedText}&type=phone_number&app_absent=0`;
 
   return (
     <>

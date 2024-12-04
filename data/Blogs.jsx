@@ -38,15 +38,19 @@ const historyPushkarCamelFair = '/Images/Blog/history-pushkar-camel-fair.png';
 const historyUmaidBhavan = '/Images/Blog/history-umaid-bhavan.jpeg';
 
 // fair & festivals
-
 const fairCamelrBanner = '/Images/Blog/fair-camel-banner.png';
 const fairPushkarLake = '/Images/Blog/fair-pushkar-lake.png';
-// * Blog data
+
+
+// * data
+
 const generateSlug = (heading) =>
   heading
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, '-')
     .replace(/(^-|-$)+/g, '');
+
+// blogs
 export const blogs = [
   // Wildlife
   {
@@ -58,7 +62,7 @@ export const blogs = [
     metaTitle: 'Rajasthan Wildlife Trails: A Paradise for Adventurers Explorers',
     metaDescription: 'Check out exciting wildlife tours in Rajasthan with Rajasthan Tour Packages. Explore Ranthambore, Sariska and lots more for a close glimpse of the wild.',
     canonical: 'https://www.rajasthantourpackages.in/blog/wildlife-trails-rajasthan-nature-adventures',
-    keywords: [],
+    keywords: ['Wildlife Sanctuary Tours in Rajasthan'],
     description:
       'Rich in a royal legacy and magnificent forts and palaces Rajasthan also boasts of some of the best Wildlife Sanctuary and National Park in India. Peace and serenity are two qualities that no traveler would associate with this enthralling state of Rajasthan.',
     category: 'Wildlife',
@@ -1108,7 +1112,7 @@ export const blogs = [
     metaTitle: 'Pink City Jaipur Turns 297: Discover Why It Attracts Visitors from Across the Globe',
     metaDescription: 'Pink City Jaipur celebrating 297 years continues to attract global guests. Find the heritage landmarks and traditions of India by using Rajasthan Tour Packages.',
     canonical: 'https://www.rajasthantourpackages.in/blog/pink-city-jaipur-turns-297-discover-why-it-attracts-visitors-from-across-the-globe',
-    keywords: [],
+    keywords: ['Pink City Jaipur Turns 297'],
     description:
       'This is the 297th anniversary of the establishment of Jaipur, the Pink City, which retains the honor of being on the world’s tourist map. Having tourist attractions and so many things to do and see, Jaipur continues to emerge as a key attraction for tourists. As part of the elucidation of this topic in this blog, the discovery of the journey of Jaipur, which has made it a tourist city in this world, is also explained.',
     category: 'News & Updates',
@@ -1165,7 +1169,7 @@ export const blogs = [
     metaTitle: 'Connecting Hearts: Delhi to Srinagar Train - Kashmir Train Tour & Jammu Railway Routes',
     metaDescription: 'Experience the scenic Delhi to Srinagar Train journey. Explore Kashmir and Jammu’s beauty at our Kashmir Train Tour and Railway Routes for an unforgettable trip.',
     canonical: 'https://www.rajasthantourpackages.in/blog/delhi-to-srinagar-train-kashmir-train-tour-jammu-railway-routes',
-    keywords: [],
+    keywords: ['Delhi to Srinagar Train: Kashmir Train Tour & Jammu Routes'],
     description:
       "Getting to Srinagar by rail from Delhi is comfortable, takes considerably less time, and offers some of the best scenery. As one of India&apos; s most eagerly awaited new railway lines, it is an excellent opportunity to get closer to Kashmir&apos; s beautiful nature. The Delhi to Kashmir Train Tour is recommended to those fond of traveling and seeking spiritual experience since it will reveal the beauty of Jammu and Kashmir to you.",
     category: 'News & Updates',
@@ -1325,7 +1329,7 @@ export const blogs = [
     metaTitle: 'Rajasthan Cultural Heritage Tours: Exploring Tradition and Histories',
     metaDescription: 'Read more Rajasthan Cultural Heritage Tours and learn about the state’s culture and history. Get a great heritage and cultural site at Rajasthan Tour Packages.',
     canonical: 'https://www.rajasthantourpackages.in/blog/rajasthan-cultural-heritage-tours-exploring-tradition-history',
-    keywords: [],
+    keywords: ['Rajasthan Cultural Heritage Tours'],
     description:
       "Rajasthan, also known as the land of kings, is a storehouse of conglomeration of historical legends and traditional wealth of art and craft. This is a desert state of India, more known as The Cultural capital of India, which is perfect for discovering the magical touch of history, traditions and art for any adventurous tourist. Regarding Royal culture, Rajasthan remains unbeatable and what with its forts and palaces, arts and crafts? Now, let us take a closer look at what makes Rajasthan Cultural Heritage Tours so unique, paying great attention to Royal History and traditional folk arts and crafts.",
     category: 'History & Culture',
@@ -1492,11 +1496,11 @@ export const blogs = [
     metaTitle: 'Pushkar Camel Fair: Cultural Tourism In Rajasthan',
     metaDescription: 'Colourful tourism culture care of the Pushkar camel fair Rajasthan, camel trading, folk art and traditional rituals. Book our cultural Rajasthan tour packages.',
     canonical: 'https://www.rajasthantourpackages.in/blog/pushkar-camel-fair-cultural-tourism-rajasthan',
-    keywords: [],
+    keywords: ['Pushkar Camel Fair'],
     description:
       "Rajasthan is the largest state of India, known for royalty, colors, and tradition. The celebration, among many other festivals and fairs of India known all over the world, is possible to place the Pushkar Camel Fair into the sphere of the Rajasthan Cultural Events of the world. This annual fair again proves that Rajasthan&apos; s cultural heritage is a significant tourist attraction for thousands of visitors from all parts of the world. The Pushkar Camel Fair has that cultural factor which no other fair across the world can offer.",
     category: 'Fair & Festivals',
-    more: ( 
+    more: (
       <>
         <p>Rajasthan is the largest state of India, known for royalty, colors, and tradition. The celebration, among many other festivals and fairs of India known all over the world, is possible to place the Pushkar Camel Fair into the sphere of the Rajasthan Cultural Events of the world. This annual fair again proves that Rajasthan&apos; s cultural heritage is a significant tourist attraction for thousands of visitors from all parts of the world. The Pushkar Camel Fair has that cultural factor which no other fair across the world can offer.
         </p>
@@ -1627,38 +1631,10 @@ export const blogs = [
               heritage. From the grand feast of Onasadya to the intricate flower designs, Onam brings 
               families together.`,
   },
-
-
-
 ];
 
-//* functional assets
-export const getLatestBlogs = (blogs, count = 5) => {
-  return blogs
-    .sort((a, b) => new Date(b.date) - new Date(a.date))
-    .slice(0, count);
-};
 
-//* Function to get popular blogs
-export const getPopularBlogs = (blogs, count = 5) => {
-  return blogs.slice(0, count);
-};
-
-//* Function to get blogs by category
-export const getBlogsByCategory = (blogs, category) => {
-  return blogs.filter(
-    (blog) => blog.category.toLowerCase() === category.toLowerCase()
-  );
-};
-
-//* Function to get blogs by archives
-export const filterBlogsByMonth = (blogs, month, year) => {
-  return blogs.filter(blog => {
-    const blogDate = new Date(blog.date);
-    return blogDate.getMonth() + 1 === month && blogDate.getFullYear() === year;
-  });
-}
-
+// blog categories
 export const blogCategories = [
   {
     path: '/food',
@@ -1685,3 +1661,33 @@ export const blogCategories = [
     text: 'Fair & Festivals',
   },
 ];
+
+
+// logics
+//* Function to get blogs by archives
+export const filterBlogsByMonth = (blogs, month, year) => {
+  return blogs.filter(blog => {
+    const blogDate = new Date(blog.date);
+    return blogDate.getMonth() + 1 === month && blogDate.getFullYear() === year;
+  });
+}
+
+// To get the blog by latest
+export const getLatestBlogs = (blogs, count = 5) => {
+  return blogs
+    .sort((a, b) => new Date(b.date) - new Date(a.date))
+    .slice(0, count);
+};
+
+//* To get the blogs by popular
+export const getPopularBlogs = (blogs, count = 5) => {
+  return blogs.slice(0, count);
+};
+
+
+//* To get blogs by category
+export const getBlogsByCategory = (blogs, category) => {
+  return blogs.filter(
+    (blog) => blog.category.toLowerCase() === category.toLowerCase()
+  );
+};

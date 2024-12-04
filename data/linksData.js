@@ -108,28 +108,32 @@ export const companyLinks = [
     text: 'About Us',
   },
   {
-    path: '/blogs',
-    text: 'Blogs',
+    path: '/gallery',
+    text: 'Our Gallery',
   },
   {
-    path: '/policy',
+    path: '/faq',
+    text: "Common FAQ's",
+  },
+  {
+    path: '/blog',
+    text: 'Blog',
+  },
+  {
+    path: '/contact-us',
+    text: 'Contact Us',
+  },
+  {
+    path: '/privacy-policy',
     text: 'Privacy Policy',
   },
   {
-    path: '/terms',
+    path: '/terms-and-conditions',
     text: 'Terms & Conditions',
   },
   {
     path: '/sitemap.xml',
     text: 'Sitemap',
-  },
-  {
-    path: '/faq',
-    text: "FAQ's",
-  },
-  {
-    path: '/contact-us',
-    text: 'Contact Us',
   },
 ];
 
@@ -296,7 +300,7 @@ export const destinationLinks = [
     text: 'bikaner',
   },
   {
-    path: '/mountabu',
+    path: '/mount-abu',
     text: 'mountabu',
   },
   {

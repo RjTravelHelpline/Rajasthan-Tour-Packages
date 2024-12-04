@@ -146,7 +146,7 @@ const breadcrumbData = {
   _11_15Days: [
     { label: 'home', link: '/' },
     { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
-    { label: '11-15 days rajasthan tour' },
+    { label: '11-15 days tour packages' },
   ],
 
   // tour by cities
@@ -826,7 +826,7 @@ export const daysPackage = [
     imgSrc: allCitiesImages.jaipur.jaipurGator.src,
     title: '11-15 Days',
 
-    navigate: '/11-15-days-rajasthan-tours',
+    navigate: '/11-15-days-rajasthan-tour-packages',
   },
 ];
 

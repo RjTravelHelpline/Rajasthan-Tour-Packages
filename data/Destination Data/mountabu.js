@@ -29,7 +29,8 @@ export const about = {
 
 export const sightseeing = {
   heading: `The place attraction in ${temp.link(
-    `Rajasthan Tour From Mount Abu`
+    `Rajasthan Tour From Mount Abu`,
+    'https://www.rajasthantourpackages.in/rajasthan-tour-from-mount-abu'
   )} is that there exists numerous places of interest in Rajasthan tour and all these are indeed very unique and rare to offer joy to anybody or anything. Whether you love the history, the natural world or business endeavors, there is no shortage of things to visit and things to do in this beautiful Mount Abu Hill Station Travel.`,
   content: [
     {

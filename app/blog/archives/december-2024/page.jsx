@@ -15,7 +15,7 @@ export const metadata = {
     openGraph: {
         title: 'December 2024 Blog Archives | Rajasthan Tour Packages',
         description: '',
-        images: "https://www.rajasthantourpackages.in/Images/Banners/ahmedabad-banner.webp",
+        images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
         url: "https://www.rajasthantourpackages.in/blog/archives/december-2024",
         site_name: 'Rajasthan Tour Packages',
         type: 'website',
@@ -26,7 +26,7 @@ export const metadata = {
         site: "@rajasthantourpackages",
         title: 'December 2024 Blog Archives | Rajasthan Tour Packages',
         description: '',
-        images: "https://www.rajasthantourpackages.in/Images/Banners/ahmedabad-banner.webp",
+        images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     },
 };
 

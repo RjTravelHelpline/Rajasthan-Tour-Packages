@@ -1,9 +1,7 @@
 "use client";
-import { GoArrowRight } from 'react-icons/go';
 import { IoLogoWhatsapp, IoMdClose } from 'react-icons/io';
 import { useState } from 'react';
 import ContactForm from './ContactForm';
-import { FaGripfire } from 'react-icons/fa';
 import SlickSlider from './SlickSlider';
 import { Card, Modal } from 'react-bootstrap';
 import { popularTourPackagesData } from '@/data/data';
@@ -65,7 +63,13 @@ const Packages = () => {
           <div className="row py-4 d-flex align-items-stretch px-2">
             <SlickSlider>
               {visiblePackages.map((pkg, index) => {
-                const whatsappLink = `https://wa.me/919166555888?text=I am interested in the ${pkg.title} package for ₹${pkg.price}/-. Please provide more details.`;
+                const messageText = `I am interested in the ${pkg.title} package for ₹${pkg.price}/-. Please provide more details.`;
+
+                // Encoding the message for safe URL use
+                const encodedText = encodeURIComponent(messageText);
+
+                // Constructing the WhatsApp link with the encoded text
+                const whatsappLink = `https://api.whatsapp.com/send/?phone=919166555888&text=${encodedText}&type=phone_number&app_absent=0`;
                 return (
                   <div
                     key={index}
@@ -93,9 +97,7 @@ const Packages = () => {
                         </div>
                         <div className="w-100 package-buttons d-flex justify-content-center align-items-center px-0">
                           <div className="col-5">
-                            <Link href={pkg.navigate} className="w-100 rounded-0 text-center d-block"
-
-                            >
+                            <Link href={pkg.navigate} className="w-100 rounded-0 text-center d-block">
                               view
                             </Link>
                           </div>

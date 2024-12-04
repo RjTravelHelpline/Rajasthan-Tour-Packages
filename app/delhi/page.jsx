@@ -133,9 +133,9 @@ const Delhi = () => {
                         {/* overview */}
                         {overview && (
                             <div className="w-100 insider section-offset mb-4" id="about">
-                                <h2 className="text-capitalize px-3 mb-3 text-center fw-normal">
+                                <h3 className="text-capitalize px-3 mb-3 text-center fw-normal">
                                     <span className="fw-bold"> overview</span>
-                                </h2>
+                                </h3>
                                 <p
                                     className="text-justify home-para px-3"
                                     dangerouslySetInnerHTML={{ __html: overview.content }}
@@ -144,9 +144,9 @@ const Delhi = () => {
                         )}
                         {/* About Section */}
                         <div className="w-100 insider section-offset mb-4" id="about">
-                            <h2 className="text-capitalize px-3 mb-3 text-center fw-normal">
+                            <h3 className="text-capitalize px-3 mb-3 text-center fw-normal">
                                 about <span className="fw-bold"> delhi</span>
-                            </h2>
+                            </h3>
                             <p
                                 className="text-justify home-para px-3"
                                 dangerouslySetInnerHTML={{ __html: about.content[0] }}
@@ -155,10 +155,10 @@ const Delhi = () => {
                         </div>
                         {/* Sightseeing Section */}
                         <div className="w-100 insider section-offset mb-4" id="historical-attractions">
-                            <h2 className="text-capitalize px-3 mb-3 text-center fw-normal">
+                            <h3 className="text-capitalize px-3 mb-3 text-center fw-normal">
                                 delhi
                                 <span className="fw-bold"> sightseeing</span>
-                            </h2>
+                            </h3>
                             <div className="col-12 px-2">
                                 <p dangerouslySetInnerHTML={{ __html: sightseeing.heading }} className="px-2 text-justify" />
                                 <ItineraryAccordion tourItinerary={sightseeing} stylePara='destination-accordion-para' style="destination-accordion-head" showIcon={true} more={true} />
@@ -166,9 +166,9 @@ const Delhi = () => {
                         </div>
                         {/* Museums & Art Galleries Section */}
                         <div className="w-100 insider section-offset mb-4" id="cultural-experiences">
-                            <h2 className="text-capitalize px-3 mb-3 text-center fw-normal">
+                            <h3 className="text-capitalize px-3 mb-3 text-center fw-normal">
                                 Museums &   <span className="fw-bold">Art Galleries</span>
-                            </h2>
+                            </h3>
                             <div className="col-12 px-2">
                                 <p dangerouslySetInnerHTML={{ __html: museumsandart.heading }} className="px-2 text-justify" />
                                 <ItineraryAccordion tourItinerary={museumsandart} stylePara='destination-accordion-para' style="destination-accordion-head" showIcon={true} />
@@ -176,9 +176,9 @@ const Delhi = () => {
                         </div>
                         {/* Fairs & Festivals Section */}
                         <div className="w-100 insider section-offset mb-4" id="modern-attractions">
-                            <h2 className="text-capitalize px-3 mb-3 text-center fw-normal">
+                            <h3 className="text-capitalize px-3 mb-3 text-center fw-normal">
                                 Fairs &  <span className="fw-bold"> Festivals</span>
-                            </h2>
+                            </h3>
                             <div className="col-12 px-2">
                                 <p dangerouslySetInnerHTML={{ __html: fairandfestivals.heading }} className="px-2 text-justify" />
                                 <ItineraryAccordion tourItinerary={fairandfestivals} stylePara='destination-accordion-para' style="destination-accordion-head" showIcon={true} />
@@ -186,9 +186,9 @@ const Delhi = () => {
                         </div>
                         {/* excursions */}
                         <div className="w-100 insider section-offset mb-4" id="excursions">
-                            <h2 className="text-capitalize px-3 mb-3 text-center fw-normal">
+                            <h3 className="text-capitalize px-3 mb-3 text-center fw-normal">
                                 Places to  <span className="fw-bold"> visit</span>
-                            </h2>
+                            </h3>
                             <div className="col-12 px-2">
                                 <p dangerouslySetInnerHTML={{ __html: excursions.heading }} className="px-2 text-justify" />
                                 <ItineraryAccordion tourItinerary={excursions} stylePara='destination-accordion-para' style="destination-accordion-head" showIcon={true} />
@@ -196,9 +196,9 @@ const Delhi = () => {
                         </div>
                         {/* shopping */}
                         <div className="w-100 insider section-offset mb-4" id="shopping">
-                            <h2 className="text-capitalize px-3 mb-3 text-center fw-normal">
+                            <h3 className="text-capitalize px-3 mb-3 text-center fw-normal">
                                 <span className="fw-bold">shopping</span>
-                            </h2>
+                            </h3>
                             <div className="col-12 px-2">
                                 <p dangerouslySetInnerHTML={{ __html: shopping.heading }} className="px-2 text-justify" />
                                 <ItineraryAccordion tourItinerary={shopping} stylePara='destination-accordion-para' style="destination-accordion-head" showIcon={true} />
@@ -206,9 +206,9 @@ const Delhi = () => {
                         </div>
                         {/* restaurants */}
                         <div className="w-100 insider section-offset mb-4" id="restaurantsandmore">
-                            <h2 className="text-capitalize px-3 mb-3 text-center fw-normal">
+                            <h3 className="text-capitalize px-3 mb-3 text-center fw-normal">
                                 restaurants &  <span className="fw-bold">Local Cuisine</span>
-                            </h2>
+                            </h3>
                             <div className="col-12 px-2">
                                 <p dangerouslySetInnerHTML={{ __html: restaurantsandmore.heading }} className="px-2 text-justify" />
                                 <ItineraryAccordion tourItinerary={restaurantsandmore} stylePara='destination-accordion-para' style="destination-accordion-head" showIcon={true} />
@@ -216,9 +216,9 @@ const Delhi = () => {
                         </div>
                         {/* how to reach */}
                         <div className="w-100 insider section-offset mb-4" id="how-to-reach">
-                            <h2 className="text-capitalize px-3 mb-3 text-center fw-normal">
+                            <h3 className="text-capitalize px-3 mb-3 text-center fw-normal">
                                 how to <span className="fw-bold">reach</span>
-                            </h2>
+                            </h3>
                             <div className="col-12 px-2">
                                 <p dangerouslySetInnerHTML={{ __html: howToReach.heading }} className="px-2 text-justify" />
                                 <ItineraryAccordion tourItinerary={howToReach} stylePara='destination-accordion-para' style="destination-accordion-head" showIcon={true} />
@@ -226,36 +226,36 @@ const Delhi = () => {
                         </div>
                         {/* tour packages */}
                         <div className="w-100 insider section-offset mb-4" id="tour-packages">
-                            <h2 className="text-capitalize px-3 mb-3 text-center fw-normal">
+                            <h3 className="text-capitalize px-3 mb-3 text-center fw-normal">
                                 tour
                                 <span className="fw-bold"> packages</span>
-                            </h2>
+                            </h3>
                             <PackagesSlider exploreAll={false} packages={delhiTourPackagesData} href='/delhi-tour-packages' />
                         </div>
                         {/* cab rentals */}
                         <div className="w-100 insider section-offset mb-4" id="cab-rentals">
-                            <h2 className="text-capitalize px-3 mb-3 text-center fw-normal">
+                            <h3 className="text-capitalize px-3 mb-3 text-center fw-normal">
                                 cab  <span className="fw-bold">rentals</span>
-                            </h2>
+                            </h3>
                             <RentalSlider rentals={allCabRentals} />
                         </div>
                         {/* day trips */}
                         <div className="w-100 insider section-offset mb-4" id="day-tours">
-                            <h2 className="text-capitalize px-3 mb-3 text-center fw-normal">
+                            <h3 className="text-capitalize px-3 mb-3 text-center fw-normal">
                                 day <span className="fw-bold">tours</span>
-                            </h2>
+                            </h3>
                         </div>
                         {/* best hotels */}
                         <div className="w-100 insider section-offset mb-4" id="best-hotels">
-                            <h2 className="text-capitalize px-3 mb-3 text-center fw-normal">
+                            <h3 className="text-capitalize px-3 mb-3 text-center fw-normal">
                                 best  <span className="fw-bold">hotels</span>
-                            </h2>
+                            </h3>
                         </div>
                         {/* tourist guide */}
                         <div className="w-100 insider section-offset mb-4" id="tourist-guide-services">
-                            <h2 className="text-capitalize px-3 mb-3 text-center fw-normal">
+                            <h3 className="text-capitalize px-3 mb-3 text-center fw-normal">
                                 tourist <span className="fw-bold">guide </span>services
-                            </h2>
+                            </h3>
                         </div>
                     </div>
                 </div>

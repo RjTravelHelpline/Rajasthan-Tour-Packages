@@ -16,7 +16,7 @@ export const about = {
   content: [
     `Jodhpur, Rajasthan's second-largest city, was established by Rao Jodhaji of Rathore clan in 1459 and lies along the Thar Desert's edge. Famous for its impressive forts, palaces, vibrant bazaars and iconic blue architecture traditionally associated with Brahmin community homes that aid cooling during hot desert climate, ${temp.link(
       `Jodhpur`,
-      'https://www.rajasthantourpackages.in/jodhpur-tour-packages'
+      'https://www.rajasthantourpackages.in/jodhpur'
     )} is well worth exploring for both business and pleasure.`,
     `${temp.bold(
       `Geographical Location:`

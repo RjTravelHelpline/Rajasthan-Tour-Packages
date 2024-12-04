@@ -23,7 +23,14 @@ const RentalSlider = ({ rentals }) => {
             <div className="row py-2 mb-5 d-flex align-items-stretch px-2 packages rental-container">
                 <SlickSlider>
                     {rentals.map((rental, index) => {
-                        const whatsappLink = `https://wa.me/919166555888?text=I am interested in the ${rental.title} package for ₹${rental.price}/-. Please provide more details.`;
+                        const messageText = `I am interested in the ${rental.title} for ₹${rental.price}/-. Please provide more details.`;
+
+                        // Encoding the message for safe URL use
+                        const encodedText = encodeURIComponent(messageText);
+
+                        // Constructing the WhatsApp link with the encoded text
+                        const whatsappLink = `https://api.whatsapp.com/send/?phone=919166555888&text=${encodedText}&type=phone_number&app_absent=0`;
+
                         return (
                             <div
                                 key={index}

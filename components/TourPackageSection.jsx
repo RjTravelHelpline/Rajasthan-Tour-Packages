@@ -47,7 +47,7 @@ export const TourPackageSection = ({ days, tourData }) => {
                                     )}
                                 </button>
                                 <Link
-                                    href={`/${days}-days-rajasthan-tours`}
+                                    href={`/${days}-days-rajasthan-tour-packages`}
                                     className="explore-btn card-button w-auto d-flex justify-content-between align-items-center gap-2"
                                 >
                                     Explore now <MdArrowOutward />

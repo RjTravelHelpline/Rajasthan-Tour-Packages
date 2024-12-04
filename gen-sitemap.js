@@ -4,10 +4,6 @@ import { SitemapStream, streamToPromise } from 'sitemap';
 // Define your routes
 const routes = [
   { path: '/faq' },
-  { path: '/policy' },
-  {
-    path: '/terms',
-  },
   {
     path: '/blog',
   },
@@ -19,6 +15,10 @@ const routes = [
   },
   {
     path: '/about-us',
+  },
+  { path: '/privacy-policy' },
+  {
+    path: '/terms-and-conditions',
   },
   // destination
   { path: '/jaipur' },
@@ -44,7 +44,7 @@ const routes = [
     path: '/08-10-days-rajasthan-tours',
   },
   {
-    path: '/11-15-days-rajasthan-tours',
+    path: '/11-15-days-rajasthan-tour-packages',
   },
   {
     path: '/06-10-days-rajasthan-tours',
@@ -194,9 +194,6 @@ const routes = [
   },
 
   // 11-15 days (6+1=7)
-  {
-    path: '/11-15-days-rajasthan-tours',
-  },
   {
     path: '/12days-complete-rajasthan-tour',
   },

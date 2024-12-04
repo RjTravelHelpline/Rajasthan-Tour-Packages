@@ -128,7 +128,8 @@ export const fairandfestivals = {
       day: 'Dussehra Festival',
       title: 'the festival celebrated in Kota',
       content: `Speaking about the Mekhri Dussehra, the festival celebrated in Kota is one of the most gigantic in Rajasthan. Due to the massive processions and performances, the prominent figures of Ravana are burnt at night. The event draws thousands of visitors each year, showcasing the ${temp.link(
-        `Best Kota Tour Packages`
+        `Best Kota Tour Packages`,
+        'https://www.rajasthantourpackages.in/rajasthan-tour-from-kota'
       )} during this time.`,
     },
     {

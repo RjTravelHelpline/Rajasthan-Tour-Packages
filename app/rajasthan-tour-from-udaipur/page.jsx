@@ -76,7 +76,8 @@ const RajasthanTourFromUdaipur = () => {
             <h2
               className="fw-normal text-capitalize"
               dangerouslySetInnerHTML={{ __html: tourFromUdaipur.package }}
-            ></h2>
+            >
+            </h2>
           </div>
           <div className="row py-4 d-flex align-items-stretch px-2">
             {udaipurTourPackagesData.slice(0, 3).map((pkg, index) => (

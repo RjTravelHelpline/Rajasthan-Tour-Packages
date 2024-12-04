@@ -19,7 +19,7 @@ export const metadata = {
   openGraph: {
     title: 'Rajasthan Tour Package from Bangalore | Rajasthan Tour Packages',
     description: 'Learn the beauty of the Rajasthan tour package from Bangalore. Enjoy royal experiences, cultural sights, and luxury stays. Book your Rajasthan tour today.',
-    url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-banglore",
+    url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-bangalore",
     images: "https://www.rajasthantourpackages.in/Images/Banners/bangalore-banner.webp",
     site_name: 'Rajasthan Tour Packages',
     type: 'website',

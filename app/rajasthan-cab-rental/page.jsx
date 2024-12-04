@@ -6,12 +6,12 @@ export const metadata = {
     title: 'Rajasthan Cab Rental',
     description: '',
     alternates: {
-        canonical: "https://www.rajasthantourpackages.in/about-us",
+        canonical: "https://www.rajasthantourpackages.in/rajasthan-cab-rental",
     },
     openGraph: {
         title: 'Rajasthan Cab Rental',
         description: '',
-        url: "https://www.rajasthantourpackages.in/about-us",
+        url: "https://www.rajasthantourpackages.in/rajasthan-cab-rental",
         images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
         site_name: 'Rajasthan Tour Packages',
         type: 'website',
