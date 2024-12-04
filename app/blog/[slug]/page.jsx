@@ -64,6 +64,8 @@ const BlogPost = ({ params }) => {
             <div className="container-fluid py-4 blog-slug mt-5 pt-5 px-0">
                 <div className="container px-0 d-flex justify-content-center align-items-center w-100 days-container overview destination">
                     <div className="row d-flex justify-content-center align-items-start px-0 w-100">
+
+                        {/* main */}
                         <div className="col-lg-8 col-md-12 col-sm-12 px-sm-0 px-md-0 px-lg-2">
 
                             {/* blog */}
@@ -76,15 +78,15 @@ const BlogPost = ({ params }) => {
                                         width={1500}
                                         height={600}
                                     />
+                                    <div className="d-flex justify-content-start align-items-center gap-2 mb-2">
+                                        <p className="w-auto blog-author mb-0 fw-bold d-flex align-items-center justify-content-center"><span className='color-tertary me-2 d-flex p-2 bg-tertary-down rounded-5'><FaUser /></span>{blog.author}</p>
+                                        <p className="text-black w-auto px-0 blog-dot mb-0">▪</p>
+                                        <p className="w-auto blog-date mb-0 fw-bold d-flex align-items-center justify-content-center"><span className='color-tertary me-2 d-flex p-2 bg-tertary-down rounded-5'><FaCalendarDays /></span>{blog.date}</p>
+                                    </div>
+                                    <h1>{blog.heading}</h1>
+                                    <hr style={{ borderColor: 'var(--color-black)' }} />
                                 </div>
                                 <hr />
-                                <div className="d-flex justify-content-start align-items-center gap-2 mb-2">
-                                    <p className="w-auto blog-author mb-0 fw-bold d-flex align-items-center justify-content-center"><span className='color-tertary me-2 d-flex p-2 bg-tertary-down rounded-5'><FaUser /></span>{blog.author}</p>
-                                    <p className="text-black w-auto px-0 blog-dot mb-0">▪</p>
-                                    <p className="w-auto blog-date mb-0 fw-bold d-flex align-items-center justify-content-center"><span className='color-tertary me-2 d-flex p-2 bg-tertary-down rounded-5'><FaCalendarDays /></span>{blog.date}</p>
-                                </div>
-                                <h1>{blog.heading}</h1>
-                                <hr style={{ borderColor: 'var(--color-black)' }} />
                                 <div className='blog-content-slug'>
                                     {blog.more}
                                 </div>

@@ -44,7 +44,7 @@ const RajasthanTourFromVisakhapatnam = () => {
   const content = [
     {
       duration: '',
-      title: 'Rajasthan Tour From vishakhapatnam',
+      title: 'Rajasthan Tour From visakhapatnam',
     },
   ];
   return (
