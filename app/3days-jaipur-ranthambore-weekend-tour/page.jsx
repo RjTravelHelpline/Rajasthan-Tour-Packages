@@ -11,7 +11,7 @@ export const metadata = {
     title: 'Jaipur Ranthambore 3-Day Weekend Trip | Rajasthan Tour Packages',
     description: "Know a Jaipur Ranthambore Weekend Tour for 03 Days. Rajasthan Tour Packages you to enjoy safaris, wildlife, and historical sites for perfect wildlife breaks.",
     url: "https://www.rajasthantourpackages.in/3days-jaipur-ranthambore-weekend-tour",
-    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     site_name: 'Rajasthan Tour Packages',
     type: 'website',
     locale: 'en_US',
@@ -21,7 +21,7 @@ export const metadata = {
     site: "@rajasthantourpackages",
     title: 'Jaipur Ranthambore 3-Day Weekend Trip | Rajasthan Tour Packages',
     description: "Know a Jaipur Ranthambore Weekend Tour for 03 Days. Rajasthan Tour Packages you to enjoy safaris, wildlife, and historical sites for perfect wildlife breaks.",
-    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
   },
 };
 

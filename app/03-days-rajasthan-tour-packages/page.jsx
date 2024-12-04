@@ -15,7 +15,7 @@ export const metadata = {
         title: 'Enjoy 03 Days Getaway in Rajasthan | Rajasthan Tour Packages',
         description: 'Discover Rajasthan heritage destinations in 3 days. Explore the most significant cities and famous historical places with Rajasthan Tour Packages quickly.',
         url: "https://www.rajasthantourpackages.in/03-days-rajasthan-tour-packages",
-        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
         site_name: 'Rajasthan Tour Packages',
         type: 'website',
         locale: 'en_US',
@@ -25,7 +25,7 @@ export const metadata = {
         site: "@rajasthantourpackages",
         title: 'Enjoy 03 Days Getaway in Rajasthan | Rajasthan Tour Packages',
         description: 'Discover Rajasthan heritage destinations in 3 days. Explore the most significant cities and famous historical places with Rajasthan Tour Packages quickly.',
-        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     },
 };
 

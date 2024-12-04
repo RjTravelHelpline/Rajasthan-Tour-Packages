@@ -20,7 +20,7 @@ export const metadata = {
     title: 'Rajasthan Holiday Packages From Mumbai | Rajasthan Tour Packages',
     description: "Discover Rajasthan holiday packages from Mumbai. Take pleasure in luxurious stays, vibrant culture, and custom tours. Start your trip and book now today.",
     url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-mumbai",
-    image: "https://www.rajasthantourpackages.in/Images/Banners/mumbai-banner.webp",
+    images: "https://www.rajasthantourpackages.in/Images/Banners/mumbai-banner.webp",
     site_name: 'Rajasthan Tour Packages',
     type: 'website',
     locale: 'en_US',
@@ -30,7 +30,7 @@ export const metadata = {
     site: "@rajasthantourpackages",
     title: 'Rajasthan Holiday Packages From Mumbai | Rajasthan Tour Packages',
     description: "Discover Rajasthan holiday packages from Mumbai. Take pleasure in luxurious stays, vibrant culture, and custom tours. Start your trip and book now today.",
-    image: "https://www.rajasthantourpackages.in/Images/Banners/mumbai-banner.webp",
+    images: "https://www.rajasthantourpackages.in/Images/Banners/mumbai-banner.webp",
   },
 };
 

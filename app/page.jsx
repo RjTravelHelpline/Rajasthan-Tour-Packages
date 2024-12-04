@@ -18,7 +18,7 @@ export const metadata = {
   openGraph: {
     title: 'Best Rajasthan Tours and Travels | Rajasthan Tour Packages',
     description: 'Begin our famous Rajasthan Tours and Travels. Tour places, deserts, and treasures of culture by instant booking customized packages. Your royal adventure awaits.',
-    images: 'https://www.rajasthantourpackages.in/_next/image?url=%2Frajasthan-travel-helpline.png&w=640&q=75',
+    images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     url: "https://www.rajasthantourpackages.in",
     site_name: 'Rajasthan Tour Packages',
     type: 'website',

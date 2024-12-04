@@ -15,7 +15,7 @@ export const metadata = {
         title: 'Rajasthan Travel Blog & Tips | Rajasthan Tour Packages',
         description: 'Stay updated at our Rajasthan Travel Blog & Tips. Get valuable guides and travel advice for find Rajasthan. Plan your next adventure at Rajasthan Tour Packages.',
         url: "https://www.rajasthantourpackages.in/blog",
-        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
         site_name: 'Rajasthan Tour Packages',
         type: 'website',
         locale: 'en_US',
@@ -25,7 +25,7 @@ export const metadata = {
         site: "@rajasthantourpackages",
         title: 'Rajasthan Travel Blog & Tips | Rajasthan Tour Packages',
         description: 'Stay updated at our Rajasthan Travel Blog & Tips. Get valuable guides and travel advice for find Rajasthan. Plan your next adventure at Rajasthan Tour Packages.',
-        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     },
 };
 const Blogs = () => {

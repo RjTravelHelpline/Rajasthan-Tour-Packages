@@ -54,9 +54,11 @@ export const blogs = [
     image: wildlifeBanner,
     date: '2024-11-16',
     heading: 'Rajasthan Wildlife Trails: A Paradise for Adventurers Explorers',
-    slug: generateSlug('wildlife-trails-rajasthan-nature-adventures'),
+    slug: 'wildlife-trails-rajasthan-nature-adventures',
     metaTitle: 'Rajasthan Wildlife Trails: A Paradise for Adventurers Explorers',
     metaDescription: 'Check out exciting wildlife tours in Rajasthan with Rajasthan Tour Packages. Explore Ranthambore, Sariska and lots more for a close glimpse of the wild.',
+    canonical: 'https://www.rajasthantourpackages.in/blog/wildlife-trails-rajasthan-nature-adventures',
+    keywords: [],
     description:
       'Rich in a royal legacy and magnificent forts and palaces Rajasthan also boasts of some of the best Wildlife Sanctuary and National Park in India. Peace and serenity are two qualities that no traveler would associate with this enthralling state of Rajasthan.',
     category: 'Wildlife',
@@ -1105,6 +1107,8 @@ export const blogs = [
     slug: `pink-city-jaipur-turns-297-discover-why-it-attracts-visitors-from-across-the-globe`,
     metaTitle: 'Pink City Jaipur Turns 297: Discover Why It Attracts Visitors from Across the Globe',
     metaDescription: 'Pink City Jaipur celebrating 297 years continues to attract global guests. Find the heritage landmarks and traditions of India by using Rajasthan Tour Packages.',
+    canonical: 'https://www.rajasthantourpackages.in/blog/pink-city-jaipur-turns-297-discover-why-it-attracts-visitors-from-across-the-globe',
+    keywords: [],
     description:
       'This is the 297th anniversary of the establishment of Jaipur, the Pink City, which retains the honor of being on the world’s tourist map. Having tourist attractions and so many things to do and see, Jaipur continues to emerge as a key attraction for tourists. As part of the elucidation of this topic in this blog, the discovery of the journey of Jaipur, which has made it a tourist city in this world, is also explained.',
     category: 'News & Updates',
@@ -1160,6 +1164,8 @@ export const blogs = [
     slug: 'delhi-to-srinagar-train-kashmir-train-tour-jammu-railway-routes',
     metaTitle: 'Connecting Hearts: Delhi to Srinagar Train - Kashmir Train Tour & Jammu Railway Routes',
     metaDescription: 'Experience the scenic Delhi to Srinagar Train journey. Explore Kashmir and Jammu’s beauty at our Kashmir Train Tour and Railway Routes for an unforgettable trip.',
+    canonical: 'https://www.rajasthantourpackages.in/blog/delhi-to-srinagar-train-kashmir-train-tour-jammu-railway-routes',
+    keywords: [],
     description:
       "Getting to Srinagar by rail from Delhi is comfortable, takes considerably less time, and offers some of the best scenery. As one of India&apos; s most eagerly awaited new railway lines, it is an excellent opportunity to get closer to Kashmir&apos; s beautiful nature. The Delhi to Kashmir Train Tour is recommended to those fond of traveling and seeking spiritual experience since it will reveal the beauty of Jammu and Kashmir to you.",
     category: 'News & Updates',
@@ -1206,7 +1212,7 @@ export const blogs = [
         <p>
           <strong>A Journey of Wonders:</strong> As with other train tours, such as the <strong>Delhi to Kashmir Train Tour</strong>, the destination is less important than the adventure. These are different trains as we go from Delhi&apos; s posh, crowded markets to Kashmir&apos; s natural, scenic beauty. Delhi needs no introduction. It has emerged as a cosmopolitan city in certain areas Today. Kashmir has valleys and mountains, adding beauty to travel. Tourists can interact with nature and culture, which means a discovery tour. Even the train&apos; s movement map represents to what extent the Indian Railways has transformed itself regarding engineering benchmarks. The well-built tracks, efficient service, and lovely stations offer something about the history of Indian railways.
         </p>
-        <p><strong>Indian Railways' Achievement:</strong> It was indeed a moment for Indian Railways to launch the train services between <strong>Delhi to Kashmir</strong>. For example, it has the additional benefit of improving the quality of life of millions of consumers and is tightly connected with the creation of tourism and commercial and cultural aspects. The construction of the railway has benefited Kashmir and made it easy for everyone in India to feel like they are in a beautiful and culturally unique place. The development of the railway network in Jammu & Kashmir, one of the most visually stunning and technically tricky areas in the world, is proof of the Indian Railways' mission to connect the country.
+        <p><strong>Indian Railway&apos;s Achievement:</strong> It was indeed a moment for Indian Railways to launch the train services between <strong>Delhi to Kashmir</strong>. For example, it has the additional benefit of improving the quality of life of millions of consumers and is tightly connected with the creation of tourism and commercial and cultural aspects. The construction of the railway has benefited Kashmir and made it easy for everyone in India to feel like they are in a beautiful and culturally unique place. The development of the railway network in Jammu & Kashmir, one of the most visually stunning and technically tricky areas in the world, is proof of the Indian Railway&apos;s mission to connect the country.
         </p>
         <h4>Conclusion</h4>
         <p>The {Link('delhi', 'https://www.rajasthantourpackages.in/delhi')} Srinagar route is famous with tourists because of the beautiful places witnessed throughout the road trip, the cultural significance of the places, and the discomfort of traveling by train not being essentially stressful. Whether religious, an adventure, or a desire for pleasure, this train tour to Kashmir has lots in store and would be an unforgettable experience. The <strong>Jammu Kashmir Railway Routes</strong> are proper and correct rail-line trips that make significant components of the overall tour around India&apos; s terrains, giving a first look into one of the most beautiful terrains of the country. Because of INDIA RAILWAYS on this incredible journey, we will continue to join the hearts and souls of different Indian citizens with this beautiful land, KASHMIR.
@@ -1250,13 +1256,7 @@ export const blogs = [
         <p className="fw-bold mb-0">What are the expected date of train start from Delhi to Srinagar, Jammu Kashmir ?
         </p>
         <p>The direct train service from Delhi to Srinagar, Jammu & Kashmir, is expected to start in January 2025. This will be India&apos; s first Vande Bharat Sleeper train, providing overnight semi-high-speed connectivity. It will operate on the Udhampur-Srinagar-Baramulla Rail Link, covering over 800 km in under 13 hours​.
-
         </p>
-
-
-
-
-
       </>
     ),
   },
@@ -1324,6 +1324,8 @@ export const blogs = [
     slug: "rajasthan-cultural-heritage-tours-exploring-tradition-history",
     metaTitle: 'Rajasthan Cultural Heritage Tours: Exploring Tradition and Histories',
     metaDescription: 'Read more Rajasthan Cultural Heritage Tours and learn about the state’s culture and history. Get a great heritage and cultural site at Rajasthan Tour Packages.',
+    canonical: 'https://www.rajasthantourpackages.in/blog/rajasthan-cultural-heritage-tours-exploring-tradition-history',
+    keywords: [],
     description:
       "Rajasthan, also known as the land of kings, is a storehouse of conglomeration of historical legends and traditional wealth of art and craft. This is a desert state of India, more known as The Cultural capital of India, which is perfect for discovering the magical touch of history, traditions and art for any adventurous tourist. Regarding Royal culture, Rajasthan remains unbeatable and what with its forts and palaces, arts and crafts? Now, let us take a closer look at what makes Rajasthan Cultural Heritage Tours so unique, paying great attention to Royal History and traditional folk arts and crafts.",
     category: 'History & Culture',
@@ -1489,10 +1491,12 @@ export const blogs = [
     slug: 'pushkar-camel-fair-cultural-tourism-rajasthan',
     metaTitle: 'Pushkar Camel Fair: Cultural Tourism In Rajasthan',
     metaDescription: 'Colourful tourism culture care of the Pushkar camel fair Rajasthan, camel trading, folk art and traditional rituals. Book our cultural Rajasthan tour packages.',
+    canonical: 'https://www.rajasthantourpackages.in/blog/pushkar-camel-fair-cultural-tourism-rajasthan',
+    keywords: [],
     description:
       "Rajasthan is the largest state of India, known for royalty, colors, and tradition. The celebration, among many other festivals and fairs of India known all over the world, is possible to place the Pushkar Camel Fair into the sphere of the Rajasthan Cultural Events of the world. This annual fair again proves that Rajasthan&apos; s cultural heritage is a significant tourist attraction for thousands of visitors from all parts of the world. The Pushkar Camel Fair has that cultural factor which no other fair across the world can offer.",
     category: 'Fair & Festivals',
-    more: (
+    more: ( 
       <>
         <p>Rajasthan is the largest state of India, known for royalty, colors, and tradition. The celebration, among many other festivals and fairs of India known all over the world, is possible to place the Pushkar Camel Fair into the sphere of the Rajasthan Cultural Events of the world. This annual fair again proves that Rajasthan&apos; s cultural heritage is a significant tourist attraction for thousands of visitors from all parts of the world. The Pushkar Camel Fair has that cultural factor which no other fair across the world can offer.
         </p>
@@ -1558,7 +1562,7 @@ export const blogs = [
         </p>
         <p className="fw-bold mb-0">Conclusion
         </p>
-        <p>The Pushkar Camel Fair is more than the fair which depicts the real flavor of Rajasthan and it’s a gateway to explore the richness attached with traditions. The fair has evolved over time from seeing camel trading to participation in exciting and joyous state events and important religious ceremonies. Friends, this should not be on your itinerary especially if you are planning on visiting Rajasthan soon. The time has come, don't lose this great opportunity to explore this exotic cultural extravaganza , plan your trip to Pushkar right now and discover the wonder of Pushkar Camel Fair yourself.
+        <p>The Pushkar Camel Fair is more than the fair which depicts the real flavor of Rajasthan and it’s a gateway to explore the richness attached with traditions. The fair has evolved over time from seeing camel trading to participation in exciting and joyous state events and important religious ceremonies. Friends, this should not be on your itinerary especially if you are planning on visiting Rajasthan soon. The time has come, don&apos;t lose this great opportunity to explore this exotic cultural extravaganza , plan your trip to Pushkar right now and discover the wonder of Pushkar Camel Fair yourself.
           For more information on the Pushkar Camel Fair, tour packages for Pushkar along with other options, click here: Rajasthan Tour Packages.
         </p>
         <p className="fw-bold mb-0">

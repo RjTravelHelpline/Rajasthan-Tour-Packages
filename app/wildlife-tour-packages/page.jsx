@@ -10,7 +10,7 @@ export const metadata = {
         title: 'Wildlife Tour Adventures | Rajasthan Tour Packages',
         description: "Discover Rajasthan’s Wildlife at our Wildlife Tour Packages. Rajasthan Tour Packages offers to explore wildlife and nature tours at the best wildlife destinations.",
         url: "https://www.rajasthantourpackages.in/wildlife-tour-packages",
-        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
         site_name: 'Rajasthan Tour Packages',
         type: 'website',
         locale: 'en_US',
@@ -20,7 +20,7 @@ export const metadata = {
         site: "@rajasthantourpackages",
         title: 'Wildlife Tour Adventures | Rajasthan Tour Packages',
         description: "Discover Rajasthan’s Wildlife at our Wildlife Tour Packages. Rajasthan Tour Packages offers to explore wildlife and nature tours at the best wildlife destinations.",
-        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     },
 };
 

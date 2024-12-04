@@ -10,7 +10,7 @@ export const metadata = {
     title: 'Jaipur & Jaisalmer 4 Days Tour | Rajasthan Tour Packages',
     description: "Enjoy the best of its kind, Jaipur and Jaisalmer in Four Days Tour. Get acquainted with the history and beauty of Rajasthan through Rajasthan Tour Packages.",
     url: 'https://www.rajasthantourpackages.in/4days-jaipur-jaisalmer-tour',
-    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     site_name: 'Rajasthan Tour Packages',
     type: 'website',
     locale: 'en_US',
@@ -20,7 +20,7 @@ export const metadata = {
     site: "@rajasthantourpackages",
     title: 'Jaipur & Jaisalmer 4 Days Tour | Rajasthan Tour Packages',
     description: "Enjoy the best of its kind, Jaipur and Jaisalmer in Four Days Tour. Get acquainted with the history and beauty of Rajasthan through Rajasthan Tour Packages.",
-    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
   },
 }
 const FourDaysJaipurJaisalmerPackageTour = () => {

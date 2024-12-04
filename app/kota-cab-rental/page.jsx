@@ -9,7 +9,7 @@ export const metadata = {
         title: 'kota cab rental',
         description: "",
         url: 'https://www.rajasthantourpackages.in/kota-cab-rental',
-        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
         site_name: 'Rajasthan Tour Packages',
         type: 'website',
         locale: 'en_US',
@@ -19,7 +19,7 @@ export const metadata = {
         site: "@rajasthantourpackages",
         title: 'kota cab rental',
         description: "",
-        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     },
 }
 

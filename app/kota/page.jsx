@@ -46,7 +46,7 @@ export const metadata = {
         site: "@rajasthantourpackages",
         title: "Kota History, Culture & Appeal | Rajasthan Tour Packages",
         description: "Plan your Kota tour at Rajasthan Tour Packages. We feature hard sightseeing and tour packages to find historic sites in attractions and cultural landmarks.",
-        image: 'https://www.rajasthantourpackages.in/Images/Banners/kota-banner.webp',
+        images: 'https://www.rajasthantourpackages.in/Images/Banners/kota-banner.webp',
     },
     openGraph: {
         title: "Kota History, Culture & Appeal | Rajasthan Tour Packages",

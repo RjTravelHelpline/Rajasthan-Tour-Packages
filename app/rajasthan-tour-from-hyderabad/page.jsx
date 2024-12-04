@@ -19,7 +19,7 @@ export const metadata = {
     title: 'Rajasthan Tour from Hyderabad | Rajasthan Tour Packages',
     description: "Immerse yourself in Rajasthan's majestic charm, iconic landmarks, and vibrant traditions. Book your Rajasthan Tour from Hyderabad with our exclusive packages..",
     url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-hyderabad",
-    image: "https://www.rajasthantourpackages.in/Images/Banners/hyderabad-banner.webp",
+    images: "https://www.rajasthantourpackages.in/Images/Banners/hyderabad-banner.webp",
     site_name: 'Rajasthan Tour Packages',
     type: 'website',
     locale: 'en_US',
@@ -29,7 +29,7 @@ export const metadata = {
     site: "@rajasthantourpackages",
     title: 'Rajasthan Tour from Hyderabad | Rajasthan Tour Packages',
     description: "Immerse yourself in Rajasthan's majestic charm, iconic landmarks, and vibrant traditions. Book your Rajasthan Tour from Hyderabad with our exclusive packages..",
-    image: "https://www.rajasthantourpackages.in/Images/Banners/hyderabad-banner.webp",
+    images: "https://www.rajasthantourpackages.in/Images/Banners/hyderabad-banner.webp",
   },
 };
 

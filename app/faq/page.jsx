@@ -11,7 +11,7 @@ export const metadata = {
         title: 'Common Asked Questions | FAQ | Rajasthan Tour Packages',
         description: '',
         url: 'https://www.rajasthantourpackages.in/faq',
-        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
         site_name: 'Rajasthan Tour Packages',
         type: 'website',
         locale: 'en_US',
@@ -21,7 +21,7 @@ export const metadata = {
         site: "@rajasthantourpackages",
         title: 'Common Asked Questions | FAQ | Rajasthan Tour Packages',
         description: '',
-        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     },
 }
 

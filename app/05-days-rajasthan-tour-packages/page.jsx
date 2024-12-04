@@ -14,7 +14,7 @@ export const metadata = {
     title: 'Explore 05 Days Tour in Rajasthan | Rajasthan Tour Packages',
     description: "You can get to know the best places to visit in Rajasthan in 5 days. Book Rajasthan Tour Packages to tour through the great landmarks and cities of the world.",
     url: 'https://www.rajasthantourpackages.in/05-days-rajasthan-tour-packages',
-    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     site_name: 'Rajasthan Tour Packages',
     type: 'website',
     locale: 'en_US',
@@ -24,7 +24,7 @@ export const metadata = {
     site: "@rajasthantourpackages",
     title: 'Explore 05 Days Tour in Rajasthan | Rajasthan Tour Packages',
     description: "You can get to know the best places to visit in Rajasthan in 5 days. Book Rajasthan Tour Packages to tour through the great landmarks and cities of the world.",
-    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
   },
 }
 

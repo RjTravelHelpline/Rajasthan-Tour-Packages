@@ -10,7 +10,7 @@ export const metadata = {
     title: 'Ranthambore Cab Renting Services | Rajasthan Tour Packages',
     description: "Hire a cab for the most exciting Ranthambore trip. Go for the Rajasthan Tour Packages to visit the wildlife sanctuary and get a comfortable safari tour.",
     url: "https://www.rajasthantourpackages.in/ranthambore-cab-rental",
-    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     site_name: 'Rajasthan Tour Packages',
     type: 'website',
     locale: 'en_US',
@@ -20,7 +20,7 @@ export const metadata = {
     site: "@rajasthantourpackages",
     title: 'Ranthambore Cab Renting Services | Rajasthan Tour Packages',
     description: "Hire a cab for the most exciting Ranthambore trip. Go for the Rajasthan Tour Packages to visit the wildlife sanctuary and get a comfortable safari tour.",
-    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
   },
 };
 

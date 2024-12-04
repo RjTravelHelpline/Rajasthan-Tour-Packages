@@ -14,7 +14,7 @@ export const metadata = {
     title: 'Rajasthan 10-Day Travel Itinerary | Rajasthan Tour Packages',
     description: 'Discover Rajasthan’s destinations and landmarks, and visit the state’s main cities in 10 days. Visit the Rajasthan Tour for your 10-Da Rajasthan Tour Package.',
     url: 'https://www.rajasthantourpackages.in/10-days-rajasthan-tour-packages',
-    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     site_name: 'Rajasthan Tour Packages',
     type: 'website',
     locale: 'en_US',
@@ -24,7 +24,7 @@ export const metadata = {
     site: "@rajasthantourpackages",
     title: 'Rajasthan 10-Day Travel Itinerary | Rajasthan Tour Packages',
     description: 'Discover Rajasthan’s destinations and landmarks, and visit the state’s main cities in 10 days. Visit the Rajasthan Tour for your 10-Da Rajasthan Tour Package.',
-    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
   },
 }
 const TenDaysRajasthanTourPackages = () => {

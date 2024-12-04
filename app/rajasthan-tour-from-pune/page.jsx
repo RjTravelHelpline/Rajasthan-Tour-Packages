@@ -19,7 +19,7 @@ export const metadata = {
     title: 'Rajasthan Trip from Pune | Book Now | Rajasthan Tour Packages',
     description: "Embark on a Rajasthan trip from Pune. Enjoy royal forts, rich culture, and luxurious stays. Plan your royal adventure with our tailored packages. Book today.",
     url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-pune",
-    image: "https://www.rajasthantourpackages.in/Images/Banners/pune-banner.webp",
+    images: "https://www.rajasthantourpackages.in/Images/Banners/pune-banner.webp",
     site_name: 'Rajasthan Tour Packages',
     type: 'website',
     locale: 'en_US',
@@ -29,7 +29,7 @@ export const metadata = {
     site: "@rajasthantourpackages",
     title: 'Rajasthan Trip from Pune | Book Now | Rajasthan Tour Packages',
     description: "Embark on a Rajasthan trip from Pune. Enjoy royal forts, rich culture, and luxurious stays. Plan your royal adventure with our tailored packages. Book today.",
-    image: "https://www.rajasthantourpackages.in/Images/Banners/pune-banner.webp",
+    images: "https://www.rajasthantourpackages.in/Images/Banners/pune-banner.webp",
   },
 };
 

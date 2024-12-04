@@ -42,7 +42,7 @@ export const metadata = {
     site: "@rajasthantourpackages",
     title: "Jaipur’s Heritage and Culture | Rajasthan Tour Packages",
     description: "Jaipur’s past and present are full of traditions, palaces and markets, forts and fairs. Book your Jaipur heritage tour today with Rajasthan Tour Packages.",
-    image: 'https://www.rajasthantourpackages.in/Images/Card/jaipur.webp',
+    images: 'https://www.rajasthantourpackages.in/Images/Card/jaipur.webp',
   },
   openGraph: {
     title: "Jaipur’s Heritage and Culture | Rajasthan Tour Packages",

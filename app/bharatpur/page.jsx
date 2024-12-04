@@ -46,7 +46,7 @@ export const metadata = {
     site: "@rajasthantourpackages",
     title: "Bharatpur Bird Sanctuary Tour | Rajasthan Tour Packages",
     description: "Bharatpur Bird Sanctuary is one of the best destinations for bird watching and wildlife lovers. Explore nature at its best with Rajasthan Tour Packages.",
-    image: 'https://www.rajasthantourpackages.in/Images/Banners/bharatpur-banner.webp',// Add image URL if needed
+    images: 'https://www.rajasthantourpackages.in/Images/Banners/bharatpur-banner.webp',// Add image URL if needed
   },
   openGraph: {
     title: "Bharatpur Bird Sanctuary Tour | Rajasthan Tour Packages",

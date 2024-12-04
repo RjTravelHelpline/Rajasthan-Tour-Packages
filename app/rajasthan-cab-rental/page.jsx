@@ -12,7 +12,7 @@ export const metadata = {
         title: 'Rajasthan Cab Rental',
         description: '',
         url: "https://www.rajasthantourpackages.in/about-us",
-        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
         site_name: 'Rajasthan Tour Packages',
         type: 'website',
         locale: 'en_US',
@@ -22,7 +22,7 @@ export const metadata = {
         site: "@rajasthantourpackages",
         title: 'Rajasthan Cab Rental',
         description: '',
-        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     },
 };
 

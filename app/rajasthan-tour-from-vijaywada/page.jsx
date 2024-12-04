@@ -21,7 +21,7 @@ export const metadata = {
         description:
             'Rajasthan Tour from Vijayawada to the land of kings at Rajasthan Tour Packages. Experience the royal forts, palaces, and colourful traditions of Rajasthan. Book Now.',
         url: 'https://www.rajasthantourpackages.in/rajasthan-tour-from-vijaywada',
-        image: "https://www.rajasthantourpackages.in/Images/Banners/vijayawada-banner.webp",
+        images: "https://www.rajasthantourpackages.in/Images/Banners/vijayawada-banner.webp",
         site_name: 'Rajasthan Tour Packages',
         type: 'website',
         locale: 'en_US',
@@ -32,7 +32,7 @@ export const metadata = {
         title: 'Rajasthan Tour From Vijaywada | Rajasthan Tour Packages',
         description:
             'Rajasthan Tour from Vijayawada to the land of kings at Rajasthan Tour Packages. Experience the royal forts, palaces, and colourful traditions of Rajasthan. Book Now.',
-        image: "https://www.rajasthantourpackages.in/Images/Banners/vijayawada-banner.webp",
+        images: "https://www.rajasthantourpackages.in/Images/Banners/vijayawada-banner.webp",
     },
 };
 

@@ -19,7 +19,7 @@ export const metadata = {
         title: 'Rajasthan Tour From Bikaner | Rajasthan Tour Packages',
         description: "Uncover Rajasthans rich heritage from Bikaner with Rajasthan Tour Packages. Explore ancient forts, vibrant markets, and royal legacies across the state.",
         url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-bikaner",
-        image: "https://www.rajasthantourpackages.in/Images/Banners/bikaner-banner.webp';",
+        images: "https://www.rajasthantourpackages.in/Images/Banners/bikaner-banner.webp';",
         site_name: 'Rajasthan Tour Packages',
         type: 'website',
         locale: 'en_US',
@@ -29,7 +29,7 @@ export const metadata = {
         site: "@rajasthantourpackages",
         title: 'Rajasthan Tour From Bikaner | Rajasthan Tour Packages',
         description: "Uncover Rajasthans rich heritage from Bikaner with Rajasthan Tour Packages. Explore ancient forts, vibrant markets, and royal legacies across the state.",
-        image: "https://www.rajasthantourpackages.in/Images/Banners/bikaner-banner.webp';",
+        images: "https://www.rajasthantourpackages.in/Images/Banners/bikaner-banner.webp';",
     },
 };
 

@@ -10,7 +10,7 @@ export const metadata = {
     title: 'Jodhpur Cab Hire Services | Rajasthan Tour Packages',
     description: "Book a Jodhpur Cab Rental to Explore the Blue City Safely. Learn about the best of Rajasthan Tour Packages and find its history, culture, and much more.",
     url: 'https://www.rajasthantourpackages.in/jodhpur-cab-rental',
-    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     site_name: 'Rajasthan Tour Packages',
     type: 'website',
     locale: 'en_US',
@@ -20,7 +20,7 @@ export const metadata = {
     site: "@rajasthantourpackages",
     title: 'Jodhpur Cab Hire Services | Rajasthan Tour Packages',
     description: "Book a Jodhpur Cab Rental to Explore the Blue City Safely. Learn about the best of Rajasthan Tour Packages and find its history, culture, and much more.",
-    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
   },
 }
 const JodhpurCabRental = () => {

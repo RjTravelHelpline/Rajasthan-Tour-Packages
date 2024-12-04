@@ -11,8 +11,7 @@ export const metadata = {
     title: 'Mewar Rajasthan 6 Days Tour | Rajasthan Tour Packages',
     description: "Enjoy a 6-day Mewar Tour to discover the royalties of Jodhpur, Jaisalmer, and other Mewar places. For your Mewar tour, contact Rajasthan Tour Packages.",
     url: 'https://www.rajasthantourpackages.in/6days-mewar-tour',
-    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
-    siteName: 'Rajasthan Tour Packages',
+    images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     site_name: 'Rajasthan Tour Packages',
     type: 'website',
     locale: 'en_US',
@@ -22,7 +21,7 @@ export const metadata = {
     site: "@rajasthantourpackages",
     title: 'Mewar Rajasthan 6 Days Tour | Rajasthan Tour Packages',
     description: "Enjoy a 6-day Mewar Tour to discover the royalties of Jodhpur, Jaisalmer, and other Mewar places. For your Mewar tour, contact Rajasthan Tour Packages.",
-    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
   },
 }
 

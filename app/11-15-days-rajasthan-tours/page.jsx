@@ -14,7 +14,7 @@ export const metadata = {
     title: "11-15 days rajasthan tour packages",
     description: '',
     url: 'https://www.rajasthantourpackages.in/11-15-days-rajasthan-tours',
-    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     site_name: 'Rajasthan Tour Packages',
     type: 'website',
     locale: 'en_US',
@@ -24,7 +24,7 @@ export const metadata = {
     site: "@rajasthantourpackages",
     title: "11-15 days rajasthan tour packages",
     description: '',
-    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
   },
 }
 

@@ -15,7 +15,7 @@ export const metadata = {
     title: '8-Day Rajasthan Travel Plan | Rajasthan Tour Packages',
     description: "Discover the rich history of Rajasthan on this 8-day tour, including a city tour, palace and forts. Rajasthan Tour Packages you to plan for your Rajasthan tour.",
     url: 'https://www.rajasthantourpackages.in/08-days-rajasthan-tour-packages',
-    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     site_name: 'Rajasthan Tour Packages',
     type: 'website',
     locale: 'en_US',
@@ -25,7 +25,7 @@ export const metadata = {
     site: "@rajasthantourpackages",
     title: '8-Day Rajasthan Travel Plan | Rajasthan Tour Packages',
     description: "Discover the rich history of Rajasthan on this 8-day tour, including a city tour, palace and forts. Rajasthan Tour Packages you to plan for your Rajasthan tour.",
-    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
   },
 }
 

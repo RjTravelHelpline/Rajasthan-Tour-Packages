@@ -28,6 +28,10 @@ export async function generateMetadata({ params }) {
     return {
         title: blog.metaTitle,
         description: blog.metaDescription,
+        alternates: {
+            canonical: blog.canonical
+        },
+        keywords: blog.keywords,
         openGraph: {
             title: blog.metaTitle,
             description: blog.metaDescription,
@@ -61,6 +65,8 @@ const BlogPost = ({ params }) => {
                 <div className="container px-0 d-flex justify-content-center align-items-center w-100 days-container overview destination">
                     <div className="row d-flex justify-content-center align-items-start px-0 w-100">
                         <div className="col-lg-8 col-md-12 col-sm-12 px-sm-0 px-md-0 px-lg-2">
+
+                            {/* blog */}
                             <div className="insider px-3">
                                 <div className="slug-image-container mb-2">
                                     <Image
@@ -83,9 +89,13 @@ const BlogPost = ({ params }) => {
                                     {blog.more}
                                 </div>
                             </div>
+
+                            {/* comment */}
                             <div className="insider px-3 mt-3">
                                 <Comment selectedBlog={blog.heading} />
                             </div>
+
+                            {/* blog share */}
                             <div className="insider px-3 mt-3">
                                 <div className="bg-tertary-down mt-3 p-2 rounded-4 d-flex flex-column justify-content-center align-items-center">
                                     <span className="color-tertary bg-tertary-down rounded-5 p-2 my-2 d-flex justify-content-center align-items-center">
@@ -145,6 +155,8 @@ const BlogPost = ({ params }) => {
                                     </div>
                                 </div>
                                 <hr />
+
+                                {/* contact redirections */}
                                 <div className="row d-flex align-items-center justify-content-between py-2">
                                     <Link href="https://rajasthantourpackages.in/contact-us" className="w-auto d-inline" style={{ textDecoration: 'underline', color: 'var(--color-tertary)', fontWeight: 'bold' }}>contact us
                                     </Link>
@@ -153,12 +165,20 @@ const BlogPost = ({ params }) => {
                                 </div>
                             </div>
                         </div>
+
+                        {/* sidebar */}
                         <div className="col-lg-4 col-ms-12 col-sm-12 side-nav px-sm-0 px-md-0 px-lg-2">
+
+                            {/* search */}
                             <div className="sidebar-menu w-100 z-9999 mb-3 search-sidebar flex-column">
-                                <p className='mb-0 text-uppercase'><span className='blog-subhead-gradient d-inline'>{blog.category}</span></p>
+                                <p className='mb-0 text-uppercase'>
+                                    <span className='blog-subhead-gradient d-inline'>{blog.category}</span>
+                                </p>
                                 <h4 className="text-capitalize py-1">search</h4>
                                 <SearchBar blogs={filteredBlogs} styles="rounded-4 w-100 p-3" placeholder="search here" />
                             </div>
+
+                            {/* popular posts */}
                             <div className="sidebar-menu mb-3 w-100 z-9999 flex-column">
                                 <h4 className="text-capitalize py-1">popular <span className="fw-normal d-inline">insights</span></h4>
                                 <ul className="list-group list-group-flush w-100">
@@ -169,12 +189,16 @@ const BlogPost = ({ params }) => {
                                     ))}
                                 </ul>
                             </div>
+
+                            {/* comments */}
                             <div className="sidebar-menu w-100 z-9999 flex-column">
                                 <h4 className="text-capitalize py-1">comments</h4>
                                 <ul className="p-0 w-100 d-flex justify-content-start flex-wrap align-items-center gap-2">
                                     <p className='mb-0 text-capitalize text-center'>no comments to show</p>
                                 </ul>
                             </div>
+
+                            {/* categories */}
                             <div className="sidebar-menu w-100 z-9999 flex-column">
                                 <h4 className="text-capitalize py-1">categories</h4>
                                 <ul className="p-0 w-100 d-flex justify-content-start flex-wrap align-items-center gap-2">

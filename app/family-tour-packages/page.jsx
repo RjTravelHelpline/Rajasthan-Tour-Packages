@@ -9,7 +9,7 @@ export const metadata = {
         title: 'family tour packages',
         description: '',
         url: 'https://www.rajasthantourpackages.in/family-tour-packages',
-        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
         site_name: 'Rajasthan Tour Packages',
         type: 'website',
         locale: 'en_US',
@@ -19,7 +19,7 @@ export const metadata = {
         site: "@rajasthantourpackages",
         title: 'family tour packages',
         description: '',
-        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     },
 }
 

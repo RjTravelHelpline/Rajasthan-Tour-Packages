@@ -10,7 +10,7 @@ export const metadata = {
     title: '8 Days Rajasthan Tour from Ahmedabad | Rajasthan Tour Packages',
     description: 'In an 08-day tour of Rajasthan from Ahmedabad. You will visit historical centres, forts and palaces on this tour. Contact us for Rajasthan Tour Packages.',
     url: 'https://www.rajasthantourpackages.in/8days-rajasthan-tour-from-ahmedabad',
-    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     site_name: 'Rajasthan Tour Packages',
     type: 'website',
     locale: 'en_US',
@@ -20,7 +20,7 @@ export const metadata = {
     site: "@rajasthantourpackages",
     title: '8 Days Rajasthan Tour from Ahmedabad | Rajasthan Tour Packages',
     description: 'In an 08-day tour of Rajasthan from Ahmedabad. You will visit historical centres, forts and palaces on this tour. Contact us for Rajasthan Tour Packages.',
-    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
   },
 }
 const EightDaysRajasthanPackageTourFromAhmedabad = () => {

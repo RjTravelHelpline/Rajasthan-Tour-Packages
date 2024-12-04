@@ -12,7 +12,7 @@ export const metadata = {
         title: 'Rajasthan Cities Wise Tours in India | Rajasthan Tour Packages',
         description: "Find top cities at our Rajasthan Tour by Cities. Explore India's most popular cities, including Jaipur, Udaipur, and Jaisalmer, for a memorable experience.",
         url: "https://www.rajasthantourpackages.in/rajasthan-tour-by-cities",
-        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
         site_name: 'Rajasthan Tour Packages',
     type: 'website',
     locale: 'en_US',
@@ -22,7 +22,7 @@ export const metadata = {
         site: "@rajasthantourpackages",
         title: 'Rajasthan Cities Wise Tours in India | Rajasthan Tour Packages',
         description: "Find top cities at our Rajasthan Tour by Cities. Explore India's most popular cities, including Jaipur, Udaipur, and Jaisalmer, for a memorable experience.",
-        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     },
 };
 

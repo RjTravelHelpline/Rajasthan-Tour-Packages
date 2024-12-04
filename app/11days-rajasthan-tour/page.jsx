@@ -10,7 +10,7 @@ export const metadata = {
     title: 'Grand Rajasthan 11 Days Tour | Rajasthan Tour Packages',
     description: 'Discover the best of Rajasthan in 11 days with our comprehensive tour. Rajasthan Tour Packages seeks a rich history, a gleaming culture, and lots more.',
     url: 'https://www.rajasthantourpackages.in/11days-rajasthan-tour',
-    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     site_name: 'Rajasthan Tour Packages',
     type: 'website',
     locale: 'en_US',
@@ -20,7 +20,7 @@ export const metadata = {
     site: "@rajasthantourpackages",
     title: 'Grand Rajasthan 11 Days Tour | Rajasthan Tour Packages',
     description: 'Discover the best of Rajasthan in 11 days with our comprehensive tour. Rajasthan Tour Packages seeks a rich history, a gleaming culture, and lots more.',
-    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
   },
 }
 const ElevenDaysRajasthanTourPackage = () => {

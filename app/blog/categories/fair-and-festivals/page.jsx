@@ -14,7 +14,7 @@ export const metadata = {
         site: "@rajasthantourpackages",
         title: 'Rajasthan Fairs & Festivals Guide | Rajasthan Tour Packages',
         description: 'Get the ultimate guide to Fairs and Festivals. Rajasthan Tour Packages offers a colourful and lively trip at the celebration of cultural fairs and festivals.',
-        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
 
     },
 
@@ -22,7 +22,7 @@ export const metadata = {
         title: 'Rajasthan Fairs & Festivals Guide | Rajasthan Tour Packages',
         description: 'Get the ultimate guide to Fairs and Festivals. Rajasthan Tour Packages offers a colourful and lively trip at the celebration of cultural fairs and festivals.',
         url: "https://www.rajasthantourpackages.in/blog/categories/fair-and-festivals",
-        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
         site_name: 'Rajasthan Tour Packages',
         type: 'website',
         locale: 'en_US',

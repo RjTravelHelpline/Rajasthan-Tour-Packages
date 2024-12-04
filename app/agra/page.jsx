@@ -8,7 +8,7 @@ import TourCarousel from "@/components/TourCarousel";
 import { allCabRentals } from "@/data/cabRentalData";
 import { agraTourPackagesData } from "@/data/data";
 import { about, excursions, fairandfestivals, howToReach, museumsandart, overview, restaurantsandmore, shopping, sightseeing } from "@/data/Destination Data/agra";
-import { allCitiesImages, allStatesImages } from "@/data/imageData";
+import { allStatesImages } from "@/data/imageData";
 import { AiFillCustomerService } from 'react-icons/ai';
 import {
     FaBookOpen,
@@ -45,11 +45,7 @@ export const metadata = {
         title: "Popular Attractions in Agra | Rajasthan Tour Packages",
         description: "Explore Agra's famous attractions including the Taj Mahal, Agra Fort, Fatehpur Sikri, and more. Book your Agra sightseeing tour and uncover the city's rich heritage.",
         url: "https://www.rajasthantourpackages.in/agra",
-        images: [
-            {
-                url: 'https://www.rajasthantourpackages.in/Images/Banners/agra-banner.webp',
-            },
-        ],
+        images: 'https://www.rajasthantourpackages.in/Images/Banners/agra-banner.webp',
         site_name: 'Rajasthan Tour Packages',
         type: 'website',
         locale: 'en_US',
@@ -59,7 +55,7 @@ export const metadata = {
         site: "@rajasthantourpackages",
         title: "Popular Attractions in Agra | Rajasthan Tour Packages",
         description: "Explore Agra's famous attractions including the Taj Mahal, Agra Fort, Fatehpur Sikri, and more. Book your Agra sightseeing tour and uncover the city's rich heritage.",
-        image: 'https://www.rajasthantourpackages.in/Images/Banners/agra-banner.webp',
+        images: 'https://www.rajasthantourpackages.in/Images/Banners/agra-banner.webp',
     },
 };
 

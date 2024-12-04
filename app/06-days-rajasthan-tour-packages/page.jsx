@@ -13,7 +13,7 @@ export const metadata = {
     title: 'Memorable 06 Days Rajasthan Trip | Rajasthan Tour Packages',
     description: "Take a 6-day Rajasthan tour that includes visits to forts, palaces and colourful cities. Explore and Book with Rajasthan Tour Packages to enjoy a cultural trip.",
     url: 'https://www.rajasthantourpackages.in/06-days-rajasthan-tour-packages',
-    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     site_name: 'Rajasthan Tour Packages',
     type: 'website',
     locale: 'en_US',
@@ -23,7 +23,7 @@ export const metadata = {
     site: "@rajasthantourpackages",
     title: 'Memorable 06 Days Rajasthan Trip | Rajasthan Tour Packages',
     description: "Take a 6-day Rajasthan tour that includes visits to forts, palaces and colourful cities. Explore and Book with Rajasthan Tour Packages to enjoy a cultural trip.",
-    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
   },
 }
 const SixDaysRajasthanTourPackages = () => {

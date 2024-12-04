@@ -10,7 +10,7 @@ export const metadata = {
     title: "Rajasthan Holiday 9-Day Experience | Rajasthan Tour Packages",
     description: 'Indulge plenty of Rajasthan with the 9-Day Rajasthan Tour package covering heritage, forts and cities. For your 9-Day Rajasthan Holiday Tour Packages, contact.',
     url: 'https://www.rajasthantourpackages.in/9days-rajasthan-holiday-package',
-    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     site_name: 'Rajasthan Tour Packages',
     type: 'website',
     locale: 'en_US',
@@ -20,7 +20,7 @@ export const metadata = {
     site: "@rajasthantourpackages",
     title: "Rajasthan Holiday 9-Day Experience | Rajasthan Tour Packages",
     description: 'Indulge plenty of Rajasthan with the 9-Day Rajasthan Tour package covering heritage, forts and cities. For your 9-Day Rajasthan Holiday Tour Packages, contact.',
-    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
   },
 }
 const NineDaysRajasthanHolidayPackage = () => {

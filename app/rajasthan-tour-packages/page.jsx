@@ -24,7 +24,7 @@ export const metadata = {
     title: 'Book Rajasthan Travel Packages | Rajasthan Tour Packages',
     description: 'Get lost in Rajasthan with our Rajasthan travel packages. Find majestic forts, luxurious places, and carefully customized experiences. Book an ideal trip today.',
     url: "https://www.rajasthantourpackages.in/rajasthan-tour-packages",
-    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     site_name: 'Rajasthan Tour Packages',
     type: 'website',
     locale: 'en_US',
@@ -34,7 +34,7 @@ export const metadata = {
     site: "@rajasthantourpackages",
     title: 'Book Rajasthan Travel Packages | Rajasthan Tour Packages',
     description: 'Get lost in Rajasthan with our Rajasthan travel packages. Find majestic forts, luxurious places, and carefully customized experiences. Book an ideal trip today.',
-    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
   },
 };
 

@@ -20,7 +20,7 @@ export const metadata = {
     title: 'Rajasthan Tour from West Bengal | Rajasthan Tour Packages',
     description: "Find the best Rajasthan Tour From Jaipur. Our expertly outlined visits offer a profound jump into the state's illustrious legacy and social abundance.",
     url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-west-bengal",
-    image: "https://www.rajasthantourpackages.in/Images/Banners/west-bengal-banner.webp",
+    images: "https://www.rajasthantourpackages.in/Images/Banners/west-bengal-banner.webp",
     site_name: 'Rajasthan Tour Packages',
     type: 'website',
     locale: 'en_US',
@@ -30,7 +30,7 @@ export const metadata = {
     site: "@rajasthantourpackages",
     title: 'Rajasthan Tour from West Bengal | Rajasthan Tour Packages',
     description: "Find the best Rajasthan Tour From Jaipur. Our expertly outlined visits offer a profound jump into the state's illustrious legacy and social abundance.",
-    image: "https://www.rajasthantourpackages.in/Images/Banners/west-bengal-banner.webp",
+    images: "https://www.rajasthantourpackages.in/Images/Banners/west-bengal-banner.webp",
   },
 };
 const RajasthanTourFromWestBengal = () => {

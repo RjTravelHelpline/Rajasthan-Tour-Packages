@@ -11,7 +11,7 @@ export const metadata = {
         title: 'senior citizens tour packages',
         description: "",
         url: "https://www.rajasthantourpackages.in/senior-citizens-tour-packages",
-        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
         site_name: 'Rajasthan Tour Packages',
         type: 'website',
         locale: 'en_US',
@@ -21,7 +21,7 @@ export const metadata = {
         site: "@rajasthantourpackages",
         title: 'senior citizens tour packages',
         description: "",
-        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     },
 };
 

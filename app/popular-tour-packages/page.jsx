@@ -11,7 +11,7 @@ export const metadata = {
         title: 'Popular Tour Packages for Travel | Rajasthan Tour Packages',
         description: "Discover the most popular Rajasthan Tour Packages. Check out Rajasthan Tour Packages and enjoy a wonderful vacation to the most famous places of interest.",
         url: 'https://www.rajasthantourpackages.in/popular-tour-packages',
-        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
         site_name: 'Rajasthan Tour Packages',
         type: 'website',
         locale: 'en_US',
@@ -21,7 +21,7 @@ export const metadata = {
         site: "@rajasthantourpackages",
         title: 'Popular Tour Packages for Travel | Rajasthan Tour Packages',
         description: "Discover the most popular Rajasthan Tour Packages. Check out Rajasthan Tour Packages and enjoy a wonderful vacation to the most famous places of interest.",
-        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     },
 }
 

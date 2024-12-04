@@ -20,7 +20,7 @@ export const metadata = {
     title: 'Rajasthan Tour From Surat | Rajasthan Tour Packages',
     description: "Discover Rajasthan's grandeur with a customized tour from Surat. Rajasthan Tour Packages offers an unforgettable blend of culture, history, and natural beauty.",
     url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-surat",
-    image: "https://www.rajasthantourpackages.in/Images/Banners/surat-banner.webp",
+    images: "https://www.rajasthantourpackages.in/Images/Banners/surat-banner.webp",
     site_name: 'Rajasthan Tour Packages',
     type: 'website',
     locale: 'en_US',
@@ -30,7 +30,7 @@ export const metadata = {
     site: "@rajasthantourpackages",
     title: 'Rajasthan Tour From Surat | Rajasthan Tour Packages',
     description: "Discover Rajasthan's grandeur with a customized tour from Surat. Rajasthan Tour Packages offers an unforgettable blend of culture, history, and natural beauty.",
-    image: "https://www.rajasthantourpackages.in/Images/Banners/surat-banner.webp",
+    images: "https://www.rajasthantourpackages.in/Images/Banners/surat-banner.webp",
   },
 };
 

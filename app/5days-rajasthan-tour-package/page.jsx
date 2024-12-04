@@ -8,7 +8,7 @@ export const metadata = {
         title: 'Rajasthan 5-Day Travel Package | Rajasthan Tour Packages',
         description: "Enjoy an amazing 5-day Rajasthan tour emphasizing famous destinations and landmarks. Book an exclusive trip to the well-known sites of Rajasthan Tour Packages.",
         url: 'https://www.rajasthantourpackages.in/5days-rajasthan-tour-package',
-        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
         site_name: 'Rajasthan Tour Packages',
         type: 'website',
         locale: 'en_US',
@@ -18,7 +18,7 @@ export const metadata = {
         site: "@rajasthantourpackages",
         title: 'Rajasthan 5-Day Travel Package | Rajasthan Tour Packages',
         description: "Enjoy an amazing 5-day Rajasthan tour emphasizing famous destinations and landmarks. Book an exclusive trip to the well-known sites of Rajasthan Tour Packages.",
-        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     },
 }
 import Breadcrumb from "@/components/Breadcrumb";

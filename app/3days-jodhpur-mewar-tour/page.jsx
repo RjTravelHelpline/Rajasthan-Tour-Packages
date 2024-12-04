@@ -10,7 +10,7 @@ export const metadata = {
     title: '03 Days Jodhpur Mewar Tour',
     description: "",
     url: 'https://www.rajasthantourpackages.in/3days-jodhpur-mewar-tour',
-    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     site_name: 'Rajasthan Tour Packages',
     type: 'website',
     locale: 'en_US',
@@ -20,7 +20,7 @@ export const metadata = {
     site: "@rajasthantourpackages",
     title: '03 Days Jodhpur Mewar Tour',
     description: "",
-    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
   },
 }
 const ThreeDaysJodhpurMewarTourPackage = () => {

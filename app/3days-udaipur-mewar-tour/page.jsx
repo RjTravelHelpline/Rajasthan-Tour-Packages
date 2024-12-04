@@ -8,7 +8,7 @@ export const metadata = {
     title: 'Jodhpur Mewar 3 Days Tour | Rajasthan Tour Packages',
     description: "Go on a 3-day Jodhpur Mewar Tour to discover the impressive forts, palaces and desert of Rajasthan. Find the real taste of Mewar with Rajasthan Tour Packages.",
     url: 'https://www.rajasthantourpackages.in/3days-udaipur-mewar-tour',
-    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     site_name: 'Rajasthan Tour Packages',
     type: 'website',
     locale: 'en_US',
@@ -18,7 +18,7 @@ export const metadata = {
     site: "@rajasthantourpackages",
     title: 'Jodhpur Mewar 3 Days Tour | Rajasthan Tour Packages',
     description: "Go on a 3-day Jodhpur Mewar Tour to discover the impressive forts, palaces and desert of Rajasthan. Find the real taste of Mewar with Rajasthan Tour Packages.",
-    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
   },
 }
 const ThreeDaysUdaipurMewarTour = () => {

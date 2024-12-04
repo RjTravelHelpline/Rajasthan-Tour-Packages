@@ -10,7 +10,7 @@ export const metadata = {
         title: 'Heritage Hotels Tour Packages | Rajasthan Tour Packages',
         description: 'Experience Rajasthan’s Heritage Hotels with our Heritage Hotels Tour Packages. Feel the royal and historical touch of Rajasthan with Rajasthan Tour Packages now.',
         url: 'https://www.rajasthantourpackages.in/heritage-hotels-tour-packages',
-        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
         site_name: 'Rajasthan Tour Packages',
         type: 'website',
         locale: 'en_US',
@@ -20,7 +20,7 @@ export const metadata = {
         site: "@rajasthantourpackages",
         title: 'Heritage Hotels Tour Packages | Rajasthan Tour Packages',
         description: 'Experience Rajasthan’s Heritage Hotels with our Heritage Hotels Tour Packages. Feel the royal and historical touch of Rajasthan with Rajasthan Tour Packages now.',
-        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     },
 }
 

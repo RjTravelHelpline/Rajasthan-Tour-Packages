@@ -19,7 +19,7 @@ export const metadata = {
     title: 'Rajasthan Tour from Punjab | Rajasthan Tour Packages',
     description: "Leave on a Rajasthan Tour from Punjab with our comprehensive bundles. Find memorable, energetic culture and imperial royal residences. Book yours today.",
     url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-punjab",
-    image: "https://www.rajasthantourpackages.in/Images/Banners/punjab-banner.webp",
+    images: "https://www.rajasthantourpackages.in/Images/Banners/punjab-banner.webp",
     site_name: 'Rajasthan Tour Packages',
     type: 'website',
     locale: 'en_US',
@@ -29,7 +29,7 @@ export const metadata = {
     site: "@rajasthantourpackages",
     title: 'Rajasthan Tour from Punjab | Rajasthan Tour Packages',
     description: "Leave on a Rajasthan Tour from Punjab with our comprehensive bundles. Find memorable, energetic culture and imperial royal residences. Book yours today.",
-    image: "https://www.rajasthantourpackages.in/Images/Banners/punjab-banner.webp",
+    images: "https://www.rajasthantourpackages.in/Images/Banners/punjab-banner.webp",
   },
 };
 

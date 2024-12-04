@@ -22,7 +22,7 @@ export const metadata = {
         title: 'Golden Triangle Tour 5 Days Package | Rajasthan Tour Packages',
         description: "Get on a trip to India's iconic destinations at your 5-Day Golden Triangle Tour, featuring Delhi, Agra, and Jaipur. Plan our trip now at Rajasthan Tour Packages.",
         url: 'https://www.rajasthantourpackages.in/5days-golden-triangle-tour',
-        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
         site_name: 'Rajasthan Tour Packages',
         type: 'website',
         locale: 'en_US',
@@ -32,7 +32,7 @@ export const metadata = {
         site: "@rajasthantourpackages",
         title: 'Golden Triangle Tour 5 Days Package | Rajasthan Tour Packages',
         description: "Get on a trip to India's iconic destinations at your 5-Day Golden Triangle Tour, featuring Delhi, Agra, and Jaipur. Plan our trip now at Rajasthan Tour Packages.",
-        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     },
 }
 

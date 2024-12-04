@@ -9,7 +9,7 @@ export const metadata = {
         title: 'ajmer cab rental',
         description: '',
         url: 'https://www.rajasthantourpackages.in/ajmer-cab-rental',
-        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
         site_name: 'Rajasthan Tour Packages',
         type: 'website',
         locale: 'en_US',
@@ -19,7 +19,7 @@ export const metadata = {
         site: "@rajasthantourpackages",
         title: 'ajmer cab rental',
         description: '',
-        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     },
 }
 const AjmerCabRental = () => {

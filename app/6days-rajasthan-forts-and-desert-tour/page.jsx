@@ -10,7 +10,7 @@ export const metadata = {
     title: 'Know 6 Days Forts and Desert Tour | Rajasthan Tour Packages',
     description: 'Explore the Rajasthan by visiting forts and confronting the desert on this 6-day trip. For a historical tour of a lifetime, contact Rajasthan Tour Packages.',
     url: 'https://www.rajasthantourpackages.in/6days-rajasthan-forts-and-desert-tour',
-    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     site_name: 'Rajasthan Tour Packages',
     type: 'website',
     locale: 'en_US',
@@ -20,7 +20,7 @@ export const metadata = {
     site: "@rajasthantourpackages",
     title: 'Know 6 Days Forts and Desert Tour | Rajasthan Tour Packages',
     description: 'Explore the Rajasthan by visiting forts and confronting the desert on this 6-day trip. For a historical tour of a lifetime, contact Rajasthan Tour Packages.',
-    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
   },
 }
 const SixDaysRajasthanFortsAndDesertTour = () => {

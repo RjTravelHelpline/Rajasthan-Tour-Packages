@@ -19,7 +19,7 @@ export const metadata = {
     title: 'Rajasthan Tour from Delhi Book Now | Rajasthan Tour Packages',
     description: "Embark on the Rajasthan Tour From Delhi. Our curated tour packages offer the perfect blend of heritage sites, colorful markets, and unforgettable experiences.",
     url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-delhi",
-    image: "https://www.rajasthantourpackages.in/Images/Banners/delhi-banner.webp",
+    images: "https://www.rajasthantourpackages.in/Images/Banners/delhi-banner.webp",
     site_name: 'Rajasthan Tour Packages',
     type: 'website',
     locale: 'en_US',
@@ -29,7 +29,7 @@ export const metadata = {
     site: "@rajasthantourpackages",
     title: 'Rajasthan Tour from Delhi Book Now | Rajasthan Tour Packages',
     description: "Embark on the Rajasthan Tour From Delhi. Our curated tour packages offer the perfect blend of heritage sites, colorful markets, and unforgettable experiences.",
-    image: "https://www.rajasthantourpackages.in/Images/Banners/delhi-banner.webp",
+    images: "https://www.rajasthantourpackages.in/Images/Banners/delhi-banner.webp",
   },
 };
 

@@ -17,7 +17,7 @@ export const metadata = {
     site: "@rajasthantourpackages",
     title: "Jaipur Cab Rental Services | Rajasthan Tour Packages",
     description: "Hire a taxi in Jaipur to have a comfortable and convenient travel. Rajasthan Tour Packages Book Jaipur Cab Rental Services for Safe transportation in the city.",
-    image: 'https://www.rajasthantourpackages.in/Images/Card/jaipur.webp',
+    images: 'https://www.rajasthantourpackages.in/Images/Card/jaipur.webp',
   },
   openGraph: {
     title: "Jaipur Cab Rental Services | Rajasthan Tour Packages",

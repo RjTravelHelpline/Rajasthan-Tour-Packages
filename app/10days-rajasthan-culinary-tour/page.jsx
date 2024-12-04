@@ -10,7 +10,7 @@ export const metadata = {
     title: "10 days rajasthan culinary tour",
     description: '',
     url: 'https://www.rajasthantourpackages.in/10days-rajasthan-culinary-tour',
-    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     site_name: 'Rajasthan Tour Packages',
     type: 'website',
     locale: 'en_US',
@@ -20,7 +20,7 @@ export const metadata = {
     site: "@rajasthantourpackages",
     title: "10 days rajasthan culinary tour",
     description: '',
-    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
   },
 }
 const TenDaysRajasthanCulinaryTour = () => {

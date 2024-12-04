@@ -11,7 +11,7 @@ export const metadata = {
         title: 'Udaipur Cab Hire Services | Rajasthan Tour Packages',
         description: "Book Udaipur Cab Rental for Safe city tours. Minimise the stress in travelling when you book for Rajasthan Tour Packages for the best Udaipur experience.",
         url: "https://www.rajasthantourpackages.in/udaipur-cab-rental",
-        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
         site_name: 'Rajasthan Tour Packages',
         type: 'website',
         locale: 'en_US',
@@ -21,7 +21,7 @@ export const metadata = {
         site: "@rajasthantourpackages",
         title: 'Udaipur Cab Hire Services | Rajasthan Tour Packages',
         description: "Book Udaipur Cab Rental for Safe city tours. Minimise the stress in travelling when you book for Rajasthan Tour Packages for the best Udaipur experience.",
-        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     },
 };
 const UdaipurCabRental = () => {

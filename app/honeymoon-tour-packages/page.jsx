@@ -10,7 +10,7 @@ export const metadata = {
         title: 'Rajasthan Honeymoon Packages | Rajasthan Tour Packages',
         description: 'Celebrate your love with our Rajasthan honeymoon packages. Enjoy romantic stays, stunning palaces, and unique experiences. Plan your dream getaway today.',
         url: 'https://www.rajasthantourpackages.in/honeymoon-tour-packages',
-        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
         site_name: 'Rajasthan Tour Packages',
         type: 'website',
         locale: 'en_US',
@@ -20,7 +20,7 @@ export const metadata = {
         site: "@rajasthantourpackages",
         title: 'Rajasthan Honeymoon Packages | Rajasthan Tour Packages',
         description: 'Celebrate your love with our Rajasthan honeymoon packages. Enjoy romantic stays, stunning palaces, and unique experiences. Plan your dream getaway today.',
-        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     },
 };
 const HoneyMoonTourPackage = () => {

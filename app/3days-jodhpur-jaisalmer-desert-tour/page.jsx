@@ -10,8 +10,7 @@ export const metadata = {
     title: 'Jodhpur Jaisalmer 3-Day Desert Tour | Rajasthan Tour Packages',
     description: "Jodhpur & Jaisalmer 3-day winter desert safari of the major attractions of the desert, palaces, and forts. Book your desert tour at Rajasthan Tour Packages.",
     url: 'https://www.rajasthantourpackages.in/3days-jodhpur-jaisalmer-desert-tour',
-    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
-    siteName: 'Rajasthan Tour Packages',
+    images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     site_name: 'Rajasthan Tour Packages',
     type: 'website',
     locale: 'en_US',
@@ -21,7 +20,7 @@ export const metadata = {
     site: "@rajasthantourpackages",
     title: 'Jodhpur Jaisalmer 3-Day Desert Tour | Rajasthan Tour Packages',
     description: "Jodhpur & Jaisalmer 3-day winter desert safari of the major attractions of the desert, palaces, and forts. Book your desert tour at Rajasthan Tour Packages.",
-    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
   },
 }
 const ThreeDaysJodhpurJaisalmerDesertTour = () => {

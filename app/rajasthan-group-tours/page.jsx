@@ -13,7 +13,7 @@ export const metadata = {
         title: 'Group Tour Packages for Rajasthan | Rajasthan Tour Packages',
         description: 'Enjoy memorable group tour packages for Rajasthan. Discover royal palaces, vibrant culture, and comfortable facilities. Plan your group adventure today.',
         url: "https://www.rajasthantourpackages.in/rajasthan-group-tours",
-        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
         site_name: 'Rajasthan Tour Packages',
         type: 'website',
         locale: 'en_US',
@@ -23,7 +23,7 @@ export const metadata = {
         site: "@rajasthantourpackages",
         title: 'Group Tour Packages for Rajasthan | Rajasthan Tour Packages',
         description: 'Enjoy memorable group tour packages for Rajasthan. Discover royal palaces, vibrant culture, and comfortable facilities. Plan your group adventure today.',
-        image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+        images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     },
 };
 const GroupTours = () => {

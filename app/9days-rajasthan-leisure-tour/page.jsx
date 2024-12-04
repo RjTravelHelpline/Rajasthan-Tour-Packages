@@ -10,7 +10,7 @@ export const metadata = {
     title: "9 Days Rajasthan Leisure Tour | Rajasthan Tour Packages",
     description: '9-day Rajasthan Leisure Tour will offer breathtaking views of landscapes and cultural and historical landmarks. Get a Leisure tour at Rajasthan Tour Packages.',
     url: 'https://www.rajasthantourpackages.in/9days-rajasthan-leisure-tour',
-    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     site_name: 'Rajasthan Tour Packages',
     type: 'website',
     locale: 'en_US',
@@ -20,7 +20,7 @@ export const metadata = {
     site: "@rajasthantourpackages",
     title: "9 Days Rajasthan Leisure Tour | Rajasthan Tour Packages",
     description: '9-day Rajasthan Leisure Tour will offer breathtaking views of landscapes and cultural and historical landmarks. Get a Leisure tour at Rajasthan Tour Packages.',
-    image: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
+    images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
   },
 }
 const NineDaysRajasthanLeisurePackageTour = () => {
