@@ -4,9 +4,7 @@ import { SitemapStream, streamToPromise } from 'sitemap';
 // Define your routes
 const routes = [
   { path: '/faq' },
-  {
-    path: '/blog',
-  },
+
   {
     path: '/gallery',
   },
@@ -19,6 +17,20 @@ const routes = [
   { path: '/privacy-policy' },
   {
     path: '/terms-and-conditions',
+  },
+  {
+    path: '/blog/categories/fair-and-festivals',
+    path: '/blog/categories/history-and-culture',
+    path: '/blog/categories/tour-and-travels',
+    path: '/blog/categories/food',
+    path: '/blog/categories/wildlife',
+    path: '/blog/archives/december-2024',
+    path: '/blog/archives/november-2024',
+    path: '/blog/pushkar-camel-fair-cultural-tourism-rajasthan',
+    path: '/blog/delhi-to-srinagar-train-kashmir-train-tour-jammu-railway-routes',
+    path: '/blog/rajasthan-cultural-heritage-tours-exploring-tradition-history',
+    path: '/blog/pink-city-jaipur-turns-297-discover-why-it-attracts-visitors-from-across-the-globe',
+    path: '/blog/wildlife-trails-rajasthan-nature-adventures',
   },
   // destination
   { path: '/jaipur' },
