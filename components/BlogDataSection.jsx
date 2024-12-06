@@ -1,12 +1,8 @@
 "use client"
 import { MdArrowOutward, MdExpandLess, MdExpandMore } from "react-icons/md";
-import TourPackages from "./TourPackages";
 import Link from "next/link";
 import { useState } from "react";
-import BlogsSection from "./BlogsSection";
 import Image from "next/image";
-import { IoMdStar } from "react-icons/io";
-import { IoStarSharp } from "react-icons/io5";
 
 export const BlogDataSection = ({ category, Data, icon, subhead }) => {
     const [showAll, setShowAll] = useState(false);
@@ -43,7 +39,7 @@ export const BlogDataSection = ({ category, Data, icon, subhead }) => {
                             <div className="row d-flex justify-content-center py-2">
                                 {visibleTours.map((blog) => {
                                     const visibleDescription =
-                                        blog.description.split(' ').slice(0, 5).join(' ') + '...';
+                                        blog.description.split(' ').slice(0, 20).join(' ') + '...';
                                     return (
                                         <div
                                             className={`col-12 col-lg-6 col-md-6 col-sm-12 px-0 overflow-auto d-flex justify-content-center py-2 px-2`}
@@ -64,7 +60,7 @@ export const BlogDataSection = ({ category, Data, icon, subhead }) => {
                                                     <h3 className="blog-heading">{blog.heading}</h3>
                                                     <p className="mb-2">{visibleDescription}</p>
                                                     <div className="row d-flex justify-content-start w-100 align-items-center">
-                                                        <p className="text-muted w-auto blog-author mb-0">
+                                                        <p className="text-capitalize text-muted w-auto blog-author mb-0">
                                                             {blog.author}
                                                         </p>
                                                         <p className="text-muted w-auto px-0 blog-dot mb-0">

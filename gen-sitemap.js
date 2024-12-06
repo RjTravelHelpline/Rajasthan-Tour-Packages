@@ -31,6 +31,7 @@ const routes = [
     path: '/blog/rajasthan-cultural-heritage-tours-exploring-tradition-history',
     path: '/blog/pink-city-jaipur-turns-297-discover-why-it-attracts-visitors-from-across-the-globe',
     path: '/blog/wildlife-trails-rajasthan-nature-adventures',
+    path: '/blog/chinese-new-year-2025-dragon-celebration-in-china',
   },
   // destination
   { path: '/jaipur' },

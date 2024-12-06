@@ -27,7 +27,7 @@ const BlogsSection = () => {
             <SlickSlider settings={{ slidesToShow: 3, autoplay: false }}>
               {visibleBlogs.map((blog) => {
                 const visibleDescription =
-                  blog.description.split(' ').slice(0, 5).join(' ') + '...';
+                  blog.description.split(' ').slice(0, 20).join(' ') + '...';
                 return (
                   <div
                     className={`col-lg-6 col-md-6 col-sm-12 px-2  overflow-auto py-2 d-flex justify-content-between align-items-stretch`}
@@ -48,7 +48,7 @@ const BlogsSection = () => {
                         <h3 className="blog-heading">{blog.heading}</h3>
                         <p className="mb-2">{visibleDescription}</p>
                         <div className="row d-flex justify-content-start w-100 align-items-center">
-                          <p className="text-muted w-auto blog-author mb-0">
+                          <p className="text-muted w-auto blog-author mb-0 text-capitalize">
                             {blog.author}
                           </p>
                           <p className="text-muted w-auto px-0 blog-dot mb-0">

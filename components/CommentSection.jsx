@@ -10,6 +10,7 @@ const Comment = ({ selectedBlog }) => {
         name: "",
         email: "",
         comment: "",
+        website: "",
         selectedBlog: selectedBlog,
     });
 
@@ -65,6 +66,7 @@ const Comment = ({ selectedBlog }) => {
                     name: "",
                     email: "",
                     comment: "",
+                    website: "",
                     selectedBlog: selectedBlog,
                 });
             } else {
