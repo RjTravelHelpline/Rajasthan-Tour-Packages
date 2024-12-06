@@ -1,15 +1,15 @@
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata = {
-    title: 'senior citizens tour packages',
-    description: "",
+    title: 'Senior Citizens Special Trip | Rajasthan Tour Packages',
+    description: "Comfortable Rajasthan tour packages created especially for seniors Enjoy Rajasthan Trip Safe, Geriatric Friendly, and Accessible, culturally significant tours.",
     keywords: [''],
     alternates: {
         canonical: "https://www.rajasthantourpackages.in/senior-citizens-tour-packages",
     },
     openGraph: {
-        title: 'senior citizens tour packages',
-        description: "",
+        title: 'Senior Citizens Special Trip | Rajasthan Tour Packages',
+        description: "Comfortable Rajasthan tour packages created especially for seniors Enjoy Rajasthan Trip Safe, Geriatric Friendly, and Accessible, culturally significant tours.",
         url: "https://www.rajasthantourpackages.in/senior-citizens-tour-packages",
         images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
         site_name: 'Rajasthan Tour Packages',
@@ -19,8 +19,8 @@ export const metadata = {
     twitter: {
         card: "summary_large_image",
         site: "@rajasthantourpackages",
-        title: 'senior citizens tour packages',
-        description: "",
+        title: 'Senior Citizens Special Trip | Rajasthan Tour Packages',
+        description: "Comfortable Rajasthan tour packages created especially for seniors Enjoy Rajasthan Trip Safe, Geriatric Friendly, and Accessible, culturally significant tours.",
         images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     },
 };

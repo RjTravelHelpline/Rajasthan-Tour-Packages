@@ -2,14 +2,14 @@
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata = {
-  title: 'agra cab rental',
-  description: '',
+  title: 'Agra Cab Rental for Sightseeing | Rajasthan Tour Packages',
+  description: 'Make comfortable cab availability for a tour around Agra for the famous Taj Mahal, Agra Fort, and other places of interest, and hire our professional drivers.',
   alternates: {
     canonical: 'https://www.rajasthantourpackages.in/agra-cab-rental',
   },
   openGraph: {
-    title: 'agra cab rental',
-    description: '',
+    title: 'Agra Cab Rental for Sightseeing | Rajasthan Tour Packages',
+    description: 'Make comfortable cab availability for a tour around Agra for the famous Taj Mahal, Agra Fort, and other places of interest, and hire our professional drivers.',
     url: 'https://www.rajasthantourpackages.in/agra-cab-rental',
     images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     site_name: 'Rajasthan Tour Packages',
@@ -19,8 +19,8 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@rajasthantourpackages",
-    title: 'agra cab rental',
-    description: '',
+    title: 'Agra Cab Rental for Sightseeing | Rajasthan Tour Packages',
+    description: 'Make comfortable cab availability for a tour around Agra for the famous Taj Mahal, Agra Fort, and other places of interest, and hire our professional drivers.',
     images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
   },
 }

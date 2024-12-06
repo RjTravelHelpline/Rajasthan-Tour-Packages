@@ -1,13 +1,13 @@
 import Breadcrumb from "@/components/Breadcrumb";
 export const metadata = {
-    title: 'ajmer cab rental',
-    description: '',
+    title: 'Ajmer Cab Rental for Easy Travel | Rajasthan Tour Packages',
+    description: 'If you looking for a car to hire in Ajmer to visit Dargah Sharif, Pushkar, or nearby places our rental car services provided by us will help you to trip safely.',
     alternates: {
         canonical: 'https://www.rajasthantourpackages.in/ajmer-cab-rental',
     },
     openGraph: {
-        title: 'ajmer cab rental',
-        description: '',
+        title: 'Ajmer Cab Rental for Easy Travel | Rajasthan Tour Packages',
+        description: 'If you looking for a car to hire in Ajmer to visit Dargah Sharif, Pushkar, or nearby places our rental car services provided by us will help you to trip safely.',
         url: 'https://www.rajasthantourpackages.in/ajmer-cab-rental',
         images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
         site_name: 'Rajasthan Tour Packages',
@@ -17,8 +17,8 @@ export const metadata = {
     twitter: {
         card: "summary_large_image",
         site: "@rajasthantourpackages",
-        title: 'ajmer cab rental',
-        description: '',
+        title: 'Ajmer Cab Rental for Easy Travel | Rajasthan Tour Packages',
+        description: 'If you looking for a car to hire in Ajmer to visit Dargah Sharif, Pushkar, or nearby places our rental car services provided by us will help you to trip safely.',
         images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     },
 }

@@ -1,14 +1,14 @@
 import Breadcrumb from "@/components/Breadcrumb"
 
 export const metadata = {
-  title: '07 days royal rajasthan tour',
-  description: "",
+  title: 'Royal Rajasthan 7-day Tour Itinerary | Rajasthan Tour Packages',
+  description: "Embark on a 7 Days Royal Rajasthan Tour. Visit the palace and forts and heritage site. Book your royal Rajasthan journey with Rajasthan Tour Packages.",
   alternates: {
     canonical: 'https://www.rajasthantourpackages.in/7days-royal-rajasthan-tour',
   },
   openGraph: {
-    title: '07 days royal rajasthan tour',
-    description: "",
+    title: 'Royal Rajasthan 7-day Tour Itinerary | Rajasthan Tour Packages',
+  description: "Embark on a 7 Days Royal Rajasthan Tour. Visit the palace and forts and heritage site. Book your royal Rajasthan journey with Rajasthan Tour Packages.",
     url: 'https://www.rajasthantourpackages.in/7days-royal-rajasthan-tour',
     images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     site_name: 'Rajasthan Tour Packages',

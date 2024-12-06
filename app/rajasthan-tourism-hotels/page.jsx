@@ -1,15 +1,15 @@
 import Breadcrumb from "@/components/Breadcrumb";
 
 export const metadata = {
-    title: 'Rajasthan Tourism Hotels',
-    description: "",
+    title: 'Explore Rajasthan Tourism Hotels | Rajasthan Tour Packages',
+    description: "Find the best Rajasthan tourism hotels for comfortable and memorable tourist accommodations with genuine hospitality and modern comforts throughout the state.",
     keywords: [''],
     alternates: {
         canonical: "https://www.rajasthantourpackages.in/rajasthan-tourism-hotels",
     },
     openGraph: {
-        title: 'Rajasthan Tourism Hotels',
-        description: "",
+        title: 'Explore Rajasthan Tourism Hotels | Rajasthan Tour Packages',
+        description: "Find the best Rajasthan tourism hotels for comfortable and memorable tourist accommodations with genuine hospitality and modern comforts throughout the state.",
         url: "https://www.rajasthantourpackages.in/rajasthan-tourism-hotels",
         images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
         site_name: 'Rajasthan Tour Packages',
@@ -19,8 +19,8 @@ export const metadata = {
     twitter: {
         card: "summary_large_image",
         site: "@rajasthantourpackages",
-        title: 'Rajasthan Tourism Hotels',
-        description: "",
+        title: 'Explore Rajasthan Tourism Hotels | Rajasthan Tour Packages',
+        description: "Find the best Rajasthan tourism hotels for comfortable and memorable tourist accommodations with genuine hospitality and modern comforts throughout the state.",
         images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     },
 };

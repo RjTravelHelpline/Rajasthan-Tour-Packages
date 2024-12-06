@@ -5,14 +5,14 @@ import TourPackages from "@/components/TourPackages";
 import { _11To15DaysToursData } from "@/data/data";
 import { allCitiesImages } from "@/data/imageData";
 export const metadata = {
-  title: '11-15 days rajasthan tour packages',
-  description: '',
+  title: 'Rajasthan Tour for 11-15 Days | Rajasthan Tour Packages',
+  description: 'Get an in-depth tour of Rajasthan with our 11-15 Days Rajasthan Tour Package and find the forts, palaces, deserts, and other cultural attractions in the region.',
   alternates: {
     canonical: 'https://www.rajasthantourpackages.in/11-15-days-rajasthan-tour-packages',
   },
   openGraph: {
-    title: "11-15 days rajasthan tour packages",
-    description: '',
+    title: "Rajasthan Tour for 11-15 Days | Rajasthan Tour Packages",
+    description: 'Get an in-depth tour of Rajasthan with our 11-15 Days Rajasthan Tour Package and find the forts, palaces, deserts, and other cultural attractions in the region.',
     url: 'https://www.rajasthantourpackages.in/11-15-days-rajasthan-tour-packages',
     images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     site_name: 'Rajasthan Tour Packages',
@@ -22,8 +22,8 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@rajasthantourpackages",
-    title: "11-15 days rajasthan tour packages",
-    description: '',
+    title: "Rajasthan Tour for 11-15 Days | Rajasthan Tour Packages",
+    description: 'Get an in-depth tour of Rajasthan with our 11-15 Days Rajasthan Tour Package and find the forts, palaces, deserts, and other cultural attractions in the region.',
     images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
   },
 }

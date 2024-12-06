@@ -1,13 +1,13 @@
 import Breadcrumb from "@/components/Breadcrumb";
 export const metadata = {
-  title: 'mount abu cab rental',
-  description: "",
+  title: 'Cab Rental Service for Mount Abu | Rajasthan Tour Packages',
+  description: "For a Safety pick-up from your location in Rajasthan to Mount Abu Rajasthan-only hill station, visit Mount Abu Car Rental to hire a cab for our traveling needs.",
   alternates: {
     canonical: 'https://www.rajasthantourpackages.in/mount-abu-cab-rental',
   },
   openGraph: {
-    title: 'mount abu cab rental',
-    description: "",
+    title: 'Cab Rental Service for Mount Abu | Rajasthan Tour Packages',
+    description: "For a Safety pick-up from your location in Rajasthan to Mount Abu Rajasthan-only hill station, visit Mount Abu Car Rental to hire a cab for our traveling needs.",
     url: 'https://www.rajasthantourpackages.in/mount-abu-cab-rental',
     images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     site_name: 'Rajasthan Tour Packages',
@@ -17,8 +17,8 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@rajasthantourpackages",
-    title: 'mount abu cab rental',
-    description: "",
+    title: 'Cab Rental Service for Mount Abu | Rajasthan Tour Packages',
+    description: "For a Safety pick-up from your location in Rajasthan to Mount Abu Rajasthan-only hill station, visit Mount Abu Car Rental to hire a cab for our traveling needs.",
     images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
   },
 }

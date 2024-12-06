@@ -3,14 +3,14 @@ import TourCarousel from "@/components/TourCarousel";
 import { allCitiesImages } from "@/data/imageData";
 
 export const metadata = {
-    title: '06-10 days rajasthan tours',
-    description: "",
+    title: 'Rajasthan Tours for 6-10 Days | Rajasthan Tour Packages',
+    description: "Find the cultural, historical, and tourist attractions of Rajasthan through the guided tours of 06-10 Days Rajasthan Tours for an inspiring tour for Book Now.",
     alternates: {
         canonical: 'https://www.rajasthantourpackages.in/06-10-days-rajasthan-tours',
     },
     openGraph: {
-        title: '06-10 days rajasthan tours',
-        description: "",
+        title: 'Rajasthan Tours for 6-10 Days | Rajasthan Tour Packages',
+        description: "Find the cultural, historical, and tourist attractions of Rajasthan through the guided tours of 06-10 Days Rajasthan Tours for an inspiring tour for Book Now.",
         url: 'https://www.rajasthantourpackages.in/06-10-days-rajasthan-tours',
         images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
         site_name: 'Rajasthan Tour Packages',
@@ -20,8 +20,8 @@ export const metadata = {
     twitter: {
         card: "summary_large_image",
         site: "@rajasthantourpackages",
-        title: '06-10 days rajasthan tours',
-        description: "",
+        title: 'Rajasthan Tours for 6-10 Days | Rajasthan Tour Packages',
+        description: "Find the cultural, historical, and tourist attractions of Rajasthan through the guided tours of 06-10 Days Rajasthan Tours for an inspiring tour for Book Now.",
         images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     },
 }

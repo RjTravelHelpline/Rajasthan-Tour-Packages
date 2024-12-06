@@ -1,13 +1,13 @@
 import Breadcrumb from "@/components/Breadcrumb";
 export const metadata = {
-    title: 'luxury tour packages',
-    description: "",
+    title: 'Luxury Tour Packages in Rajasthan | Rajasthan Tour Packages',
+    description: "Experience the luxury of Rajasthan with our luxury tour packages, royal accommodations, private transfers, and bespoke itineraries for the royal traveler.",
     alternates: {
         canonical: 'https://www.rajasthantourpackages.in/luxury-tour-packages',
     },
     openGraph: {
-        title: 'luxury tour packages',
-        description: "",
+        title: 'Luxury Tour Packages in Rajasthan | Rajasthan Tour Packages',
+        description: "Experience the luxury of Rajasthan with our luxury tour packages, royal accommodations, private transfers, and bespoke itineraries for the royal traveler.",
         url: 'https://www.rajasthantourpackages.in/luxury-tour-packages',
         images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
         site_name: 'Rajasthan Tour Packages',
@@ -17,8 +17,8 @@ export const metadata = {
     twitter: {
         card: "summary_large_image",
         site: "@rajasthantourpackages",
-        title: 'luxury tour packages',
-        description: "",
+        title: 'Luxury Tour Packages in Rajasthan | Rajasthan Tour Packages',
+        description: "Experience the luxury of Rajasthan with our luxury tour packages, royal accommodations, private transfers, and bespoke itineraries for the royal traveler.",
         images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     },
 }

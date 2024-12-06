@@ -1,13 +1,13 @@
 import Breadcrumb from "@/components/Breadcrumb";
 export const metadata = {
-    title: 'religious tour packages',
+    title: 'Religious Tour Spiritual Journeys | Rajasthan Tour Packages',
     description: "",
     keywords: [''],
     alternates: {
         canonical: "https://www.rajasthantourpackages.in/religious-tour-packages",
     },
     openGraph: {
-        title: 'religious tour packages',
+        title: 'Religious Tour Spiritual Journeys | Rajasthan Tour Packages',
         description: "",
         url: "https://www.rajasthantourpackages.in/religious-tour-packages",
         images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
@@ -18,7 +18,7 @@ export const metadata = {
     twitter: {
         card: "summary_large_image",
         site: "@rajasthantourpackages",
-        title: 'religious tour packages',
+        title: 'Religious Tour Spiritual Journeys | Rajasthan Tour Packages',
         description: "",
         images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     },
