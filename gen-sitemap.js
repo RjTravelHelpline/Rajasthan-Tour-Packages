@@ -32,6 +32,7 @@ const routes = [
     path: '/blog/pink-city-jaipur-turns-297-discover-why-it-attracts-visitors-from-across-the-globe',
     path: '/blog/wildlife-trails-rajasthan-nature-adventures',
     path: '/blog/chinese-new-year-2025-dragon-celebration-in-china',
+    path: '/blog/best-beautiful-places-to-visit-in-jaisalmer-travel-guide',
   },
   // destination
   { path: '/jaipur' },
