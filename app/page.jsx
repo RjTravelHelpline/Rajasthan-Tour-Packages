@@ -84,7 +84,7 @@ const Home = () => {
       <div className="container-fluid bg-tertary-down pt-5">
         <div className="container home px-0">
           <div className="col col-12 d-flex justify-content-start flex-column align-items-center position-relative">
-            <h1 className="text-center mb-4 fw-normal home-heading">
+            <h1 className="text-center mb-4 fw-normal home-heading web-title">
               Experience Rajasthan with{' '}
               <span className="fw-bold"> Our Tailormade Tour Packages</span>
             </h1>

@@ -12,15 +12,18 @@ const googleStars = '/Images/Logos/google-logo.webp';
 const Reviews = () => {
   return (
     <>
-      <div className="container-fluid section-01 py-2 position-relative">
+      <div className="container-fluid section-01 py-5 position-relative">
         <div className="container reviews mb-5">
           <div className="row py-2 px-2 d-flex justify-content-center align-items-center">
             <div className="d-flex-justify-content-center align-items-center">
-              <hr style={{ borderColor: 'var(--color-tertary)' }} />
-              <h2 className="text-center text-capitalize home-head fw-normal">
-                customer <span className="fw-bold">happiness </span>
+              {/* <hr style={{ borderColor: 'var(--color-tertary)' }} /> */}
+              <h2 className="text-center text-capitalize home-head web-title fw-normal">
+                guests’ <span className="fw-bold">happiness </span>
               </h2>
-              <hr style={{ borderColor: 'var(--color-tertary)' }} />
+              <p className="text-center text-capitalize">
+              Discover how our travelers experienced the magic of Rajasthan with us.
+              </p>
+              {/* <hr style={{ borderColor: 'var(--color-tertary)' }} /> */}
             </div>
           </div>
           <div className="row py-4 d-flex align-items-stretch px-2 mb-3">

@@ -93,8 +93,6 @@ const galleryImg23 = '/Images/Gallery/cooking-class-latest02.webp';
 const galleryImg24 = '/Images/Gallery/cooking-class-latest001.webp';
 const galleryImg25 = '/Images/Reviews/review-0601.webp';
 const galleryImg26 = '/Images/Reviews/review-0602.webp';
-const galleryImg27 = '/Images/Gallery/jaipur-tour.webp';
-const galleryImg28 = '/Images/Gallery/jaipur-tour02.webp';
 const agraFortImg = '/Images/Card/agra-fort.jpg';
 const agraTajImg = '/Images/Card/agra-taj.jpg';
 const fatepurSikariImg = '/Images/Card/fatepur-sikari.jpg';
@@ -321,18 +319,6 @@ export const allGalleryImages = {
     alt: 'Indian Famliy',
     title: 'Happy Indian family bonding together in traditional',
     date: '2024-09-28',
-  },
-  img27: {
-    src: galleryImg27,
-    alt: 'Participants learning to cook in a hands-on cooking class',
-    title: 'Join a fun and educational cooking class experience',
-    date: '2024-10-30',
-  },
-  img28: {
-    src: galleryImg28,
-    alt: 'Customer visiting Udaipur',
-    title: 'Customer visiting Udaipur',
-    date: '2024-10-30',
   },
 };
 

@@ -1744,6 +1744,7 @@ export const blogs = [
             title="Pushkar Camel Fair Rajasthan Colorful Festival and Traditions"
             width={1500}
             height={600}
+            
           />
         </div>
         <p><strong>Rajasthan fairs and festivals</strong> are the artistic representation of the spirit of this desert state. Every celebration is a discovery of people’s beliefs and practices.</p>
@@ -1839,6 +1840,7 @@ export const blogs = [
             title='Pushkar Lake - Sacred Pilgrimage Site in Pushkar, Rajasthan, India'
             width={1500}
             height={600}
+            
           />
         </div>
         <p>Pushkar is a small religious city approximately 14 kilometers from Ajmer in Rajasthan. It is one of the most religious Hindu places and is also famous for the biggest and most popular temple, the temple of lord Brahma, which is the only temple in the world. Peasants and millions of Hindu devotees flock to the holy town of Pushkar every year to bathe in the sacred Pushkar Lake, which is regarded as possessing salvage water that can cleanse sins.</p>

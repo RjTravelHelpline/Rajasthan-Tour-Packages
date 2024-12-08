@@ -21,15 +21,15 @@ const PackagesByCities = () => {
   };
 
   return (
-    <div className="container-fluid section-01 py-2 position-relative">
+    <div className="container-fluid section-01 py-5 position-relative">
       <div className="container bydayspackages mb-5">
         <div className="row py-2 px-2 d-flex justify-content-center align-items-center">
           <div className="d-flex-justify-content-center align-items-center">
-            <hr style={{ borderColor: 'var(--color-tertary)' }} />
-            <h2 className="text-center text-capitalize home-head fw-normal">
+            {/* <hr style={{ borderColor: 'var(--color-tertary)' }} /> */}
+            <h2 className="text-center text-capitalize home-head web-title fw-normal">
               tour packages <span className="fw-bold">by cities </span>
             </h2>
-            <hr style={{ borderColor: 'var(--color-tertary)' }} />
+            {/* <hr style={{ borderColor: 'var(--color-tertary)' }} /> */}
           </div>
           <p className="text-center home-para">
             Discover the allure of Rajasthan with our tailored tour packages,

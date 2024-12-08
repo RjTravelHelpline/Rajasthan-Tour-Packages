@@ -1242,41 +1242,6 @@ export const tourByCities = [
 // reviewers
 export const reviewers = [
   {
-    name: 'OnAir53686466218',
-    Images: [
-      {
-        src: allGalleryImages.img24.src,
-        title: 'Cozy cooking class and culture',
-        alt: 'Customer review by OnAir53686466218: Cozy cooking class and culture',
-      },
-    ],
-    rating: 5,
-    date: '10 days ago',
-    title: 'Cozy cooking class and culture',
-    review:
-      'We felt home the moment we stepped out of the car. The family welcomed us and after the welcoming we went inside to do a little cooking. The family already cut everything, so it was not the hardest job for us. We could relax, talk and eat with the family after and we celebrated Divali for a while. Thanks again for the hospitality!',
-  },
-  {
-    name: 'aditya b',
-    Images: [
-      {
-        src: allGalleryImages.img27.src,
-        title: 'Khamma ghani jaipur!!!',
-        alt: 'Customer review by aditya b: Khamma ghani jaipur!!!',
-      },
-      {
-        src: allGalleryImages.img28.src,
-        title: 'Khamma ghani jaipur!!!',
-        alt: 'Customer review by aditya b: Khamma ghani jaipur!!!',
-      },
-    ],
-    rating: 5,
-    date: '10 days ago',
-    title: 'Khamma ghani jaipur!!!',
-    review:
-      'They will provide good driver , who will guide you as well. Sunil bhai was with us as driver and he covers the maximum spots in a day and provide us all the information too. We had great experiance in jaipur and udaipur. Thank you so much for your service, we will definitely book again.',
-  },
-  {
     name: 'Sally M',
     Images: [
       {
@@ -1295,27 +1260,6 @@ export const reviewers = [
     title: 'An amazing evening',
     review:
       'An absolutely wonderful and amazing experience. A welcoming and very sweet family. If you’re looking for an evening with laughter, amazing food and culture, I can definitely recommend this! They teach you how to make delicious Indian food and tea, all whilst learning about their culture. wouldn’t wish to have been this experience without.',
-  },
-  {
-    name: 'polo b',
-    Images: [
-      {
-        src: allGalleryImages.img17.src,
-        title: 'Cooking class',
-        alt: 'Customer review by polo b: Cooking class',
-      },
-      {
-        src: allGalleryImages.img18.src,
-        title: 'Cooking class',
-        alt: 'Customer review by polo b: Cooking class',
-      },
-    ],
-    rating: 5,
-    date: '3 months ago',
-    title: 'Cooking class',
-    review:
-      'Lovely moments of sharing! Nice session of cooking of indian’s dishes (salty and sweet) I recommend !! A good experience in Jaipur',
-    navigate: '/',
   },
   {
     name: 'Shubham Roy Choudhary',

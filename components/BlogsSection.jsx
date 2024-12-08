@@ -1,6 +1,5 @@
 "use client";
 import SlickSlider from './SlickSlider';
-import { FaGripfire } from 'react-icons/fa';
 import { blogs, getLatestBlogs } from '@/data/Blogs';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -12,15 +11,18 @@ const BlogsSection = () => {
 
   return (
     <>
-      <div className="container-fluid py-2 position-relative">
+      <div className="container-fluid py-5 position-relative">
         <div className="container blogs mb-5">
           <div className="row py-2 px-2 d-flex justify-content-center align-items-center">
             <div className="d-flex-justify-content-center align-items-center">
-              <hr style={{ borderColor: 'var(--color-tertary)' }} />
-              <h2 className="text-center text-capitalize home-head fw-normal">
+              {/* <hr style={{ borderColor: 'var(--color-tertary)' }} /> */}
+              <h2 className="text-center text-capitalize home-head web-title fw-normal">
                 latest <span className="fw-bold">blogs </span>
               </h2>
-              <hr style={{ borderColor: 'var(--color-tertary)' }} />
+              <p className="text-center text-capitalize" >
+                Stay updated with travel tips, stories, and insights from Rajasthan
+              </p>
+              {/* <hr style={{ borderColor: 'var(--color-tertary)' }} /> */}
             </div>
           </div>
           <div className="row d-flex justify-content-center py-2">

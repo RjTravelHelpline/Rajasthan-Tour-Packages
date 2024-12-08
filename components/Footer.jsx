@@ -55,7 +55,7 @@ const Footer = () => {
             <div className="footer-container py-4 footer-request container-fluid">
                 <div className="container py-4">
                     <div className="row d-flex justify-content-center align-items-center">
-                        <h3 className="text-capitalize mb-2 text-black text-center">
+                        <h3 className="text-capitalize mb-2 text-black text-center fw-bold">
                             Looking to explore <span className='color-tertary'>something Specific</span>?
                         </h3>
                         <p className="text-black text-capitalize fw-normal text-center">
@@ -70,7 +70,7 @@ const Footer = () => {
                 <div className="container footer-review">
                     <div className="row py-4 ">
                         <div className="col-12 col-md-4 col-lg-6 col-sm-12 d-flex justify-content-left py-2">
-                            <h3 className="text-capitalize mb-0">our customers recommended</h3>
+                            <h3 className="text-capitalize mb-0 web-title">our customers recommended</h3>
                         </div>
                         <div className="col-12 col-lg-6 col-sm-12 d-flex justify-content-end py-2 gap-4">
                             <a
@@ -93,8 +93,8 @@ const Footer = () => {
                 <div className="packages-footer pt-5">
                     <div className="container">
                         <div className="row mb-4">
-                            <h3 className="text-center text-capitalize">
-                                our <span className='color-tertary'>Packages </span>& Insights
+                            <h3 className="text-center text-capitalize fw-bold web-title">
+                                our <span className='color-tertary fw-bold'>Packages </span>& Insights
                             </h3>
                             <p className="text-center fw-normal text-capitalize">
                                 Explore our diverse range of tour packages designed to cater your
@@ -105,7 +105,7 @@ const Footer = () => {
                             <div className="col-12 col-lg-9 col-sm-12">
                                 <hr className="my-4" />
                                 <h3
-                                    className="text-capitalize d-flex justify-content-between px-2 align-items-center"
+                                    className="text-capitalize web-title d-flex justify-content-between px-2 align-items-center"
                                     onClick={() => toggleSection('tourByDays')}
                                 >
                                     Tour by Days
@@ -136,7 +136,7 @@ const Footer = () => {
                             </div>
                             <div className="col-12 col-lg-9 col-sm-12">
                                 <h3
-                                    className="text-capitalize d-flex justify-content-between px-2 align-items-center"
+                                    className="text-capitalize web-title d-flex justify-content-between px-2 align-items-center"
                                     onClick={() => toggleSection('tourByCities')}
                                 >
                                     Tour by Cities
@@ -167,7 +167,7 @@ const Footer = () => {
                             </div>
                             <div className="col-12 col-lg-9 col-sm-12">
                                 <h3
-                                    className="text-capitalize d-flex justify-content-between px-2 align-items-center"
+                                    className="text-capitalize web-title d-flex justify-content-between px-2 align-items-center"
                                     onClick={() => toggleSection('destination')}
                                 >
                                     Destination
@@ -195,7 +195,7 @@ const Footer = () => {
                             </div>
                             <div className="col-12 col-lg-9 col-sm-12">
                                 <h3
-                                    className="text-capitalize d-flex justify-content-between px-2 align-items-center"
+                                    className="text-capitalize web-title d-flex justify-content-between px-2 align-items-center"
                                     onClick={() => toggleSection('cabRental')}
                                 >
                                     Cab Rental
@@ -226,7 +226,7 @@ const Footer = () => {
                             </div>
                             <div className="col-12 col-lg-9 col-sm-12">
                                 <h3
-                                    className="text-capitalize d-flex justify-content-between px-2 align-items-center"
+                                    className="text-capitalize web-title d-flex justify-content-between px-2 align-items-center"
                                     onClick={() => toggleSection('exclusiveTours')}
                                 >
                                     Exclusive Tour Packages{' '}
@@ -253,7 +253,7 @@ const Footer = () => {
                             </div>
                             <div className="col-12 col-lg-9 col-sm-12">
                                 <h3
-                                    className="text-capitalize d-flex justify-content-between px-2 align-items-center"
+                                    className="text-capitalize web-title d-flex justify-content-between px-2 align-items-center"
                                     onClick={() => toggleSection('tourByTheme')}
                                 >
                                     Tour Packages By Theme{' '}
@@ -280,7 +280,7 @@ const Footer = () => {
                             </div>
                             <div className="col-12 col-lg-9 col-sm-12">
                                 <h3
-                                    className="text-capitalize d-flex justify-content-between px-2 align-items-center"
+                                    className="text-capitalize web-title d-flex justify-content-between px-2 align-items-center"
                                     onClick={() => toggleSection('usefulLinks')}
                                 >
                                     useful links{' '}
@@ -307,7 +307,7 @@ const Footer = () => {
                             </div>
                             <div className="col-12 col-lg-9 col-sm-12">
                                 <h3
-                                    className="text-capitalize d-flex justify-content-between px-2 align-items-center"
+                                    className="text-capitalize web-title d-flex justify-content-between px-2 align-items-center"
                                     onClick={() => toggleSection('company')}
                                 >
                                     Company{' '}

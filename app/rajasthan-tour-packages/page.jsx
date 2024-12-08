@@ -46,14 +46,18 @@ const RajasthanTourPackages = () => {
 
       {/* header */}
       <div className="container-fluid bg-black text-white py-5">
-        <div className="row">
-          <h1 className="sec-subhead">
+        <div className="row d-flex justify-content-center align-items-center">
+          <h1 className="sec-subhead web-title">
             {' '}
             <span className="d-block fw-normal fs-5 color-tertary text-uppercase">
-              Rajasthan
+
             </span>
-            Tour packages
+            Rajasthan Tour packages
           </h1>
+          <div className="col-12 col-lg-6 col-sm-10">
+            <hr />
+          </div>
+          <p className="color-tertary text-center fw-normal text-capitalize">Discover Rajasthan&apos;s charm with our tour packages</p>
         </div>
       </div>
 

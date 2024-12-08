@@ -29,16 +29,16 @@ const Packages = () => {
 
   return (
     <>
-      <div className="container-fluid section-01 py-2 position-relative">
+      <div className="container-fluid section-01 py-5 position-relative">
         <div className="container packages mb-5">
           <div className="row py-2 px-2 d-flex justify-content-center align-items-center">
             <div className="d-flex-justify-content-center align-items-center">
-              <hr style={{ borderColor: 'var(--color-tertary)' }} />
-              <h2 className="text-center text-capitalize home-head">
+              {/* <hr style={{ borderColor: 'var(--color-tertary)' }} /> */}
+              <h2 className="text-center text-capitalize home-head web-title">
                 <span className="fw-normal">popular </span> tour packages
                 {/* <FaGripfire className="icon bg-tertary-down p-1 rounded-5" /> */}
               </h2>
-              <hr style={{ borderColor: 'var(--color-tertary)' }} />
+              {/* <hr style={{ borderColor: 'var(--color-tertary)' }} /> */}
             </div>
             <p className="text-center home-para">
               Discover the essence of Rajasthan with our{' '}

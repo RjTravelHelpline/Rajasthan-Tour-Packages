@@ -1,7 +1,8 @@
 :root {
   /* fonts */
-  --font-head: 'Poppins', sans-serif;
-  --font-logo: 'Lobster', sans-serif;
+  --font-head: "Poppins", sans-serif;
+  --font-logo: "Lobster", sans-serif;
+  --font-raleway: "Raleway", sans-serif;
   /* colors */
   --color-primary: #fff;
   --color-secondary: #272727;
@@ -52,6 +53,9 @@ body li {
 }
 .bg-tertary-down {
   background-color: var(--color-tertary-down);
+}
+.web-title {
+  font-family: var(--font-raleway) !important;
 }
 
 // Browser scroller bar
@@ -424,7 +428,7 @@ body {
       height: 40vh;
     }
     &::before {
-      content: '';
+      content: "";
       height: 65%;
       width: 100%;
       position: absolute;
@@ -575,7 +579,7 @@ table {
 
 .home-head {
   position: relative;
-  text-transform: uppercase !important;
+  text-transform: capitalize !important;
   .icon {
     font-size: 0.75em;
     position: absolute;

@@ -1,6 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
-import { FiArrowUp } from "react-icons/fi";
+import { PiArrowUp } from "react-icons/pi";
+
 
 const BackToTop = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -40,7 +41,7 @@ const BackToTop = () => {
           className="back-to-top container d-flex justify-content-center align-items-center"
           onClick={scrollToTop}
         >
-          <FiArrowUp className="back-to-top-icon" />
+          <PiArrowUp className="back-to-top-icon"/>
         </div>
       )}
     </>
