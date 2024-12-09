@@ -21,7 +21,7 @@ const Reviews = () => {
                 guests’ <span className="fw-bold">happiness </span>
               </h2>
               <p className="text-center text-capitalize">
-              Discover how our travelers experienced the magic of Rajasthan with us.
+                Discover how our travelers experienced the magic of Rajasthan with us.
               </p>
               {/* <hr style={{ borderColor: 'var(--color-tertary)' }} /> */}
             </div>
