@@ -128,7 +128,7 @@ const Comment = ({ selectedBlog }) => {
                                     <FaCommentAlt />
                                 </span>
                                 <h4 className='text-center text-capitalize'>comments <span className="fw-normal"></span></h4>
-                                <p>No comments yet. Why don’t you start the discussion?</p>
+                                <p className="text-center w-100">Share Your Thoughts Below</p>
                             </div>
                             <div className="row p-4">
                                 <div className="col-12 my-2 w-100">

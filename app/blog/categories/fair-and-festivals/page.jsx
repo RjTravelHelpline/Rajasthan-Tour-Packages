@@ -1,5 +1,6 @@
 import Breadcrumb from '@/components/Breadcrumb'
 import { blogs, getBlogsByCategory } from '@/data/Blogs';
+import { formatDate } from '@/Utils/util';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -77,7 +78,7 @@ const page = () => {
                                                         ▪
                                                     </p>
                                                     <p className="text-muted w-auto blog-date mb-0">
-                                                        {blog.date}
+                                                    {formatDate(blog.date)}
                                                     </p>
                                                 </div>
                                             </div>

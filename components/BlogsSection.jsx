@@ -4,10 +4,12 @@ import { blogs, getLatestBlogs } from '@/data/Blogs';
 import Link from 'next/link';
 import Image from 'next/image';
 import { ExploreAll } from './ExploreAll';
+import { formatDate } from '@/Utils/util';
 
 const BlogsSection = () => {
   const latestBlogs = getLatestBlogs(blogs);
   const visibleBlogs = latestBlogs.slice(0, 4);
+
 
   return (
     <>
@@ -57,7 +59,7 @@ const BlogsSection = () => {
                             ▪
                           </p>
                           <p className="text-muted w-auto blog-date mb-0">
-                            {blog.date}
+                            {formatDate(blog.date)}
                           </p>
                         </div>
                       </div>

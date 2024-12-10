@@ -1,8 +1,8 @@
 :root {
   /* fonts */
-  --font-head: "Poppins", sans-serif;
-  --font-logo: "Lobster", sans-serif;
-  --font-raleway: "Raleway", sans-serif;
+  --font-head: 'Poppins', sans-serif;
+  --font-logo: 'Lobster', sans-serif;
+  --font-raleway: 'Raleway', sans-serif;
   /* colors */
   --color-primary: #fff;
   --color-secondary: #272727;
@@ -12,7 +12,7 @@
   --color-shadow-tertary: 0 20px 20px 0px #f132326c;
   --color-border: #e6e6e6;
   --color-shadow: 0 20px 20px 0px #3f3f3f13;
-  --color-gray: #dbdbdb4f;
+  --color-gray: #dbdbdb54;
   --color-forth: #21cc63;
   --bg-color-forth: #21cc636c;
   /* border-radius */
@@ -47,6 +47,12 @@ body li {
 }
 .color-tertary-down {
   color: var(--color-tertary);
+}
+.color-gray {
+  color: var(--color-gray);
+}
+.bg-gray {
+  background-color: var(--color-gray);
 }
 .bg-tertary {
   background-color: var(--color-tertary);
@@ -428,7 +434,7 @@ body {
       height: 40vh;
     }
     &::before {
-      content: "";
+      content: '';
       height: 65%;
       width: 100%;
       position: absolute;

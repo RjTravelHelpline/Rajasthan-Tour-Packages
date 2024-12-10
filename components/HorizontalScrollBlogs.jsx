@@ -1,4 +1,5 @@
 "use client"
+import { formatDate } from '@/Utils/util';
 import Image from 'next/image';
 import Link from 'next/link';
 import { MdWidthNormal } from 'react-icons/md';
@@ -31,8 +32,8 @@ const HorizontalScrollBlogs = ({ blogs }) => {
                                         <h4 className='mb-0'>
                                             {blog.heading}
                                         </h4>
-                                        <div className='color-tertary'>
-                                            {blog.date}
+                                        <div className='color-gray'>
+                                            {formatDate(blog.date)}
                                         </div>
                                     </div>
                                 </Link>

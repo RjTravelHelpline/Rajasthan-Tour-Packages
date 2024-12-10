@@ -1,10 +1,9 @@
 import { Table } from 'react-bootstrap';
 import { allCitiesImages, allStatesImages } from './imageData';
 import Image from 'next/image';
+import { Link } from '@/Utils/util';
 
-const Link = (text, url) => {
-  return <a href={url} target="_blank" rel="noopener noreferrer" className='anchor text-web fw-bold'>{text}</a>;
-};
+
 // * wildlife
 const wildlifeBanner = '/Images/Blog/wildlife-banner.png';
 const wildlifeSariska = '/Images/Blog/wildlife-sariska.png';
@@ -55,6 +54,14 @@ const jaisalmerJainMandir = '/Images/Blog/jaisalmer-jain-mandir.png';
 const jaisalmerLongewala = '/Images/Blog/jaisalmer-longewala.png';
 const jaisalmerGadisar = '/Images/Blog/jaisalmer-gadisar-lake.png';
 const jaisalmerBadabagh = '/Images/Blog/jaisalmer-bada-bagh.png';
+
+// food
+const foodBanner = '/Images/Blog/food-banner.png';
+const foodDesertDish = '/Images/Blog/food-kher-sangari.png';
+const foodGatteKiSabji = '/Images/Blog/food-gatte-ki-sabji.jpeg';
+const foodLambKabab = '/Images/Blog/food-lamb-kabab.png';
+const foodGhevar = '/Images/Blog/food-ghevar.png';
+const foodKachori = '/Images/Blog/food-kachori.jpg';
 
 // * data
 
@@ -1173,7 +1180,7 @@ export const blogs = [
     )
   },
   {
-    author: 'admin',
+    author: 'Admin',
     image: newsJammuBanner,
     alt: 'Delhi to Srinagar Train Journey',
     title: 'Delhi to Srinagar Rail Tour Scenic Routes and Travel Information',
@@ -1298,17 +1305,17 @@ export const blogs = [
     more: (
       <>
         <h4>Introduction:</h4>
-        <p>Udaipur al, also known as the City of Lakes, is simply an amazing place to visit. It is located in Rajasthan, which is famous for its royal palace and a sequence of beautiful lakes. It is also replete with historical and cultural tourism. Udaipur is luxurious but can still be visited with little or no money at all when planning to travel around the city. For travelers who prefer to travel alone, with couples, or with families, here are detailed and cheap travel itineraries that will allow you to have the most joyful time in Udaipur.
+        <p>Udaipur al, also known as the <strong>City of Lakes</strong>, is simply an amazing place to visit. It is located in Rajasthan, which is famous for its royal palace and a sequence of beautiful lakes. It is also replete with <strong>historical and cultural tourism</strong>. Udaipur is luxurious but can still be visited with little or no money at all when planning to travel around the city. For travelers who prefer to travel alone, with couples, or with families, here are detailed and cheap travel itineraries that will allow you to have the most joyful time in Udaipur.
         </p>
         <p className="fw-bold mb-0">
           1. Best Time to Visit Udaipur:
         </p>
-        <p>This place is best to visit during winter, so plan your budget trip from October to March to make it convenient. Get a hotel or travel during the off-season, not during the holidays such as Diwali or New Year, because prices are relatively high.
+        <p>This place is best to visit during winter, so plan your budget trip from <strong>October to March</strong> to make it convenient. Get a hotel or travel during the off-season, not during the holidays such as Diwali or New Year, because prices are relatively high.
         </p>
         <p className="fw-bold mb-0">
           2. Budget-Friendly Accommodation in Udaipur:
         </p>
-        <p>Today, there are a lot of cheap accommodations in Udaipur, with guest houses, cheap hostels, and inexpensive hotels at guests’ disposal. Economic interest is generally subdivided into three major fields. Three of these are  Lake Pichola, Fateh Sagar, and the area dominated by the Old City. You also continue to discover affordable places, which are as cheap as hostels but closer to the place’s feel.
+        <p>Today, there are a lot of cheap accommodations in Udaipur, with guest houses, cheap hostels, and inexpensive hotels at guests’ disposal. Economic interest is generally subdivided into three major fields. Three of these are  <strong>Lake Pichola</strong>, <strong>Fateh Sagar</strong>, and the area dominated by the <strong>Old City</strong>. You also continue to discover affordable places, which are as cheap as hostels but closer to the place’s feel.
         </p>
         <div className="slug-image-container my-2">
           <Image
@@ -1343,7 +1350,7 @@ export const blogs = [
         </p>
         <p className="fw-bold mb-0">4. Budget-Friendly Transportation:
         </p>
-        <p>Bluntly put, the antecedent movement in and around Udaipur is an issue in the light of the preceding discussion today is not a problem at all; however weak the argument, it still needs to be put this way even if there is a problem the fare is not very expensive at all. The basic transport systems to cover the city area are the local buses for moving inside the city and auto-rickshaws for commuting in and around the city. If one wants a more comfortable manner of transport with a bit of cost, auto rickshaws are Udaipur cabs rental, and cycle rickshaws are also cheaper than all the other means of transport. Another way is to ride a bike or scooter for a day. In this case, you are restricted, but you will have a great chance to ride the city on a bike.
+        <p>Bluntly put, the antecedent movement in and around Udaipur is an issue in the light of the preceding discussion today is not a problem at all; however weak the argument, it still needs to be put this way even if there is a problem the fare is not very expensive at all. The basic transport systems to cover the city area are the <strong>local buses</strong> for moving inside the city and <strong>auto-rickshaws</strong> for commuting in and around the city. If one wants a more comfortable manner of transport with a bit of cost, auto rickshaws are {Link('Udaipur cabs rental', 'https://www.rajasthantourpackages.in/udaipur-cab-rental')}, and <strong>cycle rickshaws</strong> are also cheaper than all the other means of transport. Another way is to ride a <strong>bike or scooter</strong> for a day. In this case, you are restricted, but you will have a great chance to ride the city on a bike.
         </p>
         <p className="fw-bold mb-0">
           5. Street Food in Udaipur:
@@ -1356,21 +1363,21 @@ export const blogs = [
           <span className="d-block">Kachori</span>
           <span className="d-block">Ghewar</span>
           <span className="d-block">Mirchi Bada</span>
-          <span className="d-block">These classes of delicious food are available at food hawker stations around City Palace and the Lake Pichola area. They are sweet and tasty, and best of all, they don’t put a hole in your pocket.</span>
+          <span className="d-block">These classes of delicious food are available at food hawker stations around <strong>City Palace</strong> and the <strong>Lake Pichola</strong> area. They are sweet and tasty, and best of all, they don’t put a hole in your pocket.</span>
         </p>
         <p className="fw-bold mb-0">
           6. Budget-Friendly Shopping:
         </p>
-        <p>Markets of various types are set up in Udaipur, and most of the above-stated handcrafted affair comprises Rajasthani dresses, miniature paintings, local silver ornaments, wooden games, and other things. It is not hard to get good shopping done from Bada Bazaar or Hathi Pol Bazaar. This is usual, and you can bring fairly nice souvenirs for considerably less cash than initially you might have planned.</p>
+        <p>Markets of various types are set up in Udaipur, and most of the above-stated handcrafted affair comprises <strong>Rajasthani dresses</strong>, <strong>miniature paintings</strong>, <strong>local silver ornaments</strong>, <strong>wooden games</strong>, and other things. It is not hard to get good shopping done from <strong>Bada Bazaar</strong> or <strong>Hathi Pol Bazaar</strong>. This is usual, and you can bring fairly nice souvenirs for considerably less cash than initially you might have planned.</p>
         <p className="fw-bold mb-0">
           7. Guided Tours on a Budget:
         </p>
         <p>
-          It is desirable to involve a guide, especially when visiting the City Palace or Fateh Sagar Lake, as guides explain from the historical perspective. It is better not to look for a personal guide and use the opportunity to take a group or a shared tour as it will be cheaper.</p>
+          It is desirable to involve a guide, especially when visiting the <strong>City Palace</strong> or Fateh Sagar Lake, as guides explain from the historical perspective. It is better not to look for a personal guide and use the opportunity to take a {Link('group or a shared tour', 'https://rajasthantourpackages.in/rajasthan-group-tours')} as it will be cheaper.</p>
         <p className="fw-bold mb-0">
           Conclusion:
         </p>
-        <p>That is why it does not matter whether it costs a penny. The journey can be amazing. Read this guide and use this Udaipur budget tour plan, which will enable you to have the best foreign tourist plans in Udaipur with minimal spending. As a destination, it offers history, heritage, lip-smacking food, a boat ride, whatever you want to capture the essence of Udaipur, and everything for every traveler. Visit Venice of Rajasthan tour Packages without spending a dime from your pocket.
+        <p>That is why it does not matter whether it costs a penny. The journey can be amazing. Read this guide and use this <strong>Udaipur budget tour</strong> plan, which will enable you to have the best foreign tourist plans in {Link('Udaipur', 'https://www.rajasthantourpackages.in/udaipur')} with minimal spending. As a destination, it offers history, heritage, lip-smacking food, a boat ride, whatever you want to capture the essence of Udaipur, and everything for every traveler. Visit Venice of {Link('Rajasthan tour Packages', 'https://www.rajasthantourpackages.in/')} without spending a dime from your pocket.
         </p>
         <hr />
         <p className="fw-bold">
@@ -1379,7 +1386,7 @@ export const blogs = [
         <p className="fw-bold mb-0">
           1. When can I go to Udaipur at the cheapest price?
         </p>
-        <p>Ideal for tourists visiting Rajasthan on a shoestring budget is the period from October to March. This time of the year has favorable climate conditions, and you can often get a cheaper price for hospitality and sightseeing.
+        <p>Ideal for tourists visiting Rajasthan on a shoestring budget is the period from <strong>October to March</strong>. This time of the year has favorable climate conditions, and you can often get a cheaper price for hospitality and sightseeing.
         </p>
         <p className="fw-bold mb-0">
           2. How can I get around Udaipur cheaply?
@@ -1390,7 +1397,7 @@ export const blogs = [
           3. Is it possible to consume a lot in the shops of Udaipur?
         </p>
         <p>
-          Yes, shopping in Udaipur is more than affordable. To put it in different words, I found many inexpensive shops there. For modern items, go to malls, but for local handicrafts, fabrics, and appropriate souvenirs, buy at local markets such as Bada Bazaar and Hathi Pol Bazaar at lesser prices but greater quality.
+          Yes, shopping in Udaipur is more than affordable. To put it in different words, I found many inexpensive shops there. For modern items, go to malls, but for local handicrafts, fabrics, and appropriate souvenirs, buy at local markets such as <strong>Bada Bazaar</strong> and Hathi Pol Bazaar at lesser prices but greater quality.
         </p>
         <p className="fw-bold mb-0">
           4. How can one get an affordable hotel to live in Udaipur?
@@ -1430,10 +1437,10 @@ export const blogs = [
     ),
   },
   {
-    author: 'admin',
+    author: 'Admin',
     image: jaisalmerBanner,
     alt: 'गोल्डन सिटी जैसलमेर',
-    title: '',
+    title: 'गोल्डन सिटी जैसलमेर',
     date: '2024-12-07',
     heading: 'जैसलमेर में घूमने के लिए सबसे खूबसूरत जगहें: यात्रा अनुभव गाइड',
     slug: 'best-beautiful-places-to-visit-in-jaisalmer-travel-guide',
@@ -1447,6 +1454,8 @@ export const blogs = [
     category: 'Tour & Travels',
     more: (
       <>
+        <p>यह राजस्थान के पश्चिमी भाग में स्थित <strong>गोल्डन सिटी</strong> के नाम से मशहूर है, जिसमें ऐतिहासिक और सांस्कृतिक विरासत है। यह जगह अपने सुनहरे बलुआ पत्थर के किलों, महलों, हवेलियों और रेगिस्तान के नज़ारों से अविश्वसनीय रूप से समृद्ध है। अगर आप राजस्थान की खोज करने और अपनी पसंदीदा जगहों की सूची में जैसलमेर को शामिल करने की सोच रहे हैं, तो यहाँ की खूबसूरती और ऐतिहासिक महत्व को ज़रूर देखें। यह ब्लॉग <strong>जैसलमेर में घूमने के लिए सबसे शानदार जगहों</strong> के बारे में विस्तृत चर्चा करेगा।
+        </p>
         <h4>1. जैसलमेर किला:
         </h4>
         <div className="slug-image-container my-2">
@@ -1458,7 +1467,7 @@ export const blogs = [
             height={600}
           />
         </div>
-        <p>सोनार किले के नाम से भी जाना जाने वाला जैसलमेर किला जैसलमेर शहर का सबसे महत्वपूर्ण पर्यटक आकर्षण है। यह एक जीवित किला है जिसका मतलब है कि इसमें अभी भी एक आबादी है जो इसके जीवन प्रणालियों को बनाए रखती है। किले की विशाल दीवारें और सुनहरे बलुआ पत्थर से बने स्मारक डूबते सूरज की रोशनी को दर्शाते हैं और इसे एक अद्भुत दृश्य देते हैं। इसकी दीवारों के भीतर महल, मंदिर और हवेलियाँ हैं जो बीते युगों की प्राचीन शिल्पकला और वास्तुकला को दर्शाती हैं।
+        <p><strong>सोनार</strong> किले के नाम से भी जाना जाने वाला जैसलमेर किला {Link('जैसलमेर शहर', 'https://www.rajasthantourpackages.in/jaisalmer')} का सबसे महत्वपूर्ण पर्यटक आकर्षण है। यह एक जीवित किला है जिसका मतलब है कि इसमें अभी भी एक आबादी है जो इसके जीवन प्रणालियों को बनाए रखती है। किले की विशाल दीवारें और सुनहरे बलुआ पत्थर से बने स्मारक डूबते सूरज की रोशनी को दर्शाते हैं और इसे एक अद्भुत दृश्य देते हैं। इसकी दीवारों के भीतर महल, मंदिर और हवेलियाँ हैं जो बीते युगों की प्राचीन शिल्पकला और वास्तुकला को दर्शाती हैं।
         </p>
         <h4>2. पाटन मीनार (पटवों की हवेली)</h4>
         <div className="slug-image-container my-2">
@@ -1470,7 +1479,7 @@ export const blogs = [
             height={600}
           />
         </div>
-        <p>हवेली पटवों की जैसलमेर की सबसे प्रसिद्ध हवेलियों में से एक है, जो अपनी वास्तुकला और शिल्पकला दोनों के लिए प्रसिद्ध है। यह पांच छोटे महलों का एक समूह है, जो अच्छी हालत में हैं, जिनमें विशेष रूप से सुंदर नक्काशी और पेंटिंग है, और वास्तव में सामान्य रूप से यह एक बेहतरीन कृति है। यह हवेली उन पर्यटकों के लिए एक आदर्श स्थान होगी जो जैसलमेर के इतिहास और संस्कृति को करीब से देखना चाहते हैं।</p>
+        <p><strong>हवेली पटवों की जैसलमेर</strong> की सबसे प्रसिद्ध हवेलियों में से एक है, जो अपनी वास्तुकला और शिल्पकला दोनों के लिए प्रसिद्ध है। यह पांच छोटे महलों का एक समूह है, जो अच्छी हालत में हैं, जिनमें विशेष रूप से सुंदर नक्काशी और पेंटिंग है, और वास्तव में सामान्य रूप से यह एक बेहतरीन कृति है। यह हवेली उन पर्यटकों के लिए एक आदर्श स्थान होगी जो जैसलमेर के इतिहास और संस्कृति को करीब से देखना चाहते हैं।</p>
         <p>यह हवेली राजस्थान के समृद्ध व्यापारिक इतिहास को दर्शाती है और इसमें विभिन्न सांस्कृतिक और पारंपरिक कलाकृतियाँ हैं।</p>
         <h4>3. जैन मंदिर</h4>
         <div className="slug-image-container my-2">
@@ -1482,7 +1491,7 @@ export const blogs = [
             height={600}
           />
         </div>
-        <p>जैसलमेर में सात प्रसिद्ध जैन मंदिर हैं, जो अपनी अनूठी वास्तुकला और शिल्प कौशल के लिए जाने जाते हैं। इन मंदिरों की वास्तुकला को देखकर आप राजस्थान की समृद्ध धार्मिक और सांस्कृतिक विरासत का अनुभव कर सकते हैं। ये मंदिर जैसलमेर किले के भीतर स्थित हैं और दीवारों पर जटिल नक्काशी और पेंटिंग आकर्षण का केंद्रबिंदु हैं।
+        <p>जैसलमेर में सात प्रसिद्ध <strong>जैन मंदिर</strong> हैं, जो अपनी अनूठी वास्तुकला और शिल्प कौशल के लिए जाने जाते हैं। इन मंदिरों की वास्तुकला को देखकर आप राजस्थान की समृद्ध धार्मिक और सांस्कृतिक विरासत का अनुभव कर सकते हैं। ये मंदिर जैसलमेर किले के भीतर स्थित हैं और दीवारों पर जटिल नक्काशी और पेंटिंग आकर्षण का केंद्रबिंदु हैं।
         </p>
         <h4>4. लोंगेवाला युद्ध संग्रहालय</h4>
         <div className="slug-image-container my-2">
@@ -1505,7 +1514,7 @@ export const blogs = [
             height={600}
           />
         </div>
-        <p>गड़ीसर झील जैसलमेर शहर के बाहरी इलाके में एक खूबसूरत झील है। इस झील का निर्माण राजपरिवार द्वारा करवाया गया था और यहां घाट पर बैठकर आपको सुकून का अनुभव होगा। झील का दृश्य सुबह और शाम के समय विशेष रूप से आकर्षक होता है, जब सूर्य की किरणें पानी पर पड़ती हैं और एक निश्चित शांति होती है।
+        <p>{Link('गड़ीसर झील', 'https://hi.wikipedia.org/wiki/%E0%A4%97%E0%A4%A1%E0%A4%BC%E0%A5%80%E0%A4%B8%E0%A4%B0_%E0%A4%9D%E0%A5%80%E0%A4%B2')}जैसलमेर शहर के बाहरी इलाके में एक खूबसूरत झील है। इस झील का निर्माण राजपरिवार द्वारा करवाया गया था और यहां घाट पर बैठकर आपको सुकून का अनुभव होगा। झील का दृश्य सुबह और शाम के समय विशेष रूप से आकर्षक होता है, जब सूर्य की किरणें पानी पर पड़ती हैं और एक निश्चित शांति होती है।
         </p>
         <h4>6. बड़ा बाग
         </h4>
@@ -1518,38 +1527,39 @@ export const blogs = [
             height={600}
           />
         </div>
-        <p>जैसलमेर से 6 किलोमीटर की दूरी पर स्थित ऐतिहासिक स्थान बड़ा बाग में शाही परिवार की शाही समाधि है। यह जगह अपने शांत वातावरण और खूबसूरत नजारों के लिए मशहूर है। यहां आप खूबसूरत सूर्यास्त देख सकते हैं, जो इस जगह को और भी खूबसूरत बना देता है। बड़बिला और उसके आसपास के मकबरे आपको जैसलमेर के राजसी इतिहास के बारे में जानकारी देंगे।</p>
+        <p>जैसलमेर से 6 किलोमीटर की दूरी पर स्थित ऐतिहासिक स्थान <strong>बड़ा बाग</strong> में शाही परिवार की शाही समाधि है। यह जगह अपने शांत वातावरण और खूबसूरत नजारों के लिए मशहूर है। यहां आप खूबसूरत सूर्यास्त देख सकते हैं, जो इस जगह को और भी खूबसूरत बना देता है। बड़बिला और उसके आसपास के मकबरे आपको जैसलमेर के राजसी इतिहास के बारे में जानकारी देंगे।</p>
         <h4>7. भारत-पाकिस्तान सीमा स्तंभ
         </h4>
-        <p>यह बॉर्डर क्रॉसिंग भारत और पाकिस्तान की सीमाओं के चौराहे के पास स्थित है। यह स्थान एक ऐतिहासिक स्थान है और सैनिकों के सम्मान का प्रतीक है। जब आप यहां आएंगे तो आपको सीमा के इतिहास और सुरक्षा के बारे में पता चलेगा।
+        <p>यह <strong>बॉर्डर क्रॉसिंग भारत और पाकिस्तान</strong> की सीमाओं के चौराहे के पास स्थित है। यह स्थान एक ऐतिहासिक स्थान है और सैनिकों के सम्मान का प्रतीक है। जब आप यहां आएंगे तो आपको सीमा के इतिहास और सुरक्षा के बारे में पता चलेगा।
         </p>
         <h4>8. सैम ड्यून्स</h4>
-        <p>सैम दुर्ग जैसलमेर के बाहरी इलाके में स्थित एक रेगिस्तानी विरासत स्थल है जहाँ आप एक अनोखे रेगिस्तानी अनुभव का आनंद ले सकते हैं। सुनहरे रेतीले समुद्र तट, ऊँट की सवारी, रात्रिकालीन पारंपरिक राजस्थानी संगीत और नृत्य शो और रेगिस्तानी जीवन के प्रामाणिक दृश्य आपको एक अनूठा अनुभव देंगे। यह स्थान शाम के समय विशेष रूप से रोमांचक होता है, जब आपको सूर्यास्त के बाद कैंडललाइट डिनर का आनंद लेने का अवसर मिलता है।
+        <p><strong>सैम दुर्ग जैसलमेर</strong> के बाहरी इलाके में स्थित एक रेगिस्तानी विरासत स्थल है जहाँ आप एक अनोखे रेगिस्तानी अनुभव का आनंद ले सकते हैं। सुनहरे रेतीले समुद्र तट, ऊँट की सवारी, रात्रिकालीन पारंपरिक राजस्थानी संगीत और नृत्य शो और रेगिस्तानी जीवन के प्रामाणिक दृश्य आपको एक अनूठा अनुभव देंगे। यह स्थान शाम के समय विशेष रूप से रोमांचक होता है, जब आपको सूर्यास्त के बाद कैंडललाइट डिनर का आनंद लेने का अवसर मिलता है।
         </p>
         <h4>9. केनारी जल संग्रहण प्रणाली</h4>
-        <p>यह केनारी जल संचयन प्रणाली जैसलमेर में पानी की कमी की समस्या को हल करने के लिए विकसित की गई है। यह प्रणाली अब जैसलमेर के ऐतिहासिक और जलवायु अनुसंधान का एक महत्वपूर्ण हिस्सा है। यदि आप यहां आएंगे तो आप प्राचीन जल निकायों और उनकी भंडारण प्रणालियों को देख पाएंगे जो जैसलमेर में जीवन का एक महत्वपूर्ण हिस्सा थे।
+        <p>यह <strong>केनारी जल संचयन प्रणाली जैसलमेर</strong> में पानी की कमी की समस्या को हल करने के लिए विकसित की गई है। यह प्रणाली अब जैसलमेर के ऐतिहासिक और जलवायु अनुसंधान का एक महत्वपूर्ण हिस्सा है। यदि आप यहां आएंगे तो आप प्राचीन जल निकायों और उनकी भंडारण प्रणालियों को देख पाएंगे जो जैसलमेर में जीवन का एक महत्वपूर्ण हिस्सा थे।
         </p>
         <h4>10. टिम्बर पार्क</h4>
-        <p>ट्री फॉसिल पार्क जैसलमेर के पास एक अनोखी जगह है जहाँ आप लाखों साल पुराने पेड़ों के जीवाश्म पा सकते हैं। यह पार्क जैसलमेर के प्राचीन जैविक इतिहास को दर्शाता है और जीवाश्मों को देखने के लिए एक आदर्श स्थान है।
+        <p><strong>ट्री फॉसिल पार्क जैसलमेर</strong> के पास एक अनोखी जगह है जहाँ आप लाखों साल पुराने पेड़ों के जीवाश्म पा सकते हैं। यह पार्क जैसलमेर के प्राचीन जैविक इतिहास को दर्शाता है और जीवाश्मों को देखने के लिए एक आदर्श स्थान है।
         </p>
         <h4>11. डेजर्ट नेशनल पार्क</h4>
-        <p>डेजर्ट नेशनल पार्क जैसलमेर का मुख्य वन्यजीव अभयारण्य है और रेगिस्तानी जीवों का घर है। यहां आप हज, चमचमाती रेत और पक्षियों और जानवरों की दुर्लभ प्रजातियां देख सकते हैं। यह जैसलमेर की एक और अनोखी विशेषता है जो पर्यटकों को आकर्षित करती है।
+        <p><strong>डेजर्ट नेशनल पार्क जैसलमेर</strong> का मुख्य वन्यजीव अभयारण्य है और रेगिस्तानी जीवों का घर है। यहां आप हज, चमचमाती रेत और पक्षियों और जानवरों की दुर्लभ प्रजातियां देख सकते हैं। यह जैसलमेर की एक और अनोखी विशेषता है जो पर्यटकों को आकर्षित करती है।
         </p>
         <h4>12. तनुत माता मंदिर</h4>
-        <p>भारत-पाकिस्तान सीमा के पास स्थित इस मंदिर का धार्मिक और ऐतिहासिक महत्व है। तनोट माता के अनुयायियों का मानना ​​है कि पाकिस्तानी सेना द्वारा गिराए गए बम भी मंदिर के पास नहीं फटे। यह मंदिर न केवल ऐतिहासिक स्थान है बल्कि आस्था का प्रतीक भी है।
+        <p>भारत-पाकिस्तान सीमा के पास स्थित इस मंदिर का धार्मिक और ऐतिहासिक महत्व है। <strong>तनोट माता</strong> के अनुयायियों का मानना ​​है कि पाकिस्तानी सेना द्वारा गिराए गए बम भी मंदिर के पास नहीं फटे। यह मंदिर न केवल ऐतिहासिक स्थान है बल्कि आस्था का प्रतीक भी है।
         </p>
         <h4>13. कनोई रेगिस्तान</h4>
-        <p>यह जगह जैसलमेर के पास एक शांत और कम भीड़भाड़ वाला रेगिस्तान है। कनोई रेगिस्तान में आप ऊंट की सवारी कर सकते हैं और सुनहरे रेत के टीलों का आनंद ले सकते हैं। यह स्थान शांति और प्राकृतिक सुंदरता चाहने वाले पर्यटकों के लिए आदर्श है।
+        <p>यह जगह जैसलमेर के पास एक शांत और कम भीड़भाड़ वाला रेगिस्तान है। <strong>कनोई रेगिस्तान</strong> में आप ऊंट की सवारी कर सकते हैं और सुनहरे रेत के टीलों का आनंद ले सकते हैं। यह स्थान शांति और प्राकृतिक सुंदरता चाहने वाले पर्यटकों के लिए आदर्श है।
         </p>
         <h4>14. कुलधरा - शापित गांव</h4>
-        <p>कुलधरा गाँव जैसलमेर का एक ऐतिहासिक और रहस्यमय स्थान है। यह गांव कभी तीर्थयात्रियों और व्यापारियों से भरा हुआ था, लेकिन आज यह एक वीरान जगह है। वे कहते हैं कि निवासियों ने गांव छोड़ दिया, और तब से यह खाली है। कुलधरा गांव में आपको जैसलमेर के इतिहास से जुड़ी कई रोचक और रहस्यमयी कहानियां सीखने को मिलेंगी।</p>
+        <p><strong>कुलधरा गाँव जैसलमेर</strong> का एक ऐतिहासिक और रहस्यमय स्थान है। यह गांव कभी तीर्थयात्रियों और व्यापारियों से भरा हुआ था, लेकिन आज यह एक वीरान जगह है। वे कहते हैं कि निवासियों ने गांव छोड़ दिया, और तब से यह खाली है। कुलधरा गांव में आपको जैसलमेर के इतिहास से जुड़ी कई रोचक और रहस्यमयी कहानियां सीखने को मिलेंगी।</p>
         <h4>15. अमर सागर</h4>
-        <p>अमर सागर एक ऐतिहासिक जल निकाय और जैसलमेर का एक खूबसूरत स्थान है जिसका उपयोग प्राचीन काल में शाही परिवारों के लिए एक जल निकाय के रूप में किया जाता था। प्राचीन वास्तुकला और शांत वातावरण इसे एक लोकप्रिय पर्यटन स्थल बनाते हैं।
+        <p><strong>अमर सागर</strong> एक ऐतिहासिक जल निकाय और जैसलमेर का एक खूबसूरत स्थान है जिसका उपयोग प्राचीन काल में शाही परिवारों के लिए एक जल निकाय के रूप में किया जाता था। प्राचीन वास्तुकला और शांत वातावरण इसे एक लोकप्रिय पर्यटन स्थल बनाते हैं।
         </p>
         <h4>16. रोडोरोवा</h4>
         <p>लुदरवा जैन मंदिरों और प्राचीन खंडहरों वाला जैसलमेर के पास एक प्राचीन गाँव है। यह स्थान जैसलमेर के प्राचीन इतिहास और सांस्कृतिक विरासत का प्रतिनिधित्व करता है और जैन धर्म के अनुयायियों के लिए एक पवित्र स्थान है।
         </p>
-        <p>जैसलमेर राजस्थान का एक आश्चर्यजनक स्थान है, जो अपने ऐतिहासिक किलों, हवेलियों, मंदिरों और रेगिस्तानी सुंदरता के लिए प्रसिद्ध है। यह स्थान न केवल इतिहास से समृद्ध है, बल्कि यहां का सांस्कृतिक अनुभव भी अनोखा है। यह यात्रा आपको ऐतिहासिक और सांस्कृतिक विरासत का अद्भुत अनुभव प्रदान करती है। राजस्थान टूर पैकेज के साथ जैसलमेर के पर्यटक आकर्षणों की यात्रा करें और राजस्थान की समृद्धि का अनुभव करें।</p>
+        <h4>निष्कर्ष</h4>
+        <p>जैसलमेर राजस्थान का एक आश्चर्यजनक स्थान है, जो अपने ऐतिहासिक किलों, हवेलियों, मंदिरों और रेगिस्तानी सुंदरता के लिए प्रसिद्ध है। यह स्थान न केवल इतिहास से समृद्ध है, बल्कि यहां का सांस्कृतिक अनुभव भी अनोखा है। यह यात्रा आपको ऐतिहासिक और सांस्कृतिक विरासत का अद्भुत अनुभव प्रदान करती है। {Link('राजस्थान टूर पैकेज', 'https://www.rajasthantourpackages.in/')} के साथ जैसलमेर के पर्यटक आकर्षणों की यात्रा करें और राजस्थान की समृद्धि का अनुभव करें।</p>
         <hr />
         <p className='fw-bold mb-0'>अक्सर पूछे जाने वाले प्रश्न</p>
         <hr />
@@ -1578,39 +1588,61 @@ export const blogs = [
         </p>
         <p>उत्तर: हवाई मार्ग द्वारा: जैसलमेर का निकटतम हवाई अड्डा जोधपुर है, जो 285 किलोमीटर दूर है।
           <span className="d-block"><strong>रेलवे मार्ग:</strong> जैसलमेर रेलवे स्टेशन भारत के प्रमुख शहरों से जुड़ा हुआ है।
-            </span>
+          </span>
           <span className="d-block"><strong>सड़क मार्ग द्वारा:</strong> जैसलमेर सड़क मार्ग द्वारा राजस्थान के अन्य शहरों से अच्छी तरह से जुड़ा हुआ है और ट्रेवल के लिए टैक्सी से भी जा सकते हैं|
-            </span>
+          </span>
         </p>
         <p className="fw-bold mb-0">
           प्रश्न 7: आप जैसलमेर में क्या खा सकते हैं?
         </p>
         <p>उत्तर: जैसलमेर में आपको राजस्थानी व्यंजन जरूर आज़माने चाहिए जैसे:
-          दाल बाटी चूरमा
-          केर सांगरी
-          गेट सब्जियां
-          लहराती हुई लस्सी
-          इसके अलावा, रेगिस्तान में डेरा डालते समय पारंपरिक राजस्थानी थाली का आनंद लें।
+          <span className="d-block">
+            दाल बाटी चूरमा
+          </span>
+          <span className="d-block">
+            केर सांगरी
+          </span>
+          <span className="d-block">
+            गेट सब्जियां
+          </span>
+          <span className="d-block">
+            लहराती हुई लस्सी
+          </span>
+          <span className="d-block">
+            इसके अलावा, रेगिस्तान में डेरा डालते समय पारंपरिक राजस्थानी थाली का आनंद लें।
+          </span>
         </p>
         <p className="fw-bold mb-0">
           प्रश्न 8: क्या परिवार के साथ जैसलमेर जाना सुरक्षित है?
         </p>
-        <p>उत्तर: हाँ, जैसलमेर परिवारों के लिए एक सुरक्षित स्थान है। स्थानीय लोग बहुत मददगार हैं और ट्रैवल एजेंसियां ​​रेगिस्तान में सुरक्षित शिविर का भी आयोजन करती हैं।
+        <p>उत्तर: हाँ, जैसलमेर परिवारों के लिए एक सुरक्षित स्थान है। स्थानीय लोग बहुत मददगार हैं और <strong>ट्रैवल एजेंसियां ​​रेगिस्तान</strong> में सुरक्षित शिविर का भी आयोजन करती हैं।
         </p>
         <p className='fw-bold mb-0'>प्रश्न 9: जैसलमेर में कौन से त्यौहार आयोजित होते हैं?
         </p>
         <p>उत्तर: जैसलमेर में महत्वपूर्ण त्यौहार:
-          जैसलमेर रेगिस्तान महोत्सव: फरवरी में आयोजित किया जाता है और इसमें पारंपरिक नृत्य, संगीत और ऊंट दौड़ शामिल होती है।
-          मरू उत्सव: यह एक लोकप्रिय त्योहार है जो राजस्थान की संस्कृति का जश्न मनाता है।
+          <span className="d-block">
+            <strong>जैसलमेर रेगिस्तान महोत्सव: </strong>फरवरी में आयोजित किया जाता है और इसमें पारंपरिक नृत्य, संगीत और ऊंट दौड़ शामिल होती है।
+          </span>
+          <span className="d-block">
+            <strong>मरू उत्सव: </strong>यह एक लोकप्रिय त्योहार है जो राजस्थान की संस्कृति का जश्न मनाता है।
+          </span>
         </p>
         <p className="fw-bold mb-0">
           प्रश्न 10: जैसलमेर के आसपास घूमने के लिए सबसे अच्छी जगहें कौन सी हैं?
         </p>
         <p>उत्तर: जैसलमेर के निकट प्रमुख आकर्षण:
-          तनोट माता मंदिर
-          लोंगेवाला युद्धक्षेत्र
-          सीसाबा किला
-          लकड़ी जीवाश्म पार्क
+          <span className="d-block">
+            तनोट माता मंदिर
+          </span>
+          <span className="d-block">
+            लोंगेवाला युद्धक्षेत्र
+          </span>
+          <span className="d-block">
+            सीसाबा किला
+          </span>
+          <span className="d-block">
+            लकड़ी जीवाश्म पार्क
+          </span>
         </p>
       </>
     )
@@ -1618,16 +1650,203 @@ export const blogs = [
 
   // Food Category
   {
-    author: 'Jane Smith',
-    image: allCitiesImages.jaipur.jaipurCulinary.src,
-    date: '2024-08-15',
-    heading: 'The Ultimate Guide to Indian Street Food',
-    slug: generateSlug('The Ultimate Guide to Indian Street Food'),
+    author: 'Admin',
+    image: foodBanner,
+    alt: 'Famous Dal Baati Churma Dish',
+    title: 'A traditional plate of Dal Baati Churma, iconic Rajasthani food',
+    date: '2024-12-10',
+    heading: 'Rajasthan Culinary Secrets: 7 Hidden Dishes You Must Try',
+    slug: 'rajasthan-culinary-secrets-hidden-dishes-you-must-try',
+    metaTitle: 'Rajasthan Culinary Secrets: 7 Hidden Dishes You Must Try',
+    metaDescription: "Explore Rajasthan's culinary secrets with 7 hidden dishes you must try. Try out the Ker Sangri and Jungli Maas to get the actual taste of Rajasthani food.",
+    canonical: 'https://www.rajasthantourpackages.in/blog/rajasthan-culinary-secrets-hidden-dishes-you-must-try',
+    keywords: ['Rajasthan Tour Packages', 'Rajasthan Heritage Tours', 'Rajasthan Food Tours', 'Best Cities in Rajasthan', 'Customized Rajasthan Tours', 'Royal Rajasthan Tour Packages', 'Rajasthan Festival Tours', 'Rajasthan City Tours', 'Rajasthani vegetarian dishes', 'Best hidden Rajasthani dishes to try', 'Must-try regional foods of Rajasthan', 'Rajasthani traditional food tours', 'Rajasthan Culinary Secrets'
+    ],
     description:
-      'Dive into the vibrant world of Indian street food. From spicy chaats to sweet delicacies, this guide covers the best street food experiences across various cities in India.',
+      'Rajasthan is a state where history meets culture and beauty meets simplicity, and this place is equally famous for food lovers. But looking the big names such as the famous Dal Baati Churma or Laal Maas, many more delicious findings can be discovered. So, these novices are the source of tasty dishes, exotic recipes, and cooking secrets of ancestors.',
     category: 'Food',
-    more: `India is known for its rich culinary diversity, and its street food culture is one 
-              of the most exciting aspects of exploring this land of flavors.`,
+    more: (
+      <>
+        <p>
+          Rajasthan is a state where history meets culture and beauty meets simplicity, and this place is equally famous for food lovers. But looking the big names such as the famous Dal Baati Churma or Laal Maas, many more delicious findings can be discovered. So, these novices are the source of tasty dishes, exotic recipes, and cooking secrets of ancestors.
+        </p>
+        <p>So here in this blog, we would like to share some off-the-beaten-path food experiences of Rajasthan with you to give you a Real Rajasthani Taste. So, if you’re expecting to visit Rajasthan or are just a fan of multi-food culture, here are some <strong>Best hidden Rajasthani dishes</strong> to try. Explore these culinary gems as part of your journey with our exclusive <strong>Must-try regional foods of Rajasthan</strong>.
+        </p>
+        <h4 className='text-capitalize'>
+          1. Ker Sangri – A Desert Delicacy
+        </h4>
+        <div className="slug-image-container my-2">
+          <Image
+            src={foodDesertDish}
+            alt="Ker Sangri desert dish"
+            title="Ker Sangri, a traditional Rajasthani desert delicacy with spices"
+            width={1500}
+            height={600}
+          />
+        </div>
+        <p>Desert conditions, hence, are reflected in many of the foods that are consumed in Rajasthan since they are prepared using widely available produce. Among them, the most popular dish is <strong>Ker Sangri</strong>, a very Old <strong>Rajasthani vegetable dish</strong> that has a sour spicy taste. The primary ingredients, Ker, a wild berry, and Sangri, dried beans, are found naturally in the Thar desert and can accordingly grow in adverse conditions.
+        </p>
+        <p>Compared with the other recipes, the Ker Sangri can be prepared with several vegetables and spices, including cumin, coriander, turmeric, mustard oil, and dried ginger. This is one of the most typical meals in Rajasthan, and it is a good idea to showcase how the community used all the components to produce a tasty dish. Though it is widely consumed in rural areas, it remains relatively unknown to many travelers. To fully experience its authenticity, consider exploring it through {Link('Rajasthan Heritage Tours', 'https://www.rajasthantourpackages.in/heritage-hotels-tour-packages')}, where you can connect with the local traditions and flavors.
+        </p>
+        <p>In Rajasthan, the best way to go through it is with Bajra roti (pearl millet flatbread), which goes perfectly well.</p>
+        <h4 className="text-capitalize">
+          2. Gatte Ki sabzi – Rendition of Gram Flour Dish
+        </h4>
+        <div className="slug-image-container my-2">
+          <Image
+            src={foodGatteKiSabji}
+            alt="Gatte Ki Sabzi - Gram Flour Dish"
+            title="Gatte Ki Sabzi - Rajasthani gram flour dish with spices"
+            width={1500}
+            height={600}
+          />
+        </div>
+        <p>While there is nothing groundbreaking about Gatte Ki Sabzi, few still experiment with the dish or indulge themselves in experiencing the dish. Part of this dish is a gate, a bun steamed with gram flour (besan) and served with spicy yogurt gravy. The gates are rolled by sprinkling ajwain (carom seeds), cumin, and chili, and the gravies get a lift from the condiments of added spices, which give the proper heat and tangling.
+        </p>
+        <p>All the families of Rajasthan have liked Gatte Ki Sabzi, which is usually made during festivals or occasions. What makes this dish very special is that this recipe does not include any vegetables at all and does not contain fresh vegetables at all, which are very scarce in the desert area.
+        </p>
+        <p>If you want some satisfaction that is still cozy, Gatte Ki Sabzi is absolutely for you. This is usually eaten with roti/ rice and is a way to go if one wants a true Rajasthani meal. To fully immerse yourself in such authentic flavors, consider exploring <strong>Rajasthan Food Tours</strong>.
+        </p>
+        <h4 className="text-capitalize">
+          3. Kalmi Kebab – A Royal Delight
+
+        </h4>
+        <div className="slug-image-container my-2">
+          <Image
+            src={foodLambKabab}
+            alt="Lamb Kalmi Kebab with herbs"
+            title="Tender lamb kalmi kebab garnished with pomegranate and herbs"
+            width={1500}
+            height={600}
+          />
+        </div>
+        <p>Rajasthan is world-renowned for its palaces and forts and the recipe of Kalmi Kebab is uniquely Royal. Despite numerous kinds of kebabs, Kalmi Kabab has its position in Rajasthan. Grilled or roasted chicken drumsticks marinated with yogurt, spices, and fresh herbs are what you call this dish.
+        </p>
+        <p>I believe there is no secret to making a perfect Kalmi Kebab other than the marinade. The spices are trapped and elongated through yogurt, resulting in tender chicken. The spices make the chicken very rich in smoky flavor. A mint chutney is always served with the kebabs and onion rings. Also, usually, a side dish of naan or paratha is taken.
+        </p>
+        <p>Kalmi Kebab is quite famous in royal feasts and formal occasions; that&apos;s why Kalmi Kebab rightfully holds a place in the secrets of Rajasthani cuisine. To experience the richness of Rajasthan’s royal culinary legacy firsthand, explore our {Link('Royal Rajasthan Tour Packages', 'https://www.rajasthantourpackages.in/7days-royal-rajasthan-tour')}.
+        </p>
+        <h4 className="text-capitalize">
+          4.  Ghevar – Traditional Rajasthani Sweet for Festive Seasons
+
+        </h4>
+        <div className="slug-image-container my-2">
+          <Image
+            src={foodGhevar}
+            alt="Ghevar Rajasthani Sweet"
+            title=" Traditional Ghevar, a popular Rajasthani sweet for festivals"
+            width={1500}
+            height={600}
+          />
+        </div>
+        <p>Ghevar, a well-known dessert, comes from Rajasthan and is made only in Teej and Rakhi Purnima. Ghevar is a Rajasthani sweet but sadly doesn&apos;t even get a look in with Rajasthani sweets being overshadowed by more mainstream sweets like Gajar Halwa or Kheer. Cereals come in circular-shaped wheat flour, sugar syrup, and oil products called ghee. It is deep fried, and the food is covered with a honeycomb-like structure, following which sugar syrup splashes later.</p>
+        <p>They offer different types of ghevar, such as malai ghevar, which means ghevar, which has cream, and dry ghevar, which means ghevar, which does not have cream. Because of its organized pattern and low spicy flavor, which makes it exquisite, it symbolizes Rajasthan occasion food. Ghevar may be topped with pistachios, almonds, or saffron for affluence to the dish to mark its elegance.
+        </p>
+        <p>If you are planning <strong>Rajasthan Festival Tours</strong>, experiencing this iconic sweet during festivals is a must. If you are in Rajasthan, especially during the festival, you should not miss a way of celebrating through the feast of this sweet dish.
+        </p>
+        <h4 className="text-capitalize">
+          5. Pyaaz Kachori – A Savory Snack
+
+        </h4>
+        <div className="slug-image-container my-2">
+          <Image
+            src={foodKachori}
+            alt=" Pyaaz Kachori from Jodhpur"
+            title="Delicious Pyaaz Kachori from Jodhpur served with spicy chutney"
+            width={1500}
+            height={600}
+          />
+        </div>
+        <p>Pyaaz Kachori may be a little familiar, but let me include it here because it has made the streets of Rajasthan, especially {Link('Jodhpur', 'https://www.rajasthantourpackages.in/jodhpur')}, its home. A spicy onion stuffing is used for filling this crispy and deep-fried pastry. The outer coat is crunchy to the color of gold, and the inside layer contains crushed onions, coriander, and chili powders.</p>
+        <p>The Pyaaz Kachori is best eaten with tamarind chutney or mint chutney and goes well with the food walking through the markets of Rajasthan. As with most street foods, this is as real as it gets when it comes to Kansan cuisine. We rarely get a chance to take a bite while exploring Rajasthan, but with <strong>Rajasthan City Tours</strong>, you can experience the true flavors of the streets and enjoy these delicious treats.
+
+        </p>
+        <h4 className="text-capitalize">
+          6. Jungli Maas – The Wild Game Dish
+
+        </h4>
+        <p>Jungli Maas is a unique Rajasthani food that was prepared when people of the royalty went hunting. Originally a venison dish, the food is a hot curry with various spices, garlic, ginger, and red chilies.</p>
+        <p>This includes putting yogurt all over the meat, then the ground spices and herbs, and then cooking until tender is achieved. Such kinds of meals enable one to enjoy the taste of wild meat, which has been linked to enormous natural and homemade meals. Bajra roti tandoori naan, or wheat roti, are the most popular accompaniments of Jungli Maas.
+        </p>
+        <p>It is also rare to find Jungli Maas in restaurants in cities, but it’s made in some districts of Rajasthan where hunting is prominent. If you’re looking to enjoy authentic dishes like Jungli Maas, consider visiting the {Link('Best Cities in Rajasthan', 'https://www.rajasthantourpackages.in/rajasthan-tour-by-cities')}, where the cultural and culinary heritage is at its finest. This perhaps is one of the most exotic forms of Rajasthani food and definitely once tasted, conjures up a particular flavor of Rajasthan.
+        </p>
+        <h4 className="text-capitalize">
+          7.  Chakki Ki Sabzi – A Traditional Rajasthani Recipe
+        </h4>
+        <p>Another straightforward dish that tends to remain unknown is Chakki Ki Sabzi. This meal is derived from wheat flour. The wheat cakes are steamed and, when crushed, fried with onions, tomatoes, and spices. Subtle Piping hot wheat cakes add to the flavors of the curry, and they are pretty filling and wholesome.
+        </p>
+        <p>It would be essential to note that there is no other quick dish as famous as Chakki Ki Sabzi, but it has such a raw appeal. This dish originated in the Rajasthan area and was considered the food people enjoy when they have nothing better to eat. Carom seeds (ajwain) and cumin, frequently used as condiments or spices in wheat cakes, give a fragrance to the preparation. It is eaten mainly with roti but sometimes with rice. It is a dish usually featured in the Rajasthani Thali, with several dishes on one platter.</p>
+        <p>While not as well known as some of the other dishes originating from the province of Rajasthan, Chakki Ki Sabzi should be on the list of anyone who wishes to taste the authentic tastes of Rajasthani cuisine. To fully immerse yourself in the region’s culinary and cultural delights, consider exploring {Link('Customized Rajasthan Tours', 'https://www.rajasthantourpackages.in/rajasthan-tour-packages')} for a personalized experience.</p>
+        <p className="fw-bold mb-0">
+          Conclusion: Glimpses of Unknown Traditions of Rajasthan in One&apos;s Plate
+
+        </p>
+        <p>As in the case of the history & geographical structure of Rajasthan, it is equally diverse and colorful in respect of the food and eating habits of the people. Whereas the known foods worth tasting are Dal Baati and Laal Maas, do not forget to taste these unheard-of dishes that emanate the taste of Rajasthan. The Rajasthani cuisine contains a fine mix of the cut Kair Sangri of the arid desert and the dense brook Jungli Maas in the narrow valleys of the Nawal kingdom.
+        </p>
+        <p>Therefore, when entering Rajasthan, do not forget to discover this colorful state&apos;s off-the-shelf restaurants and eateries. Whether you prefer spicy curries, crunchy and tasty snacks, or warm and sweet meals does not matter. {Link('Rajasthan Tour and Travel', 'https://www.rajasthantourpackages.in/')} has a tasteful dish for every taste group.
+
+        </p>
+        <h4 className="text-capitalize">
+          FAQ
+
+        </h4>
+        <p className="fw-bold mb-0">
+          1. Which are the foods that are a must-have in Rajasthan?
+
+        </p>
+        <p>Rajasthani food is very colorful and full of flavors. To argue about non-vegetarian food one would not like to miss <strong>Laal Maas</strong> and <strong>Ker Sangri</strong> while vegetarians would recommend <strong>Dal Baati Churma</strong>, <strong>Gatte Ki Sabzi,</strong> <strong>Chakki Ki Sabzi</strong>. These dishes are bland-free and contain just the right blend of spices and CM of Rajasthan state which makes it the original taste of Georgia.
+        </p>
+        <p className="fw-bold mb-0">
+          2. What is Ker Sangri, and why is it special?
+        </p>
+        <p>Ker Sangri is a very popular Rajasthani dish prepared essentially from wild berries (Ker) and dried beans (Sangri) that grow in the Thar Desert. It is hot on the tongue and, essentially, is great to be consumed with Bajra roti. It is unique because of the specificity of sourcing the ingredients from local deserts and the show-true relation with Rajasthani cuisine.
+        </p>
+        <p className="fw-bold mb-0">
+          3. What is the difference between Laal Maas and Jungli Maas?
+
+        </p>
+        <p>Although it is a spicy meat dish, Laal Maas is served with mutton or goat meat, which is a red chili gravy. On the other hand, Jungli Maas is undoubtedly prepared with wild meat and wild boar; however, it has a smell and taste. Both dishes belong to the heritage cuisines of Rajasthan, but for sure, Maulana’s preferred meat and spice are comparatively subdued.
+        </p>
+        <p className="fw-bold mb-0">
+          4. What is the status of vegetarian meals in Rajasthani food?
+
+        </p>
+        <p>Rajasthani cuisine is full of vegetarian dishes, and there are several purely vegetarian dishes. Incorporating further Rajasthani tastes, the Gatte Ki Sabzi, Chakki Ki Sabzi, Pyaaz Kachori, Dal Baati-An, and so many more are the typical vegetarian recipes that utilize lentils.
+        </p>
+        <p className="fw-bold mb-0">
+          5. What is the best way to enjoy Rajasthani food?
+        </p>
+        <p>The most recommended way to taste Rajasthani food is by ordering a <strong>Rajasthani thali</strong>. Thali means dhal, curry, chapatti, rice, pickles, relishes, sweet dishes, and many other Rajasthani delicacies and knick-knacks all in one Go. Eating this dish with Bajra roti or Tandoori naan is better and more presentable.</p>
+        <p className="fw-bold mb-0">
+          6. Which are the most famous Rajasthani sweets?
+        </p>
+        <p>Some of the famous Rajasthani sweets are Ghevar, Mawa Kachori and Feeni. Ghevar is more famous during the festival season, such as Teej and Rakhi, which are crispy from the outside and syrupy inside and served with cream.
+        </p>
+        <p className="fw-bold mb-0">
+          7. Is Rajasthani food available in other states of India?
+
+        </p>
+        <p>The Rajasthani food is most original in Rajasthan, but it is present in many regions of India, including large cities with a large number of Rajasthani people. However, the flavors and preparation methods are best tasted in Rajasthan since they are made using natural products and the right method.
+        </p>
+        <p className="fw-bold mb-0">
+          8. Is Rajasthani food spicy?
+        </p>
+        <p>Well, yes and no; Rajasthani food is spicy most of the time. Red chili, cumin, coriander, and garlic are freely used in the preparation of the food. However, on some occasions, it is not pleasant, referring to which type of foods are being prepared, and anyone can notify the kitchen to reduce or enhance the spiciness of the food.
+        </p>
+        <p className="fw-bold mb-0">
+          9. What is the history behind Rajasthani cuisine?
+
+        </p>
+        <p>This entails the history of the state, the desert in the state, and the farming in the state. Lentils, dried vegetables, and spices were perhaps adopted because of food preservation since the climate was dry. Others, too, such as Jungli Maas, were shaped by the hunting culture that the Rajput kings practiced.
+        </p>
+        <p className="fw-bold mb-0">
+          10. What is a traditional drink in Rajasthan?
+
+        </p>
+        <p>Chass, al, commonly called ‘buttermilk’ and Lassi, are both traditional drinks of Rajasthan. Chaas is taken with meals to help with digestion, while Lassi, a yogurt product, salty or sweet, is very wholesome, especially during hot weather in Rajasthan.
+        </p>
+      </>
+    )
   },
   {
     author: 'Amit Kumar',
@@ -1744,7 +1963,7 @@ export const blogs = [
             title="Pushkar Camel Fair Rajasthan Colorful Festival and Traditions"
             width={1500}
             height={600}
-            
+
           />
         </div>
         <p><strong>Rajasthan fairs and festivals</strong> are the artistic representation of the spirit of this desert state. Every celebration is a discovery of people’s beliefs and practices.</p>
@@ -1812,7 +2031,7 @@ export const blogs = [
   },
   // Fair & Festivals
   {
-    author: 'admin',
+    author: 'Admin',
     image: fairCamelrBanner,
     alt: 'Pushkar Camel Fair',
     title: 'Camel Taxi at Pushkar Mela - Pushkar Camel Fair, Pushkar, Rajasthan, India',
@@ -1840,7 +2059,7 @@ export const blogs = [
             title='Pushkar Lake - Sacred Pilgrimage Site in Pushkar, Rajasthan, India'
             width={1500}
             height={600}
-            
+
           />
         </div>
         <p>Pushkar is a small religious city approximately 14 kilometers from Ajmer in Rajasthan. It is one of the most religious Hindu places and is also famous for the biggest and most popular temple, the temple of lord Brahma, which is the only temple in the world. Peasants and millions of Hindu devotees flock to the holy town of Pushkar every year to bathe in the sacred Pushkar Lake, which is regarded as possessing salvage water that can cleanse sins.</p>
@@ -1946,7 +2165,7 @@ export const blogs = [
     ),
   },
   {
-    author: 'admin',
+    author: 'Admin',
     image: fairChinaBanner,
     alt: 'Chinese New Year Dragon Parade',
     title: 'Chinese New Year parade with majestic dragon in 2025 festival',
@@ -1964,10 +2183,10 @@ export const blogs = [
     more: (
       <>
         <p className='fw-bold mb-0'>Introduction</p>
-        <p>It is one of the prominent annual cultural events not only in China but in countries in which the Chinese, trading, compatriots, or immigrants live. Better known as the Spring Festival, it is the beginning of the lunar new year, and the 2025 event will be exceptionally colorful, particularly considering the dragon festivities. Dragon, signifying authority, sheer might, and luck, is seen prominently in most of the carnivals, rigors, dance, and other troupes and performances. In this article, to proceed to the China New Year 2025 celebration, we even learn more about how this year of the dragon can work.</p>
+        <p>It is one of the prominent annual cultural events not only in China but in countries in which the Chinese, trading, compatriots, or immigrants live. Better known as the Spring Festival, it is the beginning of the lunar new year, and the 2025 event will be exceptionally colorful, particularly considering the dragon festivities. Dragon, signifying authority, sheer might, and luck, is seen prominently in most of the carnivals, rigors, dance, and other troupes and performances. In this article, to proceed to the <strong>China New Year 2025 celebration</strong>, we even learn more about how this year of the dragon can work.</p>
         <hr />
         <p className='fw-bold mb-0'>The Significance of Chinese New Year</p>
-        <p>Chinese New Year is a global event for the Chinese-populated areas throughout the world. It is between 21 January and 20 February, according to the lunar calendar, and in Chinese New Year 2025, the start will be on 29 January. Every year itself is linked to one of the twelve animals in the Chinese calendar, and 2025 is the Year of the Snake. However, as the dragon is also the symbol of the event, the figure is worshipful throughout the whole ceremony.
+        <p>Chinese New Year is a global event for the Chinese-populated areas throughout the world. It is between 21 January and 20 February, according to the lunar calendar, and in <strong>Chinese New Year 2025</strong>, the start will be on 29 January. Every year itself is linked to one of the twelve animals in the Chinese calendar, and 2025 is the Year of the Snake. However, as the dragon is also the symbol of the event, the figure is worshipful throughout the whole ceremony.
         </p>
         <p>Unlike The New Comics, the Chinese New Year is a time for family reunions, celebrations of ancestors&apos; days, and adoration of prosperity in the coming year. The festival lasts for one and half months, and every day of the festival has some or the other rituals that symbolize their desire for prosperity and a happy and healthy life.
         </p>
@@ -1999,7 +2218,6 @@ export const blogs = [
         </p>
         <p className="fw-bold mb-0">
           2. Dragon Boat Races
-
         </p>
         <p>Festivals and Dragon Boat races in incomplete culture in China are getting a tremendous lift during the New Year and are found more in the coastal areas. To the race, which engages the participants, they are expected to manage long, thin-like boats called dragons. In addition to being a fun and frivolous event for yodellers to watch, races let the people celebrate the dragon, which is the embodiment of unity, power, and Everybody Knows.
         </p>
@@ -2054,16 +2272,19 @@ export const blogCategories = [
     text: 'Fair & Festivals',
   },
 ];
+export const blogArchives = [
+  {
+    path: '/november-2024',
+    text: 'november, 2024',
+  },
+  {
+    path: '/december-2024',
+    text: 'december, 2024',
+  },
+];
 
 
 // logics
-//* Function to get blogs by archives
-export const filterBlogsByMonth = (blogs, month, year) => {
-  return blogs.filter(blog => {
-    const blogDate = new Date(blog.date);
-    return blogDate.getMonth() + 1 === month && blogDate.getFullYear() === year;
-  });
-}
 
 // To get the blog by latest
 export const getLatestBlogs = (blogs, count = 5) => {

@@ -1,5 +1,6 @@
 import Breadcrumb from '@/components/Breadcrumb'
-import { blogs, filterBlogsByMonth } from '@/data/Blogs';
+import { blogs } from '@/data/Blogs';
+import { filterBlogsByMonth, formatDate, getLatestItems } from '@/Utils/util';
 import Image from 'next/image';
 import Link from 'next/link';
 
@@ -32,7 +33,7 @@ export const metadata = {
 
 const page = () => {
     const novemberBlogs = filterBlogsByMonth(blogs, 11, 2024)
-    const sortedBlogs = novemberBlogs.sort((a, b) => new Date(b.date) - new Date(a.date))
+    const latestBlogs = getLatestItems(novemberBlogs)
     return (
         <>
             <div className="container-fluid mt-4 pt-5 bg-black">
@@ -52,7 +53,7 @@ const page = () => {
                 <div className="container">
                     <div className="row py-2 d-flex align-items-stretch justify-content-center px-2 blogs">
                         <div className="row d-flex justify-content-center py-2">
-                            {sortedBlogs.map((blog) => {
+                            {latestBlogs.map((blog) => {
                                 const visibleDescription =
                                     blog.description.split(' ').slice(0, 5).join(' ') + '...';
                                 return (
@@ -82,7 +83,7 @@ const page = () => {
                                                         ▪
                                                     </p>
                                                     <p className="text-muted w-auto blog-date mb-0">
-                                                        {blog.date}
+                                                        {formatDate(blog.date)}
                                                     </p>
                                                 </div>
                                             </div>

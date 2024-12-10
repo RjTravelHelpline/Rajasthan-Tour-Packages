@@ -3,6 +3,7 @@ import { MdArrowOutward, MdExpandLess, MdExpandMore } from "react-icons/md";
 import Link from "next/link";
 import { useState } from "react";
 import Image from "next/image";
+import { formatDate } from "@/Utils/util";
 
 export const BlogDataSection = ({ category, Data, icon, subhead }) => {
     const [showAll, setShowAll] = useState(false);
@@ -67,7 +68,7 @@ export const BlogDataSection = ({ category, Data, icon, subhead }) => {
                                                             ▪
                                                         </p>
                                                         <p className="text-muted w-auto blog-date mb-0">
-                                                            {blog.date}
+                                                            {formatDate(blog.date)}
                                                         </p>
                                                     </div>
                                                 </div>
