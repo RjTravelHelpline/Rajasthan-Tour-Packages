@@ -63,6 +63,10 @@ const foodLambKabab = '/Images/Blog/food-lamb-kabab.png';
 const foodGhevar = '/Images/Blog/food-ghevar.png';
 const foodKachori = '/Images/Blog/food-kachori.jpg';
 
+// fair and festival
+
+const fairKotaChambal = '/Images/Blog/fair-kota-chambal.jpeg';
+const fairKotaDance = '/Images/Blog/fair-kota-dance.jpeg';
 // * data
 
 const generateSlug = (heading) =>
@@ -2241,6 +2245,216 @@ export const blogs = [
         <p>For those people who would like to embrace the colorful feelings of Chinese New Year 2025, there is no better chance to see the miracles of the dragon and improve their knowledge of the best <strong>Chinese new traditions</strong> of this fantastic holiday. For more cultural tours you can check out {Link('Rajasthan Tour Packages', 'https://www.rajasthantourpackages.in/')} which will give you the tour of the festivals and the culture of Rajasthan</p>
       </>
     ),
+  },
+  {
+    author: 'Admin',
+    image: fairKotaChambal,
+    alt: 'Kota Mahotsav by Chambal Riverfront',
+    title: 'Kota Mahotsav 2024 at Chambal Riverfront',
+    date: '2024-12-11',
+    heading: 'Celebrate Kota Mahotsav 2024: 7-Day Festivities by Chambal River',
+    metaTitle: 'Celebrate Kota Mahotsav 2024: 7-Day Festivities by Chambal River',
+    metaDescription: 'Celebrate Kota Mahotsav 2024 at vibrant 7-day festivities by Chambal River. Enjoy cultural performances, Rajasthani crafts, and local delicacies from Dec 23–25.',
+    canonical: 'https://www.rajasthantourpackages.in/blog/celebrate-kota-mahotsav-2024-7-day-festivities-chambal-river',
+    keywords: ['Kota Mahotsav 2024', '7-day festivities by Chambal River', 'Kota events December 2024', '7-day Kota Mahotsav', 'Festivals in Kota Rajasthan', 'Kota Riverfront celebrations', 'Kota Mahotsav events', 'Chambal River events December', 'Kota Mahotsav December 2024', 'Kota Mahotsav 2024', '7-day festivities by Chambal River', 'Rajasthan Tour from Kota', 'Places to visit in Kota', 'Taxi Service in Kota'
+    ],
+    slug: 'celebrate-kota-mahotsav-2024-7-day-festivities-chambal-river',
+    description:
+      "Kota, one of Rajasthan's most vibrant cities, is likely to host one of its most important events of the year, the 7-day Kota Mahotsav 2024. Planned to start from December 23 to 25, this 7-day event will witness a confluence of history, culture, local music and dance, and handmade work. At the Western Ghaat riverfront, besides the Chambal River, the festival is an excellent chance for the region's inhabitants and guests to plunge into the multi-faceted charm of Rajasthan's spirit. This blog will guide you through what to expect during the celebrations, how to plan your visit, and why the Kota Mahotsav should be on your travel list this December.",
+    category: 'Fair & Festivals',
+    more: (
+      <>
+        <p>Kota, one of Rajasthan&apos;s most vibrant cities, is likely to host one of its most important events of the year, the 7-day Kota Mahotsav 2024. Planned to start from December 23 to 25, this 7-day event will witness a confluence of history, culture, local music and dance, and handmade work. At the Western Ghaat riverfront, besides the Chambal River, the festival is an excellent chance for the region&apos;s inhabitants and guests to plunge into the multi-faceted charm of Rajasthan&apos;s spirit. This blog will guide you through what to expect during the celebrations, how to plan your visit, and why the Kota Mahotsav should be on your travel list this December.</p>
+        <h4 className="text-capitalize">
+          What is Kota Mahotsav?
+        </h4>
+        <p>Kota Mahotsav is an annual cultural fair that indicates the enriched spirit of Rajasthan perfectly. It is a site where guests recall our state&apos;s rich ethno salvage of oral history, arts, and music. This fair is annually hosted by the Kota district administration. More specifically, it is a cultural and Historical bonanza of Rajasthan and gives a delightful peep into the life of the people here.
+        </p>
+        <p>The event further got prominence when it was planned in the year 2024 and it has a natural and historical site of the <strong>Chambal River Festival</strong>. It wants the festival to introduce local artists, musicians, and artisans and carve out a new product to publicize the city and its history. Over seven days, the Kota Mahotsav will feature cultural troupes, dance and music, art exhibitions, traditional bazaars, food vendors and so on, and will be one of the biggest draws of Rajasthan&apos;s winter festivity season.
+        </p>
+        <p>For more information on Rajasthan&apos;s cultural experiences, you can check out {Link('Rajasthan Tour from Kota', 'https://www.rajasthantourpackages.in/rajasthan-tour-from-kota')}.
+        </p>
+        <h4>7-Day Festivities by Chambal River
+        </h4>
+        <p className="fw-bold mb-0">
+          The Event Dates:
+        </p>
+        <p>This year, Kota Mahotsav will span 7 exciting days, from <strong>December 23 to December 25</strong>, 2024, at the picturesque Western <strong>Ghaat Riverfront of Chambal River</strong>. The festival is for everyone. Thus, the website aims to show local people, tourists, and people interested in art and how objects are made. Overall, it is recommended that every candidate attend this event.</p>
+        <p className="fw-bold mb-0">
+          The Venue:
+
+        </p>
+        <p>This festival will be conducted at Chambal Riverfront, the natural location of Western Ghaat, which will be the backdrop for the presented culture. This environment has made the surrounding region of the Chambal River look and feel very serene, thus being a unique factor that will transform the festival&apos;s look.
+        </p>
+        <h4 className="text-capitalize">
+          Highlights of the 7 Days of Celebration:
+
+        </h4>
+        <p>Here’s a glimpse of the exciting line-up of activities you can expect during the festival:</p>
+        <div className="slug-image-container my-2">
+          <Image
+            src={fairKotaDance}
+            alt="Rajasthani Dance Festival Kota"
+            title='Traditional dances at Kota Mahotsav by Chambal Riverfront'
+            width={1500}
+            height={600}
+          />
+        </div>
+        <p className="fw-bold mb-0">
+          Cultural Performances:
+
+        </p>
+        <p>However, some cultural and folk dances, like the Ghoomar, Kalbeliya, and Kathak dance forms, which are for one, will be danced by local dancers that will take the audiences to the rut of Rajasthan&apos;s incredible culture. The clients can still come into the facilities and enjoy various folk music shows where they use dholak, sarangi, shehnai, and many more.
+        </p>
+        <p className="fw-bold mb-0">
+          Art and Craft Exhibitions:
+        </p>
+        <p>There will also be a demonstration of local folklore art and handicraft skills, including block printmaking, pottery, and jewellery. Visitors will have the opportunity to see the detailed process of traditional Rajasthani artisans&apos; royal arts, and mementos will even be available for sale.
+        </p>
+        <p className="fw-bold mb-0">
+          Food Festival:
+        </p>
+        <p>Rajasthani food is hot and has a smear of big flavors, and the dishes are dissimilar from those commonly found in other parts of India. This event will also have a very large food court where one can taste yummy Rajasthani food products such as dal baati churma, ker sangria, and gatte ki sabzi. If you are an occasional sweet fanatic, you should not take advantage of Rajasthani sweet dishes like ghevar, mawa kachori, malpua, etc.
+        </p>
+        <p className="fw-bold mb-0">
+          Rajasthani Folk Music and Dance Performances:
+
+        </p>
+        <p>And they perform folk dances during the evening. Tribal folk singers and musicians will sing and play the actual Rajasthani songs, an essential part of its culture. The vibes and colourful steps in the festival are the best, and you will enjoy them as you concentrate on the beats.
+        </p>
+        <p className="fw-bold mb-0">
+          Traditional Markets:
+
+        </p>
+        <p>Local markets during the Mahotsav will include Rajasthani arts and crafts, jewelry, fabrics, and other Rajasthani souvenirs. You can also purchase other beautiful things, such as royal-style turbans, the finest block-printed fabric, beautiful Rajasthani jutti shoes, etc., as colourful memories or souvenirs to take home.
+        </p>
+        <hr />
+        <h4>Why You Should Attend Kota Mahotsav 2024?
+        </h4>
+        <p className="fw-bold mb-0">
+          1. Learn the heritage and Untold Culture of Rajasthan
+
+        </p>
+        <p>It is recommended that anyone seeking information about the cultural, historical, and tourist spots of Rajasthan obtain it from <strong>Kota Mahotsav 2024</strong>. Whether you are an artistic, foodie, or nature lover, there is much to see and enjoy at the festival.
+        </p>
+        <p className="fw-bold mb-0">
+
+          2. Revitalization of Kota&apos;s Local Arts
+
+        </p>
+        <p>During the festival, handicrafts, miniature painted paintings and textile will be exhibited so that people get introduced to the cultural values of Kota and compelled to accept the societal artistic activities. By going to Kota Mahotsav, you support continuing these arts, which have been practiced for successive generations.
+        </p>
+        <p className="fw-bold mb-0">
+          3. Scenic Location by Chambal River
+
+        </p>
+        <p>Being set by the Chambal River is a bonus for the festival. The flat land and the beautiful flowing river in the background make the place even more gorgeous, hence the attractive festival. To naturalists, it&apos;s a combination of art, culture, and the natural landscape of the place.</p>
+        <p className="fw-bold mb-0">
+          4. Networking Opportunities
+        </p>
+        <p>Kota Mahotsav has an audience of tourists, artists, and art lovers. This is also a good opportunity for people to socialize, interact with people like them on the trip, and mingle with the friendliness of the crowds from Rajasthan, India.
+        </p>
+        <p className="fw-bold mb-0">
+          5. Discover Local Cuisine
+        </p>
+        <p>Food has always been an integral part of Rajasthan&apos;s culture, and Kota Mahotsav lets you taste all sorts of local dishes. From hot curries to sweet dishes, no other festival can present the exciting tastes of this state better than this event.
+        </p>
+        <p className="fw-bold mb-0">
+          6. Free Entry for All
+        </p>
+        <p>One of the best parts of Kota Mahotsav is that it&apos;s free for everyone. Since there are no entry fees, it&apos;s an event open to everyone, including families, students, and visitors. This gives visitors a chance to enjoy all the festivities without any added cost.
+        </p>
+        <hr />
+        <h4>Planning Your Visit to Kota Mahotsav 2024</h4>
+        <p><strong>
+          How to Reach Kota:
+        </strong>Kota is well connected by road, rail, and air, so anyone from anywhere in the country can quickly get there.
+        </p>
+        <p><strong>
+          By Train:
+        </strong>Kota is also a railway junction, and there are right trains backward and forward to cities like Jaipur, Delhi, and Mumbai.
+        </p>
+        <p><strong>
+          By Road:
+        </strong>The town of Kota can be approached by two state national highways, and therefore, bus and car travel from nearby cities such as Kota Jaipur and Udaipur is possible.
+        </p>
+        <p><strong>
+          By Air:
+        </strong>The facility serving Kota is the Jaipur International Airport, approximately 250 kilometers away. From there, one can go by taxi or bus to Kota.</p>
+        <hr />
+        <h4>Accommodation Options in Kota:
+        </h4>
+        <p>Some of the accommodation services in Kota are lesser-graded services including lodge, cheap hotels, while some others are first-grade, five-star hotels and resort services. You should book your accommodation beforehand because many tourists visit the place during the festival. If you still need to get to and from your accommodation and interesting places, you can always book yourself a good {Link('Taxi Service in Kota', 'https://www.jaipurtaxiservice.com/citywise-taxi-fares/kota-taxi-service.html')} to simplify your transport.
+        </p>
+        <p className='mb-0 fw-bold'>Best Time to Visit:
+        </p>
+        <p>Even though the Kota Mahotsav is celebrated in December, the climate remains comparatively good throughout the month in Kota. It’s the ideal season to explore the city and experience the festival without the harsh summer heat.
+        </p>
+        <hr />
+        <p className="fw-bold mb-0">
+          Conclusion
+        </p>
+        <p>The grand show of the cultural association will happen sometime in 2024 and the festival at Chambal Riverfront will be a 07-day long festival. This festival can be enjoyed by those concerned with folk music and art, food freaks, or those who want a feeling of the Raw Rajasthani touch. Feel the beat of the heart and be a part of Rajasthan’s one of the most culturally rich festivals <strong>Kota Mahotsav 2024 7-day festivities by Chambal River</strong> from December 23 to December 25, 2024.
+        </p>
+        <p>Prospective participants attending this type of occasion should prepare to arrange travel and accommodation well in advance. Still, Kota Mahotsav is waiting for you, and indeed, it is one of those festivals that you won’t forget in a hurry. For those planning a visit to the state, there is more information about this beautiful city in the post {Link('Places to visit in Kota', 'https://www.rajasthantourpackages.in/kota')}.
+        </p>
+        <hr />
+        <h4>Frequently Asked Questions
+        </h4>
+        <p className="fw-bold mb-0">
+          Q1: What are the dates for Kota Mahotsav 2024?
+        </p>
+        <p>A: Kota Mahotsav 2024 will be celebrated from <strong>December 23 to December 25</strong>, that is, for seven days of cultural extravaganza near Chambal River.</p>
+        <p className="fw-bold mb-0">
+          Q2: Where is Kota Mahotsav 2024 held?
+
+        </p>
+        <p>A: The festival will take place at the picturesque Western Ghaat riverfront of the Chambal River in Kota, Rajasthan.</p>
+        <p className="fw-bold mb-0">
+          Q3: What can visitors do at Kota Mahotsav?
+        </p>
+        <p>A: The firm’s messages include offering traditional Rajasthani dance and music, cultural exhibitions of local handicrafts, a food festival of conventional regional foods, and cultural shows representing the richness of Rajasthan tradition.
+        </p>
+        <p className="fw-bold mb-0">
+          Q4: Is Kota Mahotsav free for everyone?
+        </p>
+        <p>A: Kota Mahotsav is free, and people can freely participate and enjoy the festival, making it suitable for local and international people.</p>
+        <p className="fw-bold mb-0">
+          Q5: Is Kota Mahotsav suitable for families?
+
+        </p>
+        <p>A: Yes. All the festival&apos;s performances and other activities have been designed to attract children and older people.
+        </p>
+        <p className="fw-bold mb-0">
+          Q6: Where do I get accurate information on transport to Kota Mahotsav?
+
+        </p>
+        <p>A: If you want to travel without any problem, you can find {Link('Jaipur Taxi Service', 'https://www.jaipurtaxiservice.com/jaipur-local-use/taxi-for-12-hours.html')}, which deals with travel cabs in Rajasthan.
+        </p>
+        <p className="fw-bold mb-0"> Q7: How can I reach Kota for the Mahotsav?</p>
+        <p>A: Kota is very much accessible by road, rail and air transport facilities. One can travel by train up to Kota Junction. Still, most of the city’s link-up is feasible through National Highways, or one can fly up to the Jaipur International Airport and then hire a taxi from there.
+        </p>
+        <p className="fw-bold mb-0">
+          Q8: What makes Kota Mahotsav unique?
+        </p>
+        <p>A: The festival integrates Rajasthan culture with Chambal Riverfront beauty and fuses art, music, and nature.</p>
+        <p className="fw-bold mb-0">
+          Q9: This festival sells locally made crafts, so can I shop at the festival?
+
+        </p>
+        <p>A: Absolutely! At Kota Mahotsav, mini-marts call for selling Rajasthani arts, crafts, clothes, accessories, specialties, etc.
+        </p>
+        <p className="fw-bold mb-0">
+          Q10: To what extent can a person exist at Kota Mahotsav? Is there food access?
+
+        </p>
+        <p>A: It has a food festival where culinary lovers can try traditional Rajasthani cuisines like dal baati churma and ker sangri and delicious sweets, such as ghevar and mawa kachori.
+
+        </p>
+
+
+      </>
+    )
   },
 ];
 

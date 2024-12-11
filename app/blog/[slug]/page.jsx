@@ -3,6 +3,7 @@ import Image from "next/image";
 import Comment from '@/components/CommentSection';
 import SearchBar from '@/components/SearchBar';
 import { blogArchives, blogCategories, blogs, getBlogsByCategory } from '@/data/Blogs';
+import { BiChevronRight } from "react-icons/bi";
 import Link from 'next/link';
 import {
     FaEnvelope,
@@ -15,7 +16,7 @@ import {
 } from 'react-icons/fa';
 import { FaCalendarDays } from 'react-icons/fa6';
 import { useState } from "react";
-import { PiArrowRight, PiMinus, PiPlus } from "react-icons/pi";
+import { PiMinus, PiPlus } from "react-icons/pi";
 import { formatDate } from "@/Utils/util";
 
 
@@ -72,7 +73,7 @@ const BlogPost = ({ params }) => {
                             </div>
 
                             {/* blog share */}
-                            <div className="insider px-3 mt-3 text-black">
+                            <div className="insider px-3 my-3 text-black">
                                 <div className="bg-tertary-down mt-3 p-2 rounded-4 d-flex flex-column justify-content-center align-items-center">
                                     <span className="color-tertary bg-tertary-down rounded-5 p-2 my-2 d-flex justify-content-center align-items-center">
                                         <FaShareAlt />
@@ -83,13 +84,13 @@ const BlogPost = ({ params }) => {
                                     </p>
                                 </div>
                                 <div className="col">
-                                    <div className="rounded-4 py-4 social-icons d-flex justify-content-center gap-3">
+                                    <div className="rounded-4 py-4 social-icons d-flex justify-content-center gap-3 slug-share">
                                         {/* Facebook */}
                                         <a
                                             href={`https://www.facebook.com/sharer/sharer.php?u=https://rajasthantourpackages.in/blog/${blog.slug}`}
                                             target="_blank"
                                             rel="noopener noreferrer"
-                                            className="border rounded-5 text-black p-3 d-flex bg-tertary-down"
+                                            className="rounded-5 text-black p-3 d-flex bg-tertary-down"
                                         >
                                             <FaFacebook />
                                         </a>
@@ -99,7 +100,7 @@ const BlogPost = ({ params }) => {
                                             href={`https://www.instagram.com/?url=https://rajasthantourpackages.in/blog/${blog.slug}`}
                                             target="_blank"
                                             rel="noopener noreferrer"
-                                            className="border rounded-5 text-black p-3 d-flex bg-tertary-down"
+                                            className="rounded-5 text-black p-3 d-flex bg-tertary-down"
                                         >
                                             <FaInstagram />
                                         </a>
@@ -109,7 +110,7 @@ const BlogPost = ({ params }) => {
                                             href={`https://twitter.com/intent/tweet?url=https://rajasthantourpackages.in/blog/${blog.slug}&text=Check+this+out!`}
                                             target="_blank"
                                             rel="noopener noreferrer"
-                                            className="border rounded-5 text-black p-3 d-flex bg-tertary-down"
+                                            className="rounded-5 text-black p-3 d-flex bg-tertary-down"
                                         >
                                             <FaTwitter />
                                         </a>
@@ -119,7 +120,7 @@ const BlogPost = ({ params }) => {
                                             href={`https://api.whatsapp.com/send?text=Check+out+this+blog!+https://rajasthantourpackages.in/blog/${blog.slug}`}
                                             target="_blank"
                                             rel="noopener noreferrer"
-                                            className="border rounded-5 text-black p-3 d-flex bg-tertary-down"
+                                            className="rounded-5 text-black p-3 d-flex bg-tertary-down"
                                         >
                                             <FaWhatsapp />
                                         </a>
@@ -127,7 +128,7 @@ const BlogPost = ({ params }) => {
                                         {/* Mail */}
                                         <a
                                             href={`mailto:?subject=Check+out+this+blog&body=https://rajasthantourpackages.in/blog/${blog.slug}`}
-                                            className="border rounded-5 text-black p-3 d-flex bg-tertary-down"
+                                            className="rounded-5 text-black p-3 d-flex bg-tertary-down"
                                         >
                                             <FaEnvelope />
                                         </a>
@@ -135,10 +136,13 @@ const BlogPost = ({ params }) => {
                                 </div>
 
                                 {/* contact redirections */}
-                                <div className="d-flex align-items-center justify-content-between gap-2">
-                                    <Link href="https://rajasthantourpackages.in/contact-us" className=" bg-gray p-3 w-50 rounded-3 bg-tertary-down color-tertary">contact us
-                                        <PiArrowRight /></Link>
-                                    <Link href="/" className="bg-gray p-3 w-50 rounded-3 bg-tertary-down color-tertary">Rajasthan Tour Packages <PiArrowRight />
+                                <div className="d-flex align-items-center justify-content-between flex-wrap gap-2 slug-contacts">
+                                    <Link href="https://rajasthantourpackages.in/contact-us" className=" p-3 flex-grow-1 rounded-3 border d-flex justify-content-between text-nowrap align-items-center">
+                                        <span className="color-black">contact us</span>
+                                        <BiChevronRight className="color-tertary fs-6" /></Link>
+                                    <Link href="/" className="p-3 flex-grow-1 rounded-3 border d-flex justify-content-between text-nowrap align-items-center">
+                                        <span className="color-black">Rajasthan Tour Packages </span>
+                                        <BiChevronRight className="color-tertary fs-6" />
                                     </Link>
                                 </div>
                             </div>
@@ -182,7 +186,6 @@ const BlogPost = ({ params }) => {
                                             <>
                                                 <li key={index} className="list-group-item w-100">
                                                     <Link className='w-100 d-flex border-0 text-black' href={`/blog/categories${item.path}`}>{item.text}</Link>
-
                                                 </li>
                                             </>
                                         ))}
@@ -208,7 +211,7 @@ const BlogPost = ({ params }) => {
                                 )}
                             </div>
                             {/* comments */}
-                            <div className="sidebar-menu sidebar-menu-toggle w-100 z-9999 flex-column" onClick={() => handleShow(5)}>
+                            <div className="sidebar-menu sidebar-menu-toggle mb-3 w-100 z-9999 flex-column" onClick={() => handleShow(5)}>
                                 <h4 className="text-capitalize py-1 w-100 d-flex justify-content-between align-items-center mb-0 web-title">comments
                                     <span className="bg-tertary-down color-tertary p-2 d-flex rounded-4">{activeIndex === 5 ? <PiMinus /> : <PiPlus />}</span>
                                 </h4>

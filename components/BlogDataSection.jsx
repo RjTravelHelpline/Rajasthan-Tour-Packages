@@ -4,6 +4,8 @@ import Link from "next/link";
 import { useState } from "react";
 import Image from "next/image";
 import { formatDate } from "@/Utils/util";
+import { PiCalendar, PiUser } from "react-icons/pi";
+import { BiCalendar } from "react-icons/bi";
 
 export const BlogDataSection = ({ category, Data, icon, subhead }) => {
     const [showAll, setShowAll] = useState(false);
@@ -61,14 +63,14 @@ export const BlogDataSection = ({ category, Data, icon, subhead }) => {
                                                     <h3 className="blog-heading">{blog.heading}</h3>
                                                     <p className="mb-2">{visibleDescription}</p>
                                                     <div className="row d-flex justify-content-start w-100 align-items-center">
-                                                        <p className="text-capitalize text-muted w-auto blog-author mb-0">
-                                                            {blog.author}
+                                                        <p className="text-capitalize text-muted w-auto blog-author mb-0 d-flex justify-content-center align-items-center">
+                                                            <PiUser className="me-2 color-tertary" />{blog.author}
                                                         </p>
                                                         <p className="text-muted w-auto px-0 blog-dot mb-0">
                                                             ▪
                                                         </p>
-                                                        <p className="text-muted w-auto blog-date mb-0">
-                                                            {formatDate(blog.date)}
+                                                        <p className="text-muted w-auto blog-date mb-0 d-flex justify-content-center align-items-center">
+                                                            <BiCalendar className="me-2 color-tertary" />{formatDate(blog.date)}
                                                         </p>
                                                     </div>
                                                 </div>

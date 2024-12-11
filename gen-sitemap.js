@@ -51,7 +51,7 @@ const routes = [
     path: '/blog/rajasthan-culinary-secrets-hidden-dishes-you-must-try',
   },
   {
-    path: '/blog/categories/history-and-culture',
+    path: '/blog/celebrate-kota-mahotsav-2024-7-day-festivities-chambal-river',
   },
   // destination
   { path: '/jaipur' },
