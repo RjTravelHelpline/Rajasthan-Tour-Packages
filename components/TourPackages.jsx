@@ -77,6 +77,7 @@ const TourPackages = ({ pkg }) => {
       </div>
       {/* Modal for Contact Form */}
       <Modal
+        size='lg'
         show={show}
         onHide={handleClose}
         centered

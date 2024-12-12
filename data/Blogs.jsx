@@ -2288,7 +2288,6 @@ export const blogs = [
         </p>
         <h4 className="text-capitalize">
           Highlights of the 7 Days of Celebration:
-
         </h4>
         <p>Here’s a glimpse of the exciting line-up of activities you can expect during the festival:</p>
         <div className="slug-image-container my-2">

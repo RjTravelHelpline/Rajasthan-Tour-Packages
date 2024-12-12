@@ -1,34 +1,38 @@
-
+'use client'
 import Breadcrumb from "@/components/Breadcrumb";
 import TourCarousel from "@/components/TourCarousel";
 import TourPackages from "@/components/TourPackages";
 import { _11To15DaysToursData } from "@/data/data";
 import { allCitiesImages } from "@/data/imageData";
-export const metadata = {
-  title: 'Rajasthan Tour for 11-15 Days | Rajasthan Tour Packages',
-  description: 'Get an in-depth tour of Rajasthan with our 11-15 Days Rajasthan Tour Package and find the forts, palaces, deserts, and other cultural attractions in the region.',
-  alternates: {
-    canonical: 'https://www.rajasthantourpackages.in/11-15-days-rajasthan-tour-packages',
-  },
-  openGraph: {
-    title: "Rajasthan Tour for 11-15 Days | Rajasthan Tour Packages",
-    description: 'Get an in-depth tour of Rajasthan with our 11-15 Days Rajasthan Tour Package and find the forts, palaces, deserts, and other cultural attractions in the region.',
-    url: 'https://www.rajasthantourpackages.in/11-15-days-rajasthan-tour-packages',
-    images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
-    site_name: 'Rajasthan Tour Packages',
-    type: 'website',
-    locale: 'en_US',
-  },
-  twitter: {
-    card: "summary_large_image",
-    site: "@rajasthantourpackages",
-    title: "Rajasthan Tour for 11-15 Days | Rajasthan Tour Packages",
-    description: 'Get an in-depth tour of Rajasthan with our 11-15 Days Rajasthan Tour Package and find the forts, palaces, deserts, and other cultural attractions in the region.',
-    images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
-  },
-}
+import { useEffect, useState } from "react";
 
 const Eleven_FifteenDaysRajasthanTours = () => {
+  const [packages, setPackages] = useState([]);
+
+  useEffect(() => {
+    const fetchPackages = async () => {
+      try {
+        const response = await fetch('/api/allTourPackages');
+        const data = await response.json();
+        setPackages(data);
+      } catch (error) {
+        console.error('Error fetching packages:', error);
+      }
+    };
+
+    fetchPackages();
+  }, []);
+
+  const durationsToFilter = [
+    '11 Nights • 12 Days',
+    '12 Nights • 13 Days',
+    '14 Nights • 15 Days',
+    '10 Nights • 11 Days'
+  ];
+
+  const sortedTours = packages.filter(
+    (pkg) => durationsToFilter.includes(pkg.duration)
+  );
   const images = [
     {
       src: allCitiesImages.jaipur.jaipurBanner01.src,
@@ -53,7 +57,7 @@ const Eleven_FifteenDaysRajasthanTours = () => {
       {/* packages */}
       <div className="container packages py-2">
         <div className="row py-4 d-flex align-items-stretch px-2">
-          {_11To15DaysToursData.map((pkg, index) => (
+          {sortedTours.map((pkg, index) => (
             <TourPackages key={index} pkg={pkg} />
           ))}
         </div>

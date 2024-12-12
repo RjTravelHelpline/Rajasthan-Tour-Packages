@@ -1,16 +1,33 @@
 "use client";
 import { IoLogoWhatsapp, IoMdClose } from 'react-icons/io';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import ContactForm from './ContactForm';
 import SlickSlider from './SlickSlider';
 import { Card, Modal } from 'react-bootstrap';
-import { popularTourPackagesData } from '@/data/data';
 import Link from 'next/link';
-import Image from 'next/image';
 import { ExploreAll } from './ExploreAll';
+import Image from 'next/image';
 
 const Packages = () => {
-  const visiblePackages = popularTourPackagesData.slice(0, 6);
+  const [packages, setPackages] = useState([])
+
+  useEffect(() => {
+    const fetchPackages = async () => {
+      try {
+        const response = await fetch('/api/allTourPackages');
+        const data = await response.json();
+        setPackages(data);
+      } catch (error) {
+        console.error('Error fetching packages:', error);
+      }
+    };
+    fetchPackages();
+  }, []);
+
+  const popularTours = packages.filter(
+    (pkg) => pkg.category === 'popular'
+  );
+  const visiblePackages = popularTours.slice(0, 6);
 
   const [readMore, setReadMore] = useState(false);
 
@@ -87,7 +104,7 @@ const Packages = () => {
                             {pkg.duration}
                           </p>
                           <p className="price px-2 text-capitalize mb-1 w-auto">
-                            ₹{pkg.price}/-
+                            ₹{pkg.price}
                           </p>
                         </div>
                         <div className="w-100 card-header d-flex justify-content-center flex-column align-items-start pt-0">

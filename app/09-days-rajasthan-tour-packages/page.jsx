@@ -1,34 +1,31 @@
-
+'use client'
 import Breadcrumb from "@/components/Breadcrumb";
 import TourCarousel from "@/components/TourCarousel";
 import TourPackages from "@/components/TourPackages";
 import { _09DaysToursData } from "@/data/data";
 import { allCitiesImages } from "@/data/imageData";
+import { useEffect, useState } from "react";
 
-export const metadata = {
-  title: 'Rajasthan 9-Day Excursion Package | Rajasthan Tour Packages',
-  description: 'Grand historic state of Rajasthan in 9 days with trips to forts, palaces, and other appeal. You can complete the tour within 9 days of Rajasthan tour packages.',
-  alternates: {
-    canonical: 'https://www.rajasthantourpackages.in/09-days-rajasthan-tour-packages',
-  },
-  openGraph: {
-    title: "Rajasthan 9-Day Excursion Package | Rajasthan Tour Packages",
-    description: 'Grand historic state of Rajasthan in 9 days with trips to forts, palaces, and other appeal. You can complete the tour within 9 days of Rajasthan tour packages.',
-    url: 'https://www.rajasthantourpackages.in/09-days-rajasthan-tour-packages',
-    images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
-    site_name: 'Rajasthan Tour Packages',
-    type: 'website',
-    locale: 'en_US',
-  },
-  twitter: {
-    card: "summary_large_image",
-    site: "@rajasthantourpackages",
-    title: "Rajasthan 9-Day Excursion Package | Rajasthan Tour Packages",
-    description: 'Grand historic state of Rajasthan in 9 days with trips to forts, palaces, and other appeal. You can complete the tour within 9 days of Rajasthan tour packages.',
-    images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
-  },
-}
 const NineDaysRajasthanTourPackages = () => {
+  const [packages, setPackages] = useState([]);
+
+  useEffect(() => {
+    const fetchPackages = async () => {
+      try {
+        const response = await fetch('/api/allTourPackages');
+        const data = await response.json();
+        setPackages(data);
+      } catch (error) {
+        console.error('Error fetching packages:', error);
+      }
+    };
+
+    fetchPackages();
+  }, []);
+
+  const sortedTours = packages.filter(
+    (pkg) => pkg.duration === '08 Nights • 09 Days'
+  );
   const images = [
     {
       src: allCitiesImages.jaipur.jaipurBanner01.src,
@@ -54,7 +51,7 @@ const NineDaysRajasthanTourPackages = () => {
       {/* packages */}
       <div className="container packages py-2">
         <div className="row py-4 d-flex align-items-stretch px-2">
-          {_09DaysToursData.map((pkg, index) => (
+          {sortedTours.map((pkg, index) => (
             <TourPackages key={index} pkg={pkg} />
           ))}
         </div>

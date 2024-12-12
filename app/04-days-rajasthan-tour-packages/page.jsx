@@ -1,33 +1,31 @@
+'use client'
 import Breadcrumb from "@/components/Breadcrumb";
 import TourCarousel from "@/components/TourCarousel";
 import TourPackages from "@/components/TourPackages";
 import { _04DaysToursData } from "@/data/data";
 import { allCitiesImages } from "@/data/imageData";
+import { useEffect, useState } from "react";
 
-export const metadata = {
-  title: 'Rajasthan Tour Packages for 4 Days | Rajasthan Tour Packages',
-  description: "Experience the top of the line Rajasthan Tour Packages in 4 days with a tour of Rajasthan’s forts, palaces, and bazaars for an incredible cultural tour.",
-  alternates: {
-    canonical: 'https://www.rajasthantourpackages.in/04-days-rajasthan-tour-packages',
-  },
-  openGraph: {
-    title: 'Rajasthan Tour Packages for 4 Days | Rajasthan Tour Packages',
-    description: "Experience the top of the line Rajasthan Tour Packages in 4 days with a tour of Rajasthan’s forts, palaces, and bazaars for an incredible cultural tour.",
-    url: 'https://www.rajasthantourpackages.in/04-days-rajasthan-tour-packages',
-    images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
-    site_name: 'Rajasthan Tour Packages',
-    type: 'website',
-    locale: 'en_US',
-  },
-  twitter: {
-    card: "summary_large_image",
-    site: "@rajasthantourpackages",
-    title: 'Rajasthan Tour Packages for 4 Days | Rajasthan Tour Packages',
-    description: "Experience the top of the line Rajasthan Tour Packages in 4 days with a tour of Rajasthan’s forts, palaces, and bazaars for an incredible cultural tour.",
-    images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
-  },
-}
 const FourDaysRajasthanTourPackages = () => {
+  const [packages, setPackages] = useState([]);
+
+  useEffect(() => {
+    const fetchPackages = async () => {
+      try {
+        const response = await fetch('/api/allTourPackages');
+        const data = await response.json();
+        setPackages(data);
+      } catch (error) {
+        console.error('Error fetching packages:', error);
+      }
+    };
+
+    fetchPackages();
+  }, []);
+
+  const sortedTours = packages.filter(
+    (pkg) => pkg.duration === '03 Nights • 04 Days'
+  );
   const images = [
     {
       src: allCitiesImages.jaipur.jaipurBanner01.src,
@@ -53,7 +51,7 @@ const FourDaysRajasthanTourPackages = () => {
       </div>
       <div className="container packages py-2">
         <div className="row py-4 d-flex align-items-stretch px-2">
-          {_04DaysToursData.map((pkg, index) => (
+          {sortedTours.map((pkg, index) => (
             <TourPackages key={index} pkg={pkg} />
           ))}
         </div>

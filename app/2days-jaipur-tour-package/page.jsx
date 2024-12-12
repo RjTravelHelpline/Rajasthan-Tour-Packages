@@ -1,42 +1,36 @@
+'use client'
 import Breadcrumb from "@/components/Breadcrumb";
 import Faq from "@/components/Faq";
 import ItineraryAccordion from "@/components/ItineraryAccordion";
 import PackageAccordion from "@/components/PackageAccordion";
 import ReadMoreToggle from "@/components/ReadMore";
 import TourCarousel from "@/components/TourCarousel";
+import TourPackages from "@/components/TourPackages";
+import { _02DaysToursData } from "@/data/data";
 import { destinationCovered, packageData, tourFaq, tourHighlights, tourItinerary, tourOverview } from "@/data/Days Data/_2DaysJaipurTourData";
 import { allCitiesImages } from "@/data/imageData";
+import { useEffect, useState } from "react";
 import { Table } from "react-bootstrap";
 import { FaStarOfLife } from "react-icons/fa";
 
 
-export const metadata = {
-    title: 'Jaipur Tour Package For 02 Days | Rajasthan Tour Packages',
-    description: "Know Jaipur's vibrant culture and breathtaking architecture on our 2-Day Jaipur Tour Package that gives you unforgettable moments in Pink City. Book today.",
-    keywords: [''],
-    alternates: {
-        canonical: "https://www.rajasthantourpackages.in/2days-jaipur-tour-package",
-    },
-    openGraph: {
-        title: 'Jaipur Tour Package For 02 Days | Rajasthan Tour Packages',
-        description: "Know Jaipur's vibrant culture and breathtaking architecture on our 2-Day Jaipur Tour Package that gives you unforgettable moments in Pink City. Book today.",
-        url: "https://www.rajasthantourpackages.in/2days-jaipur-tour-package",
-        images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
-        site_name: 'Rajasthan Tour Packages',
-        type: 'website',
-        locale: 'en_US',
-    },
-    twitter: {
-        card: "summary_large_image",
-        site: "@rajasthantourpackages",
-        title: 'Jaipur Tour Package For 02 Days | Rajasthan Tour Packages',
-        description: "Know Jaipur's vibrant culture and breathtaking architecture on our 2-Day Jaipur Tour Package that gives you unforgettable moments in Pink City. Book today.",
-        images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
-    },
-};
-
 
 const TwoDaysJaipurTourPackage = () => {
+    const [packages, setPackages] = useState([]);
+
+    useEffect(() => {
+        const fetchPackages = async () => {
+            try {
+                const response = await fetch('/api/02DaysToursData');
+                const data = await response.json();
+                setPackages(data);
+            } catch (error) {
+                console.error('Error fetching packages:', error);
+            }
+        };
+
+        fetchPackages();
+    }, []);
     const images = [
         {
             src: allCitiesImages.jaipur.jaipurBanner02.src,
@@ -202,6 +196,17 @@ const TwoDaysJaipurTourPackage = () => {
                             </h3>
                             <PackageAccordion packageData={packageData} />
                         </div>
+                    </div>
+                </div>
+            </div>
+
+            {/* tour packages */}
+            <div className="container-fluid pt-4 px-0">
+                <div className="container overview packages">
+                    <div className="row py-4 d-flex align-items-stretch px-2">
+                        {packages.map((pkg) => (
+                            <TourPackages key={pkg.id} pkg={pkg} />
+                        ))}
                     </div>
                 </div>
             </div>

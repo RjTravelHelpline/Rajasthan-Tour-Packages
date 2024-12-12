@@ -1,3 +1,4 @@
+'use client'
 import {
   _02DaysToursData,
   _03DaysToursData,
@@ -13,32 +14,64 @@ import {
 import Breadcrumb from '@/components/Breadcrumb';
 import RTPNav from '@/components/RTPNav';
 import { TourPackageSection } from '@/components/TourPackageSection';
+import { useEffect, useState } from "react";
 
-export const metadata = {
-  title: 'Book Rajasthan Travel Packages | Rajasthan Tour Packages',
-  description: 'Get lost in Rajasthan with our Rajasthan travel packages. Find majestic forts, luxurious places, and carefully customized experiences. Book an ideal trip today.',
-  alternates: {
-    canonical: "https://www.rajasthantourpackages.in/rajasthan-tour-packages",
-  },
-  openGraph: {
-    title: 'Book Rajasthan Travel Packages | Rajasthan Tour Packages',
-    description: 'Get lost in Rajasthan with our Rajasthan travel packages. Find majestic forts, luxurious places, and carefully customized experiences. Book an ideal trip today.',
-    url: "https://www.rajasthantourpackages.in/rajasthan-tour-packages",
-    images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
-    site_name: 'Rajasthan Tour Packages',
-    type: 'website',
-    locale: 'en_US',
-  },
-  twitter: {
-    card: "summary_large_image",
-    site: "@rajasthantourpackages",
-    title: 'Book Rajasthan Travel Packages | Rajasthan Tour Packages',
-    description: 'Get lost in Rajasthan with our Rajasthan travel packages. Find majestic forts, luxurious places, and carefully customized experiences. Book an ideal trip today.',
-    images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
-  },
-};
 
 const RajasthanTourPackages = () => {
+  const [packages, setPackages] = useState([]);
+
+  useEffect(() => {
+    const fetchPackages = async () => {
+      try {
+        const response = await fetch('/api/allTourPackages');
+        const data = await response.json();
+        setPackages(data);
+      } catch (error) {
+        console.error('Error fetching packages:', error);
+      }
+    };
+
+    fetchPackages();
+  }, []);
+
+  const _02Days = packages.filter(
+    (pkg) => pkg.duration === '01 Night • 02 Days'
+  );
+  const _03Days = packages.filter(
+    (pkg) => pkg.duration === '02 Nights • 03 Days'
+  );
+  const _04Days = packages.filter(
+    (pkg) => pkg.duration === '03 Nights • 04 Days'
+  );
+  const _05Days = packages.filter(
+    (pkg) => pkg.duration === '04 Nights • 05 Days'
+  );
+  const _06Days = packages.filter(
+    (pkg) => pkg.duration === '05 Nights • 06 Days'
+  );
+  const _07Days = packages.filter(
+    (pkg) => pkg.duration === '06 Nights • 07 Days'
+  );
+  const _08Days = packages.filter(
+    (pkg) => pkg.duration === '07 Nights • 08 Days'
+  );
+  const _09Days = packages.filter(
+    (pkg) => pkg.duration === '08 Nights • 09 Days'
+  );
+  const _10Days = packages.filter(
+    (pkg) => pkg.duration === '09 Nights • 10 Days'
+  );
+
+  const durationsToFilter = [
+    '11 Nights • 12 Days',
+    '12 Nights • 13 Days',
+    '14 Nights • 15 Days',
+    '10 Nights • 11 Days'
+  ];
+
+  const _11_15Days = packages.filter(
+    (pkg) => durationsToFilter.includes(pkg.duration)
+  );
 
   return (
     <>
@@ -73,16 +106,16 @@ const RajasthanTourPackages = () => {
             </a>
           ))}
         </div>
-        <TourPackageSection days="02" tourData={_02DaysToursData} />
-        <TourPackageSection days="03" tourData={_03DaysToursData} />
-        <TourPackageSection days="04" tourData={_04DaysToursData} />
-        <TourPackageSection days="05" tourData={_05DaysToursData} />
-        <TourPackageSection days="06" tourData={_06DaysToursData} />
-        <TourPackageSection days="07" tourData={_07DaysToursData} />
-        <TourPackageSection days="08" tourData={_08DaysToursData} />
-        <TourPackageSection days="09" tourData={_09DaysToursData} />
-        <TourPackageSection days="10" tourData={_10DaysToursData} />
-        <TourPackageSection days="11-15" tourData={_11To15DaysToursData} />
+        <TourPackageSection days="02" tourData={_02Days} />
+        <TourPackageSection days="03" tourData={_03Days} />
+        <TourPackageSection days="04" tourData={_04Days} />
+        <TourPackageSection days="05" tourData={_05Days} />
+        <TourPackageSection days="06" tourData={_06Days} />
+        <TourPackageSection days="07" tourData={_07Days} />
+        <TourPackageSection days="08" tourData={_08Days} />
+        <TourPackageSection days="09" tourData={_09Days} />
+        <TourPackageSection days="10" tourData={_10Days} />
+        <TourPackageSection days="11-15" tourData={_11_15Days} />
       </div>
 
       {/* bread crumb */}
