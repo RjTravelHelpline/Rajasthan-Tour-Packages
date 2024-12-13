@@ -1,34 +1,30 @@
+'use client'
 import Breadcrumb from "@/components/Breadcrumb";
 import TourPackages from "@/components/TourPackages";
-import { allDaysToursData } from "@/data/data";
+import { useEffect, useState } from "react";
 
-export const metadata = {
-    title: 'Top Rajasthan Tourism Package | Rajasthan Tour Packages',
-    description: 'Experience the greatness of Rajasthan tourism packages. Get to know royal palaces, vibrant culture, and luxury rentals. Book your exceptional journey now.',
-    alternates: {
-        canonical: "https://www.rajasthantourpackages.in/rajasthan-tourism-tour-packages",
-    },
-    openGraph: {
-        title: 'Top Rajasthan Tourism Package | Rajasthan Tour Packages',
-        description: 'Experience the greatness of Rajasthan tourism packages. Get to know royal palaces, vibrant culture, and luxury rentals. Book your exceptional journey now.',
-        url: 'https://www.rajasthantourpackages.in/rajasthan-tourism-tour-packages',
-        images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
-        site_name: 'Rajasthan Tour Packages',
-        type: 'website',
-        locale: 'en_US',
-    },
-    twitter: {
-        card: "summary_large_image",
-        site: "@rajasthantourpackages",
-        title: 'Top Rajasthan Tourism Package | Rajasthan Tour Packages',
-        description: 'Experience the greatness of Rajasthan tourism packages. Get to know royal palaces, vibrant culture, and luxury rentals. Book your exceptional journey now.',
-        images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
-    },
-};
+
 const RajasthanTourismPackages = () => {
-    const filterdPackages = allDaysToursData.filter(
+    const [packages, setPackages] = useState([]);
+
+    useEffect(() => {
+        const fetchPackages = async () => {
+            try {
+                const response = await fetch('/api/allTourPackages');
+                const data = await response.json();
+                setPackages(data);
+            } catch (error) {
+                console.error('Error fetching packages:', error);
+            }
+        };
+
+        fetchPackages();
+    }, []);
+
+    const tourism_tour_packages = packages.filter(
         (pkg) => pkg.category === 'tourism'
     );
+
     return (
         <>
             <Breadcrumb breadcrumbKey="tourismTour" />
@@ -37,7 +33,7 @@ const RajasthanTourismPackages = () => {
             </div>
             <div className="container packages">
                 <div className="row py-4 d-flex align-items-stretch px-2">
-                    {filterdPackages.map((pkg, index) => (
+                    {tourism_tour_packages.map((pkg, index) => (
                         <TourPackages key={index} pkg={pkg} />
                     ))}
                 </div>

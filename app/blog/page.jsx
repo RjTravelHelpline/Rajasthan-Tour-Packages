@@ -114,7 +114,6 @@ const Blogs = () => {
                     icon={<FaNewspaper />}
                     Data={newsBlogs}
                 />
-
             </div>
         </>
     );

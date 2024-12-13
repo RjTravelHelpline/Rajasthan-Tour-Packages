@@ -1,3 +1,4 @@
+'use client'
 import Breadcrumb from "@/components/Breadcrumb";
 import ItineraryAccordion from "@/components/ItineraryAccordion";
 import NavigationModal from "@/components/NavigationModal";
@@ -9,6 +10,7 @@ import { allCabRentals } from "@/data/cabRentalData";
 import { jaisalmerTourPackagesData } from "@/data/data";
 import { about, excursions, fairandfestivals, howToReach, museumsandart, overview, restaurantsandmore, shopping, sightseeing } from "@/data/Destination Data/jaisalmer";
 import { allCitiesImages } from "@/data/imageData";
+import { useEffect, useState } from "react";
 import { AiFillCustomerService } from 'react-icons/ai';
 import {
   FaBookOpen,
@@ -24,43 +26,26 @@ import { GoLocation } from 'react-icons/go';
 import { IoLocate } from "react-icons/io5";
 import { MdOutlineExplore, MdTour } from 'react-icons/md';
 
-export const metadata = {
-  title: "Jaisalmer’s Golden Fort and Desert | Rajasthan Tour Packages",
-  description: "Meet the desert of Jaisalmer, the great Golden Fort, and learn more about India. Visit Rajasthan Tour Packages for the best plans of our Jaisalmer tour today.",
-  keywords: [
-    "Golden City of Rajasthan",
-    "Jaisalmer Fort",
-    "Glory of Rajasthan's desert culture",
-    "Visitor attractions in Jaisalmer",
-    "Thar Heritage Museum"
-  ],
-  alternates: {
-    canonical: "https://www.rajasthantourpackages.in/jaisalmer",
-  },
-  twitter: {
-    card: "summary_large_image",
-    site: "@rajasthantourpackages",
-    title: "Jaisalmer’s Golden Fort and Desert | Rajasthan Tour Packages",
-    description: "Meet the desert of Jaisalmer, the great Golden Fort, and learn more about India. Visit Rajasthan Tour Packages for the best plans of our Jaisalmer tour today.",
-    images: 'https://www.rajasthantourpackages.in/Images/Card/jaisalmer-patwa-haweli.webp',
-  },
-  openGraph: {
-    title: "Jaisalmer’s Golden Fort and Desert | Rajasthan Tour Packages",
-    description: "Meet the desert of Jaisalmer, the great Golden Fort, and learn more about India. Visit Rajasthan Tour Packages for the best plans of our Jaisalmer tour today.",
-    url: "https://www.rajasthantourpackages.in/jaisalmer",
-    images: [
-      {
-        url: 'https://www.rajasthantourpackages.in/Images/Card/jaisalmer-patwa-haweli.webp',
-      },
-    ],
-    site_name: 'Rajasthan Tour Packages',
-    type: 'website',
-    locale: 'en_US',
-  }
-};
-
 
 const Jaisalmer = () => {
+  const [packages, setPackages] = useState([]);
+
+  useEffect(() => {
+    const fetchPackages = async () => {
+      try {
+        const response = await fetch('/api/allTourPackages');
+        const data = await response.json();
+        setPackages(data);
+      } catch (error) {
+        console.error('Error fetching packages:', error);
+      }
+    };
+
+    fetchPackages();
+  }, []);
+  const jaisalmer_tour_packages = packages.filter(
+    (item) => item.destination && item.destination.includes('jaisalmer')
+  );
   const sections = [
     { id: 'about', label: 'About jaisalmer', icon: <FaBookOpen /> },
     {
@@ -129,7 +114,7 @@ const Jaisalmer = () => {
             {/* overview */}
             {overview && (
               <div className="w-100 insider section-offset mb-4" id="about">
-                <h3 className="text-capitalize px-3 mb-3 text-center fw-normal">
+                <h3 className="text-capitalize web-title px-3 mb-3 text-center fw-normal">
                   <span className="fw-bold"> overview</span>
                 </h3>
                 <p
@@ -140,7 +125,7 @@ const Jaisalmer = () => {
             )}
             {/* About Section */}
             <div className="w-100 insider section-offset mb-4" id="about">
-              <h3 className="text-capitalize px-3 mb-3 text-center fw-normal">
+              <h3 className="text-capitalize web-title px-3 mb-3 text-center fw-normal">
                 about <span className="fw-bold"> ranthambore</span>
               </h3>
               <p
@@ -151,7 +136,7 @@ const Jaisalmer = () => {
             </div>
             {/* Sightseeing */}
             <div className="w-100 insider section-offset mb-4" id="historical-attractions">
-              <h3 className="text-capitalize px-3 mb-3 text-center fw-normal">
+              <h3 className="text-capitalize web-title px-3 mb-3 text-center fw-normal">
                 jaisalmer
                 <span className="fw-bold"> sightseeing</span>
               </h3>
@@ -162,7 +147,7 @@ const Jaisalmer = () => {
             </div>
             {/* Museums & Art Galleries */}
             <div className="w-100 insider section-offset mb-4" id="cultural-experiences">
-              <h3 className="text-capitalize px-3 mb-3 text-center fw-normal">
+              <h3 className="text-capitalize web-title px-3 mb-3 text-center fw-normal">
                 Museums &   <span className="fw-bold">Art Galleries</span>
               </h3>
               <div className="col-12 px-2">
@@ -172,7 +157,7 @@ const Jaisalmer = () => {
             </div>
             {/* Fairs & Festivals */}
             <div className="w-100 insider section-offset mb-4" id="modern-attractions">
-              <h3 className="text-capitalize px-3 mb-3 text-center fw-normal">
+              <h3 className="text-capitalize web-title px-3 mb-3 text-center fw-normal">
                 Fairs &  <span className="fw-bold"> Festivals</span>
               </h3>
               <div className="col-12 px-2">
@@ -182,7 +167,7 @@ const Jaisalmer = () => {
             </div>
             {/* excursions */}
             <div className="w-100 insider section-offset mb-4" id="excursions">
-              <h3 className="text-capitalize px-3 mb-3 text-center fw-normal">
+              <h3 className="text-capitalize web-title px-3 mb-3 text-center fw-normal">
                 Places to  <span className="fw-bold"> visit</span>
               </h3>
               <div className="col-12 px-2">
@@ -192,7 +177,7 @@ const Jaisalmer = () => {
             </div>
             {/* shopping */}
             <div className="w-100 insider section-offset mb-4" id="shopping">
-              <h3 className="text-capitalize px-3 mb-3 text-center fw-normal">
+              <h3 className="text-capitalize web-title px-3 mb-3 text-center fw-normal">
                 <span className="fw-bold">shopping</span>
               </h3>
               <div className="col-12 px-2">
@@ -202,7 +187,7 @@ const Jaisalmer = () => {
             </div>
             {/* restaurants */}
             <div className="w-100 insider section-offset mb-4" id="restaurantsandmore">
-              <h3 className="text-capitalize px-3 mb-3 text-center fw-normal">
+              <h3 className="text-capitalize web-title px-3 mb-3 text-center fw-normal">
                 restaurants &  <span className="fw-bold">Local Cuisine</span>
               </h3>
               <div className="col-12 px-2">
@@ -212,7 +197,7 @@ const Jaisalmer = () => {
             </div>
             {/* how to reach */}
             <div className="w-100 insider section-offset mb-4" id="how-to-reach">
-              <h3 className="text-capitalize px-3 mb-3 text-center fw-normal">
+              <h3 className="text-capitalize web-title px-3 mb-3 text-center fw-normal">
                 how to <span className="fw-bold">reach</span>
               </h3>
               <div className="col-12 px-2">
@@ -222,34 +207,34 @@ const Jaisalmer = () => {
             </div>
             {/* tour packages */}
             <div className="w-100 insider section-offset mb-4" id="tour-packages">
-              <h3 className="text-capitalize px-3 mb-3 text-center fw-normal">
+              <h3 className="text-capitalize web-title px-3 mb-3 text-center fw-normal">
                 tour
                 <span className="fw-bold"> packages</span>
               </h3>
-              <PackagesSlider exploreAll={false} packages={jaisalmerTourPackagesData} href='/jaisalmer-tour-packages' />
+              <PackagesSlider exploreAll={false} packages={jaisalmer_tour_packages} href='/jaisalmer-tour-packages' />
             </div>
             {/* cab rentals */}
             <div className="w-100 insider section-offset mb-4" id="cab-rentals">
-              <h3 className="text-capitalize px-3 mb-3 text-center fw-normal">
+              <h3 className="text-capitalize web-title px-3 mb-3 text-center fw-normal">
                 cab  <span className="fw-bold">rentals</span>
               </h3>
               <RentalSlider rentals={allCabRentals} />
             </div>
             {/* day trips */}
             <div className="w-100 insider section-offset mb-4" id="day-tours">
-              <h3 className="text-capitalize px-3 mb-3 text-center fw-normal">
+              <h3 className="text-capitalize web-title px-3 mb-3 text-center fw-normal">
                 day <span className="fw-bold">tours</span>
               </h3>
             </div>
             {/* best hotels */}
             <div className="w-100 insider section-offset mb-4" id="best-hotels">
-              <h3 className="text-capitalize px-3 mb-3 text-center fw-normal">
+              <h3 className="text-capitalize web-title px-3 mb-3 text-center fw-normal">
                 best  <span className="fw-bold">hotels</span>
               </h3>
             </div>
             {/* tourist guide */}
             <div className="w-100 insider section-offset mb-4" id="tourist-guide-services">
-              <h3 className="text-capitalize px-3 mb-3 text-center fw-normal">
+              <h3 className="text-capitalize web-title px-3 mb-3 text-center fw-normal">
                 tourist <span className="fw-bold">guide </span>services
               </h3>
             </div>

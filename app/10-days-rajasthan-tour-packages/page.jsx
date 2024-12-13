@@ -23,8 +23,8 @@ const TenDaysRajasthanTourPackages = () => {
     fetchPackages();
   }, []);
 
-  const sortedTours = packages.filter(
-    (pkg) => pkg.duration === '09 Nights • 10 Days'
+  const _10Days = packages.filter(
+    (pkg) => pkg.nights === 9 && pkg.days === 10
   );
   const images = [
     {
@@ -50,7 +50,7 @@ const TenDaysRajasthanTourPackages = () => {
       {/* packages */}
       <div className="container packages py-2">
         <div className="row py-4 d-flex align-items-stretch px-2">
-          {sortedTours.map((pkg, index) => (
+          {_10Days.map((pkg, index) => (
             <TourPackages key={index} pkg={pkg} />
           ))}
         </div>

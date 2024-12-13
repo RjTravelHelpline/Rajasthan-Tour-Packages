@@ -1,39 +1,35 @@
+'use client'
 import Breadcrumb from "@/components/Breadcrumb";
 import Faq from "@/components/Faq";
 import ReadMoreToggle from "@/components/ReadMore";
 import TourCarousel from "@/components/TourCarousel";
 import TourPackages from "@/components/TourPackages";
 import { tourFromRanthambore } from "@/data/CitiesData";
-import { ranthamboreTourPackagesData } from "@/data/data";
 import { ranthamboreFaq } from "@/data/faqData";
 import { allCitiesImages } from "@/data/imageData";
+import { useEffect, useState } from "react";
 
-export const metadata = {
-    title: 'Rajasthan Tour From ranthambore | Rajasthan Tour Packages',
-    description: "Arrange your Rajasthan enterprise from ranthambore with Rajasthan Visit Bundles. Encounter illustrious royal residences, posts, and dynamic cities when rulers arrive.",
-    keywords: [''],
-    alternates: {
-        canonical: "https://www.rajasthantourpackages.in/rajasthan-tour-from-ranthambore",
-    },
-    openGraph: {
-        title: 'Rajasthan Tour From ranthambore | Rajasthan Tour Packages',
-        description: "Arrange your Rajasthan enterprise from ranthambore with Rajasthan Visit Bundles. Encounter illustrious royal residences, posts, and dynamic cities when rulers arrive.",
-        url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-ranthambore",
-        images: "https://www.rajasthantourpackages.in/Images/Banners/ranthambore-banner.webp",
-        site_name: 'Rajasthan Tour Packages',
-        type: 'website',
-        locale: 'en_US',
-    },
-    twitter: {
-        card: "summary_large_image",
-        site: "@rajasthantourpackages",
-        title: 'Rajasthan Tour From ranthambore | Rajasthan Tour Packages',
-        description: "Arrange your Rajasthan enterprise from ranthambore with Rajasthan Visit Bundles. Encounter illustrious royal residences, posts, and dynamic cities when rulers arrive.",
-        images: "https://www.rajasthantourpackages.in/Images/Banners/ranthambore-banner.webp",
-    },
-};
 
 const RajasthanPackageTourFromRanthambore = () => {
+    const [packages, setPackages] = useState([]);
+
+    useEffect(() => {
+        const fetchPackages = async () => {
+            try {
+                const response = await fetch('/api/allTourPackages');
+                const data = await response.json();
+                setPackages(data);
+            } catch (error) {
+                console.error('Error fetching packages:', error);
+            }
+        };
+
+        fetchPackages();
+    }, []);
+
+    const ranthambore_tour_packages = packages.filter(
+        (pkg) => pkg.destination && pkg.destination.includes('ranthambore')
+    );
     const images = [
         {
             src: allCitiesImages.ranthambore.ranthamboreBanner.src,
@@ -78,7 +74,7 @@ const RajasthanPackageTourFromRanthambore = () => {
                         ></h2>
                     </div>
                     <div className="row py-4 d-flex align-items-stretch px-2">
-                        {ranthamboreTourPackagesData.slice(0, 3).map((pkg, index) => (
+                        {ranthambore_tour_packages.slice(0, 3).map((pkg, index) => (
                             <TourPackages key={index} pkg={pkg} />
                         ))}
                     </div>

@@ -53,6 +53,9 @@ const routes = [
   {
     path: '/blog/celebrate-kota-mahotsav-2024-7-day-festivities-chambal-river',
   },
+  {
+    path: '/blog/best-places-to-eat-in-jodhpur-top-restaurants-cafes',
+  },
   // destination
   { path: '/jaipur' },
   { path: '/mount-abu' },

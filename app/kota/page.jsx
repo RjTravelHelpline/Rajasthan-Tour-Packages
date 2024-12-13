@@ -1,10 +1,13 @@
+'use client'
 import Breadcrumb from "@/components/Breadcrumb";
 import ItineraryAccordion from "@/components/ItineraryAccordion";
 import NavigationModal from "@/components/NavigationModal";
+import PackagesSlider from "@/components/PackagesSlider";
 import ReadMoreToggle from "@/components/ReadMore";
 import TourCarousel from "@/components/TourCarousel";
 import { about, excursions, fairandfestivals, howToReach, museumsandart, overview, restaurantsandmore, shopping, sightseeing } from "@/data/Destination Data/kota";
 import { allCitiesImages } from "@/data/imageData";
+import { useEffect, useState } from "react";
 import { AiFillCustomerService } from 'react-icons/ai';
 import {
     FaBookOpen,
@@ -20,47 +23,27 @@ import { GoLocation } from 'react-icons/go';
 import { IoLocate } from "react-icons/io5";
 import { MdOutlineExplore, MdTour } from 'react-icons/md';
 
-export const metadata = {
-    title: "Kota History, Culture & Appeal | Rajasthan Tour Packages",
-    description: "Plan your Kota tour at Rajasthan Tour Packages. We feature hard sightseeing and tour packages to find historic sites in attractions and cultural landmarks.",
-    keywords: [
-        "Kota Tour Packages",
-        "Kota Tourism",
-        "Kota Sightseeing Packages",
-        "Rajasthan Tour Packages Kota",
-        "Best Kota Tour Packages",
-        "Kota Holiday Packages",
-        "Kota Vacation Packages",
-        "Places to visit in Kota",
-        "Things to do in Kota"
-    ],
-    alternates: {
-        canonical: "https://www.rajasthantourpackages.in/kota",
-    },
-    twitter: {
-        card: "summary_large_image",
-        site: "@rajasthantourpackages",
-        title: "Kota History, Culture & Appeal | Rajasthan Tour Packages",
-        description: "Plan your Kota tour at Rajasthan Tour Packages. We feature hard sightseeing and tour packages to find historic sites in attractions and cultural landmarks.",
-        images: 'https://www.rajasthantourpackages.in/Images/Banners/kota-banner.webp',
-    },
-    openGraph: {
-        title: "Kota History, Culture & Appeal | Rajasthan Tour Packages",
-        description: "Plan your Kota tour at Rajasthan Tour Packages. We feature hard sightseeing and tour packages to find historic sites in attractions and cultural landmarks.",
-        url: "https://www.rajasthantourpackages.in/kota",
-        images: [
-            {
-                url: 'https://www.rajasthantourpackages.in/Images/Banners/kota-banner.webp',
-            },
-        ],
-        site_name: 'Rajasthan Tour Packages',
-        type: 'website',
-        locale: 'en_US',
-    }
-};
 
 
 const Kota = () => {
+    const [packages, setPackages] = useState([]);
+
+    useEffect(() => {
+        const fetchPackages = async () => {
+            try {
+                const response = await fetch('/api/allTourPackages');
+                const data = await response.json();
+                setPackages(data);
+            } catch (error) {
+                console.error('Error fetching packages:', error);
+            }
+        };
+
+        fetchPackages();
+    }, []);
+    const kota_tour_packages = packages.filter(
+        (item) => item.destination && item.destination.includes('kota')
+    );
     const sections = [
         { id: 'about', label: 'About kota', icon: <FaBookOpen /> },
         {
@@ -128,7 +111,7 @@ const Kota = () => {
                         {/* overview */}
                         {overview && (
                             <div className="w-100 insider section-offset mb-4" id="about">
-                                <h3 className="text-capitalize px-3 mb-3 text-center fw-normal">
+                                <h3 className="text-capitalize web-title px-3 mb-3 text-center fw-normal">
                                     <span className="fw-bold"> overview</span>
                                 </h3>
                                 <p
@@ -139,7 +122,7 @@ const Kota = () => {
                         )}
                         {/* About Section */}
                         <div className="w-100 insider section-offset mb-4" id="about">
-                            <h3 className="text-capitalize px-3 mb-3 text-center fw-normal">
+                            <h3 className="text-capitalize web-title px-3 mb-3 text-center fw-normal">
                                 about <span className="fw-bold"> kota</span>
                             </h3>
                             <p
@@ -150,7 +133,7 @@ const Kota = () => {
                         </div>
                         {/* Sightseeing Section */}
                         <div className="w-100 insider section-offset mb-4" id="historical-attractions">
-                            <h3 className="text-capitalize px-3 mb-3 text-center fw-normal">
+                            <h3 className="text-capitalize web-title px-3 mb-3 text-center fw-normal">
                                 kota
                                 <span className="fw-bold"> sightseeing</span>
                             </h3>
@@ -161,7 +144,7 @@ const Kota = () => {
                         </div>
                         {/* Museums & Art Galleries Section */}
                         <div className="w-100 insider section-offset mb-4" id="cultural-experiences">
-                            <h3 className="text-capitalize px-3 mb-3 text-center fw-normal">
+                            <h3 className="text-capitalize web-title px-3 mb-3 text-center fw-normal">
                                 Museums &   <span className="fw-bold">Art Galleries</span>
                             </h3>
                             <div className="col-12 px-2">
@@ -171,7 +154,7 @@ const Kota = () => {
                         </div>
                         {/* Fairs & Festivals Section */}
                         <div className="w-100 insider section-offset mb-4" id="modern-attractions">
-                            <h3 className="text-capitalize px-3 mb-3 text-center fw-normal">
+                            <h3 className="text-capitalize web-title px-3 mb-3 text-center fw-normal">
                                 Fairs &  <span className="fw-bold"> Festivals</span>
                             </h3>
                             <div className="col-12 px-2">
@@ -181,7 +164,7 @@ const Kota = () => {
                         </div>
                         {/* excursions */}
                         <div className="w-100 insider section-offset mb-4" id="excursions">
-                            <h3 className="text-capitalize px-3 mb-3 text-center fw-normal">
+                            <h3 className="text-capitalize web-title px-3 mb-3 text-center fw-normal">
                                 Places to  <span className="fw-bold"> visit</span>
                             </h3>
                             <div className="col-12 px-2">
@@ -191,7 +174,7 @@ const Kota = () => {
                         </div>
                         {/* shopping */}
                         <div className="w-100 insider section-offset mb-4" id="shopping">
-                            <h3 className="text-capitalize px-3 mb-3 text-center fw-normal">
+                            <h3 className="text-capitalize web-title px-3 mb-3 text-center fw-normal">
                                 <span className="fw-bold">shopping</span>
                             </h3>
                             <div className="col-12 px-2">
@@ -201,7 +184,7 @@ const Kota = () => {
                         </div>
                         {/* restaurants */}
                         <div className="w-100 insider section-offset mb-4" id="restaurantsandmore">
-                            <h3 className="text-capitalize px-3 mb-3 text-center fw-normal">
+                            <h3 className="text-capitalize web-title px-3 mb-3 text-center fw-normal">
                                 restaurants &  <span className="fw-bold">Local Cuisine</span>
                             </h3>
                             <div className="col-12 px-2">
@@ -211,7 +194,7 @@ const Kota = () => {
                         </div>
                         {/* how to reach */}
                         <div className="w-100 insider section-offset mb-4" id="how-to-reach">
-                            <h3 className="text-capitalize px-3 mb-3 text-center fw-normal">
+                            <h3 className="text-capitalize web-title px-3 mb-3 text-center fw-normal">
                                 how to <span className="fw-bold">reach</span>
                             </h3>
                             <div className="col-12 px-2">
@@ -221,34 +204,34 @@ const Kota = () => {
                         </div>
                         {/* tour packages */}
                         <div className="w-100 insider section-offset mb-4" id="tour-packages">
-                            <h3 className="text-capitalize px-3 mb-3 text-center fw-normal">
+                            <h3 className="text-capitalize web-title px-3 mb-3 text-center fw-normal">
                                 tour
                                 <span className="fw-bold"> packages</span>
                             </h3>
-                            {/* <PackagesSlider packages={kotaTourPackagesData} href='/kota-tour-packages' /> */}
+                            <PackagesSlider packages={kota_tour_packages} href='/kota-tour-packages' />
                         </div>
                         {/* cab rentals */}
                         <div className="w-100 insider section-offset mb-4" id="cab-rentals">
-                            <h3 className="text-capitalize px-3 mb-3 text-center fw-normal">
+                            <h3 className="text-capitalize web-title px-3 mb-3 text-center fw-normal">
                                 cab  <span className="fw-bold">rentals</span>
                             </h3>
                             {/* <RentalSlider rentals={allCabRentals} /> */}
                         </div>
                         {/* day tours */}
                         <div className="w-100 insider section-offset mb-4" id="day-tours">
-                            <h3 className="text-capitalize px-3 mb-3 text-center fw-normal">
+                            <h3 className="text-capitalize web-title px-3 mb-3 text-center fw-normal">
                                 day <span className="fw-bold">tours</span>
                             </h3>
                         </div>
                         {/* best hotels */}
                         <div className="w-100 insider section-offset mb-4" id="best-hotels">
-                            <h3 className="text-capitalize px-3 mb-3 text-center fw-normal">
+                            <h3 className="text-capitalize web-title px-3 mb-3 text-center fw-normal">
                                 best  <span className="fw-bold">hotels</span>
                             </h3>
                         </div>
                         {/* tourist guide */}
                         <div className="w-100 insider section-offset mb-4" id="tourist-guide-services">
-                            <h3 className="text-capitalize px-3 mb-3 text-center fw-normal">
+                            <h3 className="text-capitalize web-title px-3 mb-3 text-center fw-normal">
                                 tourist <span className="fw-bold">guide </span>services
                             </h3>
                         </div>

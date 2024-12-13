@@ -10,14 +10,14 @@ import Script from "next/script";
 
 export const metadata = {
   title: 'Best Rajasthan Tours and Travels | Rajasthan Tour Packages',
-  description: 'Begin our famous Rajasthan Tours and Travels. Tour places, deserts, and treasures of culture by instant booking customized packages. Your royal adventure awaits.',
+  description: 'Indulge travel in Rajasthan’s history from our list of tour packages for families and friends. Experience the perfect Rajasthan Tours and Travels for a trip.',
   keywords: ["Rajasthan Tours and Travels", "Rajasthan Tour Packages", "Popular Tour Packages", "Rajasthan tour by days", "Rajasthan trip", "Rajasthan tour package for families", "Rajasthan Tour from the United Kingdom"],
   alternates: {
     canonical: "https://www.rajasthantourpackages.in",
   },
   openGraph: {
     title: 'Best Rajasthan Tours and Travels | Rajasthan Tour Packages',
-    description: 'Begin our famous Rajasthan Tours and Travels. Tour places, deserts, and treasures of culture by instant booking customized packages. Your royal adventure awaits.',
+    description: 'Indulge travel in Rajasthan’s history from our list of tour packages for families and friends. Experience the perfect Rajasthan Tours and Travels for a trip.',
     images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     url: "https://www.rajasthantourpackages.in",
     site_name: 'Rajasthan Tour Packages',
@@ -28,51 +28,33 @@ export const metadata = {
     card: "summary_large_image",
     site: "@rajasthantourpackages",
     title: 'Best Rajasthan Tours and Travels | Rajasthan Tour Packages',
-    description: 'Begin our famous Rajasthan Tours and Travels. Tour places, deserts, and treasures of culture by instant booking customized packages. Your royal adventure awaits.',
+    description: 'Indulge travel in Rajasthan’s history from our list of tour packages for families and friends. Experience the perfect Rajasthan Tours and Travels for a trip.',
     images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
   },
 };
 const homeData = {
   heading: ``,
   content: [
-    `Explore the diverse and culturally rich regions of Rajasthan, a
-              land of vibrant traditions, majestic forts, and stunning
-              landscapes. Our
-              <span className="fw-bold"> Rajasthan tour packages</span> cater to
-              various interests, ensuring an unforgettable journey for every
-              traveler. Our Rajasthan tour packages are affordable and 
-              <span className="fw-bold">
-                flexible, catering to families and individuals
-              </span>
-              . Our meticulously planned itineraries are crafted to make the
-              most of your time, ensuring a smooth and hassle-free experience.
-              With various options available, you can personalize your trip to
-              match your preferences and interests, giving you complete control
-              over your travel plans.`,
-    `Experience the royal treatment with our private 
-                  <span className="fw-bold">tour packages to Rajasthan</span>,
-                  where personalized attention is our top priority. This allows
-                  you to savor this royal state&apos;s incredible sights and sounds
-                  at your own pace. Our expert guides will be by your side,
-                  sharing their deep knowledge of each destination&apos;s rich
-                  history, culture, and traditions, making you feel valued and
-                  important. We understand your time is precious, so we aim to
-                  offer maximum experiences in minimum time. Whether you want to
-                  explore the iconic landmarks of Jaipur, immerse yourself in
-                  the vibrant culture of Udaipur, witness the architectural
-                  wonders of Jodhpur, discover the ancient history of Pushkar,
-                  or experience the colorful charm of Jaisalmer, our
-                  <span className="fw-bold">Rajasthan tour packages</span> cover
-                  it all.`,
-    ` Join us for an unforgettable journey through Rajasthan, where
-                  you can create lifelong memories and discover the magic of
-                  this incredible region. Let us help you experience the best of
-                  Rajasthan with our tailored 
-                  <span className="fw-bold">
-                    tour packages for families and individuals
-                  </span>
-                  , offering a perfect blend of adventure, culture, and
-                  relaxation.`,
+    `Explore the diverse and culturally rich regions of Rajasthan, a land of vibrant traditions, majestic forts, and stunning landscapes. Our <strong>Rajasthan Tour Packages Explore Rajasthan with Us</strong> cater to various interests, ensuring an unforgettable journey for every traveler. Our 
+    <a
+      href='https://www.rajasthantourpackages.in/'
+      target="_blank"
+      rel="noopener noreferrer"
+      class="anchor text-web fw-bold me-1"
+    >
+      Rajasthan Tour Packages 
+    </a> 
+    are affordable and <strong>Flexible, Catering To Families And Individuals</strong>. Our meticulously planned itineraries are crafted to make the most of your time, ensuring a smooth and hassle-free experience. With various options available, you can personalize your trip to match your preferences and interests, giving you complete control over your travel plans.`,
+    `Experience the royal treatment with our private <strong>Tour Packages To Rajasthan</strong>, where personalized attention is our top priority. This allows you to savor this royal state's incredible sights and sounds at your own pace. Our expert guides will be by your side, sharing their deep knowledge of each destination's rich history, culture, and traditions, making you feel valued and important. We understand your time is precious, so we aim to offer maximum experiences in minimum time. Whether you want to explore the iconic landmarks of Jaipur, immerse yourself in the vibrant culture of Udaipur, witness the architectural wonders of Jodhpur, discover the ancient history of Pushkar, or experience the colorful charm of Jaisalmer, our 
+    <a
+      href='https://www.rajasthantourpackages.in/'
+      target="_blank"
+      rel="noopener noreferrer"
+      class="anchor text-web fw-bold me-1"
+    >
+      Rajasthan Tours and Travels 
+    </a> Packages cover it all.`,
+    `Join us for an unforgettable journey through Rajasthan, where you can create lifelong memories and discover the magic of this incredible region. Let us help you experience the best of Rajasthan with our tailored <strong>Tour Packages For Families </strong> And Individuals , offering a perfect blend of adventure, culture, and relaxation.`,
 
   ],
 };
@@ -84,15 +66,15 @@ const Home = () => {
       <div className="container-fluid bg-tertary-down pt-5">
         <div className="container home px-0">
           <div className="col col-12 d-flex justify-content-start flex-column align-items-center position-relative">
-            <h1 className="text-center mb-4 fw-normal home-heading web-title">
-              Experience Rajasthan with{' '}
-              <span className="fw-bold"> Our Tailormade Tour Packages</span>
+            <h1 className="text-center mb-4 fw-normal home-heading web-title text-black">
+              <span className="me-2">Rajasthan Tour Packages</span>
+              <span className="fw-bold">Explore Rajasthan with Us</span>
             </h1>
             <p
-              className="text-justify home-para px-2"
+              className="text-justify home-para px-2 text-black"
               dangerouslySetInnerHTML={{ __html: homeData.content[0] }}
             />
-            <ReadMoreToggle className="text-justify home-para px-2" tag="div" contentArray={homeData.content.slice(1)} />
+            <ReadMoreToggle className="text-justify home-para px-2 text-black" tag="div" contentArray={homeData.content.slice(1)} />
             <div className="py-2"></div>
           </div>
         </div>

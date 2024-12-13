@@ -35,42 +35,35 @@ const RajasthanTourPackages = () => {
   }, []);
 
   const _02Days = packages.filter(
-    (pkg) => pkg.duration === '01 Night • 02 Days'
+    (pkg) => pkg.nights === 1 && pkg.days === 2
   );
   const _03Days = packages.filter(
-    (pkg) => pkg.duration === '02 Nights • 03 Days'
+    (pkg) => pkg.nights === 2 && pkg.days === 3
   );
   const _04Days = packages.filter(
-    (pkg) => pkg.duration === '03 Nights • 04 Days'
+    (pkg) => pkg.nights === 3 && pkg.days === 4
   );
   const _05Days = packages.filter(
-    (pkg) => pkg.duration === '04 Nights • 05 Days'
+    (pkg) => pkg.nights === 4 && pkg.days === 5
   );
   const _06Days = packages.filter(
-    (pkg) => pkg.duration === '05 Nights • 06 Days'
+    (pkg) => pkg.nights === 5 && pkg.days === 6
   );
   const _07Days = packages.filter(
-    (pkg) => pkg.duration === '06 Nights • 07 Days'
+    (pkg) => pkg.nights === 6 && pkg.days === 7
   );
   const _08Days = packages.filter(
-    (pkg) => pkg.duration === '07 Nights • 08 Days'
+    (pkg) => pkg.nights === 7 && pkg.days === 8
   );
   const _09Days = packages.filter(
-    (pkg) => pkg.duration === '08 Nights • 09 Days'
+    (pkg) => pkg.nights === 8 && pkg.days === 9
   );
   const _10Days = packages.filter(
-    (pkg) => pkg.duration === '09 Nights • 10 Days'
+    (pkg) => pkg.nights === 9 && pkg.days === 10
   );
 
-  const durationsToFilter = [
-    '11 Nights • 12 Days',
-    '12 Nights • 13 Days',
-    '14 Nights • 15 Days',
-    '10 Nights • 11 Days'
-  ];
-
   const _11_15Days = packages.filter(
-    (pkg) => durationsToFilter.includes(pkg.duration)
+    (pkg) => pkg.nights >= 11 && pkg.days >= 12
   );
 
   return (

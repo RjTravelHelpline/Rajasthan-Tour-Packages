@@ -1,3 +1,4 @@
+'use client'
 import Breadcrumb from "@/components/Breadcrumb";
 import ItineraryAccordion from "@/components/ItineraryAccordion";
 import NavigationModal from "@/components/NavigationModal";
@@ -6,9 +7,9 @@ import ReadMoreToggle from "@/components/ReadMore";
 import RentalSlider from "@/components/RentalSlider";
 import TourCarousel from "@/components/TourCarousel";
 import { allCabRentals } from "@/data/cabRentalData";
-import { jodhpurTourPackagesData } from "@/data/data";
 import { about, excursions, fairandfestivals, howToReach, museumsandart, overview, restaurantsandmore, shopping, sightseeing } from "@/data/Destination Data/jodhpur";
 import { allCitiesImages } from "@/data/imageData";
+import { useEffect, useState } from "react";
 import { AiFillCustomerService } from 'react-icons/ai';
 import {
   FaBookOpen,
@@ -24,51 +25,25 @@ import { GoLocation } from 'react-icons/go';
 import { IoLocate } from "react-icons/io5";
 import { MdOutlineExplore, MdTour } from 'react-icons/md';
 
-export const metadata = {
-  title: "Things to Do in Jodhpur Tourism | Rajasthan Tour Packages",
-  description: "Learn about Jodhpur Fort sporting and leisure activities, city markets, and more. Check out Rajasthan Tour Packages for the ideal planning of our Jodhpur tour.",
-  keywords: [
-    "Jodhpur Tourism",
-    "Things to Do in Jodhpur",
-    "Jodhpur Sightseeing",
-    "Jodhpur Travel Guide",
-    "Jodhpur Attractions",
-    "Museums in Jodhpur",
-    "Art Galleries in Jodhpur",
-    "Jodhpur Fairs and Festivals",
-    "Excursions from Jodhpur",
-    "Shopping in Jodhpur",
-    "Local Cuisine in Jodhpur",
-    "Restaurants in Jodhpur",
-    "Heritage Sites in Jodhpur"
-  ],
-  alternates: {
-    canonical: "https://www.rajasthantourpackages.in/jodhpur",
-  },
-  twitter: {
-    card: "summary_large_image",
-    site: "@rajasthantourpackages",
-    title: "Things to Do in Jodhpur Tourism | Rajasthan Tour Packages",
-    description: "Learn about Jodhpur Fort sporting and leisure activities, city markets, and more. Check out Rajasthan Tour Packages for the ideal planning of our Jodhpur tour.",
-    images: 'https://www.rajasthantourpackages.in/Images/Banners/jodhpur-banner02.webp'// Add image URL if needed
-  },
-  openGraph: {
-    title: "Things to Do in Jodhpur Tourism | Rajasthan Tour Packages",
-    description: "Learn about Jodhpur Fort sporting and leisure activities, city markets, and more. Check out Rajasthan Tour Packages for the ideal planning of our Jodhpur tour.",
-    url: "https://www.rajasthantourpackages.in/jodhpur",
-    images: [
-      {
-        url: 'https://www.rajasthantourpackages.in/Images/Banners/jodhpur-banner02.webp', // Add image URL if needed
-      }
-    ],
-    site_name: 'Rajasthan Tour Packages',
-    type: 'website',
-    locale: 'en_US',
-  }
-};
-
-
 const Jodhpur = () => {
+  const [packages, setPackages] = useState([]);
+
+  useEffect(() => {
+    const fetchPackages = async () => {
+      try {
+        const response = await fetch('/api/allTourPackages');
+        const data = await response.json();
+        setPackages(data);
+      } catch (error) {
+        console.error('Error fetching packages:', error);
+      }
+    };
+
+    fetchPackages();
+  }, []);
+  const jodhpur_tour_packages = packages.filter(
+    (item) => item.destination && item.destination.includes('jodhpur')
+  );
 
   const sections = [
     { id: 'about', label: 'About jodhpur', icon: <FaBookOpen /> },
@@ -137,7 +112,7 @@ const Jodhpur = () => {
             {/* overview */}
             {overview && (
               <div className="w-100 insider section-offset mb-4" id="about">
-                <h3 className="text-capitalize px-3 mb-3 text-center fw-normal">
+                <h3 className="text-capitalize web-title px-3 mb-3 text-center fw-normal">
                   <span className="fw-bold"> overview</span>
                 </h3>
                 <p
@@ -148,7 +123,7 @@ const Jodhpur = () => {
             )}
             {/* About Section */}
             <div className="w-100 insider section-offset mb-4" id="about">
-              <h3 className="text-capitalize px-3 mb-3 text-center fw-normal">
+              <h3 className="text-capitalize web-title px-3 mb-3 text-center fw-normal">
                 about <span className="fw-bold"> jodhpur</span>
               </h3>
               <p
@@ -159,7 +134,7 @@ const Jodhpur = () => {
             </div>
             {/* Sightseeing */}
             <div className="w-100 insider section-offset mb-4" id="historical-attractions">
-              <h3 className="text-capitalize px-3 mb-3 text-center fw-normal">
+              <h3 className="text-capitalize web-title px-3 mb-3 text-center fw-normal">
                 jodhpur
                 <span className="fw-bold"> sightseeing</span>
               </h3>
@@ -170,7 +145,7 @@ const Jodhpur = () => {
             </div>
             {/* Museums & Art Galleries Section */}
             <div className="w-100 insider section-offset mb-4" id="cultural-experiences">
-              <h3 className="text-capitalize px-3 mb-3 text-center fw-normal">
+              <h3 className="text-capitalize web-title px-3 mb-3 text-center fw-normal">
                 Museums &   <span className="fw-bold">Art Galleries</span>
               </h3>
               <div className="col-12 px-2">
@@ -180,7 +155,7 @@ const Jodhpur = () => {
             </div>
             {/* Fairs & Festivals Section */}
             <div className="w-100 insider section-offset mb-4" id="modern-attractions">
-              <h3 className="text-capitalize px-3 mb-3 text-center fw-normal">
+              <h3 className="text-capitalize web-title px-3 mb-3 text-center fw-normal">
                 Fairs &  <span className="fw-bold"> Festivals</span>
               </h3>
               <div className="col-12 px-2">
@@ -190,7 +165,7 @@ const Jodhpur = () => {
             </div>
             {/* excursions */}
             <div className="w-100 insider section-offset mb-4" id="excursions">
-              <h3 className="text-capitalize px-3 mb-3 text-center fw-normal">
+              <h3 className="text-capitalize web-title px-3 mb-3 text-center fw-normal">
                 Places to  <span className="fw-bold"> visit</span>
               </h3>
               <div className="col-12 px-2">
@@ -200,7 +175,7 @@ const Jodhpur = () => {
             </div>
             {/* shopping */}
             <div className="w-100 insider section-offset mb-4" id="shopping">
-              <h3 className="text-capitalize px-3 mb-3 text-center fw-normal">
+              <h3 className="text-capitalize web-title px-3 mb-3 text-center fw-normal">
                 <span className="fw-bold">shopping</span>
               </h3>
               <div className="col-12 px-2">
@@ -210,7 +185,7 @@ const Jodhpur = () => {
             </div>
             {/* restaurants */}
             <div className="w-100 insider section-offset mb-4" id="restaurantsandmore">
-              <h3 className="text-capitalize px-3 mb-3 text-center fw-normal">
+              <h3 className="text-capitalize web-title px-3 mb-3 text-center fw-normal">
                 restaurants &  <span className="fw-bold">Local Cuisine</span>
               </h3>
               <div className="col-12 px-2">
@@ -220,7 +195,7 @@ const Jodhpur = () => {
             </div>
             {/* how to reach */}
             <div className="w-100 insider section-offset mb-4" id="how-to-reach">
-              <h3 className="text-capitalize px-3 mb-3 text-center fw-normal">
+              <h3 className="text-capitalize web-title px-3 mb-3 text-center fw-normal">
                 how to <span className="fw-bold">reach</span>
               </h3>
               <div className="col-12 px-2">
@@ -230,34 +205,34 @@ const Jodhpur = () => {
             </div>
             {/* tour packages */}
             <div className="w-100 insider section-offset mb-4" id="tour-packages">
-              <h3 className="text-capitalize px-3 mb-3 text-center fw-normal">
+              <h3 className="text-capitalize web-title px-3 mb-3 text-center fw-normal">
                 tour
                 <span className="fw-bold"> packages</span>
               </h3>
-              <PackagesSlider exploreAll={false} packages={jodhpurTourPackagesData} href='/jodhpur-tour-packages' />
+              <PackagesSlider exploreAll={false} packages={jodhpur_tour_packages} href='/jodhpur-tour-packages' />
             </div>
             {/* cab rentals */}
             <div className="w-100 insider section-offset mb-4" id="cab-rentals">
-              <h3 className="text-capitalize px-3 mb-3 text-center fw-normal">
+              <h3 className="text-capitalize web-title px-3 mb-3 text-center fw-normal">
                 cab  <span className="fw-bold">rentals</span>
               </h3>
               <RentalSlider rentals={allCabRentals} />
             </div>
             {/* day tours */}
             <div className="w-100 insider section-offset mb-4" id="day-tours">
-              <h3 className="text-capitalize px-3 mb-3 text-center fw-normal">
+              <h3 className="text-capitalize web-title px-3 mb-3 text-center fw-normal">
                 day <span className="fw-bold">tours</span>
               </h3>
             </div>
             {/* best hotels */}
             <div className="w-100 insider section-offset mb-4" id="best-hotels">
-              <h3 className="text-capitalize px-3 mb-3 text-center fw-normal">
+              <h3 className="text-capitalize web-title px-3 mb-3 text-center fw-normal">
                 best  <span className="fw-bold">hotels</span>
               </h3>
             </div>
             {/* tourist guide */}
             <div className="w-100 insider section-offset mb-4" id="tourist-guide-services">
-              <h3 className="text-capitalize px-3 mb-3 text-center fw-normal">
+              <h3 className="text-capitalize web-title px-3 mb-3 text-center fw-normal">
                 tourist <span className="fw-bold">guide </span>services
               </h3>
             </div>

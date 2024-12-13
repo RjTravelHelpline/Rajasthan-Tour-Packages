@@ -50,12 +50,9 @@ const Packages = () => {
         <div className="container packages mb-5">
           <div className="row py-2 px-2 d-flex justify-content-center align-items-center">
             <div className="d-flex-justify-content-center align-items-center">
-              {/* <hr style={{ borderColor: 'var(--color-tertary)' }} /> */}
               <h2 className="text-center text-capitalize home-head web-title">
                 <span className="fw-normal">popular </span> tour packages
-                {/* <FaGripfire className="icon bg-tertary-down p-1 rounded-5" /> */}
               </h2>
-              {/* <hr style={{ borderColor: 'var(--color-tertary)' }} /> */}
             </div>
             <p className="text-center home-para">
               Discover the essence of Rajasthan with our{' '}
@@ -81,11 +78,7 @@ const Packages = () => {
             <SlickSlider>
               {visiblePackages.map((pkg, index) => {
                 const messageText = `I am interested in the ${pkg.title} package for ₹${pkg.price}/-. Please provide more details.`;
-
-                // Encoding the message for safe URL use
                 const encodedText = encodeURIComponent(messageText);
-
-                // Constructing the WhatsApp link with the encoded text
                 const whatsappLink = `https://api.whatsapp.com/send/?phone=919166555888&text=${encodedText}&type=phone_number&app_absent=0`;
                 return (
                   <div

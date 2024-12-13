@@ -1,41 +1,35 @@
-
+'use client'
 import Breadcrumb from "@/components/Breadcrumb";
 import Faq from "@/components/Faq";
 import ReadMoreToggle from "@/components/ReadMore";
 import TourCarousel from "@/components/TourCarousel";
 import TourPackages from "@/components/TourPackages";
 import { tourFromMountAbu } from "@/data/CitiesData";
-import { mountabuTourPackagesData } from "@/data/data";
 import { mountAbuFaq } from "@/data/faqData";
 import { allCitiesImages } from "@/data/imageData";
+import { useEffect, useState } from "react";
 
-
-export const metadata = {
-  title: 'Rajasthan Tour From Mount Abu | Rajasthan Tour Packages',
-  description: "Begin your Rajasthan Tour from Mount Abu with the Rajasthan Tour Packages. Explore Rajasthan's regal charm and noteworthy points of interest. Book Now.",
-  keywords: [''],
-  alternates: {
-    canonical: "https://www.rajasthantourpackages.in/rajasthan-tour-from-mount-abu",
-  },
-  openGraph: {
-    title: 'Rajasthan Tour From Mount Abu | Rajasthan Tour Packages',
-    description: "Begin your Rajasthan Tour from Mount Abu with the Rajasthan Tour Packages. Explore Rajasthan's regal charm and noteworthy points of interest. Book Now.",
-    url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-mount-abu",
-    images: "https://www.rajasthantourpackages.in/Images/Banners/mount-abu-banner.webp",
-    site_name: 'Rajasthan Tour Packages',
-    type: 'website',
-    locale: 'en_US',
-  },
-  twitter: {
-    card: "summary_large_image",
-    site: "@rajasthantourpackages",
-    title: 'Rajasthan Tour From Mount Abu | Rajasthan Tour Packages',
-    description: "Begin your Rajasthan Tour from Mount Abu with the Rajasthan Tour Packages. Explore Rajasthan's regal charm and noteworthy points of interest. Book Now.",
-    images: "https://www.rajasthantourpackages.in/Images/Banners/mount-abu-banner.webp",
-  },
-};
 
 const RajasthanTourFromMountabu = () => {
+  const [packages, setPackages] = useState([]);
+
+  useEffect(() => {
+    const fetchPackages = async () => {
+      try {
+        const response = await fetch('/api/allTourPackages');
+        const data = await response.json();
+        setPackages(data);
+      } catch (error) {
+        console.error('Error fetching packages:', error);
+      }
+    };
+
+    fetchPackages();
+  }, []);
+
+  const mountabu_tour_packages = packages.filter(
+    (pkg) => pkg.destination && pkg.destination.includes('mountabu')
+  );
   const images = [
     {
       src: allCitiesImages.mountabu.mountabuBanner.src,
@@ -81,7 +75,7 @@ const RajasthanTourFromMountabu = () => {
             ></h2>
           </div>
           <div className="row py-4 d-flex align-items-stretch px-2">
-            {mountabuTourPackagesData.slice(0, 3).map((pkg, index) => (
+            {mountabu_tour_packages.slice(0, 3).map((pkg, index) => (
               <TourPackages key={index} pkg={pkg} />
             ))}
           </div>

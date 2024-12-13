@@ -1,12 +1,15 @@
+'use client'
 import Breadcrumb from "@/components/Breadcrumb";
 import ItineraryAccordion from "@/components/ItineraryAccordion";
 import NavigationModal from "@/components/NavigationModal";
+import PackagesSlider from "@/components/PackagesSlider";
 import ReadMoreToggle from "@/components/ReadMore";
 import RentalSlider from "@/components/RentalSlider";
 import TourCarousel from "@/components/TourCarousel";
 import { allCabRentals } from "@/data/cabRentalData";
 import { about, excursions, fairandfestivals, howToReach, museumsandart, overview, restaurantsandmore, shopping, sightseeing } from "@/data/Destination Data/bikaner";
 import { allCitiesImages } from "@/data/imageData";
+import { useEffect, useState } from "react";
 import { AiFillCustomerService } from 'react-icons/ai';
 import {
   FaBookOpen,
@@ -22,52 +25,25 @@ import { GoLocation } from 'react-icons/go';
 import { IoLocate } from "react-icons/io5";
 import { MdOutlineExplore, MdTour } from 'react-icons/md';
 
-export const metadata = {
-  title: "Bikaner Royal History and Legacy | Rajasthan Tour Packages",
-  description: "Explore the royal history of Bikaner, its historic forts, and vibrant culture. Book your Bikaner heritage tour with Rajasthan Tour Packages for an unforgettable experience.",
-  keywords: [
-    "Bikaner Travel Packages",
-    "Best Places to Visit in Bikaner",
-    "Bikaner Desert Safari",
-    "Bikaner Sightseeing Tour",
-    "Bikaner Travel Itinerary",
-    "Famous Bikaner Forts and Palaces",
-    "Bikaner Camel Safari Adventures",
-    "Bikaner Markets and Shopping",
-    "Bikaner Architecture and Landmarks",
-    "Things to Do in Bikaner",
-    "Bikaner Festivals and Events",
-    "Wildlife Tour Packages",
-    "Heritage Hotels in Bikaner",
-    "Museums and Art Galleries in Bikaner",
-    "Bikaner Fairs and Festivals",
-    "Bikaner Camel Festival",
-    "Bikaneri Bhujia",
-    "Laxmi Niwas Palace Hotel Restaurant"
-  ],
-  alternates: {
-    canonical: "https://www.rajasthantourpackages.in/bikaner",
-  },
-  twitter: {
-    card: "summary_large_image",
-    site: "@rajasthantourpackages",
-    title: "Bikaner Royal History and Legacy | Rajasthan Tour Packages",
-    description: "Explore the royal history of Bikaner, its historic forts, and vibrant culture. Book your Bikaner heritage tour with Rajasthan Tour Packages for an unforgettable experience.",
-    images: 'https://www.rajasthantourpackages.in/Images/Banners/bikaner-banner02.webp',
-  },
-  openGraph: {
-    title: "Bikaner Royal History and Legacy | Rajasthan Tour Packages",
-    description: "Explore the royal history of Bikaner, its historic forts, and vibrant culture. Book your Bikaner heritage tour with Rajasthan Tour Packages for an unforgettable experience.",
-    url: "https://www.rajasthantourpackages.in/bikaner",
-    images: 'https://www.rajasthantourpackages.in/Images/Banners/bikaner-banner02.webp',
-    site_name: 'Rajasthan Tour Packages',
-    type: 'website',
-    locale: 'en_US',
-  }
-};
-
-
 const Bikaner = () => {
+  const [packages, setPackages] = useState([]);
+
+  useEffect(() => {
+    const fetchPackages = async () => {
+      try {
+        const response = await fetch('/api/allTourPackages');
+        const data = await response.json();
+        setPackages(data);
+      } catch (error) {
+        console.error('Error fetching packages:', error);
+      }
+    };
+
+    fetchPackages();
+  }, []);
+  const bikaner_tour_packages = packages.filter(
+    (item) => item.destination && item.destination.includes('bikaner')
+  );
   const sections = [
     { id: 'about', label: 'About bikaner', icon: <FaBookOpen /> },
     {
@@ -232,7 +208,7 @@ const Bikaner = () => {
                 tour
                 <span className="fw-bold"> packages</span>
               </h3>
-              {/* <PackagesSlider packages={bikanerTourPackagesData} href='/bikaner-tour-packages' /> */}
+              <PackagesSlider packages={bikaner_tour_packages} href='/bikaner-tour-packages' />
             </div>
             {/* cab rentals */}
             <div className="w-100 insider section-offset mb-4" id="cab-rentals">

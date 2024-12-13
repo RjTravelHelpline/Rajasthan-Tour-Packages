@@ -1,39 +1,35 @@
+'use client'
 import Breadcrumb from "@/components/Breadcrumb";
 import Faq from "@/components/Faq";
 import ReadMoreToggle from "@/components/ReadMore";
 import TourCarousel from "@/components/TourCarousel";
 import TourPackages from "@/components/TourPackages";
 import { tourFromUdaipur } from "@/data/CitiesData";
-import { udaipurTourPackagesData } from "@/data/data";
 import { udaipurFaq } from "@/data/faqData";
 import { allCitiesImages } from "@/data/imageData";
+import { useEffect, useState } from "react";
 
-export const metadata = {
-  title: 'Rajasthan Tour from Udaipur | Rajasthan Tour Packages',
-  description: "Explore the regal splendor and cultural richness of Rajasthan with a personalized tour from Udaipur. Let us take you on an unforgettable journey across the state.",
-  keywords: [''],
-  alternates: {
-    canonical: "https://www.rajasthantourpackages.in/rajasthan-tour-from-udaipur",
-  },
-  openGraph: {
-    title: 'Rajasthan Tour from Udaipur | Rajasthan Tour Packages',
-    description: "Explore the regal splendor and cultural richness of Rajasthan with a personalized tour from Udaipur. Let us take you on an unforgettable journey across the state.",
-    url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-udaipur",
-    images: "https://www.rajasthantourpackages.in/Images/Banners/udaipur-banner02.webp",
-    site_name: 'Rajasthan Tour Packages',
-    type: 'website',
-    locale: 'en_US',
-  },
-  twitter: {
-    card: "summary_large_image",
-    site: "@rajasthantourpackages",
-    title: 'Rajasthan Tour from Udaipur | Rajasthan Tour Packages',
-    description: "Explore the regal splendor and cultural richness of Rajasthan with a personalized tour from Udaipur. Let us take you on an unforgettable journey across the state.",
-    images: "https://www.rajasthantourpackages.in/Images/Banners/udaipur-banner02.webp",
-  },
-};
 
 const RajasthanTourFromUdaipur = () => {
+  const [packages, setPackages] = useState([]);
+
+  useEffect(() => {
+    const fetchPackages = async () => {
+      try {
+        const response = await fetch('/api/allTourPackages');
+        const data = await response.json();
+        setPackages(data);
+      } catch (error) {
+        console.error('Error fetching packages:', error);
+      }
+    };
+
+    fetchPackages();
+  }, []);
+
+  const udaipur_tour_packages = packages.filter(
+    (pkg) => pkg.destination && pkg.destination.includes('udaipur')
+  );
   const images = [
     {
       src: allCitiesImages.udaipur.udaipurBanner02.src,
@@ -80,7 +76,7 @@ const RajasthanTourFromUdaipur = () => {
             </h2>
           </div>
           <div className="row py-4 d-flex align-items-stretch px-2">
-            {udaipurTourPackagesData.slice(0, 3).map((pkg, index) => (
+            {udaipur_tour_packages.slice(0, 3).map((pkg, index) => (
               <TourPackages key={index} pkg={pkg} />
             ))}
           </div>

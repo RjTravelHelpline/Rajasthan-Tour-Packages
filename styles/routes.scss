@@ -101,7 +101,7 @@ p {
         border-top-right-radius: 16px;
         position: relative;
         overflow: hidden;
-        text-transform: uppercase !important;
+        text-transform: capitalize !important;
         font-size: clamp(1.4em, 2vw, 1.65em) !important;
         &::after {
           content: '';

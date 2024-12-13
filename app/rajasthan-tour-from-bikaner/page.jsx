@@ -1,37 +1,10 @@
-
 import Breadcrumb from "@/components/Breadcrumb";
 import Faq from "@/components/Faq";
 import ReadMoreToggle from "@/components/ReadMore";
 import TourCarousel from "@/components/TourCarousel";
-import TourPackages from "@/components/TourPackages";
 import { tourFromBikaner } from "@/data/CitiesData";
-import { bikanerTourPackagesData } from "@/data/data";
 import { bikanerFaq } from "@/data/faqData";
-import { allCitiesImages, allStatesImages } from "@/data/imageData";
-export const metadata = {
-    title: 'Rajasthan Tour From Bikaner | Rajasthan Tour Packages',
-    description: "Uncover Rajasthans rich heritage from Bikaner with Rajasthan Tour Packages. Explore ancient forts, vibrant markets, and royal legacies across the state.",
-    keywords: [''],
-    alternates: {
-        canonical: "https://www.rajasthantourpackages.in/rajasthan-tour-from-bikaner",
-    },
-    openGraph: {
-        title: 'Rajasthan Tour From Bikaner | Rajasthan Tour Packages',
-        description: "Uncover Rajasthans rich heritage from Bikaner with Rajasthan Tour Packages. Explore ancient forts, vibrant markets, and royal legacies across the state.",
-        url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-bikaner",
-        images: "https://www.rajasthantourpackages.in/Images/Banners/bikaner-banner.webp';",
-        site_name: 'Rajasthan Tour Packages',
-        type: 'website',
-        locale: 'en_US',
-    },
-    twitter: {
-        card: "summary_large_image",
-        site: "@rajasthantourpackages",
-        title: 'Rajasthan Tour From Bikaner | Rajasthan Tour Packages',
-        description: "Uncover Rajasthans rich heritage from Bikaner with Rajasthan Tour Packages. Explore ancient forts, vibrant markets, and royal legacies across the state.",
-        images: "https://www.rajasthantourpackages.in/Images/Banners/bikaner-banner.webp';",
-    },
-};
+import { allCitiesImages } from "@/data/imageData";
 
 
 const RajasthanTourFromBikaner = () => {
@@ -78,11 +51,11 @@ const RajasthanTourFromBikaner = () => {
                             dangerouslySetInnerHTML={{ __html: tourFromBikaner.package }}
                         ></h2>
                     </div>
-                    <div className="row py-4 d-flex align-items-stretch px-2">
+                    {/* <div className="row py-4 d-flex align-items-stretch px-2">
                         {bikanerTourPackagesData.slice(0, 3).map((pkg, index) => (
                             <TourPackages key={index} pkg={pkg} />
                         ))}
-                    </div>
+                    </div> */}
                 </div>
             </div>
 

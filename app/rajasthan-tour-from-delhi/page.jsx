@@ -1,40 +1,36 @@
+'use client'
 import Breadcrumb from "@/components/Breadcrumb";
 import Faq from "@/components/Faq";
 import ReadMoreToggle from "@/components/ReadMore";
 import TourCarousel from "@/components/TourCarousel";
 import TourPackages from "@/components/TourPackages";
 import { tourFromDelhi } from "@/data/CitiesData";
-import { delhiTourPackagesData } from "@/data/data";
 import { delhiFaq } from "@/data/faqData";
 import { allStatesImages } from "@/data/imageData";
-
-export const metadata = {
-  title: 'Rajasthan Tour from Delhi Book Now | Rajasthan Tour Packages',
-  description: "Embark on the Rajasthan Tour From Delhi. Our curated tour packages offer the perfect blend of heritage sites, colorful markets, and unforgettable experiences.",
-  keywords: [''],
-  alternates: {
-    canonical: "https://www.rajasthantourpackages.in/rajasthan-tour-from-delhi",
-  },
-  openGraph: {
-    title: 'Rajasthan Tour from Delhi Book Now | Rajasthan Tour Packages',
-    description: "Embark on the Rajasthan Tour From Delhi. Our curated tour packages offer the perfect blend of heritage sites, colorful markets, and unforgettable experiences.",
-    url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-delhi",
-    images: "https://www.rajasthantourpackages.in/Images/Banners/delhi-banner.webp",
-    site_name: 'Rajasthan Tour Packages',
-    type: 'website',
-    locale: 'en_US',
-  },
-  twitter: {
-    card: "summary_large_image",
-    site: "@rajasthantourpackages",
-    title: 'Rajasthan Tour from Delhi Book Now | Rajasthan Tour Packages',
-    description: "Embark on the Rajasthan Tour From Delhi. Our curated tour packages offer the perfect blend of heritage sites, colorful markets, and unforgettable experiences.",
-    images: "https://www.rajasthantourpackages.in/Images/Banners/delhi-banner.webp",
-  },
-};
+import { useEffect, useState } from "react";
 
 
 const RajasthanPackageTourFromDelhi = () => {
+  const [packages, setPackages] = useState([]);
+
+  useEffect(() => {
+    const fetchPackages = async () => {
+      try {
+        const response = await fetch('/api/allTourPackages');
+        const data = await response.json();
+        setPackages(data);
+      } catch (error) {
+        console.error('Error fetching packages:', error);
+      }
+    };
+
+    fetchPackages();
+  }, []);
+
+  const delhi_tour_packages = packages.filter(
+    (pkg) => pkg.destination && pkg.destination.includes('delhi')
+  );
+
   const images = [
     {
       src: allStatesImages.delhi.delhiBanner.src,
@@ -81,7 +77,7 @@ const RajasthanPackageTourFromDelhi = () => {
             ></h2>
           </div>
           <div className="row py-4 d-flex align-items-stretch px-2">
-            {delhiTourPackagesData.slice(0, 3).map((pkg, index) => (
+            {delhi_tour_packages.slice(0, 3).map((pkg, index) => (
               <TourPackages key={index} pkg={pkg} />
             ))}
           </div>

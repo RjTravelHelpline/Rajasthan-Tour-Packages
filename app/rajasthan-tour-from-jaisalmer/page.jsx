@@ -1,40 +1,34 @@
+'use client'
 import Breadcrumb from "@/components/Breadcrumb";
 import Faq from "@/components/Faq";
 import ReadMoreToggle from "@/components/ReadMore";
 import TourCarousel from "@/components/TourCarousel";
 import TourPackages from "@/components/TourPackages";
 import { tourFromJaisalmer } from "@/data/CitiesData";
-import { jaisalmerTourPackagesData } from "@/data/data";
 import { jaisalmerFaq } from "@/data/faqData";
 import { allCitiesImages } from "@/data/imageData";
-
-
-export const metadata = {
-  title: 'Rajasthan Tour From Jaisalmer | Rajasthan Tour Packages',
-  description: "Explore the vast beauty of Rajasthan from Jaisalmer with Rajasthan Tour Packages. Enjoy desert adventures, historical forts, and rich cultural experiences.",
-  keywords: [''],
-  alternates: {
-    canonical: "https://www.rajasthantourpackages.in/rajasthan-tour-from-jaisalmer",
-  },
-  openGraph: {
-    title: 'Rajasthan Tour From Jaisalmer | Rajasthan Tour Packages',
-    description: "Explore the vast beauty of Rajasthan from Jaisalmer with Rajasthan Tour Packages. Enjoy desert adventures, historical forts, and rich cultural experiences.",
-    url: "https://www.rajasthantourpackages.in/rajasthan-tour-from-jaisalmer",
-    images: "https://www.rajasthantourpackages.in/Images/Banners/jaisalmer-banner.webp",
-    site_name: 'Rajasthan Tour Packages',
-    type: 'website',
-    locale: 'en_US',
-  },
-  twitter: {
-    card: "summary_large_image",
-    site: "@rajasthantourpackages",
-    title: 'Rajasthan Tour From Jaisalmer | Rajasthan Tour Packages',
-    description: "Explore the vast beauty of Rajasthan from Jaisalmer with Rajasthan Tour Packages. Enjoy desert adventures, historical forts, and rich cultural experiences.",
-    images: "https://www.rajasthantourpackages.in/Images/Banners/jaisalmer-banner.webp",
-  },
-};
+import { useEffect, useState } from "react";
 
 const RajasthanTourFromJaisalmer = () => {
+  const [packages, setPackages] = useState([]);
+
+  useEffect(() => {
+    const fetchPackages = async () => {
+      try {
+        const response = await fetch('/api/allTourPackages');
+        const data = await response.json();
+        setPackages(data);
+      } catch (error) {
+        console.error('Error fetching packages:', error);
+      }
+    };
+
+    fetchPackages();
+  }, []);
+
+  const jaisalmer_tour_packages = packages.filter(
+    (pkg) => pkg.destination && pkg.destination.includes('jaisalmer')
+  );
   const images = [
     {
       src: allCitiesImages.jaisalmer.jaisalmerBanner.src,
@@ -80,7 +74,7 @@ const RajasthanTourFromJaisalmer = () => {
             ></h2>
           </div>
           <div className="row py-4 d-flex align-items-stretch px-2">
-            {jaisalmerTourPackagesData.slice(0, 3).map((pkg, index) => (
+            {jaisalmer_tour_packages.slice(0, 3).map((pkg, index) => (
               <TourPackages key={index} pkg={pkg} />
             ))}
           </div>
