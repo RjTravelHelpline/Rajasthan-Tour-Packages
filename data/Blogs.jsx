@@ -70,6 +70,11 @@ const foodJodhpurBanner = '/Images/Blog/food_jodhpur_banner.jpg';
 
 const fairKotaChambal = '/Images/Blog/fair-kota-chambal.jpeg';
 const fairKotaDance = '/Images/Blog/fair-kota-dance.jpeg';
+
+const jhalanaBanner = '/Images/Blog/wildlife-jhalana-banner.jpeg';
+const jhalanaBirdKingfisher = '/Images/Blog/bird-kingfisher-jhalana.jpeg';
+const jhalanaLeopard = '/Images/Blog/leopard-jhalana.jpeg';
+const jhalanaJeepSawari = '/Images/Blog/jhalana-jeep-sawari.jpeg';
 // * data
 
 const generateSlug = (heading) =>
@@ -1116,17 +1121,262 @@ export const blogs = [
     ),
   },
   {
-    author: 'Sandeep Verma',
-    image: allStatesImages.kerala.kerala01.src,
-    date: '2024-06-25',
-    heading: 'A Guide to Bird Watching in India',
-    slug: '',
+    author: 'Admin',
+    image: jhalanaBanner,
+    alt: 'Jhalana Safari Entry Gate',
+    title: 'The entry gate of Jhalana Leopard Safari Wildlife Sanctuary',
+    date: '2024-12-14',
+    heading: 'Jhalana Leopard Safari Wildlife Sanctuary: A Thrilling in Jaipur',
+    slug: 'jhalana-leopard-safari-wildlife-sanctuary-jaipur',
     description:
-      'India’s diverse habitats make it a paradise for bird watchers. This guide covers the best places to observe rare and exotic bird species across the country.',
+      'Jaipur Check Here is one of these cities that was the stronghold of art, architecture, and many other things, such as buildings and historical significance. But apart from these icons of business spirit and beautiful palaces, the most thrilling place of interest for tourists, especially for the wildlife participants, is the Jhalana Leopard Safari Wildlife Sanctuary. Almost in the area that is within walking distance from the city, this sanctuary provides the best chance to get a glimpse of this barely seen predator.',
+    metaTitle: 'Jhalana Leopard Safari Wildlife Sanctuary: A Thrilling in Jaipur',
+    metaDescription: 'Indulge the Jaipur Jhalana Leopard Safari Wildlife Sanctuary. Get to see leopards and have an exciting time on an African wildlife safari. Book your safari now.',
+    canonical: 'https://www.rajasthantourpackages.in/blog/jhalana-leopard-safari-wildlife-sanctuary-jaipur',
+    keywords: ['Jhalana Leopard Safari Wildlife', 'Jhalana Leopard Safari Wildlife Sanctuary', 'jhalana leopard safari online booking', 'wildlife safari rules', 'jhalana leopard safari park jaipur', 'jhalana leopard safari distance', 'jhalana leopard safari cost', 'Rajasthan Tour Packages', 'Rajasthan Tours and Travels', 'Jhalana Leopard Safari Park', 'Jhalana leopards', 'Jeep Safari in Jhalana', '10 kilometres from Jaipur city'
+    ],
     category: 'Wildlife',
-    more: `From the migratory birds of Bharatpur to the rich bird life in Kerala’s forests, 
-                India offers prime spots for bird watching enthusiasts to catch a glimpse of vibrant 
-                and rare species.`,
+    more: (
+      <>
+        <p>Jaipur Check Here is one of these cities that was the stronghold of art, architecture, and many other things, such as buildings and historical significance. But apart from these icons of business spirit and beautiful palaces, the most thrilling place of interest for tourists, especially for the wildlife participants, is the <strong>Jhalana Leopard Safari Wildlife </strong> Sanctuary. Almost in the area that is within walking distance from the city, this sanctuary provides the best chance to get a glimpse of this barely seen predator.
+        </p>
+        <p>In this blog, you will discover the amazing aspects of the {Link('Jhalana Leopard Safari Wildlife Sanctuary Jaipur', 'https://www.jaipurtaxiservice.com/jaipur-sightseeing-tours/jhalana-leopard-safari-tour-jaipur.html')}, including its features, safari and wildlife, and wildlife conservation activities.</p>
+        <h4>Introduction to Jhalana Leopard Safari Wildlife Sanctuary</h4>
+        <p>
+          The <strong>Jhalana Leopard Safari Wildlife Sanctuary</strong> is situated on the southern outskirts of the state capital, Jaipur, and occupies an area of about 20.5 sq.km. Formed in 2016, this sanctuary gained attention rather quickly among the fans of wildlife tourism because of its prominent resident&lsquo;s leopards. Though not much talked about as being a tiger country or the Ranthambhore National Park, the Jhalana Sanctuary has emerged as the favourite destination of leopards.
+        </p>
+        <p>The number of leopards in the sanctuary is increasing, making it one of the more effective places for observing these tremendous big cats in the wild. However, the sanctuary is home to several other species and plant life. It can be deemed suitable for taking wildlife photographs, nature photographs, nature and other enthusiasts, nature-trail lovers and tourists.
+        </p>
+        <p className="fw-bold">
+          Location and Accessibility
+        </p>
+        <hr />
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3559.5225533304565!2d75.8328476!3d26.8551341!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db74016bb8899%3A0xc0161981bfed1c33!2sWorld%20Of%20Wilders-%20Jhalana%20Leopard%20Safari%2C%20Amagarh%20Panther%20Safari%2C%20Jhalana%20Jungle%20Safari%2C%20Jaipur%20By%20Night%2C%20Elephant%20Village!5e0!3m2!1sen!2sin!4v1734164984538!5m2!1sen!2sin" width="600" height="450" style={{ border: '0', width: '100%' }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <hr />
+        <p>
+          Situated about 10 kilometres from Jaipur city, the Waldren area of Jhalana Leopard Safari Wildlife Sanctuary is one of the best places tourists can visit between historical sites. The sanctuary is accessible all year, but the best time is between October and March.
+          Tourists can use personal cars or even a {Link('Jaipur Taxi', 'https://www.jaipurtaxiservice.com/jaipur-local-use/taxi-for-12-hours.html')} or a bus since the sanctuary is close to the city. Jaipur International Airport is the nearest airport to the site from where the safari is launched; this is about 15 km away from the safari&lsquo;s gate. Apart from air transport, the place is also well connected with a railway station.
+        </p>
+        <hr />
+        <h4>Wildlife of Jhalana Leopard Safari Wildlife Sanctuary</h4>
+        <p>Well, the primary attraction of <strong>Jhalana Leopard Safari Park</strong> is leopards in some way, each ride in the sanctuary is different giving you a huge variety of experiences. The sanctuary provides a perfect blend of open woodlands, dense scrublands, and dry deciduous forests ideal habitats for many species.
+        </p>
+        <p className="fw-bold">
+          1. Leopards
+        </p>
+        <hr />
+        <div className="slug-image-container my-2">
+          <Image
+            src={jhalanaLeopard}
+            alt="Jhalana Wild Male Leopard Jaipur"
+            title='Wild male leopard spotted on safari in Jhalana, Jaipur'
+            width={1500}
+            height={600}
+          />
+        </div>
+        <hr />
+        {/* image */}
+        <p>The star of the show at Jhalana is undoubtedly the <strong>leopard</strong> (Panthera pardus). Environmentalists and wildlife photography lovers will be enthralled to learn that more than 20 leopards inhabit the sanctuary. These are less wild than those that live in the forests, and the <strong>Jhalana leopards</strong> are ideal if you want to view these tremendous wild cats in the wild without intruding on them.
+        </p>
+        <p>Leopards at Jhalana are most actively found at night but may be observed during the early mornings and evenings. The sanctuary is one of the few places in the country where you will likely quickly see a leopard. That is an exciting undertaking for anyone keen to observe them since the guides will take their clients on the leopards&lsquo; trail, depending on the cats&lsquo; habits.
+        </p>
+        <p className="fw-bold mb-0">
+          2. Other Mammals
+        </p>
+        <p>In addition to leopards, many other mammals that live in the Jhalana Leopard Safari and the sanctuary&lsquo;s diverse habitats are found here. These include:</p>
+        <p>
+
+          <span className="d-block">
+            <strong>Spotted Deer (Chital): </strong>There are so many beautiful, sweet animals in sanctuaries, and they are the most visible when feeding on grass in pastures.
+          </span>
+
+
+          <span className="d-block">
+            <strong>Wild Boar: </strong>Wild boars around the sanctuary are mostly sighted, rummaging the forest floor and hunting for food.
+          </span>
+
+
+          <span className="d-block">
+            <strong>Indian Fox: </strong>The Indian fox is a rare species that can be easily identified due to its coat colouration; it is another major sight attraction in Jhalana.
+          </span>
+
+
+          <span className="d-block">
+            <strong>Jackals: </strong>Common year-round at the sanctuary, they are often sighted in pairs or small groups as they feed on carcasses.
+          </span>
+
+
+          <span className="d-block">
+            <strong>Nilgai: </strong>The biggest antelope in India, nilgai or the blue bulls are also found in the grasslands of the sanctuary.
+          </span>
+        </p>
+        <p className="fw-bold mb-0">
+          3. Birdlife
+        </p>
+        <hr />
+        <div className="slug-image-container my-2">
+          <Image
+            src={jhalanaBirdKingfisher}
+            alt="Blue Kingfisher Jhalana Safari"
+            title='Blue Kingfisher bird spotted at Jhalana Safari Wildlife Sanctuary'
+            width={1500}
+            height={600}
+          />
+        </div>
+        <hr />
+        {/* image */}
+        <p>Wildlife tourists also visit the Jhalana Leopard Safari Wildlife Sanctuary, which hosts a wide bird diversity with over two hundred species of birds. As already mentioned, due to an open savannah, rich, dense forests and water bodies offer diverse nesting sites for birds. Some of the notable species you may spot include:
+        </p>
+        <p>
+          <span className="d-block">
+            <strong>Indian Peafowl: </strong>The peacock is often seen as one of the wonders of the sanctuary. Consequently, it is easy to notice the giant peacock with colourful feathers.
+          </span>
+
+          <span className="d-block">
+            <strong>Indian Roller: </strong>This brightly coloured bird is common in the sanctuary, especially around water sources.
+          </span>
+
+          <span className="d-block">
+            <strong>Barn Owls: </strong>These are nocturnal rodents; people can see these animals in the sanctuary. Hence, they can make their visit spooky.
+          </span>
+
+          <span className="d-block">
+            <strong>Crested Serpent Eagle: </strong>A rare and beautiful bird, this eagle is a treat for avid bird watchers.
+          </span>
+
+        </p>
+        <p className="fw-bold mb-0">
+          4. Reptiles and Amphibians
+        </p>
+        <p>This also has other members of the reptiles and amphibians known to exist in the sanctuary, including snakes, lizards and frogs. Some famous snakes in this place are the Indian cobra and Russell&lsquo;s viper.</p>
+        <p className="fw-bold mb-0">
+          The experience of the Jhalana Leopard Safari
+        </p>
+        <p>Wildlife tourism is a rare experience if one goes for a jungle safari in the {Link('Jhalana Leopard Safari Wildlife Tour', 'https://www.rajasthantourpackages.in/3days-jhalana-leopard-safari-tour')} Sanctuary. Tourists can visit the sanctuary on <strong>jeep safaris</strong> since it is surrounded by naturalists familiar with the animals behaviours and strengths.
+        </p>
+        <p className="fw-bold mb-0">Safari Timings and Duration
+        </p>
+        <p>Jhalana offers <strong>two safari timings</strong> during the day:
+          <span className="d-block">
+            <strong>Morning Safari: </strong>6:30 AM – 9:30 AM
+          </span>
+          <span className="d-block">
+            <strong>Evening Safari: </strong>3:30 PM – 6:30 PM
+          </span>
+        </p>
+        <p>Each safari lasts approximately three hours, and enough time is provided to the visitor to maximize their opportunity to interact with the wildlife within the sanctuary.
+        </p>
+        <hr />
+        <h4>Jeep Safari
+        </h4>
+        <hr />
+        <div className="slug-image-container my-2">
+          <Image
+            src={jhalanaJeepSawari}
+            alt="Jeep Safari in Jhalana"
+            title='Exciting Jeep safari experience in Jhalana Leopard Sanctuary'
+            width={1500}
+            height={600}
+          />
+        </div>
+        <hr />
+        <p><strong>Jeep Safari in Jhalana</strong> is an exciting trip over the sanctuary&lsquo;s rugged terrain. The jeeps are exposed, which provides a more intimate kind of travel. The expert tour guide will introduce areas of interest, such as animals, birds, or plants, as you drive around the sanctuary.
+          The main attractions of the safari are the leopards, but it is definitely not all about the leopards. The experience is a chance to interact with nature as a person cycles in dusty lanes, fords small streams, and generally feels the wilderness around them.
+        </p>
+        <p className="fw-bold mb-0">
+          Best Time to Visit
+
+        </p>
+        <p>According to experts, visiting any wildlife sanctuary, such as Jhalana Leopard Safari, is advisable between <strong>October and March</strong>. These months are relatively calm because they do not raise the risk of distress in the animals and attendant discomfort in the people. Funnily, Leopards are easier to see in the dry season because they congregate around water sources. This is also great because colder seasons are a good way to observe the wildlife most of the time.
+        </p>
+        <p className="fw-bold mb-0">
+          Safari Booking and Pricing
+
+        </p>
+        <p><strong>jhalana leopard safari online booking</strong> can be done on the official website or through any authorized tour operator. Organizing your safari in advance is wise, especially for travellers during the holiday or month-end, since most operators have fully booked tours. Jeep Safari may cost anything, <strong>starting from INR 1200 to even INR 2000</strong>, depending on the time of the local region and the particular season.
+        </p>
+        <p className="fw-bold mb-0">
+          Conservation Efforts at Jhalana Leopard Safari Wildlife Sanctuary
+        </p>
+        <p>The principle behind the operations of Jhalana Leopard Safari Park is because of the sustained effort in conservation. They participate in the eradication of leopard species and their habitats&lsquo; conservation, and increasing the people’s awareness of the need to protect wildlife in India.
+        </p>
+        <p>Jhalana has turned out to be the epitome of the successful implementation of sustainable tourism, which involves a responsible way of doing business. People are informed on how to comfort themselves when approaching the animals during the safari, which makes the sanctuary a reserve for the animals.
+        </p>
+        <p className="fw-bold mb-0">
+          Other Activities in and Around Jhalana
+
+        </p>
+        <p>Despite the primary focus on leopard safari, there are many other things to do around Jhalana that you need help engaging with. Across those attractions are the <strong>Amber Fort, Nahargarh Fort, Jaigarh Fort</strong>, and many others, easily accessible by road. To history buffs, they are a vibrant and diverse source of the experience of {Link('Jaipur Tour Packages', 'https://www.rajasthantourpackages.in/jaipur')}, but in addition to that, for wildlife lovers.
+        </p>
+        <p className="fw-bold mb-0">
+          Conclusion
+
+        </p>
+        <p>The Jhalana Leopard Safari Wildlife Sanctuary of Jaipur offers a great opportunity for lovers of the natural environment and animals on their {Link('Rajasthan travel packages', 'https://www.rajasthantourpackages.in/rajasthan-tour-packages')}. There are few better places to go looking for leopards, and other wildlife for that matter, in the benign surrounds of the Aravalli hills. Since the sanctuary is easily accessible from Jaipur, the main advantage is experienced and unique safari tours to view the inhabitants.
+        </p>
+        <p>Bird watchers, wildlife photographers, adventurous people who want to experience an exciting safari, and people who want to keep in touch with nature will get value for their time and money. The Jhalana Leopard Safari can offer you a great leopard experience. Therefore, start your journey, pack your bags and book your immediate or near future safari to the tranquillity of Rajasthan with {Link('Rajasthan Tours and Travels', 'https://www.rajasthantourpackages.in/')}.
+        </p>
+        <hr />
+        <p className="fw-bold mb-0">
+          Frequently Asked Questions
+        </p>
+        <p className="fw-bold mb-0">
+          1. What is Jhalana Leopard Safari Wildlife Sanctuary?
+
+        </p>
+        <p>
+          The Jhalana Leopard Safari Wildlife Sanctuary is a wildlife park on the outskirts of Jaipur, in the southern region of Rajasthan state of India, mainly famed for its leopard inhabitants. Its area is 20.5 sq km. One can go through a jeep safari, thanks to which it will be possible to find the lands and diverse flora and fauna of the mentioned territory.
+        </p>
+        <p className="fw-bold mb-0">
+          2. Where is Jhalana Leopard Safari Wildlife Sanctuary located?
+        </p>
+        <p>The Jhalana Leopard Safari Wildlife Sanctuary is located in the Aravalli hills, only 10 km from the city centre. As the name suggests, it is also accessible by road, making it a worthwhile one-day trip.</p>
+        <p className="fw-bold mb-0">
+          3. Which animals are in Jhalana Leopard Safari?
+
+        </p>
+        <p>The sanctuary is dependent on leopards, which are carnivores. Still, it provides hideouts for various animals and birds, such as spotted deer, wild boars, Indian foxes, wild jackals, nilgai, and occasionally Indian peafowl, Indian roller, and barn owls. The sanctuary also hosts several reptiles and amphibians.
+        </p>
+        <p className="fw-bold mb-0">
+          4. What is the right time to visit Jhalana Leopard Safari?
+
+        </p>
+        <p>The best visitable season of the Jhalana Leopard Safari is from <strong>October to March</strong>. During these months, the climate is a little cooler than during the summer months for people when there are many tourists and other animals. Big cats, such as leopards, are also around during this time, increasing your chances of seeing some animals.
+        </p>
+        <p className="fw-bold mb-0">
+          5. How can I book any safari at Jhalana Leopard Safari?
+        </p>
+        <p>Today, it is possible to book the safari independently through Jhalana Leopard Safari&lsquo;s official website and with several officially certified companies to book the safari. There should be some bookings if one has to get the accommodations in the tourist accommodation.</p>
+        <p className="fw-bold mb-0">
+          6. What is the visiting time of a safari at Jhalana Leopard Safari?
+
+        </p>
+        <p>Each safari lasts approximately 3 hours. There are two safari slots each day. The <strong>Morning Safari operates from 6:30 AM – 9:30 AM</strong>, while the <strong>Evening Safari operates between 3:30 PM – 6:30 PM</strong> to allow visitors enough time in the sanctuary.
+
+
+        </p>
+        <p className="fw-bold mb-0">
+          7. What is the cost of a safari at Jhalana Leopard Safari?
+        </p>
+        <p>The typical cost for a jeep safari at Jhalana ranges between INR 1200 and INR 2000, depending on the season and time of day. However, the above charges may change depending on the number of people in the jeep.</p>
+        <p className="fw-bold mb-0">
+          8. Is Jhalana Leopard Safari safe?
+        </p>
+        <p>The truth is that the safari at Jhalana Leopard Safari is safe. The jeep safaris are conducted under the supervision of a naturalist who knows how to handle wildlife encounters. A lot of effort is made to guarantee the security of people while endeavouring not to interfere with the normal behaviour or restricted domain of wildlife.
+        </p>
+        <p className="fw-bold mb-0">
+          9. Is there any hotel around Jhalana Leopard Safari?
+        </p>
+        <p>There is no lodging within the sanctuary, but many hotels and guest houses in Jaipur are just 30 kilometres from Jhalana. Depending on the hotel category, visitors are spoiled with choices when selecting a hotel in Jaipur.
+        </p>
+        <p className="fw-bold mb-0">
+          10. Can I visit Jhalana Leopard Safari with the children?
+        </p>
+        <p>Indeed, children can accompany their parents to <strong>Jhalana Leopard Safari</strong> and enjoy it. About the Company As a result, the safari offers children the fun and educational value of learning about wildlife and conservation. However, as with safety, some said children should not be allowed to walk around the safari independently.
+        </p>
+
+      </>
+    )
   },
   // News & Updates
   {

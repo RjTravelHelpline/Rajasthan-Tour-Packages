@@ -56,6 +56,9 @@ const routes = [
   {
     path: '/blog/best-places-to-eat-in-jodhpur-top-restaurants-cafes',
   },
+  {
+    path: '/blog/jhalana-leopard-safari-wildlife-sanctuary-jaipur',
+  },
   // destination
   { path: '/jaipur' },
   { path: '/mount-abu' },
