@@ -59,6 +59,9 @@ const routes = [
   {
     path: '/blog/jhalana-leopard-safari-wildlife-sanctuary-jaipur',
   },
+  {
+    path: '/blog/destination-wedding-in-rajasthan-royal-celebration',
+  },
   // destination
   { path: '/jaipur' },
   { path: '/mount-abu' },
