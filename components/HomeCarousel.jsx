@@ -12,7 +12,7 @@ const HomeCarousel = () => {
                 <Carousel.Item>
                     <Image src={HomeBanner01} alt="Rajasthan Shotmen also Camel during sunset in desert" title='India is a country of Temples, Tradition and Scenic beauty' width={1500} height={1000} priority={true} />
                     <Carousel.Caption>
-                        <h3 className='home-banner-caption web-title    '>Majestic Rajasthan</h3>
+                        <h3 className='home-banner-caption web-title'>Majestic Rajasthan</h3>
                         <div className="d-flex justify-content-center align-items-center">
                             <hr style={{ borderColor: 'var(--color-primary)' }} />
                             <span className='color-tertary px-2 mx-2 w-auto d-flex justify-content-center align-items-center'>◆</span>
@@ -21,9 +21,9 @@ const HomeCarousel = () => {
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <Image src={HomeBanner02} alt="Home Banner" width={1500} height={1000} priority={true} />
+                    <Image src={HomeBanner02} alt="Rajasthan Shotmen also Camel during sunset in desert" width={1500} height={1000} priority={true} />
                     <Carousel.Caption>
-                        <h3 className='home-banner-caption web-title    '>Thrilling Adventures</h3>
+                        <h3 className='home-banner-caption web-title'>Thrilling Adventures</h3>
                         <div className="d-flex justify-content-center align-items-center">
                             <hr style={{ borderColor: 'var(--color-primary)' }} />
                             <span className='color-tertary px-2 mx-2 w-auto d-flex justify-content-center align-items-center'>◆</span>
@@ -32,9 +32,9 @@ const HomeCarousel = () => {
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <Image src={HomeBanner03} alt="Home Banner" width={1500} height={1000} priority={true} />
+                    <Image src={HomeBanner03} alt="Rajasthan Shotmen also Camel during sunset in desert" width={1500} height={1000} priority={true} />
                     <Carousel.Caption>
-                        <h3 className='home-banner-caption web-title    '>Cultural Splendor</h3>
+                        <h3 className='home-banner-caption web-title'>Cultural Splendor</h3>
                         <div className="d-flex justify-content-center align-items-center">
                             <hr style={{ borderColor: 'var(--color-primary)' }} />
                             <span className='color-tertary px-2 mx-2 w-auto d-flex justify-content-center align-items-center'>◆</span>
