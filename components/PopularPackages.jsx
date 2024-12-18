@@ -87,14 +87,14 @@ const Packages = () => {
                   >
                     <Card className="card bg-transparent">
                       <div className="card-image-container">
-                        <Image src={pkg.imgSrc} alt="Card Package" width={600}
+                        <Image src={pkg.imgSrc} alt={pkg.alt} title={pkg.imgTitle} width={600}
                           height={800} />
                       </div>
 
                       <div className="row card-content d-flex align-items-center justify-content-center">
                         <div className="w-100 card-header d-flex justify-content-between align-items-start pt-0 pb-0">
                           <p className="fw-normal text-left package-duration w-auto">
-                            {pkg.duration}
+                            {`${pkg.nights} Night${pkg.nights > 1 ? 's' : ''} • ${pkg.days} Day${pkg.days > 1 ? 's' : ''}`}
                           </p>
                           <p className="price px-2 text-capitalize mb-1 w-auto">
                             ₹{pkg.price}

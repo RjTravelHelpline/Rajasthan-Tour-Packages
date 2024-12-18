@@ -21,7 +21,7 @@ const HomeCarousel = () => {
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <Image src={HomeBanner02} alt="Rajasthan Shotmen also Camel during sunset in desert" width={1500} height={1000} priority={true} />
+                    <Image src={HomeBanner02} alt="Agra Taj Mahal" title='Ultrawide shot of Agra Taj Mahal' width={1500} height={1000} priority={true} />
                     <Carousel.Caption>
                         <h3 className='home-banner-caption web-title'>Thrilling Adventures</h3>
                         <div className="d-flex justify-content-center align-items-center">
@@ -32,7 +32,7 @@ const HomeCarousel = () => {
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <Image src={HomeBanner03} alt="Rajasthan Shotmen also Camel during sunset in desert" width={1500} height={1000} priority={true} />
+                    <Image src={HomeBanner03} alt="Jaipur Hawa Mahal" title='Front view of Jaipur Hawa Mahal' width={1500} height={1000} priority={true} />
                     <Carousel.Caption>
                         <h3 className='home-banner-caption web-title'>Cultural Splendor</h3>
                         <div className="d-flex justify-content-center align-items-center">

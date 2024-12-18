@@ -37,7 +37,7 @@ const PackagesSlider = ({ packages, href, exploreAll = true }) => {
                             >
                                 <Card className="card bg-transparent">
                                     <div className="card-image-container">
-                                        <Image src={pkg.imgSrc} alt="Card Package" width={600}
+                                        <Image src={pkg.imgSrc} alt={pkg.alt} title={pkg.imgTitle} width={600}
                                             height={800} />
                                     </div>
 

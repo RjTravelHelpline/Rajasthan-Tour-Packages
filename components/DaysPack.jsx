@@ -64,7 +64,8 @@ const DaysPack = () => {
                                         <Image
                                             variant="top"
                                             src={pkg.imgSrc}
-                                            alt="Card Packages"
+                                            alt={pkg.imgAlt}
+                                            title={pkg.imgTitle}
                                             className="w-100 card-image"
                                             width={600}
                                             height={800}

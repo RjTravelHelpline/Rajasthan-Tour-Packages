@@ -48,7 +48,7 @@ const BlogPost = ({ params }) => {
                                 <div className="slug-image-container mb-2">
                                     <Image
                                         src={blog.image}
-                                        alt={blog.title}
+                                        alt={blog.alt}
                                         title={blog.title}
                                         width={1500}
                                         height={600}

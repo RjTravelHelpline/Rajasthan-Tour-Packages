@@ -3,8 +3,6 @@ import { useState } from 'react';
 import { Card } from 'react-bootstrap';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import { GoArrowRight } from 'react-icons/go';
-import { FaGripfire } from 'react-icons/fa';
 import SlickSlider from './SlickSlider';
 import Link from 'next/link';
 import { tourByCities } from '@/data/data';
@@ -25,11 +23,9 @@ const PackagesByCities = () => {
       <div className="container bydayspackages mb-5">
         <div className="row py-2 px-2 d-flex justify-content-center align-items-center">
           <div className="d-flex-justify-content-center align-items-center">
-            {/* <hr style={{ borderColor: 'var(--color-tertary)' }} /> */}
             <h2 className="text-center text-capitalize home-head web-title fw-normal">
               tour packages <span className="fw-bold">by cities </span>
             </h2>
-            {/* <hr style={{ borderColor: 'var(--color-tertary)' }} /> */}
           </div>
           <p className="text-center home-para">
             Discover the allure of Rajasthan with our tailored tour packages,
@@ -71,7 +67,8 @@ const PackagesByCities = () => {
                   <Card className="card bg-transparent">
                     <Image
                       src={pkg.imgSrc}
-                      alt="Card Packages"
+                      alt={pkg.imgAlt}
+                      title={pkg.imgSrc}
                       className="w-100 card-image"
                       width={600}
                       height={800}

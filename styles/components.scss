@@ -1023,17 +1023,11 @@
 .custom-prev {
   right: 68px;
   transition: 0.16s ease-in-out;
-  &:hover {
-    right: 76px;
-  }
 }
 
 .custom-next {
   right: 20px;
   transition: 0.16s ease-in-out;
-  &:hover {
-    right: 12px;
-  }
 }
 
 /* Change the color of inactive dots */
