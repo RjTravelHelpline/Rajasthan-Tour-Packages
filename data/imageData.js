@@ -332,8 +332,8 @@ export const allStatesImages = {
     },
     agra01: {
       src: agraImg,
-      alt: 'View of Agra city',
-      title: 'View of Agra city',
+      alt: 'View of Tajmahal',
+      title: 'View of Tajmahal in Agra city ',
     },
     agraFort: {
       src: agraFortImg,
