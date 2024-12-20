@@ -25,7 +25,7 @@ module.exports = {
     };
   },
   generateIndexSitemap: false,
-  
+
   // Custom options for robots.txt
   robotsTxtOptions: {
     policies: [
