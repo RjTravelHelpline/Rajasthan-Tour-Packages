@@ -1,10 +1,7 @@
 "use client";
-import { FaGripfire } from 'react-icons/fa';
 import { useState } from 'react';
-import { MdArrowOutward } from 'react-icons/md';
 import SlickSlider from './SlickSlider';
 import { reviewers } from '@/data/data';
-import Link from 'next/link';
 import Image from 'next/image';
 import { BiUser } from 'react-icons/bi';
 const tripAdvisorLogo = '/Images/Logos/tripadvisor-logo.webp';
@@ -17,14 +14,12 @@ const Reviews = () => {
         <div className="container reviews mb-5">
           <div className="row py-2 px-2 d-flex justify-content-center align-items-center">
             <div className="d-flex-justify-content-center align-items-center">
-              {/* <hr style={{ borderColor: 'var(--color-tertary)' }} /> */}
               <h2 className="text-center text-capitalize home-head web-title fw-normal">
                 guests’ <span className="fw-bold">happiness </span>
               </h2>
               <p className="text-center text-capitalize">
                 Discover how our travelers experienced the magic of Rajasthan with us.
               </p>
-              {/* <hr style={{ borderColor: 'var(--color-tertary)' }} /> */}
             </div>
           </div>
           <div className="row py-4 d-flex align-items-stretch px-2 mb-3">
@@ -66,9 +61,9 @@ const ReviewCard = ({ reviewer }) => {
           ))}
         </div>
         <div className='d-flex flex-column align-items-center'>
-          <h4 className="text-capitalize review-title mx-2 w-100 px-2 web-title fw-bold">
+          <h3 className="text-capitalize review-title mx-2 w-100 px-2 web-title fw-bold">
             {reviewer.title}
-          </h4>
+          </h3>
           <p
             className="review-description mx-2"
           >

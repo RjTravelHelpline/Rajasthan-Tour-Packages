@@ -307,7 +307,7 @@ const Navbar = () => {
                                         mail@rajasthantravelhelpline.com
                                     </a>
                                     <a
-                                        href="mailto:mail@rajasthantravelhelpline.com"
+                                        href="https://www.instagram.com/rajasthantravelhelpline/"
                                         target="_blank"
                                         className="text-lowercase p-3 fw-bold social-icon"
                                     >
@@ -315,7 +315,7 @@ const Navbar = () => {
                                         <span className="px-2"></span>instagram
                                     </a>
                                     <a
-                                        href="mailto:mail@rajasthantravelhelpline.com"
+                                        href="https://www.facebook.com/rajasthantravelhelpline/"
                                         target="_blank"
                                         className="text-lowercase p-3 fw-bold social-icon"
                                     >

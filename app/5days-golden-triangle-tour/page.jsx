@@ -13,7 +13,11 @@ import { FaStarOfLife } from "react-icons/fa";
 const FiveDaysGoldenTriangleTour = () => {
 
     const images = [
-        { src: allCitiesImages.jaisalmer.jaisalmerLeisure.src },
+        {
+            src: allCitiesImages.jaisalmer.jaisalmerLeisure.src,
+            alt: allCitiesImages.jaisalmer.jaisalmerLeisure.alt,
+            title: allCitiesImages.jaisalmer.jaisalmerLeisure.title
+        },
     ];
 
     const content = [

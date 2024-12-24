@@ -10,6 +10,18 @@ import Image from 'next/image';
 import { ExploreAll } from './ExploreAll';
 
 const PackagesByCities = () => {
+  const link = (text, url) => {
+    return (
+      <a
+        href={url}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="anchor text-web fw-bold"
+      >
+        {text}
+      </a>
+    );
+  };
   // visible cities
   const visibleCities = tourByCities.slice(0, 7);
   const [readMore, setReadMore] = useState(false);
@@ -28,27 +40,10 @@ const PackagesByCities = () => {
             </h2>
           </div>
           <p className="text-center home-para">
-            Discover the allure of Rajasthan with our tailored tour packages,
-            perfect for travelers seeking a{' '}
-            <span className="fw-bold text-capitalize">
-              Rajasthan tour package
-            </span>{' '}
-            from different cities, states, and countries, whether it&apos;s from
-            Delhi, Mumbai,
+            Learn more about Rajasthan with the help of our Rajasthan tour packages, which are suitable for travelers who want a {link('Rajasthan Tour By Cities', 'https://www.rajasthantourpackages.in/rajasthan-tour-by-cities')} from other cities, states, or countries, including Delhi, Mumbai, Kolkata, Bangalore, and other parts of the world.
             {readMore && (
               <>
-                Kolkata, Bangalore, or anywhere in the world. Our specialized
-                packages cater to various cities, offering a seamless journey to
-                explore Rajasthan&apos;s vibrant heritage and majestic landscapes.
-                Whether you&apos;re departing for the{' '}
-                <span className="fw-bold">
-                  Rajasthan Tour from the United Kingdom
-                </span>
-                , Germany, France, Australia, or the USA. Our itineraries ensure
-                a memorable experience with personalized attention and flexible
-                options. Book your Rajasthan Tour today and dive into the rich
-                culture, majestic forts, and colorful markets of Rajasthan, no
-                matter where you start your adventure.
+                Our specialized packages cater to various cities, offering a seamless journey to explore Rajasthan&apos;s vibrant heritage and majestic landscapes. Whether you&apos;re departing for the <strong>Rajasthan Tour from the United Kingdom</strong>, Germany, France, Australia, or the USA. Our itineraries ensure a memorable experience with personalized attention and flexible options. Book your Rajasthan Tour today and dive into the rich culture, majestic forts, and colorful markets of Rajasthan, no matter where you start your adventure.
               </>
             )}
             <button className="read-more-btn p-0 bg-transparent" onClick={handleReadMore}>

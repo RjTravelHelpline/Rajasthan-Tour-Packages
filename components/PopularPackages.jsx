@@ -9,6 +9,18 @@ import { ExploreAll } from './ExploreAll';
 import Image from 'next/image';
 
 const Packages = () => {
+  const link = (text, url) => {
+    return (
+      <a
+        href={url}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="anchor text-web fw-bold"
+      >
+        {text}
+      </a>
+    );
+  };
   const [packages, setPackages] = useState([])
 
   useEffect(() => {
@@ -63,7 +75,7 @@ const Packages = () => {
                 <>
                   , majestic forts, and stunning landscapes. Whether {`you're`}{' '}
                   a history buff, a cultural enthusiast, or an adventure seeker,
-                  our popular tour packages cater to all interests, ensuring a
+                  our {link('popular tour packages', 'https://www.rajasthantourpackages.in/popular-tour-packages')} cater to all interests, ensuring a
                   truly memorable experience. Book your journey today and get
                   ready to immerse yourself in the timeless charm of Rajasthan
                   with our tour packages designed to create lifelong memories.

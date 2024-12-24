@@ -79,10 +79,10 @@ const Footer = () => {
                                 target="_blank"
                                 aria-label='trip advisor'
                             >
-                                <Image width={300} height={50} src={tripAdvisorLogo} alt="Trip Advisor Logo" />
+                                <Image width={300} height={50} src={tripAdvisorLogo} alt="Trip Advisor Logo" title='Tripadvisor logo representing trusted travel reviews' />
                             </a>
                             <a href="/" className="image-link d-flex justify-content-center align-items-center" target="_blank" aria-label='google'>
-                                <Image width={300} height={50} src={googleStars} alt="Goggle Rewiew Image" />
+                                <Image width={300} height={50} src={googleStars} alt="Goggle Rewiew Image" title='Google Review logo showcasing customer feedback' />
                             </a>
                         </div>
                     </div>

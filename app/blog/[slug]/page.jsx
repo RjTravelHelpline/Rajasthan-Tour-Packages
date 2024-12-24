@@ -49,6 +49,7 @@ const BlogPost = ({ params }) => {
                                     <Image
                                         src={blog.image}
                                         alt={blog.alt}
+                                        className="w-100 h-100 rounded-4"
                                         title={blog.title}
                                         width={1500}
                                         height={600}

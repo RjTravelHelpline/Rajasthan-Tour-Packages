@@ -1434,7 +1434,7 @@ form {
     display: block;
   }
   .review-title {
-    font-size: clamp(0.85em, 3vw, 1.3em);
+    font-size: clamp(1em, 2vw, 1.25em) !important;
   }
   .review-description {
     font-size: clamp(0.65em, 2vw, 0.99em);
