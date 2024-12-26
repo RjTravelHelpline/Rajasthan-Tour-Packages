@@ -38,7 +38,7 @@ const BlogPost = ({ params }) => {
 
     return (
         <>
-            <div className="container-fluid py-4 blog-slug mt-5 pt-5 px-0 text-black">
+            <div className="container-fluid py-4 blog-slug mt-5 pt-5 px-0">
                 <div className="container px-0 d-flex justify-content-center align-items-center w-100 days-container overview destination">
                     <div className="row d-flex justify-content-center align-items-start px-0 w-100">
                         <div className="col-lg-8 col-md-12 col-sm-12 px-sm-0 px-md-0 px-lg-2">

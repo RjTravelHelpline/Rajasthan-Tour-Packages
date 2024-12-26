@@ -8,7 +8,7 @@ import { IoMdArrowDropdown, IoMdClose } from 'react-icons/io';
 import ContactForm from './ContactForm';
 import { FaMessage } from 'react-icons/fa6';
 import SearchBar from './SearchBar';
-import { IoClose } from 'react-icons/io5';
+import { IoClose, IoSearch } from 'react-icons/io5';
 
 const BlogNavbar = () => {
     const [show, setShow] = useState(false);
@@ -95,7 +95,7 @@ const BlogNavbar = () => {
                         <div className="nav-item">
                             <Link
                                 href="/blog"
-                                className="px-0 mx-3 py-4 text-nowrap text-uppercase"
+                                className="px-0 mx-3 py-4 text-nowrap text-capitalize"
                                 activeclassname="active"
                             >
                                 home
@@ -104,7 +104,7 @@ const BlogNavbar = () => {
                         <div className="nav-item">
                             <Link
                                 href="/about-us"
-                                className="px-0 mx-3 py-4 text-nowrap text-uppercase"
+                                className="px-0 mx-3 py-4 text-nowrap text-capitalize"
                                 activeclassname="active"
                             >
                                 about us
@@ -113,29 +113,28 @@ const BlogNavbar = () => {
                         <div className="nav-item">
                             <Link
                                 href="/contact-us"
-                                className="px-0 mx-3 py-4 text-nowrap text-uppercase"
+                                className="px-0 mx-3 py-4 text-nowrap text-capitalize"
                                 activeclassname="active"
                             >
                                 contact us
                             </Link>
                         </div>
                     </div>
-                    <div className="col d-flex justify-content-center align-items-center px-2">
+                    <div className="col d-flex justify-content-center align-items-center px-2 blog-nav-buttons">
                         <div
-                            className={`col d-flex justify-content-end align-items-center ${!ismobile ? 'gap-3' : 'gap-1'
+                            className={`col d-flex justify-content-end align-items-center ${!ismobile ? 'gap-2' : 'gap-1'
                                 }`} >
                             <>
-                                <button className="d-flex justify-content-center align-items-center p-3 rounded-5 shadow-none bg-white color-tertary" onClick={handleShowSearch}>
-                                    <FaSearch />
+                                <button className="d-flex justify-content-center align-items-center p-3 rounded-5 shadow-none bg-white color-tertary search" onClick={handleShowSearch}>
+                                    <IoSearch />
                                 </button>
                                 {!ismobile && (
                                     <button
-                                        className="d-flex justify-content-center align-items-center gap-2 rounded-4" style={{ fontWeight: '500', textTransform: "capitalize" }}
+                                        className="d-flex justify-content-center align-items-center gap-2 rounded-4 enquiry web-title" style={{ fontWeight: '500', textTransform: "capitalize" }}
                                         onClick={handleShow}
                                     >
-                                        <FaMessage className="icon text-black" />
+                                        <FaMessage className="icon" />
                                         enquiry
-
                                     </button>
                                 )}
                             </>
@@ -144,7 +143,7 @@ const BlogNavbar = () => {
                     </div>
                     {ismobile && (
                         <button
-                            className="d-flex justify-content-center align-items-center p-3 rounded-5 bg-black shadow-none mobile-ham blog-mobile-ham "
+                            className="d-flex justify-content-center align-items-center p-3 rounded-5 bg-black shadow-none"
                             onClick={handleNavigation}
                         >
                             <FaGripLines />

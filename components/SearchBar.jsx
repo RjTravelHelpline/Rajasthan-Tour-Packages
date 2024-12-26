@@ -1,7 +1,7 @@
 "use client"
 import { useState } from 'react';
 import { FaCross } from 'react-icons/fa6';
-import { IoClose } from 'react-icons/io5';
+import { IoClose, IoSearch } from 'react-icons/io5';
 
 const SearchBar = ({ blogs, styles, autofocus = false, placeholder }) => {
 
@@ -36,6 +36,7 @@ const SearchBar = ({ blogs, styles, autofocus = false, placeholder }) => {
     return (
         <div className="blog-search-bar w-100">
             <div className='w-100 d-flex justify-content-center align-items-center'>
+                {/* <IoSearch /> */}
                 <input
                     type="text"
                     value={query}

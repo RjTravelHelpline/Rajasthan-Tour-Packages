@@ -1,10 +1,10 @@
 "use client"
-import { MdArrowOutward, MdExpandLess, MdExpandMore } from "react-icons/md";
+import { MdArrowOutward } from "react-icons/md";
 import Link from "next/link";
 import { useState } from "react";
 import Image from "next/image";
 import { formatDate } from "@/Utils/util";
-import { PiCalendar, PiUser } from "react-icons/pi";
+import { PiUser } from "react-icons/pi";
 import { BiCalendar } from "react-icons/bi";
 
 export const BlogDataSection = ({ category, Data, icon, subhead }) => {
@@ -17,40 +17,36 @@ export const BlogDataSection = ({ category, Data, icon, subhead }) => {
     };
     return (
         <>
-            <div className="container-fluid px-0 section-02 pt-2">
+            <div className="container-fluid px-0 py-4 blog-data-section">
                 <div className="container packages">
                     <div
                         className="row tour my-3 justify-content-center align-items-stretch"
                         id={`from-${category}`}
                     >
-                        <div className="row w-100 py-3 d-flex flex-column px-0">
-                            <div className="col-12 d-flex flex-column justify-content-center align-items-center">
-                                <p className="mb-0 text-capitalize">{subhead}</p>
-                                <div className="w-100 d-flex justify-content-center align-items-center">
-                                    <div className="col-8 d-flex justify-content-center align-items-center gap-2">
-                                        <hr style={{ borderColor: 'var(--color-black)' }} />
-                                        <p className="mb-0 color-tertary"> {icon} </p>
-                                        <hr style={{ borderColor: 'var(--color-black)' }} />
-                                    </div>
-                                </div>
-                                <h3 className="text-capitalize fw-normal">
-                                    <span className="fw-bold blog-subhead-gradient d-block text-center text-uppercase">{category}</span>
-                                </h3>
+                        <div className="row w-100 py-3 d-flex justify-content-start align-items-center px-2">
+                            <div
+                                className='col-12 px-3 d-flex flex-column justify-content-start align-items-start'
+                            >
+                                <p className="color-tertary bg-tertary-down p-2 d-flex rounded-3 w-auto"> {icon} </p>
+                                <h2 className="text-capitalize fw-normal w-auto">
+                                    <span className="fw-bold blog-category-head d-block text-capitalize web-title">{category}</span>
+                                </h2>
+                                <p className="mb-0 text-capitalize blog-section-subhead">{subhead}</p>
                             </div>
                         </div>
                         <div className="row py-2 d-flex align-items-stretch justify-content-center px-2 blogs">
-                            <div className="row d-flex justify-content-center py-2">
+                            <div className="row d-flex justify-content-start py-2">
                                 {visibleTours.map((blog) => {
                                     const visibleDescription =
                                         blog.description.split(' ').slice(0, 20).join(' ') + '...';
                                     return (
                                         <div
-                                            className={`col-12 col-lg-6 col-md-6 col-sm-12 px-0 overflow-auto d-flex justify-content-center py-2 px-2`}
+                                            className={`col-12 col-lg-4 col-md-6 col-sm-12 px-0 overflow-auto d-flex justify-content-center py-2 px-2`}
                                             key={blog.date}
                                         >
-                                            <Link href={`/blog/${blog.slug}`} className="w-100 mb-1 p-2 px-2 rounded-4" style={{ border: '1px solid #dbdbdb4f', backgroundColor: 'rgb(251,214,200)' }}>
-                                                <div className="blog-card w-100 d-flex flex-column justify-content-between rounded-4 w-100 p-2">
-                                                    <div className="blog-image-container w-100 mb-3">
+                                            <Link href={`/blog/${blog.slug}`} className="w-100 mb-1 rounded-4 blog-link">
+                                                <div className="blog-card w-100 d-flex flex-column justify-content-between rounded-4 w-100">
+                                                    <div className="blog-image-container w-100">
                                                         <Image
                                                             src={blog.image}
                                                             alt={blog.heading}
@@ -59,19 +55,21 @@ export const BlogDataSection = ({ category, Data, icon, subhead }) => {
                                                             height={600}
                                                         />
                                                     </div>
-                                                    <p className="blog-category mb-0">{blog.category}</p>
-                                                    <h3 className="blog-heading">{blog.heading}</h3>
-                                                    <p className="mb-2">{visibleDescription}</p>
-                                                    <div className="row d-flex justify-content-start w-100 align-items-center">
-                                                        <p className="text-capitalize text-muted w-auto blog-author mb-0 d-flex justify-content-center align-items-center">
-                                                            <PiUser className="me-2 color-tertary" />{blog.author}
-                                                        </p>
-                                                        <p className="text-muted w-auto px-0 blog-dot mb-0">
-                                                            ▪
-                                                        </p>
-                                                        <p className="text-muted w-auto blog-date mb-0 d-flex justify-content-center align-items-center">
-                                                            <BiCalendar className="me-2 color-tertary" />{formatDate(blog.date)}
-                                                        </p>
+                                                    <div className="blog-content p-3">
+                                                        <p className="blog-category mb-0">{blog.category}</p>
+                                                        <h3 className="blog-heading web-title">{blog.heading}</h3>
+                                                        <p className="mb-2 blog-desc">{visibleDescription}</p>
+                                                        <div className="row d-flex justify-content-start w-100 align-items-center">
+                                                            <p className="text-capitalize w-auto blog-author mb-0 d-flex justify-content-center align-items-center">
+                                                                <PiUser className="me-2 color-tertary" />{blog.author}
+                                                            </p>
+                                                            <p className="w-auto px-0 blog-dot mb-0">
+                                                                ▪
+                                                            </p>
+                                                            <p className="w-auto blog-date mb-0 d-flex justify-content-center align-items-center">
+                                                                <BiCalendar className="me-2 color-tertary" />{formatDate(blog.date)}
+                                                            </p>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </Link>
@@ -80,27 +78,16 @@ export const BlogDataSection = ({ category, Data, icon, subhead }) => {
                                 })}
                             </div>
                         </div>
-                        <div className="row d-flex w-100 justify-content-between align-items-center w-100">
-                            <button
-                                onClick={toggleShowAll}
-                                className="more-btn bg-transparent d-flex justify-content-center align-items-center gap-2"
-                            >
-                                {showAll ? (
-                                    <>
-                                        Show less <MdExpandLess />
-                                    </>
-                                ) : (
-                                    <>
-                                        View all <MdExpandMore />
-                                    </>
-                                )}
-                            </button>
-                            <Link
-                                href={`/blog/categories/${category.replace(/&/g, 'and')}`}
-                                className="explore-btn card-button w-auto d-flex justify-content-between align-items-center gap-2"
-                            >
-                                Explore now <MdArrowOutward />
-                            </Link>
+                        <div className="row d-flex w-100">
+                            <div className="col-12 px-3 justify-content-between align-items-center">
+                                <hr />
+                                <Link
+                                    href={`/blog/categories/${category.replace(/&/g, 'and')}`}
+                                    className="explore-more text-white card-button w-auto d-flex justify-content-end align-items-center gap-2"
+                                >
+                                    Explore more <MdArrowOutward />
+                                </Link>
+                            </div>
                         </div >
                     </div>
                 </div>

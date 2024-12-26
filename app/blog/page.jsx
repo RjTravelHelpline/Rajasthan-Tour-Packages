@@ -39,81 +39,85 @@ const Blogs = () => {
     blogCategories
     return (
         <>
-            <div className="container-fluid bg-black blog-header text-white pt-5 pt-5">
-                <div className="row py-3 mt-5 d-flex justify-content-center align-items-center">
-                    <h1 className="text-center text-uppercase blog-head mb-3">blog</h1>
-                    <h2 className="fw-normal text-center blog-subhead">Discover <span className="blog-subhead-gradient">Travel Tips</span>, <span className="blog-subhead-gradient">Trends</span>, and <span className="blog-subhead-gradient">Inspiring Journey</span> Stories.</h2>
-                    <div className="col-12 col-lg-10 col-sm-10">
-                        <hr />
-                    </div>
-                    <div className="row py-3 justify-content-center align-items-center">
-                        <div className="col-lg-6 col-md-8 col-sm-10 px-4">
-                            <SearchBar blogs={blogs} placeholder="search here for any eg. food, culture, wildlife etc." />
+            <div className="ocntainer-fluid bg-transparent blog-bg">
+
+
+                <div className="container-fluid bg-transparent blog-header text-white pt-5">
+                    <div className="container py-4">
+                        <div className="row py-3 mt-5 d-flex justify-content-center align-items-center">
+                            <h1 className="text-capitalize text-center web-title blog-head mb-3">blog</h1>
+                            <h2 className="fw-normal text-center blog-subhead">Discover <span className="blog-subhead-gradient">Travel Tips</span>, <span className="blog-subhead-gradient">Trends</span>, and <span className="blog-subhead-gradient">Inspiring Journey</span> Stories</h2>
+                            {/* <div className="row py-3 justify-content-center align-items-center">
+                                <div className="col-lg-6 col-md-8 col-sm-10 px-4">
+                                    <SearchBar blogs={blogs} placeholder="search here for any eg. food, culture, wildlife etc." styles='bg-black' />
+                                </div>
+                            </div> */}
                         </div>
                     </div>
+                    <div className="row d-flex justify-content-center align-items-center bg-black">
+                        <HorizontalScrollBlogs blogs={latestBlogs} />
+                    </div>
                 </div>
-                <div className="row d-flex justify-content-center align-items-center">
-                    <HorizontalScrollBlogs blogs={latestBlogs} />
+                <RTPNav />
+                <div className="container-fluid px-0">
+                    <div className="row tour-packages-nav blog-data-nav overflow-auto">
+                        <a href="#from-food">
+                            <FaUtensils className="me-1 color-tertary icon" /> Food
+                        </a>
+                        <a href="#from-wildlife">
+                            <FaPaw className="me-1 color-tertary icon" /> Wildlife
+                        </a>
+                        <a href="#from-history-&-culture">
+                            <FaLandmark className="me-1 color-tertary icon" /> History & Culture
+                        </a>
+                        <a href="#from-fair-&-festivals">
+                            <FaTheaterMasks className="me-1 color-tertary icon" /> Fair & Festivals
+                        </a>
+                        <a href="#from-tour-&-travels">
+                            <FaPlane className="me-1 color-tertary icon" /> Tour & Travels
+                        </a>
+                        <a href="#from-news-&-updates">
+                            <FaNewspaper className="me-1 color-tertary icon" /> News & Updates
+                        </a>
+                    </div>
+                    <BlogDataSection
+                        category="food"
+                        subhead="Delicious Discoveries Across Local Cuisines"
+                        icon={<FaUtensils />}
+                        Data={foodBlogs}
+                    />
+                    <BlogDataSection
+                        category="wildlife"
+                        subhead="Nature's Wonders: Explore Untamed Beauty"
+                        icon={<FaPaw />}
+                        Data={wildlifeBlogs}
+                    />
+                    <BlogDataSection
+                        category="history-&-culture"
+                        subhead="Timeless Tales of Heritage and Culture"
+                        icon={<FaLandmark />}
+                        Data={historyBlogs}
+                    />
+                    <BlogDataSection
+                        category="fair-&-festivals"
+                        subhead="Festive Celebrations and Vibrant Traditions"
+                        icon={<FaTheaterMasks />}
+                        Data={festivalsBlogs}
+                    />
+                    <BlogDataSection
+                        category="tour-&-travels"
+                        subhead="Wanderlust Diaries: Travel and Adventure"
+                        icon={<FaPlane />}
+                        Data={travelBlogs}
+                    />
+                    <BlogDataSection
+                        category="news-&-updates"
+                        subhead="Latest Updates and Exciting Highlights"
+                        icon={<FaNewspaper />}
+                        Data={newsBlogs}
+                    />
+
                 </div>
-            </div>
-            <RTPNav />
-            <div className="container-fluid px-0">
-                <div className="row tour-packages-nav blog-data-nav overflow-auto">
-                    <a href="#from-food">
-                        <FaUtensils className="me-1 color-tertary icon" /> Food
-                    </a>
-                    <a href="#from-wildlife">
-                        <FaPaw className="me-1 color-tertary icon" /> Wildlife
-                    </a>
-                    <a href="#from-history-&-culture">
-                        <FaLandmark className="me-1 color-tertary icon" /> History & Culture
-                    </a>
-                    <a href="#from-fair-&-festivals">
-                        <FaTheaterMasks className="me-1 color-tertary icon" /> Fair & Festivals
-                    </a>
-                    <a href="#from-tour-&-travels">
-                        <FaPlane className="me-1 color-tertary icon" /> Tour & Travels
-                    </a>
-                    <a href="#from-news-&-updates">
-                        <FaNewspaper className="me-1 color-tertary icon" /> News & Updates
-                    </a>
-                </div>
-                <BlogDataSection
-                    category="food"
-                    subhead="Delicious Discoveries"
-                    icon={<FaUtensils />}
-                    Data={foodBlogs}
-                />
-                <BlogDataSection
-                    category="wildlife"
-                    subhead="Nature's Wonders"
-                    icon={<FaPaw />}
-                    Data={wildlifeBlogs}
-                />
-                <BlogDataSection
-                    category="history-&-culture"
-                    subhead="Timeless Tales"
-                    icon={<FaLandmark />}
-                    Data={historyBlogs}
-                />
-                <BlogDataSection
-                    category="fair-&-festivals"
-                    subhead="Festive Celebrations"
-                    icon={<FaTheaterMasks />}
-                    Data={festivalsBlogs}
-                />
-                <BlogDataSection
-                    category="tour-&-travels"
-                    subhead="Wanderlust Diaries"
-                    icon={<FaPlane />}
-                    Data={travelBlogs}
-                />
-                <BlogDataSection
-                    category="news-&-updates"
-                    subhead="Latest Updates"
-                    icon={<FaNewspaper />}
-                    Data={newsBlogs}
-                />
             </div>
         </>
     );

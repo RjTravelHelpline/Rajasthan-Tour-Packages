@@ -1,16 +1,17 @@
 "use client"
+import { getLatestBlogs } from '@/data/Blogs';
 import { formatDate } from '@/Utils/util';
 import Image from 'next/image';
 import Link from 'next/link';
-import { MdWidthNormal } from 'react-icons/md';
+import { BiCalendar } from 'react-icons/bi';
 
 const HorizontalScrollBlogs = ({ blogs }) => {
-    const allBlogs = [...blogs, ...blogs, ...blogs];
+    const filteredBlogs = getLatestBlogs(blogs.slice(0, 3));
+    const allBlogs = [...filteredBlogs, ...filteredBlogs, ...filteredBlogs];
     return (
         <>
-            <div className="scroll-wrapper pt-3 bg-tertary-down">
-                <h3 className='text-center text-uppercase'>Fresh <span style={{ fontStyle: 'italic', fontWeight: 'normal' }}>Insights</span></h3>
-                <div className="scroll-container d-flex justify-content-center align-items-center w-100  my-4 gap-2">
+            <div className="scroll-wrapper">
+                <div className="scroll-container d-flex justify-content-center align-items-center w-100 my-4 gap-2">
                     {
                         allBlogs.slice(0, 10).map((blog, index) => (
                             <div
@@ -29,11 +30,11 @@ const HorizontalScrollBlogs = ({ blogs }) => {
                                         />
                                     </div>
                                     <div>
-                                        <h4 className='mb-0'>
+                                        <h4 className='web-title'>
                                             {blog.heading}
                                         </h4>
-                                        <div className='color-gray'>
-                                            {formatDate(blog.date)}
+                                        <div className='color-gray d-flex align-items-center'>
+                                            <BiCalendar className='me-2' />{formatDate(blog.date)}
                                         </div>
                                     </div>
                                 </Link>
