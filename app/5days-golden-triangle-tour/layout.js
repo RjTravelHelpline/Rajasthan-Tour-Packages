@@ -1,7 +1,7 @@
 export const metadata = {
   title: 'Golden Triangle Tour 5 Days Package | Rajasthan Tour Packages',
   description:
-    "Get on a trip to India's iconic destinations at your 5-Day Golden Triangle Tour, featuring Delhi, Agra, and Jaipur. Plan our trip now at Rajasthan Tour Packages.",
+    "Get on a trip to India's iconic destinations at your 5-Day Golden Triangle Tour, featuring Delhi, Agra and Jaipur. Plan our trip now at Rajasthan Tour Packages.",
   alternates: {
     canonical:
       'https://www.rajasthantourpackages.in/5days-golden-triangle-tour',
@@ -9,7 +9,7 @@ export const metadata = {
   openGraph: {
     title: 'Golden Triangle Tour 5 Days Package | Rajasthan Tour Packages',
     description:
-      "Get on a trip to India's iconic destinations at your 5-Day Golden Triangle Tour, featuring Delhi, Agra, and Jaipur. Plan our trip now at Rajasthan Tour Packages.",
+      "Get on a trip to India's iconic destinations at your 5-Day Golden Triangle Tour, featuring Delhi, Agra and Jaipur. Plan our trip now at Rajasthan Tour Packages.",
     url: 'https://www.rajasthantourpackages.in/5days-golden-triangle-tour',
     images:
       'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
@@ -22,7 +22,7 @@ export const metadata = {
     site: '@rajasthantourpackages',
     title: 'Golden Triangle Tour 5 Days Package | Rajasthan Tour Packages',
     description:
-      "Get on a trip to India's iconic destinations at your 5-Day Golden Triangle Tour, featuring Delhi, Agra, and Jaipur. Plan our trip now at Rajasthan Tour Packages.",
+      "Get on a trip to India's iconic destinations at your 5-Day Golden Triangle Tour, featuring Delhi, Agra and Jaipur. Plan our trip now at Rajasthan Tour Packages.",
     images:
       'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
   },

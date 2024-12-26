@@ -1,13 +1,15 @@
 export const metadata = {
   title: 'Terms and Conditions | Rajasthan Tour Packages',
-  description: '',
+  description:
+    'Review the Terms and Conditions for using Rajasthan Tour Packages. Know about our policies and booking conditions along with services for perfect travelling.',
   keywords: [''],
   alternates: {
     canonical: 'https://www.rajasthantourpackages.in/terms-and-conditions',
   },
   openGraph: {
     title: 'Terms and Conditions | Rajasthan Tour Packages',
-    description: '',
+    description:
+      'Review the Terms and Conditions for using Rajasthan Tour Packages. Know about our policies and booking conditions along with services for perfect travelling.',
     url: 'https://www.rajasthantourpackages.in/terms-and-conditions',
     images:
       'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
@@ -19,7 +21,8 @@ export const metadata = {
     card: 'summary_large_image',
     site: '@rajasthantourpackages',
     title: 'Terms and Conditions | Rajasthan Tour Packages',
-    description: '',
+    description:
+      'Review the Terms and Conditions for using Rajasthan Tour Packages. Know about our policies and booking conditions along with services for perfect travelling.',
     images:
       'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
   },

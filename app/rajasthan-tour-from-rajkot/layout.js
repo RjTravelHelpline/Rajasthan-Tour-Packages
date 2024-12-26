@@ -1,7 +1,7 @@
 export const metadata = {
   title: 'Rajasthan Tour From Rajkot | Rajasthan Tour Packages',
   description:
-    'Arrange your Rajasthan enterprise from Rajkot with Rajasthan Visit Bundles. Encounter illustrious royal residences, posts, and dynamic cities when rulers arrive.',
+    'Arrange your Rajasthan enterprise from Rajkot with Rajasthan Visit Bundles. Encounter illustrious royal residences, posts and dynamic cities when rulers arrive.',
   keywords: [''],
   alternates: {
     canonical:
@@ -10,7 +10,7 @@ export const metadata = {
   openGraph: {
     title: 'Rajasthan Tour From Rajkot | Rajasthan Tour Packages',
     description:
-      'Arrange your Rajasthan enterprise from Rajkot with Rajasthan Visit Bundles. Encounter illustrious royal residences, posts, and dynamic cities when rulers arrive.',
+      'Arrange your Rajasthan enterprise from Rajkot with Rajasthan Visit Bundles. Encounter illustrious royal residences, posts and dynamic cities when rulers arrive.',
     url: 'https://www.rajasthantourpackages.in/rajasthan-tour-from-rajkot',
     images:
       'https://www.rajasthantourpackages.in/Images/Banners/rajkot-banner.webp',
@@ -23,7 +23,7 @@ export const metadata = {
     site: '@rajasthantourpackages',
     title: 'Rajasthan Tour From Rajkot | Rajasthan Tour Packages',
     description:
-      'Arrange your Rajasthan enterprise from Rajkot with Rajasthan Visit Bundles. Encounter illustrious royal residences, posts, and dynamic cities when rulers arrive.',
+      'Arrange your Rajasthan enterprise from Rajkot with Rajasthan Visit Bundles. Encounter illustrious royal residences, posts and dynamic cities when rulers arrive.',
     images:
       'https://www.rajasthantourpackages.in/Images/Banners/rajkot-banner.webp',
   },

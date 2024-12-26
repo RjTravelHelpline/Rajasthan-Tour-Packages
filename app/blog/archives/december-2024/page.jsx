@@ -7,7 +7,7 @@ import React from 'react'
 
 export const metadata = {
     title: 'December 2024 Blog Archives | Rajasthan Tour Packages',
-    description: '',
+    description: 'Explore our December 2024 blog posts. Check out the latest travel advice, top attractions in Rajasthan, and other travel ideas for a fantastic journey.',
     keywords: [
     ],
     alternates: {
@@ -15,7 +15,7 @@ export const metadata = {
     },
     openGraph: {
         title: 'December 2024 Blog Archives | Rajasthan Tour Packages',
-        description: '',
+        description: 'Explore our December 2024 blog posts. Check out the latest travel advice, top attractions in Rajasthan, and other travel ideas for a fantastic journey.',
         images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
         url: "https://www.rajasthantourpackages.in/blog/archives/december-2024",
         site_name: 'Rajasthan Tour Packages',
@@ -26,7 +26,7 @@ export const metadata = {
         card: "summary_large_image",
         site: "@rajasthantourpackages",
         title: 'December 2024 Blog Archives | Rajasthan Tour Packages',
-        description: '',
+        description: 'Explore our December 2024 blog posts. Check out the latest travel advice, top attractions in Rajasthan, and other travel ideas for a fantastic journey.',
         images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     },
 };

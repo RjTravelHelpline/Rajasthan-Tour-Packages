@@ -1,7 +1,7 @@
 export const metadata = {
   title: 'Popular Attractions in Agra | Rajasthan Tour Packages',
   description:
-    "Explore Agra's famous attractions including the Taj Mahal, Agra Fort, Fatehpur Sikri, and more. Book your Agra sightseeing tour and uncover the city's rich heritage.",
+    "Find Agra's famous attractions include the Taj Mahal, Agra Fort, Fatehpur Sikri, and more. Book your Agra sightseeing tour and uncover the city's rich heritage.",
   keywords: [
     'Agra Sightseeing Package',
     'Taj Mahal Day Tour',
@@ -19,7 +19,7 @@ export const metadata = {
   openGraph: {
     title: 'Popular Attractions in Agra | Rajasthan Tour Packages',
     description:
-      "Explore Agra's famous attractions including the Taj Mahal, Agra Fort, Fatehpur Sikri, and more. Book your Agra sightseeing tour and uncover the city's rich heritage.",
+      "Find Agra's famous attractions include the Taj Mahal, Agra Fort, Fatehpur Sikri, and more. Book your Agra sightseeing tour and uncover the city's rich heritage.",
     url: 'https://www.rajasthantourpackages.in/agra',
     images:
       'https://www.rajasthantourpackages.in/Images/Banners/agra-banner.webp',
@@ -32,7 +32,7 @@ export const metadata = {
     site: '@rajasthantourpackages',
     title: 'Popular Attractions in Agra | Rajasthan Tour Packages',
     description:
-      "Explore Agra's famous attractions including the Taj Mahal, Agra Fort, Fatehpur Sikri, and more. Book your Agra sightseeing tour and uncover the city's rich heritage.",
+      "Find Agra's famous attractions include the Taj Mahal, Agra Fort, Fatehpur Sikri, and more. Book your Agra sightseeing tour and uncover the city's rich heritage.",
     images:
       'https://www.rajasthantourpackages.in/Images/Banners/agra-banner.webp',
   },

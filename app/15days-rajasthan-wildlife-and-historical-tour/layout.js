@@ -1,7 +1,7 @@
 export const metadata = {
   title: '15-Day Rajasthan Wildlife & History Rajasthan Tour Packages',
   description:
-    'Go for a 15-day Rajasthan Wildlife and Historical Safari. Book Rajasthan Tour Packages for the wildlife sanctuary, forts and other tourist and historical appeal.',
+    'Go on a 15-day Rajasthan Wildlife and Historical Safari. Book Rajasthan Tour Packages to visit the wildlife sanctuary, forts, and other tourist attractions.',
   alternates: {
     canonical:
       'https://www.rajasthantourpackages.in/15days-rajasthan-wildlife-and-historical-tour',
@@ -9,7 +9,7 @@ export const metadata = {
   openGraph: {
     title: '15-Day Rajasthan Wildlife & History Rajasthan Tour Packages',
     description:
-      'Go for a 15-day Rajasthan Wildlife and Historical Safari. Book Rajasthan Tour Packages for the wildlife sanctuary, forts and other tourist and historical appeal.',
+      'Go on a 15-day Rajasthan Wildlife and Historical Safari. Book Rajasthan Tour Packages to visit the wildlife sanctuary, forts, and other tourist attractions.',
     url: 'https://www.rajasthantourpackages.in/15days-rajasthan-wildlife-and-historical-tour',
     images:
       'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
@@ -22,7 +22,7 @@ export const metadata = {
     site: '@rajasthantourpackages',
     title: '15-Day Rajasthan Wildlife & History Rajasthan Tour Packages',
     description:
-      'Go for a 15-day Rajasthan Wildlife and Historical Safari. Book Rajasthan Tour Packages for the wildlife sanctuary, forts and other tourist and historical appeal.',
+      'Go on a 15-day Rajasthan Wildlife and Historical Safari. Book Rajasthan Tour Packages to visit the wildlife sanctuary, forts, and other tourist attractions.',
     images:
       'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
   },

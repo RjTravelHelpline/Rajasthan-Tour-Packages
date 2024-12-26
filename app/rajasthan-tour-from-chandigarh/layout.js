@@ -1,7 +1,7 @@
 export const metadata = {
   title: 'Rajasthan Tour from Chandigarh | Rajasthan Tour Packages',
   description:
-    'Explore Rajasthan with our tour packages from Chandigarh. Enjoy iconic forts, cultural experiences, and luxury accommodations. Plan your rajasthan holiday from chandigarh now.',
+    'Rajasthan with our tour packages from Chandigarh. Enjoy iconic forts, cultural feel, and luxury accommodations. Plan your Rajasthan holiday from Chandigarh now.',
   keywords: [''],
   alternates: {
     canonical:
@@ -10,7 +10,7 @@ export const metadata = {
   openGraph: {
     title: 'Rajasthan Tour from Chandigarh | Rajasthan Tour Packages',
     description:
-      'Explore Rajasthan with our tour packages from Chandigarh. Enjoy iconic forts, cultural experiences, and luxury accommodations. Plan your rajasthan holiday from chandigarh now.',
+      'Rajasthan with our tour packages from Chandigarh. Enjoy iconic forts, cultural feel, and luxury accommodations. Plan your Rajasthan holiday from Chandigarh now.',
     url: 'https://www.rajasthantourpackages.in/rajasthan-tour-from-chandigarh',
     images:
       'https://www.rajasthantourpackages.in/Images/Banners/chandigarh-banner.webp',
@@ -23,7 +23,7 @@ export const metadata = {
     site: '@rajasthantourpackages',
     title: 'Rajasthan Tour from Chandigarh | Rajasthan Tour Packages',
     description:
-      'Explore Rajasthan with our tour packages from Chandigarh. Enjoy iconic forts, cultural experiences, and luxury accommodations. Plan your rajasthan holiday from chandigarh now.',
+      'Rajasthan with our tour packages from Chandigarh. Enjoy iconic forts, cultural feel, and luxury accommodations. Plan your Rajasthan holiday from Chandigarh now.',
     images:
       'https://www.rajasthantourpackages.in/Images/Banners/chandigarh-banner.webp',
   },

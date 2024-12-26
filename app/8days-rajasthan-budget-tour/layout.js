@@ -1,7 +1,7 @@
 export const metadata = {
   title: '8 Days Rajasthan Budget Tour Package | Rajasthan Tour Packages',
   description:
-    'The beauty of Rajasthan in breaking the bank at our 8-Day Tour Package. Enjoy top destinations at a budget-friendly price. Book today at Rajasthan Tour Packages.',
+    'The beauty of Rajasthan in breaking the bank at our 8-Day Tour Package. Enjoy top destinations at a budget-friendly price. Book now at Rajasthan Tour Packages.',
   alternates: {
     canonical:
       'https://www.rajasthantourpackages.in/8days-rajasthan-budget-tour',
@@ -9,7 +9,7 @@ export const metadata = {
   openGraph: {
     title: '8 Days Rajasthan Budget Tour Package | Rajasthan Tour Packages',
     description:
-      'The beauty of Rajasthan in breaking the bank at our 8-Day Tour Package. Enjoy top destinations at a budget-friendly price. Book today at Rajasthan Tour Packages.',
+      'The beauty of Rajasthan in breaking the bank at our 8-Day Tour Package. Enjoy top destinations at a budget-friendly price. Book now at Rajasthan Tour Packages.',
     url: 'https://www.rajasthantourpackages.in/8days-rajasthan-budget-tour',
     images:
       'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
@@ -22,7 +22,7 @@ export const metadata = {
     site: '@rajasthantourpackages',
     title: '8 Days Rajasthan Budget Tour Package | Rajasthan Tour Packages',
     description:
-      'The beauty of Rajasthan in breaking the bank at our 8-Day Tour Package. Enjoy top destinations at a budget-friendly price. Book today at Rajasthan Tour Packages.',
+      'The beauty of Rajasthan in breaking the bank at our 8-Day Tour Package. Enjoy top destinations at a budget-friendly price. Book now at Rajasthan Tour Packages.',
     images:
       'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
   },

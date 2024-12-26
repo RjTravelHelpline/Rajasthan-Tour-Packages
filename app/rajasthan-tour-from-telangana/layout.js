@@ -1,7 +1,7 @@
 export const metadata = {
   title: 'Rajasthan Tour From Telangana | Rajasthan Tour Packages',
   description:
-    "Find Rajasthan's treasures on a visit from Telangana with Rajasthan Visit Bundles. Investigate antiquated fortifications, illustrious royal residences, and colourful festivals.",
+    "Rajasthan prize on a visit from Telangana at Rajasthan Visit Bundles. Investigate antiquated fortifications, grand royal residences, and colourful festivals.",
   keywords: [''],
   alternates: {
     canonical:
@@ -10,7 +10,7 @@ export const metadata = {
   openGraph: {
     title: 'Rajasthan Tour From Telangana | Rajasthan Tour Packages',
     description:
-      "Find Rajasthan's treasures on a visit from Telangana with Rajasthan Visit Bundles. Investigate antiquated fortifications, illustrious royal residences, and colourful festivals.",
+      "Rajasthan prize on a visit from Telangana at Rajasthan Visit Bundles. Investigate antiquated fortifications, grand royal residences, and colourful festivals.",
     url: 'https://www.rajasthantourpackages.in/rajasthan-tour-from-telangana',
     images:
       'https://www.rajasthantourpackages.in/Images/Banners/telangana-banner.webp',
@@ -23,7 +23,7 @@ export const metadata = {
     site: '@rajasthantourpackages',
     title: 'Rajasthan Tour From Telangana | Rajasthan Tour Packages',
     description:
-      "Find Rajasthan's treasures on a visit from Telangana with Rajasthan Visit Bundles. Investigate antiquated fortifications, illustrious royal residences, and colourful festivals.",
+      "Rajasthan prize on a visit from Telangana at Rajasthan Visit Bundles. Investigate antiquated fortifications, grand royal residences, and colourful festivals.",
     images:
       'https://www.rajasthantourpackages.in/Images/Banners/telangana-banner.webp',
   },

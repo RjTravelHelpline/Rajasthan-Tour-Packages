@@ -1,7 +1,7 @@
 export const metadata = {
   title: '15 Days Classic Rajasthan Tour Packages from Delhi',
   description:
-    'Increase a 15-day Classic Rajasthan Tour from Delhi. Book Rajasthan Tour Packages and Indulge in the well-preserved forts and palaces of Rajasthan and lively city.',
+    'Boost a 15-day Classic Rajasthan tour from Delhi. Book Rajasthan tour packages and indulge in the well-preserved forts, palaces, and lively cities of Rajasthan.',
   alternates: {
     canonical:
       'https://www.rajasthantourpackages.in/15days-classic-rajasthan-tour-from-delhi',
@@ -9,7 +9,7 @@ export const metadata = {
   openGraph: {
     title: '15 Days Classic Rajasthan Tour Packages from Delhi',
     description:
-      'Increase a 15-day Classic Rajasthan Tour from Delhi. Book Rajasthan Tour Packages and Indulge in the well-preserved forts and palaces of Rajasthan and lively city.',
+      'Boost a 15-day Classic Rajasthan tour from Delhi. Book Rajasthan tour packages and indulge in the well-preserved forts, palaces, and lively cities of Rajasthan.',
     url: 'https://www.rajasthantourpackages.in/15days-classic-rajasthan-tour-from-delhi',
     images:
       'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
@@ -22,7 +22,7 @@ export const metadata = {
     site: '@rajasthantourpackages',
     title: '15 Days Classic Rajasthan Tour Packages from Delhi',
     description:
-      'Increase a 15-day Classic Rajasthan Tour from Delhi. Book Rajasthan Tour Packages and Indulge in the well-preserved forts and palaces of Rajasthan and lively city.',
+      'Boost a 15-day Classic Rajasthan tour from Delhi. Book Rajasthan tour packages and indulge in the well-preserved forts, palaces, and lively cities of Rajasthan.',
     images:
       'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
   },

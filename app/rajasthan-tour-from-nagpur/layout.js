@@ -1,7 +1,7 @@
 export const metadata = {
   title: 'Best Rajasthan Tour From Nagpur | Rajasthan Tour Packages',
   description:
-    'Get the splendour of the Rajasthan Tour from Nagpur. Choose Rajasthan Tour Packages for a tailored travel Know rich in history, culture, and majestic landscapes.',
+    'Get the splendor of the Rajasthan Tour from Nagpur. Choose Rajasthan Tour Packages for a tailored travel Know rich in history, culture, and majestic landscapes.',
   keywords: [''],
   alternates: {
     canonical:
@@ -10,7 +10,7 @@ export const metadata = {
   openGraph: {
     title: 'Best Rajasthan Tour From Nagpur | Rajasthan Tour Packages',
     description:
-      'Get the splendour of the Rajasthan Tour from Nagpur. Choose Rajasthan Tour Packages for a tailored travel Know rich in history, culture, and majestic landscapes.',
+      'Get the splendor of the Rajasthan Tour from Nagpur. Choose Rajasthan Tour Packages for a tailored travel Know rich in history, culture, and majestic landscapes.',
     url: 'https://www.rajasthantourpackages.in/rajasthan-tour-from-nagpur',
     images:
       'https://www.rajasthantourpackages.in/Images/Banners/nagpur-banner.webp',
@@ -23,7 +23,7 @@ export const metadata = {
     site: '@rajasthantourpackages',
     title: 'Best Rajasthan Tour From Nagpur | Rajasthan Tour Packages',
     description:
-      'Get the splendour of the Rajasthan Tour from Nagpur. Choose Rajasthan Tour Packages for a tailored travel Know rich in history, culture, and majestic landscapes.',
+      'Get the splendor of the Rajasthan Tour from Nagpur. Choose Rajasthan Tour Packages for a tailored travel Know rich in history, culture, and majestic landscapes.',
     images:
       'https://www.rajasthantourpackages.in/Images/Banners/nagpur-banner.webp',
   },

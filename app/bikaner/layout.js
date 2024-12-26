@@ -1,7 +1,7 @@
 export const metadata = {
   title: 'Bikaner Royal History and Legacy | Rajasthan Tour Packages',
   description:
-    'Explore the royal history of Bikaner, its historic forts, and vibrant culture. Book your Bikaner heritage tour with Rajasthan Tour Packages for an unforgettable experience.',
+    'Bikaner has a royal history of Bikaner, its historic forts and its vibrant culture. Book our Bikaner heritage tour with Rajasthan Tour Packages for a feel.',
   keywords: [
     'Bikaner Travel Packages',
     'Best Places to Visit in Bikaner',
@@ -30,14 +30,14 @@ export const metadata = {
     site: '@rajasthantourpackages',
     title: 'Bikaner Royal History and Legacy | Rajasthan Tour Packages',
     description:
-      'Explore the royal history of Bikaner, its historic forts, and vibrant culture. Book your Bikaner heritage tour with Rajasthan Tour Packages for an unforgettable experience.',
+      'Bikaner has a royal history of Bikaner, its historic forts and its vibrant culture. Book our Bikaner heritage tour with Rajasthan Tour Packages for a feel.',
     images:
       'https://www.rajasthantourpackages.in/Images/Banners/bikaner-banner02.webp',
   },
   openGraph: {
     title: 'Bikaner Royal History and Legacy | Rajasthan Tour Packages',
     description:
-      'Explore the royal history of Bikaner, its historic forts, and vibrant culture. Book your Bikaner heritage tour with Rajasthan Tour Packages for an unforgettable experience.',
+      'Bikaner has a royal history of Bikaner, its historic forts and its vibrant culture. Book our Bikaner heritage tour with Rajasthan Tour Packages for a feel.',
     url: 'https://www.rajasthantourpackages.in/bikaner',
     images:
       'https://www.rajasthantourpackages.in/Images/Banners/bikaner-banner02.webp',

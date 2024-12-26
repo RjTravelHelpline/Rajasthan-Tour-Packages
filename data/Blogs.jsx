@@ -3387,14 +3387,14 @@ export const blogs = [
         <h2> Key Events at the International Camel Festival Bikaner 2025</h2>
         <hr />
         {/* <div className="slug-image-container my-2"> */}
-          <Image
-            src='/Images/Blog/camel-fest-events.jpg'
-            alt="Key Events at Camel Festival"
-            className='w-100 h-100 rounded-4'
-            title='Key Events at International Camel Festival Bikaner 2025 Highlights'
-            width={1500}
-            height={600}
-          />
+        <Image
+          src='/Images/Blog/camel-fest-events.jpg'
+          alt="Key Events at Camel Festival"
+          className='w-100 h-100 rounded-4'
+          title='Key Events at International Camel Festival Bikaner 2025 Highlights'
+          width={1500}
+          height={600}
+        />
         {/* </div> */}
         <hr />
         <p><span className="d-block fw-bold">1. Camel Parade & Camel Races:</span> The most colourful event of the <strong>International Camel Festival Bikaner 2025</strong> is the parade of camels. The streets of Bikaner will wear new colours as camel riders and owners paint their camels and adorn them with beautiful ornaments. These enormous animals, looking very attractive, will be wearing Rajasthani costumes. People, mainly tourists, will have to sit and watch them shifting from one place to another.

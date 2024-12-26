@@ -1,7 +1,7 @@
 export const metadata = {
   title: 'Book Rajasthan Tour from Chennai | Rajasthan Tour Packages',
   description:
-    'Make your Rajasthan tour from Chennai to experience the lively heritage and rich culture. Find magnificent castles, desert landscapes, and traditional art forms.',
+    'Take the Rajasthan tour from Chennai to learn about the lively heritage and rich culture. Find magnificent castles, desert landscapes and traditional art forms.',
   keywords: [''],
   alternates: {
     canonical:
@@ -10,7 +10,7 @@ export const metadata = {
   openGraph: {
     title: 'Book Rajasthan Tour from Chennai | Rajasthan Tour Packages',
     description:
-      'Make your Rajasthan tour from Chennai to experience the lively heritage and rich culture. Find magnificent castles, desert landscapes, and traditional art forms.',
+      'Take the Rajasthan tour from Chennai to learn about the lively heritage and rich culture. Find magnificent castles, desert landscapes and traditional art forms.',
     url: 'https://www.rajasthantourpackages.in/rajasthan-tour-from-chennai',
     images:
       'https://www.rajasthantourpackages.in/Images/Banners/chennai-banner.webp',
@@ -23,7 +23,7 @@ export const metadata = {
     site: '@rajasthantourpackages',
     title: 'Book Rajasthan Tour from Chennai | Rajasthan Tour Packages',
     description:
-      'Make your Rajasthan tour from Chennai to experience the lively heritage and rich culture. Find magnificent castles, desert landscapes, and traditional art forms.',
+      'Take the Rajasthan tour from Chennai to learn about the lively heritage and rich culture. Find magnificent castles, desert landscapes and traditional art forms.',
     images:
       'https://www.rajasthantourpackages.in/Images/Banners/chennai-banner.webp',
   },

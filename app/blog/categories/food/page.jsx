@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 export const metadata = {
     title: 'Food Guide Cuisine & Delights | Rajasthan Tour Packages',
-    description: '',
+    description: 'Feel the rich flavours of Rajasthan at our food blog. Find out more about local cuisine, recipes and tricks of the trade from the culinary capital of Rajasthan.',
     keywords: [
     ],
     alternates: {
@@ -14,7 +14,7 @@ export const metadata = {
     },
     openGraph: {
         title: 'Food Guide Cuisine & Delights | Rajasthan Tour Packages',
-        description: '',
+        description: 'Feel the rich flavours of Rajasthan at our food blog. Find out more about local cuisine, recipes and tricks of the trade from the culinary capital of Rajasthan.',
         images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
         url: "https://www.rajasthantourpackages.in/blog/categories/food",
         site_name: 'Rajasthan Tour Packages',
@@ -25,7 +25,7 @@ export const metadata = {
         card: "summary_large_image",
         site: "@rajasthantourpackages",
         title: 'Food Guide Cuisine & Delights | Rajasthan Tour Packages',
-        description: '',
+        description: 'Feel the rich flavours of Rajasthan at our food blog. Find out more about local cuisine, recipes and tricks of the trade from the culinary capital of Rajasthan.',
         images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     },
 };

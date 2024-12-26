@@ -1,14 +1,14 @@
 export const metadata = {
   title: 'Rajasthan Tour from Agra | Rajasthan Tour Packages',
   description:
-    'Rajasthan Tour from Agra to explore historic landmarks, regal palaces, and unique cultural experiences. You can go ahead and book your personalized tour package now.',
+    'Take a Rajasthan tour from Agra to explore historic landmarks, regal palaces, and unique cultural experiences. Book your personalized tour package now.',
   alternates: {
     canonical: 'https://www.rajasthantourpackages.in/rajasthan-tour-from-agra',
   },
   openGraph: {
     title: 'Rajasthan Tour from Agra | Rajasthan Tour Packages',
     description:
-      'Rajasthan Tour from Agra to explore historic landmarks, regal palaces, and unique cultural experiences. You can go ahead and book your personalized tour package now.',
+      'Take a Rajasthan tour from Agra to explore historic landmarks, regal palaces, and unique cultural experiences. Book your personalized tour package now.',
     url: 'https://www.rajasthantourpackages.in/rajasthan-tour-from-agra',
     images:
       'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
@@ -21,7 +21,7 @@ export const metadata = {
     site: '@rajasthantourpackages',
     title: 'Rajasthan Tour from Agra | Rajasthan Tour Packages',
     description:
-      'Rajasthan Tour from Agra to explore historic landmarks, regal palaces, and unique cultural experiences. You can go ahead and book your personalized tour package now.',
+      'Take a Rajasthan tour from Agra to explore historic landmarks, regal palaces, and unique cultural experiences. Book your personalized tour package now.',
     images:
       'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
   },

@@ -6,7 +6,7 @@ import Link from 'next/link';
 
 export const metadata = {
     title: 'November 2024 Blog Archives | Rajasthan Tour Packages',
-    description: '',
+    description: 'Catch up on our latest posts from November 2024. Discover the best things to do in Rajasthan, road travel advice, and find a Rajasthan travel and travel guide.',
     keywords: [
     ],
     alternates: {
@@ -14,7 +14,7 @@ export const metadata = {
     },
     openGraph: {
         title: 'November 2024 Blog Archives | Rajasthan Tour Packages',
-        description: '',
+        description: 'Catch up on our latest posts from November 2024. Discover the best things to do in Rajasthan, road travel advice, and find a Rajasthan travel and travel guide.',
         images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
         url: "https://www.rajasthantourpackages.in/blog/archives/november-2024",
         site_name: 'Rajasthan Tour Packages',
@@ -25,7 +25,7 @@ export const metadata = {
         card: "summary_large_image",
         site: "@rajasthantourpackages",
         title: 'November 2024 Blog Archives | Rajasthan Tour Packages',
-        description: '',
+        description: 'Catch up on our latest posts from November 2024. Discover the best things to do in Rajasthan, road travel advice, and find a Rajasthan travel and travel guide.',
         images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     },
 };
