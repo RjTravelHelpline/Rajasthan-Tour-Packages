@@ -13,6 +13,7 @@ import { MdArrowForward, MdArrowForwardIos, MdStars } from 'react-icons/md';
 import { FaRankingStar } from 'react-icons/fa6';
 import { BsStars } from "react-icons/bs";
 import { getLatestItems } from '@/Utils/util';
+import BlogBackToTop from './BlogBackToTop';
 
 
 const BlogFooter = () => {
@@ -52,7 +53,7 @@ const BlogFooter = () => {
 
     return (
         <>
-            <BackToTop />
+            <BlogBackToTop />
             <div className="container-fluid py-5 bg-black text-white px-0 blog-footer">
                 <div className="container">
                     <div className="row justify-content-start my-3 px-2">
@@ -112,7 +113,7 @@ const BlogFooter = () => {
                     </div>
                     <div className="row footer-end mb-5">
                         <p className="copyright text-center mb-0 py-2 text-capitalize color-gray">
-                            © 2003-{mydate} | Rajasthan travel helpline. All Rights
+                            © 2003-{mydate} | Rajasthan travel helpline | All Rights
                             Reserved.
                         </p>
                     </div>

@@ -101,6 +101,7 @@ const BlogNavbar = () => {
                                 home
                             </Link>
                         </div>
+                        <vr />
                         <div className="nav-item">
                             <Link
                                 href="/about-us"
@@ -110,6 +111,7 @@ const BlogNavbar = () => {
                                 about us
                             </Link>
                         </div>
+                        <vr />
                         <div className="nav-item">
                             <Link
                                 href="/contact-us"
@@ -125,17 +127,26 @@ const BlogNavbar = () => {
                             className={`col d-flex justify-content-end align-items-center ${!ismobile ? 'gap-2' : 'gap-1'
                                 }`} >
                             <>
-                                <button className="d-flex justify-content-center align-items-center p-3 rounded-5 shadow-none bg-white color-tertary search" onClick={handleShowSearch}>
-                                    <IoSearch />
-                                </button>
-                                {!ismobile && (
-                                    <button
-                                        className="d-flex justify-content-center align-items-center gap-2 rounded-4 enquiry web-title" style={{ fontWeight: '500', textTransform: "capitalize" }}
-                                        onClick={handleShow}
-                                    >
-                                        <FaMessage className="icon" />
-                                        enquiry
+                                {ismobile && (
+                                    <button className="d-flex justify-content-center align-items-center p-3 rounded-5 shadow-none bg-white color-tertary search" onClick={handleShowSearch}>
+                                        <IoSearch />
                                     </button>
+                                )}
+                                {!ismobile && (
+                                    <>
+                                        <button className="d-flex justify-content-start align-items-center p-3 rounded-4 shadow-none bg-white color-tertary search flex-grow-1" onClick={handleShowSearch}>
+                                            <IoSearch className='me-2'/>
+                                            search from here
+                                        </button>
+                                        <button
+                                            className="d-flex justify-content-center align-items-center p-3 gap-2 rounded-4 enquiry web-title" style={{ fontWeight: '500', textTransform: "capitalize" }}
+                                            onClick={handleShow}
+                                        >
+                                            <FaMessage className="icon" />
+                                            {/* enquiry */}
+                                        </button>
+                                    </>
+
                                 )}
                             </>
 
