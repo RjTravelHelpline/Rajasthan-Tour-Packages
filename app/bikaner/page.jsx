@@ -208,7 +208,7 @@ const Bikaner = () => {
                 tour
                 <span className="fw-bold"> packages</span>
               </h3>
-              <PackagesSlider packages={bikaner_tour_packages} href='/bikaner-tour-packages' />
+              {/* <PackagesSlider exploreAll={false} packages={bikaner_tour_packages} href='/bikaner-tour-packages' /> */}
             </div>
             {/* cab rentals */}
             <div className="w-100 insider section-offset mb-4" id="cab-rentals">
