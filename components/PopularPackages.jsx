@@ -3,7 +3,7 @@ import { IoLogoWhatsapp, IoMdClose } from 'react-icons/io';
 import { useEffect, useState } from 'react';
 import ContactForm from './ContactForm';
 import SlickSlider from './SlickSlider';
-import { Card, Modal } from 'react-bootstrap';
+import { Card, Container, Modal, Row } from 'react-bootstrap';
 import Link from 'next/link';
 import { ExploreAll } from './ExploreAll';
 import Image from 'next/image';
@@ -58,9 +58,9 @@ const Packages = () => {
 
   return (
     <>
-      <div className="container-fluid section-01 py-5 position-relative">
-        <div className="container packages mb-5">
-          <div className="row py-2 px-2 d-flex justify-content-center align-items-center">
+      <section className="container-fluid section-01 py-5 position-relative">
+        <Container className="packages mb-5">
+          <Row className="py-2 px-2 d-flex justify-content-center align-items-center">
             <div className="d-flex-justify-content-center align-items-center">
               <h2 className="text-center text-capitalize home-head web-title">
                 <span className="fw-normal">popular </span> tour packages
@@ -85,8 +85,8 @@ const Packages = () => {
                 {readMore ? <>Less</> : <>...More</>}
               </button>
             </p>
-          </div>
-          <div className="row py-4 d-flex align-items-stretch px-2">
+          </Row>
+          <Row className="row py-4 d-flex align-items-stretch px-2">
             <SlickSlider>
               {visiblePackages.map((pkg, index) => {
                 const messageText = `I am interested in the ${pkg.title} package for ₹${pkg.price}/-. Please provide more details.`;
@@ -148,10 +148,10 @@ const Packages = () => {
                 );
               })}
             </SlickSlider>
-          </div>
+          </Row>
           <ExploreAll text="explore all" href="/popular-tour-packages" />
-        </div>
-      </div>
+        </Container>
+      </section>
 
       {/* Modal for Contact Form */}
       <Modal

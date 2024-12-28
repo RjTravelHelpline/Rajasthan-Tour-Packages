@@ -7,6 +7,7 @@ import Packages from "@/components/PopularPackages";
 import ReadMoreToggle from "@/components/ReadMore";
 import Reviews from "@/components/Reviews";
 import Script from "next/script";
+import { Col, Container } from "react-bootstrap";
 
 export const metadata = {
   title: 'Best Rajasthan Tours and Travels | Rajasthan Tour Packages',
@@ -63,9 +64,9 @@ const Home = () => {
     <>
       {/* Using next/script for JSON-LD */}
       <HomeCarousel />
-      <div className="container-fluid bg-tertary-down pt-5">
-        <div className="container home px-0">
-          <div className="col col-12 d-flex justify-content-start flex-column align-items-center position-relative">
+      <section className="container-fluid bg-tertary-down pt-5">
+        <Container className=" home px-0">
+          <Col className="col-12 d-flex justify-content-start flex-column align-items-center position-relative">
             <h1 className="text-center mb-4 fw-normal home-heading web-title text-black">
               <span className="me-2">Rajasthan Tour Packages</span>
               <span className="fw-bold">Explore Rajasthan with Us</span>
@@ -76,9 +77,9 @@ const Home = () => {
             />
             <ReadMoreToggle className="text-justify home-para px-2 text-black" tag="div" contentArray={homeData.content.slice(1)} />
             <div className="py-2"></div>
-          </div>
-        </div>
-      </div>
+          </Col>
+        </Container>
+      </section>
       <Packages />
       <DaysPack />
       <PackagesByCities />

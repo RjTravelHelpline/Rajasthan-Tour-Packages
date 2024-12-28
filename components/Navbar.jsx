@@ -24,7 +24,7 @@ import {
 import { FaHome } from 'react-icons/fa';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
-import { Modal } from 'react-bootstrap';
+import { Col, Container, Modal, Row } from 'react-bootstrap';
 import ContactForm from './ContactForm';
 
 const Navbar = () => {
@@ -102,14 +102,14 @@ const Navbar = () => {
     const navColorClass = isHome ? 'bg-transparent' : 'bg-black !important';
     return (
         <>
-            <div
+            <section
                 className={`container-fluid header d-flex justify-content-center align-items-center px-0 ${navColorClass}`}
             >
-                <div
+                <Row
                     className={`w-100 row px-0 d-flex justify-content-center align-items-center  ${navClass} ${isScrolled ? 'scrolled' : ''
                         }`}
                 >
-                    <div className="col d-flex flex-column justify-content-center align-items-start logo-container">
+                    <Col className="col d-flex flex-column justify-content-center align-items-start logo-container">
                         <Link href="/">
                             <h3 className="text-capitalize mb-0 text-nowrap logo">
                                 Rajasthan tour packages
@@ -118,8 +118,8 @@ const Navbar = () => {
                                 Book ▪ Travel ▪ Appreciate
                             </p>
                         </Link>
-                    </div>
-                    <div className="col d-flex justify-content-center align-items-center nav-links">
+                    </Col>
+                    <Col className="col d-flex justify-content-center align-items-center nav-links">
                         <div className="nav-item">
                             <span className="px-0 mx-3 py-4 text-nowrap text-uppercase anchor-link">
                                 tour by days <IoIosArrowDown className="dropdown-icon" />
@@ -226,9 +226,9 @@ const Navbar = () => {
                                 ))}
                             </div>
                         </div>
-                    </div>
+                    </Col>
                     <>
-                        <div className="col d-flex justify-content-end align-items-end">
+                        <Col className="col d-flex justify-content-end align-items-end">
                             <div
                                 className={`col d-flex justify-content-end align-items-center ${!ismobile ? 'gap-3' : 'gap-1'
                                     }`}
@@ -266,10 +266,10 @@ const Navbar = () => {
                                     </>
                                 )}
                             </div>
-                        </div>
+                        </Col>
                     </>
                     {/* opens the contact popup */}
-                    <div className="row justify-content-end px-4">
+                    <Row className="row justify-content-end px-4">
                         <div
                             className={`row contact-popup bg-white text-black d-flex flex-column align-items-left justify-content-start fixed mt-5
                 w-auto pt-4 px-0`}
@@ -334,11 +334,11 @@ const Navbar = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-            </div>
-            <div
-                className={`container mobile-navigation  px-0 pt-5 ${showNavigation ? 'show-navigation' : ''
+                    </Row>
+                </Row>
+            </section>
+            <Container
+                className={`mobile-navigation  px-0 pt-5 ${showNavigation ? 'show-navigation' : ''
                     }`}
             >
                 <button
@@ -358,7 +358,7 @@ const Navbar = () => {
                     <FaHome />
                 </button>
 
-                <div className="row flex-column gap-4 p-4 w-100 px-2">
+                <Row className="row flex-column gap-4 p-4 w-100 px-2">
                     <div
                         className={`nav-mobile-item d-flex justify-content-center align-items-center flex-column ${activeIndex === 1 ? 'active' : ''
                             }`}
@@ -534,19 +534,19 @@ const Navbar = () => {
                         </Link>
                     </div>
                     <hr />
-                </div>
-                <div className=" w-100 row p-0 py-5 mobile-navigation-footer d-flex justify-content-center align-items-center bg-black text-white position-relative">
+                </Row>
+                <Row className="w-100 row p-0 py-5 mobile-navigation-footer d-flex justify-content-center align-items-center bg-black text-white position-relative">
                     <p className="position-absolute p-2 w-auto h-20 top-0 z-1 bg-tertary"></p>
-                    <div className="w-100 col-12 py-3 d-flex flex-column justify-content-center align-items-center">
+                    <Col className="w-100 col-12 py-3 d-flex flex-column justify-content-center align-items-center">
                         <h3 className="text-capitalize text-center mb-0 logo text-nowrap">
                             Rajasthan tour packages
                         </h3>
                         <p className="mb-0 text-center text-uppercase logo2">
                             Book ▪ Travel ▪ Appreciate
                         </p>
-                    </div>
-                </div>
-            </div>
+                    </Col>
+                </Row>
+            </Container>
             {/* Modal for Contact Form */}
             <Modal size='lg'
                 show={show}

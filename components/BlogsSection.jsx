@@ -7,6 +7,7 @@ import { ExploreAll } from './ExploreAll';
 import { formatDate } from '@/Utils/util';
 import { PiCalendar, PiUser } from 'react-icons/pi';
 import { BiCalendar } from 'react-icons/bi';
+import { Col, Container, Row } from 'react-bootstrap';
 
 const BlogsSection = () => {
   const latestBlogs = getLatestBlogs(blogs);
@@ -15,27 +16,25 @@ const BlogsSection = () => {
 
   return (
     <>
-      <div className="container-fluid py-5 position-relative text-black">
-        <div className="container blogs mb-5">
-          <div className="row py-2 px-2 d-flex justify-content-center align-items-center">
+      <section className="container-fluid py-5 position-relative text-black">
+        <Container className="blogs mb-5">
+          <Row className="py-2 px-2 d-flex justify-content-center align-items-center">
             <div className="d-flex-justify-content-center align-items-center">
-              {/* <hr style={{ borderColor: 'var(--color-tertary)' }} /> */}
               <h2 className="text-center text-capitalize home-head web-title fw-normal">
                 latest <span className="fw-bold">blogs </span>
               </h2>
               <p className="text-center text-capitalize" >
                 Stay updated with travel tips, stories, and insights from Rajasthan
               </p>
-              {/* <hr style={{ borderColor: 'var(--color-tertary)' }} /> */}
             </div>
-          </div>
-          <div className="row d-flex justify-content-center py-2">
+          </Row>
+          <Row className="d-flex justify-content-center py-2">
             <SlickSlider settings={{ slidesToShow: 3, autoplay: false }}>
               {visibleBlogs.map((blog) => {
                 const visibleDescription =
                   blog.description.split(' ').slice(0, 20).join(' ') + '...';
                 return (
-                  <div
+                  <Col
                     className={`col-lg-6 col-md-6 col-sm-12 px-2  text-black overflow-auto py-2 d-flex justify-content-between align-items-stretch`}
                     key={blog.date}
                   >
@@ -66,14 +65,14 @@ const BlogsSection = () => {
                         </div>
                       </div>
                     </Link>
-                  </div>
+                  </Col>
                 );
               })}
             </SlickSlider>
-          </div>
+          </Row>
           <ExploreAll text="more insights" href="/blog" />
-        </div>
-      </div>
+        </Container>
+      </section>
     </>
   );
 };

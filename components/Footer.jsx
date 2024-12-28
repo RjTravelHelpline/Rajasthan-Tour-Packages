@@ -19,7 +19,7 @@ import Link from 'next/link';
 import BackToTop from './BackToTop';
 import ChatBot from './ChatBot';
 import BottomSocials from './BottomSocials';
-import { Modal } from 'react-bootstrap';
+import { Col, Container, Modal, Row } from 'react-bootstrap';
 import ContactForm from './ContactForm';
 
 const Footer = () => {
@@ -52,9 +52,9 @@ const Footer = () => {
     return (
         <>
             <BackToTop />
-            <div className="footer-container py-4 footer-request container-fluid">
-                <div className="container py-4">
-                    <div className="row d-flex justify-content-center align-items-center">
+            <section className="footer-container py-4 footer-request container-fluid">
+                <Container className="py-4">
+                    <Row className="d-flex justify-content-center align-items-center">
                         <h3 className="text-capitalize mb-2 text-black text-center fw-bold">
                             Looking to explore <span className='color-tertary'>something Specific</span>?
                         </h3>
@@ -63,16 +63,16 @@ const Footer = () => {
                         </p>
                         <hr />
                         <button onClick={handleShow}>Request a quote now </button>
-                    </div>
-                </div>
-            </div>
-            <div className="container-fluid">
-                <div className="container footer-review">
-                    <div className="row py-4 ">
-                        <div className="col-12 col-md-4 col-lg-6 col-sm-12 d-flex justify-content-left py-2">
+                    </Row>
+                </Container>
+            </section>
+            <section className="container-fluid">
+                <Container className="container footer-review">
+                    <Row className="py-4">
+                        <Col className="col-12 col-md-4 col-lg-6 col-sm-12 d-flex justify-content-left py-2">
                             <h3 className="text-capitalize mb-0 web-title">our customers recommended</h3>
-                        </div>
-                        <div className="col-12 col-lg-6 col-sm-12 d-flex justify-content-end py-2 gap-4">
+                        </Col>
+                        <Col className="col-12 col-lg-6 col-sm-12 d-flex justify-content-end py-2 gap-4">
                             <a
                                 href="https://www.tripadvisor.in/Attraction_Review-g304555-d24123312-Reviews-Rajasthan_Travel_Helpline-Jaipur_Jaipur_District_Rajasthan.html"
                                 className="image-link d-flex justify-content-center align-items-center"
@@ -84,15 +84,15 @@ const Footer = () => {
                             <a href="/" className="image-link d-flex justify-content-center align-items-center" target="_blank" aria-label='google'>
                                 <Image width={300} height={50} src={googleStars} alt="Goggle Rewiew Image" title='Google Review logo showcasing customer feedback' />
                             </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                        </Col>
+                    </Row>
+                </Container>
+            </section>
             {/* Packages and links */}
-            <div className="container-fluid px-0">
+            <section className="container-fluid px-0">
                 <div className="packages-footer pt-5">
-                    <div className="container">
-                        <div className="row mb-4">
+                    <Container>
+                        <Row className="mb-4">
                             <h3 className="text-center text-capitalize fw-bold web-title">
                                 our <span className='color-tertary fw-bold'>Packages </span>& Insights
                             </h3>
@@ -100,9 +100,9 @@ const Footer = () => {
                                 Explore our diverse range of tour packages designed to cater your
                                 preferences.
                             </p>
-                        </div>
-                        <div className="row accordians d-flex justify-content-center">
-                            <div className="col-12 col-lg-9 col-sm-12">
+                        </Row>
+                        <Row className="accordians d-flex justify-content-center">
+                            <Col className="col-12 col-lg-9 col-sm-12">
                                 <hr className="my-4" />
                                 <h3
                                     className="text-capitalize web-title d-flex justify-content-between px-2 align-items-center"
@@ -133,8 +133,8 @@ const Footer = () => {
                                     </div>
                                 )}
                                 <hr className="my-4" />
-                            </div>
-                            <div className="col-12 col-lg-9 col-sm-12">
+                            </Col>
+                            <Col className="col-12 col-lg-9 col-sm-12">
                                 <h3
                                     className="text-capitalize web-title d-flex justify-content-between px-2 align-items-center"
                                     onClick={() => toggleSection('tourByCities')}
@@ -164,8 +164,8 @@ const Footer = () => {
                                     </div>
                                 )}
                                 <hr className="my-4" />
-                            </div>
-                            <div className="col-12 col-lg-9 col-sm-12">
+                            </Col>
+                            <Col className="col-12 col-lg-9 col-sm-12">
                                 <h3
                                     className="text-capitalize web-title d-flex justify-content-between px-2 align-items-center"
                                     onClick={() => toggleSection('destination')}
@@ -192,8 +192,8 @@ const Footer = () => {
                                     </div>
                                 )}
                                 <hr className="my-4" />
-                            </div>
-                            <div className="col-12 col-lg-9 col-sm-12">
+                            </Col>
+                            <Col className="col-12 col-lg-9 col-sm-12">
                                 <h3
                                     className="text-capitalize web-title d-flex justify-content-between px-2 align-items-center"
                                     onClick={() => toggleSection('cabRental')}
@@ -223,8 +223,8 @@ const Footer = () => {
                                     </div>
                                 )}
                                 <hr className="my-4" />
-                            </div>
-                            <div className="col-12 col-lg-9 col-sm-12">
+                            </Col>
+                            <Col className="col-12 col-lg-9 col-sm-12">
                                 <h3
                                     className="text-capitalize web-title d-flex justify-content-between px-2 align-items-center"
                                     onClick={() => toggleSection('exclusiveTours')}
@@ -250,8 +250,8 @@ const Footer = () => {
                                     </div>
                                 )}
                                 <hr className="my-4" />
-                            </div>
-                            <div className="col-12 col-lg-9 col-sm-12">
+                            </Col>
+                            <Col className="col-12 col-lg-9 col-sm-12">
                                 <h3
                                     className="text-capitalize web-title d-flex justify-content-between px-2 align-items-center"
                                     onClick={() => toggleSection('tourByTheme')}
@@ -277,8 +277,8 @@ const Footer = () => {
                                     </div>
                                 )}
                                 <hr className="my-4" />
-                            </div>
-                            <div className="col-12 col-lg-9 col-sm-12">
+                            </Col>
+                            <Col className="col-12 col-lg-9 col-sm-12">
                                 <h3
                                     className="text-capitalize web-title d-flex justify-content-between px-2 align-items-center"
                                     onClick={() => toggleSection('usefulLinks')}
@@ -304,8 +304,8 @@ const Footer = () => {
                                     </div>
                                 )}
                                 <hr className="my-4" />
-                            </div>
-                            <div className="col-12 col-lg-9 col-sm-12">
+                            </Col>
+                            <Col className="col-12 col-lg-9 col-sm-12">
                                 <h3
                                     className="text-capitalize web-title d-flex justify-content-between px-2 align-items-center"
                                     onClick={() => toggleSection('company')}
@@ -331,15 +331,15 @@ const Footer = () => {
                                     </div>
                                 )}
                                 <hr className="my-4" />
-                            </div>
-                        </div>
-                    </div>
+                            </Col>
+                        </Row>
+                    </Container>
                 </div>
-            </div>
-            <div className="container-fluid px-0">
+            </section>
+            <section className="container-fluid px-0">
                 <div className="footer-container text-white">
                     <div className="container-fluid footer-bottom py-5 pt-2">
-                        <div className="row py-5 justify-content-center align-items-center certified">
+                        <Row className="py-5 justify-content-center align-items-center certified">
                             <h3 className="text-center text-capitalize">approved by</h3>
                             <div className="row my-3 w-100 d-flex jusify-content-center align-items-center">
                                 <div className="col-12 d-flex justify-content-center align-items-center gap-4 flex-wrap certifications">
@@ -400,8 +400,8 @@ const Footer = () => {
                                     </a>
                                 </div>
                             </div>
-                        </div>
-                        <div className="row d-flex justify-content-center align-items-center">
+                        </Row>
+                        <Row className="d-flex justify-content-center align-items-center">
                             <div className="col-12 d-flex flex-column footer-links justify-content-center align-items-center">
                                 <div className="footer-logo w-100 d-flex justify-content-center align-items-center">
                                     <a
@@ -448,18 +448,18 @@ const Footer = () => {
                                     </a>
                                 </div>
                             </div>
-                        </div>
-                        <div className="row footer-end">
+                        </Row>
+                        <Row className="footer-end">
                             <p className="copyright text-center my-4 text-capitalize">
                                 Copyright © {mydate} | Rajasthan travel helpline. All Rights
                                 Reserved.
                             </p>
-                        </div>
+                        </Row>
                     </div>
                 </div>
                 <BottomSocials />
                 <ChatBot />
-            </div>
+            </section>
 
             {/* Modal for Contact Form */}
             <Modal

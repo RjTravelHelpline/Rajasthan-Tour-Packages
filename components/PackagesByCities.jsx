@@ -1,6 +1,6 @@
 "use client";
 import { useState } from 'react';
-import { Card } from 'react-bootstrap';
+import { Card, Container, Row } from 'react-bootstrap';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import SlickSlider from './SlickSlider';
@@ -31,9 +31,9 @@ const PackagesByCities = () => {
   };
 
   return (
-    <div className="container-fluid section-01 py-5 position-relative">
-      <div className="container bydayspackages mb-5">
-        <div className="row py-2 px-2 d-flex justify-content-center align-items-center">
+    <section className="container-fluid section-01 py-5 position-relative">
+      <Container className="bydayspackages mb-5">
+        <Row className="py-2 px-2 d-flex justify-content-center align-items-center">
           <div className="d-flex-justify-content-center align-items-center">
             <h2 className="text-center text-capitalize home-head web-title fw-normal">
               tour packages <span className="fw-bold">by cities </span>
@@ -50,8 +50,8 @@ const PackagesByCities = () => {
               {readMore ? <>Show Less</> : <>..Read More</>}
             </button>
           </p>
-        </div>
-        <div className="row py-4 d-flex align-items-stretch">
+        </Row>
+        <Row className="py-4 d-flex align-items-stretch">
           <SlickSlider>
             {visibleCities.map((pkg, index) => (
               <div
@@ -79,10 +79,10 @@ const PackagesByCities = () => {
               </div>
             ))}
           </SlickSlider>
-        </div>
-      </div>
+        </Row>
+      </Container>
       <ExploreAll text="explore all" href="/rajasthan-tour-by-cities" />
-    </div>
+    </section>
   );
 };
 

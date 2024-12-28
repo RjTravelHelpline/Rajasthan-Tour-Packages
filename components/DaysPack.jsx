@@ -1,9 +1,7 @@
 "use client";
-import { Card } from "react-bootstrap";
+import { Card, Container, Row } from "react-bootstrap";
 import SlickSlider from "./SlickSlider";
-import { GoArrowRight } from "react-icons/go";
 import { useState } from "react";
-import { FaGripfire } from "react-icons/fa";
 import { daysPackage } from "@/data/data";
 import Link from "next/link";
 import Image from "next/image";
@@ -28,9 +26,9 @@ const DaysPack = () => {
         setReadMore(!readMore);
     };
     return (
-        <div className="container-fluid section-01 py-5 position-relative">
-            <div className="container bydayspackages mb-5">
-                <div className="row py-2 px-2 d-flex justify-content-center align-items-center">
+        <section className="container-fluid section-01 py-5 position-relative">
+            <Container className="bydayspackages mb-5">
+                <Row className="py-2 px-2 d-flex justify-content-center align-items-center">
                     <div className="d-flex-justify-content-center align-items-center">
                         <h2 className="text-center text-capitalize home-head web-title fw-normal">
                             Rajasthan tour <span className="fw-bold">by days </span>
@@ -57,8 +55,8 @@ const DaysPack = () => {
                             {readMore ? <>Show Less</> : <>..Read More</>}
                         </button>
                     </p>
-                </div>
-                <div className="row py-4 d-flex justify-content-start align-items-stretch">
+                </Row>
+                <Row className="py-4 d-flex justify-content-start align-items-stretch">
                     <SlickSlider>
                         {daysPackage.map((pkg, index) => (
                             <div
@@ -90,10 +88,10 @@ const DaysPack = () => {
                             </div>
                         ))}
                     </SlickSlider>
-                </div>
-            </div>
+                </Row>
+            </Container>
             <ExploreAll href="rajasthan-tour-packages" text="explore all" />
-        </div>
+        </section>
     );
 };
 

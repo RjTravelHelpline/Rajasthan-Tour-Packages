@@ -4,15 +4,16 @@ import SlickSlider from './SlickSlider';
 import { reviewers } from '@/data/data';
 import Image from 'next/image';
 import { BiUser } from 'react-icons/bi';
+import { Col, Container, Row } from 'react-bootstrap';
 const tripAdvisorLogo = '/Images/Logos/tripadvisor-logo.webp';
 const googleStars = '/Images/Logos/google-logo.webp';
 
 const Reviews = () => {
   return (
     <>
-      <div className="container-fluid section-01 py-5 position-relative">
-        <div className="container reviews mb-5">
-          <div className="row py-2 px-2 d-flex justify-content-center align-items-center">
+      <section className="container-fluid section-01 py-5 position-relative">
+        <Container className="reviews mb-5">
+          <Row className="py-2 px-2 d-flex justify-content-center align-items-center">
             <div className="d-flex-justify-content-center align-items-center">
               <h2 className="text-center text-capitalize home-head web-title fw-normal">
                 guests’ <span className="fw-bold">happiness </span>
@@ -21,16 +22,16 @@ const Reviews = () => {
                 Discover how our travelers experienced the magic of Rajasthan with us.
               </p>
             </div>
-          </div>
-          <div className="row py-4 d-flex align-items-stretch px-2 mb-3">
+          </Row>
+          <Row className="py-4 d-flex align-items-stretch px-2 mb-3">
             <SlickSlider settings={{ slidesToShow: 2 }}>
               {reviewers.map((reviewer, index) => {
                 return <ReviewCard key={index} reviewer={reviewer} />;
               })}
             </SlickSlider>
-          </div>
-        </div>
-      </div>
+          </Row>
+        </Container>
+      </section>
     </>
   );
 };
@@ -44,7 +45,7 @@ const ReviewCard = ({ reviewer }) => {
   };
 
   return (
-    <div className="col-12 col-sm-12 col-md-6 col-lg-4 mb-4 px-2 d-flex review-card">
+    <Col className="col-12 col-sm-12 col-md-6 col-lg-4 mb-4 px-2 d-flex review-card">
       <div className="review-card-insider">
         <div className="d-flex w-100">
           {reviewer.Images.map((img, imgIndex) => (
@@ -92,7 +93,7 @@ const ReviewCard = ({ reviewer }) => {
           </div>
         </div>
       </div>
-    </div>
+    </Col>
   );
 };
 
