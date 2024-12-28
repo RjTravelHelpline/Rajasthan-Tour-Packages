@@ -7,9 +7,11 @@
     "build": "next build",
     "postbuild": "next-sitemap",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "build:analyze": "cross-env ANALYZE=true next build"
   },
   "dependencies": {
+    "@next/bundle-analyzer": "^15.1.3",
     "bootstrap": "^5.3.3",
     "dot-env": "^0.0.1",
     "mysql2": "^3.11.5",
@@ -31,6 +33,7 @@
     "swiper": "^11.1.14"
   },
   "devDependencies": {
+    "cross-env": "^7.0.3",
     "eslint": "^8",
     "eslint-config-next": "14.2.15",
     "next-sitemap": "^4.2.3",
