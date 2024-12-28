@@ -1,3 +1,17 @@
+.blog-content-slug {
+  h2 {
+    font-size: clamp(1.1em, 2vw, 1.5em) !important;
+  }
+  h3 {
+    font-size: clamp(0.9em, 1.8vw, 1.3em) !important;
+  }
+  h4 {
+    font-size: clamp(0.8em, 1.6vw, 1.1em) !important;
+  }
+  // li {
+  //   font-size: clamp(0.9em, 1.2vw, 1.1em) !important;
+  // }
+}
 .blog-category-link {
   &:hover {
     background-color: var(--color-tertary);

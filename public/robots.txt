@@ -1,0 +1,14 @@
+# *
+User-agent: *
+Allow: /
+
+# *
+User-agent: *
+Disallow: /api/*
+Disallow: /admin/
+
+# Host
+Host: https://www.rajasthantourpackages.in
+
+# Sitemaps
+Sitemap: https://www.rajasthantourpackages.in/sitemap.xml

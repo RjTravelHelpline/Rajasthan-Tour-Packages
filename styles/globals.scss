@@ -41,7 +41,7 @@
 }
 body li {
   font-family: var(--font-head);
-  font-size: clamp(0.9em, 2vw, 0.9em);
+  // font-size: clamp(0.9em, 2vw, 0.9em);
 }
 .color-tertary {
   color: var(--color-tertary);
@@ -67,17 +67,7 @@ body li {
 .web-title {
   font-family: var(--font-raleway) !important;
 }
-.blog-content-slug {
-  h2 {
-    font-size: clamp(1.1em, 2vw, 1.5em) !important;
-  }
-  h3 {
-    font-size: clamp(0.9em, 1.8vw, 1.3em) !important;
-  }
-  h4 {
-    font-size: clamp(0.8em, 1.6vw, 1.1em) !important;
-  }
-}
+
 
 // Browser scroller bar
 ::-webkit-scrollbar-thumb {
