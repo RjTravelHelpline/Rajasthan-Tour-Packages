@@ -81,10 +81,10 @@ const Home = () => {
         </Container>
       </section>
       <Packages />
-      {/* <DaysPack />
+      <DaysPack />
       <PackagesByCities />
       <Reviews />
-      <Gallery /> */}
+      <Gallery />
       <BlogsSection />
       <Script type="application/ld+json" id="travel-agency-schema">
         {JSON.stringify({
