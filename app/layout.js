@@ -10,17 +10,16 @@ import FooterSwitcher from '@/components/FooterSwitcher';
 import BackToTop from '@/components/BackToTop';
 import BottomSocials from '@/components/BottomSocials';
 import ChatBot from '@/components/ChatBot';
-import GoogleAnalyticsClient from '@/components/GoogleAnalyticsClient';
-import AppLoader from '@/components/AppLoader';
+import dynamic from 'next/dynamic';
 import { useEffect, useState } from 'react';
 
-// const GoogleAnalyticsClient = dynamic(
-//   () => import('@/components/GoogleAnalyticsClient'),
-//   { ssr: false }
-// );
-// const AppLoader = dynamic(() => import('@/components/AppLoader'), {
-//   ssr: false,
-// });
+const GoogleAnalyticsClient = dynamic(
+  () => import('@/components/GoogleAnalyticsClient'),
+  { ssr: false }
+);
+const AppLoader = dynamic(() => import('@/components/AppLoader'), {
+  ssr: false,
+});
 // const NavbarSwitcher = dynamic(() => import('@/components/NavBarSwitcher'), {
 //   ssr: false,
 // });
@@ -40,10 +39,11 @@ import { useEffect, useState } from 'react';
 export default function RootLayout({ children }) {
   const [isAppLoading, setIsAppLoading] = useState(true);
 
-  // Handle loading state to control when to show the loader
+  // // Handle loading state to control when to show the loader
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsAppLoading(false);
+      clearTimeout(timer);
     }, 1000);
 
     return () => clearTimeout(timer);
@@ -67,7 +67,7 @@ export default function RootLayout({ children }) {
       <body>
         <GoogleAnalyticsClient />
         {isAppLoading ? (
-          <AppLoader />
+          <div>Loading...</div>
         ) : (
           <>
             <NavbarSwitcher />

@@ -15,9 +15,6 @@ import {
 import { IoIosMail, IoMdClose, } from 'react-icons/io';
 import Image from 'next/image';
 import Link from 'next/link';
-import BackToTop from './BackToTop';
-import ChatBot from './ChatBot';
-import BottomSocials from './BottomSocials';
 import { Col, Container, Modal, Row } from 'react-bootstrap';
 import ContactForm from './ContactForm';
 
