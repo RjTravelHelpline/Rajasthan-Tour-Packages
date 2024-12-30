@@ -46,6 +46,36 @@ export default function RootLayout({ children }) {
         />
         <link rel="icon" href="/rajasthan-travel-helpline.png" />
         <title>Rajasthan Tour Packages | Explore Incredible Rajasthan</title>
+
+        {/* <!-- Preload font files --> */}
+        <link
+          rel="preload"
+          href="/Fonts/Poppins/Poppins-Regular.woff2"
+          as="font"
+          type="font/woff2"
+          crossorigin="anonymous"
+        />
+        <link
+          rel="preload"
+          href="/Fonts/Poppins/Poppins-Bold.woff2"
+          as="font"
+          type="font/woff2"
+          crossorigin="anonymous"
+        />
+        <link
+          rel="preload"
+          href="/Fonts/Raleway/Raleway-Regular.woff2"
+          as="font"
+          type="font/woff2"
+          crossorigin="anonymous"
+        />
+        <link
+          rel="preload"
+          href="/Fonts/Raleway/Raleway-Bold.woff2"
+          as="font"
+          type="font/woff2"
+          crossorigin="anonymous"
+        />
       </head>
       <body>
         <GoogleAnalyticsClient />

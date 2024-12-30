@@ -281,28 +281,23 @@ p {
 }
 
 .home-banner {
-  // position: relative;
   .carousel-indicators {
     display: none;
   }
   .carousel-item {
     overflow: hidden;
     height: 80vh;
-    max-height: 700px !important;
+    max-height: 600px !important;
     display: flex;
     justify-content: center;
     align-items: center;
-    opacity: 0;
-    transition: 0.8s ease-in-out;
+    visibility: visible;
     @media screen and (max-width: 768px) {
       height: 40vh;
+      max-height: 300px;
     }
   }
-  .carousel-item.active {
-    opacity: 1;
-  }
   .carousel-item img {
-    shape-outside: margin-box;
     filter: brightness(0.55);
     background-position: center;
     background-size: 100%;
@@ -311,7 +306,6 @@ p {
     object-fit: cover;
   }
   .home-banner-caption {
-    // position: relative;
     font-size: clamp(1.6em, 4vw, 5em) !important;
     text-align: center !important;
     text-transform: capitalize;
