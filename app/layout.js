@@ -12,29 +12,12 @@ import BottomSocials from '@/components/BottomSocials';
 import ChatBot from '@/components/ChatBot';
 import dynamic from 'next/dynamic';
 import { useEffect, useState } from 'react';
+import AppLoader from '@/components/AppLoader';
 
 const GoogleAnalyticsClient = dynamic(
   () => import('@/components/GoogleAnalyticsClient'),
   { ssr: false }
 );
-const AppLoader = dynamic(() => import('@/components/AppLoader'), {
-  ssr: false,
-});
-// const NavbarSwitcher = dynamic(() => import('@/components/NavBarSwitcher'), {
-//   ssr: false,
-// });
-// const FooterSwitcher = dynamic(() => import('@/components/FooterSwitcher'), {
-//   ssr: false,
-// });
-// const BackToTop = dynamic(() => import('@/components/BackToTop'), {
-//   ssr: false,
-// });
-// const BottomSocials = dynamic(() => import('@/components/BottomSocials'), {
-//   ssr: false,
-// });
-// const ChatBot = dynamic(() => import('@/components/ChatBot'), {
-//   ssr: false,
-// });
 
 export default function RootLayout({ children }) {
   const [isAppLoading, setIsAppLoading] = useState(true);
@@ -67,7 +50,7 @@ export default function RootLayout({ children }) {
       <body>
         <GoogleAnalyticsClient />
         {isAppLoading ? (
-          <div>Loading...</div>
+          <AppLoader />
         ) : (
           <>
             <NavbarSwitcher />

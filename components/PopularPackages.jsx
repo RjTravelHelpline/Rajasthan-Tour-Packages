@@ -100,7 +100,7 @@ const Packages = () => {
                     <Card className="card bg-transparent">
                       <div className="card-image-container">
                         <Image src={pkg.imgSrc} alt={pkg.alt} title={pkg.imgTitle} width={600}
-                          height={800} />
+                          height={800} placeholder='empty' style={{ backgroundColor: "#000" }} />
                       </div>
 
                       <div className="row card-content d-flex align-items-center justify-content-center">

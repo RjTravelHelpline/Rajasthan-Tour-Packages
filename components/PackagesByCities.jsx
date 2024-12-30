@@ -67,6 +67,7 @@ const PackagesByCities = () => {
                       className="w-100 card-image"
                       width={600}
                       height={800}
+                      placeholder='empty' style={{ backgroundColor: "#000" }} 
                     />
                     <div className="row p-3 card-content d-flex align-items-center  justfiy-content-center flex-column">
                       <p className="mb-0">rajasthan tour from</p>

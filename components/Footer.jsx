@@ -23,7 +23,6 @@ const Footer = () => {
     const googleStars = '/Images/Logos/google-logo.webp';
     const certified01 = '/Images/Certification/certified-img01.webp';
     const certified02 = '/Images/Certification/certified-img02.webp';
-    const certified03 = '/Images/Certification/certified-img03.webp';
     const certified04 = '/Images/Certification/certified-img04.webp';
     const footerLogo = '/rajasthan-travel-helpline.png';
 
@@ -336,7 +335,7 @@ const Footer = () => {
                 <div className="footer-container text-white">
                     <div className="container-fluid footer-bottom py-5 pt-2">
                         <Row className="py-5 justify-content-center align-items-center certified">
-                            <h3 className="text-center text-capitalize">approved by</h3>
+                            <p className="text-center text-capitalize">approved by</p>
                             <div className="row my-3 w-100 d-flex jusify-content-center align-items-center">
                                 <div className="col-12 d-flex justify-content-center align-items-center gap-4 flex-wrap certifications">
                                     <a
@@ -349,7 +348,8 @@ const Footer = () => {
                                             src={certified01}
                                             alt="Rajasthan Tourism Certification"
                                             title='Rajasthan Tourism Certification for Travel Services'
-                                            className="pb-2 border-bottom border-white"
+                                            className="pb-2"
+                                            placeholder='empty' style={{ backgroundColor: "#000" }}
 
                                         />
                                     </a>
@@ -363,21 +363,8 @@ const Footer = () => {
                                             src={certified02}
                                             alt="Ministry of Corporate Affairs Certification"
                                             title='Ministry of Corporate Affairs Certification'
-                                            className="pb-2 border-bottom border-white"
-
-                                        />
-                                    </a>
-                                    <a
-                                        href="https://atulyabhaarat.com/"
-                                        className="d-flex justify-content-center align-items-center image-link"
-                                        target="_blank"
-                                        aria-label='go to certification'
-                                    >
-                                        <Image width={600} height={300}
-                                            src={certified03}
-                                            alt="Incredible India Certification"
-                                            title='Incredible India Certification for Tourism'
-                                            className="pb-2 border-bottom border-white"
+                                            className="pb-2"
+                                            placeholder='empty' style={{ backgroundColor: "#000" }}
 
                                         />
                                     </a>
@@ -386,12 +373,13 @@ const Footer = () => {
                                         className="d-flex justify-content-center align-items-center image-link"
                                         target="_blank"
                                         aria-label='go to certification'
+                                        placeholder='empty' style={{ backgroundColor: "#000" }}
                                     >
                                         <Image width={600} height={300}
                                             src={certified04}
                                             alt="FRTO Certification"
                                             title='Obtaining of FRTO Certification for Travel Services'
-                                            className="pb-2 border-bottom border-white"
+                                            className="pb-2"
                                         />
                                     </a>
                                 </div>
@@ -446,8 +434,8 @@ const Footer = () => {
                             </div>
                         </Row>
                         <Row className="footer-end">
-                            <p className="copyright text-center my-4 text-capitalize">
-                                Copyright © {mydate} | Rajasthan travel helpline. All Rights
+                            <p className="copyright fw-normal text-center my-4 text-capitalize" style={{ color: '#898989' }}>
+                                © 2003-{mydate} | Rajasthan travel helpline | All Rights
                                 Reserved.
                             </p>
                         </Row>

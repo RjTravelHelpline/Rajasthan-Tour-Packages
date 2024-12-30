@@ -24,7 +24,7 @@
 
     .logo {
       color: var(--color-tertary);
-      font-family: var(--font-logo);
+      // font-family: var(--font-logo);
       font-size: clamp(1.2em, 2vw, 1.8em);
     }
     .logo2 {
@@ -591,12 +591,6 @@
       }
     }
   }
-  .certified {
-    img {
-      width: clamp(8em, 12vw, 24em);
-      box-shadow: 0 24px 24px #ffffff2f;
-    }
-  }
 
   .footer-about {
     font-size: clamp(0.85em, 2vw, 1em);
@@ -657,7 +651,7 @@
   .image-link {
     width: auto !important;
     img {
-      width: 100% !important;
+      width: clamp(8em, 8vw, 10em) !important;
       height: auto !important;
     }
   }

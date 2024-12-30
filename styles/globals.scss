@@ -1,7 +1,6 @@
 :root {
   /* fonts */
   --font-head: 'Poppins', sans-serif;
-  --font-logo: 'Lobster', sans-serif;
   --font-raleway: 'Raleway', sans-serif;
   /* colors */
   --color-primary: #fff;
@@ -41,7 +40,6 @@
 }
 body li {
   font-family: var(--font-head);
-  // font-size: clamp(0.9em, 2vw, 0.9em);
 }
 .color-tertary {
   color: var(--color-tertary);
@@ -61,13 +59,9 @@ body li {
 .bg-tertary-down {
   background-color: var(--color-tertary-down);
 }
-// .bg-black-down {
-//   background-color: var(--color-black-down) !important;
-// }
 .web-title {
   font-family: var(--font-raleway) !important;
 }
-
 
 // Browser scroller bar
 ::-webkit-scrollbar-thumb {
@@ -217,7 +211,6 @@ body {
 }
 
 // navigation & More
-
 .logo-container {
   @media screen and (max-width: 1000px) {
     align-items: flex-start !important;
@@ -226,9 +219,10 @@ body {
 }
 .logo {
   color: var(--color-tertary);
-  font-family: var(--font-logo);
-  font-size: clamp(1.2em, 2vw, 1.8em);
-  font-weight: normal !important;
+  letter-spacing: -1px;
+  font-family: var(--font-raleway);
+  font-size: clamp(1.2em, 2vw, 1.6em) !important;
+  font-weight: bold !important;
 }
 
 .logo2 {

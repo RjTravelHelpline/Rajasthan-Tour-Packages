@@ -66,13 +66,13 @@ const DaysPack = () => {
                                 <Link href={pkg.navigate} className="text-capitalize">
                                     <Card className="card bg-transparent">
                                         <Image
-                                            variant="top"
                                             src={pkg.imgSrc}
                                             alt={pkg.imgAlt}
                                             title={pkg.imgTitle}
                                             className="w-100 card-image"
                                             width={600}
                                             height={800}
+                                            placeholder='empty' style={{ backgroundColor: "#000" }} 
                                         />
                                         <div className="row p-3 card-content d-flex align-items-center  justfiy-content-center flex-column">
                                             <h3 className="w-100 text-capitalize mx-1">

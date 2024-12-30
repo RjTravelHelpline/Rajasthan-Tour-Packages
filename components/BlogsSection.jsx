@@ -47,6 +47,7 @@ const BlogsSection = () => {
                             className="img-fluid"
                             width={800}
                             height={600}
+                            placeholder='empty' style={{ backgroundColor: "#000" }} 
                           />
                         </div>
                         <p className="blog-category mb-0">{blog.category}</p>

@@ -3,13 +3,15 @@
   font-family: 'Poppins';
   font-weight: 400;
   font-display: swap;
-  src: url('/Fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+  src: url('/Fonts/Poppins/Poppins-Regular.woff2') format('woff2'),
+    url('/Fonts/Poppins/Poppins-Regular.woff') format('woff');
 }
 @font-face {
   font-family: 'Poppins';
   font-weight: bold;
   font-display: swap;
-  src: url('/Fonts/Poppins/Poppins-Bold.ttf') format('truetype');
+  src: url('/Fonts/Poppins/Poppins-Bold.woff2') format('woff2'),
+    url('/Fonts/Poppins/Poppins-Bold.woff') format('woff');
 }
 
 @font-face {
@@ -20,6 +22,16 @@
 
 @font-face {
   font-family: 'Raleway';
+  font-weight: 400;
   font-display: swap;
-  src: url('/Fonts/Raleway/Raleway-VariableFont_wght.ttf') format('truetype');
+  src: url('/Fonts/Raleway/Raleway-Regular.woff2') format('woff2'),
+    url('/Fonts/Raleway/Raleway-Regular.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-weight: bold;
+  font-display: swap;
+  src: url('/Fonts/Raleway/Raleway-Bold.woff2') format('woff2'),
+    url('/Fonts/Raleway/Raleway-Bold.woff') format('woff');
 }

@@ -57,6 +57,7 @@ const ReviewCard = ({ reviewer }) => {
                 className="review-image"
                 width={1000}
                 height={800}
+                placeholder='empty' style={{ backgroundColor: "#000" }} 
               />
             </div>
           ))}
