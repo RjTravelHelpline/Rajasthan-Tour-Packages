@@ -1,7 +1,7 @@
 'use client'
 import React from 'react';
 
-const Loader = () => {
+const AppLoader = () => {
   return (
     <>
       <div className="loader-container">
@@ -14,4 +14,4 @@ const Loader = () => {
 }
 
 
-export default Loader;
+export default AppLoader;

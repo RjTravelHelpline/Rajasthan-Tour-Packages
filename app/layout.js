@@ -5,43 +5,48 @@ import '../styles/components.scss';
 import '../styles/routes.scss';
 import '../styles/blog.scss';
 import '../styles/fonts.scss';
-import { useEffect, useState } from 'react';
-import dynamic from 'next/dynamic';
+import NavbarSwitcher from '@/components/NavBarSwitcher';
+import FooterSwitcher from '@/components/FooterSwitcher';
+import BackToTop from '@/components/BackToTop';
+import BottomSocials from '@/components/BottomSocials';
+import ChatBot from '@/components/ChatBot';
+import GoogleAnalyticsClient from '@/components/GoogleAnalyticsClient';
+import AppLoader from '@/components/AppLoader';
 
-const GoogleAnalyticsClient = dynamic(
-  () => import('@/components/GoogleAnalyticsClient'),
-  { ssr: false }
-);
-const AppLoader = dynamic(() => import('@/components/AppLoader'), {
-  ssr: false,
-});
-const NavbarSwitcher = dynamic(() => import('@/components/NavBarSwitcher'), {
-  ssr: false,
-});
-const FooterSwitcher = dynamic(() => import('@/components/FooterSwitcher'), {
-  ssr: false,
-});
-const BackToTop = dynamic(() => import('@/components/BackToTop'), {
-  ssr: false,
-});
-const BottomSocials = dynamic(() => import('@/components/BottomSocials'), {
-  ssr: false,
-});
-const ChatBot = dynamic(() => import('@/components/ChatBot'), {
-  ssr: false,
-});
+// const GoogleAnalyticsClient = dynamic(
+//   () => import('@/components/GoogleAnalyticsClient'),
+//   { ssr: false }
+// );
+// const AppLoader = dynamic(() => import('@/components/AppLoader'), {
+//   ssr: false,
+// });
+// const NavbarSwitcher = dynamic(() => import('@/components/NavBarSwitcher'), {
+//   ssr: false,
+// });
+// const FooterSwitcher = dynamic(() => import('@/components/FooterSwitcher'), {
+//   ssr: false,
+// });
+// const BackToTop = dynamic(() => import('@/components/BackToTop'), {
+//   ssr: false,
+// });
+// const BottomSocials = dynamic(() => import('@/components/BottomSocials'), {
+//   ssr: false,
+// });
+// const ChatBot = dynamic(() => import('@/components/ChatBot'), {
+//   ssr: false,
+// });
 
 export default function RootLayout({ children }) {
-  const [isAppLoading, setIsAppLoading] = useState(true);
+  // const [isAppLoading, setIsAppLoading] = useState(true);
 
-  // Handle loading state to control when to show the loader
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setIsAppLoading(false); // Disable loader after 2 seconds
-    }, 2000); // 2 seconds
+  // // Handle loading state to control when to show the loader
+  // useEffect(() => {
+  //   const timer = setTimeout(() => {
+  //     setIsAppLoading(false);
+  //   }, 1000);
 
-    return () => clearTimeout(timer); // Clean up the timer
-  }, []);
+  //   return () => clearTimeout(timer);
+  // }, []);
 
   return (
     <html lang="en">

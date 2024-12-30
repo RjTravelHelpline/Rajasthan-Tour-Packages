@@ -1,14 +1,11 @@
-import dynamic from 'next/dynamic';
-
-// Dynamic imports for components
-const BlogsSection = dynamic(() => import('@/components/BlogsSection'), { ssr: false });
-const DaysPack = dynamic(() => import('@/components/DaysPack'), { ssr: false });
-const Gallery = dynamic(() => import('@/components/Gallery'), { ssr: false });
-const HomeCarousel = dynamic(() => import('@/components/HomeCarousel'), { ssr: false });
-const PackagesByCities = dynamic(() => import('@/components/PackagesByCities'), { ssr: false });
-const Packages = dynamic(() => import('@/components/PopularPackages'), { ssr: false });
-const ReadMoreToggle = dynamic(() => import('@/components/ReadMore'), { ssr: false });
-const Reviews = dynamic(() => import('@/components/Reviews'), { ssr: false });
+import BlogsSection from "@/components/BlogsSection";
+import DaysPack from "@/components/DaysPack";
+import Gallery from "@/components/Gallery";
+import HomeCarousel from "@/components/HomeCarousel";
+import PackagesByCities from "@/components/PackagesByCities";
+import Packages from "@/components/PopularPackages";
+import ReadMoreToggle from "@/components/ReadMore";
+import Reviews from "@/components/Reviews";
 import Script from "next/script";
 import { Col, Container } from "react-bootstrap";
 
