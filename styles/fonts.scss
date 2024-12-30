@@ -1,18 +1,25 @@
 /* fonts.css */
 @font-face {
-  font-family: "Poppins";
+  font-family: 'Poppins';
+  font-weight: 400;
   font-display: swap;
-  src: url("/Fonts/Poppins/Poppins-Regular.ttf") format("truetype");
+  src: url('/Fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-weight: bold;
+  font-display: swap;
+  src: url('/Fonts/Poppins/Poppins-Bold.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: "Lobster";
+  font-family: 'Lobster';
   font-display: swap;
-  src: url("/Fonts/Lobster/Lobster-Regular.ttf") format("truetype");
+  src: url('/Fonts/Lobster/Lobster-Regular.ttf') format('truetype');
 }
 
 @font-face {
-  font-family: "Raleway";
+  font-family: 'Raleway';
   font-display: swap;
-  src: url("/Fonts/Raleway/Raleway-VariableFont_wght.ttf") format("truetype");
+  src: url('/Fonts/Raleway/Raleway-VariableFont_wght.ttf') format('truetype');
 }

@@ -13,7 +13,6 @@ import {
     usefulLinks,
 } from '../data/linksData';
 import { IoIosMail, IoMdClose, } from 'react-icons/io';
-// import BackToTop from './BackToTop';
 import Image from 'next/image';
 import Link from 'next/link';
 import BackToTop from './BackToTop';
@@ -51,7 +50,7 @@ const Footer = () => {
 
     return (
         <>
-            <BackToTop />
+
             <section className="footer-container py-4 footer-request container-fluid">
                 <Container className="py-4">
                     <Row className="d-flex justify-content-center align-items-center">
@@ -457,8 +456,6 @@ const Footer = () => {
                         </Row>
                     </div>
                 </div>
-                <BottomSocials />
-                <ChatBot />
             </section>
 
             {/* Modal for Contact Form */}
@@ -480,7 +477,6 @@ const Footer = () => {
                     </button>
                 </Modal.Footer>
             </Modal>
-
         </>
     );
 };
