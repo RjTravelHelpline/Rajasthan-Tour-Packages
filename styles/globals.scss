@@ -1,6 +1,7 @@
 :root {
   /* fonts */
   --font-head: 'Poppins', sans-serif;
+  --font-logo: 'Lobster', sans-serif;
   --font-raleway: 'Raleway', sans-serif;
   /* colors */
   --color-primary: #fff;
@@ -219,10 +220,9 @@ body {
 }
 .logo {
   color: var(--color-tertary);
-  letter-spacing: -1px;
-  font-family: var(--font-raleway);
-  font-size: clamp(1.2em, 2vw, 1.6em) !important;
-  font-weight: bold !important;
+  font-family: var(--font-logo);
+  font-size: clamp(1.2em, 2vw, 1.8em) !important;
+  font-weight: normal !important;
 }
 
 .logo2 {
