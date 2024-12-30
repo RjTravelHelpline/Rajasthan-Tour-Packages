@@ -76,6 +76,21 @@ export default function RootLayout({ children }) {
           type="font/woff2"
           crossorigin="anonymous"
         />
+        <link
+          rel="preload"
+          href="/Images/Banners/rajasthan-banner01.webp"
+          as="image"
+        />
+        <link
+          rel="preload"
+          href="/Images/Banners/agra-banner.webp"
+          as="image"
+        />
+        <link
+          rel="preload"
+          href="/Images/Banners/jaipur-banner.webp"
+          as="image"
+        />
       </head>
       <body>
         <GoogleAnalyticsClient />
