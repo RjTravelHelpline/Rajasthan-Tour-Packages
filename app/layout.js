@@ -12,6 +12,7 @@ import BottomSocials from '@/components/BottomSocials';
 import ChatBot from '@/components/ChatBot';
 import GoogleAnalyticsClient from '@/components/GoogleAnalyticsClient';
 import AppLoader from '@/components/AppLoader';
+import { useEffect, useState } from 'react';
 
 // const GoogleAnalyticsClient = dynamic(
 //   () => import('@/components/GoogleAnalyticsClient'),
@@ -37,16 +38,16 @@ import AppLoader from '@/components/AppLoader';
 // });
 
 export default function RootLayout({ children }) {
-  // const [isAppLoading, setIsAppLoading] = useState(true);
+  const [isAppLoading, setIsAppLoading] = useState(true);
 
-  // // Handle loading state to control when to show the loader
-  // useEffect(() => {
-  //   const timer = setTimeout(() => {
-  //     setIsAppLoading(false);
-  //   }, 1000);
+  // Handle loading state to control when to show the loader
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setIsAppLoading(false);
+    }, 1000);
 
-  //   return () => clearTimeout(timer);
-  // }, []);
+    return () => clearTimeout(timer);
+  }, []);
 
   return (
     <html lang="en">
