@@ -86,7 +86,7 @@ const Home = () => {
       <Reviews />
       <Gallery />
       <BlogsSection />
-      <Script type="application/ld+json" id="travel-agency-schema">
+      <Script type="application/ld+json" id="travel-agency-schema" strategy="afterInteractive">
         {JSON.stringify({
           "@context": "https://schema.org",
           "@type": "TravelAgency",
@@ -126,7 +126,7 @@ const Home = () => {
           ]
         })}
       </Script>
-      <Script type="application/ld+json" id="website-schema">
+      <Script type="application/ld+json" id="website-schema" strategy="afterInteractive">
         {JSON.stringify({
           "@context": "https://schema.org/",
           "@type": "WebSite",

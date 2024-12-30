@@ -21,10 +21,10 @@ const PrivacyPolicy = () => {
                                 day: 'numeric'
                             })}</p>
                             <hr />
-                            <p>
+                            {/* <p>
                                 At Rajasthan Tour Packages, the guest’s privacy is one of the highest priorities. Here, the user will find information about how we collect, use, and secure your data when you use our
                                 <a href="https://www.rajasthantourpackages.in/" className="text-lowercase color-tertary" target="_blank"> https://www.rajasthantourpackages.in/</a> or our services. By accessing our site, you agree to the terms of this policy.
-                            </p>
+                            </p> */}
                             <h4 className=' text-capitalize web-title'>1. Information We Collect</h4>
                             <p>
                                 <span className="d-block">
@@ -159,7 +159,6 @@ const PrivacyPolicy = () => {
                                 </span>
                                 <hr />
                                 By using our <a href="https://www.rajasthantourpackages.in/" className="color-tertary" target="_blank">Rajasthan Tour Packages</a>, you consent to this Privacy Policy.
-
                             </p>
                         </div>
                     </div>
