@@ -16,8 +16,12 @@
     "dot-env": "^0.0.1",
     "mysql2": "^3.11.5",
     "next": "14.2.15",
+    "next-purgecss": "^4.0.0",
     "nextjs-google-analytics": "^2.3.7",
     "ngrok": "^5.0.0-beta.2",
+    "postcss": "^8.4.49",
+    "postcss-purgecss": "^5.0.0",
+    "purgecss": "^7.0.2",
     "react": "^18.2.0",
     "react-bootstrap": "^2.10.5",
     "react-dom": "^18.2.0",
@@ -27,6 +31,7 @@
     "react-slick": "^0.30.2",
     "react-toastify": "^10.0.6",
     "remark-gfm": "^4.0.0",
+    "sass-loader": "^16.0.4",
     "scss": "^0.2.4",
     "sharp": "^0.33.5",
     "sitemap": "^8.0.0",
@@ -38,6 +43,6 @@
     "eslint": "^8",
     "eslint-config-next": "14.2.15",
     "next-sitemap": "^4.2.3",
-    "sass": "^1.80.2"
+    "sass": "^1.83.0"
   }
 }

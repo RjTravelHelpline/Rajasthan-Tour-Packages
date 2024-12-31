@@ -1,37 +1,27 @@
-'use client';
+// 'use client';
+import dynamic from 'next/dynamic';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/globals.scss';
 import '../styles/components.scss';
-import '../styles/routes.scss';
 import '../styles/blog.scss';
-import '../styles/fonts.scss';
-import NavbarSwitcher from '@/components/NavBarSwitcher';
-import FooterSwitcher from '@/components/FooterSwitcher';
-import BackToTop from '@/components/BackToTop';
-import BottomSocials from '@/components/BottomSocials';
-import ChatBot from '@/components/ChatBot';
-import dynamic from 'next/dynamic';
-import { useEffect, useState } from 'react';
-import AppLoader from '@/components/AppLoader';
 
-const GoogleAnalyticsClient = dynamic(
-  () => import('@/components/GoogleAnalyticsClient'),
-  { ssr: false }
-);
+// Dynamically import components with SSR disabled
+const NavbarSwitcher = dynamic(() => import('@/components/NavBarSwitcher'), {
+  ssr: false,
+});
+const FooterSwitcher = dynamic(() => import('@/components/FooterSwitcher'), {
+  ssr: false,
+});
+const BackToTop = dynamic(() => import('@/components/BackToTop'), {
+  ssr: false,
+});
+const BottomSocials = dynamic(() => import('@/components/BottomSocials'), {
+  ssr: false,
+});
+const ChatBot = dynamic(() => import('@/components/ChatBot'), { ssr: false });
+import GoogleAnalyticsClient from '@/components/GoogleAnalyticsClient';
 
 export default function RootLayout({ children }) {
-  const [isAppLoading, setIsAppLoading] = useState(true);
-
-  // // Handle loading state to control when to show the loader
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setIsAppLoading(false);
-      clearTimeout(timer);
-    }, 1000);
-
-    return () => clearTimeout(timer);
-  }, []);
-
   return (
     <html lang="en">
       <head>
@@ -46,7 +36,6 @@ export default function RootLayout({ children }) {
         />
         <link rel="icon" href="/rajasthan-travel-helpline.png" />
         <title>Rajasthan Tour Packages | Explore Incredible Rajasthan</title>
-
         {/* <!-- Preload font files --> */}
         <link
           rel="preload"
@@ -76,36 +65,15 @@ export default function RootLayout({ children }) {
           type="font/woff2"
           crossorigin="anonymous"
         />
-        <link
-          rel="preload"
-          href="/Images/Banners/rajasthan-banner01.webp"
-          as="image"
-        />
-        <link
-          rel="preload"
-          href="/Images/Banners/agra-banner.webp"
-          as="image"
-        />
-        <link
-          rel="preload"
-          href="/Images/Banners/jaipur-banner.webp"
-          as="image"
-        />
       </head>
       <body>
         <GoogleAnalyticsClient />
-        {isAppLoading ? (
-          <AppLoader />
-        ) : (
-          <>
-            <NavbarSwitcher />
-            {children}
-            <FooterSwitcher />
-            <BackToTop />
-            <BottomSocials />
-            <ChatBot />
-          </>
-        )}
+        <NavbarSwitcher />
+        {children}
+        <FooterSwitcher />
+        <BackToTop />
+        <BottomSocials />
+        <ChatBot />
       </body>
     </html>
   );
