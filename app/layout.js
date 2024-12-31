@@ -35,7 +35,6 @@ export default function RootLayout({ children }) {
           content="PU85YcSvNVLnD66cxW67fVE1Xig2NKBngonkdHmyb5s"
         />
         <link rel="icon" href="/rajasthan-travel-helpline.png" />
-        <title>Rajasthan Tour Packages | Explore Incredible Rajasthan</title>
         {/* <!-- Preload font files --> */}
         <link
           rel="preload"

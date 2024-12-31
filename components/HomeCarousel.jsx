@@ -8,7 +8,7 @@ const HomeCarousel = () => {
         <div className="container-fluid home-banner px-0 bg-tertary-down">
             <Carousel fade pause={false} controls={false} interval={4000}>
                 <Carousel.Item>
-                    <Image src='/Images/Banners/rajasthan-banner01.webp' alt="Rajasthan Shotmen also Camel during sunset in desert" title='India is a country of Temples, Tradition and Scenic beauty' width={1500} height={500} placeholder="empty"
+                    <Image src='/Images/Banners/home-banner-01.png' alt="Rajasthan Shotmen also Camel during sunset in desert" title='India is a country of Temples, Tradition and Scenic beauty' width={1500} height={500} layout='fill' placeholder="empty"
                         priority
                         sizes="(max-width: 768px) 100vw, 1500px"
                         style={{ backgroundColor: "#000" }} />
@@ -22,7 +22,7 @@ const HomeCarousel = () => {
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <Image src='/Images/Banners/agra-banner.webp' alt="Agra Taj Mahal" title='Ultrawide shot of Agra Taj Mahal' width={1500} height={500} placeholder="empty"
+                    <Image src='/Images/Banners/home-banner-02.png' alt="Agra Taj Mahal" title='Ultrawide shot of Agra Taj Mahal' width={1500} height={500} placeholder="empty"
                         priority
                         sizes="(max-width: 768px) 100vw, 1500px"
                         style={{ backgroundColor: "#000" }} />
@@ -36,7 +36,7 @@ const HomeCarousel = () => {
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <Image src='/Images/Banners/jaipur-banner.webp' alt="Jaipur Hawa Mahal" title='Front view of Jaipur Hawa Mahal' width={1500} height={500} placeholder="empty"
+                    <Image src='/Images/Banners/home-banner-03.png' alt="Jaipur Hawa Mahal" title='Front view of Jaipur Hawa Mahal' width={1500} height={500} placeholder="empty"
                         priority
                         sizes="(max-width: 768px) 100vw, 1500px"
                         style={{ backgroundColor: "#000" }} />

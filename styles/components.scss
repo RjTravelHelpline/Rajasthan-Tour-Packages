@@ -2315,14 +2315,13 @@ p {
   }
   .carousel-item {
     overflow: hidden;
-    height: 80vh;
-    max-height: 800px !important;
+    height: 70vh;
+    max-height: 700px !important;
     display: flex;
     justify-content: center;
     align-items: center;
     @media screen and (max-width: 768px) {
-      height: 50vh;
-      max-height: 600px !important;
+      height: 40vh;
     }
   }
   .carousel-item img {

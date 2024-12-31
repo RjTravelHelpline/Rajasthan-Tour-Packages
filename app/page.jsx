@@ -49,7 +49,7 @@ const Page = () => {
       <Reviews />
       <Gallery />
       <BlogsSection />
-      {/* <Script type="application/ld+json" id="travel-agency-schema" strategy="afterInteractive">
+      <Script type="application/ld+json" id="travel-agency-schema" strategy="afterInteractive">
         {JSON.stringify({
           "@context": "https://schema.org",
           "@type": "TravelAgency",
@@ -101,7 +101,7 @@ const Page = () => {
             "query-input": "required name=search_term_string"
           }
         })}
-      </Script> */}
+      </Script>
     </>
   );
 }

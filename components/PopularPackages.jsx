@@ -135,7 +135,6 @@ const Packages = () => {
                             <a
                               href={whatsappLink}
                               target="_blank"
-                              rel="noopener noreferrer"
                               className="text-center whatsapp-logo"
                             >
                               <IoLogoWhatsapp />
