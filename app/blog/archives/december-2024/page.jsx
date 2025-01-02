@@ -1,6 +1,7 @@
 import Breadcrumb from '@/components/Breadcrumb'
 import { blogs } from '@/data/Blogs';
-import { filterBlogsByMonth, formatDate, getLatestItems } from '@/Utils/util';
+import { filterBlogsByMonth } from '@/Utils/blog.util';
+import { formatDate, getLatestItems } from '@/Utils/util';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react'
@@ -46,7 +47,7 @@ const page = () => {
                         <h1 className='text-center text-uppercase color-tertary'>december, <span className="text-black fw-normal">
                             2024 </span> </h1>
                         <p className="text-center">
-                            Explore the latest blogs and stories published in <span className="fw-bold">october 2024</span>.
+                            Explore the latest blogs and stories published in <span className="fw-bold">december 2024</span>.
                         </p>
                     </div>
                     <hr />

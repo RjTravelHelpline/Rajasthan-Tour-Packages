@@ -1,13 +1,11 @@
 "use client";
 import { useState } from 'react';
 import BackToTop from './BackToTop';
-import Image from 'next/image';
 import Link from 'next/link';
-import { blogCategories, blogs } from '@/data/Blogs';
+import { blogArchives, blogCategories } from '@/Utils/blog.util';
 import BottomSocials from './BottomSocials';
 import ChatBot from './ChatBot';
 import { PiMinus, PiPlus } from 'react-icons/pi';
-import SearchBar from './SearchBar';
 
 const BlogFooter = () => {
 
@@ -28,13 +26,6 @@ const BlogFooter = () => {
         setSelectedPackage(title);
         setShow(true);
     };
-
-    const archives = {
-        '2024': [
-            { title: 'November 2024', date: 'November, 2024', path: '/november-2024' },
-            { title: 'december 2024', date: 'October, 2024', path: '/december-2024' },
-        ]
-    }
 
 
     const [activeIndex, setActiveIndex] = useState(null); // Tracks the index of the currently open accordion
@@ -78,10 +69,10 @@ const BlogFooter = () => {
                             </h4>
                             {activeIndex === 2 && (
                                 <ul className={`${activeIndex === 2 ? 'active-toggle' : ''} list-unstyled d-flex justify-content-start align-items-center flex-wrap footer-links mt-3`}>
-                                    {archives[2024].map((category, index) => (
+                                    {blogArchives.map((category, index) => (
                                         <li key={index} className="p-0 text-white blog-footer-link" >
-                                            <Link href={`/blog/archives${category.path}`} className='text-white p-2 text-uppercase '>
-                                                {category.title}
+                                            <Link href={`/blog/archives${category.path}`} className='text-white p-2 text-capitalize '>
+                                                {category.text}
                                             </Link>
                                         </li>
                                     ))}

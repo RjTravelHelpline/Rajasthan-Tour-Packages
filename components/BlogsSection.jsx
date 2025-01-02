@@ -1,26 +1,26 @@
 "use client";
 import SlickSlider from './SlickSlider';
-import { blogs, getLatestBlogs } from '@/data/Blogs';
+import { blogs } from '@/data/Blogs';
 import Link from 'next/link';
 import Image from 'next/image';
 import { ExploreAll } from './ExploreAll';
-import { formatDate } from '@/Utils/util';
-import { PiCalendar, PiUser } from 'react-icons/pi';
+import { formatDate, getLatestItems } from '@/Utils/util';
+import { PiUser } from 'react-icons/pi';
 import { BiCalendar } from 'react-icons/bi';
 import { Col, Container, Row } from 'react-bootstrap';
 
 const BlogsSection = () => {
-  const latestBlogs = getLatestBlogs(blogs);
+  const latestBlogs = getLatestItems(blogs);
   const visibleBlogs = latestBlogs.slice(0, 4);
 
 
   return (
     <>
-      <section className="container-fluid py-5 position-relative text-black">
+      <section className="container-fluid py-5 position-relative">
         <Container className="blogs mb-5">
           <Row className="py-2 px-2 d-flex justify-content-center align-items-center">
             <div className="d-flex-justify-content-center align-items-center">
-              <h2 className="text-center text-capitalize home-head web-title fw-normal">
+              <h2 className="text-center text-capitalize home-head web-title fw-normal  text-black">
                 latest <span className="fw-bold">blogs </span>
               </h2>
               <p className="text-center text-capitalize" >
@@ -35,7 +35,7 @@ const BlogsSection = () => {
                   blog.description.split(' ').slice(0, 20).join(' ') + '...';
                 return (
                   <Col
-                    className={`col-lg-6 col-md-6 col-sm-12 px-2  text-black overflow-auto py-2 d-flex justify-content-between align-items-stretch`}
+                    className={`col-lg-6 col-md-6 col-sm-12 px-2 overflow-auto py-2 d-flex justify-content-between align-items-stretch`}
                     key={blog.date}
                   >
                     <Link href={`/blog/${blog.slug}`} className='w-100'>
@@ -47,11 +47,11 @@ const BlogsSection = () => {
                             className="img-fluid"
                             width={800}
                             height={600}
-                            placeholder='empty' style={{ backgroundColor: "#000" }} 
+                            placeholder='empty' style={{ backgroundColor: "#000" }}
                           />
                         </div>
                         <p className="blog-category mb-0">{blog.category}</p>
-                        <h3 className="blog-heading">{blog.heading}</h3>
+                        <h3 className="blog-heading text-black">{blog.heading}</h3>
                         <p className="mb-2">{visibleDescription}</p>
                         <div className="row d-flex justify-content-start w-100 align-items-center">
                           <p className="text-muted w-auto blog-author mb-0 text-capitalize d-flex justify-content-center align-items-center">

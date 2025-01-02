@@ -2,41 +2,19 @@ import { BlogDataSection } from "@/components/BlogDataSection";
 import HorizontalScrollBlogs from "@/components/HorizontalScrollBlogs";
 import RTPNav from "@/components/RTPNav";
 import SearchBar from "@/components/SearchBar";
-import { blogCategories, blogs, getBlogsByCategory, getLatestBlogs } from "@/data/Blogs";
-import { FaUtensils, FaPaw, FaLandmark, FaTheaterMasks, FaPlane, FaNewspaper, FaGripfire } from "react-icons/fa";
+import { blogs } from "@/data/Blogs";
+import { getBlogsByCategory } from "@/Utils/blog.util";
+import { getLatestItems } from "@/Utils/util";
+import { FaUtensils, FaPaw, FaLandmark, FaTheaterMasks, FaPlane, FaNewspaper } from "react-icons/fa";
 
-export const metadata = {
-    title: 'Rajasthan Travel Blog & Tips | Rajasthan Tour Packages',
-    description: 'Stay updated at our Rajasthan Travel Blog & Tips. Get valuable guides and travel advice for find Rajasthan. Plan your next adventure at Rajasthan Tour Packages.',
-    alternates: {
-        canonical: "https://www.rajasthantourpackages.in/blog",
-    },
-    openGraph: {
-        title: 'Rajasthan Travel Blog & Tips | Rajasthan Tour Packages',
-        description: 'Stay updated at our Rajasthan Travel Blog & Tips. Get valuable guides and travel advice for find Rajasthan. Plan your next adventure at Rajasthan Tour Packages.',
-        url: "https://www.rajasthantourpackages.in/blog",
-        images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
-        site_name: 'Rajasthan Tour Packages',
-        type: 'website',
-        locale: 'en_US',
-    },
-    twitter: {
-        card: "summary_large_image",
-        site: "@rajasthantourpackages",
-        title: 'Rajasthan Travel Blog & Tips | Rajasthan Tour Packages',
-        description: 'Stay updated at our Rajasthan Travel Blog & Tips. Get valuable guides and travel advice for find Rajasthan. Plan your next adventure at Rajasthan Tour Packages.',
-        images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
-    },
-};
 const Blogs = () => {
-    const latestBlogs = getLatestBlogs(blogs);
+    const latestBlogs = getLatestItems(blogs);
     const travelBlogs = getBlogsByCategory(blogs, "tour & travels")
     const foodBlogs = getBlogsByCategory(blogs, "food")
     const historyBlogs = getBlogsByCategory(blogs, "history & culture")
     const wildlifeBlogs = getBlogsByCategory(blogs, "wildlife")
     const festivalsBlogs = getBlogsByCategory(blogs, "fair & festivals")
     const newsBlogs = getBlogsByCategory(blogs, "news & updates")
-    blogCategories
     return (
         <>
             <div className="container-fluid bg-black blog-header text-white pt-5 pt-5">
@@ -82,37 +60,37 @@ const Blogs = () => {
                     category="food"
                     subhead="Delicious Discoveries"
                     icon={<FaUtensils />}
-                    Data={foodBlogs}
+                    Data={foodBlogs.slice(0, 2)}
                 />
                 <BlogDataSection
                     category="wildlife"
                     subhead="Nature's Wonders"
                     icon={<FaPaw />}
-                    Data={wildlifeBlogs}
+                    Data={wildlifeBlogs.slice(0, 2)}
                 />
                 <BlogDataSection
                     category="history-&-culture"
                     subhead="Timeless Tales"
                     icon={<FaLandmark />}
-                    Data={historyBlogs}
+                    Data={historyBlogs.slice(0, 2)}
                 />
                 <BlogDataSection
                     category="fair-&-festivals"
                     subhead="Festive Celebrations"
                     icon={<FaTheaterMasks />}
-                    Data={festivalsBlogs}
+                    Data={festivalsBlogs.slice(0, 2)}
                 />
                 <BlogDataSection
                     category="tour-&-travels"
                     subhead="Wanderlust Diaries"
                     icon={<FaPlane />}
-                    Data={travelBlogs}
+                    Data={travelBlogs.slice(0, 2)}
                 />
                 <BlogDataSection
                     category="news-&-updates"
                     subhead="Latest Updates"
                     icon={<FaNewspaper />}
-                    Data={newsBlogs}
+                    Data={newsBlogs.slice(0, 2)}
                 />
             </div>
         </>

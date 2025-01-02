@@ -1,5 +1,6 @@
 import Breadcrumb from '@/components/Breadcrumb'
-import { blogs, getBlogsByCategory } from '@/data/Blogs';
+import { blogs } from '@/data/Blogs';
+import { getBlogsByCategory } from '@/Utils/blog.util';
 import { formatDate } from '@/Utils/util';
 import Image from 'next/image';
 import Link from 'next/link';

@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Comment from '@/components/CommentSection';
 import SearchBar from '@/components/SearchBar';
-import { blogArchives, blogCategories, blogs, getBlogsByCategory } from '@/data/Blogs';
+import { blogs } from '@/data/Blogs';
 import { BiChevronRight } from "react-icons/bi";
 import Link from 'next/link';
 import {
@@ -18,14 +18,15 @@ import { FaCalendarDays } from 'react-icons/fa6';
 import { useState } from "react";
 import { PiMinus, PiPlus } from "react-icons/pi";
 import { formatDate } from "@/Utils/util";
+import { blogArchives, blogCategories, getBlogsByCategory } from "@/Utils/blog.util";
 
 
 
 const BlogPost = ({ params }) => {
-    const [activeIndex, setActiveIndex] = useState(null); // Tracks the index of the currently open accordion
+    const [activeIndex, setActiveIndex] = useState(null);
 
     const handleShow = (index) => {
-        setActiveIndex(prevIndex => (prevIndex === index ? null : index)); // Toggle the state based on index
+        setActiveIndex(prevIndex => (prevIndex === index ? null : index));
     };
 
     const blog = blogs.find((b) => b.slug === params.slug);

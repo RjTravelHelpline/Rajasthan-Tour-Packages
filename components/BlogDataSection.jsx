@@ -4,7 +4,7 @@ import Link from "next/link";
 import { useState } from "react";
 import Image from "next/image";
 import { formatDate } from "@/Utils/util";
-import { PiCalendar, PiUser } from "react-icons/pi";
+import { PiUser } from "react-icons/pi";
 import { BiCalendar } from "react-icons/bi";
 
 export const BlogDataSection = ({ category, Data, icon, subhead }) => {

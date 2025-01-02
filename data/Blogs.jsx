@@ -1,109 +1,13 @@
 import { Table } from 'react-bootstrap';
-import { allStatesImages } from './imageData';
 import Image from 'next/image';
 import { Link } from '@/Utils/util';
-
-
-// * wildlife
-const wildlifeBanner = '/Images/Blog/wildlife-banner.png';
-const wildlifeSariska = '/Images/Blog/wildlife-sariska.png';
-const wildlifeRanthambore = '/Images/Blog/wildlife-ranthambore.png';
-const wildlifeKeoladeo = '/Images/Blog/wildlife-keoladeo.png';
-const wildlifeDesertNational = '/Images/Blog/wildlife-desert-national.png';
-const wildlifeMoutabu = '/Images/Blog/wildlife-mountabu.png';
-const wildlifeGajner = '/Images/Blog/wildlife-gajner.png';
-const wildlifeMukundra = '/Images/Blog/wildlife-mukundra.png';
-const wildlifeKumbhalgarh = '/Images/Blog/wildlife-kumbhalgarh.png';
-const wildlifeJaisalmer = '/Images/Blog/wildlife-jaisalmer.png';
-const wildlifeSajjangarh = '/Images/Blog/wildlife-sajjangarh.jpg';
-const wildlifeJawai = '/Images/Blog/wildlife-jawai.png';
-
-
-// news and updates
-// jaipur
-const newsJaipurBanner = '/Images/Blog/news-banner.png';
-const newsJaipur = '/Images/Blog/news-jaipur.png';
-
-// jammu & kashmir
-const newsJammuBanner = '/Images/Blog/news-jammu-banner.png';
-const newsChenabBridge = '/Images/Blog/news-chenab-bridge.png';
-
-// history & culture
-const historyRajasthan = '/Images/Blog/history-rajasthan.jpeg';
-const historyMehrangarh = '/Images/Blog/history-mehrangarh.jpeg';
-const historyCityPalace = '/Images/Blog/history-city-palace.jpeg';
-const historyArt = '/Images/Blog/history-art.png';
-const historyPushkarCamelFair = '/Images/Blog/history-pushkar-camel-fair.png';
-const historyUmaidBhavan = '/Images/Blog/history-umaid-bhavan.jpeg';
-
-// fair & festivals
-const fairCamelrBanner = '/Images/Blog/fair-camel-banner.png';
-const fairPushkarLake = '/Images/Blog/fair-pushkar-lake.png';
-
-const fairChinaBanner = '/Images/Blog/fair-china.png'
-const fairChinaDragonDance = '/Images/Blog/fair-china-dragon-dance.png'
-
-// tour and travels
-const tourUdaipurBanner = '/Images/Blog/tour-udaipur-banner.png';
-const udaipurTajLake = '/Images/Blog/udaipur-taj-lake.png';
-
-const jaisalmerBanner = '/Images/Blog/tour-jaisalmer-banner.png';
-const jaisalmerFort = '/Images/Blog/jaisalmer-fort.png';
-const jaisalmerPatwa = '/Images/Blog/jaisalmer-patwa.jpg';
-const jaisalmerJainMandir = '/Images/Blog/jaisalmer-jain-mandir.png';
-const jaisalmerLongewala = '/Images/Blog/jaisalmer-longewala.png';
-const jaisalmerGadisar = '/Images/Blog/jaisalmer-gadisar-lake.png';
-const jaisalmerBadabagh = '/Images/Blog/jaisalmer-bada-bagh.png';
-
-// food
-const foodBanner = '/Images/Blog/food-banner.png';
-const foodDesertDish = '/Images/Blog/food-kher-sangari.png';
-const foodGatteKiSabji = '/Images/Blog/food-gatte-ki-sabji.jpeg';
-const foodLambKabab = '/Images/Blog/food-lamb-kabab.png';
-const foodGhevar = '/Images/Blog/food-ghevar.png';
-const foodKachori = '/Images/Blog/food-kachori.jpg';
-
-const foodUmaidBhavan = '/Images/Blog/food_umaid_bhavan.jpg';
-const foodJodhpurBanner = '/Images/Blog/food_jodhpur_banner.jpg';
-
-// fair and festival
-const fairKotaChambal = '/Images/Blog/fair-kota-chambal.jpeg';
-const fairKotaDance = '/Images/Blog/fair-kota-dance.jpeg';
-
-const jhalanaBanner = '/Images/Blog/wildlife-jhalana-banner.jpeg';
-const jhalanaBirdKingfisher = '/Images/Blog/bird-kingfisher-jhalana.jpeg';
-const jhalanaLeopard = '/Images/Blog/leopard-jhalana.jpeg';
-const jhalanaJeepSawari = '/Images/Blog/jhalana-jeep-sawari.jpeg';
-
-const newsWeddingBanner = '/Images/Blog/news-wedding-rajasthan.png';
-const historyRajasthanBanner = '/Images/Blog/history-rajasthan-forts.jpg';
-const historyMehrangarhFort = '/Images/Blog/history-mehrangarh-fort.png';
-const historyKumbhalgarhFort = '/Images/Blog/history-kumbhalgarh-fort.png';
-const historyKhejarlaFort = '/Images/Blog/history-khejarla-fort.png';
-const historyJaisalmerFort = '/Images/Blog/history-jaisalmer-fort.png';
-const historyPachewarFort = '/Images/Blog/history-pachewar-fort.png';
-const historyRanthamboreFort = '/Images/Blog/history-ranthambore-fort.png';
-const historyRoopangarhFort = '/Images/Blog/history-roopangarh-fort.png';
-const historyGhaneraoFort = '/Images/Blog/history-ghanerao-fort.png';
-const historyDundlodFort = '/Images/Blog/history-dundlod-fort.png';
-const historyDhariyawadFort = '/Images/Blog/history-dhariyawad-fort.png';
-const historyDevigarhFort = '/Images/Blog/history-devigarh-fort.png';
-const historyChittorgarhFort = '/Images/Blog/history-chittorgarh-fort.png';
-const historyCharkhariFort = '/Images/Blog/history-charkhari-fort.png';
-const historyAmberFort = '/Images/Blog/history-amber-fort.png';
-
-const generateSlug = (heading) =>
-  heading
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/(^-|-$)+/g, '');
 
 // blogs
 export const blogs = [
   // Wildlife
   {
     author: 'Admin',
-    image: wildlifeBanner,
+    image: '/Images/Blog/wildlife-banner.png',
     date: '2024-11-16',
     heading: 'Rajasthan Wildlife Trails: A Paradise for Adventurers Explorers',
     slug: 'wildlife-trails-rajasthan-nature-adventures',
@@ -131,7 +35,7 @@ export const blogs = [
         <h3> 1. Sariska Tiger Reserve: A Journey Through the Jungle</h3>
         <div className="slug-image-container my-2">
           <Image
-            src={wildlifeSariska}
+            src='/Images/Blog/wildlife-sariska.png'
             alt="Sariska Tiger Reserve"
             width={1500}
             height={600}
@@ -224,7 +128,7 @@ export const blogs = [
         </h3>
         <div className="slug-image-container my-2">
           <Image
-            src={wildlifeRanthambore}
+            src='/Images/Blog/wildlife-ranthambore.png'
             alt="Ranthambore National Park"
             title='Tiger pose during the golden light time'
             width={1500}
@@ -377,7 +281,7 @@ export const blogs = [
         <h3>3. Keoladeo Ghana National Park: A Birdwatcher’s Paradise</h3>
         <div className="slug-image-container my-2">
           <Image
-            src={wildlifeKeoladeo}
+            src='/Images/Blog/wildlife-keoladeo.png'
             alt="Keoladeo Ghana National Park"
             title='flamingos standing in water'
             width={1500}
@@ -455,7 +359,7 @@ export const blogs = [
         <h3>4. Desert National Park: Experience in Sam Sand Dunes of Rajasthan</h3>
         <div className="slug-image-container my-2">
           <Image
-            src={wildlifeDesertNational}
+            src='/Images/Blog/wildlife-desert-national.png'
             alt="Desert National Park"
             title='Richtersveld park'
             width={1500}
@@ -533,7 +437,7 @@ export const blogs = [
         <h3>5. Mount Abu Wildlife Sanctuary: A Cool Retreat in the Hills</h3>
         <div className="slug-image-container my-2">
           <Image
-            src={wildlifeMoutabu}
+            src='/Images/Blog/wildlife-mountabu.png'
             alt="Mount Abu Wildlife Sanctuary"
             title='Building in the forest on the mountain'
             width={1500}
@@ -614,7 +518,7 @@ export const blogs = [
         <h3>6. Gajner Wildlife Sanctuary: Off-the-Beaten-Path Adventure</h3>
         <div className="slug-image-container my-2">
           <Image
-            src={wildlifeGajner}
+            src='/Images/Blog/wildlife-gajner.png'
             alt="Gajner Wildlife Sanctuary"
             title='Wild deer congregated in water at green trees in the lake surroundings'
             width={1500}
@@ -701,7 +605,7 @@ export const blogs = [
         <h3>7. Mukundra Hills Tiger Reserve: A Hidden Gem</h3>
         <div className="slug-image-container my-2">
           <Image
-            src={wildlifeMukundra}
+            src='/Images/Blog/wildlife-mukundra.png'
             alt="Mukundra Hills Tiger Reserve"
             title='Amazing tiger in the natural habitat'
             width={1500}
@@ -790,7 +694,7 @@ export const blogs = [
         <h3>8. Kumbhalgarh Wildlife Sanctuary: An editorial A walk along history and wilderness</h3>
         <div className="slug-image-container my-2">
           <Image
-            src={wildlifeKumbhalgarh}
+            src='/Images/Blog/wildlife-kumbhalgarh.png'
             alt="Kumbhalgarh Wildlife Sanctuary"
             title='High angle view of bongos on grassy field'
             width={1500}
@@ -849,7 +753,7 @@ export const blogs = [
         <h3>9. Jaisamand Wildlife Sanctuary: Wilderness by the Lake</h3>
         <div className="slug-image-container my-2">
           <Image
-            src={wildlifeJaisalmer}
+            src='/Images/Blog/wildlife-jaisalmer.png'
             alt="Jaisamand Wildlife Sanctuary by the Lake"
             title='Beautiful shot of deer standing on a grassy field with a blurred natural'
             width={1500}
@@ -935,7 +839,7 @@ export const blogs = [
         <h3>10. Sajjangarh Wildlife Sanctuary (Monsoon Palace): A Rainy Season Paradise</h3>
         <div className="slug-image-container my-2">
           <Image
-            src={wildlifeSajjangarh}
+            src='/Images/Blog/wildlife-sajjangarh.jpg'
             alt="Sajjangarh Wildlife Sanctuary"
             title='Sajjangarh Wildlife Sanctuary: Monsoon Palace Escape'
             width={1500}
@@ -1021,7 +925,7 @@ export const blogs = [
         <h3>11. Jawai Leopard Safari: Wildlife Tour in Rajasthan</h3>
         <div className="slug-image-container my-2">
           <Image
-            src={wildlifeJawai}
+            src='/Images/Blog/wildlife-jawai.png'
             alt="Jawai Leopard Safari"
             title='Close up shot of a leopard lying on the ground'
             width={1500}
@@ -1136,7 +1040,7 @@ export const blogs = [
   },
   {
     author: 'Admin',
-    image: jhalanaBanner,
+    image: '/Images/Blog/wildlife-jhalana-banner.jpeg',
     alt: 'Jhalana Safari Entry Gate',
     title: 'The entry gate of Jhalana Leopard Safari Wildlife Sanctuary',
     date: '2024-12-14',
@@ -1177,7 +1081,7 @@ export const blogs = [
         <hr />
         <div className="slug-image-container my-2">
           <Image
-            src={jhalanaLeopard}
+            src='/Images/Blog/leopard-jhalana.jpeg'
             alt="Jhalana Wild Male Leopard Jaipur"
             title='Wild male leopard spotted on safari in Jhalana, Jaipur'
             width={1500}
@@ -1222,7 +1126,7 @@ export const blogs = [
         <hr />
         <div className="slug-image-container my-2">
           <Image
-            src={jhalanaBirdKingfisher}
+            src='/Images/Blog/bird-kingfisher-jhalana.jpeg'
             alt="Blue Kingfisher Jhalana Safari"
             title='Blue Kingfisher bird spotted at Jhalana Safari Wildlife Sanctuary'
             width={1500}
@@ -1275,7 +1179,7 @@ export const blogs = [
         <hr />
         <div className="slug-image-container my-2">
           <Image
-            src={jhalanaJeepSawari}
+            src='/Images/Blog/jhalana-jeep-sawari.jpeg'
             alt="Jeep Safari in Jhalana"
             title='Exciting Jeep safari experience in Jhalana Leopard Sanctuary'
             width={1500}
@@ -1366,7 +1270,7 @@ export const blogs = [
   // News & Updates
   {
     author: 'Admin',
-    image: newsJaipurBanner,
+    image: '/Images/Blog/news-banner.png',
     alt: "Hawa Mahal Pink City, Jaipur",
     title: "Hawa Mahal, Jaipur - The Iconic Landmark of the Pink City",
     date: '2024-11-18',
@@ -1395,7 +1299,7 @@ export const blogs = [
         <p>Three of the top visited attractions in the entire country are located right in the city of Jaipur. 11 Temples and Forts: <strong>Amber Fort</strong> and <strong>Hawa Mahal</strong>, Jaipur, {Link("city palace of jaipur", "https://www.jaipurtaxiservice.com/places-to-visit-in-jaipur/city-palace-jaipur.html")} and <strong>Jantar Mantar</strong>. Following is a list of some of the prime spots and places that are offering a thrilling sightseeing Show to millions of visitors around the globe. They show the typical royal façade of the architectural designs in Rajasthan, India.</p>
         <div className="slug-image-container my-2">
           <Image
-            src={newsJaipur}
+            src='/Images/Blog/news-jaipur.png'
             alt="Historic City Palace"
             title="Jaipur&apos; s Historic City Palace - A Royal Landmark"
             width={1500}
@@ -1423,7 +1327,7 @@ export const blogs = [
   },
   {
     author: 'Admin',
-    image: newsJammuBanner,
+    image: '/Images/Blog/news-jammu-banner.png',
     alt: 'Delhi to Srinagar Train Journey',
     title: 'Delhi to Srinagar Rail Tour Scenic Routes and Travel Information',
     date: '2024-11-23',
@@ -1454,7 +1358,7 @@ export const blogs = [
         <h2>Major Stations:</h2>
         <div className="slug-image-container my-2">
           <Image
-            src={newsChenabBridge}
+            src='/Images/Blog/news-chenab-bridge.png'
             alt="Chenab Railway Bridge"
             title="Chenab Railway Bridge Spanning the Mighty Chenab River in India"
             width={1500}
@@ -1534,7 +1438,7 @@ export const blogs = [
   },
   {
     author: 'Admin',
-    image: newsWeddingBanner,
+    image: '/Images/Blog/news-wedding-rajasthan.png',
     alt: 'Destination Wedding in Rajasthan - Udaipur, Jaipur',
     title: 'Celebrate a royal destination wedding in Rajasthan, Udaipur, Jaipur',
     date: '2024-12-18',
@@ -1708,7 +1612,7 @@ export const blogs = [
   // Tour & Travels
   {
     author: 'Admin',
-    image: tourUdaipurBanner,
+    image: '/Images/Blog/tour-udaipur-banner.png',
     alt: 'Udaipur City Palace with Scenic River View',
     title: 'Udaipur City Palace with river view, a top Rajasthan attraction',
     date: '2024-12-04',
@@ -1739,7 +1643,7 @@ export const blogs = [
         </p>
         <div className="slug-image-container my-2">
           <Image
-            src={udaipurTajLake}
+            src='/Images/Blog/udaipur-taj-lake.png'
             alt="Taj Lake Palace Udaipur"
             title="Taj Lake Palace Udaipur: Luxury Hotel with Stunning Views"
             width={1500}
@@ -1813,7 +1717,7 @@ export const blogs = [
         </p>
         <p>This page will provide you with all the information concerning local transport in Udaipur. Expensively, there are buses, autos, and taxi facilities available to get in and out. You can also hire bicycles or scooters. For all the modes of transport for short-distance transport, the cycle rickshaw is the cheapest form of transport since a rickshaw puller is just pulling people.
         </p>
-        <p className="fw-bold">
+        <p className="fw-bold mb-0">
           3. Is it possible to consume a lot in the shops of Udaipur?
         </p>
         <p>
@@ -1841,14 +1745,15 @@ export const blogs = [
         </p>
         <p>The boat rides in Lake Pichola cost between INR 200 – 600, depending on which boat ride is chosen. The attraction is a reasonably priced shoo-in for backpackers and budget-conscious tourists.
         </p>
-        <p className="fw-bold-mb-0">
+        <p className="fw-semibold mb-0">
           8. What are the free-cost things I can engage myself with in Udaipur?
         </p>
         <p>
           Strolling around water bodies with less noise resonance, Saheliyon Ki Bari is an open garden with no entry fee, and there are markets as well. After that, you can appreciate the sunflowers at the Sajjangarh Monsoon Palace while you see the sunset. This is a cheap thing to do.
         </p>
-        <p className="fw-bold mb-0">
+        <p className="fw-semibold mb-0">
           9. What is the way to go about a low-cost trip to Udaipur?
+
         </p>
         <p>
           Go for cheap food, local transport, cheap places to visit, and cheap street foods. There is nothing as good as planning your tour to this region and organizing your tour to take place during the off-peak season since most of the hotels and other players in the region will wish to offer you the best deal.
@@ -1858,7 +1763,7 @@ export const blogs = [
   },
   {
     author: 'Admin',
-    image: jaisalmerBanner,
+    image: '/Images/Blog/tour-jaisalmer-banner.png',
     alt: 'गोल्डन सिटी जैसलमेर',
     title: 'गोल्डन सिटी जैसलमेर',
     date: '2024-12-07',
@@ -1879,7 +1784,7 @@ export const blogs = [
         <h2>1. जैसलमेर किला:</h2>
         <div className="slug-image-container my-2">
           <Image
-            src={jaisalmerFort}
+            src='/Images/Blog/jaisalmer-fort.png'
             alt="जैसलमेर किला"
             title=""
             width={1500}
@@ -1892,7 +1797,7 @@ export const blogs = [
         <h2>2. पाटन मीनार (पटवों की हवेली)</h2>
         <div className="slug-image-container my-2">
           <Image
-            src={jaisalmerPatwa}
+            src='/Images/Blog/jaisalmer-patwa.jpg'
             alt="हवेली पटवों की जैसलमेर"
             title=""
             width={1500}
@@ -1905,7 +1810,7 @@ export const blogs = [
         <h2>3. जैन मंदिर</h2>
         <div className="slug-image-container my-2">
           <Image
-            src={jaisalmerJainMandir}
+            src='/Images/Blog/jaisalmer-jain-mandir.png'
             alt="जैन मंदिर जैसलमेर"
             title=""
             width={1500}
@@ -1918,7 +1823,7 @@ export const blogs = [
         <h2>4. लोंगेवाला युद्ध संग्रहालय</h2>
         <div className="slug-image-container my-2">
           <Image
-            src={jaisalmerLongewala}
+            src='/Images/Blog/jaisalmer-longewala.png'
             alt="लोंगेवाला जैसलमेर"
             title=""
             width={1500}
@@ -1930,7 +1835,7 @@ export const blogs = [
         <h2>5. गड़ीसर झील</h2>
         <div className="slug-image-container my-2">
           <Image
-            src={jaisalmerGadisar}
+            src='/Images/Blog/jaisalmer-gadisar-lake.png'
             alt="गड़ीसर झील जैसलमेर"
             title=""
             width={1500}
@@ -1942,7 +1847,7 @@ export const blogs = [
         <h2>6. बड़ा बाग</h2>
         <div className="slug-image-container my-2">
           <Image
-            src={jaisalmerBadabagh}
+            src='/Images/Blog/jaisalmer-bada-bagh.png'
             alt="बड़ा बाग जैसलमेर"
             title=""
             width={1500}
@@ -2083,7 +1988,7 @@ export const blogs = [
   // Food Category
   {
     author: 'Admin',
-    image: foodBanner,
+    image: '/Images/Blog/food-banner.png',
     alt: 'Famous Dal Baati Churma Dish',
     title: 'A traditional plate of Dal Baati Churma, iconic Rajasthani food',
     date: '2024-12-10',
@@ -2107,7 +2012,7 @@ export const blogs = [
         <h2>1. Ker Sangri – A Desert Delicacy</h2>
         <div className="slug-image-container my-2">
           <Image
-            src={foodDesertDish}
+            src='/Images/Blog/food-kher-sangari.png'
             alt="Ker Sangri desert dish"
             title="Ker Sangri, a traditional Rajasthani desert delicacy with spices"
             width={1500}
@@ -2123,7 +2028,7 @@ export const blogs = [
         <h2> 2. Gatte Ki sabzi – Rendition of Gram Flour Dish</h2>
         <div className="slug-image-container my-2">
           <Image
-            src={foodGatteKiSabji}
+            src='/Images/Blog/food-gatte-ki-sabji.jpeg'
             alt="Gatte Ki Sabzi - Gram Flour Dish"
             title="Gatte Ki Sabzi - Rajasthani gram flour dish with spices"
             width={1500}
@@ -2140,7 +2045,7 @@ export const blogs = [
         <h2>3. Kalmi Kebab – A Royal Delight</h2>
         <div className="slug-image-container my-2">
           <Image
-            src={foodLambKabab}
+            src='/Images/Blog/food-lamb-kabab.png'
             alt="Lamb Kalmi Kebab with herbs"
             title="Tender lamb kalmi kebab garnished with pomegranate and herbs"
             width={1500}
@@ -2157,7 +2062,7 @@ export const blogs = [
         <h2>4.  Ghevar – Traditional Rajasthani Sweet for Festive Seasons</h2>
         <div className="slug-image-container my-2">
           <Image
-            src={foodGhevar}
+            src='/Images/Blog/food-ghevar.png'
             alt="Ghevar Rajasthani Sweet"
             title=" Traditional Ghevar, a popular Rajasthani sweet for festivals"
             width={1500}
@@ -2172,7 +2077,7 @@ export const blogs = [
         <h2>5. Pyaaz Kachori – A Savory Snack</h2>
         <div className="slug-image-container my-2">
           <Image
-            src={foodKachori}
+            src='/Images/Blog/food-kachori.jpg'
             alt=" Pyaaz Kachori from Jodhpur"
             title="Delicious Pyaaz Kachori from Jodhpur served with spicy chutney"
             width={1500}
@@ -2263,7 +2168,7 @@ export const blogs = [
   },
   {
     author: 'Admin',
-    image: foodJodhpurBanner,
+    image: '/Images/Blog/food_jodhpur_banner.jpg',
     alt: 'Best restaurants in Jodhpur',
     title: 'Top places to enjoy food in Jodhpur with authentic Rajasthani flavours',
     date: '2024-12-13',
@@ -2336,7 +2241,7 @@ export const blogs = [
         </p>
         <div className="slug-image-container my-2">
           <Image
-            src={foodUmaidBhavan}
+            src='/Images/Blog/food_umaid_bhavan.jpg'
             alt="Umaid Bhawan Royal Dining"
             title="Elegant Royal Dining Room at Umaid Bhawan Palace, Jodhpur"
             width={1500}
@@ -2434,11 +2339,210 @@ export const blogs = [
       </>
     ),
   },
+  {
+    author: 'Admin',
+    image: '/Images/Blog/food-jaipur-banner.jpg',
+    alt: 'Best Places to Eat Jaipur',
+    title: 'Explore the best places to eat in Jaipur for every food lover',
+    date: '2025-01-01',
+    heading: 'Best Places to Eat in Jaipur: Top Spots for Every Food Lover',
+    slug: 'best-places-to-eat-in-jaipur',
+    metaTitle: 'Best Places to Eat in Jaipur: Top Spots for Every Food Lover',
+    metaDescription: "We find the best places to eat in Jaipur with some top spots for all foodies. Try traditional Rajasthani dishes, desserts and unusual dining experiences.",
+    canonical: 'https://www.rajasthantourpackages.in/blog/best-places-to-eat-in-jaipur',
+    keywords: ['best places to eat in Jaipur', 'Rajasthani food Jaipur', 'Where to eat in Jaipur', 'Unique Food Experiences in Jaipur', 'Luxury dining in Jaipur', 'Rajasthan Tour and Travel', 'Jaipur', 'Rajasthan Culinary Secrets', 'Jaipur Cuisine Tour with Guide', 'sightseeing in Jaipur', 'Chokhi Dhani'],
+    category: 'Food',
+    description:
+      "Jaipur, also known as the Pink City delivers stunning forts, colourful markets and a food heaven for gourmands. Whether a local or a tourist this guide to the best places to eat in Jaipur will take you through a delightful culinary journey. From the traditional Thalipeeth to the Continent’s Best Restaurants, food lovers will never be disappointed in Jaipur. For a more immersive experience, consider a Jaipur Cuisine Tour with Guide, where you can explore the city's hidden food gems while learning about its rich culinary history.",
+    more: (
+      <>
+        <p>Jaipur, also known as the Pink City delivers stunning forts, colourful markets and a food heaven for gourmands. Whether a local or a tourist this guide to the Best places to eat in Jaipur will take you through a delightful culinary journey. From the traditional Thalipeeth to the Continent’s Best Restaurants, food lovers will never be disappointed in Jaipur. For a more immersive experience, consider a {Link('Jaipur Cuisine Tour with Guide', 'https://www.jaipurtaxiservice.com/jaipur-sightseeing-tours/jaipur-cuisine-tour-with-guide.html')}, where you can explore the city's hidden food gems while learning about its rich culinary history.
+        </p>
+        <hr />
+        <h2>Rajasthani Food: A Rich Culinary Tradition</h2>
+        <p>The key idea of {Link('Jaipur', 'https://www.rajasthantourpackages.in/destination/jaipur')} food topics can be found in its Rajasthani cuisine. These recipes are unique, with flavour and delicacies influenced by the ability of the region to dry up, as well as its royal background. This is where {Link('Rajasthan Culinary Secrets', 'https://www.rajasthantourpackages.in/blog/rajasthan-culinary-secrets-hidden-dishes-you-must-try')} come into play, adding depth and character to every dish, making the local food experience truly unforgettable.
+        </p>
+        <hr />
+        {/* image */}
+        <Image
+          src='/Images/Blog/desi-dishes.jpg'
+          alt="Popular Rajasthani Foods Jaipur"
+          title="Popular Rajasthani foods to eat in Jaipur for food lovers"
+          width={1200}
+          height={400}
+          className='w-100 h-100 rounded-4'
+        />
+        <hr />
+        <h3>Most Popular Rajasthani Foods to Eat in Jaipur</h3>
+        <p><strong>Dal Baati Churma:</strong> It is a traditional Rajasthani dish made by combining crispy baati, flavorful dal, and sweet churma offering a perfect mix of taste and tradition.
+        </p>
+        <p><strong>Laal Maas:</strong> A nomadic Rajasthani mutton curry with a concentrated red chilli flavour accented with strong spices.
+        </p>
+        <p><strong>Gatte Ki Sabzi:</strong> Besan (gram flour) dumplings in a tangy yogurt-based curry.</p>
+        <p><strong>Pyaaz Kachori:</strong> Crunchy pastries with onion insides that make perfect snack food.
+        </p>
+        <p><strong>Ghewar:</strong> A food item which is especially relished during celebrations.
+        </p>
+        <p><strong>Bajra Roti with Lasun Chutney:</strong> This is a simple Rajasthani preparation of millet flatbread served with hot garlic chutney.
+        </p>
+        <p><strong>Malpua:</strong> A bread saturated in syrup(Malpua), usually accompanied by sweet rabri.
+        </p>
+        <p>This humble combination of pearl millet flatbread and spicy garlic chutney is a rural favorite that has made its way into urban kitchens.
+        </p>
+        <p>For these dishes, try out typical restaurants such as {Link('Chokhi Dhani', 'https://www.jaipurtaxiservice.com/places-to-visit-in-jaipur/chokhi-dhani-village-resort-jaipur.html')} to entertain you with regular dance performances while you eat.
+        </p>
+        <hr />
+        <h2>Top Restaurants and Eateries in Jaipur
+        </h2>
+        <p>Street food and upmarket restaurants are available in large quantities, all in one city, Jaipur. Here are some of the <strong>Best places to eat in Jaipur</strong>:</p>
+        <h3>Fine Dining Restaurants:</h3>
+        <ul>
+          <li><p>1135 AD (Amber Fort): Stunning views of Royal Rajasthani dining with Amber Fort views.
+          </p></li>
+          <li>Suvarna Mahal (Taj Rambagh Palace): Stunning Indian cuisine from <strong>Luxury dining in Jaipur</strong>.
+          </li>
+        </ul>
+        <h3>Street Food Spots</h3>
+        <ul>
+          <li><p>Rawat Misthan Bhandar: Pyaz kachori and mawa kachori are famous.
+          </p></li>
+          <li><p>Laxmi Misthan Bhandar: Rajasthani thalis and traditional sweets are well known.
+          </p></li>
+        </ul>
+        <h3>Cafes and Casual Dining
+        </h3>
+        <ul>
+          <li><p>Tapri Central: A chai and fusion snack carried to a rooftop cafe.</p></li>
+          <li><p>Bar Palladio: Most Famous Italian-style cafe with superb ambience.
+          </p></li>
+        </ul>
+        <hr />
+        <h2>Where to eat the Best Sweets in Jaipur</h2>
+        <p>For someone who likes sweet things, Jaipur is paradise. Some popular <strong>Sweets</strong> destinations include:
+        </p>
+        <p>Jal Mahal Ice Cream Parlour: Known for its exotic ice cream flavours.</p>
+        <p>Wind View Cafe: Serves delicious desserts, with a view of Hawa Mahal.</p>
+        <p>Bhagat Misthan Bhandar: Places are considered a local favourite sweets house for laddoos and jalebis.
+        </p>
+        <hr />
+        <h2> Dining on a Budget: Best Affordable Places
+        </h2>
+        <p>Jaipur offers budget options for those travellers.
+        </p>
+        <p><strong>Samrat Restaurant:</strong> It is simple, tasty meals at affordable prices</p>
+        <p><strong>Spice Court:</strong> Mid-range Rajasthani food eatery located on a non-Aligarh side.
+        </p>
+        <p><strong>Khandelwal Dhaba:</strong> Famous for its homely taste and pocket price.
+        </p>
+        <hr />
+        <h2>Get Unique Food Experiences in Jaipur</h2>
+        <p>To truly enjoy Jaipur’s culinary delights, go beyond the restaurants:</p>
+        <hr />
+        {/* image */}
+        <Image
+          src='/Images/Blog/chokhi-dhani.png'
+          alt="Chokhi Dhani Jaipur Dining"
+          title="Experience traditional Rajasthani cuisine at Chokhi Dhani in Jaipur."
+          width={1200}
+          height={400}
+          className='w-100 h-100 rounded-4'
+        />
+        <hr />
+        <p><strong>Chokhi Dhani Village Resort:</strong> Relive Rajasthan in the setting of a traditional village and get an authentic Rajasthani food experience.
+        </p>
+        <p><strong>Jaipur Food Walks:</strong> If you cannot do the guided tours, you can explore hidden food gems and learn about the city’s history.</p>
+        <p><strong>Local Food Markets:</strong> Johari Bazaar and Bapu Bazaar. If you are hunting for snacks, spices, and sweets.
+        </p>
+        <hr />
+        <h2>Best Tips for Exploring Jaipur Food Scene</h2>
+        <p><strong>Time Your Visit:</strong> You can get very crowded in peak hours at popular restaurants.</p>
+        <p><strong>Pair Your Meals:</strong> Local drinks such as chaach (buttermilk) or lassi are pathogenic if time permits.
+        </p>
+        <p><strong>Ask Locals:</strong> They have a good feel for the best-kept secret.</p>
+        <hr />
+        <h3>Conclusion</h3>
+        <p>As a food capital, a slice of Jaipur is as colourful as its legacy. In the case of <strong>Rajasthani food Jaipur</strong> has a never-ending list of authentic Rajasthani food and more contemporary options of cafés and restaurants. Reading this guide, you will learn how to satisfy your hunger after a hard day of {Link('Sightseeing in Jaipur', 'https://www.jaipurtaxiservice.com/jaipur-sightseeing-tours.html')}.
+        </p>
+        <p>Just plan and organize your trip with a {Link('Rajasthan Tour and Travel', 'https://www.rajasthantourpackages.in/')}. Find the various flavours of this city, and let Jaipur cook up something special for your taste buds.
+        </p>
+        <hr />
+        <h3>FAQ
+        </h3>
+        <p className='mb-0'>
+          <strong>1. Where can you have traditional Rajasthani food in Jaipur?
+          </strong>
+        </p>
+        <p>You would also love Chokhi Dhani, Rawat Misthan Bhandar and Laxmi Misthan Bhandar, famous for their famous <strong>Dal Baati Churma</strong>, Laal Maas and Pyaaz Kachori.
+        </p>
+        <p className="mb-0">
+          <strong>2. Where are the best dessert places in Jaipur?
+          </strong>
+        </p>
+        <p>Known as one of Jaipur's best places to eat sweets and desserts, the best sweets and exotic ice cream flavours are at Jal Mahal Ice Cream Parlour and Bhagat Misthan Bhandar.
+        </p>
+        <p className="mb-0">
+          <strong>3. Where to eat casual dining in Jaipur?</strong>
+        </p>
+        <p>Suppose you're looking for casual dining experiences. For that reason, Tapri Central and Bar Palladio are among the best places to have food in Jaipur, and they have a parlour atmosphere with delicious snacks and beverages.
+        </p>
+        <p className="mb-0">
+          <strong>4. Where can we suggest eating in Jaipur on a budget in India?</strong>
+        </p>
+        <p>Eating affordable meals in Jaipur and enjoying superb food in your pocket is easy at Samrat Restaurant and Khandelwal Dhaba, as these places offer you magnificent cheap food.
+
+        </p>
+        <p className="mb-0">
+          <strong>5. Where should you eat in Jaipur for fine dining?
+          </strong>
+        </p>
+        <p>Yes, Jaipur has its share in 1135 AD (Amber Fort) and Suvarna Mahal (Taj Rambagh Palace), with royal Rajasthani thalis and glorious Indian cuisine but on an upscale dining experience.
+        </p>
+        <p className="mb-0">
+          <strong>
+            6. How do I get to taste traditional Rajasthani food in Jaipur?
+
+          </strong>
+        </p>
+        <p>Visit Chokhi Dhani or Suvarna Mahal for some good bar dining, which are the <strong>Best places to eat in Jaipur</strong>, and get an authentic look at Rajasthani food in an authentic setting.
+        </p>
+
+        <p className="mb-0">
+          <strong>
+            7. Are there any good vegetarian places to eat in Jaipur?
+          </strong>
+        </p>
+        <p>Laxmi Misthan Bhandar here in Jaipur and Spice Court are some of the best places in Jaipur for vegetarians to eat, and they serve top-notch vegetarian dishes.
+        </p>
+        <p className="mb-0">
+          <strong>
+            8. How do you get some of the best street food in Jaipur?
+
+          </strong>
+        </p>
+        <p>Rawat Misthan Bhandar and Laxmi Misthan Bhandar in Jaipur are two of the best places to eat for street food lovers who will enjoy everything from Pyaaz Kachori to liberal dollops of ghee to make their traditional sweet.
+        </p>
+        <p className="mb-0">
+          <strong>
+            9. Where in Jaipur should you go to eat for a royal dining experience?
+
+          </strong>
+        </p>
+        <p>Suvarna Mahal (Taj Rambagh Palace) or 1135 AD (Amber Fort) are the Best places to eat in Jaipur to get royally spoiled with a meal in a royal setting.</p>
+
+        <p className="mb-0">
+          <strong>
+            10. What is a unique food experience in Jaipur?
+          </strong>
+        </p>
+        <p>Chokhi Dhani is a <strong>Best places to eat in Jaipur</strong> for the best variety of Rajasthani food, cultural dances, folk music, and more significant Indian mouth-watering foods.
+        </p>
+      </>)
+  },
 
   // History & Culture
   {
     author: 'Admin',
-    image: historyRajasthan,
+    image: '/Images/Blog/history-rajasthan.jpeg',
     alt: ' Rajasthan Cultural Heritage Mandir Palace',
     title: 'Rajasthan Cultural Heritage Mandir Palace Majestic Royal Art',
     date: '2024-11-19',
@@ -2462,7 +2566,7 @@ export const blogs = [
         <h2>Rajasthan Royal History: A Story of Courage and Magnificence</h2>
         <div className="slug-image-container my-2">
           <Image
-            src={historyMehrangarh}
+            src='/Images/Blog/history-mehrangarh.jpeg'
             alt="Mehrangarh Fort walls at Jodhpur"
             title="Mehrangarh Fort Walls Jodhpur Rajasthan Majestic Heritage"
             width={1500}
@@ -2485,7 +2589,7 @@ export const blogs = [
         <h2>Rajasthan Cultural Heritage Tours: A Gateway to Traditions</h2>
         <div className="slug-image-container my-2">
           <Image
-            src={historyCityPalace}
+            src='/Images/Blog/history-city-palace.jpeg'
             alt="City Palace, Udaipur"
             title="Rajasthan Cultural Heritage at City Palace Udaipur"
             width={1500}
@@ -2508,7 +2612,7 @@ export const blogs = [
         <h2>Revitalizing Traditional Art and Craft of Rajasthan</h2>
         <div className="slug-image-container my-2">
           <Image
-            src={historyArt}
+            src='/Images/Blog/history-art.png'
             alt="Traditional Art and Craft of Rajasthan"
             title="Artisan Stamping Ink Patterns on Traditional Indian Textiles"
             width={1500}
@@ -2536,7 +2640,7 @@ export const blogs = [
         <h2>Festivals: Heart Beats of Rajasthan</h2>
         <div className="slug-image-container my-2">
           <Image
-            src={historyPushkarCamelFair}
+            src='/Images/Blog/history-pushkar-camel-fair.png'
             alt="Pushkar Camel Fair"
             title="Pushkar Camel Fair Rajasthan Colorful Festival and Traditions"
             width={1500}
@@ -2568,7 +2672,7 @@ export const blogs = [
         <h2>How to plan your Rajasthan Cultural Heritage tour?</h2>
         <div className="slug-image-container my-2">
           <Image
-            src={historyUmaidBhavan}
+            src='/Images/Blog/history-umaid-bhavan.jpeg'
             alt=" Umaid Bhawan Museum"
             title="Umaid Bhawan Museum Jodhpur Rajasthan Royal Heritage"
             width={1500}
@@ -2599,7 +2703,7 @@ export const blogs = [
   },
   {
     author: 'Admin',
-    image: historyRajasthanBanner,
+    image: '/Images/Blog/history-rajasthan-forts.jpg',
     alt: "Rajasthan's Majestic Forts",
     title: "Rajasthan's Majestic Forts, showcasing royal heritage and grandeur",
     date: '2024-12-20',
@@ -2629,7 +2733,7 @@ export const blogs = [
         <hr />
         <div className="slug-image-container my-2">
           <Image
-            src={historyAmberFort}
+            src='/Images/Blog/history-amber-fort.png'
             alt="Amber Fort Rajasthan's Majestic Forts"
             title="Amber Fort: A symbol of Rajasthan's Majestic Forts and history"
             width={1500}
@@ -2646,7 +2750,7 @@ export const blogs = [
         <hr />
         <div className="slug-image-container my-2">
           <Image
-            src={historyMehrangarhFort}
+            src='/Images/Blog/history-mehrangarh-fort.png'
             alt="Mehrangarh Fort Jodhpur"
             title="Mehrangarh Fort, one of Rajasthan's Majestic Forts, in Jodhpur"
             width={1500}
@@ -2662,7 +2766,7 @@ export const blogs = [
         <hr />
         <div className="slug-image-container my-2">
           <Image
-            src={historyChittorgarhFort}
+            src='/Images/Blog/history-chittorgarh-fort.png'
             alt="Chittorgarh Fort Rajasthan"
             title="Explore Chittorgarh Fort, one of Rajasthan's Majestic Forts"
             width={1500}
@@ -2679,7 +2783,7 @@ export const blogs = [
         <hr />
         <div className="slug-image-container my-2">
           <Image
-            src={historyJaisalmerFort}
+            src='/Images/Blog/history-jaisalmer-fort.png'
             alt="Jaisalmer Fort Rajasthan"
             title="Explore Jaisalmer Fort, the Golden Fort of Rajasthan"
             width={1500}
@@ -2697,7 +2801,7 @@ export const blogs = [
         <hr />
         <div className="slug-image-container my-2">
           <Image
-            src={historyKumbhalgarhFort}
+            src='/Images/Blog/history-kumbhalgarh-fort.png'
             alt="Kumbhalgarh Fort Rajasthan"
             title="Kumbhalgarh Fort, a majestic example of Rajasthan's forts"
             width={1500}
@@ -2713,7 +2817,7 @@ export const blogs = [
         <hr />
         <div className="slug-image-container my-2">
           <Image
-            src={historyRanthamboreFort}
+            src='/Images/Blog/history-ranthambore-fort.png'
             alt="Ranthambore Fort"
             title="Discover Ranthambore Fort, a historic landmark in Rajasthan"
             width={1500}
@@ -2732,7 +2836,7 @@ export const blogs = [
         <hr />
         <div className="slug-image-container my-2">
           <Image
-            src={historyDevigarhFort}
+            src='/Images/Blog/history-devigarh-fort.png'
             alt="Devigarh Fort Rajasthan"
             title="Devigarh Fort in Rajasthan, showcasing Rajput architectural splendor"
             width={1500}
@@ -2748,7 +2852,7 @@ export const blogs = [
         <hr />
         <div className="slug-image-container my-2">
           <Image
-            src={historyDundlodFort}
+            src='/Images/Blog/history-dundlod-fort.png'
             alt="Dundlod Fort Rajasthan"
             title="Dundlod Fort in Rajasthan, a blend of Rajput and Mughal style"
             width={1500}
@@ -2763,7 +2867,7 @@ export const blogs = [
         <hr />
         <div className="slug-image-container my-2">
           <Image
-            src={historyKhejarlaFort}
+            src='/Images/Blog/history-khejarla-fort.png'
             alt="Khejarla Fort Rajasthan"
             title="Khejarla Fort in Rajasthan, a red sandstone marvel of Rajputana"
             width={1500}
@@ -2778,7 +2882,7 @@ export const blogs = [
         <hr />
         <div className="slug-image-container my-2">
           <Image
-            src={historyDhariyawadFort}
+            src='/Images/Blog/history-dhariyawad-fort.png'
             alt="Dhariyawad Fort Rajasthan"
             title="Dhariyawad Fort in Rajasthan, offering royal history and serenity"
             width={1500}
@@ -2796,7 +2900,7 @@ export const blogs = [
         <hr />
         <div className="slug-image-container my-2">
           <Image
-            src={historyPachewarFort}
+            src='/Images/Blog/history-pachewar-fort.png'
             alt="Pachewar Fort Rajasthan"
             title="Pachewar Fort in Rajasthan, showcasing traditional royal architecture"
             width={1500}
@@ -2817,7 +2921,7 @@ export const blogs = [
         <hr />
         <div className="slug-image-container my-2">
           <Image
-            src={historyRoopangarhFort}
+            src='/Images/Blog/history-roopangarh-fort.png'
             alt="Roopangarh Fort Rajasthan"
             title="Roopangarh Fort in Rajasthan, known for its military architecture"
             width={1500}
@@ -2833,7 +2937,7 @@ export const blogs = [
         <hr />
         <div className="slug-image-container my-2">
           <Image
-            src={historyGhaneraoFort}
+            src='/Images/Blog/history-ghanerao-fort.png'
             alt="Ghanerao Fort Rajasthan"
             title="Ghanerao Fort in Rajasthan, a beautiful example of Rajput architecture"
             width={1500}
@@ -2849,7 +2953,7 @@ export const blogs = [
         <hr />
         <div className="slug-image-container my-2">
           <Image
-            src={historyCharkhariFort}
+            src='/Images/Blog/history-charkhari-fort.png'
             alt="Charkhari Fort Rajasthan"
             title="Charkhari Fort in Rajasthan, showcasing its historic royal grandeur"
             width={1500}
@@ -3409,7 +3513,7 @@ export const blogs = [
   // Fair & Festivals
   {
     author: 'Admin',
-    image: fairCamelrBanner,
+    image: '/Images/Blog/fair-camel-banner.png',
     alt: 'Pushkar Camel Fair',
     title: 'Camel Taxi at Pushkar Mela - Pushkar Camel Fair, Pushkar, Rajasthan, India',
     date: '2024-11-26',
@@ -3432,7 +3536,7 @@ export const blogs = [
         <h2>The Significance of Pushkar</h2>
         <div className="slug-image-container my-2">
           <Image
-            src={fairPushkarLake}
+            src='/Images/Blog/fair-pushkar-lake.png'
             alt="Pushkar Lake images"
             title='Pushkar Lake - Sacred Pilgrimage Site in Pushkar, Rajasthan, India'
             width={1500}
@@ -3553,7 +3657,7 @@ export const blogs = [
   },
   {
     author: 'Admin',
-    image: fairChinaBanner,
+    image: '/Images/Blog/fair-china.png',
     alt: 'Chinese New Year Dragon Parade',
     title: 'Chinese New Year parade with majestic dragon in 2025 festival',
     metaTitle: 'Chinese New Year 2025: The Dragon and Celebration in China',
@@ -3595,7 +3699,7 @@ export const blogs = [
           1. Dragon Paras and Lantern Festivals</p>
         <div className="slug-image-container my-2">
           <Image
-            src={fairChinaDragonDance}
+            src='/Images/Blog/fair-china-dragon-dance.png'
             alt="Chinese Dragon Parade Daylight"
             title='Chinese dragon parade and lanterns under lush trees in daylight'
             width={1500}
@@ -3636,7 +3740,7 @@ export const blogs = [
   },
   {
     author: 'Admin',
-    image: fairKotaChambal,
+    image: '/Images/Blog/fair-kota-chambal.jpeg',
     alt: 'Kota Mahotsav by Chambal Riverfront',
     title: 'Kota Mahotsav 2024 at Chambal Riverfront',
     date: '2024-12-11',
@@ -3677,7 +3781,7 @@ export const blogs = [
         <p>Here’s a glimpse of the exciting line-up of activities you can expect during the festival:</p>
         <div className="slug-image-container my-2">
           <Image
-            src={fairKotaDance}
+            src='/Images/Blog/fair-kota-dance.jpeg'
             alt="Rajasthani Dance Festival Kota"
             title='Traditional dances at Kota Mahotsav by Chambal Riverfront'
             width={1500}
@@ -3964,64 +4068,3 @@ export const blogs = [
   }
 ];
 
-
-// blog categories
-export const blogCategories = [
-  {
-    path: '/food',
-    text: 'food',
-  },
-  {
-    path: '/wildlife',
-    text: 'wildlife',
-  },
-  {
-    path: '/tour-and-travels',
-    text: 'tour & travels',
-  },
-  {
-    path: '/history-and-culture',
-    text: 'history & culture',
-  },
-  {
-    path: '/news-and-updates',
-    text: 'News & Updates',
-  },
-  {
-    path: '/fair-and-festivals',
-    text: 'Fair & Festivals',
-  },
-];
-export const blogArchives = [
-  {
-    path: '/november-2024',
-    text: 'november, 2024',
-  },
-  {
-    path: '/december-2024',
-    text: 'december, 2024',
-  },
-];
-
-
-// logics
-
-// To get the blog by latest
-export const getLatestBlogs = (blogs, count = 5) => {
-  return blogs
-    .sort((a, b) => new Date(b.date) - new Date(a.date))
-    .slice(0, count);
-};
-
-//* To get the blogs by popular
-export const getPopularBlogs = (blogs, count = 5) => {
-  return blogs.slice(0, count);
-};
-
-
-//* To get blogs by category
-export const getBlogsByCategory = (blogs, category) => {
-  return blogs.filter(
-    (blog) => blog.category.toLowerCase() === category.toLowerCase()
-  );
-};

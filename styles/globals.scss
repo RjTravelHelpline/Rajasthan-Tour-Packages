@@ -375,6 +375,11 @@ body {
 }
 .anchor {
   font-size: clamp(0.95em, 2vw, 1em) !important;
+  text-decoration: underline;
+  &:hover {
+    filter: brightness(0.8) !important;
+    color: var(--color-black) !important;
+  }
 }
 
 .image-link {

@@ -1,5 +1,6 @@
 "use client";
-import { blogCategories, blogs } from '@/data/Blogs';
+import { blogs } from '@/data/Blogs';
+import { blogCategories } from '@/Utils/blog.util';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
 import { Button, Modal } from 'react-bootstrap';

@@ -1,10 +1,4 @@
-//* Function to get blogs by archives
-export const filterBlogsByMonth = (blogs, month, year) => {
-  return blogs.filter((blog) => {
-    const blogDate = new Date(blog.date);
-    return blogDate.getMonth() + 1 === month && blogDate.getFullYear() === year;
-  });
-};
+
 
 // Get Items by latest date
 
@@ -23,7 +17,7 @@ export const Link = (text, url) => {
       href={url}
       target="_blank"
       rel="noopener noreferrer"
-      className="anchor text-web fw-bold"
+      className="anchor color-tertary"
     >
       {text}
     </a>

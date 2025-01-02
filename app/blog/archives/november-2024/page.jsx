@@ -1,6 +1,7 @@
 import Breadcrumb from '@/components/Breadcrumb'
 import { blogs } from '@/data/Blogs';
-import { filterBlogsByMonth, formatDate, getLatestItems } from '@/Utils/util';
+import { filterBlogsByMonth } from '@/Utils/blog.util';
+import { formatDate, getLatestItems } from '@/Utils/util';
 import Image from 'next/image';
 import Link from 'next/link';
 
