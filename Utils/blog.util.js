@@ -53,3 +53,21 @@ export const filterBlogsByMonth = (blogs, month, year) => {
     return blogDate.getMonth() + 1 === month && blogDate.getFullYear() === year;
   });
 };
+
+export const dateIso = (date) => {
+  const formattedDate = new Date(date).toLocaleString('en-GB', {
+    timeZone: 'Asia/Kolkata', // Set the desired timezone
+    year: 'numeric',
+    month: '2-digit',
+    day: '2-digit',
+    hour: '2-digit',
+    minute: '2-digit',
+    second: '2-digit',
+  });
+
+  const dateTimeParts = formattedDate.split(', ');
+  const datePart = dateTimeParts[0].split('/').reverse().join('-');
+  const timePart = dateTimeParts[1].split(':').join(':');
+
+  return `${datePart}T${timePart}+05:30`; // Adjust to the required timezone offset
+};

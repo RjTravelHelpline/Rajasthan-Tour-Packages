@@ -354,7 +354,7 @@ const Footer = () => {
                                         />
                                     </a>
                                     <a
-                                        href="https://www.mca.gov.in/"
+                                        href="https://www.mca.gov.in/content/mca/global/en/home.html"
                                         className="d-flex justify-content-center align-items-center image-link"
                                         target="_blank"
                                         aria-label='go to certification'
