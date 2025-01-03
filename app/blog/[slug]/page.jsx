@@ -18,24 +18,53 @@ import { FaCalendarDays } from 'react-icons/fa6';
 import { useState } from "react";
 import { PiMinus, PiPlus } from "react-icons/pi";
 import { formatDate } from "@/Utils/util";
-import { blogArchives, blogCategories, getBlogsByCategory } from "@/Utils/blog.util";
+import { blogArchives, blogCategories, dateIso, getBlogsByCategory } from "@/Utils/blog.util";
+import Script from "next/script";
 
 
 
 const BlogPost = ({ params }) => {
+
+    const blog = blogs.find((b) => b.slug === params.slug);
     const [activeIndex, setActiveIndex] = useState(null);
+    const dateIsoFormated = dateIso(blog?.date);
 
     const handleShow = (index) => {
         setActiveIndex(prevIndex => (prevIndex === index ? null : index));
     };
 
-    const blog = blogs.find((b) => b.slug === params.slug);
-    if (!blog) {
-        return <p>Blog not found</p>;
-    }
     const filteredBlogs = getBlogsByCategory(blogs, blog.category)
 
     const stringDate = formatDate(blog.date)
+    if (!blog) {
+        return <p>Blog not found</p>;
+    }
+    const blogSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'BlogPosting',
+        mainEntityOfPage: {
+            '@type': 'WebPage',
+            '@id': `https://www.rajasthantourpackages.in/blog/${blog.slug}`,
+        },
+        headline: blog.metaTitle,
+        description: blog.metaDescription,
+        image: blog.image,
+        author: {
+            '@type': 'Organization',
+            name: 'Rajasthan Tour Packages',
+            url: 'https://www.rajasthantourpackages.in/',
+        },
+        publisher: {
+            '@type': 'Organization',
+            name: 'Rajasthan Tour Packages',
+            logo: {
+                '@type': 'ImageObject',
+                url: 'https://www.rajasthantourpackages.in/_next/image?url=%2Frajasthan-travel-helpline.png&w=640&q=75',
+            },
+        },
+        datePublished: dateIsoFormated,
+        dateModified: dateIsoFormated,
+    };
 
     return (
         <>
@@ -227,6 +256,15 @@ const BlogPost = ({ params }) => {
                     </div>
                 </div>
             </div>
+
+            <Script
+                id="blog-schema"
+                type="application/ld+json"
+                strategy="afterInteractive"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify(blogSchema),
+                }}
+            />
         </>
     );
 };
