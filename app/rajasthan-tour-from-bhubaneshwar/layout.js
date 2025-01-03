@@ -1,3 +1,6 @@
+import { bhubaneswarFaq } from "@/data/faqData";
+import Script from "next/script";
+
 export const metadata = {
   title: 'Top Rajasthan Tours from Bhubaneswar | Rajasthan Tour Packages',
   description:
@@ -30,9 +33,28 @@ export const metadata = {
 };
 
 export default function Layout({ children }) {
+  const faqSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: bhubaneswarFaq.questions.map((faq) => ({
+      '@type': 'Question',
+      name: faq.question,
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: faq.answer,
+      },
+    })),
+  };
   return (
     <div>
       <main>{children}</main>
+      <Script
+        id="faq-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(faqSchema),
+        }}
+      />
     </div>
   );
 }
