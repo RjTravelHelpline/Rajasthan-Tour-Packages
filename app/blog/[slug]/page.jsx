@@ -65,6 +65,20 @@ const BlogPost = ({ params }) => {
         datePublished: dateIsoFormated,
         dateModified: dateIsoFormated,
     };
+    const faqSchema = {
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: blog.faqs.map((faq) => ({
+            '@type': 'Question',
+            name: faq.question,
+            acceptedAnswer: {
+                '@type': 'Answer',
+                text: faq.answer,
+            },
+        })),
+    };
+
+
 
     return (
         <>
@@ -96,6 +110,20 @@ const BlogPost = ({ params }) => {
                                 <div className='blog-content-slug'>
                                     {blog.more}
                                 </div>
+                                <hr />
+                                {blog.faqs && blog.faqs.length > 0 && (
+                                    <div className="blog-faqs blog-content-slug mt-4">
+                                        <h3>FAQs</h3>
+                                        <ol>
+                                            {blog.faqs.map((faq, index) => (
+                                                <li key={index} className="faq-item fw-bold mb-3 web-title">
+                                                    <p className="faq-question mb-0 fw-bold">{faq.question}</p>
+                                                    <p className="faq-answer fw-normal">{faq.answer}</p>
+                                                </li>
+                                            ))}
+                                        </ol>
+                                    </div>
+                                )}
                             </div>
 
                             {/* comment */}
@@ -260,9 +288,15 @@ const BlogPost = ({ params }) => {
             <Script
                 id="blog-schema"
                 type="application/ld+json"
-                strategy="afterInteractive"
                 dangerouslySetInnerHTML={{
                     __html: JSON.stringify(blogSchema),
+                }}
+            />
+            <Script
+                id="faq-schema"
+                type="application/ld+json"
+                dangerouslySetInnerHTML={{
+                    __html: JSON.stringify(faqSchema),
                 }}
             />
         </>
