@@ -198,10 +198,10 @@
   flex-direction: column;
   box-shadow: 0 44px 300px var(--color-secondary);
   transform: translateX(10%);
-  transform-origin: right;
+  transform-origin: top;
   opacity: 0;
   visibility: hidden;
-  transition: transform 0.35s ease-out, opacity 0.25s ease-in-out; /* Smooth transition */
+  transition: 0.3s ease-out;
   ::-webkit-scrollbar {
     display: none !important;
   }
@@ -672,7 +672,7 @@
 }
 
 .packages-footer {
-  background-color: var(--color-secondary);
+  background-color: #161616;
   color: var(--color-primary);
   a {
     color: var(--color-primary);
