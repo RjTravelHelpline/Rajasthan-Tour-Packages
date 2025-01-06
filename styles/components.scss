@@ -197,9 +197,10 @@
   align-items: center;
   flex-direction: column;
   box-shadow: 0 44px 300px var(--color-secondary);
-  transform: translateX(200%);
+  transform: translateX(10%);
   transform-origin: right;
   opacity: 0;
+  visibility: hidden;
   transition: transform 0.35s ease-out, opacity 0.25s ease-in-out; /* Smooth transition */
   ::-webkit-scrollbar {
     display: none !important;
@@ -234,6 +235,7 @@
 }
 .show-navigation {
   opacity: 1;
+  visibility: visible;
   transform: scale(1);
 }
 
@@ -2022,10 +2024,7 @@ form {
   }
 }
 
-
-
-
-// 
+//
 
 .days-subhead {
   &::before {

@@ -381,6 +381,14 @@ body {
     color: var(--color-black) !important;
   }
 }
+.anchor-underline {
+  transition: .1s ease-in-out;
+  &:hover {
+    justify-content: space-between;
+    text-decoration: underline;
+    color: var(--color-tertary) !important;
+  }
+}
 
 .image-link {
   &:hover {
