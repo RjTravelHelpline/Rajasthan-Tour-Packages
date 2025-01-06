@@ -203,8 +203,10 @@ body {
 
   p {
     font-family: var(--font-head);
-    font-weight: 400;
-    font-size: clamp(0.95em, 2vw, 1.1em);
+    font-size: clamp(0.95em, 2vw, 1.05em);
+  }
+  strong {
+    font-weight: 600 !important;
   }
 
   a {
@@ -382,7 +384,7 @@ body {
   }
 }
 .anchor-underline {
-  transition: .1s ease-in-out;
+  transition: 0.1s ease-in-out;
   &:hover {
     justify-content: space-between;
     text-decoration: underline;

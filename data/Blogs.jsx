@@ -1484,15 +1484,6 @@ export const blogs = [
         <h3>
           1. Udaipur – The Venice of the East
         </h3>
-        {/* <div className="slug-image-container my-2">
-          <Image
-            src={newsChenabBridge}
-            alt="Chenab Railway Bridge"
-            title="Chenab Railway Bridge Spanning the Mighty Chenab River in India"
-            width={1500}
-            height={600}
-          />
-        </div> */}
         <p>Known as the Venice of the East, Udaipur tops the list of the most romantic cities in Rajasthan. With its lakes, peaceful gardens, palaces, and temples, Udaipur can be an ideal location for a destination wedding. The City Palace, Jag Mandir, and Lake Pichola provide stunning backdrops for any marriage conducted in Udaipur. Thanks to its fairy-tale royal appearance and clean air, Udaipur is one of the most popular Udaipur wedding destinations for couples ready to officiate their wedding ceremony. To make your wedding trip even more memorable, explore the Places to Visit in Udaipur that add charm to this romantic city.</p>
         <h3>2. Jaipur – The Pink City</h3>
         <p>Jaipur, the capital and largest city of Rajasthan, is known for its tourist-friendly architecture, palaces, and forts in Rajasthan for wedding. Any idea of a destination wedding in Rajasthan would be incomplete without considering Jaipur for venue options. The Jaipur Amer Fort, Nahargarh Fort, and City Palace are excellent Jaipur wedding venues providing royal settings for luxury weddings. Jaipur's infrastructure and facilities cater to both traditional and modern couples' tastes when planning a wedding palace experience.
@@ -1554,61 +1545,6 @@ export const blogs = [
         </p>
         <p>With proper planning, professional advice, and a pinch of Rajasthan enchantment, your dream destination wedding in Rajasthan will become a fabulous reality. Royal Rajasthan Tour will be happy to assist you in celebrating your love story in the crown of India.
         </p>
-        <hr />
-        <h2>
-          FAQs
-        </h2>
-        <p className="fw-bold mb-0">
-          Q1: Why is Rajasthan so famous when it comes to destination weddings?
-        </p>
-        <p>Rajasthan is one of the favorite destination wedding places in Rajasthan due to its royal palaces, forts, and rich culture. The state can accommodate traditional wedding services while offering unique tourism experiences.
-        </p>
-        <p className="fw-bold mb-0">
-          Q2: What are the best cities for a destination wedding in Rajasthan?
-        </p>
-        <p>The best wedding destinations in Rajasthan include Udaipur for its lakes and palaces, Jaipur for its forts, Jodhpur for its royal outlook, Jaisalmer for desert experiences, and Pushkar for its tranquil atmosphere.
-        </p>
-        <p className="fw-bold mb-0">
-          Q3: How much does a destination wedding cost in Rajasthan?
-        </p>
-        <p>
-          The Rajasthan destination wedding cost depends on the venue, number of guests, and services. On average, it can range from INR 20 lakh to INR 2 crore, with options available for both luxury and budget weddings.
-        </p>
-        <p className="fw-bold mb-0">
-          Q4: What makes a destination wedding in Rajasthan unique?
-        </p>
-        <p> A Rajasthan wedding is unique because of the royal ambiance, cultural beauty, and magnificent heritage places. From food and attire to decorations and ceremonies, everything depicts the royal style and culture of Rajasthan.</p>
-        <p className="fw-bold mb-0">
-          Q5: Which season is best for a destination wedding in Rajasthan?
-        </p>
-        <p>The best wedding season in Rajasthan is from October to March when the climate is suitable for outdoor events. The pleasant weather during this period makes attending weddings more comfortable.</p>
-        <p className="fw-bold mb-0">
-          Q6: Is it possible to incorporate local traditions in a destination wedding in Rajasthan?
-        </p>
-        <p>Absolutely! You can incorporate local folklore in music, traditional dress codes, and other Rajasthani wedding customs to enhance your celebration.</p>
-        <p className="fw-bold mb-0">
-          Q7: Are there affordable destination wedding packages available in Rajasthan?
-        </p>
-        <p>Yes, there are several affordable options for a destination wedding Rajasthan style. Heritage properties like Dera Mandawa, The Raj Palace, and The Gateway Resort offer Rajasthan destination wedding packages that make your wedding both affordable and glamorous.
-        </p>
-        <p className="fw-bold mb-0">
-          Q8: How far in advance should I book venues for a destination wedding in Rajasthan?
-        </p>
-        <p>It&apos;s recommended to book your venue at least 9 to 12 months in advance, especially for popular locations. This ensures you get your preferred Rajasthan wedding venues without overpaying.</p>
-        <p className="fw-bold mb-0">
-          Q9: Do I need a wedding planner for a destination wedding in Rajasthan?
-        </p>
-        <p>While not mandatory, hiring a local wedding planner specializing in destination weddings in Rajasthan is highly recommended. They can handle logistics, setup, and coordination with local vendors, making your experience stress-free.
-        </p>
-        <p className="fw-bold mb-0">
-          Q10: Can international guests attend a destination wedding in Rajasthan?
-        </p>
-        <p> Yes, international airports in Jaipur and Udaipur make it convenient for guests from other countries to reach Rajasthan. Many wedding resorts and venues provide a wide range of amenities to host and make your international guests feel welcome.</p>
-
-        <p className="fw-bold mb-0">
-          Q11: Why is a destination wedding in Rajasthan considered unique and special?
-        </p>
-        <p>Destination weddings in Rajasthan have always been special since they allow couples to start their married life in the royal state. The Kingdom of Rajasthan, considered a palace state, boasting of the royal kingdom scrupulously maintaining the beauty of palaces and forts and remarkably beautiful landscapes of India, is best suited to organizing a royal party. The presence of tradition, logistics, traditional practices in the region, rich culture, and royal traditions of the places usually preserved and represented in many movies make Rajasthan among the most eligible places for a destination wedding. From Udaipur's beautiful lakeside to Jodhpur's beautiful forts, you will experience the best of Rajasthan's offerings if you plan a magical wedding.</p>
       </>
     ),
     faqs: [
@@ -1658,6 +1594,341 @@ export const blogs = [
       }
     ]
 
+  },
+  {
+    author: 'Admin',
+    image: '/Images/Blog/rajasthan-desert-visit.jpg',
+    alt: 'Rajasthan Desert',
+    title: 'View of Rajasthan Desert Camel Safari',
+    date: '2025-01-07',
+    heading: 'Dos & Don’ts During Rajasthan Visit: Essential Travel Tips',
+    slug: 'dos-donts-rajasthan-visit-tips',
+    metaTitle: 'Dos & Don’ts During Rajasthan Visit: Essential Travel Tips',
+    metaDescription: "Find essential dos and Don'ts for Rajasthan visit with top tips. Respect Religious Places, laws, and traditions, and enjoy the best trip in this state.",
+    canonical: 'https://www.rajasthantourpackages.in/blog/dos-donts-rajasthan-visit-tips',
+    keywords: ['Dos & Don’ts During Rajasthan Visit', 'Dos and Don’ts for Rajasthan Tourists', 'Cultural Practices Rajasthan', 'Hawa Mahal', 'Amber Fort', 'Dal Baati Churma', 'Rajasthan Travel Advice', 'Respect Religious Places', 'Monuments in Rajasthan', 'Rajasthan Tour and Travel', 'Golden City', 'Pink City Jaipur Turns 297'
+    ],
+    category: 'News & Updates',
+    description:
+      "Knowing what Dos & Don’ts During Rajasthan Visit before travelling to Rajasthan will ensure an unforgettable trip.  It is most popular for marvellous forts, vibrant colour festivals and mouth-watering cuisines. Rajasthan offers travellers splendid opportunities for exciting holidays. A few key guidelines will ensure your journey is enjoyable, respectful and safe.",
+    more: (
+      <>
+        <p>Knowing what Dos & Don’ts During Rajasthan Visit before travelling to Rajasthan will ensure an unforgettable trip.  It is most popular for marvellous forts, vibrant colour festivals and mouth-watering cuisines. Rajasthan offers travellers splendid opportunities for exciting holidays. A few key guidelines will ensure your journey is enjoyable, respectful and safe.</p>
+        <hr />
+        <h2>Why Knowing the Dos and Don’ts Matters
+        </h2>
+        <p>Knowing some of the customs and traditions of Rajasthani is helpful for tourists to enjoy their trip by avoiding the most ironic mistakes. Following these recommendations can create meaningful interactions giving travellers a richer experience.
+        </p>
+        <h3>Dos During Your Rajasthan Visit
+        </h3>
+        <h4>Favour Local Customs and Traditions</h4>
+        <p>Rajasthan has deep-seated <strong>Cultural Practices Rajasthan</strong>. When visiting religious places, monuments, or temples, always dress modestly. Follow any rules laid down for <strong>Monuments in Rajasthan</strong> or temples to boot.</p>
+        <h4>Stay Hydrated and Use Sunscreen</h4>
+        <p>Rajasthan sun can be quick particularly during the summer months. Please take a spare reusable water bottle, sunblock, and headgear to protect from sunburn.
+        </p>
+        <h4>Plan Visits to Popular Monuments Early
+        </h4>
+        <p>Adventure snaps, forts like <strong>Amber Fort</strong>, palaces City Palace and <strong>Hawa Mahal</strong> Visit are even better visited in the morning to avoid the heat and the crowd.
+        </p>
+        <h4>Try Local Cuisine
+        </h4>
+        <p>
+          Rajasthani food is rich and Royal. This is one kind of food that one gets tempted to taste while thinking about its name, let alone seeing and tasting most dishes like <strong>Dal Baati Churma</strong>, Ghevar, Laal Maas, etc. You can go with the better restaurants and find hygienically clean Streets Food Restaurant.
+        </p>
+        <h4>Engage with Locals
+        </h4>
+        <p>Rajasthanis are well known for their hospitality. Start engaging on common topics to know more about their culture, interests and history.
+        </p>
+        <h4>Carry Cash to Rural Areas</h4>
+        <p>Where cities mostly have the convenience of using an ATM. Other internal setup barriers include the lack of paperless payment, such as having a bank account in rural areas. When planning your trip to the world's regions where tipping is common, carry small notes of local currency for purchase and tipping.
+        </p>
+        <hr />
+        <h3>Don’ts During Your Rajasthan Visit
+        </h3>
+        <h4>Avoid Overpacking Your Schedule
+        </h4>
+        <p>Rajasthan is a very large area, and every city has its beauty. Do not tour at high speeds in towns or districts nationwide. Instead, spend plenty of time in each place.
+        </p>
+        <h4>Don’t Ignore Weather Conditions
+        </h4>
+        <p>It also has to be said that the climate of the desert is very unpredictable. Prepare for cooler temperatures during winter nights and sudden humidity boosts during the summer.
+        </p>
+        <h4>Avoid Scams and Overcharging
+        </h4>
+        <p>When at the bazaar, remember to haggle, but do it diplomatically. Avoid falling prey to some of the most common fraudsters, such as the coaster guide or sailor, who, like some vendors, fix very high prices apart from overcharging their clients. Ensure you hire a tour guide with government recognition for your safety and security and an assured quality service.
+        </p>
+        <h4>Refrain from Disrespecting Wildlife
+        </h4>
+        <p>Rajasthan comprises many wildlife sanctuaries visitors enjoy the standard Ranthambore Wildlife Sanctuary. Feeding animals or approaching the animal’s nests and other habitats is also prohibited.
+        </p>
+        <h4>Don’t Miss Cultural Etiquette
+        </h4>
+        <p>Avoid public displays of affection and permanently remove shoes before entering temples or someone’s home. Beware of religious feelings and ceremonies.
+        </p>
+        <h4>Don’t Neglect Safety Measures</h4>
+        <p>Choose peasant and reliable means of transport, do not <strong>Rajasthan Travel Advice</strong> to deserted places at night, and also keep significant phone numbers at hand.
+        </p>
+        <hr />
+        <h2>Top Places to Visit in Rajasthan
+        </h2>
+        <p><strong>Jaipur:</strong> The {Link('Pink City Jaipur Turns 297', 'https://www.rajasthantourpackages.in/blog/pink-city-jaipur-turns-297-discover-why-it-attracts-visitors-from-across-the-globe')}
+          , famous for Hawa Mahal and Amber Fort.
+        </p>
+        <p><strong>Udaipur:</strong> Resonated for its challenging lakes and malls.
+        </p>
+        <p><strong>Jodhpur:</strong> The blue city where Mehrangarh Fort can be found.</p>
+        <p><strong>Jaisalmer:</strong> Throughout the movie, visit the {Link('Golden City', 'https://www.rajasthantourpackages.in/5days-golden-triangle-tour')} and its great sandy slopes.
+        </p>
+        <p><strong>Pushkar:</strong> Go to the holy lake and colourful camel fair.
+        </p>
+        <hr />
+        <h3>Conclusion
+        </h3>
+        <p>Rajasthan is full of Tourism excitement, but touring is not without responsibility. Compliance with these Dos & Don'ts during Rajasthan Visit will help you achieve a safe, non-violative trip and ensure you can get in touch with this magical state.</p>
+        <p>You should avoid damaging the culture of the royals of Rajasthan by taking care of some general precautionary measures on your trip. Have the journey of your lifetime with {Link('Rajasthan Tour and Travel', 'https://www.rajasthantourpackages.in/')}.</p>
+      </>
+    ),
+    faqs: [
+      {
+        question: "What are the must-follow dos during a Rajasthan visit?",
+        answer: "Also, some critical things include being polite, dressing decently, drinking a lot of water, booking monuments in advance, tasting Rajasthani foods, and carrying cash for the countryside."
+      },
+      {
+        question: ' What are the major don’ts to avoid while travelling in Rajasthan?',
+        answer: 'Don’t cram your schedule, become oblivious to weather conditions, get deceived, interfere with wild animals, disrespect the culture, and forgo necessary security such as proper transportation.'
+      },
+      {
+        question: 'Why is it important to know the dos and don’ts for Rajasthan?',
+        answer: 'The list brings consolation for travellers to understand the cultural norms of the destinations better and avoid rude and dangerous mistakes.'
+      },
+      {
+        question: 'Are there any cultural practices to keep in mind while visiting Rajasthan?',
+        answer: 'Yes, always refrain from wearing shoes in areas such as temples or people’s homes, don’t express affection in public and conform to the dress code, especially if in religious places.'
+      },
+      {
+        question: 'How can one overcome cases of scam and overcharging in Rajasthan?',
+        answer: 'The ways that help prevent scams include Being polite when haggling prices in bazaars, hiring a guide approved by the government, and checking the prices stated before buying goods or services.'
+      },
+      {
+        question: 'What should I take with me for my Rajasthan trip?',
+        answer: 'Bring appropriate clothing and shoes, sunblock, a hat or scarf, sturdy shoes, a refillable water bottle, cash, and a minor injury first aid kit. Think about the climate and adjust the clothes you wear in response to this.'
+      },
+      {
+        question: 'Can I visit Rajasthan during the summer?',
+        answer: 'Yes, but summer can be extremely hot. When on a journey, you should wear light clothes for summer and avoid going outside during the day and in the evening.'
+      },
+      {
+        question: 'Is it safe to explore rural Rajasthan?',
+        answer: 'While many areas of Rajasthan are generally safe, night money should be carried alone at night, and where possible, secure means of transport should be employed.'
+      },
+      {
+        question: 'Are there some special precautions for Wildlife sanctuaries in Rajasthan?',
+        answer: 'Yes, feed animals so that you do not tamper with wild animals around, then keep off, follow the guide’s directions and do not shout or make noises that would disturb these animals. There are guidelines you could follow.'
+      },
+      {
+        question: 'What can I do to have a more environmentally friendly trip to Rajasthan?',
+        answer: 'To minimize the use of plastics besides promoting local enterprises. Other related behaviour management areas include respect for wildlife within sustainable tourism.'
+      }
+    ]
+
+  },
+  {
+    author: 'Admin',
+    image: '/Images/Blog/rajasthan-monuments.jpg',
+    alt: 'Rajasthan Tourist Monuments',
+    title: 'Tourist Monuments Entrance Charges in Rajasthan for easy planning',
+    date: '2025-01-06',
+    heading: 'Tourist Monuments Entrance Charges in Rajasthan Guide',
+    slug: 'tourist-monuments-entrance-charges-in-rajasthan',
+    metaTitle: 'Tourist Monuments Entrance Charges in Rajasthan Guide',
+    metaDescription: 'Satisfy the Tourist Monuments Entrance Charges in Rajasthan Guide to plan the best places such as Amber Fort, City Palace and many of them in a cheap manner.',
+    canonical: 'https://www.rajasthantourpackages.in/blog/tourist-monuments-entrance-charges-in-rajasthan',
+    keywords: ['Tourist Monuments Entrance charges in Rajasthan', 'Entrance fees Rajasthan monuments', 'Rajasthan Tour and travel', 'Rajasthan Travel Packages', 'Ranthambore National Park', 'Most beautiful places to visit in Jaisalmer', 'City Palace', 'Entrance fees Rajasthan monuments', 'Monument Entrance Fees Rajasthan', 'Rajasthan Tourist Monument Charges'],
+    category: 'News & Updates',
+    description:
+      "Rajasthan, known as India's Land of Kings, boasts some of India's most iconic monuments. History engraved in the walls of these eximious structures and edifices puts history inside these places. But if you want to know the Tourist Monuments Entrance Charges in Rajasthan, then it will be helpful for you to plan your trip accordingly. Here is our comprehensive overview of tourist monument entrance charges in Rajasthan for an effortless tourist adventure.",
+    more: (
+      <>
+        <p>Rajasthan, known as India's Land of Kings, boasts some of India's most iconic monuments. History engraved in the walls of these eximious structures and edifices puts history inside these places. But if you want to know the <strong>Tourist Monuments Entrance Charges in Rajasthan</strong>, then it will be helpful for you to plan your trip accordingly. Here is our comprehensive overview of tourist monument entrance charges in Rajasthan for an effortless tourist adventure.
+        </p>
+        <p>For more detailed information, you can explore our guide on <strong>Top Tourist Monuments in Rajasthan</strong> or check out our {Link('Rajasthan Travel Packages', 'https://www.rajasthantourpackages.in/rajasthan-tour-packages')} to make your visit even more exciting.
+        </p>
+        <hr />
+        <h2>Why Knowing Rajasthan Tourist Monument Charges Matters</h2>
+        <p>Planning your visit to Rajasthan Tourist Monument Charges requires more than a travel itinerary. Knowledge of Entrance Charges you:
+        </p>
+        <p>Budget Efficiently: Avoid unexpected expenses.
+        </p>
+        <p>Save Time: There are Options for combo tickets and online bookings where available.
+        </p>
+        <p>Enhance Experience: Such matters include hiring tourist guides and lighting and sound shows, among other things.</p>
+        <hr />
+        <h2>Top Tourist Monuments in Rajasthan and Their Entrance Charges
+        </h2>
+        <hr />
+        <Table responsive className='table table-rounded my-0 table-striped'>
+          <thead>
+            <tr>
+              <th>Tourist Monuments</th>
+              <th>Indians</th>
+              <th>Foreigners</th>
+              <th>Additionals (₹)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Amber Fort (Jaipur)</td>
+              <td>₹ 100</td>
+              <td>₹ 500</td>
+              <td>Light & Sound Show: ₹200 (Indian), ₹400 (Foreign)</td>
+            </tr>
+            <tr>
+              <td>City Palace (Jaipur)</td>
+              <td>₹ 200</td>
+              <td>₹ 700</td>
+              <td>Royal Grandeur Tour: ₹3000</td>
+            </tr>
+            <tr>
+              <td>Hawa Mahal (Jaipur)</td>
+              <td>₹ 50</td>
+              <td>₹ 200</td>
+              <td>-</td>
+            </tr>
+            <tr>
+              <td>Jantar Mantar (Jaipur)</td>
+              <td>₹ 50</td>
+              <td>₹ 200</td>
+              <td>Student Discount: 50% on production of ID</td>
+            </tr>
+            <tr>
+              <td>Albert Hall (Jaipur)</td>
+              <td>₹ 40</td>
+              <td>₹ 300</td>
+              <td>Student Charges: Indians ₹20 and foreigners ₹150</td>
+            </tr>
+            <tr>
+              <td>Mehrangarh Fort (Jodhpur)</td>
+              <td>₹ 100</td>
+              <td>₹ 600</td>
+              <td>Elevator Charges: ₹50</td>
+            </tr>
+            <tr>
+              <td>Udaipur City Palace (Udaipur)</td>
+              <td>₹ 300</td>
+              <td>₹ 600</td>
+              <td>Boat Ride: ₹400 (Indian), ₹700 (Foreign)</td>
+            </tr>
+            <tr>
+              <td>Jaisalmer Fort (Jaisalmer)</td>
+              <td>₹ 100</td>
+              <td>₹ 500</td>
+              <td>Museum Entry: ₹50</td>
+            </tr>
+            <tr>
+              <td>Ranthambore National Park (Sawai Madhopur)</td>
+              <td>₹ 1000</td>
+              <td>₹ 2000</td>
+              <td>Guide Charges: ₹500 per group</td>
+            </tr>
+            <tr>
+              <td>Chittorgarh Fort (Chittorgarh)</td>
+              <td>₹ 50</td>
+              <td>₹ 200</td>
+              <td>Light & Sound Show: ₹100 (Indian), ₹250 (Foreign)</td>
+            </tr>
+            <tr>
+              <td>Kumbhalgarh Fort (Udaipur)</td>
+              <td>₹ 40</td>
+              <td>₹ 600</td>
+              <td>Light & Sound Show: ₹200 (Indian), ₹500 (Foreign)</td>
+            </tr>
+            <tr>
+              <td>Junagarh Fort (Bikaner)</td>
+              <td>₹ 50</td>
+              <td>₹ 300</td>
+              <td>Student Charges: Indians ₹30 and foreigners ₹150</td>
+            </tr>
+            <tr>
+              <td>National Research Centre on Camel (Bikaner)</td>
+              <td>₹ 30</td>
+              <td>₹ 100</td>
+              <td>Still camera charges: 50 and no videography is allowed</td>
+            </tr>
+            <tr>
+              <td>Sadul Singh Museum (Bikaner)</td>
+              <td>₹ 10</td>
+              <td>₹ 20</td>
+              <td>-</td>
+            </tr>
+          </tbody>
+        </Table>
+        <hr />
+        <h2>Additional Tips for Tourist Monuments in Rajasthan</h2>
+        <p><strong>Check Timings:</strong> Most monuments are open from 9:00 AM to 5:00 PM. Plan your visit early in the morning to avoid crowds and heat.
+        </p>
+        <p><strong>Carry Cash:</strong> Make sure to carry cash when visiting monuments that will not accept card payments.
+        </p>
+        <p><strong>Consider Combo Tickets:</strong> Use a combo ticket to visit multiple city attractions and save money and time.</p>
+        <p><strong>Hire Certified Guides:</strong> Add professional and certified guides to your trips and tours</p>
+        <p><strong>Follow Monument Rules:</strong> Follow the rules to maintain integrity and to have a safe visit.
+        </p>
+        <hr />
+        <h2>How to Save on Monument Visits in Rajasthan</h2>
+        <p><strong>Student Discounts:</strong> A good number of sites provide discounts for students. A valid student ID is always required.</p>
+        <p>Buy transport, a guide and some <strong>Entrance fees Rajasthan monuments</strong> for Top Rajasthan Monuments.
+        </p>
+        <p><strong>Off-Season Travel:</strong> It is better to go during the off-week season. There are many people, and you will be given a discount.
+        </p>
+        <hr />
+        <h3>Conclusion</h3>
+        <p>The monuments of Rajasthan are discoveries of the royal culture of India. In this way, one can fix a cheap rate for travel and hence know the Tourist Monuments Entrance charges in Rajasthan. Starting with the high rise of Amber Fort, the Complex detailing in {Link('City Palace', 'https://www.jaipurtaxiservice.com/places-to-visit-in-jaipur/city-palace-jaipur.html')}, or the golden beaches of {Link('Most beautiful places to visit in Jaisalmer', 'https://www.rajasthantourpackages.in/blog/best-beautiful-places-to-visit-in-jaisalmer-travel-guide')}, every location offers us a sneak peek into the history of Rajasthan.
+        </p>
+        <p>Find out how to prepare to get the most out of your trip, be aware of the historical track record, and engage with the vibrant traditions of this royal kingdom through {Link('Rajasthan Tour and travel', 'https://www.rajasthantourpackages.in/')}.
+        </p>
+      </>
+    ),
+    faqs: [
+      {
+        question: "What is the fee to be paid at the gates to some of the famous monuments of Rajasthan?",
+        answer: "Entrance charges vary by monument. For instance, Amber Fort costs ₹100 for Indian tourists and ₹500 for foreigners. City Palace in Udaipur charges ₹300 for Indians and ₹600 for foreigners."
+      },
+      {
+        question: 'Are there discounts available for students at Rajasthan’s monuments?',
+        answer: 'Indeed, monuments such as Jantar Mantar and Mehrangarh Fort provide 50 % off to any learner with a valid identification card.'
+      },
+      {
+        question: 'Can I pay the entrance charges digitally at Rajasthan Monuments?',
+        answer: 'Currently, significant archaeological sites have permit cards, but there can be minor archaeological sites, like small villages, that may accept only cash. It’s advisable to carry some money as a backup.'
+      },
+      {
+        question: 'What are combo tickets available for multiple monuments in Rajasthan?',
+        answer: 'Yes, there are combination tickets for Jaipur like Amber, Hawa Mahal and Jantar Mantar and it is cheap and time-saving.'
+      },
+      {
+        question: 'Are guide charges in addition to entrance fees for Rajasthan monuments?',
+        answer: 'No, guide charges will always be additional. However, it is recommended that you hire a government-certified guide to have a much better experience.'
+      },
+      {
+        question: 'What is the best time to visit Rajasthan’s monuments?',
+        answer: 'The ideal time is during winter October to March. For fewer people, you should visit the services early in the morning.'
+      },
+      {
+        question: 'Do monuments impose extra fees for photo or video shooting?',
+        answer: 'Some sites like Hawa Mahal have included photography charges in ticket prices, and some sites may charge chargers or video graphs.'
+      },
+      {
+        question: 'Are graph sets for monuments in Rajasthan required to be booked in advance?',
+        answer: 'Most monuments sell tickets on the site, but buying the tickets in advance when most people visit monuments saves time.'
+      },
+      {
+        question: 'Which day of the week is free entry for Rajasthan monuments?',
+        answer: 'In most monuments, entry is free during national holidays or heritage days. Check in advance for these opportunities.'
+      },
+      {
+        question: ' What are the entrance charges for safari zones in Rangers in Rajasthan like Ranthambore?',
+        answer: 'Ranthambore National Park charges ₹1000 for Indian tourists and ₹2000 for foreigners. Safari guide fees are additional.'
+      }
+    ]
   },
   // Tour & Travels
   {
