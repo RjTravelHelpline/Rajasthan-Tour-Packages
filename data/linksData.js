@@ -47,6 +47,10 @@ export const usefulLinks = [
     path: '/rajasthan-tour-packages',
     text: 'Rajasthan Tour Packages',
   },
+  {
+    path: '/blog',
+    text: 'Blog',
+  },
 ];
 
 // tour packages by theme
@@ -116,25 +120,21 @@ export const companyLinks = [
     text: "Common FAQ's",
   },
   {
-    path: '/blog',
-    text: 'Blog',
-  },
-  {
     path: '/contact-us',
     text: 'Contact Us',
   },
-  {
-    path: '/privacy-policy',
-    text: 'Privacy Policy',
-  },
-  {
-    path: '/terms-and-conditions',
-    text: 'Terms & Conditions',
-  },
-  {
-    path: '/sitemap.xml',
-    text: 'Sitemap',
-  },
+  // {
+  //   path: '/privacy-policy',
+  //   text: 'Privacy Policy',
+  // },
+  // {
+  //   path: '/terms-and-conditions',
+  //   text: 'Terms & Conditions',
+  // },
+  // {
+  //   path: '/sitemap.xml',
+  //   text: 'Sitemap',
+  // },
 ];
 
 // tour by days

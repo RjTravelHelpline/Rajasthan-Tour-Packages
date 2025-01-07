@@ -13,7 +13,7 @@ import {
     IoMdCall,
     IoMdClose,
 } from 'react-icons/io';
-import { MdEmail, MdOutlineClose } from 'react-icons/md';
+import { MdCall, MdEmail, MdOutlineClose } from 'react-icons/md';
 import {
     destinationLinks,
     headerCabRentalLinks,
@@ -26,6 +26,8 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Col, Container, Modal, Row } from 'react-bootstrap';
 import ContactForm from './ContactForm';
+import { RiCustomerService2Line, RiMenu4Line } from 'react-icons/ri';
+import { IoCall } from 'react-icons/io5';
 
 const Navbar = () => {
     const location = usePathname();
@@ -230,27 +232,27 @@ const Navbar = () => {
                     <>
                         <Col className="col d-flex justify-content-end align-items-end">
                             <div
-                                className={`col d-flex justify-content-end align-items-center ${!ismobile ? 'gap-3' : 'gap-1'
+                                className={`col d-flex justify-content-end align-items-center ${!ismobile ? 'gap-2' : 'gap-1'
                                     }`}
                             >
                                 <button
-                                    className="d-flex justify-content-center align-items-center p-3 rounded-5  shadow-none contact-top-toggle-button"
+                                    className="d-flex justify-content-center align-items-center p-3 rounded-5  shadow-none contact-top-toggle-button bg-tertary-down"
                                     onClick={showContactPopup}
                                     aria-label='go socials'
                                 >
                                     {contactPopup ? (
                                         <MdOutlineClose className="icon" />
                                     ) : (
-                                        <IoMdCall className="icon text-white" />
+                                        <MdCall className="icon text-white" />
                                     )}
                                 </button>
                                 {!ismobile && (
                                     <>
                                         <button
-                                            className="d-flex justify-content-center align-items-center gap-2" style={{ fontWeight: '500', textTransform: "uppercase" }}
+                                            className="d-flex justify-content-center align-items-center rounded-5" style={{ fontWeight: '500'}}
                                             onClick={handleShow}
                                         >
-                                            <FaLocationArrow className="icon text-black" />
+                                            <FaLocationArrow className="icon text-black me-2" />
                                             Plan a trip
                                         </button>
                                     </>
@@ -258,10 +260,10 @@ const Navbar = () => {
                                 {ismobile && (
                                     <>
                                         <button
-                                            className="d-flex justify-content-center align-items-center p-3 rounded-5 bg-black shadow-none mobile-ham"
+                                            className="d-flex justify-content-center align-items-center p-2 rounded-5 bg-white text-black shadow-none mobile-ham"
                                             onClick={handleNavigation}
                                         >
-                                            <FaGripLines />
+                                            <RiMenu4Line className='fs-3'/>
                                         </button>
                                     </>
                                 )}

@@ -51,7 +51,7 @@ const BlogsSection = () => {
                           />
                         </div>
                         <p className="blog-category mb-0">{blog.category}</p>
-                        <h3 className="blog-heading text-black">{blog.heading}</h3>
+                        <h3 className="blog-heading text-black web-title fw-bold">{blog.heading}</h3>
                         <p className="mb-2">{visibleDescription}</p>
                         <div className="row d-flex justify-content-start w-100 align-items-center">
                           <p className="text-muted w-auto blog-author mb-0 text-capitalize d-flex justify-content-center align-items-center">

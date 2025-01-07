@@ -70,6 +70,7 @@
   // bread crumb
   --breadCrumb-color: #ffffff80;
   --active-breadCrumb-color: #ffffff1f;
+  --font-size-min: clamp(0.8em, 1vw, 0.9em);
 
   --font-size-bread: clamp(0.8rem, 1vw, 0.9rem);
 }
@@ -102,6 +103,57 @@ body li {
 }
 .web-title {
   font-family: var(--font-raleway) !important;
+}
+.font-min {
+  font-size: var(--font-size-min) !important;
+}
+.banner-head {
+  letter-spacing: -1px;
+  font-size: clamp(1.5em, 6vw, 6em) !important;
+}
+.anchor-link-u {
+  text-decoration: none;
+  color: inherit;
+  transition: none !important;
+  &:hover {
+    opacity: 1 !important;
+    text-decoration: underline;
+    color: var(--color-tertary) !important;
+  }
+}
+.anchor-link-u-white {
+  text-decoration: none;
+  color: inherit;
+  transition: none !important;
+  &:hover {
+    opacity: 1 !important;
+    text-decoration: underline;
+    color: var(--color-primary) !important;
+  }
+}
+.anchor-link-i {
+  color: inherit;
+  transition: none !important;
+  &:hover {
+    opacity: 1 !important;
+    color: var(--color-tertary) !important;
+  }
+}
+.anchor-link-v {
+  color: inherit;
+  transition: none !important;
+  &:hover {
+    opacity: 1 !important;
+    color: var(--color-tertary) !important;
+  }
+}
+.anchor-link-i-white {
+  color: inherit;
+  transition: none !important;
+  &:hover {
+    opacity: 1 !important;
+    color: var(--color-primary) !important;
+  }
 }
 
 // Browser scroller bar
@@ -798,5 +850,101 @@ table {
   &:hover {
     color: var(--color-tertary) !important;
     text-decoration: underline !important;
+  }
+}
+
+
+
+// Custom padding values
+$padding-sizes: (
+  1: 4px,
+  2: 8px,
+  3: 12px,
+  4: 16px,
+  5: 20px,
+  6: 24px,
+  7: 28px,
+  8: 32px,
+  9: 36px,
+  10: 40px,
+);
+
+// Generate padding classes for each type and breakpoint
+@each $key, $size in $padding-sizes {
+  /* Horizontal Padding */
+  .px-sm-#{$key} {
+    padding-left: $size !important;
+    padding-right: $size !important;
+  }
+  @media (min-width: 768px) {
+    // md breakpoint
+    .px-md-#{$key} {
+      padding-left: $size !important;
+      padding-right: $size !important;
+    }
+  }
+  @media (min-width: 992px) {
+    // lg breakpoint
+    .px-lg-#{$key} {
+      padding-left: $size !important;
+      padding-right: $size !important;
+    }
+  }
+  @media (min-width: 1200px) {
+    // xl breakpoint
+    .px-xl-#{$key} {
+      padding-left: $size !important;
+      padding-right: $size !important;
+    }
+  }
+
+  /* Vertical Padding */
+  .py-sm-#{$key} {
+    padding-top: $size !important;
+    padding-bottom: $size !important;
+  }
+  @media (min-width: 768px) {
+    // md breakpoint
+    .py-md-#{$key} {
+      padding-top: $size !important;
+      padding-bottom: $size !important;
+    }
+  }
+  @media (min-width: 992px) {
+    // lg breakpoint
+    .py-lg-#{$key} {
+      padding-top: $size !important;
+      padding-bottom: $size !important;
+    }
+  }
+  @media (min-width: 1200px) {
+    // xl breakpoint
+    .py-xl-#{$key} {
+      padding-top: $size !important;
+      padding-bottom: $size !important;
+    }
+  }
+
+  /* Block Padding (All Sides) */
+  .p-sm-#{$key} {
+    padding: $size !important;
+  }
+  @media (min-width: 768px) {
+    // md breakpoint
+    .p-md-#{$key} {
+      padding: $size !important;
+    }
+  }
+  @media (min-width: 992px) {
+    // lg breakpoint
+    .p-lg-#{$key} {
+      padding: $size !important;
+    }
+  }
+  @media (min-width: 1200px) {
+    // xl breakpoint
+    .p-xl-#{$key} {
+      padding: $size !important;
+    }
   }
 }

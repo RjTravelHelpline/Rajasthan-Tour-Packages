@@ -30,17 +30,15 @@ const ChatBot = () => {
   return (
     <>
       {/* <div className="container-fluid"> */}
-      <div className="bottom-contact-container bottom-contact-02 row overflow-hidden d-flex  align-items-center p-2">
-        <div className="w-auto d-flex justify-content-start align-items-center gap-2">
-          <a
-            href="https://wa.me/919166555888"
-            target="_blank"
-            onClick={() => setIsChatVisible(true)}
-            aria-label="whatsapp"
-          >
-            <FaWhatsapp className="fixed-footer-icon" />
-          </a>
-        </div>
+      <div className="bottom-contact-container bottom-contact-02 row overflow-hidden d-flex  align-items-center">
+        <a
+          href="https://wa.me/919166555888"
+          target="_blank"
+          onClick={() => setIsChatVisible(true)}
+          aria-label="whatsapp"
+        >
+          <FaWhatsapp className="fixed-footer-icon" />
+        </a>
       </div>
       {/* WhatsApp chat container */}
       {isChatVisible && (
