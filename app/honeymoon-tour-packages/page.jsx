@@ -95,11 +95,11 @@ const HoneyMoonTourPackage = () => {
                             <ol>
                                 <li className="px-2">
                                     <p className="web-title fw-bold text-black"><strong>Udaipur City of Lakes</strong></p>
-                                    <p>The natural setting of lakes in and around Udaipur and the city's tremendous architecture make it among the best honeymoon destinations. Find the Lake Palace's interiors, take a boat tour of Lake Pichola, or appreciate City Palace. Visit Saheliyon Ki Bari garden meant for royal ladies, and end the evening with a light dinner around the lake. Explore {Link('Places to Visit in Udaipur', 'https://www.rajasthantourpackages.in/udaipur')} for a complete experience.</p>
+                                    <p>The natural setting of lakes in and around Udaipur and the city&lsquo;s tremendous architecture make it among the best honeymoon destinations. Find the Lake Palace&lsquo;s interiors, take a boat tour of Lake Pichola, or appreciate City Palace. Visit Saheliyon Ki Bari garden meant for royal ladies, and end the evening with a light dinner around the lake. Explore {Link('Places to Visit in Udaipur', 'https://www.rajasthantourpackages.in/udaipur')} for a complete experience.</p>
                                 </li>
                                 <li className="px-2">
                                     <p className="web-title fw-bold text-black"><strong>Jaisalmer Golden City</strong></p>
-                                    <p>In essence, Jaisalmer presents any tourist's desire for an adventure fix coupled with a romantic feel. Fun activities include taking a luxurious desert camp in Sam Sand Dunes, being transported from one destination to the next by camel, and watching the sunset. It would help if you did not visit {Link('Jaisalmer Fort', 'https://www.rajasthantourpackages.in/jaisalmer')}, which is masterminded, and the Gadisar Lake looks very beautiful.
+                                    <p>In essence, Jaisalmer presents any tourist&lsquo;s desire for an adventure fix coupled with a romantic feel. Fun activities include taking a luxurious desert camp in Sam Sand Dunes, being transported from one destination to the next by camel, and watching the sunset. It would help if you did not visit {Link('Jaisalmer Fort', 'https://www.rajasthantourpackages.in/jaisalmer')}, which is masterminded, and the Gadisar Lake looks very beautiful.
                                     </p>
                                 </li>
                                 <li className="px-2">
@@ -153,7 +153,7 @@ const HoneyMoonTourPackage = () => {
                                         <FaStarOfLife className="icon" />
                                     </span>
                                     <span>
-                                        <strong className="web-title d-block">Cultural Evenings</strong>Experience real folk music and dance shows along with Rajasthan's royal dressing sense and Rajasthan's richest traditional food.
+                                        <strong className="web-title d-block">Cultural Evenings</strong>Experience real folk music and dance shows along with Rajasthan&lsquo;s royal dressing sense and Rajasthan&lsquo;s richest traditional food.
                                     </span>
                                 </p>
                                 <p className="home-para px-2 text-black py-1">
