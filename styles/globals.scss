@@ -252,6 +252,16 @@ body {
     margin-block: 12px;
   }
 }
+.sitemap-link {
+  text-decoration: underline;
+  color: inherit;
+  transition: none !important;
+  &:hover {
+    filter: brightness(1) !important;
+    color: var(--color-primary) !important;
+    opacity: 1 !important;
+  }
+}
 
 .breadcrumb {
   margin-bottom: 0 !important;
