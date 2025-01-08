@@ -572,20 +572,20 @@ const breadcrumbData = {
     { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
     { label: '03 Days Jodhpur Jaisalmer Desert Tour' },
   ],
-  _3daysjodhpurmewartour: [
+  _3daysjodhpurmarwartour: [
     { label: 'Home', link: '/' },
     { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
-    { label: '03 Days Jodhpur Mewar Tour' },
+    { label: '03 Days Jodhpur marwar Tour' },
   ],
   _3daysudaipurkumbhalgarhtour: [
     { label: 'Home', link: '/' },
     { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
     { label: '03 Days Udaipur Kumbhalgarh Tour' },
   ],
-  _3daysudaipurmewartour: [
+  _3daysudaipurmarwartour: [
     { label: 'Home', link: '/' },
     { label: 'rajasthan tour packages', link: '/rajasthan-tour-packages' },
-    { label: '03 Days Udaipur Mewar Tour' },
+    { label: '03 Days Udaipur marwar Tour' },
   ],
   _3daysudaipurmountabutour: [
     { label: 'Home', link: '/' },
