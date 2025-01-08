@@ -1,16 +1,16 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import React from "react";
-const SixDaysMewarTourPackage = () => {
+const SixDaysMarwarTourPackage = () => {
   return (
     <>
-      <Breadcrumb breadcrumbKey="_6daysmewartour" />
+      <Breadcrumb breadcrumbKey="_6daysmarwartour" />
       <div className="container-fluid py-4 bg-black text-white">
         <div className="row">
-          <h1 className="text-5">06 days mewar tour</h1>
+          <h1 className="text-5">06 days marwar tour</h1>
         </div>
       </div>
     </>
   );
 };
 
-export default SixDaysMewarTourPackage;
+export default SixDaysMarwarTourPackage;

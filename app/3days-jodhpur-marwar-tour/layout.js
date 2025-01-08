@@ -1,15 +1,15 @@
 export const metadata = {
   title: 'Jodhpur Marwar Tour for 3 Days | Rajasthan Tour Packages',
   description:
-    'Gallop through the glory of Jodhpur and Mewar in 3 days, moving between the forts, palaces and absorbing the essence of the region for the real royal Know.',
+    'Gallop through the glory of Jodhpur and Marwar in 3 days, moving between the forts, palaces and absorbing the essence of the region for the real royal Know.',
   alternates: {
-    canonical: 'https://www.rajasthantourpackages.in/3days-jodhpur-mewar-tour',
+    canonical: 'https://www.rajasthantourpackages.in/3days-jodhpur-marwar-tour',
   },
   openGraph: {
     title: 'Jodhpur Marwar Tour for 3 Days | Rajasthan Tour Packages',
     description:
-      'Gallop through the glory of Jodhpur and Mewar in 3 days, moving between the forts, palaces and absorbing the essence of the region for the real royal Know.',
-    url: 'https://www.rajasthantourpackages.in/3days-jodhpur-mewar-tour',
+      'Gallop through the glory of Jodhpur and Marwar in 3 days, moving between the forts, palaces and absorbing the essence of the region for the real royal Know.',
+    url: 'https://www.rajasthantourpackages.in/3days-jodhpur-marwar-tour',
     images:
       'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     site_name: 'Rajasthan Tour Packages',
@@ -21,7 +21,7 @@ export const metadata = {
     site: '@rajasthantourpackages',
     title: 'Jodhpur Marwar Tour for 3 Days | Rajasthan Tour Packages',
     description:
-      'Gallop through the glory of Jodhpur and Mewar in 3 days, moving between the forts, palaces and absorbing the essence of the region for the real royal Know.',
+      'Gallop through the glory of Jodhpur and Marwar in 3 days, moving between the forts, palaces and absorbing the essence of the region for the real royal Know.',
     images:
       'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
   },
