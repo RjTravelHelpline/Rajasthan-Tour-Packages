@@ -20,10 +20,10 @@ const ItineraryAccordion = ({ tourItinerary, style, stylePara, showIcon = false,
                                 </span>
                             )}
                             <div className="d-flex flex-column">
-                                <h3 className={`mb-0 accordion-question fw-normal fw-bold text-uppercase w-100 itinerary-title  ${style}`}>
+                                <h3 className={`mb-0 accordion-question fw-normal web-title fw-bold text-uppercase w-100 itinerary-title  ${style}`}>
                                     {item.day}
                                 </h3>
-                                <p className={`d-block w-100 fw-normal mb-0 ${stylePara}`}>
+                                <p className={`d-block w-100 fw-normal text-black web-title mb-0 ${stylePara}`}>
                                     {item.title}
                                 </p>
                             </div>
