@@ -20,6 +20,9 @@
       span {
         color: var(--color-secondary) !important;
       }
+      .contact-top-toggle-button {
+        color: var(--color-black) !important;
+      }
     }
 
     .logo {
@@ -61,7 +64,7 @@
       font-weight: 500;
       cursor: pointer;
       color: var(--color-primary);
-      text-transform: uppercase !important;
+      text-transform: capitalize !important;
     }
     .dropdown-menu {
       justify-content: center;
@@ -154,6 +157,9 @@
     }
   }
 }
+.contact-top-toggle-button {
+  backdrop-filter: blur(10px);
+}
 
 @media screen and (max-width: 1200px) {
   .header {
@@ -173,12 +179,6 @@
     background-color: var(--color-primary);
     z-index: 99;
   }
-}
-
-// contact popup
-.contact-top-toggle-button {
-  background-color: var(--color-tertary) !important;
-  color: var(--color-black) !important;
 }
 
 // Mobile navigation

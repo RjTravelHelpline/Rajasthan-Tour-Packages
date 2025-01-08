@@ -26,8 +26,9 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Col, Container, Modal, Row } from 'react-bootstrap';
 import ContactForm from './ContactForm';
-import { RiCustomerService2Line, RiMenu4Line } from 'react-icons/ri';
-import { IoCall } from 'react-icons/io5';
+import { BiChevronDown, BiPhone, BiPhoneCall, BiSolidPhoneCall } from 'react-icons/bi';
+import { RiWhatsappFill } from 'react-icons/ri';
+import { IoCall, IoNavigateCircle, IoNavigateSharp } from 'react-icons/io5';
 
 const Navbar = () => {
     const location = usePathname();
@@ -89,8 +90,9 @@ const Navbar = () => {
     const showContactPopup = () => {
         setContactPopup((prev) => !prev);
     };
-    const translateY = contactPopup ? '4px' : '-500px';
-    const scale = contactPopup ? '1' : '0';
+    const translateY = contactPopup ? '4px' : '-10px';
+    const visibility = contactPopup ? 'visible' : 'hidden';
+    const opacity = contactPopup ? '1' : '0';
 
     const handleClose = () => setShow(false);
     const handleShow = (title) => {
@@ -108,7 +110,7 @@ const Navbar = () => {
                 className={`container-fluid header d-flex justify-content-center align-items-center px-0 ${navColorClass}`}
             >
                 <Row
-                    className={`w-100 row px-0 d-flex justify-content-center align-items-center  ${navClass} ${isScrolled ? 'scrolled' : ''
+                    className={`py-2 w-100 row px-0 d-flex justify-content-center align-items-center ${navClass} ${isScrolled ? 'scrolled' : ''
                         }`}
                 >
                     <Col className="col d-flex flex-column justify-content-center align-items-start logo-container">
@@ -133,7 +135,6 @@ const Navbar = () => {
                                         href={link.path}
                                         className="w-100 d-block d-flex justify-content-start align-items-center gap-1"
                                     >
-                                        {/* <MdKeyboardDoubleArrowRight /> */}
                                         <icon className="dropdown-icon02">≻</icon>
                                         {link.text}
                                     </Link>
@@ -236,34 +237,38 @@ const Navbar = () => {
                                     }`}
                             >
                                 <button
-                                    className="d-flex justify-content-center align-items-center p-3 rounded-5  shadow-none contact-top-toggle-button bg-tertary-down"
+                                    className="d-flex justify-content-center align-items-center rounded-4 shadow-none contact-top-toggle-button  bg-transparent p-3 text-white"
                                     onClick={showContactPopup}
                                     aria-label='go socials'
+                                    style={{ border: '1px solid var(--color-gray)' }}
                                 >
                                     {contactPopup ? (
                                         <MdOutlineClose className="icon" />
                                     ) : (
-                                        <MdCall className="icon text-white" />
+                                        <>
+                                            <BiSolidPhoneCall className="icon me-1 color-tertary" />
+                                            <BiChevronDown />
+                                        </>
                                     )}
                                 </button>
                                 {!ismobile && (
                                     <>
                                         <button
-                                            className="d-flex justify-content-center align-items-center rounded-5" style={{ fontWeight: '500'}}
+                                            className="d-flex justify-content-center align-items-center gap-1 fw-bold fs-6 text-capitalize web-title"
                                             onClick={handleShow}
                                         >
-                                            <FaLocationArrow className="icon text-black me-2" />
-                                            Plan a trip
+                                            Plan a Tour
+                                            <IoNavigateSharp className="icon text-white" />
                                         </button>
                                     </>
                                 )}
                                 {ismobile && (
                                     <>
                                         <button
-                                            className="d-flex justify-content-center align-items-center p-2 rounded-5 bg-white text-black shadow-none mobile-ham"
+                                            className="d-flex justify-content-center align-items-center p-3 rounded-5 bg-black shadow-none mobile-ham"
                                             onClick={handleNavigation}
                                         >
-                                            <RiMenu4Line className='fs-3'/>
+                                            <FaGripLines />
                                         </button>
                                     </>
                                 )}
@@ -273,66 +278,47 @@ const Navbar = () => {
                     {/* opens the contact popup */}
                     <Row className="row justify-content-end px-4">
                         <div
-                            className={`row contact-popup bg-white text-black d-flex flex-column align-items-left justify-content-start fixed mt-5
-                w-auto pt-4 px-0`}
+                            className={`row contact-popup bg-white text-black d-flex flex-column align-items-left justify-content-start fixed mt-5 w-auto pt-4 px-0`}
                             style={{
-                                transform: `translateY(${translateY}) scale(${scale})`,
-                                transformOrigin: `top right`,
-                                transition: 'transform 0.3s ease-in-out',
+                                transform: `translateY(${translateY})`,
+                                visibility: `${visibility}`,
+                                opacity: `${opacity}`,
+                                transition: 'transform 0.2s ease-in-out',
                             }}
                         >
-                            <div className="bg-white text-black w-100 border-2 border-black rounded-5 p-4 insider">
-                                <div className="col-12 w-100 bg-white d-flex flex-column gap-0 px-0">
+                            <div className="bg-white w-100 rounded-4 insider p-2">
+                                <div className="col-12 w-100 d-flex flex-column gap-0">
                                     <a
                                         href="tel:+91-9024337038"
                                         target="_blank"
-                                        className=" d-block p-3 fw-bold social-icon"
+                                        className=" d-block p-3 fw-bold social-icon d-flex align-items-center gap-2"
                                     >
-                                        <IoMdCall className="mx-0 bg-black text-white p-2 fs-1 rounded-5 icon" />{' '}
-                                        <span className="px-2"></span>+91-9024337038
+                                        <span className="d-flex justify-content-center bg-tertary-down color-black p-2 rounded-5 icon fs-3">
+                                            <MdCall />{' '}
+                                        </span>
+                                        <span>(+91)-9024337038</span>
                                     </a>
                                     <a
                                         href="https://wa.me/919166555888"
                                         target="_blank"
-                                        className=" d-block p-3 fw-bold social-icon"
+                                        className=" d-block p-3 fw-bold social-icon d-flex align-items-center gap-2"
                                     >
-                                        <IoLogoWhatsapp className="mx-0 bg-black text-white p-2 fs-1 rounded-5 icon" />{' '}
-                                        <span className="px-2"></span>+91-9166555888
+                                        <span className="d-flex justify-content-center bg-tertary-down color-black p-2 rounded-5 icon fs-3">
+                                            <RiWhatsappFill />{' '}
+                                        </span>
+                                        <span>(+91)-9166555888</span>
                                     </a>
                                     <a
                                         href="mailto:mail@rajasthantravelhelpline.com"
                                         target="_blank"
-                                        className="text-lowercase p-3 fw-bold social-icon"
+                                        className="text-lowercase p-3 fw-bold social-icon d-flex align-items-center gap-2"
                                     >
-                                        <MdEmail className="mx-0 bg-black text-white p-2 fs-1 rounded-5 icon" />{' '}
-                                        <span className="px-2"></span>
-                                        mail@rajasthantravelhelpline.com
+                                        <span className="d-flex justify-content-center bg-tertary-down color-black p-2 rounded-5 icon fs-3">
+                                            <MdEmail />{' '}
+                                        </span>
+                                        <span>mail@rajasthantravelhelpline.com</span>
+
                                     </a>
-                                    <a
-                                        href="https://www.instagram.com/rajasthantravelhelpline/"
-                                        target="_blank"
-                                        className="text-lowercase p-3 fw-bold social-icon"
-                                    >
-                                        <FaInstagram className="mx-0 bg-black text-white p-2 fs-1 rounded-5 icon" />{' '}
-                                        <span className="px-2"></span>instagram
-                                    </a>
-                                    <a
-                                        href="https://www.facebook.com/rajasthantravelhelpline/"
-                                        target="_blank"
-                                        className="text-lowercase p-3 fw-bold social-icon"
-                                    >
-                                        <FaFacebook className="mx-0 bg-black text-white p-2 fs-1 rounded-5 icon" />{' '}
-                                        <span className="px-2"></span>facebook
-                                    </a>
-                                    <div className="col-12 p-2">
-                                        <Link
-                                            href="/contact-us"
-                                            className="text-uppercase d-flex align-items-start justify-content-start gap-2 w-auto m-auto px-3"
-                                        >
-                                            <p className="mb-0">contact us</p>{' '}
-                                            <span className="fw-bold">→</span>
-                                        </Link>
-                                    </div>
                                 </div>
                             </div>
                         </div>

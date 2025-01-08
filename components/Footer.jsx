@@ -308,63 +308,6 @@ const Footer = () => {
                     </Container>
                 </div>
             </section>
-            {/* <section className="container-fluid px-0">
-                <div className="footer-container text-white">
-                    <div className="container-fluid footer-bottom py-5 pt-2">
-                        <Row className="py-5 justify-content-center align-items-center certified">
-                            <p className="text-center text-capitalize">approved by</p>
-                            <div className="row my-3 w-100 d-flex jusify-content-center align-items-center">
-                                <div className="col-12 d-flex justify-content-center align-items-center gap-4 flex-wrap certifications">
-                                    <a
-                                        href="https://www.tourism.rajasthan.gov.in/"
-                                        className="d-flex justify-content-center align-items-center image-link"
-                                        target="_blank"
-                                        aria-label='go to certification'
-                                    >
-                                        <Image width={600} height={300}
-                                            src={certified01}
-                                            alt="Rajasthan Tourism Certification"
-                                            title='Rajasthan Tourism Certification for Travel Services'
-                                            className="pb-2"
-                                            placeholder='empty' style={{ backgroundColor: "#000" }}
-
-                                        />
-                                    </a>
-                                    <a
-                                        href="https://www.mca.gov.in/content/mca/global/en/home.html"
-                                        className="d-flex justify-content-center align-items-center image-link"
-                                        target="_blank"
-                                        aria-label='go to certification'
-                                    >
-                                        <Image width={600} height={300}
-                                            src={certified02}
-                                            alt="Ministry of Corporate Affairs Certification"
-                                            title='Ministry of Corporate Affairs Certification'
-                                            className="pb-2"
-                                            placeholder='empty' style={{ backgroundColor: "#000" }}
-
-                                        />
-                                    </a>
-                                    <a
-                                        href="https://frto.org/"
-                                        className="d-flex justify-content-center align-items-center image-link"
-                                        target="_blank"
-                                        aria-label='go to certification'
-                                        placeholder='empty' style={{ backgroundColor: "#000" }}
-                                    >
-                                        <Image width={600} height={300}
-                                            src={certified04}
-                                            alt="FRTO Certification"
-                                            title='Obtaining of FRTO Certification for Travel Services'
-                                            className="pb-2"
-                                        />
-                                    </a>
-                                </div>
-                            </div>
-                        </Row>  
-                    </div>
-                </div>
-            </section> */}
             <div className="container-fluid bg-black py-5" style={{ borderTop: '1px solid var(--color-gray)' }}>
                 <div className="container">
                     <div className="row d-flex justify-content-start aiign-items-center footer-links ">
@@ -492,7 +435,12 @@ const Footer = () => {
                                 </a>
                             </div>
                         </div>
-                        <div className="col-12 mt-5 pt-5 d-flex gap-3 flex-wrap align-items-center">
+                        <div className="col-12 mb-2  mt-5 pt-5">
+                            <p className='text-capitalize text-white web-title fw-bold d-flex align-items-center'>
+                                quick connect:
+                            </p>
+                        </div>
+                        <div className="col-12 d-flex gap-3 flex-wrap align-items-center">
                             <a href="tel:+91-9024337038" className='text-capitalize d-flex justify-content-center align-items-center '>
                                 <BiSolidPhoneCall className='color-tertary me-2 opacity-75 fs-4' />
                                 <span className='text-white opacity-75 me-2 text-capitalize web-title'>
