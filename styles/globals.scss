@@ -121,6 +121,15 @@ body li {
     color: var(--color-tertary) !important;
   }
 }
+.anchor-link-ul {
+  text-decoration: underline !important;
+  color: inherit;
+  transition: none !important;
+  &:hover {
+    opacity: 1 !important;
+    color: var(--color-tertary) !important;
+  }
+}
 .anchor-link-u-white {
   text-decoration: none;
   color: inherit;
@@ -852,8 +861,6 @@ table {
     text-decoration: underline !important;
   }
 }
-
-
 
 // Custom padding values
 $padding-sizes: (
