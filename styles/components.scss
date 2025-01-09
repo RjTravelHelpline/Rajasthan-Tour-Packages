@@ -2587,3 +2587,40 @@ p {
 .visible {
   display: block; /* Show currently active elements */
 }
+
+// footer banners
+.footer-banner {
+  .footer-banner-insider {
+    position: relative;
+    height: 40vh;
+    max-height: 300px;
+    overflow: hidden;
+    @media screen and (max-width: 768px) {
+      height: 30vh;
+    }
+    img {
+      transition: 0.1s ease-in-out;
+    }
+    &:hover {
+      img {
+        filter: brightness(1.1);
+      }
+    }
+  }
+  .footer-banner-insider:first-child {
+    a {
+      transition: 0.1s ease-in-out;
+    }
+    a:hover {
+      transform: scale(1.02);
+    }
+  }
+  .footer-banner-insider:last-child {
+    button {
+      transition: 0.1s ease-in-out;
+    }
+    button:hover {
+      transform: scale(1.02);
+    }
+  }
+}

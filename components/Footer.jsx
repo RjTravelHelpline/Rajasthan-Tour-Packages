@@ -52,11 +52,11 @@ const Footer = () => {
 
     return (
         <>
-            <section className="py-5 container-fluid">
+            <section className="py-4 container-fluid bg-black">
                 <Container>
                     <Row className="d-flex justify-content-center align-items-center">
-                        <div className="col-lg-6 col-sm-12 px-2 my-2 text-white">
-                            <div className='w-100 rounded-4' style={{ position: 'relative', height: '35vh', maxHeight: '300px' }}>
+                        <div className="col-lg-6 col-sm-12 px-2 my-2 text-white footer-banner">
+                            <div className='w-100 rounded-4 footer-banner-insider'>
                                 <Image width={800} height={400} quality={100} alt='Query banner' src='/Images/Banners/review-banner.jpg' className='w-100 h-100 rounded-4' style={{ objectFit: 'cover' }}
                                 />
                                 <div style={{ position: 'absolute', bottom: '24px', left: '24px' }}>
@@ -86,16 +86,16 @@ const Footer = () => {
                                 <a href="https://www.tripadvisor.in/Attraction_Review-g304555-d24123312-Reviews-Rajasthan_Travel_Helpline-Jaipur_Jaipur_District_Rajasthan.html"
                                     className="rounded-5"
                                     target="_blank"
-                                    aria-label='trip advisor' style={{ position: 'absolute', top: '12px', right: '12px', backgroundColor: 'rgb(0, 168, 107)' }} onClick={handleShow}>
-                                    <button className='bg-transparent d-flex align-items-center shadow-none text-white' >
+                                    aria-label='trip advisor' style={{ position: 'absolute', top: '12px', right: '12px', backgroundColor: 'rgb(0, 168, 107)' }} >
+                                    <button className='bg-transparent d-flex align-items-center shadow-none text-white'>
                                         <span className='me-2 text-white'>visit now</span>
                                         <BsArrowUpRightCircleFill />
                                     </button>
                                 </a>
                             </div>
                         </div>
-                        <div className="col-lg-6 col-sm-12 px-2 my-2 text-white">
-                            <div className='w-100 rounded-4' style={{ position: 'relative', height: '35vh', maxHeight: '300px' }}>
+                        <div className="col-lg-6 col-sm-12 px-2 my-2 text-white footer-banner">
+                            <div className='w-100 rounded-4 footer-banner-insider'>
                                 <Image width={800} height={400} quality={100} alt='Query banner' src='/Images/Banners/footer-banner.jpg' className='w-100 h-100 rounded-4' style={{ objectFit: 'cover' }}
                                 />
                                 <div style={{ position: 'absolute', bottom: '24px', left: '24px' }}>
@@ -108,7 +108,6 @@ const Footer = () => {
                                 </button>
                             </div>
                         </div>
-
                     </Row>
                 </Container>
             </section>
@@ -491,7 +490,7 @@ const Footer = () => {
                                     terms & conditions
                                 </Link>
                                 <span className='text-white opacity-25'>•</span>
-                                <Link href="/sitemap.xml" className='text-white opacity-50 fw-light font-min anchor-link-u-white'>
+                                <Link href="/sitemap" className='text-white opacity-50 fw-light font-min anchor-link-u-white'>
                                     sitemap
                                 </Link>
                             </div>
