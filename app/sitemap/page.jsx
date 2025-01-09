@@ -26,7 +26,12 @@ const Page = () => {
                         </div>
                         <div className="col-12 py-5">
                             <h1 className='web-title fw-bold text-capitalize'>Site<span className='fw-normal'>map</span></h1>
-                            <p className='text-white opacity-75 text-capitalize web-title'>Simplify your browsing experience from here</p>
+                            <div className='d-flex justify-content-between align-items-center gap-2'>
+                                <p className='text-white opacity-75 text-capitalize web-title'>Simplify your browsing experience</p>
+                                <Link href='/sitemap.xml' className='web-title opacity-50 bg-gray p-2 px-3 rounded-3 d-flex align-items-center sitemap-link text-lowercase'>
+                                    sitemap.xml
+                                </Link>
+                            </div>
                             <hr className='opacity-25' />
                         </div>
                         <div className="col-lg-4 col-md-6 col-sm-12 mb-5 px-2">
@@ -275,7 +280,12 @@ const Page = () => {
                                 })}
                             </div>
                         </div>
-
+                        <div className="col-12 px-2">
+                            <hr className='opacity-25' />
+                            <p className="font-min text-right text-white opacity-50 text-capitalize web-title">
+                                last updated: January 09, 2025
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>

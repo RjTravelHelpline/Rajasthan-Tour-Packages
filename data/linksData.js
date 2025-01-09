@@ -132,7 +132,7 @@ export const companyLinks = [
     text: 'Terms & Conditions',
   },
   {
-    path: '/sitemap.xml',
+    path: '/sitemap',
     text: 'Sitemap',
   },
 ];
