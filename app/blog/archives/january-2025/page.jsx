@@ -12,13 +12,13 @@ export const metadata = {
     keywords: [
     ],
     alternates: {
-        canonical: "https://www.rajasthantourpackages.in/blog/archives/january-2024",
+        canonical: "https://www.rajasthantourpackages.in/blog/archives/january-2025",
     },
     openGraph: {
         title: 'January 2025 Blog Archives | Rajasthan Tour Packages',
         description: 'Explore our January 2025 blog posts. Check out the latest travel advice, top attractions in Rajasthan, and other travel ideas for a fantastic journey.',
         images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
-        url: "https://www.rajasthantourpackages.in/blog/archives/january-2024",
+        url: "https://www.rajasthantourpackages.in/blog/archives/january-2025",
         site_name: 'Rajasthan Tour Packages',
         type: 'website',
         locale: 'en_US',

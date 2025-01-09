@@ -7,13 +7,13 @@ import Link from 'next/link'
 
 export const metadata = {
     title: 'Rajasthan Wildlife Safari Tours | Rajasthan Tour Packages',
-    description: 'Experience the exciting Rajasthan Wildlife Safari Tours. Discover the wildlife of the state with Rajasthan Tour Packages and enjoy the wildlife tour of the state.',
+    description: 'Experience the exciting Rajasthan Wildlife Safari Tours. Find the wildlife of the state with Rajasthan Tour Packages and enjoy the wildlife tour of the state.',
     alternates: {
         canonical: "https://www.rajasthantourpackages.in/blog/categories/wildlife",
     },
     openGraph: {
         title: 'Rajasthan Wildlife Safari Tours | Rajasthan Tour Packages',
-        description: 'Experience the exciting Rajasthan Wildlife Safari Tours. Discover the wildlife of the state with Rajasthan Tour Packages and enjoy the wildlife tour of the state.',
+        description: 'Experience the exciting Rajasthan Wildlife Safari Tours. Find the wildlife of the state with Rajasthan Tour Packages and enjoy the wildlife tour of the state.',
         url: "https://www.rajasthantourpackages.in/blog/categories/wildlife",
         images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
         site_name: 'Rajasthan Tour Packages',
@@ -24,7 +24,7 @@ export const metadata = {
         card: "summary_large_image",
         site: "@rajasthantourpackages",
         title: 'Rajasthan Wildlife Safari Tours | Rajasthan Tour Packages',
-        description: 'Experience the exciting Rajasthan Wildlife Safari Tours. Discover the wildlife of the state with Rajasthan Tour Packages and enjoy the wildlife tour of the state.',
+        description: 'Experience the exciting Rajasthan Wildlife Safari Tours. Find the wildlife of the state with Rajasthan Tour Packages and enjoy the wildlife tour of the state.',
         images: 'https://www.rajasthantourpackages.in/rajasthan-travel-helpline.png',
     },
 };
