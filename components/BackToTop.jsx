@@ -1,6 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
-import { PiArrowUp } from "react-icons/pi";
+import { BsChevronDoubleUp } from "react-icons/bs";
 
 
 const BackToTop = () => {
@@ -41,7 +41,7 @@ const BackToTop = () => {
           className="back-to-top container d-flex justify-content-center align-items-center"
           onClick={scrollToTop}
         >
-          <PiArrowUp className="back-to-top-icon"/>
+          <BsChevronDoubleUp className="back-to-top-icon" />
         </div>
       )}
     </>

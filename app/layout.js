@@ -71,7 +71,7 @@ export default function RootLayout({ children }) {
         {children}
         <FooterSwitcher />
         <BackToTop />
-        <BottomSocials />
+        {/* <BottomSocials /> */}
         <ChatBot />
       </body>
     </html>
