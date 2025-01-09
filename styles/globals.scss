@@ -253,13 +253,24 @@ body {
   }
 }
 .sitemap-link {
-  text-decoration: underline;
   color: inherit;
   transition: none !important;
+  font-size: clamp(0.8em, 2vw, 0.9em) !important;
   &:hover {
+    text-decoration: underline;
     filter: brightness(1) !important;
     color: var(--color-primary) !important;
     opacity: 1 !important;
+  }
+}
+.sitemap-btn {
+  color: inherit;
+  transition: none !important;
+  font-size: clamp(0.8em, 2vw, 0.9em) !important;
+  &:hover {
+    filter: brightness(1) !important;
+    opacity: 1 !important;
+    color: var(--color-primary);
   }
 }
 
