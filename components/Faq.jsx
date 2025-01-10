@@ -1,6 +1,7 @@
 "use client";
 import { Accordion } from "react-bootstrap";
 import { FaLightbulb } from "react-icons/fa";
+import { FaQuestion } from "react-icons/fa6";
 
 const Faq = ({ faqs }) => {
   return (
@@ -16,15 +17,15 @@ const Faq = ({ faqs }) => {
               >
                 <Accordion.Header className="d-flex w-100 justify-content-between">
                   <div role="heading" aria-level="3" className="d-flex align-items-center">
-                    <FaLightbulb className="me-2 accordion-question-icon" />
-                    <p className="mb-0 accordion-question fw-normal">
+                    <FaQuestion className="me-2 accordion-question-icon" />
+                    <p className="mb-0 accordion-question fw-normal web-title text-black">
                       {item.question}
                     </p>
                   </div>
                 </Accordion.Header>
                 <Accordion.Body>
                   <p
-                    className="accordion-answer"
+                    className="accordion-answer fw-light text-black"
                     dangerouslySetInnerHTML={{ __html: item.answer }}
                   />
                 </Accordion.Body>

@@ -117,36 +117,12 @@ export const companyLinks = [
   },
   {
     path: '/faq',
-    text: "Common FAQ's",
+    text: 'FAQs',
   },
   {
     path: '/contact-us',
     text: 'Contact Us',
   },
-  {
-    path: '/privacy-policy',
-    text: 'Privacy Policy',
-  },
-  {
-    path: '/terms-and-conditions',
-    text: 'Terms & Conditions',
-  },
-  {
-    path: '/sitemap',
-    text: 'Sitemap',
-  },
-  // {
-  //   path: '/privacy-policy',
-  //   text: 'Privacy Policy',
-  // },
-  // {
-  //   path: '/terms-and-conditions',
-  //   text: 'Terms & Conditions',
-  // },
-  // {
-  //   path: '/sitemap.xml',
-  //   text: 'Sitemap',
-  // },
 ];
 
 // tour by days

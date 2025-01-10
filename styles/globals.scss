@@ -240,9 +240,8 @@ body {
 
   h2 {
     font-family: var(--font-head);
-    font-size: clamp(2em, 3vw, 2.45em);
+    font-size: clamp(2em, 3vw, 2.2em);
     font-weight: bold;
-    letter-spacing: -1px;
 
     @media screen and (max-width: 768px) {
       font-size: 1.56em !important;
@@ -257,6 +256,9 @@ body {
     @media screen and (max-width: 768px) {
       font-size: 1.25em !important;
     }
+  }
+  .h3-min {
+    font-size: clamp(1.2em, 2vw, 1.7em);
   }
   h4 {
     font-family: var(--font-head);
@@ -312,6 +314,9 @@ body {
     border-top: 1px solid var(--color-border);
     margin-block: 12px;
   }
+}
+.h2-min {
+  font-size: clamp(1.9em, 1vw, 1.2em) !important;
 }
 .sitemap-link {
   color: inherit;
