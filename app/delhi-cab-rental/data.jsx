@@ -3,50 +3,53 @@ export const faq = [
     question: `What services does Delhi Cab Rental provide?`,
     answer: (
       <>
-        Agra Cab Rental provides local sightseeing, airport transfers, outstation trips, and customized tour packages to make your travel in Agra comfortable and hassle-free.
+        Delhi Cab Rental offers local and outstation trips, airport transfers and corporate travel services tailored for convenience and safety.
+
 
       </>
     )
   },
   {
-    question: `How can I book a cab with Agra Cab Rental?`,
+    question: `How do I book a cab with Delhi Cab Rental?`,
     answer: (
       <>
-        You can book a cab easily online via our Rajasthan Tour Packages or by contacting our customer support team directly.
+        Book your cab online through our website Rajasthan Tour Package or call our customer support team for assistance.
+      </>
+    )
+  },
+  {
+    question: `Can I find cabs for outstation destinations from Delhi?`,
+    answer: (
+      <>
+        Yes, at affordable prices we have outstation car rental services in cities like Jaipur, Agra, and Chandigarh.
 
       </>
     )
   },
   {
-    question: `Are cabs available for outstation trips from Agra?`,
+    question: `What types of vehicles are available for hire?`,
     answer: (
       <>
-        Yes, we provide outstation cabs to nearby cities like Jaipur, Delhi, and Fatehpur Sikri, ensuring a smooth journey.
-      </>
-    )
-  },
-  {
-    question: `What vehicles are available for rental?`,
-    answer: (
-      <>
-        We offer a range of vehicles, including sedans, SUVs, and luxury cars, to suit your travel needs.
+        We offer a variety of vehicles, including economy cars, SUVs, luxury vehicles and tempo travellers.
+
 
       </>
     )
   },
   {
-    question: ` Is the Agra Cab Rental service safe and reliable?`,
+    question: `Is Delhi Cab Rental suitable for corporate travel?`,
     answer: (
       <>
-        Absolutely! Our professional drivers and well-maintained vehicles ensure a secure and stress-free ride.
+        Yes, our service is ideal for corporate travel with punctual drivers and clean well-maintained vehicles.
+
       </>
     )
   },
   {
-    question: ` Do you provide guided tours of Agra?`,
+    question: `Are there full day cab services in Delhi?`,
     answer: (
       <>
-        Yes, we offer guided tours of Agra&apos;s iconic attractions like the Taj Mahal, Agra Fort, and Mehtab Bagh.
+        We provide full-day rental packages to Find Delhi attractions such as India Gate, Red Fort and Lotus Temple.
 
       </>
     )
