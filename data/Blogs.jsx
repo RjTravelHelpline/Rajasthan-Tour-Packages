@@ -5014,46 +5014,37 @@ export const blogs = [
       </>
     ),
     faqs: [
-      {
-        question: "कच रण उत्सव क्या है?",
-        answer: "कच्छ रण उत्सव गुजरात के कच्छ क्षेत्र में एक वार्षिक उत्सव है जो कच्छ की संस्कृति, कला और शिल्प को प्रदर्शित करता है। यह त्यौहार पारंपरिक नृत्य, संगीत, कला प्रदर्शन और अन्य सांस्कृतिक कार्यक्रमों के लिए प्रसिद्ध है।"
+      { question: "What is the Matsya Festival 2025?",
+        answer: "Matsya Festival 2025 is a cultural festival in Alwar, Rajasthan. Which will primarily involve subjects such as folk songs and dances, art, and Alwar's food."
       },
-      {
-        question: "कच रण उत्सव 2025 कब होगा?",
-        answer: "कच्छ रण उत्सव 2025 नवम्बर से फरवरी तक आयोजित किया जाएगा। कच्छ के रण की यात्रा के लिए यह सबसे अच्छा समय है जब दृश्य विशेष रूप से सुंदर होते हैं।"
+        
+      { question: "When and where is the Matsya Festival 2025 being held?",
+        answer: "The Matsya Festival 2025 will take place in Alwar, Rajasthan. The exact dates are yet to be announced, but it usually occurs in November."
       },
-      {
-        question: "कच्छ रण उत्सव में कौन से आयोजन होते हैं?",
-        answer: "कच्छ रण उत्सव में लोक नृत्य, संगीत, कच्छ हस्तशिल्प की प्रदर्शनी, पारंपरिक भोजन और कच्छ का एक अनूठा सांस्कृतिक अनुभव शामिल है। इसके अलावा, कैंपिंग और वॉटर स्पोर्ट्स जैसी रोमांचक गतिविधियों का भी आयोजन किया जाता है।"
-      },
-      {
-        question: "कच्छ रण उत्सव में भाग लेने के लिए टिकट कैसे बुक करें?",
-        answer: "कच्छ रण उत्सव के टिकट ऑनलाइन बुक किए जा सकते हैं। आप विभिन्न यात्रा वेबसाइटों या कच्छ रण उत्सव की आधिकारिक वेबसाइट से टिकट बुक कर सकते हैं।"
-      },
-      {
-        question: "कच्छ रण उत्सव में आप किस तरह की चीजें खरीद सकते हैं?",
-        answer: "कच्छ रण उत्सव में आपको कच्छी बंधनी, कच्छी वर्क, कच्छी मोती और अन्य हस्तशिल्प की एक विस्तृत श्रृंखला मिलेगी। ये वस्तुएं कच्छ की पारंपरिक कला का प्रतिनिधित्व करती हैं।"
-      },
-      {
-        question: "कच्छ रण उत्सव में भाग लेने के लिए किसी को कैसे तैयारी करनी चाहिए?",
-        answer: "कच्छ रण उत्सव देखने के लिए आपको अपनी यात्रा की योजना पहले से बना लेनी चाहिए। त्योहार के दौरान गर्मी और धूप के कारण, आपको आरामदायक कपड़े पहनने चाहिए और धूप से बचाव का उपयोग करना चाहिए। स्थानीय संस्कृति और परंपराओं का भी सम्मान करें।"
-      },
-      {
-        question: "कच्छ रण उत्सव में रात का अनुभव कैसा है?",
-        answer: "युद्धक्षेत्र का रात्रि दृश्य अविस्मरणीय प्रभाव छोड़ेगा। यहां आप खूबसूरत रात के आसमान, ठंडी हवा और खुली हवा का आनंद ले सकते हैं जो त्योहार की सुंदरता को और बढ़ा देता है।"
-      },
-      {
-        question: "कच्छ रण उत्सव 2025 में यात्रा कैसे करें?",
-        answer: "कच्छ रण उत्सव देखने के लिए आप अहमदाबाद या भुज जैसे नजदीकी शहरों से टैक्सी या ट्रेन द्वारा कच्छ पहुंच सकते हैं। इसके बाद आपको रण उत्सव स्थल तक पहुंचने के लिए स्थानीय परिवहन लेना होगा।"
-      },
-      {
-        question: "कच्छ रण उत्सव में बच्चों के लिए क्या सुविधाएं हैं?",
-        answer: "कच्छ रण महोत्सव बच्चों के लिए पारंपरिक खेल, कला कार्यशालाएं और सांस्कृतिक प्रदर्शन जैसी कई प्रकार की गतिविधियाँ और मनोरंजन भी प्रदान करता है।"
-      },
-      {
-        question: "क्या कच्छ रण उत्सव में विदेशी पर्यटकों के लिए कोई विशेष सुविधाएं हैं?",
-        answer: "कच्छ रण उत्सव विदेशी पर्यटकों के लिए भी बहुत आकर्षक है। कच्छ की संस्कृति और कला को ठीक से समझने में आपकी मदद के लिए यहां विभिन्न भाषाओं में गाइड और यात्रा सेवाएं उपलब्ध हैं।"
-      }
+
+      { question: "Which places are famous and celebrated during the Matsya Festival?",
+        answer: "Some include cultural dance and drama, craft determination, camel and horse display, games and trials, food festivities, etc."},
+        
+        { question: "How much can be paid to gain access to the Matsya Festival?",
+        answer: "Access to the majority of the programmes of Matsya Festival 2025 is free, but specific programmes or sections may require a token amount."},
+        
+        { question: "How can I reach Alwar for the Matsya Festival?",
+        answer: "Alwar is well-connected by road, rail and air. You can take a cab from Jaipur or Delhi or use trains and buses to reach the city."},
+        
+        { question: "Are there hotels around the arena of the Matsya Festival?",
+        answer: "Yes, you will find cheap hotels, heritage hotels and star hotels and resorts in Alwar near the festival venue."},
+        
+        { question: "Can families with children enjoy the Matsya Festival?",
+        answer: "The Matsya Festival 2025 is family-friendly offering activities like folk games, puppet shows and kid-friendly workshops."},
+        
+        { question: "Can one take a guided tour at the Matsya Festival?",
+        answer: "Throughout the tour of the Matsya Festival, many travel agencies and guides arrange sightseeing to meet all tourist’s expectations."},
+        
+        { question: "How many traditional foods are eaten in the Matsya Festival?",
+        answer: "There is the apparent opportunity to savour Rajasthani food such as dal bati churma, gatte ki sabzi, ghevar, and balushahi."},
+        
+        { question: "What do I require for the Matsya Festival 2025?",
+        answer: "Secure hats, sunglasses, bottles of water, safety shoes, shoes, and a camera to record the lively spirit of the festival."},
     ]
 
   }
