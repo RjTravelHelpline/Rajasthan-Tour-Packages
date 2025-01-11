@@ -1,56 +1,51 @@
 export const faq = [
   {
-    question: `What is included in Bikaner Cab Rental?`,
+    question: `What are the details about Ajmer Cab Rental?`,
     answer: (
       <>
-        Bikaner cab rental includes various vehicle options, from luxury cars to budget taxis, ensuring a comfortable and flexible travel experience in Bikaner.
-
+        Local Car Rental Service of Ajmer offers local taxis for local visits, airport taxis, outstations and one-way drop. Also, they are more flexible in any book.
+      </>
+    )
+  },
+  {
+    question: `How can I book a cab with Ajmer Cab Rental?`,
+    answer: (
+      <>
+        You can book a cab online via our website Rajasthan Tour Package or call our booking helpline.
 
       </>
     )
   },
   {
-    question: `How do I reserve taxis in Bikaner?`,
+    question: `Outstation cabs available from Ajmer?`,
     answer: (
       <>
-        You can effortlessly book a cab in Bikaner using our online booking framework, choosing your vehicle and travel points of interest for hassle-free involvement.
+        Our cab services include outstation cabs for Jaipur, Pushkar & Udaipur tours at cheap charges.
 
       </>
     )
   },
   {
-    question: `What types of vehicles are available for Bikaner car hire?`,
+    question: `Which kinds of cars are available at Ajmer Cab Rental?`,
     answer: (
       <>
-        Our Bikaner car hire options feature luxury sedans, standard vehicles, and economical taxis to cater to travel needs and budgets.
-
+        We provide sedan cars for individuals travelling alone or with families and fully equipped SUVs and luxury cars perfect for large groups.
       </>
     )
   },
   {
-    question: `Are Bikaner taxi rentals affordable?`,
+    question: `Is Ajmer Cab Rental suitable for pilgrims?`,
     answer: (
       <>
-        Yes, our Bikaner taxi rentals are designed to be cost-effective, with transparent pricing and no hidden fees, providing excellent value for money.
-
-
+        Yes, we provide service to Ajmer Sharif Dargah and nearby religious places and ensure that our trip is safe.
       </>
     )
   },
   {
-    question: `Do you provide Driver -driven services in Bikaner?`,
+    question: `Am I able to rent for half the day in Ajmer?`,
     answer: (
       <>
-        Yes, our service is ideal for corporate travel with punctual drivers and clean well-maintained vehicles.
-
-      </>
-    )
-  },
-  {
-    question: `Are there full day cab services in Delhi?`,
-    answer: (
-      <>
-        Yes, our Bikaner Driver services include experienced drivers who offer personalized assistance and local insights during your travel in Bikaner.
+        We offer flexible short-term rental services for those looking for a half-day rental and those who wish to undertake quick sightseeing tours of the city.
       </>
     )
   },

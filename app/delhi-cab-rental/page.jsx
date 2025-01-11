@@ -5,6 +5,7 @@ import { FaStarOfLife } from "react-icons/fa";
 import { faq } from "./data";
 import { BiMinus, BiPlus } from "react-icons/bi";
 import { useState } from "react";
+import { Link } from "@/Utils/util";
 
 const Page = () => {
     const breadcrumbItems = [
@@ -23,7 +24,7 @@ const Page = () => {
                 slides={[
                     { heading: "delhi Cab Rental", subheading: "Easy and Safe Trip in the Heart of India" }
                 ]}
-                backgroundImage="/Images/Banners/jaipur-banner02.webp" />
+                backgroundImage="/Images/Card/delhi-fort.jpg" />
             <Bread items={breadcrumbItems} />
             {/* bread crumb */}
             <div className="container-fluid px-0 pt-4 ">
@@ -36,7 +37,7 @@ const Page = () => {
                             <p
                                 className="home-para px-3"
                             >
-                                The large urban centre of India, Delhi, is blessed with history and modern traces of culture. To enjoy the range of activities that Maldives offers it is necessary to arrange a proper cab service in advance. Delhi Cab Rental is one of the best transport services, and it is a convenient mode of transport to travel in and around Delhi City Tour and neighbouring areas.
+                                The large urban centre of India, Delhi, is blessed with history and modern traces of culture. To enjoy the range of activities that Maldives offers it is necessary to arrange a proper cab service in advance. <strong>Delhi Cab Rental</strong> is one of the best transport services, and it is a convenient mode of transport to travel in and around {Link('Delhi City Tour', 'https://www.rajasthantourpackages.in/delhi')} and neighbouring areas.
                             </p>
                         </div>
                         <div className="col-12 col-lg-11 col-sm-12 insider px-0 mb-3 text-black">
@@ -183,14 +184,12 @@ const Page = () => {
                             <h2
                                 className="text-capitalize px-3 mb-3 text-center fw-normal web-title"
                             >Explore <strong>delhi</strong> with Ease</h2>
-                            <div className="w-100 px-2 days-highlights-pts">
-                                <p className="px-2 py-1">
-                                    Navigating Delhi is made simple with Delhi Cab Rental. Whether it is an aesthetic tour of historical monuments or a business tour of potential markets, our cab services are physically and mentally comfortable. Allow us to take the burden of organizing transport so that you can enjoy the live taste of Delhi.
-                                </p>
-                                <p className="px-2 py-1">
-                                    Plan your Delhi adventure today with Delhi taxi Service.
-                                </p>
-                            </div>
+                            <p className="px-2 py-1">
+                                Navigating Delhi is made simple with <strong>Delhi Cab Rental</strong>. Whether it is an aesthetic tour of historical monuments or a business tour of potential markets, our cab services are physically and mentally comfortable. Allow us to take the burden of organizing transport so that you can enjoy the live taste of Delhi.
+                            </p>
+                            <p className="px-2 py-1">
+                                Plan your Delhi adventure today with {Link('Delhi taxi Service', 'https://www.rajasthantourpackages.in/delhi')}.
+                            </p>
                         </div>
                     </div>
                 </div>

@@ -5,6 +5,7 @@ import { FaStarOfLife } from "react-icons/fa";
 import { faq } from "./data";
 import { BiMinus, BiPlus } from "react-icons/bi";
 import { useState } from "react";
+import { Link } from "@/Utils/util";
 
 const Page = () => {
   const breadcrumbItems = [
@@ -23,7 +24,7 @@ const Page = () => {
         slides={[
           { heading: "agra Cab Rental", subheading: "Visit the City of Love with Comfort" }
         ]}
-        backgroundImage="/Images/Banners/jaipur-banner02.webp" />
+        backgroundImage="/Images/Card/agra-taj.jpg" />
       <Bread items={breadcrumbItems} />
       {/* bread crumb */}
       <div className="container-fluid px-0 pt-4 ">
@@ -36,7 +37,7 @@ const Page = () => {
               <p
                 className="home-para px-3"
               >
-                Agra is the city where one of the world&apos;s most famous historical and romantic buildings, the Taj Mahal, is located and contains an incredible amount of expressive history. The most important factor that discretion and planning will help to guarantee is reasonable and comparatively safe cab service availability. Agra Cab Rental provides the best and most affordable transport services for exploring this beautiful city.
+                Agra is the city where one of the world&apos;s most famous historical and romantic buildings, the Taj Mahal, is located and contains an incredible amount of expressive history. The most important factor that discretion and planning will help to guarantee is reasonable and comparatively safe cab service availability. <strong>Agra Cab Rental</strong> provides the best and most affordable transport services for exploring this beautiful city.
 
               </p>
             </div>
@@ -60,7 +61,7 @@ const Page = () => {
                   </span>
                   <span>
                     <strong className="web-title d-block">Experienced Drivers</strong>
-                    It will interest you to know that our drivers are competent in matters concerning Agra&apos;s history and tourist sites and hence give relevant and comfortable rides with our Agra Sightseeing Package.
+                    It will interest you to know that our drivers are competent in matters concerning Agra&apos;s history and tourist sites and hence give relevant and comfortable rides with our {Link('Agra Sightseeing Package', 'https://www.rajasthantourpackages.in/agra')}.
 
                   </span>
                 </p>
@@ -184,14 +185,12 @@ const Page = () => {
               <h2
                 className="text-capitalize px-3 mb-3 text-center fw-normal web-title"
               >Explore <strong>agra</strong> with Ease</h2>
-              <div className="w-100 px-2 days-highlights-pts">
                 <p className="px-2 py-1">
-                  Agra is best explored with Agra Cab Rental.When you are watching the views such as the Taj Mahal or moving through bazaars of old cities, you will get a safe and exciting ride with our cab services. So, you sit back and leave the enormous tasks of giving your Rajasthan tours and travel services while you relish Agra&apos;s cultural tourism services.
+                  Agra is best explored with <strong>Agra Cab Rental</strong>.When you are watching the views such as the Taj Mahal or moving through bazaars of old cities, you will get a safe and exciting ride with our cab services. So, you sit back and leave the enormous tasks of giving your {Link('Rajasthan tours and travel', 'https://www.rajasthantourpackages.in/')} services while you relish Agra&apos;s cultural tourism services.
                 </p>
                 <p className="px-2 py-1">
-                  Plan your Agra trip today with Agra taxi service. Book your ride now.
+                  Plan your Agra trip today with {Link('Agra taxi service', 'https://www.jaipurtaxiservice.com/citywise-taxi-fares/agra-taxi-service.html')}. Book your ride now.
                 </p>
-              </div>
             </div>
           </div>
         </div>

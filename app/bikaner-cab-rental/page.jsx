@@ -5,6 +5,7 @@ import { FaStarOfLife } from "react-icons/fa";
 import { faq } from "./data";
 import { BiMinus, BiPlus } from "react-icons/bi";
 import { useState } from "react";
+import { Link } from "@/Utils/util";
 
 const Page = () => {
   const breadcrumbItems = [
@@ -23,7 +24,7 @@ const Page = () => {
         slides={[
           { heading: "bikaner Cab Rental", subheading: "Explore the Royal Charm of Bikaner" }
         ]}
-        backgroundImage="/Images/Banners/jaipur-banner02.webp" />
+        backgroundImage="/Images/Banners/bikaner-banner.webp" />
       <Bread items={breadcrumbItems} />
       {/* bread crumb */}
       <div className="container-fluid px-0 pt-4 ">
@@ -36,7 +37,7 @@ const Page = () => {
               <p
                 className="home-para px-3"
               >
-                Bikaner City should be famed for its heritage and architectural contrivances of late, it presents a perfect fusion of heritage, culture, and desert. Seeing around Bikaner would not be possible without the help of reliable cab services. Bikaner Cab Rental ensures safe and hassle-free travel allowing you to experience this royal citys best offers.
+                {Link('Bikaner City', 'https://www.rajasthantourpackages.in/bikaner')} should be famed for its heritage and architectural contrivances of late, it presents a perfect fusion of heritage, culture, and desert. Seeing around Bikaner would not be possible without the help of reliable cab services. <strong>Bikaner Cab Rental</strong> ensures safe and hassle-free travel allowing you to experience this royal citys best offers.
               </p>
             </div>
             <div className="col-12 col-lg-11 col-sm-12 insider px-0 mb-3 text-black">
@@ -123,8 +124,7 @@ const Page = () => {
                   </span>
                   <span>
                     <strong className="web-title d-block">Outstation Trips</strong>
-                    Choose our outstation cab services to plan visits to Deshnok, Jaisalmer, and Jodhpur for a comfortable trip with us.
-
+                    Choose our {Link('outstation cab services', 'https://www.jaipurtaxiservice.com/outstation-cab-from-jaipur.html')} to plan visits to Deshnok, Jaisalmer, and Jodhpur for a comfortable trip with us.
                   </span>
                 </p>
                 <p className="px-2 text-black py-1">
@@ -190,16 +190,14 @@ const Page = () => {
               <h2
                 className="text-capitalize px-3 mb-3 text-center fw-normal web-title"
               >Explore <strong>bikaner</strong> with Ease</h2>
-              <div className="w-100 px-2 days-highlights-pts">
                 <p className="px-2 py-1">
-                  Travelling in Bikaner is made simple and comfortable with Bikaner Cab Rental. Besides sightseeing, discovering the culture, or visiting nearby cities, our reputable cab hire services guarantee a safe and enjoyable trip to the ancient forts. It’s time for us to take care of your transfer, and you can explore the regal beauty of Bikaner.
+                  Travelling in Bikaner is made simple and comfortable with {Link('Bikaner Cab Rental', 'https://www.jaipurtaxiservice.com/citywise-taxi-fares/bikaner-taxi-service.html')}. Besides sightseeing, discovering the culture, or visiting nearby cities, our reputable cab hire services guarantee a safe and enjoyable trip to the ancient forts. It’s time for us to take care of your transfer, and you can explore the regal beauty of Bikaner.
 
                 </p>
                 <p className="px-2 py-1">
                   Book your trip now and experience your travel details with Bikaner Cab Rental.
 
                 </p>
-              </div>
             </div>
           </div>
         </div>

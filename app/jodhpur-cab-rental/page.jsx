@@ -5,6 +5,7 @@ import { FaStarOfLife } from "react-icons/fa";
 import { faq } from "./data";
 import { BiMinus, BiPlus } from "react-icons/bi";
 import { useState } from "react";
+import { Link } from "@/Utils/util";
 
 const Page = () => {
   const breadcrumbItems = [
@@ -23,7 +24,7 @@ const Page = () => {
         slides={[
           { heading: "jodhpur Cab Rental", subheading: "Discover the Blue City with Comfort and Ease" }
         ]}
-        backgroundImage="/Images/Banners/jaipur-banner02.webp" />
+        backgroundImage="/Images/Banners/jodhpur-banner.webp" />
       <Bread items={breadcrumbItems} />
       {/* bread crumb */}
       <div className="container-fluid px-0 pt-4 ">
@@ -36,8 +37,7 @@ const Page = () => {
               <p
                 className="home-para px-3"
               >
-                Jodhpur is famous in taxis as the Blue City of India. It has history, forts, and has the unique flavour of royalty. Jodhpur Taxis services that are efficient and easily accessible are crucial to make these beautiful destinations and this city in particular available. Jodhpur Cab Rental provides the most convenient, comfortable, safe, overall, and easy way for visitors to travel in Jodhpur.
-
+                Jodhpur is famous in taxis as the <strong>Blue City of India</strong>. It has history, forts, and has the unique flavour of royalty. {Link('Jodhpur Taxis services', 'https://www.jaipurtaxiservice.com/citywise-taxi-fares/jodhpur-taxi-service.html')} that are efficient and easily accessible are crucial to make these beautiful destinations and this city in particular available. Jodhpur Cab Rental provides the most convenient, comfortable, safe, overall, and easy way for visitors to travel in Jodhpur.
               </p>
             </div>
             <div className="col-12 col-lg-11 col-sm-12 insider px-0 mb-3 text-black">
@@ -98,7 +98,7 @@ const Page = () => {
                   </span>
                   <span>
                     <strong className="web-title d-block">Local Sightseeing</strong>
-                    Find out about famous landmarks such as Mehrangarh Fort, Jaswant Thada, Umaid Bhawan Palace and more with our guided cab tours for Jodhpur Sightseeing.
+                    Find out about famous landmarks such as Mehrangarh Fort, Jaswant Thada, Umaid Bhawan Palace and more with our <strong>guided cab tours</strong> for {Link('Jodhpur Sightseeing', 'https://www.rajasthantourpackages.in/jodhpur')}.
 
 
                   </span>
@@ -184,15 +184,13 @@ const Page = () => {
               <h2
                 className="text-capitalize px-3 mb-3 text-center fw-normal web-title"
               >Explore <strong>jodhpur</strong> with Ease</h2>
-              <div className="w-100 px-2 days-highlights-pts">
-                <p className="px-2 py-1">
-                  Travelling in Jodhpur has never been more convenient with Jodhpur Cab Rental. This guide aims to help you safely navigate the impressive cultural and architectural landmarks and breathtaking views of this dynamic city. Whether it’s your first visit or your twelve, our reliable cab service will ensure your seamless experience.
+              <p className="px-2 py-1">
+                Travelling in Jodhpur has never been more convenient with <strong>Jodhpur Cab Rental</strong>. This guide aims to help you safely navigate the impressive cultural and architectural landmarks and breathtaking views of this dynamic city. Whether it’s your first visit or your twelve, our <strong>reliable cab service</strong> will ensure your seamless experience.
 
-                </p>
-                <p className="px-2 py-1">
-                  Plan your adventure today and Find Jodhpur hassle-free with Jodhpur Cab Rental.
-                </p>
-              </div>
+              </p>
+              <p className="px-2 py-1">
+                Plan your adventure today and Find Jodhpur hassle-free with Jodhpur Cab Rental.
+              </p>
             </div>
           </div>
         </div>

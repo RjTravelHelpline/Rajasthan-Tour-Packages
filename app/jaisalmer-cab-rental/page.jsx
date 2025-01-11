@@ -5,6 +5,8 @@ import { FaStarOfLife } from "react-icons/fa";
 import { faq } from "./data";
 import { BiMinus, BiPlus } from "react-icons/bi";
 import { useState } from "react";
+import { Link } from "@/Utils/util";
+
 
 const Page = () => {
   const breadcrumbItems = [
@@ -23,7 +25,7 @@ const Page = () => {
         slides={[
           { heading: "jaisalmer Cab Rental", subheading: "Explore the Golden City with Comfort" }
         ]}
-        backgroundImage="/Images/Banners/jaipur-banner02.webp" />
+        backgroundImage="/Images/Card/jaisalmer-forts.webp" />
       <Bread items={breadcrumbItems} />
       {/* bread crumb */}
       <div className="container-fluid px-0 pt-4 ">
@@ -36,7 +38,7 @@ const Page = () => {
               <p
                 className="home-para px-3"
               >
-                Jaisalmer is famous as the golden city of Rajasthan in the state, showing widespread architectural structure across the dunes and energetic folk culture. For the best of its taste, make sure to travel using the most reliable cab services for convenience and non-refusal during the trip. Our Jaisalmer Cab Rental services will ensure you see this lovely city comfortably without worrying about transport.
+                Jaisalmer is famous as the {Link('golden city of Rajasthan', 'https://www.rajasthantourpackages.in/jaisalmer')} in the state, showing widespread architectural structure across the dunes and energetic folk culture. For the best of its taste, make sure to travel using the most reliable cab services for convenience and non-refusal during the trip. Our <strong>Jaisalmer Cab Rental</strong> services will ensure you see this lovely city comfortably without worrying about transport.
               </p>
             </div>
             <div className="col-12 col-lg-11 col-sm-12 insider px-0 mb-3 text-black">
@@ -178,14 +180,12 @@ const Page = () => {
               <h2
                 className="text-capitalize px-3 mb-3 text-center fw-normal web-title"
               >Explore <strong>Jaisalmer</strong> with Ease</h2>
-              <div className="w-100 px-2 days-highlights-pts">
                 <p className="px-2 py-1">
-                  Travelling in Jaisalmer has never been easier with Jaisalmer Cab Rental. Our services help you get the comfort needed to tour the city practically, which goes with exploring the city’s secrets. Whether you’re visiting for cultural exploration, adventure or leisure our reliable cab service guarantees a memorable Rajasthan tour and travel experience.
+                  Travelling in Jaisalmer has never been easier with <strong>Jaisalmer Cab Rental</strong>. Our services help you get the comfort needed to tour the city practically, which goes with exploring the city’s secrets. Whether you’re visiting for cultural exploration, adventure or leisure our reliable cab service guarantees a memorable {Link('Rajasthan tour and travel', 'https://www.rajasthantourpackages.in/')} experience.
                 </p>
                 <p className="px-2 py-1">
                   Book your trip with Jaisalmer Cab Rental now and enjoy your Jaisalmer journey to the fullest today.
                 </p>
-              </div>
             </div>
           </div>
         </div>

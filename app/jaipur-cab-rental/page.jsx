@@ -5,6 +5,7 @@ import { FaStarOfLife } from "react-icons/fa";
 import { faq } from "./data";
 import { BiMinus, BiPlus } from "react-icons/bi";
 import { useState } from "react";
+import { Link } from "@/Utils/util";
 
 const Page = () => {
   const breadcrumbItems = [
@@ -23,7 +24,7 @@ const Page = () => {
         slides={[
           { heading: "Jaipur Cab Rental", subheading: "Travel around Jaipur in Comfort and Style" }
         ]}
-        backgroundImage="/Images/Banners/jaipur-banner02.webp" />
+        backgroundImage="/Images/Banners/jaipur-banner.webp" />
       <Bread items={breadcrumbItems} />
       {/* bread crumb */}
       <div className="container-fluid px-0 pt-4 ">
@@ -106,6 +107,9 @@ const Page = () => {
               <h2
                 className="text-capitalize px-3 mb-3 text-center fw-normal web-title"
               >  <strong>Comprehensive </strong>Cab Services in Jaipur</h2>
+              <p className="px-3">
+                {Link('Cab Services in Jaipur', 'https://www.jaipurtaxiservice.com/jaipur-local-use/taxi-for-12-hours.html')} caters to a wide range of travel needs, including:
+              </p>
               <div className="w-100 px-2 days-highlights-pts">
                 <p className="px-2 text-black py-1">
                   <span className="me-2">
@@ -113,7 +117,7 @@ const Page = () => {
                   </span>
                   <span>
                     <strong className="web-title d-block">Local Sightseeing</strong>
-                    Book our expertly guided cars and visit Amber Fort, Hawa Mahal, Jantar Mantar, City Palace and more with our Jaipur sightseeing tours.
+                    Book our expertly guided cars and visit Amber Fort, Hawa Mahal, Jantar Mantar, City Palace and more with our {Link('Jaipur sightseeing tours', 'https://www.rajasthantourpackages.in/jaipur')}.
                   </span>
                 </p>
                 <p className="px-2 text-black py-1">
@@ -202,14 +206,12 @@ const Page = () => {
               <h2
                 className="text-capitalize px-3 mb-3 text-center fw-normal web-title"
               >Explore <strong>Jaipur</strong> with Ease</h2>
-              <div className="w-100 px-2 days-highlights-pts">
-                <p className="px-2 py-1">
-                  Travelling in this city and in the most famous places in Jaipur has never been so smooth. Hiring a car with Jaipur Cab Rental company means that you do not have to worry about your transport. Our services reflect all types of travel whether it is business, leisure, family, individual, adventure or group travel.
-                </p>
-                <p className="px-2 py-1">
-                  Book your trip with Jaipur Cab Rental now to have the once-in-a-lifetime trip with Pink City. Book now and discover the best of Jaipur effortlessly with Rajasthan Tour and travel.
-                </p>
-              </div>
+              <p className="px-2 py-1">
+                Travelling in this city and in the most famous places in Jaipur has never been so smooth. Hiring a car with <strong>Jaipur Cab Rental</strong> company means that you do not have to worry about your transport. Our services reflect all types of travel whether it is business, leisure, family, individual, adventure or group travel.
+              </p>
+              <p className="px-2 py-1">
+                Book your trip with {Link('Jaipur Cab Rental', 'https://www.jaipurtaxiservice.com/jaipur-local-use/taxi-for-12-hours.html')} now to have the once-in-a-lifetime trip with Pink City. Book now and discover the best of Jaipur effortlessly with {Link('Rajasthan Tour and travel', 'https://www.rajasthantourpackages.in/')}.
+              </p>
             </div>
           </div>
         </div>

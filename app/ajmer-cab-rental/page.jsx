@@ -5,6 +5,7 @@ import { FaStarOfLife } from "react-icons/fa";
 import { faq } from "./data";
 import { BiMinus, BiPlus } from "react-icons/bi";
 import { useState } from "react";
+import { Link } from "@/Utils/util";
 
 const Page = () => {
     const breadcrumbItems = [
@@ -23,7 +24,7 @@ const Page = () => {
                 slides={[
                     { heading: "ajmer Cab Rental", subheading: "Travel Agencies Services For All Your Travel Arrangement" }
                 ]}
-                backgroundImage="/Images/Banners/jaipur-banner02.webp" />
+                backgroundImage="/Images/Card/ajmer.webp" />
             <Bread items={breadcrumbItems} />
             {/* bread crumb */}
             <div className="container-fluid px-0 pt-4 ">
@@ -36,7 +37,7 @@ const Page = () => {
                             <p
                                 className="home-para px-3"
                             >
-                                Ajmer city of spiritual charm and historical significance, is best explored with reliable cab service. The fast city is famous for the Ajmer Sharif Dargah, Ana Sagar Lake and the Taragarh Fort. It also provides a simple and pious tract and has a historical bend. Hiring Ajmer Cab Rental shall deliver the passengers with such facilities and let the Christmas tourist unravel the citys beauty, or even the locals go about their routine journey much more effortlessly.
+                                Ajmer city of spiritual charm and historical significance, is best explored with reliable cab service. The fast city is famous for the Ajmer Sharif Dargah, Ana Sagar Lake and the Taragarh Fort. It also provides a simple and pious tract and has a historical bend. Hiring <strong>Ajmer Cab Rental</strong> shall deliver the passengers with such facilities and let the Christmas tourist unravel the citys beauty, or even the locals go about their routine journey much more effortlessly.
 
                             </p>
                             <p className="px-3 home-para">
@@ -111,7 +112,7 @@ const Page = () => {
                                     </span>
                                     <span>
                                         <strong className="web-title d-block">Local Sightseeing</strong>
-                                        Find out iconic attractions like Ajmer Sharif Dargah, Ana Sagar Lake and Taragarh Fort with our well-planned local tours.
+                                        Find out iconic attractions like {Link('Ajmer Sharif Dargah', 'https://www.rajasthantourpackages.in/ajmer')}, Ana Sagar Lake and Taragarh Fort with our well-planned local tours.
 
 
 
@@ -145,7 +146,6 @@ const Page = () => {
                                         <strong className="web-title d-block">Custom Packages</strong>
                                         Choose the right rental solution according to your exposures with our choices and options.
 
-
                                     </span>
                                 </p>
                             </div>
@@ -160,8 +160,9 @@ const Page = () => {
                                         <FaStarOfLife className="icon" />
                                     </span>
                                     <span>
-                                        <strong className="web-title d-block">Junagarh Fort</strong>
-                                        Visit this historical fort Having complex and beautiful structures and a fascinating past.
+                                        <strong className="web-title d-block">Ajmer Sharif Dargah</strong>
+                                        Toom the Sufi shrine, which millions of people visit.
+
 
                                     </span>
                                 </p>
@@ -170,8 +171,17 @@ const Page = () => {
                                         <FaStarOfLife className="icon" />
                                     </span>
                                     <span>
-                                        <strong className="web-title d-block">Lalgarh Palace</strong>
-                                        Sanctuary was an attractive palace distributed to Rajputs and Europeans architectures.
+                                        <strong className="web-title d-block">Ana Sagar Lake</strong>
+                                        Rest near this lovely short lake and have a boat ride.
+                                    </span>
+                                </p>
+                                <p className="px-2 text-black py-1">
+                                    <span className="me-2">
+                                        <FaStarOfLife className="icon" />
+                                    </span>
+                                    <span>
+                                        <strong className="web-title d-block">Taragarh Fort</strong>
+                                        Trek to this hilltop fort and get a good look at most of Ajmers sites.
 
                                     </span>
                                 </p>
@@ -180,18 +190,8 @@ const Page = () => {
                                         <FaStarOfLife className="icon" />
                                     </span>
                                     <span>
-                                        <strong className="web-title d-block">Karni Mata Temple</strong>
-                                        Visit this famous Temple of Rats and experience a remarkable culture.
-
-                                    </span>
-                                </p>
-                                <p className="px-2 text-black py-1">
-                                    <span className="me-2">
-                                        <FaStarOfLife className="icon" />
-                                    </span>
-                                    <span>
-                                        <strong className="web-title d-block">Gajner Wildlife Sanctuary</strong>
-                                        Discover the wildlife beauty of ajmer at this serene sanctuary surrounded by nature.
+                                        <strong className="web-title d-block">Pushkar</strong>
+                                        The town that has the eternally churning sacred Pushkar Lake and the lone temple of Lord Brahma is located about a 10-minute drive from Aquas.
 
                                     </span>
                                 </p>
@@ -201,16 +201,13 @@ const Page = () => {
                             <h2
                                 className="text-capitalize px-3 mb-3 text-center fw-normal web-title"
                             >Explore <strong>ajmer</strong> with Ease</h2>
-                            <div className="w-100 px-2 days-highlights-pts">
-                                <p className="px-2 py-1">
-                                    Travelling in ajmer is made simple and comfortable with ajmer Cab Rental. Besides sightseeing, discovering the culture, or visiting nearby cities, our reputable cab hire services guarantee a safe and enjoyable trip to the ancient forts. It’s time for us to take care of your transfer, and you can explore the regal beauty of ajmer.
+                            <p className="px-2 py-1">
+                                Ajmer Cab Rental preempts all your travel-related stress so that you can give full attention to Ajmer&lsquo;s cultural and religious charisma. Our dependable service will help you discover the existing treasures of Ajmer and surrounding areas on your own.
+                            </p>
+                            <p className="px-2 py-1">
+                                Plan your <strong>Ajmer</strong> adventure today with {Link('Ajmer taxi Service', 'https://www.jaipurtaxiservice.com/citywise-taxi-fares/ajmer-taxi-service.html')}.
 
-                                </p>
-                                <p className="px-2 py-1">
-                                    Book your trip now and experience your travel details with ajmer Cab Rental.
-
-                                </p>
-                            </div>
+                            </p>
                         </div>
                     </div>
                 </div>

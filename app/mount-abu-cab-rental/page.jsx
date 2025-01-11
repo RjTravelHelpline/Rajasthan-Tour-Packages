@@ -5,6 +5,7 @@ import { FaStarOfLife } from "react-icons/fa";
 import { faq } from "./data";
 import { BiMinus, BiPlus } from "react-icons/bi";
 import { useState } from "react";
+import { Link } from "@/Utils/util";
 
 const Page = () => {
   const breadcrumbItems = [
@@ -23,7 +24,7 @@ const Page = () => {
         slides={[
           { heading: "mountabu Cab Rental", subheading: "Find the Tranquility of Mount Abu" }
         ]}
-        backgroundImage="/Images/Banners/jaipur-banner02.webp" />
+        backgroundImage="/Images/Banners/mount-abu-banner02.webp" />
       <Bread items={breadcrumbItems} />
       {/* bread crumb */}
       <div className="container-fluid px-0 pt-4 ">
@@ -36,7 +37,7 @@ const Page = () => {
               <p
                 className="home-para px-3"
               >
-                Mount Abu is the only hill resort in Rajasthan, enveloped by lush forests, fascinating lakes and magnificent temples. Though it is easy to get the best out of this relatively quiet site, it is essential to secure reliable cab services. Through Mount Abu Cab Rental, clients can tour this lovely, serene, over Mount Abu Hill Station Travel smoothly and in style.
+                Mount Abu is the only hill resort in Rajasthan, enveloped by lush forests, fascinating lakes and magnificent temples. Though it is easy to get the best out of this relatively quiet site, it is essential to secure reliable cab services. Through <strong>Mount Abu Cab Rental</strong>, clients can tour this lovely, serene, over {Link('Mount Abu Hill Station Travel', 'https://www.rajasthantourpackages.in/mount-abu')} smoothly and in style.
               </p>
             </div>
             <div className="col-12 col-lg-11 col-sm-12 insider px-0 mb-3 text-black">
@@ -131,7 +132,7 @@ const Page = () => {
                   </span>
                   <span>
                     <strong className="web-title d-block">Custom Packages</strong>
-                    Variable Rajasthan travel packages that enthral families, couples, or those who choose to have a holiday on their own.
+                    Variable {Link('Rajasthan travel packages', 'https://www.rajasthantourpackages.in/rajasthan-tour-packages')} that enthral families, couples, or those who choose to have a holiday on their own.
 
                   </span>
                 </p>
@@ -185,17 +186,12 @@ const Page = () => {
               <h2
                 className="text-capitalize px-3 mb-3 text-center fw-normal web-title"
               >Explore <strong>mountabu</strong> with Ease</h2>
-              <div className="w-100 px-2 days-highlights-pts">
-                <p className="px-2 py-1">
-                Travelling in and around Mount Abu is made effortless with Mount Abu Cab Rental. Whether getting a break near the calming water bodies or visiting decades-old temples, our punctual cab service promises a nice and pleasant drive time. So you can spend more time captivating the serene places of Mount Abu. We are here to meet all your transport requirements.
-
-
-                </p>
-                <p className="px-2 py-1">
-                Plan your hill station adventure today and explore Mount Abu with Mount Abu Cab Rental.
-
-                </p>
-              </div>
+              <p className="px-2 py-1">
+                Travelling in and around Mount Abu is made effortless with <strong>Mount Abu Cab Rental</strong>. Whether getting a break near the calming water bodies or visiting decades-old temples, our punctual cab service promises a nice and pleasant drive time. So you can spend more time captivating the serene <strong>places of Mount Abu</strong>. We are here to meet all your transport requirements.
+              </p>
+              <p className="px-2 py-1">
+                Plan your hill station adventure today and explore Mount Abu with {Link('Mount Abu Cab Rental', 'https://www.jaipurtaxiservice.com/citywise-taxi-fares/mount-abu-taxi-service.html')}.
+              </p>
             </div>
           </div>
         </div>

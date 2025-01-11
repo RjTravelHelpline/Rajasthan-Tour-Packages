@@ -5,6 +5,7 @@ import { FaStarOfLife } from "react-icons/fa";
 import { faq } from "./data";
 import { BiMinus, BiPlus } from "react-icons/bi";
 import { useState } from "react";
+import { Link } from "@/Utils/util";
 
 const Page = () => {
     const breadcrumbItems = [
@@ -23,7 +24,7 @@ const Page = () => {
                 slides={[
                     { heading: "kota Cab Rental", subheading: "Experience the Lively city of Kota" }
                 ]}
-                backgroundImage="/Images/Banners/jaipur-banner02.webp" />
+                backgroundImage="/Images/Banners/kota-banner02.webp" />
             <Bread items={breadcrumbItems} />
             {/* bread crumb */}
             <div className="container-fluid px-0 pt-4 ">
@@ -36,7 +37,7 @@ const Page = () => {
                             <p
                                 className="home-para px-3"
                             >
-                                Kota located on the banks of the Chambal River is a city of historical forts, beautiful palaces and scenic landscapes. For this reason, you need to find a good cab service provider to make your tour around Kota smooth. Kota Cab Rental offers convenient travel options allowing you to experience this vibrant city&apos;s best.
+                                Kota located on the banks of the {Link('Chambal River', 'https://www.rajasthantourpackages.in/blog/celebrate-kota-mahotsav-2024-7-day-festivities-chambal-river')} is a city of historical forts, beautiful palaces and scenic landscapes. For this reason, you need to find a good cab service provider to make your tour around Kota smooth. <strong>Kota Cab Rental</strong> offers convenient travel options allowing you to experience this vibrant city&apos;s best.
 
 
                             </p>
@@ -170,17 +171,15 @@ const Page = () => {
                             <h2
                                 className="text-capitalize px-3 mb-3 text-center fw-normal web-title"
                             >Explore <strong>kota</strong> with Ease</h2>
-                            <div className="w-100 px-2 days-highlights-pts">
-                                <p className="px-2 py-1">
-                                    Kota Cab Rental makes travelling in Kota smooth and easy. From visiting palaces and temples to enjoying the incredible views our Kota cab services are a secure and convenient way to travel the city. Let us take care of your travel so you can enjoy your time in Kota with Rajasthan Tour And Travel.
+                            <p className="px-2 py-1">
+                                Kota Cab Rental makes travelling in Kota smooth and easy. From visiting palaces and temples to enjoying the incredible views our <strong>Kota cab services</strong> are a secure and convenient way to travel the city. Let us take care of your travel so you can enjoy your time in Kota with {Link('Rajasthan Tour And Travel', 'https://www.rajasthantourpackages.in')}.
 
 
-                                </p>
-                                <p className="px-2 py-1">
-                                    Plan your Kota adventure today with Kota taxi Service. Book your ride now.
+                            </p>
+                            <p className="px-2 py-1">
+                                Plan your Kota adventure today with {Link('Kota taxi Service', 'https://www.jaipurtaxiservice.com/citywise-taxi-fares/kota-taxi-service.html')}. Book your ride now.
 
-                                </p>
-                            </div>
+                            </p>
                         </div>
                     </div>
                 </div>
