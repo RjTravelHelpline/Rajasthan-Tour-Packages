@@ -44,16 +44,4 @@ jobs:
       # Step 7: Confirm Deployment Ready
       - name: Confirm Deployment
         if: ${{ success() }}
-        run: |
-          echo "The app has been deployed successfully via Vercel. 🎉"
-          echo "Your live application is available at: https://www.rajasthantourpackages.in"
-
-      # Step 7: Set Live URL as Output
-      - name: Set Live URL Output
-        if: ${{ success() }}
-        run: echo "LIVE_URL=https://www.rajasthantourpackages.in" >> $GITHUB_ENV
-
-      # Step 8: Output the Live URL
-      - name: Output Live URL
-        if: ${{ success() }}
-        run: echo "https://www.rajasthantourpackages.in"
+        run: echo "The app has been deployed successfully via Vercel. 🎉"
