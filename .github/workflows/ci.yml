@@ -47,3 +47,7 @@ jobs:
         run: |
           echo "The app has been deployed successfully via Vercel. 🎉"
           echo "Your live application is available at: https://www.rajasthantourpackages.in"
+
+      - name: Set Live URL Output
+        if: ${{ success() }}
+        run: echo "::set-output name=live-url::https://www.rajasthantourpackages.in"
