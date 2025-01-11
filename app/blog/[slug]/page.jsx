@@ -83,7 +83,7 @@ const BlogPost = ({ params }) => {
     return (
         <>
             <div className="container-fluid py-4 blog-slug mt-5 pt-5 px-0 text-black">
-                <div className="container px-0 d-flex justify-content-center align-items-center w-100 days-container overview destination">
+                <div className="container px-0 d-flex justify-content-center align-items-center w-100 ">
                     <div className="row d-flex justify-content-center align-items-start px-0 w-100">
                         <div className="col-lg-8 col-md-12 col-sm-12 px-sm-0 px-md-0 px-lg-2">
 
@@ -100,25 +100,25 @@ const BlogPost = ({ params }) => {
                                     />
                                 </div>
                                 <hr />
-                                <div className="d-flex justify-content-start align-items-center gap-2 mb-2">
+                                <div className="d-flex justify-content-start align-items-center gap-2 mb-2 blog-utils">
                                     <p className="w-auto blog-author mb-0 fw-bold d-flex align-items-center justify-content-center"><span className='color-tertary me-2 d-flex p-2 bg-tertary-down rounded-5 text-capitalize'><FaUser /></span>{blog.author}</p>
                                     <p className="text-black w-auto px-0 blog-dot mb-0">▪</p>
                                     <p className="w-auto blog-date mb-0 fw-bold d-flex align-items-center justify-content-center"><span className='color-tertary me-2 d-flex p-2 bg-tertary-down rounded-5'><FaCalendarDays /></span>{stringDate}</p>
                                 </div>
-                                <h1>{blog.heading}</h1>
+                                <h1 className="blog-head">{blog.heading}</h1>
                                 <hr style={{ borderColor: 'var(--color-black)' }} />
-                                <div className='blog-content-slug'>
+                                <div className='blog-content'>
                                     {blog.more}
                                 </div>
                                 <hr />
                                 {blog.faqs && blog.faqs.length > 0 && (
-                                    <div className="blog-faqs blog-content-slug mt-4">
+                                    <div className="blog-faqs mt-4">
                                         <h3>FAQs</h3>
                                         <ol>
                                             {blog.faqs.map((faq, index) => (
                                                 <li key={index} className="faq-item fw-bold mb-3 web-title">
-                                                    <p className="faq-question mb-0 fw-bold">{faq.question}</p>
-                                                    <p className="faq-answer fw-normal">{faq.answer}</p>
+                                                    <p className="slug-question mb-0 fw-bold">{faq.question}</p>
+                                                    <p className="slug-answer fw-normal">{faq.answer}</p>
                                                 </li>
                                             ))}
                                         </ol>

@@ -5014,37 +5014,55 @@ export const blogs = [
       </>
     ),
     faqs: [
-      { question: "What is the Matsya Festival 2025?",
+      {
+        question: "What is the Matsya Festival 2025?",
         answer: "Matsya Festival 2025 is a cultural festival in Alwar, Rajasthan. Which will primarily involve subjects such as folk songs and dances, art, and Alwar's food."
       },
-        
-      { question: "When and where is the Matsya Festival 2025 being held?",
+
+      {
+        question: "When and where is the Matsya Festival 2025 being held?",
         answer: "The Matsya Festival 2025 will take place in Alwar, Rajasthan. The exact dates are yet to be announced, but it usually occurs in November."
       },
 
-      { question: "Which places are famous and celebrated during the Matsya Festival?",
-        answer: "Some include cultural dance and drama, craft determination, camel and horse display, games and trials, food festivities, etc."},
-        
-        { question: "How much can be paid to gain access to the Matsya Festival?",
-        answer: "Access to the majority of the programmes of Matsya Festival 2025 is free, but specific programmes or sections may require a token amount."},
-        
-        { question: "How can I reach Alwar for the Matsya Festival?",
-        answer: "Alwar is well-connected by road, rail and air. You can take a cab from Jaipur or Delhi or use trains and buses to reach the city."},
-        
-        { question: "Are there hotels around the arena of the Matsya Festival?",
-        answer: "Yes, you will find cheap hotels, heritage hotels and star hotels and resorts in Alwar near the festival venue."},
-        
-        { question: "Can families with children enjoy the Matsya Festival?",
-        answer: "The Matsya Festival 2025 is family-friendly offering activities like folk games, puppet shows and kid-friendly workshops."},
-        
-        { question: "Can one take a guided tour at the Matsya Festival?",
-        answer: "Throughout the tour of the Matsya Festival, many travel agencies and guides arrange sightseeing to meet all tourist’s expectations."},
-        
-        { question: "How many traditional foods are eaten in the Matsya Festival?",
-        answer: "There is the apparent opportunity to savour Rajasthani food such as dal bati churma, gatte ki sabzi, ghevar, and balushahi."},
-        
-        { question: "What do I require for the Matsya Festival 2025?",
-        answer: "Secure hats, sunglasses, bottles of water, safety shoes, shoes, and a camera to record the lively spirit of the festival."},
+      {
+        question: "Which places are famous and celebrated during the Matsya Festival?",
+        answer: "Some include cultural dance and drama, craft determination, camel and horse display, games and trials, food festivities, etc."
+      },
+
+      {
+        question: "How much can be paid to gain access to the Matsya Festival?",
+        answer: "Access to the majority of the programmes of Matsya Festival 2025 is free, but specific programmes or sections may require a token amount."
+      },
+
+      {
+        question: "How can I reach Alwar for the Matsya Festival?",
+        answer: "Alwar is well-connected by road, rail and air. You can take a cab from Jaipur or Delhi or use trains and buses to reach the city."
+      },
+
+      {
+        question: "Are there hotels around the arena of the Matsya Festival?",
+        answer: "Yes, you will find cheap hotels, heritage hotels and star hotels and resorts in Alwar near the festival venue."
+      },
+
+      {
+        question: "Can families with children enjoy the Matsya Festival?",
+        answer: "The Matsya Festival 2025 is family-friendly offering activities like folk games, puppet shows and kid-friendly workshops."
+      },
+
+      {
+        question: "Can one take a guided tour at the Matsya Festival?",
+        answer: "Throughout the tour of the Matsya Festival, many travel agencies and guides arrange sightseeing to meet all tourist’s expectations."
+      },
+
+      {
+        question: "How many traditional foods are eaten in the Matsya Festival?",
+        answer: "There is the apparent opportunity to savour Rajasthani food such as dal bati churma, gatte ki sabzi, ghevar, and balushahi."
+      },
+
+      {
+        question: "What do I require for the Matsya Festival 2025?",
+        answer: "Secure hats, sunglasses, bottles of water, safety shoes, shoes, and a camera to record the lively spirit of the festival."
+      },
     ]
 
   }
