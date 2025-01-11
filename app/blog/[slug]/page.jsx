@@ -113,7 +113,7 @@ const BlogPost = ({ params }) => {
                                 <hr />
                                 {blog.faqs && blog.faqs.length > 0 && (
                                     <div className="blog-faqs mt-4">
-                                        <h3>FAQs</h3>
+                                        <h3 className="web-title">FAQs</h3>
                                         <ol>
                                             {blog.faqs.map((faq, index) => (
                                                 <li key={index} className="faq-item fw-bold mb-3 web-title">
