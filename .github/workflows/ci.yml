@@ -44,4 +44,6 @@ jobs:
       # Step 7: Confirm Deployment Ready
       - name: Confirm Deployment
         if: ${{ success() }}
-        run: echo "The app has been deployed successfully via Vercel. 🎉"
+        run: |
+          echo "The app has been deployed successfully via Vercel. 🎉"
+          echo "Your live application is available at: https://www.rajasthantourpackages.in"
