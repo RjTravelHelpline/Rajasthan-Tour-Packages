@@ -2998,7 +2998,7 @@ export const blogs = [
         </p>
         <hr />
         <h2>Rajasthani Food: A Rich Culinary Tradition</h2>
-        <p>The key idea of {Link('Jaipur', 'https://www.rajasthantourpackages.in/destination/jaipur')} food topics can be found in its Rajasthani cuisine. These recipes are unique, with flavour and delicacies influenced by the ability of the region to dry up, as well as its royal background. This is where {Link('Rajasthan Culinary Secrets', 'https://www.rajasthantourpackages.in/blog/rajasthan-culinary-secrets-hidden-dishes-you-must-try')} come into play, adding depth and character to every dish, making the local food experience truly unforgettable.
+        <p>The key idea of {Link('Jaipur', 'https://www.rajasthantourpackages.in/jaipur')} food topics can be found in its Rajasthani cuisine. These recipes are unique, with flavour and delicacies influenced by the ability of the region to dry up, as well as its royal background. This is where {Link('Rajasthan Culinary Secrets', 'https://www.rajasthantourpackages.in/blog/rajasthan-culinary-secrets-hidden-dishes-you-must-try')} come into play, adding depth and character to every dish, making the local food experience truly unforgettable.
         </p>
         <hr />
         {/* image */}
@@ -3366,7 +3366,7 @@ export const blogs = [
     metaDescription: "Welcome Rajasthan's Majestic Forts, The luxurious forts of Rajasthan, encompass history at its rich best offering architectural marvels and the culture of yore.",
     canonical: 'https://www.rajasthantourpackages.in/blog/rajasthans-majestic-forts-royal-history',
     keywords: [
-      "Rajasthan's Majestic Forts", "Rajasthan Forts", "Historical Forts of Rajasthan", "Jaipur Forts, Mehrangarh Fort", "Amber Fort", "Chittorgarh Fort", "Rajasthan Fort Architecture", "UNESCO World Heritage Site", "Rajasthan’s History & Culture", "Jaisalmer Fort", "Ranthambore National Park", "Rajasthan tour and travel", "03 days Jaipur Ranthambore weekend tour", "3 Days Udaipur Kumbhalgarh Tour", "Jaisalmer Fort", "Jodhpur Sightseeing", "Rajasthan Travel Packages", "Rajasthan Cultural Heritage Tours", "Golden City Jaisalmer tour", "History & Culture", "04 Days Rajasthan Tour", "Amber Fort", "Mehrangarh Fort in Jodhpur", "Jaipur Tour Packages", "Devigarh Fort", "Dundlod Fort", "Ghanerao Fort", "Dhamotar Fort", "Khejarla Fort", "Dhariyawad Fort", "Pachewar Fort", "Nagda fort", "Roopangarh Fort", "famous forts of Rajasthan", "Mandawa Shekhawati", "heritage hotel", "3 day udaipur mewar tour"
+      "Rajasthan's Majestic Forts", "Rajasthan Forts", "Historical Forts of Rajasthan", "Jaipur Forts, Mehrangarh Fort", "Amber Fort", "Chittorgarh Fort", "Rajasthan Fort Architecture", "UNESCO World Heritage Site", "Rajasthan’s History & Culture", "Jaisalmer Fort", "Ranthambore National Park", "Rajasthan tour and travel", "03 days Jaipur Ranthambore weekend tour", "3 Days Udaipur Kumbhalgarh Tour", "Jaisalmer Fort", "Jodhpur Sightseeing", "Rajasthan Travel Packages", "Rajasthan Cultural Heritage Tours", "Golden City Jaisalmer tour", "History & Culture", "04 Days Rajasthan Tour", "Amber Fort", "Mehrangarh Fort in Jodhpur", "Jaipur Tour Packages", "Devigarh Fort", "Dundlod Fort", "Ghanerao Fort", "Dhamotar Fort", "Khejarla Fort", "Dhariyawad Fort", "Pachewar Fort", "Nagda fort", "Roopangarh Fort", "famous forts of Rajasthan", "Mandawa Shekhawati", "heritage hotel", "3 day udaipur marwar tour"
     ],
     description:
       'Rajasthan, fondly known as the land of kings, has always prided itself on the royalty it has in store, its heritage, its colourful culture, and, not to forget, the palaces turned forts. These two structures symbolise the greatness of the royal kingdom of Rajasthan and also symbolically represent the culture of the state. This blog intends to deliver a fascinating tour through Rajasthan’s Majestic Forts to unveil the legends hidden in the stony facade of these structures. The following architectural wonders.',
@@ -3618,7 +3618,7 @@ export const blogs = [
         <p>Culturally, there is much sense in which the fort possesses a special place within these communities. They also stated that fairs and religious functions are ordinarily conducted near the fort and constitute an unusual combination of the architectural and spiritual. Dhamotar Fort gives a calm and thoughtful perspective of the history & culture of Rajasthan.</p>
         <hr />
         <h3>15. Nagda fort: The Birthplace of the Mewar Empire</h3>
-        <p><strong>Nagda fort</strong> does not fit the traditional definition of that term, the capital of the {Link('3 day udaipur mewar tour', 'https://www.rajasthantourpackages.in/3days-udaipur-mewar-tour')} Empire is a site of tremendous historical import. The beautifully carved temples of the 10th century AD are important and famous sites visible in the area, some of them being the Saas-Bahu temples. Nagda has historical importance. It becomes imperative to address the incident if one wants to get through any experience during the visit to the <strong>famous forts of Rajasthan</strong>.</p>
+        <p><strong>Nagda fort</strong> does not fit the traditional definition of that term, the capital of the {Link('3 day udaipur marwar tour', 'https://www.rajasthantourpackages.in/3days-udaipur-marwar-tour')} Empire is a site of tremendous historical import. The beautifully carved temples of the 10th century AD are important and famous sites visible in the area, some of them being the Saas-Bahu temples. Nagda has historical importance. It becomes imperative to address the incident if one wants to get through any experience during the visit to the <strong>famous forts of Rajasthan</strong>.</p>
         <p>Temples today and the remains of Nagda are the religious and cultural symbols of Rajasthan. The site is a quiet place, which is of great interest to historians and shows one more example of the Mewar kingdom.
         </p>
         <hr />
@@ -4764,7 +4764,7 @@ export const blogs = [
         </p>
         <p>इस त्यौहार का सबसे बड़ा आकर्षण कच्छ का विशाल युद्धक्षेत्र है, जहां सैकड़ों हजारों लोग इस जगह की सांस्कृतिक और ऐतिहासिक विरासत का अनुभव करने के लिए इकट्ठा होते हैं। इस ब्लॉग में, हम आपको <strong>कच्छ रण उत्सव 2025</strong> के बारे में विस्तृत जानकारी प्रदान करते हैं और आप इस अद्भुत अनुभव का हिस्सा कैसे बन सकते हैं।
         </p>
-        <p>अगर आप कच्छ रण उत्सव का अनुभव करने के लिए {Link('गुजरात से राजस्थान टूर प्लान', 'https://www.rajasthantourpackages.in/rajasthan-package-tour-from-gujarat')} कर रहे हैं, तो हम आपको बेहतरीन टूर पैकेजेज़ की सलाह देते हैं।</p>
+        <p>अगर आप कच्छ रण उत्सव का अनुभव करने के लिए {Link('गुजरात से राजस्थान टूर प्लान', 'https://www.rajasthantourpackages.in/rajasthan-tour-from-gujarat')} कर रहे हैं, तो हम आपको बेहतरीन टूर पैकेजेज़ की सलाह देते हैं।</p>
         <hr />
         <h2>कच्छ रण उत्सव 2025: यात्रा शुरू
         </h2>

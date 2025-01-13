@@ -26,7 +26,7 @@ export const range_days = [
   },
   {
     text: '11-15 days rajasthan tour packages',
-    path: '/11-15-days-rajasthan-tours',
+    path: '/11-15-days-rajasthan-tour-packages',
   },
 ];
 
@@ -78,7 +78,7 @@ export const _02_days_tours = [
   },
   {
     text: '02 days jaisalmer tour package',
-    path: '/02-days-jaisalmer-tour-package',
+    path: '/2days-jaisalmer-tour-package',
   },
 ];
 
