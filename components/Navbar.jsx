@@ -293,8 +293,8 @@ const Navbar = () => {
                                         target="_blank"
                                         className=" d-block p-3 fw-bold social-icon d-flex align-items-center gap-2"
                                     >
-                                        <span className="d-flex justify-content-center bg-tertary-down color-black p-2 rounded-5 icon fs-3">
-                                            <MdCall />{' '}
+                                        <span className="d-flex justify-content-center bg-tertary-down color-tertary p-2 rounded-5 icon fs-3">
+                                            <IoCall />{' '}
                                         </span>
                                         <span>(+91)-9024337038</span>
                                     </a>
@@ -303,7 +303,7 @@ const Navbar = () => {
                                         target="_blank"
                                         className=" d-block p-3 fw-bold social-icon d-flex align-items-center gap-2"
                                     >
-                                        <span className="d-flex justify-content-center bg-tertary-down color-black p-2 rounded-5 icon fs-3">
+                                        <span className="d-flex justify-content-center bg-tertary-down color-tertary p-2 rounded-5 icon fs-3">
                                             <RiWhatsappFill />{' '}
                                         </span>
                                         <span>(+91)-9166555888</span>
@@ -313,7 +313,7 @@ const Navbar = () => {
                                         target="_blank"
                                         className="text-lowercase p-3 fw-bold social-icon d-flex align-items-center gap-2"
                                     >
-                                        <span className="d-flex justify-content-center bg-tertary-down color-black p-2 rounded-5 icon fs-3">
+                                        <span className="d-flex justify-content-center bg-tertary-down color-tertary p-2 rounded-5 icon fs-3">
                                             <MdEmail />{' '}
                                         </span>
                                         <span>mail@rajasthantravelhelpline.com</span>

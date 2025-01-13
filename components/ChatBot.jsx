@@ -30,10 +30,11 @@ const ChatBot = () => {
   return (
     <>
       {/* <div className="container-fluid"> */}
-      <div className="bottom-contact-container bottom-contact-02 row overflow-hidden d-flex  align-items-center">
+      <div className="bg-black bottom-contact-container bottom-contact-02 overflow-hidden d-flex  align-items-center p-0">
         <a
-          href="https://wa.me/919166555888"
+          href="https://api.whatsapp.com/send/?phone=919166555888&text&type=phone_number&app_absent=0"
           target="_blank"
+          className='rounded-5 p-0'
           onClick={() => setIsChatVisible(true)}
           aria-label="whatsapp"
         >
@@ -67,7 +68,7 @@ const ChatBot = () => {
             </div>
             <div className="bg-white py-1 d-flex justify-content-center align-items-center">
               <a
-                href="https://wa.me/919166555888"
+                href="https://api.whatsapp.com/send/?phone=919166555888&text&type=phone_number&app_absent=0"
                 target="_blank"
                 aria-label="go to whatsapp"
                 className="w-100 text-center p-2 px-3 my-2 rounded-5 chat-btn d-flex justify-content-center align-items-center gap-2"

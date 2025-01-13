@@ -15,41 +15,37 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Col, Container, Modal, Row } from 'react-bootstrap';
 import ContactForm from './ContactForm';
-import { BiChevronRight, BiChevronDown, BiChevronR, BiChevronDownight, BiLogoTripAdvisor, BiPhoneCall, BiLinkAlt, BiSolidPhoneCall } from 'react-icons/bi';
-import { PiBrandyFill, PiFacebookLogoFill, PiInstagramLogoFill, PiSkypeLogoFill } from 'react-icons/pi';
-import { RiCustomerService2Line, RiLink, RiWhatsappFill } from 'react-icons/ri';
+import { BiChevronRight, BiChevronDown, BiLogoTripAdvisor, BiLinkAlt, BiSolidPhoneCall } from 'react-icons/bi';
+import { PiFacebookLogoFill, PiInstagramLogoFill, PiSkypeLogoFill } from 'react-icons/pi';
+import { RiWhatsappFill } from 'react-icons/ri';
 import { MdContactSupport, MdMail } from 'react-icons/md';
-import { BsArrowUpRightCircleFill, BsChevronDoubleRight, BsChevronRight } from 'react-icons/bs';
-import { FaLocationArrow } from 'react-icons/fa';
+import { BsArrowUpRightCircleFill } from 'react-icons/bs';
 import { AiFillSafetyCertificate } from 'react-icons/ai';
 import { CgInsights } from "react-icons/cg";
 
 const Footer = () => {
-    const tripAdvisorLogo = '/Images/Logos/tripadvisor-logo.webp';
-    const googleStars = '/Images/Logos/google-logo.webp';
-    const certified01 = '/Images/Certification/certified-img01.webp';
-    const certified02 = '/Images/Certification/certified-img02.webp';
-    const certified04 = '/Images/Certification/certified-img04.webp';
-    const footerLogo = '/rajasthan-travel-helpline.png';
 
     const date = new Date();
     const mydate = date.getUTCFullYear();
-    const [activeSection, setActiveSection] = useState(null);
 
+    // packages section
+    const [activeSection, setActiveSection] = useState(null);
     const toggleSection = (section) => {
         setActiveSection(activeSection === section ? null : section);
     };
 
-    // contact
-    const [show, setShow] = useState(false); // Modal visibility state
-    const [selectedPackage, setSelectedPackage] = useState(''); // To store selected package title
-
+    // enquiry modal
+    const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
-    const handleShow = (title) => {
-        setSelectedPackage(title);
+    const handleShow = () => {
         setShow(true);
     };
 
+    // images
+    const certified01 = '/Images/Certification/certified-img01.webp';
+    const certified02 = '/Images/Certification/certified-img02.webp';
+    const certified04 = '/Images/Certification/certified-img04.webp';
+    const footerLogo = '/rajasthan-travel-helpline.png';
     return (
         <>
             <section className="py-4 container-fluid bg-black">
@@ -73,19 +69,11 @@ const Footer = () => {
                                     >
                                         <Image width={300} height={50} src='/Images/Logos/tripadvisor-logo-02.png' style={{ width: '10em', height: 'auto' }} alt="Trip Advisor Logo" title='Tripadvisor logo representing trusted travel reviews' />
                                     </a>
-                                    {/* <a
-                                        href="https://www.tripadvisor.in/Attraction_Review-g304555-d24123312-Reviews-Rajasthan_Travel_Helpline-Jaipur_Jaipur_District_Rajasthan.html"
-                                        className=""
-                                        target="_blank"
-                                        aria-label='trip advisor'
-
-                                    >
-                                        <Image width={300} height={50} src='/Images/Logos/google-logo-02.png' style={{ width: '10em', height: 'auto' }} alt="Trip Advisor Logo" title='google logo representing trusted travel reviews' />
-                                    </a> */}
                                 </div>
                                 <a href="https://www.tripadvisor.in/Attraction_Review-g304555-d24123312-Reviews-Rajasthan_Travel_Helpline-Jaipur_Jaipur_District_Rajasthan.html"
                                     className="rounded-5"
                                     target="_blank"
+                                    rel="noopener noreferrer"
                                     aria-label='trip advisor' style={{ position: 'absolute', top: '12px', right: '12px', backgroundColor: 'rgb(0, 168, 107)' }} >
                                     <button className='bg-transparent d-flex align-items-center shadow-none text-white'>
                                         <span className='me-2 text-white'>visit now</span>
@@ -106,11 +94,33 @@ const Footer = () => {
                                     <span className='me-2'>Request us</span>
                                     <MdContactSupport />
                                 </button>
+
+                                {/* Enquiry modal */}
+                                <Modal
+                                    size='lg'
+                                    show={show}
+                                    onHide={handleClose}
+                                    centered
+                                    className="contact-model w-100"
+                                >
+                                    <Modal.Body className="model-body ">
+                                        <ContactForm onSuccess={handleClose} />{' '}
+                                    </Modal.Body>
+                                    <Modal.Footer className="d-flex justify-content-center align-items-center w-100 border-0 model-close pt-0">
+                                        <button
+                                            className="bg-black d-flex justify-content-center align-items-center p-3 border-0 rounded-5"
+                                            onClick={handleClose}
+                                        >
+                                            <IoMdClose />
+                                        </button>
+                                    </Modal.Footer>
+                                </Modal>
                             </div>
                         </div>
                     </Row>
                 </Container>
             </section>
+
             {/* Packages and links */}
             <section className="container-fluid px-0">
                 <div className="packages-footer py-5">
@@ -307,7 +317,7 @@ const Footer = () => {
                     </Container>
                 </div>
             </section>
-            <div className="container-fluid bg-black py-5" style={{ borderTop: '1px solid var(--color-gray)' }}>
+            <section className="container-fluid bg-black py-5" style={{ borderTop: '1px solid var(--color-gray)' }}>
                 <div className="container">
                     <div className="row d-flex justify-content-start aiign-items-center footer-links ">
                         <div className="col-lg-3 col-md-6 col-sm-12 mb-4 d-flex flex-lg-column flex-sm-row justify-content-between align-items-start gap-2">
@@ -335,7 +345,7 @@ const Footer = () => {
                                 <a href="skype:rajasthantravel?chat" className='fs-3 rounded-5 d-flex justify-content-center align-items-center text-white opacity-50 anchor-link-i'>
                                     <PiSkypeLogoFill />
                                 </a>
-                                <a href="https://www.tripadvisor.in/Attraction_Review-g304555-d24123312-Reviews-Rajasthan_Travel_Helpline-Jaipur_Jaipur_District_Rajasthan.html" className='fs-3 rounded-5 d-flex justify-content-center align-items-center text-white opacity-50 anchor-link-i'>
+                                <a href="https://www.tripadvisor.in/Attraction_Review-g304555-d24123312-Reviews-Rajasthan_Travel_Helpline-Jaipur_Jaipur_District_Rajasthan.html" className='fs-3 rounded-5 d-flex justify-content-center align-items-center text-white opacity-50 anchor-link-i' target='_blank' rel="noopener noreferrer">
                                     <BiLogoTripAdvisor />
                                 </a>
                             </div>
@@ -497,29 +507,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-            </div>
-            {/*  */}
-
-            {/* Modal for Contact Form */}
-            <Modal
-                size='lg'
-                show={show}
-                onHide={handleClose}
-                centered
-                className="contact-model w-100"
-            >
-                <Modal.Body className="model-body ">
-                    <ContactForm onSuccess={handleClose} />{' '}
-                </Modal.Body>
-                <Modal.Footer className="d-flex justify-content-center align-items-center w-100 border-0 model-close pt-0">
-                    <button
-                        className="bg-black d-flex justify-content-center align-items-center p-3 border-0 rounded-5"
-                        onClick={handleClose}
-                    >
-                        <IoMdClose />
-                    </button>
-                </Modal.Footer>
-            </Modal>
+            </section>
         </>
     );
 };
