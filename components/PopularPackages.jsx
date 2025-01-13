@@ -9,6 +9,8 @@ import { ExploreAll } from './ExploreAll';
 import Image from 'next/image';
 import { FaCalendarDays, FaClock } from 'react-icons/fa6';
 import { FaWhatsapp } from 'react-icons/fa';
+import Skeleton from "react-loading-skeleton";
+import SkeletonTourPackage from './SkeletonTourPackage';
 
 const Packages = () => {
   const link = (text, url) => {
@@ -24,6 +26,7 @@ const Packages = () => {
     );
   };
   const [packages, setPackages] = useState([])
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const fetchPackages = async () => {
@@ -33,6 +36,8 @@ const Packages = () => {
         setPackages(data);
       } catch (error) {
         console.error('Error fetching packages:', error);
+      } finally {
+        setLoading(false); // Stop loading once data is fetched
       }
     };
     fetchPackages();
@@ -89,74 +94,81 @@ const Packages = () => {
             </p>
           </Row>
           <Row className="row py-4 d-flex align-items-stretch px-2">
-            <SlickSlider>
-              {visiblePackages.map((pkg, index) => {
-                const messageText = `I am interested in the ${pkg.title} package for ₹${pkg.price}/-. Please provide more details.`;
-                const encodedText = encodeURIComponent(messageText);
-                const whatsappLink = `https://api.whatsapp.com/send/?phone=919166555888&text=${encodedText}&type=phone_number&app_absent=0`;
-                return (
-                  <div
-                    key={index}
-                    className="col-12 col-sm-12 col-md-6 col-lg-4 mb-4 d-flex justify-content-start px-2"
-                  >
-                    <Card className="card bg-transparent">
-                      <div className="card-image-container">
-                        <Image src={pkg.imgSrc} alt={pkg.alt} title={pkg.imgTitle} width={600}
-                          height={800} placeholder='empty' style={{ backgroundColor: "#000" }} />
-                      </div>
+            {loading
+              ? Array.from({ length: 3 }).map((_, index) => (
+                <SkeletonTourPackage key={index} />
+              )
+              ) : (
+                <SlickSlider>
+                  {visiblePackages.map((pkg, index) => {
+                    const messageText = `I am interested in the ${pkg.title} package for ₹${pkg.price}/-. Please provide more details.`;
+                    const encodedText = encodeURIComponent(messageText);
+                    const whatsappLink = `https://api.whatsapp.com/send/?phone=919166555888&text=${encodedText}&type=phone_number&app_absent=0`;
+                    return (
+                      <div
+                        key={index}
+                        className="col-12 col-sm-12 col-md-6 col-lg-4 mb-4 d-flex justify-content-start px-2"
+                      >
+                        <Card className="card bg-transparent">
+                          <div className="card-image-container">
+                            <Image src={pkg.imgSrc} alt={pkg.alt} title={pkg.imgTitle} width={600}
+                              height={800} placeholder='empty' />
+                          </div>
 
-                      <div className="row card-content d-flex align-items-center justify-content-center">
-                        <div className="w-100 card-header d-flex justify-content-between align-items-start pt-0 pb-0">
-                          <p className="price p-2 px-3 text-capitalize mb-1 w-auto web-title">
-                            from <span className='fw-bold'>₹{pkg.price}
-                            </span>
-                          </p>
-                          <p className="text-left text-black w-auto d-flex align-items-center gap-2 web-title fw-bold">
-                            <span className='p-2 bg-tertary-down d-flex rounded-5'>
-                              <FaClock className='color-tertary' />
-                            </span>
-                            <span className='fw-bold'>
-                              {`${pkg.nights} Night${pkg.nights > 1 ? 's' : ''} • ${pkg.days} Day${pkg.days > 1 ? 's' : ''}`}
-                            </span>
-                          </p>
-                        </div>
-                        <div className="w-100 card-header d-flex justify-content-center flex-column align-items-start pt-0">
-                          <h4 className="text-capitalize w-100 package-title web-title">
-                            {pkg.title}
-                          </h4>
-                        </div>
-                        <div className="w-100 package-buttons d-flex justify-content-center align-items-center px-0">
-                          <div className="col-5">
-                            <Link href={pkg.navigate} className="w-100 rounded-0 text-center d-block">
-                              view
-                            </Link>
+                          <div className="row card-content d-flex align-items-center justify-content-center">
+                            <div className="w-100 card-header d-flex justify-content-between align-items-start pt-0 pb-0">
+                              <p className="price p-2 px-3 text-capitalize mb-1 w-auto web-title">
+                                from <span className='fw-bold'>₹{pkg.price}
+                                </span>
+                              </p>
+                              <p className="text-left text-black w-auto d-flex align-items-center gap-2 web-title fw-bold">
+                                <span className='p-2 bg-tertary-down d-flex rounded-5'>
+                                  <FaClock className='color-tertary' />
+                                </span>
+                                <span className='fw-bold'>
+                                  {`${pkg.nights} Night${pkg.nights > 1 ? 's' : ''} • ${pkg.days} Day${pkg.days > 1 ? 's' : ''}`}
+                                </span>
+                              </p>
+                            </div>
+                            <div className="w-100 card-header d-flex justify-content-center flex-column align-items-start pt-0">
+                              <h4 className="text-capitalize w-100 package-title web-title">
+                                {pkg.title}
+                              </h4>
+                            </div>
+                            <div className="w-100 package-buttons d-flex justify-content-center align-items-center px-0">
+                              <div className="col-5">
+                                <Link href={pkg.navigate} className="w-100 rounded-0 text-center d-block">
+                                  view
+                                </Link>
+                              </div>
+                              <div className="col-5">
+                                <button
+                                  className="w-100 rounded-0"
+                                  onClick={() => handleShow(pkg.title)}
+                                >
+                                  Enquire
+                                </button>
+                              </div>
+                              <div className="col-2 d-flex justify-content-end">
+                                <a
+                                  href={whatsappLink}
+                                  target="_blank"
+                                  className='rounded-5 p-0 whatsapp-logo'
+                                  onClick={() => setIsChatVisible(true)}
+                                  aria-label="whatsapp"
+                                >
+                                  <FaWhatsapp className="fixed-footer-icon" />
+                                </a>
+                              </div>
+                            </div>
                           </div>
-                          <div className="col-5">
-                            <button
-                              className="w-100 rounded-0"
-                              onClick={() => handleShow(pkg.title)}
-                            >
-                              Enquire
-                            </button>
-                          </div>
-                          <div className="col-2 d-flex justify-content-end">
-                            <a
-                              href={whatsappLink}
-                              target="_blank"
-                              className='rounded-5 p-0 whatsapp-logo'
-                              onClick={() => setIsChatVisible(true)}
-                              aria-label="whatsapp"
-                            >
-                              <FaWhatsapp className="fixed-footer-icon" />
-                            </a>
-                          </div>
-                        </div>
+                        </Card>
                       </div>
-                    </Card>
-                  </div>
-                );
-              })}
-            </SlickSlider>
+                    );
+                  })}
+                </SlickSlider>
+              )}
+
           </Row>
           <ExploreAll text="explore all" href="/popular-tour-packages" />
         </Container>

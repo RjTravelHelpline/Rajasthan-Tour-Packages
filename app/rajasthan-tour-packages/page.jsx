@@ -15,10 +15,12 @@ import Breadcrumb from '@/components/Breadcrumb';
 import RTPNav from '@/components/RTPNav';
 import { TourPackageSection } from '@/components/TourPackageSection';
 import { useEffect, useState } from "react";
+import SkeletonTourPackage from "@/components/SkeletonTourPackage";
 
 
 const RajasthanTourPackages = () => {
   const [packages, setPackages] = useState([]);
+  const [loading, setLoading] = useState(true); // Add a loading state
 
   useEffect(() => {
     const fetchPackages = async () => {
@@ -28,6 +30,8 @@ const RajasthanTourPackages = () => {
         setPackages(data);
       } catch (error) {
         console.error('Error fetching packages:', error);
+      } finally {
+        setLoading(false);
       }
     };
 
@@ -94,21 +98,34 @@ const RajasthanTourPackages = () => {
       <div className="container-fluid px-0">
         <div className="row tour-packages-nav">
           {["02", "03", "04", "05", "06", "07", "08", "09", "10", "11-15"].map((day, index) => (
-            <a href={`#${day}-days`} key={index} className="text-capitalize">
-              {day} <span className="web-title">days</span>
+            <a href={`#${day}-days`} key={index} className="web-title text-capitalize">
+              {day} <span className="fw-bold">days</span>
             </a>
           ))}
         </div>
-        <TourPackageSection days="02" tourData={_02Days} />
-        <TourPackageSection days="03" tourData={_03Days} />
-        <TourPackageSection days="04" tourData={_04Days} />
-        <TourPackageSection days="05" tourData={_05Days} />
-        <TourPackageSection days="06" tourData={_06Days} />
-        <TourPackageSection days="07" tourData={_07Days} />
-        <TourPackageSection days="08" tourData={_08Days} />
-        <TourPackageSection days="09" tourData={_09Days} />
-        <TourPackageSection days="10" tourData={_10Days} />
-        <TourPackageSection days="11-15" tourData={_11_15Days} />
+        {/* Render Skeletons if loading */}
+        {loading ? (
+          <div className="container packages">
+            <div className="row py-4 d-flex justify-content-center align-items-stretch px-2 w-100">
+              {Array.from({ length: 3 }).map((_, index) => (
+                <SkeletonTourPackage key={index} />
+              ))}
+            </div>
+          </div>
+        ) : (
+          <>
+            <TourPackageSection days="02" tourData={_02Days} />
+            <TourPackageSection days="03" tourData={_03Days} />
+            <TourPackageSection days="04" tourData={_04Days} />
+            <TourPackageSection days="05" tourData={_05Days} />
+            <TourPackageSection days="06" tourData={_06Days} />
+            <TourPackageSection days="07" tourData={_07Days} />
+            <TourPackageSection days="08" tourData={_08Days} />
+            <TourPackageSection days="09" tourData={_09Days} />
+            <TourPackageSection days="10" tourData={_10Days} />
+            <TourPackageSection days="11-15" tourData={_11_15Days} />
+          </>
+        )}
       </div>
 
       {/* bread crumb */}

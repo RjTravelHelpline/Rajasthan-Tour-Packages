@@ -11,7 +11,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 
 const BlogsSection = () => {
   const latestBlogs = getLatestItems(blogs);
-  const visibleBlogs = latestBlogs.slice(0, 4);
+  const visibleBlogs = latestBlogs.slice(0, 6);
 
 
   return (

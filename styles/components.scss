@@ -18,10 +18,7 @@
       }
       a:not(.contact-header a),
       span {
-        color: var(--color-secondary) !important;
-      }
-      .icon {
-        color: inherit !important;
+        color: var(--color-black) !important;
       }
       .contact-top-toggle-button {
         color: var(--color-black) !important;
@@ -1493,22 +1490,35 @@ form {
 .bydayspackages {
   a {
     width: 100% !important;
+    position: relative;
   }
   .card {
     border-radius: 24px;
     overflow: hidden;
     transition: 0.25s ease-in-out;
     position: relative;
-    height: 260px;
+    height: 280px;
     width: 100% !important;
     border: none !important;
-
+    a {
+      transition: 0.25s ease-in-out;
+      background-color: var(--color-tertary);
+      color: var(--color-primary);
+      position: absolute;
+      width: auto !important;
+      top: 16px;
+      right: 16px;
+      z-index: 99;
+      box-shadow: var(--color-shadow-tertary);
+      text-align: center;
+      cursor: pointer;
+    }
     &:hover {
       box-shadow: var(--color-shadow);
     }
     img {
       width: 100%;
-      height: 100%; /* Make sure image covers the card's height */
+      height: 100%;
       object-fit: cover !important;
       background-position: center;
       transition: 0.25s ease-in-out;
@@ -1521,20 +1531,19 @@ form {
       position: absolute;
       bottom: 0px;
       left: 12px;
+      z-index: 9;
       gap: 0;
       background: linear-gradient(
         to top,
         var(--color-black) 40%,
         #00000000 100%
       );
-      h3 {
+      h4 {
         width: auto !important;
-        padding: 6px 10px;
         font-weight: bolder !important;
         border-radius: 8px;
         color: var(--color-primary) !important;
         box-shadow: var(--color-shadow);
-        font-size: clamp(1.65em, 3vw, 2.5em) !important;
       }
       p {
         color: var(--color-tertary);
@@ -1542,26 +1551,7 @@ form {
         width: auto !important;
       }
     }
-    a {
-      margin: auto;
-      width: auto !important;
-      transform: translateY(200px);
-      transition: 0.25s ease-in-out;
-      background-color: var(--color-tertary);
-      color: var(--color-primary);
-      position: absolute;
-      padding-block: 20px;
-      bottom: -1px;
-      left: 0;
-      right: 0;
-      box-shadow: var(--color-shadow-tertary);
-      border-radius: 0 !important;
-      text-align: center;
-      cursor: pointer;
-    }
-    &:hover a {
-      transform: translateY(0px);
-    }
+
     &:hover img {
       filter: contrast(1.01);
       background-color: var(--color-tertary-down);
@@ -1770,7 +1760,6 @@ form {
   }
 }
 
-// packages card
 // packages
 .packages {
   .card {
@@ -1782,7 +1771,6 @@ form {
     transition: 0.25s ease-in-out;
     align-items: stretch;
     cursor: pointer;
-    background: linear-gradient(180deg, #00000000 50%, var(--color-black) 50%);
     .card-image-container {
       height: 240px;
       overflow: hidden;
@@ -2740,5 +2728,53 @@ p {
   .active {
     transition: 0.25s ease-in-out;
     transform: translateY(0);
+  }
+}
+
+//
+.skeleton {
+  background: #e0e0e0;
+  animation: shimmer 1.5s infinite linear;
+}
+
+.skeleton-image {
+  width: 100%;
+  height: 240px;
+}
+
+.skeleton-text {
+  height: 20px;
+  margin: 10px 0;
+}
+
+.skeleton-price {
+  width: 80px;
+}
+
+.skeleton-duration {
+  width: 150px;
+}
+
+.skeleton-title {
+  width: 70%;
+}
+
+.skeleton-button {
+  width: 100px;
+  height: 40px;
+}
+
+.skeleton-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200px 0;
+  }
+  100% {
+    background-position: 200px 0;
   }
 }

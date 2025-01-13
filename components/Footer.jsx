@@ -55,11 +55,11 @@ const Footer = () => {
                             <div className='w-100 rounded-4 footer-banner-insider'>
                                 <Image width={800} height={400} quality={100} alt='Query banner' src='/Images/Banners/review-banner.jpg' className='w-100 h-100 rounded-4' style={{ objectFit: 'cover' }}
                                 />
-                                <div style={{ position: 'absolute', bottom: '24px', left: '24px' }}>
+                                <div style={{ position: 'absolute', bottom: '24px', left: '24px', zIndex: '99' }}>
                                     <h3 className='text-capitalize web-title fs-1 fw-light mb-0' >Loved by <span className='fw-bold text-white'>Travelers</span></h3>
                                     <p className='text-white opacity-75 mb-0 fw-light'>See why travelers love our tours on TripAdvisor.</p>
                                 </div>
-                                <div className='d-flex flex-column gap-2' style={{ position: 'absolute', top: '24px', left: '24px' }}>
+                                <div className='d-flex flex-column gap-2' style={{ position: 'absolute', top: '24px', left: '24px', zIndex: '99' }}>
                                     <a
                                         href="https://www.tripadvisor.in/Attraction_Review-g304555-d24123312-Reviews-Rajasthan_Travel_Helpline-Jaipur_Jaipur_District_Rajasthan.html"
                                         className=""
@@ -74,7 +74,7 @@ const Footer = () => {
                                     className="rounded-5"
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    aria-label='trip advisor' style={{ position: 'absolute', top: '12px', right: '12px', backgroundColor: 'rgb(0, 168, 107)' }} >
+                                    aria-label='trip advisor' style={{ position: 'absolute', top: '12px', right: '12px', zIndex: '99', backgroundColor: 'rgb(0, 168, 107)' }} >
                                     <button className='bg-transparent d-flex align-items-center shadow-none text-white'>
                                         <span className='me-2 text-white'>visit now</span>
                                         <BsArrowUpRightCircleFill />
@@ -86,11 +86,11 @@ const Footer = () => {
                             <div className='w-100 rounded-4 footer-banner-insider'>
                                 <Image width={800} height={400} quality={100} alt='Query banner' src='/Images/Banners/footer-banner.jpg' className='w-100 h-100 rounded-4' style={{ objectFit: 'cover' }}
                                 />
-                                <div style={{ position: 'absolute', bottom: '24px', left: '24px' }}>
+                                <div style={{ position: 'absolute', bottom: '24px', left: '24px', zIndex: '99' }}>
                                     <h3 className='text-capitalize web-title fs-1 fw-light mb-0' >plan your <span className='fw-bold text-white'>perfect trip!</span></h3>
                                     <p className='text-white opacity-75 mb-0 fw-light'>Let us plan your perfect journey.</p>
                                 </div>
-                                <button className='bg-tertary rounded-5 d-flex align-items-center' style={{ position: 'absolute', top: '12px', right: '12px' }} onClick={handleShow}>
+                                <button className='bg-tertary rounded-5 d-flex align-items-center' style={{ position: 'absolute', top: '12px', right: '12px', zIndex: '99' }} onClick={handleShow}>
                                     <span className='me-2'>Request us</span>
                                     <MdContactSupport />
                                 </button>

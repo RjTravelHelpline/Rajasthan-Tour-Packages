@@ -4,7 +4,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { useState } from "react";
 import { Card } from "react-bootstrap";
-import { MdExpandLess, MdExpandMore } from "react-icons/md";
+import { MdExpandLess, MdExpandMore, MdOutlineArrowOutward } from "react-icons/md";
+import { TbLocationFilled } from "react-icons/tb";
 
 export const RajasthanTourByCities = () => {
     const [showAll, setShowAll] = useState(false);
@@ -65,12 +66,24 @@ export const RajasthanTourByCities = () => {
                                         height={600}
                                     />
                                     <div className="row p-3 card-content d-flex align-items-center  justfiy-content-center flex-column">
-                                        <p className="mb-0">rajasthan tour from</p>
-                                        <h3 className="w-100 text-capitalize mx-1 fw-normal">
-                                            {pkg.title}
-                                        </h3>
+                                        <p className="text-white web-title">rajasthan tour package</p>
+                                        <hr />
+                                        <h4 className="w-100 text-capitalize mx-1 web-title d-flex align-items-center">
+                                            <span className="mb-2 me-2 color-tertary">
+                                                <TbLocationFilled />
+                                            </span>
+                                            <span>
+
+                                                {pkg.title.split(" ")[0]}{" "}
+                                            </span>
+                                            <span className="fw-normal web-title">
+                                                {pkg.title.split(" ")[1]}
+                                            </span>
+                                        </h4>
                                     </div>
-                                    View
+                                    <Link href={pkg.navigate} className="text-capitalize m-auto p-3 d-flex rounded-5">
+                                        <MdOutlineArrowOutward />
+                                    </Link>
                                 </Card>
                             </Link>
                         </div>

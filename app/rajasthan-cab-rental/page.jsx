@@ -7,9 +7,10 @@ import { useState } from "react";
 import { Card } from "react-bootstrap";
 import { BiMinus, BiPlus } from "react-icons/bi";
 import { FaCarAlt, FaStarOfLife } from "react-icons/fa";
-import { MdExpandLess, MdExpandMore } from "react-icons/md";
+import { MdExpandLess, MdExpandMore, MdOutlineArrowOutward } from "react-icons/md";
 import { faq } from "./data";
 import HeroBanner from "@/components/HeroBanner";
+import { TbLocationFilled } from "react-icons/tb";
 
 export const ILink = (text, url) => {
     return (
@@ -37,7 +38,7 @@ const Page = () => {
     const filteredTours = cabRentals.filter((pkg) =>
         pkg.title.toLowerCase().includes(searchQuery.toLowerCase())
     );
-    const visibleTours = showAll ? filteredTours : filteredTours.slice(0, 6);
+    const visibleTours = showAll ? filteredTours : filteredTours.slice(0, 8);
     const breadItems = [
         { label: "Home", link: "/", active: false },
         { label: "rajasthan cab rental", link: null, active: true },
@@ -61,7 +62,7 @@ const Page = () => {
                 backgroundImage="/Images/Banners/jaipur-banner02.webp" />
             <Bread items={breadcrumbItems} />
             {/* bread crumb */}
-            <div className="container-fluid px-0 pt-4 ">
+            <div className="container-fluid px-0 pt-4">
                 <div className="container days-container overview">
                     <div className="row d-flex justify-content-center align-items-center days-overview px-2 days-highlights">
                         <div className="col-12 col-lg-11 col-sm-12 insider px-0 mb-3 text-black">
@@ -151,7 +152,7 @@ const Page = () => {
                 </div>
             </div>
 
-            <div className="container py-4 bydayspackages overview">
+            <div className="container bydayspackages overview">
                 <div className="row d-flex justify-content-center align-items-center px-2">
                     <div className="col-12 col-lg-11 col-sm-12 insider px-0 mb-3 text-black">
                         <h2
@@ -160,11 +161,11 @@ const Page = () => {
                         <p className="px-3 mb-0">
                             Rajasthan Cab Rental also makes it easier for everyone who hires its services to travel across major cities such as Jaipur, Udaipur, Jodhpur, Bikaner and Jaisalmer. Experience Rajasthan at its best by availing yourself of our economical, efficient, and safest {ILink('cabs for sightseeing', 'https://www.jaipurtaxiservice.com/jaipur-sightseeing-tours.html')}.
                         </p>
-                        <div className="row py-4 d-flex align-items-stretch px-3">
+                        <div className="row pt-4 d-flex align-items-stretch px-3">
                             {visibleTours.map((pkg, index) => (
                                 <div
                                     key={index}
-                                    className="col-12 col-sm-6 col-md-6 col-lg-4 mb-3 d-flex align-items-stretch px-2"
+                                    className="col-sm-6 col-md-6 col-lg-3 mb-3 d-flex align-items-stretch px-2"
                                 >
                                     <Link href={pkg.navigate} className="text-capitalize">
                                         <Card className="card bg-transparent rounded-4">
@@ -178,31 +179,50 @@ const Page = () => {
                                                 height={600}
                                             />
                                             <div className="row p-3 card-content d-flex align-items-center  justfiy-content-center flex-column">
-                                                <p className="web-title bg-black rounded-3 p-1 px-3"> <FaCarAlt className="me-1 color-tertary opacity-45" /> cab rental</p>
-                                                <hr className="w-75" />
-                                                <h3 className="w-100 web-title text-capitalize mx-1 fw-normal">
-                                                    {pkg.title}
-                                                </h3>
+                                                <p className="text-white web-title">rajasthan cab rental</p>
+                                                <hr />
+                                                <h4 className="w-100 text-capitalize mx-1 web-title d-flex align-items-center">
+                                                    <span className="mb-2 me-2 color-tertary">
+                                                        <TbLocationFilled />
+                                                    </span>
+                                                    <span>
+                                                        {pkg.title.split(" ")[0]}{" "}
+                                                    </span>
+                                                    <span className="fw-normal web-title">
+                                                        {pkg.title.split(" ")[1]}
+                                                    </span>
+                                                </h4>
                                             </div>
+                                            <Link href={pkg.navigate} className="text-capitalize m-auto p-3 d-flex rounded-5">
+                                                <MdOutlineArrowOutward />
+                                            </Link>
                                         </Card>
                                     </Link>
                                 </div>
                             ))}
-                            <div className="row d-flex w-100 justify-content-center align-items-center">
-                                <button
-                                    onClick={toggleShowAll}
-                                    className="more-btn bg-transparent d-flex justify-content-center align-items-center gap-2"
-                                >
-                                    {showAll ? (
-                                        <>
-                                            Show less <MdExpandLess />
-                                        </>
-                                    ) : (
-                                        <>
-                                            View all <MdExpandMore />
-                                        </>
-                                    )}
-                                </button>
+                            <div className="row d-flex w-100 justify-content-center align-items-center px-0">
+                                <div className="col-6 d-flex justify-content-end">
+
+                                    <hr />
+                                </div>
+                                <div className="px-0 col-6 d-flex justify-content-end">
+
+                                    <button
+                                        onClick={toggleShowAll}
+                                        className="d-flex justify-content-center align-items-center gap-1 bg-tertary-down text-black"
+                                    >
+                                        {showAll ? (
+                                            <>
+                                                Show less <MdExpandLess />
+                                            </>
+                                        ) : (
+                                            <>
+                                                View all <MdExpandMore />
+                                            </>
+                                        )}
+                                    </button>
+                                </div>
+
                             </div>
                         </div>
                     </div>

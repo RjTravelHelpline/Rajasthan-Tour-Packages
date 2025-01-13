@@ -6,6 +6,8 @@ import { daysPackage } from "@/data/data";
 import Link from "next/link";
 import Image from "next/image";
 import { ExploreAll } from "./ExploreAll";
+import { FaClock } from "react-icons/fa6";
+import { MdArrowUpward, MdOutlineArrowOutward } from "react-icons/md";
 
 const DaysPack = () => {
     const link = (text, url) => {
@@ -57,7 +59,7 @@ const DaysPack = () => {
                     </p>
                 </Row>
                 <Row className="py-4 d-flex justify-content-start align-items-stretch">
-                    <SlickSlider>
+                    <SlickSlider settings={{ slidesToShow: 4 }}>
                         {daysPackage.map((pkg, index) => (
                             <div
                                 key={index}
@@ -72,17 +74,27 @@ const DaysPack = () => {
                                             className="w-100 card-image"
                                             width={600}
                                             height={800}
-                                            placeholder='empty' style={{ backgroundColor: "#000" }} 
+                                            placeholder='empty' style={{ backgroundColor: "#000" }}
                                         />
                                         <div className="row p-3 card-content d-flex align-items-center  justfiy-content-center flex-column">
-                                            <h3 className="w-100 text-capitalize mx-1">
-                                                {pkg.title.split(" ")[0]}{" "}
-                                                <span className="fw-normal">
+                                            <p className="text-white web-title">rajasthan tour package</p>
+                                            <hr />
+                                            <h4 className="w-100 text-capitalize mx-1 web-title">
+                                                <span className="mb-2 me-2 color-tertary">
+                                                    <FaClock />
+                                                </span>
+                                                <span>
+
+                                                    {pkg.title.split(" ")[0]}{" "}
+                                                </span>
+                                                <span className="fw-normal web-title">
                                                     {pkg.title.split(" ")[1]}
                                                 </span>
-                                            </h3>
-                                            <p>rajasthan tour packages</p>
+                                            </h4>
                                         </div>
+                                        <Link href={pkg.navigate} className="text-capitalize m-auto p-3 d-flex rounded-5">
+                                            <MdOutlineArrowOutward />
+                                        </Link>
                                     </Card>
                                 </Link>
                             </div>

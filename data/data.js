@@ -819,6 +819,14 @@ export const daysPackage = [
   },
   {
     duration: '',
+    imgSrc: allCitiesImages.jaisalmer.jaisalmerHaweli.src,
+    imgAlt: 'Jaisalmer Patwa Haweli',
+    imgTitle: 'View of Jaisalmer Patawo ki Haweli',
+    title: '06-10 Days',
+    navigate: '/05-07-days-rajasthan-tours',
+  },
+  {
+    duration: '',
     imgSrc: allCitiesImages.jaipur.jaipurPatrikaGate.src,
     imgAlt: 'Patrika Gate',
     imgTitle: 'Jaipur Patrika Gate',
@@ -942,7 +950,7 @@ export const cabRentals = [
     imgSrc: '/Images/Card/mountabu.webp',
     imgTitle: cabImages.toyotaEtios.title,
     alt: cabImages.toyotaEtios.alt,
-    title: 'mount abu',
+    title: 'mountabu',
     navigate: '/mount-abu-cab-rental',
   },
   {
