@@ -20,6 +20,9 @@
       span {
         color: var(--color-secondary) !important;
       }
+      .icon {
+        color: inherit !important;
+      }
       .contact-top-toggle-button {
         color: var(--color-black) !important;
       }
@@ -380,8 +383,8 @@
   flex-wrap: nowrap !important;
   justify-content: center;
   align-items: center;
-  top: 73px;
-  background-color: #000;
+  top: 68px;
+  background-color: var(--color-primary);
   box-shadow: var(--color-shadow);
   @media (max-width: 768px) {
     width: 100%;
@@ -391,8 +394,9 @@
     width: auto;
     padding: 10px 20px;
     border-bottom: 2px solid transparent;
-    color: var(--color-primary);
+    color: var(--color-black);
     text-transform: uppercase;
+    font-weight: 600 !important;
     &:hover {
       border-bottom: 2px solid var(--color-tertary);
       color: var(--color-tertary);
@@ -401,14 +405,14 @@
     &.active {
       background-color: var(--color-tertary-down) !important;
       border-bottom: 2px solid var(--color-tertary);
-      color: var(--color-primary);
+      color: var(--color-black);
       filter: brightness(1) !important;
     }
   }
 
   @media screen and (max-width: 900px) {
     // display: none;
-    top: 70px;
+    top: 62px;
     justify-content: start;
     overflow-x: scroll;
     flex-wrap: nowrap;
@@ -1105,14 +1109,23 @@
 
 // changed
 .slick-slide {
-  transform: scale(0.9) rotateX(45deg);
   opacity: 0;
-  transition: transform 0.55s ease-in-out, opacity 0.55s ease-in-out;
+  transition: 0.4s ease-in-out;
 }
 
 .slick-active {
-  transform: scale(1) rotateX(0deg);
   opacity: 1;
+}
+.slide-arrow-disabled {
+  cursor: not-allowed !important;
+  background-color: var(--color-gray) !important;
+  &:hover {
+    background-color: inherit !important;
+    color: inherit !important;
+  }
+  &:hover .icon {
+    color: inherit !important;
+  }
 }
 
 // back to top
@@ -1486,7 +1499,7 @@ form {
     overflow: hidden;
     transition: 0.25s ease-in-out;
     position: relative;
-    height: 280px;
+    height: 260px;
     width: 100% !important;
     border: none !important;
 
@@ -1666,7 +1679,7 @@ form {
 .service-cards {
   .service-card {
     transition: 0.3s ease-in-out;
-    height: 250px;
+    height: 240px;
     width: 200px;
     overflow: hidden;
     position: relative;
@@ -1771,7 +1784,7 @@ form {
     cursor: pointer;
     background: linear-gradient(180deg, #00000000 50%, var(--color-black) 50%);
     .card-image-container {
-      height: 260px;
+      height: 240px;
       overflow: hidden;
       img {
         width: 100%;
@@ -1787,8 +1800,8 @@ form {
       margin: 0 auto;
       padding-inline: 16px !important;
       padding-block: 16px !important;
-      color: var(--color-primary);
-      background: var(--color-black);
+      color: var(--color-black);
+      background: var(--color-primary);
       gap: 8px;
     }
 
@@ -1804,7 +1817,7 @@ form {
     }
 
     &:hover img {
-      transform: scale(1.05);
+      transform: scale(1.01);
     }
     .card-header {
       border-radius: 16px;
@@ -1814,7 +1827,10 @@ form {
     }
     .price {
       background-color: var(--color-tertary);
-      border-radius: 8px;
+      border-radius: 12px;
+      position: absolute;
+      top: 16px;
+      left: 16px;
       color: var(--color-primary);
       font-family: var(--font-btn-link);
       box-shadow: var(--color-shadow-tertary);
@@ -1827,6 +1843,7 @@ form {
     }
     .package-title {
       font-weight: bold !important;
+      font-size: 1.1em !important;
     }
 
     .whatsapp-logo {
@@ -1834,7 +1851,7 @@ form {
       justify-content: center;
       transition: all 0.25s ease-in;
       background-color: var(--color-primary) !important;
-      color: #21cc63 !important;
+      background-color: #01e776 !important;
       box-shadow: var(--color-shadow);
       align-items: center;
       border-radius: 999px !important;
@@ -1862,14 +1879,21 @@ form {
           text-align: center;
           border-top-left-radius: 999px !important;
           border-bottom-left-radius: 999px !important;
-          background: var(--color-primary) !important;
-          color: var(--color-secondary) !important;
+          background: var(--color-black) !important;
+          color: var(--color-primary) !important;
+          &:hover {
+            filter: brightness(0.8) !important;
+          }
         }
       }
       .col-5:nth-child(2) {
         button {
+          box-shadow: none !important;
           border-top-right-radius: 999px !important;
           border-bottom-right-radius: 999px !important;
+          &:hover {
+            filter: brightness(0.8) !important;
+          }
         }
       }
     }
@@ -2535,7 +2559,6 @@ p {
   top: 74px;
   border-bottom-left-radius: 16px;
   border-bottom-right-radius: 16px;
-  // background-color: var(--color-secondary);
   .row {
     box-shadow: var(--color-shadow);
     border-bottom-left-radius: 16px;

@@ -94,8 +94,8 @@ const RajasthanTourPackages = () => {
       <div className="container-fluid px-0">
         <div className="row tour-packages-nav">
           {["02", "03", "04", "05", "06", "07", "08", "09", "10", "11-15"].map((day, index) => (
-            <a href={`#${day}-days`} key={index}>
-              {day} <span className="fw-normal">days</span>
+            <a href={`#${day}-days`} key={index} className="text-capitalize">
+              {day} <span className="web-title">days</span>
             </a>
           ))}
         </div>

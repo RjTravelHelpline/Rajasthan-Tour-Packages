@@ -24,7 +24,7 @@ const Reviews = () => {
             </div>
           </Row>
           <Row className="py-4 d-flex align-items-stretch px-2 mb-3">
-            <SlickSlider settings={{ slidesToShow: 2 }}>
+            <SlickSlider settings={{ slidesToShow: 2, autoplay: false }}>
               {reviewers.map((reviewer, index) => {
                 return <ReviewCard key={index} reviewer={reviewer} />;
               })}
@@ -57,7 +57,7 @@ const ReviewCard = ({ reviewer }) => {
                 className="review-image"
                 width={1000}
                 height={800}
-                placeholder='empty' style={{ backgroundColor: "#000" }} 
+                placeholder='empty' style={{ backgroundColor: "#000" }}
               />
             </div>
           ))}

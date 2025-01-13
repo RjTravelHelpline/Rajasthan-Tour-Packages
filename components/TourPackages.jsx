@@ -5,6 +5,8 @@ import ContactForm from './ContactForm';
 import { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
+import { FaClock } from 'react-icons/fa6';
+import { FaWhatsapp } from 'react-icons/fa';
 
 const TourPackages = ({ pkg }) => {
   const [show, setShow] = useState(false);
@@ -33,15 +35,23 @@ const TourPackages = ({ pkg }) => {
           </div>
           <div className="row card-content d-flex align-items-center justify-content-center">
             <div className="w-100 card-header d-flex justify-content-between align-items-start pt-0 pb-0">
-              <p className="fw-bold text-left package-duration w-auto">
-                {`${pkg.nights} Night${pkg.nights > 1 ? 's' : ''} • ${pkg.days} Day${pkg.days > 1 ? 's' : ''}`}
+              <p className="price p-2 px-3 text-capitalize mb-1 w-auto web-title">
+                from <span className='fw-bold'>₹{pkg.price}
+                </span>
               </p>
-              <p className="price px-2 text-capitalize mb-1 w-auto">
-                ₹{pkg.price}
+              <p className="text-left text-black w-auto d-flex align-items-center gap-2 web-title fw-bold">
+                <span className='p-2 bg-tertary-down d-flex rounded-5'>
+                  <FaClock className='color-tertary' />
+                </span>
+                <span className='fw-bold'>
+                  {`${pkg.nights} Night${pkg.nights > 1 ? 's' : ''} • ${pkg.days} Day${pkg.days > 1 ? 's' : ''}`}
+                </span>
               </p>
             </div>
             <div className="w-100 card-header d-flex justify-content-center flex-column align-items-start pt-0">
-              <p className="text-capitalize w-100 package-title">{pkg.title}</p>
+              <h4 className="text-capitalize w-100 package-title web-title">
+                {pkg.title}
+              </h4>
             </div>
             <div className="w-100 package-buttons d-flex justify-content-center align-items-center px-0">
               <div className="col-5">
@@ -64,11 +74,11 @@ const TourPackages = ({ pkg }) => {
                 <a
                   href={whatsappLink}
                   target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-center whatsapp-logo"
-                  aria-label="go to package inquiry"
+                  className='rounded-5 p-0 whatsapp-logo'
+                  onClick={() => setIsChatVisible(true)}
+                  aria-label="whatsapp"
                 >
-                  <IoLogoWhatsapp />
+                  <FaWhatsapp className="fixed-footer-icon" />
                 </a>
               </div>
             </div>

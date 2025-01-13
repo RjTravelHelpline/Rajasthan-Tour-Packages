@@ -1255,35 +1255,35 @@ export const tourByCities = [
 // reviewers
 export const reviewers = [
   {
-    name: 'Sally M',
+    name: 'Lenia S',
     Images: [
       {
-        src: allGalleryImages.img25.src,
+        src: '/Images/Gallery/trip-delhi-01.jpg',
         title: 'An amazing evening',
         alt: 'Customer review by Sally M: An amazing evening',
       },
       {
-        src: allGalleryImages.img26.src,
+        src: '/Images/Gallery/trip-delhi-03.jpg',
         title: 'An amazing evening',
         alt: 'Customer review by Sally M: An amazing evening',
       },
     ],
     rating: 5,
     date: '10 days ago',
-    title: 'An amazing evening',
+    title: '2 weeks Delhi, Agra and Himachal Pradesh',
     review:
-      'An absolutely wonderful and amazing experience. A welcoming and very sweet family. If you’re looking for an evening with laughter, amazing food and culture, I can definitely recommend this! They teach you how to make delicious Indian food and tea, all whilst learning about their culture. wouldn’t wish to have been this experience without.',
+      'We spent 2 wonderful weeks travelling in Delhi, Agra and Himachal Pradesh with the most kind and skilled driver, Raghu Choudhary. He took extreme care of our comfort and safety, was absolutely professional and he made us feel like home. The whole itinerary was properly planned to accommodate all our requests and the service provided by the agency was 24.7, every time we needed them. All in all, an amazing experience and made our first time in India impeccable.',
   },
   {
     name: 'Shubham Roy Choudhary',
     Images: [
       {
-        src: allGalleryImages.img11.src,
+        src: '/Images/Reviews/review-shubham-01.webp',
         title: 'A wonderful experience, a well planned trip',
         alt: 'Customer review by Shubham Roy Choudhary: A wonderful experience, a well planned trip',
       },
       {
-        src: allGalleryImages.img12.src,
+        src: '/Images/Reviews/review-shubham-02.webp',
         title: 'A wonderful experience, a well planned trip',
         alt: 'Customer review by Shubham Roy Choudhary: A wonderful experience, a well planned trip',
       },
@@ -1298,12 +1298,12 @@ export const reviewers = [
     name: 'Anand A',
     Images: [
       {
-        src: allGalleryImages.img13.src,
+        src: '/Images/Reviews/review-aanand-01.webp',
         title: 'Awesome experience',
         alt: 'Customer review by Anand A: Awesome experience',
       },
       {
-        src: allGalleryImages.img14.src,
+        src: '/Images/Reviews/review-aanand-02.webp',
         title: 'Awesome experience',
         alt: 'Customer review by Anand A: Awesome experience',
       },
@@ -1318,12 +1318,12 @@ export const reviewers = [
     name: 'Nitin S',
     Images: [
       {
-        src: allGalleryImages.img15.src,
+        src: '/Images/Reviews/review-nitin-01.webp',
         title: 'Rajasthan Wonderful Trip',
         alt: 'Customer review by Nitin S: Rajasthan Wonderful Trip',
       },
       {
-        src: allGalleryImages.img16.src,
+        src: '/Images/Reviews/review-nitin-02.webp',
         title: 'Rajasthan Wonderful Trip',
         alt: 'Customer review by Nitin S: Rajasthan Wonderful Trip',
       },

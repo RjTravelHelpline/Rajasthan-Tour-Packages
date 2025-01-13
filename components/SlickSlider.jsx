@@ -3,35 +3,47 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { SlArrowLeft, SlArrowRight } from "react-icons/sl";
-import { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 
-const NextArrow = ({ onClick }) => {
+const NextArrow = ({ onClick, disabled }) => {
   return (
-    <div className="custom-arrow custom-next" onClick={onClick}>
-      <SlArrowRight />
+    <div
+      className={`custom-arrow custom-next ${disabled ? "slide-arrow-disabled text-muted" : ""}`}
+      onClick={!disabled ? onClick : null}>
+      <SlArrowRight
+        className={`${disabled ? "text-muted" : ""}`}
+      />
     </div>
   );
 };
 
-const PrevArrow = ({ onClick }) => {
+const PrevArrow = ({ onClick, disabled }) => {
   return (
-    <div className="custom-arrow custom-prev" onClick={onClick}>
-      <SlArrowLeft />
+    <div
+      className={`custom-arrow custom-prev ${disabled ? "slide-arrow-disabled text-muted" : ""}`}
+      onClick={!disabled ? onClick : null}>
+      <SlArrowLeft className={`${disabled ? "text-muted" : ""}`} />
     </div>
   );
 };
 
 const SlickSlider = ({ settings, children }) => {
+  const [currentSlide, setCurrentSlide] = useState(0);
+  const totalSlides = React.Children.count(children);
   const defaultSettings = {
-    // dots: true,
-    infinite: true,
+    infinite: false,
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 3000,
-    nextArrow: <NextArrow />,
-    prevArrow: <PrevArrow />,
+    nextArrow: (
+      <NextArrow
+        disabled={currentSlide >= totalSlides - (settings?.slidesToShow || 3)}
+      />
+    ),
+    prevArrow: <PrevArrow disabled={currentSlide === 0} />,
+    beforeChange: (oldIndex, newIndex) => setCurrentSlide(newIndex),
     responsive: [
       {
         breakpoint: 1024,

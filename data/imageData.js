@@ -163,164 +163,110 @@ const tempoTravellerImg = '/Images/Cabs/tempo-traveller.jpg';
 const forceUrbaniaImg = '/Images/Cabs/force-urbania.webp';
 
 // Gallery images
-export const allGalleryImages = {
-  img01: {
+export const allGalleryImages = [
+  {
     src: galleryImg01,
     alt: 'Foreign and Harsh Vardhan',
     title: 'Foreign Visitor with Harsh Vardhan Cultural Visit',
     date: '2023-03-04',
   },
-  img02: {
-    src: galleryImg02,
-    alt: 'Foreign Cooking Class',
-    title: 'Foreign Cooking Class Experience in India',
-    date: '2023-03-15',
-  },
-  img03: {
-    src: galleryImg03,
-    alt: 'Cooking Class',
-    title: 'Learn Traditional Cooking Class',
-    date: '2023-03-15',
-  },
-  img04: {
-    src: galleryImg04,
-    alt: 'Cooking Class Foregin and Indian Family',
-    title: 'Cooking Class for Foreign & Indian Families',
-    date: '2023-03-15',
-  },
-  img05: {
+  {
     src: galleryImg05,
     alt: 'Foreign and Driver Sedan at Amar Fort',
     title: 'Sedan with Driver at Amar Fort for Tourists',
     date: '2023-03-15',
   },
-  img06: {
+  {
     src: galleryImg06,
     alt: 'City Palace in Jaipur',
     title: 'City Palace Jaipur Majestic Royal Architecture',
     date: '2023-03-15',
   },
-  img07: {
+  {
     src: galleryImg07,
     alt: 'Tante House Customer at Jodhpur',
     title: 'Customer Experience at Tante House, Jodhpur',
     date: '2023-03-15',
   },
-  img08: {
+  {
     src: galleryImg08,
     alt: 'Nitin Family Tour Review',
     title: 'Nitin Family Tour Photo Session in Rajasthan',
     date: '2023-03-15',
   },
-  img09: {
+  {
     src: galleryImg09,
     alt: 'Client with Sunil, the trusted driver',
     title: 'Client with Sunil, their driver for the journey',
     date: '2023-03-15',
   },
-  img10: {
+  {
     src: galleryImg10,
     alt: 'Clock tower surrounded by the market area',
     title: 'Historic clock tower in the central business district',
     date: '2023-03-15',
   },
-  img11: {
+  {
     src: galleryImg11,
     alt: 'Jhalana leopard reserve in review',
     title: 'Comprehensive review of Jhalana Leopard Reserve',
     date: '2023-03-15',
   },
-  img12: {
+  {
     src: galleryImg12,
     alt: 'kids is game popen',
     title: 'Fun and engaging games for kids at our open event',
     date: '2023-03-15',
   },
-  img13: {
+  {
     src: galleryImg13,
     alt: 'Jaisalmer War Museum in guide',
     title: "A detailed guide to the Jaisalmer War Museum's history",
     date: '2023-03-15',
   },
-  img14: {
+  {
     src: galleryImg14,
     alt: 'Temple Review',
     title: 'Fresh perspective on the visit to the temple',
     date: '2023-03-15',
   },
-  img15: {
+  {
     src: galleryImg15,
     date: '2023-03-15',
     alt: 'Family Tour',
     title: 'The number one places ideal for the best vacation with kids',
   },
-  img16: {
+  {
     src: galleryImg16,
     alt: 'Nitin Family Tour Review',
     title: "Read reviews of Nitin's memorable family tour experience",
     date: '2023-03-15',
   },
-  img17: {
-    src: galleryImg17,
-    alt: 'Cook to make raita',
-    title: 'Learn to make delicious, traditional Raita recipe',
-    date: '2023-03-15',
-  },
-  img18: {
-    src: galleryImg18,
-    alt: 'Customer visiting Udaipur',
-    title: 'Customer visiting Udaipur',
-    date: '2023-03-15',
-  },
-  img19: {
-    src: galleryImg19,
-    alt: 'Customer visiting Udaipur',
-    title: 'Customer visiting Udaipur',
-    date: '2024-08-15',
-  },
-  img20: {
-    src: galleryImg20,
+  {
+    src: '/Images/Gallery/trip-delhi-01.jpg',
     alt: 'Outdoor dining experience with foreign food',
     title: 'Customer visiting Udaipur',
-    date: '2024-08-15',
+    date: '2024-10-15',
   },
-  img21: {
-    src: galleryImg21,
-    alt: 'Cooking Class Foregin Woman',
-    title: 'Get taste of other countries here in your own backyard',
-    date: '2024-08-15',
+  {
+    src: '/Images/Gallery/trip-delhi-02.jpg',
+    alt: 'Outdoor dining experience with foreign food',
+    title: 'Customer visiting Udaipur',
+    date: '2024-10-15',
   },
-  img22: {
-    src: galleryImg22,
-    alt: 'cooking class focused on preparing raita',
-    title: 'Master the art of making raita in this cooking class',
-    date: '2024-08-15',
+  {
+    src: '/Images/Gallery/trip-delhi-03.jpg',
+    alt: 'Outdoor dining experience with foreign food',
+    title: 'Customer visiting Udaipur',
+    date: '2024-10-15',
   },
-  img23: {
-    src: galleryImg23,
-    alt: 'A cooking class in India teaching how to make chapati',
-    title: 'Learn to make authentic chapati in India',
-    date: '2024-09-28',
+  {
+    src: '/Images/Gallery/trip-delhi-04.jpg',
+    alt: 'Outdoor dining experience with foreign food',
+    title: 'Customer visiting Udaipur',
+    date: '2024-10-15',
   },
-  img24: {
-    src: galleryImg24,
-    alt: 'Participants learning to cook in a hands-on cooking class',
-    title: 'Join a fun and educational cooking class experience',
-    date: '2024-09-28',
-  },
-  img25: {
-    src: galleryImg25,
-    alt: 'Cooking Class to river',
-    title: 'Enjoy ethnic foods that are prepared by cooking by the river sides',
-    date: '2024-09-28',
-  },
-  img26: {
-    src: galleryImg26,
-    alt: 'Indian Famliy',
-    title: 'Happy Indian family bonding together in traditional',
-    date: '2024-09-28',
-  },
-};
+];
 
 // India States Images
 export const allStatesImages = {
