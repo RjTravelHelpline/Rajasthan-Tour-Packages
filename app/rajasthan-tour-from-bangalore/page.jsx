@@ -14,8 +14,8 @@ const RajasthanTourFromBangalore = () => {
   const images = [
     {
       src: allStatesImages.bangalore.bangaloreBanner.src,
-      alt: allStatesImages.bangalore.bangaloreBanner.alt,
-      title: allStatesImages.bangalore.bangaloreBanner.title,
+      alt: 'High-tech cityscape and green spaces in Bangalore',
+      title: 'Silicon Valley of India and Garden City of Bangalore',
     },
   ];
 

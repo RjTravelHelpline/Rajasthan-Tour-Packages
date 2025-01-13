@@ -53,7 +53,7 @@ const Footer = () => {
                     <Row className="d-flex justify-content-center align-items-center">
                         <div className="col-lg-6 col-sm-12 px-2 my-2 text-white footer-banner">
                             <div className='w-100 rounded-4 footer-banner-insider'>
-                                <Image width={800} height={400} quality={100} alt='Query banner' src='/Images/Banners/review-banner.jpg' className='w-100 h-100 rounded-4' style={{ objectFit: 'cover' }}
+                                <Image width={800} height={400} quality={100} alt='Travellers Visit' title='Travellers Visit with holi celebration' src='/Images/Banners/review-banner.jpg' className='w-100 h-100 rounded-4' style={{ objectFit: 'cover' }}
                                 />
                                 <div style={{ position: 'absolute', bottom: '24px', left: '24px', zIndex: '99' }}>
                                     <h3 className='text-capitalize web-title fs-1 fw-light mb-0' >Loved by <span className='fw-bold text-white'>Travelers</span></h3>
@@ -84,7 +84,7 @@ const Footer = () => {
                         </div>
                         <div className="col-lg-6 col-sm-12 px-2 my-2 text-white footer-banner">
                             <div className='w-100 rounded-4 footer-banner-insider'>
-                                <Image width={800} height={400} quality={100} alt='Query banner' src='/Images/Banners/footer-banner.jpg' className='w-100 h-100 rounded-4' style={{ objectFit: 'cover' }}
+                                <Image width={800} height={400} quality={100} alt='Rajasthan Fort' title='A Darkest view of Rajasthan Haweli' src='/Images/Banners/footer-banner.jpg' className='w-100 h-100 rounded-4' style={{ objectFit: 'cover' }}
                                 />
                                 <div style={{ position: 'absolute', bottom: '24px', left: '24px', zIndex: '99' }}>
                                     <h3 className='text-capitalize web-title fs-1 fw-light mb-0' >plan your <span className='fw-bold text-white'>perfect trip!</span></h3>

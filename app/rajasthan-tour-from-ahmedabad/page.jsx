@@ -12,8 +12,8 @@ const RajasthanPackageTourFromAhmedabad = () => {
     const images = [
         {
             src: allStatesImages.ahmedabad.ahmedabadBanner.src,
-            alt: allStatesImages.ahmedabad.ahmedabadBanner.alt,
-            title: allStatesImages.ahmedabad.ahmedabadBanner.title
+            alt: 'Atal Pedestrian Bridge in Ahmedabad',
+            title: 'Modern Atal Pedestrian Bridge in Ahmedabad'
         },
     ];
 

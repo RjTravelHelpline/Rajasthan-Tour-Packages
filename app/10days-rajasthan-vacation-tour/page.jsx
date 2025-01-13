@@ -11,7 +11,11 @@ import { FaStarOfLife } from "react-icons/fa";
 
 const TenDaysRajasthanVacationTour = () => {
     const images = [
-        { src: allCitiesImages.jaipur.jaipurHoneymoon.src }
+        {
+            src: allCitiesImages.jaipur.jaipurHoneymoon.src,
+            alt: 'honeymoon jaipur',
+            title: 'Honeymoon in Jaipur Romantic Getaway in Rajasthan'
+        }
     ];
 
     const content = [

@@ -12,7 +12,11 @@ import { FaStarOfLife } from "react-icons/fa";
 
 const EightDaysRajasthanBudgetTour = () => {
     const images = [
-        { src: allCitiesImages.jaisalmer.jaisalmerHaweli.src },
+        {
+            src: allCitiesImages.jaipur.jaipurAmber03.src,
+            alt: 'Jaipur Amber Elephant Safari',
+            title: 'View of Jaipur Amber Elephant Safari'
+        },
     ];
 
     const content = [

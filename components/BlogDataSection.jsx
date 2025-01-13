@@ -53,7 +53,8 @@ export const BlogDataSection = ({ category, Data, icon, subhead }) => {
                                                     <div className="blog-image-container w-100 mb-3">
                                                         <Image
                                                             src={blog.image}
-                                                            alt={blog.heading}
+                                                            alt={blog.alt}
+                                                            title={blog.title}
                                                             className="img-fluid"
                                                             width={800}
                                                             height={600}

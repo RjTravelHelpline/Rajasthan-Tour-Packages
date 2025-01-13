@@ -9,6 +9,8 @@ export const blogs = [
     author: 'Admin',
     image: '/Images/Blog/wildlife-banner.png',
     date: '2024-11-16',
+    alt: 'Rajasthan Wildlife Trails',
+    title: 'Explore Rajasthan Wildlife Trails - Perfect for Adventurers',
     heading: 'Rajasthan Wildlife Trails: A Paradise for Adventurers Explorers',
     slug: 'wildlife-trails-rajasthan-nature-adventures',
     metaTitle: 'Rajasthan Wildlife Trails: A Paradise for Adventurers Explorers',

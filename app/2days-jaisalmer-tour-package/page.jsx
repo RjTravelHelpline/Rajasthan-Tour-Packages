@@ -10,7 +10,11 @@ import { Table } from "react-bootstrap";
 import { FaStarOfLife } from "react-icons/fa";
 const TwoDaysJaisalmerTourPackage = () => {
     const images = [
-        { src: allCitiesImages.jaisalmer.jaisalmerHaweli.src },
+        {
+            src: allCitiesImages.jaisalmer.jaisalmerHaweli.src,
+            alt: 'Patwon Ki Haveli in jaisalmer',
+            title: 'Patwon Ki Haveli Jaisalmer - Architectural Marvel'
+        },
     ];
 
     const content = [

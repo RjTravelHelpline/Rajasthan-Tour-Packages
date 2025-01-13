@@ -808,7 +808,6 @@ export const daysPackage = [
     title: '02-04 Days',
     navigate: '/02-04-days-rajasthan-tours',
   },
-
   {
     duration: '',
     imgSrc: allCitiesImages.jaisalmer.jaisalmerHaweli.src,
@@ -823,7 +822,7 @@ export const daysPackage = [
     imgAlt: 'Jaisalmer Patwa Haweli',
     imgTitle: 'View of Jaisalmer Patawo ki Haweli',
     title: '06-10 Days',
-    navigate: '/05-07-days-rajasthan-tours',
+    navigate: '/06-10-days-rajasthan-tours',
   },
   {
     duration: '',
