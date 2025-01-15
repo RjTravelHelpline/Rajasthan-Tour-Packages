@@ -111,6 +111,12 @@ const BlogPost = ({ params }) => {
                                     {blog.more}
                                 </div>
                                 <hr />
+                                <div className="blog-conclusion">
+                                    <h3 className="web-title">Conclusion</h3>
+                                    <p>
+                                        {blog.conclusion}
+                                    </p>
+                                </div>
                                 {blog.faqs && blog.faqs.length > 0 && (
                                     <div className="blog-faqs mt-4">
                                         <h3 className="web-title">FAQs</h3>
@@ -285,6 +291,8 @@ const BlogPost = ({ params }) => {
                 </div>
             </div>
 
+
+            {/* schema scripts */}
             <Script
                 id="blog-schema"
                 type="application/ld+json"
