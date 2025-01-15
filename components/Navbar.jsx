@@ -13,7 +13,7 @@ import {
     IoMdCall,
     IoMdClose,
 } from 'react-icons/io';
-import { MdCall, MdEmail, MdOutlineClose } from 'react-icons/md';
+import { MdCall, MdEmail, MdHome, MdOutlineClose } from 'react-icons/md';
 import {
     destinationLinks,
     headerCabRentalLinks,
@@ -26,7 +26,7 @@ import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { Col, Container, Modal, Row } from 'react-bootstrap';
 import ContactForm from './ContactForm';
-import { BiChevronDown, BiPhone, BiPhoneCall, BiSolidPhoneCall } from 'react-icons/bi';
+import { BiChevronDown, BiHome, BiPhone, BiPhoneCall, BiSolidPhoneCall } from 'react-icons/bi';
 import { RiWhatsappFill } from 'react-icons/ri';
 import { IoCall, IoNavigateCircle, IoNavigateSharp } from 'react-icons/io5';
 
@@ -123,9 +123,18 @@ const Navbar = () => {
                             </p>
                         </Link>
                     </Col>
-                    <Col className="col d-flex justify-content-center align-items-center nav-links">
+                    <Col className="col d-flex justify-content-end align-items-center nav-links mx-0 px-0 gap-4">
+                        <Link href='/'><button
+                            className="d-flex justify-content-center align-items-center rounded-5 shadow-none contact-top-toggle-button bg-transparent p-2 text-white"
+                            aria-label='go socials'
+                            style={{ border: '1px solid var(--color-gray)' }}
+                        >
+                            <MdHome className="icon color-tertary" />
+
+                        </button>
+                        </Link>
                         <div className="nav-item">
-                            <span className="px-0 mx-3 py-4 text-nowrap text-uppercase anchor-link">
+                            <span className="px-0 mx-0 py-4 text-nowrap text-uppercase anchor-link">
                                 tour by days <IoIosArrowDown className="dropdown-icon" />
                             </span>
                             <div className="dropdown-menu">
@@ -149,7 +158,7 @@ const Navbar = () => {
                             </div>
                         </div>
                         <div className="nav-item">
-                            <span className="px-0 mx-3 py-4 text-nowrap text-uppercase anchor-link">
+                            <span className="px-0 mx-0 py-4 text-nowrap text-uppercase anchor-link">
                                 Tour by Cities <IoIosArrowDown className="dropdown-icon" />
                             </span>
                             <div className="dropdown-menu">
@@ -172,7 +181,7 @@ const Navbar = () => {
                             </div>
                         </div>
                         <div className="nav-item">
-                            <span className="px-0 mx-3 py-4 text-nowrap text-uppercase anchor-link">
+                            <span className="px-0 mx-0 py-4 text-nowrap text-uppercase anchor-link">
                                 Destinations <IoIosArrowDown className="dropdown-icon" />
                             </span>
                             <div className="dropdown-menu">
@@ -189,7 +198,7 @@ const Navbar = () => {
                             </div>
                         </div>
                         <div className="nav-item">
-                            <span className="px-0 mx-3 py-4 text-nowrap text-uppercase anchor-link">
+                            <span className="px-0 mx-0 py-4 text-nowrap text-uppercase anchor-link">
                                 Cab Rental <IoIosArrowDown className="dropdown-icon" />
                             </span>
                             <div className="dropdown-menu">
@@ -213,7 +222,7 @@ const Navbar = () => {
                             </div>
                         </div>
                         <div className="nav-item">
-                            <span className="px-0 mx-3 py-4 text-nowrap text-uppercase anchor-link">
+                            <span className="px-0 mx-0 py-4 text-nowrap text-uppercase anchor-link">
                                 Company <IoIosArrowDown className="dropdown-icon" />
                             </span>
                             <div className="dropdown-menu">
@@ -231,7 +240,7 @@ const Navbar = () => {
                         </div>
                     </Col>
                     <>
-                        <Col className="col d-flex justify-content-end align-items-end">
+                        <Col className="col d-flex justify-content-center align-items-center">
                             <div
                                 className={`col d-flex justify-content-end align-items-center ${!ismobile ? 'gap-2' : 'gap-1'
                                     }`}
