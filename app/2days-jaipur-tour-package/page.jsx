@@ -1,60 +1,51 @@
 'use client'
 import Breadcrumb from "@/components/Breadcrumb";
+import ContactForm from "@/components/ContactForm";
 import Faq from "@/components/Faq";
+import HeroBanner from "@/components/HeroBanner";
 import ItineraryAccordion from "@/components/ItineraryAccordion";
 import PackageAccordion from "@/components/PackageAccordion";
-import ReadMoreToggle from "@/components/ReadMore";
-import TourCarousel from "@/components/TourCarousel";
-import TourPackages from "@/components/TourPackages";
 import { _02DaysToursData } from "@/data/data";
-import { destinationCovered, packageData, tourFaq, tourHighlights, tourItinerary, tourOverview } from "@/data/Days Data/_2DaysJaipurTourData";
+import { destinationCovered, packageData, tourFaq, tourHighlights, tourItinerary, tourOverview } from "./data";
 import { allCitiesImages } from "@/data/imageData";
-import { useEffect, useState } from "react";
-import { Table } from "react-bootstrap";
-import { FaStarOfLife } from "react-icons/fa";
+import { useState } from "react";
+import { Modal, Table } from "react-bootstrap";
+import { BiChevronRight } from "react-icons/bi";
+import { FaStarOfLife, FaWhatsapp } from "react-icons/fa";
+import { IoMdClose } from "react-icons/io";
 
 
 
 const TwoDaysJaipurTourPackage = () => {
-    const [packages, setPackages] = useState([]);
+    const [show, setShow] = useState(false);
+    const [selectedPackage, setSelectedPackage] = useState('');
 
-    useEffect(() => {
-        const fetchPackages = async () => {
-            try {
-                const response = await fetch('/api/02DaysToursData');
-                const data = await response.json();
-                setPackages(data);
-            } catch (error) {
-                console.error('Error fetching packages:', error);
-            }
-        };
-
-        fetchPackages();
-    }, []);
-    const images = [
-        {
-            src: allCitiesImages.jaipur.jaipurBanner02.src,
-            alt: allCitiesImages.jaipur.jaipurBanner02.alt,
-            title: allCitiesImages.jaipur.jaipurBanner02.title,
-        },
-    ];
-
+    const handleShow = (title) => {
+        setSelectedPackage(title);
+        setShow(true);
+    }
+    const handleClose = () => setShow(false);
     const content = [
         {
-            duration: '01 nights • 02 days',
-            title: '02 days jaipur tour package',
+            title: "02 days jaipur tour package",
+            price: ""
         },
     ];
+    const messageText = `I am interested in your ${content[0].title}. Please provide more details.`;
 
+    // Encoding the message for safe URL use
+    const encodedText = encodeURIComponent(messageText);
+
+    // Constructing the WhatsApp link with the encoded text
+    const whatsappLink = `https://api.whatsapp.com/send/?phone=919166555888&text=${encodedText}&type=phone_number&app_absent=0`;
     return (
         <>
             <Breadcrumb breadcrumbKey="_2daysjaipur" />
-            {/* banner */}
-            <div className="container-fluid home-banner days-banner-container destination-banner position-relative px-0">
-                <TourCarousel images={images} content={content} />
-            </div>
+            <HeroBanner backgroundImage={allCitiesImages.jaipur.jaipurBanner02.src} slides={[
+                { heading: "02 days jaipur tour package", subheading: "01 nights • 02 days" }
+            ]} />
             {/* Tour overview */}
-            <div className="container-fluid px-0 pt-4">
+            <div className="container-fluid px-0 mt-3">
                 <div className="container days-container overview">
                     <div className="row d-flex justify-content-center align-items-center days-overview px-2">
                         <div className="col-12 col-lg-11 col-sm-12 insider px-0">
@@ -68,13 +59,18 @@ const TwoDaysJaipurTourPackage = () => {
                                     __html: tourOverview.content[0],
                                 }}
                             ></p>
-                            <ReadMoreToggle className="text-justify home-para px-3" tag="div" contentArray={tourOverview.content.slice(1)} />
+                            <p
+                                className="home-para px-3"
+                                dangerouslySetInnerHTML={{
+                                    __html: tourOverview.content.slice(1),
+                                }}
+                            ></p>
                         </div>
                     </div>
                 </div>
             </div>
             {/* Tour Highlights */}
-            <div className="container-fluid px-0 pt-4">
+            <div className="container-fluid px-0 mt-3">
                 <div className="container overview">
                     <div className="row px-2 d-flex justify-content-center align-items-center days-highlights">
                         <div className="col-12 col-lg-11 col-sm-12 insider px-0">
@@ -98,7 +94,7 @@ const TwoDaysJaipurTourPackage = () => {
                 </div>
             </div>
             {/* Travel Itinerary */}
-            <div className="container-fluid pt-4 px-0">
+            <div className="container-fluid px-0 mt-3">
                 <div className="container overview">
                     <div className="row d-flex justify-content-center align-items-center days-overview days-highlights px-2">
                         <div className="col-12 col-lg-11 col-sm-12 px-0 insider">
@@ -107,7 +103,7 @@ const TwoDaysJaipurTourPackage = () => {
                                 dangerouslySetInnerHTML={{ __html: tourItinerary.title }}
                             ></h3>
                             <div className="w-100">
-                                <p className="px-3 text-capitalize fw-bold">
+                                <p className="px-3 text-capitalize fw-bold web-title text-black">
                                     {destinationCovered.title}
                                 </p>
                             </div>
@@ -128,7 +124,7 @@ const TwoDaysJaipurTourPackage = () => {
                 </div>
             </div>
             {/* table */}
-            <div className="container-fluid pt-4 px-0">
+            <div className="container-fluid px-0 mt-3">
                 <div className="container overview">
                     <div className="row px-2 d-flex justify-content-center align-items-center package-cost">
                         <div className="col-12 col-lg-11 col-sm-12 cost-table insider px-0">
@@ -187,7 +183,7 @@ const TwoDaysJaipurTourPackage = () => {
                 </div>
             </div>
             {/* more on */}
-            <div className="container-fluid pt-4 px-0">
+            <div className="container-fluid px-0 mt-3">
                 <div className="container overview">
                     <div className="row px-2 d-flex justify-content-center align-items-center package-more">
                         <div className="col-12 col-lg-11 col-sm-12 cost-table insider px-0">
@@ -199,19 +195,8 @@ const TwoDaysJaipurTourPackage = () => {
                     </div>
                 </div>
             </div>
-
-            {/* tour packages */}
-            <div className="container-fluid pt-4 px-0">
-                <div className="container overview packages">
-                    <div className="row py-4 d-flex align-items-stretch px-2">
-                        {packages.map((pkg) => (
-                            <TourPackages key={pkg.id} pkg={pkg} />
-                        ))}
-                    </div>
-                </div>
-            </div>
             {/* faq's */}
-            <div className="container-fluid px-0 mt-4 section-03">
+            <div className="container-fluid px-0 section-03">
                 <div className="container py-5">
                     <div className="row">
                         <h3 className="mb-4 text-center">
@@ -221,6 +206,55 @@ const TwoDaysJaipurTourPackage = () => {
                     </div>
                 </div>
             </div>
+
+            {/*  */}
+            <div className="container-fluid py-4 bg-tertary">
+                <div className="container">
+                    <div className="row d-flex justify-content-center align-items-center">
+                        <div className="col-lg-6 col-sm-12 d-flex justify-content-end align-items-center gap-2 my-1 flex-column">
+                            <h4 className="web-title text-black text-capitalize mb-0 w-100">
+                                book from here
+                            </h4>
+                        </div>
+                        <div className="col-lg-6 col-sm-12 d-flex justify-content-end align-items-center gap-2 my-1">
+                            <button className="rounded-5 bg-black web-title fw-bold flex-grow-1 flex-lg-grow-0 d-flex justify-content-center align-items-center gap-1" onClick={() => handleShow(content[0].title)}>
+                                book now <BiChevronRight className="color-tertary" />
+                            </button>
+                            <a
+                                href={whatsappLink}
+                                target="_blank"
+                                className='rounded-5 p-0 whatsapp-logo'
+                                aria-label="whatsapp"
+                            >
+                                <FaWhatsapp className="fixed-footer-icon" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/* Modal for Contact Form */}
+            <Modal
+                size='lg'
+                show={show}
+                onHide={handleClose}
+                centered
+                className="contact-model w-100"
+            >
+                <Modal.Body className="model-body">
+                    <ContactForm
+                        selectedPackage={selectedPackage}
+                        onSuccess={handleClose}
+                    />
+                </Modal.Body>
+                <Modal.Footer className="d-flex justify-content-center align-items-center w-100 border-0 model-close pt-0">
+                    <button
+                        className="bg-black d-flex justify-content-center align-items-center p-3 border-0 rounded-5"
+                        onClick={handleClose}
+                    >
+                        <IoMdClose />
+                    </button>
+                </Modal.Footer>
+            </Modal>
         </>
     );
 };

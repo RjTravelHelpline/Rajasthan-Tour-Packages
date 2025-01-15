@@ -1,6 +1,5 @@
 "use client";
 import { Accordion } from "react-bootstrap";
-import { FaLightbulb } from "react-icons/fa";
 import { FaQuestion } from "react-icons/fa6";
 
 const Faq = ({ faqs }) => {
@@ -11,7 +10,7 @@ const Faq = ({ faqs }) => {
           <Accordion className="w-100">
             {faqs.map((item, index) => (
               <Accordion.Item
-                className="w-100 d-flex justify-content-between align-items-center flex-column"
+                className="w-100 d-flex justify-content-between align-items-center flex-column mb-2"
                 eventKey={index.toString()}
                 key={index}
               >

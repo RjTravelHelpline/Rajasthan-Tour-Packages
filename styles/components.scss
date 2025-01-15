@@ -2160,53 +2160,28 @@ p {
       padding-block: 16px;
       border-radius: 16px;
       box-shadow: 0 24px 24px rgba(0, 0, 0, 0.13);
-      h2 {
-        padding-block: 16px;
-        font-weight: 500;
-        background-color: var(--color-tertary-down);
-        color: var(--color-black);
-        border-top-left-radius: 16px;
-        border-top-right-radius: 16px;
-        position: relative;
-        overflow: hidden;
-        font-size: clamp(1.2em, 2vw, 1.4em) !important;
-        &::after {
-          content: '';
-          height: 12px;
-          width: 40px;
-          position: absolute;
-          top: 0;
-          left: 50%;
-          right: 50%;
-          transform: translate(-50%, -50%);
-          background-color: var(--color-tertary);
-          border-bottom-left-radius: 8px;
-          border-bottom-right-radius: 8px;
-        }
-      }
       > h3 {
         padding-block: 16px;
-        font-weight: 500;
+        font-weight: bold;
         background-color: var(--color-tertary-down);
         color: var(--color-black);
         border-top-left-radius: 16px;
         border-top-right-radius: 16px;
+        font-family: var(--font-raleway) !important;
         position: relative;
         overflow: hidden;
         text-transform: capitalize !important;
         font-size: clamp(1.4em, 2vw, 1.65em) !important;
         &::after {
           content: '';
-          height: 12px;
+          height: 2px;
           width: 40px;
           position: absolute;
-          top: 0;
+          bottom: 0;
           left: 50%;
           right: 50%;
           transform: translate(-50%, -50%);
           background-color: var(--color-tertary);
-          border-bottom-left-radius: 8px;
-          border-bottom-right-radius: 8px;
         }
       }
       .highlight-more-btn {
@@ -2230,13 +2205,27 @@ p {
   margin-block: 6px !important;
 }
 .itinerary-end {
-  background-color: var(--color-tertary-down);
-  padding: 4px 16px;
-  border-top-right-radius: 999px;
-  border-bottom-right-radius: 999px;
-  font-weight: 500;
+  position: relative;
+  width: 100% !important;
+  margin-top: 16px;
+  text-align: right;
+  font-style: italic;
+  background: linear-gradient(-45deg, var(--color-tertary-down), transparent);
+  padding: 24px;
+  color: var(--color-black);
+  font-family: var(--font-raleway) !important;
+  border-radius: 16px;
+  font-weight: bold;
+  &:after {
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    bottom: 0;
+    right: 24px;
+    background-color: var(--color-tertary);
+  }
 }
-
 // days banner
 .days-banner-container {
   width: 100% !important;
@@ -2665,9 +2654,9 @@ p {
     right: 0;
     bottom: 0;
     background: linear-gradient(
-      45deg,
-      rgb(0, 0, 0),
-      rgba(0, 0, 0, 0.555),
+      to top,
+      rgba(0, 0, 0, 0.877),
+      rgba(0, 0, 0, 0.404),
       rgba(0, 0, 0, 0.25)
     );
     z-index: -1;
@@ -2675,12 +2664,13 @@ p {
   }
   h1,
   h2 {
-    text-align: left !important;
+    width: 100%;
+    text-align: center !important;
     color: var(--color-primary) !important;
   }
   h2 {
     color: var(--color-primary) !important;
-    opacity: 0.9;
+    opacity: 0.7;
     position: relative;
     &::before {
       content: '';
@@ -2688,7 +2678,8 @@ p {
       height: 2px;
       position: absolute;
       top: 0;
-      left: 0;
+      left: 50%;
+      transform: translateX(-50%);
       background-color: var(--color-tertary);
     }
   }
@@ -2776,5 +2767,22 @@ p {
   }
   100% {
     background-position: 200px 0;
+  }
+}
+
+.whatsapp-logo {
+  display: flex;
+  justify-content: center;
+  padding: 12px !important;
+  transition: all 0.25s ease-in;
+  background-color: var(--color-primary) !important;
+  background-color: #01e776 !important;
+  box-shadow: var(--color-shadow);
+  align-items: center;
+  border-radius: 999px !important;
+  font-size: 1.55em !important;
+  &:hover {
+    color: var(--color-primary) !important;
+    background-color: var(--color-black) !important;
   }
 }

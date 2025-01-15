@@ -167,9 +167,9 @@ body li {
 
 // Browser scroller bar
 ::-webkit-scrollbar-thumb {
-  background-color: var(--color-tertary) !important;
+  background-color: var(--color-black) !important;
   border-radius: 999px;
-  // display: none;
+  display: none;
 }
 
 ::-webkit-scrollbar-button {
@@ -184,9 +184,9 @@ body li {
 
 ::-webkit-scrollbar {
   // display: none;
-  width: 4px;
-  max-width: 4px;
-  max-height: 4px;
+  width: 2px;
+  max-width: 2px;
+  max-height: 2px;
 }
 .section-01 {
   background: linear-gradient(
@@ -347,13 +347,12 @@ body {
   overflow-x: auto;
   display: flex !important; /* Ensure flexbox behavior */
   flex-wrap: nowrap !important; /* Prevent wrapping of items */
-  // @media screen and (max-width: 768px) {
-  //   display: none !important;
-  // }
+  @media screen and (max-width: 768px) {
+    display: none !important;
+  }
   &::-webkit-scrollbar-thumb {
     display: none;
   }
-
   a {
     font-size: var(--font-size-bread) !important;
     color: var(--color-tertary) !important;
@@ -439,6 +438,9 @@ body {
     @media screen and (max-width: 768px) {
       margin-inline: 1px !important;
     }
+  }
+  @media screen and (max-width: 768px) {
+    display: none !important;
   }
 }
 
@@ -650,7 +652,7 @@ body {
 }
 
 .text-web {
-  color: var(--color-black);
+  color: var(--color-tertary);
   font-weight: bold;
   text-decoration: underline;
   &:hover {
@@ -667,8 +669,9 @@ table {
     padding: 12px !important;
     color: var(--color-tertary) !important;
     font-weight: bold;
-    text-transform: uppercase;
-    font-family: var(--font-head);
+    text-transform: capitalize;
+    font-family: var(--font-raleway);
+    font-size: clamp(0.8em, 2vw, 1em) !important;
   }
   td {
     font-family: var(--font-head);
@@ -688,15 +691,7 @@ table {
 
 .table {
   border-radius: 16px !important;
-  min-width: 500px;
-}
-.rounded-table {
-  border-radius: 16px; /* Adjust for desired roundness */
-  // overflow: hidden; /* Ensures content doesn't overflow the rounded edges */
-}
-
-.table-rounded {
-  border-radius: 10px; /* Rounds the table itself */
+  min-width: 800px;
 }
 
 // accordion body

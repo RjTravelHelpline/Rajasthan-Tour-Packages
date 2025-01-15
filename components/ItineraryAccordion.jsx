@@ -9,7 +9,7 @@ const ItineraryAccordion = ({ tourItinerary, style, stylePara, showIcon = false,
                 return (
 
                     <Accordion.Item
-                        className="w-100 d-flex flex-column accord-item mb-3"
+                        className="w-100 d-flex flex-column accord-item mb-2"
                         eventKey={index.toString()}
                         key={index}
                     >
@@ -20,7 +20,7 @@ const ItineraryAccordion = ({ tourItinerary, style, stylePara, showIcon = false,
                                 </span>
                             )}
                             <div className="d-flex flex-column">
-                                <h3 className={`mb-0 accordion-question fw-normal web-title fw-bold text-uppercase w-100 itinerary-title  ${style}`}>
+                                <h3 className={`mb-0 accordion-question fw-normal web-title fw-bold text-capitalize w-100 itinerary-title  ${style}`}>
                                     {item.day}
                                 </h3>
                                 <p className={`d-block w-100 fw-normal text-black web-title mb-0 ${stylePara}`}>
@@ -30,7 +30,7 @@ const ItineraryAccordion = ({ tourItinerary, style, stylePara, showIcon = false,
                         </Accordion.Header>
                         <Accordion.Body className="w-100 p-2">
                             <p
-                                className="w-100 d-flex flex-column justify-content-start align-items-start mb-0 px-2 py-0 accordion-answer"
+                                className="w-100 d-flex flex-column justify-content-start align-items-start mb-0 px-2 py-0 accordion-answer text-black"
                                 dangerouslySetInnerHTML={{ __html: item.content }}
                             />
                             {more && (

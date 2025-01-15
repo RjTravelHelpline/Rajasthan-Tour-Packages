@@ -484,7 +484,7 @@ const Footer = () => {
                                     mail@rajasthantravelhelpline.com
                                 </span>
                             </a>
-                            <p className='text-lowercase d-flex justify-content-center align-items-center mb-0'>
+                            <p className='text-lowercase d-flex justify-content-center align-items-start mb-0 font-min'>
                                 <FaLocationDot className='color-tertary me-2 opacity-75 fs-4' />
                                 <span className='text-white opacity-75 me-2 text-capitalize web-title'>
                                     Office:
