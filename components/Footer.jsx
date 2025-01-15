@@ -22,6 +22,7 @@ import { MdContactSupport, MdMail } from 'react-icons/md';
 import { BsArrowUpRightCircleFill } from 'react-icons/bs';
 import { AiFillSafetyCertificate } from 'react-icons/ai';
 import { CgInsights } from "react-icons/cg";
+import { FaLocationDot } from 'react-icons/fa6';
 
 const Footer = () => {
 
@@ -483,6 +484,15 @@ const Footer = () => {
                                     mail@rajasthantravelhelpline.com
                                 </span>
                             </a>
+                            <p className='text-lowercase d-flex justify-content-center align-items-center mb-0'>
+                                <FaLocationDot className='color-tertary me-2 opacity-75 fs-4' />
+                                <span className='text-white opacity-75 me-2 text-capitalize web-title'>
+                                    Office:
+                                </span>
+                                <span className='text-white fw-light opacity-75 text-capitalize'>
+                                    G-18, City Plaza, Bani Park, Jaipur - 302016 (Rajasthan, India)
+                                </span>
+                            </p>
                         </div>
                         <div className="col-12">
                             <hr />
