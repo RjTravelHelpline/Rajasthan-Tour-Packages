@@ -48,17 +48,13 @@ const FiveDaysGoldenTriangleTour = () => {
 
     const content = [
         {
-            duration: '04 nights • 05 days',
-            title: '05 Days Golden Triangle Tour',
+            subheading: '04 nights • 05 days',
+            heading: '05 Days Golden Triangle Tour',
         },
     ];
-    const messageText = `I am interested in your ${content[0].title}. Please provide more details.`;
-
-    // Encoding the message for safe URL use
-    const encodedText = encodeURIComponent(messageText);
 
     // Constructing the WhatsApp link with the encoded text
-    const whatsappLink = `https://api.whatsapp.com/send/?phone=919166555888&text=${encodedText}&type=phone_number&app_absent=0`;
+    const whatsappLink = `https://api.whatsapp.com/send/?phone=919166555888&text=${content[0].heading}&type=phone_number&app_absent=0`;
 
 
     return (
@@ -66,9 +62,7 @@ const FiveDaysGoldenTriangleTour = () => {
 
             <Breadcrumb breadcrumbKey="_5daysgoldentriangletour" />
             {/* banner */}
-            <HeroBanner backgroundImage='/Images/Banners/golden-triangle-tour.jpg' slides={[
-                { heading: "05 Days Golden Triangle Tour", subheading: "04 nights • 05 days" }
-            ]} />
+            <HeroBanner backgroundImage='/Images/Banners/golden-triangle-tour.jpg' slides={content} />
             {/* Tour overview */}
             <div className="container-fluid px-0 mt-3">
                 <div className="container days-container overview">
@@ -213,6 +207,7 @@ const FiveDaysGoldenTriangleTour = () => {
                     </div>
                 </div>
             </div>
+            {/* packages */}
             <div className="container-fluid px-0 mt-3">
                 <div className="container overview">
                     <div className="row px-2 d-flex justify-content-center align-items-center package-more">
@@ -240,6 +235,7 @@ const FiveDaysGoldenTriangleTour = () => {
                     </div>
                 </div>
             </div>
+            {/* booking form */}
             <div className="d-flex justify-content-center align-items-center gap-1 my-1 package-book p-1 rounded-5">
                 <button className="rounded-5 bg-tertary web-title fw-bold d-flex justify-content-center align-items-center gap-1" onClick={() => handleShow(content[0].title)}>
                     book now <BiChevronRight className="text-black" />

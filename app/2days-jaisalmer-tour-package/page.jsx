@@ -1,39 +1,63 @@
+'use client'
 import Breadcrumb from "@/components/Breadcrumb";
 import Faq from "@/components/Faq";
+import HeroBanner from "@/components/HeroBanner";
 import ItineraryAccordion from "@/components/ItineraryAccordion";
 import PackageAccordion from "@/components/PackageAccordion";
-import ReadMoreToggle from "@/components/ReadMore";
-import TourCarousel from "@/components/TourCarousel";
-import { destinationCovered, packageData, tourFaq, tourHighlights, tourItinerary, tourOverview } from "@/data/Days Data/_2DaysJaisalmerTourData";
-import { allCitiesImages } from "@/data/imageData";
-import { Table } from "react-bootstrap";
-import { FaStarOfLife } from "react-icons/fa";
-const TwoDaysJaisalmerTourPackage = () => {
-    const images = [
-        {
-            src: allCitiesImages.jaisalmer.jaisalmerHaweli.src,
-            alt: 'Patwon Ki Haveli in jaisalmer',
-            title: 'Patwon Ki Haveli Jaisalmer - Architectural Marvel'
-        },
-    ];
+import { destinationCovered, packageData, tourFaq, tourHighlights, tourItinerary, tourOverview } from "./data";
+import { Modal, Table } from "react-bootstrap";
+import { FaStarOfLife, FaWhatsapp } from "react-icons/fa";
+import { useEffect, useState } from "react";
+import TourPackages from "@/components/TourPackages";
+import ContactForm from "@/components/ContactForm";
+import { IoMdClose } from "react-icons/io";
+import { BiChevronRight } from "react-icons/bi";
+const Page = () => {
+    const [show, setShow] = useState(false);
+    const [selectedPackage, setSelectedPackage] = useState('');
+    const [packages, setPackages] = useState([]);
 
+    useEffect(() => {
+        const fetchPackages = async () => {
+            try {
+                const response = await fetch('/api/allTourPackages');
+                const data = await response.json();
+                setPackages(data);
+            } catch (error) {
+                console.error('Error fetching packages:', error);
+            }
+        };
+
+        fetchPackages();
+    }, []);
+
+    const _02Days = packages.filter(
+        (pkg) =>
+            pkg.nights === 1 &&
+            pkg.days === 2 &&
+            pkg.title !== 'Jaisalmer Tour Package'
+    );
+
+
+    const handleShow = (title) => {
+        setSelectedPackage(title);
+        setShow(true);
+    }
+    const handleClose = () => setShow(false);
     const content = [
         {
-            duration: '01 nights • 02 days',
-            title: '02 days jaisalmer tour package',
+            subheading: '01 night • 02 days',
+            heading: '02 days jaisalmer tour package',
         },
     ];
+    const whatsappLink = `https://api.whatsapp.com/send/?phone=919166555888&text=${content[0].heading}&type=phone_number&app_absent=0`;
     return (
         <>
             <Breadcrumb breadcrumbKey="_2daysjaisalmer" />
             {/* banner */}
-            <div className="container-fluid home-banner days-banner-container destination-banner position-relative px-0">
-                <div className="container-fluid home-banner days-banner-container destination-banner position-relative px-0">
-                    <TourCarousel images={images} content={content} />
-                </div>
-            </div>
+            <HeroBanner backgroundImage='/Images/Banners/jaisalmer-tour.jpg' slides={content} />
             {/* Tour overview */}
-            <div className="container-fluid px-0 pt-4">
+            <div className="container-fluid px-0 mt-3">
                 <div className="container days-container overview">
                     <div className="row d-flex justify-content-center align-items-center days-overview px-2">
                         <div className="col-12 col-lg-11 col-sm-12 insider px-0">
@@ -41,19 +65,17 @@ const TwoDaysJaisalmerTourPackage = () => {
                                 className="text-capitalize px-3 mb-3 text-center fw-normal"
                                 dangerouslySetInnerHTML={{ __html: tourOverview.title }}
                             ></h3>
-                            <p
-                                className="home-para px-3"
-                                dangerouslySetInnerHTML={{
-                                    __html: tourOverview.content[0],
-                                }}
-                            ></p>
-                            <ReadMoreToggle className="text-justify home-para px-3" tag="div" contentArray={tourOverview.content.slice(1)} />
+                            <div
+                                className="text-justify px-3"
+                            >
+                                {tourOverview.content}
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             {/* Tour Highlights */}
-            <div className="container-fluid px-0 pt-4">
+            <div className="container-fluid px-0 mt-3">
                 <div className="container overview">
                     <div className="row px-2 d-flex justify-content-center align-items-center days-highlights">
                         <div className="col-12 col-lg-11 col-sm-12 insider px-0">
@@ -77,7 +99,7 @@ const TwoDaysJaisalmerTourPackage = () => {
                 </div>
             </div>
             {/* Travel Itinerary */}
-            <div className="container-fluid pt-4 px-0">
+            <div className="container-fluid px-0 mt-3">
                 <div className="container overview">
                     <div className="row d-flex justify-content-center align-items-center days-overview days-highlights px-2">
                         <div className="col-12 col-lg-11 col-sm-12 px-0 insider">
@@ -107,7 +129,7 @@ const TwoDaysJaisalmerTourPackage = () => {
                 </div>
             </div>
             {/* table */}
-            <div className="container-fluid pt-4 px-0">
+            <div className="container-fluid px-0 mt-3">
                 <div className="container overview">
                     <div className="row px-2 d-flex justify-content-center align-items-center package-cost">
                         <div className="col-12 col-lg-11 col-sm-12 cost-table insider px-0">
@@ -163,7 +185,7 @@ const TwoDaysJaisalmerTourPackage = () => {
                 </div>
             </div>
             {/* more on */}
-            <div className="container-fluid pt-4 px-0">
+            <div className="container-fluid px-0 mt-3">
                 <div className="container overview">
                     <div className="row px-2 d-flex justify-content-center align-items-center package-more">
                         <div className="col-12 col-lg-11 col-sm-12 cost-table insider px-0">
@@ -171,6 +193,23 @@ const TwoDaysJaisalmerTourPackage = () => {
                                 more <span className="fw-bold">on</span>
                             </h3>
                             <PackageAccordion packageData={packageData} />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/* packages */}
+            <div className="container-fluid px-0 mt-3">
+                <div className="container overview">
+                    <div className="row px-2 d-flex justify-content-center align-items-center package-more">
+                        <div className="col-12 col-lg-11 col-sm-12 cost-table insider px-0 packages">
+                            <h3 className="text-capitalize px-3 text-center fw-normal mb-2">
+                                similiar <span className="fw-bold">packages</span>
+                            </h3>
+                            <div className="py-2 d-flex align-items-stretch flex-wrap px-2">
+                                {_02Days.map((pkg, index) => (
+                                    <TourPackages key={index} pkg={pkg} />
+                                ))}
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -186,7 +225,44 @@ const TwoDaysJaisalmerTourPackage = () => {
                     </div>
                 </div>
             </div>
+
+            <div className="d-flex justify-content-center align-items-center gap-1 my-1 package-book p-1 rounded-5">
+                <button className="rounded-5 bg-tertary web-title fw-bold d-flex justify-content-center align-items-center gap-1" onClick={() => handleShow(content[0].heading)}>
+                    book now <BiChevronRight className="text-black" />
+                </button>
+                <a
+                    href={whatsappLink}
+                    target="_blank"
+                    className='rounded-5 whatsapp-logo'
+                    aria-label="whatsapp"
+                >
+                    <FaWhatsapp />
+                </a>
+            </div>
+            {/* Modal for Contact Form */}
+            <Modal
+                size='lg'
+                show={show}
+                onHide={handleClose}
+                centered
+                className="contact-model w-100"
+            >
+                <Modal.Body className="model-body">
+                    <ContactForm
+                        selectedPackage={selectedPackage}
+                        onSuccess={handleClose}
+                    />
+                </Modal.Body>
+                <Modal.Footer className="d-flex justify-content-center align-items-center w-100 border-0 model-close pt-0">
+                    <button
+                        className="bg-black d-flex justify-content-center align-items-center p-3 border-0 rounded-5"
+                        onClick={handleClose}
+                    >
+                        <IoMdClose />
+                    </button>
+                </Modal.Footer>
+            </Modal>
         </>
     );
 };
-export default TwoDaysJaisalmerTourPackage
+export default Page

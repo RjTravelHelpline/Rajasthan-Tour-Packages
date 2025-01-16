@@ -7,7 +7,6 @@ import ItineraryAccordion from "@/components/ItineraryAccordion";
 import PackageAccordion from "@/components/PackageAccordion";
 import { _02DaysToursData } from "@/data/data";
 import { destinationCovered, packageData, tourFaq, tourHighlights, tourItinerary, tourOverview } from "./data";
-import { allCitiesImages } from "@/data/imageData";
 import { useEffect, useState } from "react";
 import { Modal, Table } from "react-bootstrap";
 import { BiChevronRight } from "react-icons/bi";
@@ -17,7 +16,7 @@ import TourPackages from "@/components/TourPackages";
 
 
 
-const TwoDaysJaipurTourPackage = () => {
+const Page = () => {
     const [show, setShow] = useState(false);
     const [selectedPackage, setSelectedPackage] = useState('');
     const [packages, setPackages] = useState([]);
@@ -51,17 +50,13 @@ const TwoDaysJaipurTourPackage = () => {
     const handleClose = () => setShow(false);
     const content = [
         {
-            title: "02 days jaipur tour package",
-            price: ""
+            subheading: '01 night • 02 days',
+            heading: "02 days jaipur tour package",
         },
     ];
-    const messageText = `I am interested in your ${content[0].title}. Please provide more details.`;
-
-    // Encoding the message for safe URL use
-    const encodedText = encodeURIComponent(messageText);
 
     // Constructing the WhatsApp link with the encoded text
-    const whatsappLink = `https://api.whatsapp.com/send/?phone=919166555888&text=${encodedText}&type=phone_number&app_absent=0`;
+    const whatsappLink = `https://api.whatsapp.com/send/?phone=919166555888&text=${content[0].heading}&type=phone_number&app_absent=0`;
     return (
         <>
             <Breadcrumb breadcrumbKey="_2daysjaipur" />
@@ -212,6 +207,7 @@ const TwoDaysJaipurTourPackage = () => {
                     </div>
                 </div>
             </div>
+            {/* packages */}
             <div className="container-fluid px-0 mt-3">
                 <div className="container overview">
                     <div className="row px-2 d-flex justify-content-center align-items-center package-more">
@@ -239,6 +235,7 @@ const TwoDaysJaipurTourPackage = () => {
                     </div>
                 </div>
             </div>
+            {/* booking form */}
             <div className="d-flex justify-content-center align-items-center gap-1 my-1 package-book p-1 rounded-5">
                 <button className="rounded-5 bg-tertary web-title fw-bold d-flex justify-content-center align-items-center gap-1" onClick={() => handleShow(content[0].title)}>
                     book now <BiChevronRight className="text-black" />
@@ -278,4 +275,4 @@ const TwoDaysJaipurTourPackage = () => {
         </>
     );
 };
-export default TwoDaysJaipurTourPackage
+export default Page

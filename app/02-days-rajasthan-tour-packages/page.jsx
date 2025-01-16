@@ -46,7 +46,7 @@ const TwoDaysRajasthanTourPackages = () => {
   return (
     <>
       <Breadcrumb breadcrumbKey="_02Days" />
-      <HeroBanner backgroundImage='/Images/Blog/rajasthan-desert-visit.jpg' slides={content} />
+      <HeroBanner backgroundImage='/Images/Banners/02days-rajasthan-tour.jpg' slides={content} />
 
       <div className="container-fluid px-0 mt-3">
         <div className="container days-container overview">

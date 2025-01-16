@@ -1,19 +1,57 @@
+'use client'
 import Breadcrumb from "@/components/Breadcrumb";
 import Faq from "@/components/Faq";
 import ItineraryAccordion from "@/components/ItineraryAccordion";
 import PackageAccordion from "@/components/PackageAccordion";
 import { destinationCovered, packageData, tourFaq, tourHighlights, tourItinerary, tourOverview } from "./data";
-import { Table } from "react-bootstrap";
-import { FaStarOfLife } from "react-icons/fa";
+import { Modal, Table } from "react-bootstrap";
+import { FaStarOfLife, FaWhatsapp } from "react-icons/fa";
 import HeroBanner from "@/components/HeroBanner";
+import { useEffect, useState } from "react";
+import TourPackages from "@/components/TourPackages";
+import ContactForm from "@/components/ContactForm";
+import { IoMdClose } from "react-icons/io";
+import { BiChevronRight } from "react-icons/bi";
 
-const ThreeDaysJaipurPushkarPackageTour = () => {
+const Page = () => {
+    const [show, setShow] = useState(false);
+    const [selectedPackage, setSelectedPackage] = useState('');
+    const [packages, setPackages] = useState([]);
+
+    useEffect(() => {
+        const fetchPackages = async () => {
+            try {
+                const response = await fetch('/api/allTourPackages');
+                const data = await response.json();
+                setPackages(data);
+            } catch (error) {
+                console.error('Error fetching packages:', error);
+            }
+        };
+
+        fetchPackages();
+    }, []);
+
+    const _03Days = packages.filter(
+        (pkg) =>
+            pkg.nights === 2 &&
+            pkg.days === 3 &&
+            pkg.title !== 'Jaipur Ajmer Pushkar Tour'
+    );
+
+
+    const handleShow = (title) => {
+        setSelectedPackage(title);
+        setShow(true);
+    }
+    const handleClose = () => setShow(false);
     const content = [
         {
             subheading: '02 nights • 03 days',
             heading: '03 Days Jaipur Ajmer Pushkar Tour',
         },
     ];
+    const whatsappLink = `https://api.whatsapp.com/send/?phone=919166555888&text=${content[0].heading}&type=phone_number&app_absent=0`;
 
     return (
         <>
@@ -159,6 +197,23 @@ const ThreeDaysJaipurPushkarPackageTour = () => {
                     </div>
                 </div>
             </div>
+            {/* packages */}
+            <div className="container-fluid px-0 mt-3">
+                <div className="container overview">
+                    <div className="row px-2 d-flex justify-content-center align-items-center package-more">
+                        <div className="col-12 col-lg-11 col-sm-12 cost-table insider px-0 packages">
+                            <h3 className="text-capitalize px-3 text-center fw-normal mb-2">
+                                similiar <span className="fw-bold">packages</span>
+                            </h3>
+                            <div className="py-2 d-flex align-items-stretch flex-wrap px-2">
+                                {_03Days.map((pkg, index) => (
+                                    <TourPackages key={index} pkg={pkg} />
+                                ))}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             {/* faq's */}
             <div className="container-fluid px-0 mt-3 section-03">
                 <div className="container py-5">
@@ -170,7 +225,44 @@ const ThreeDaysJaipurPushkarPackageTour = () => {
                     </div>
                 </div>
             </div>
+            {/* Book Form */}
+            <div className="d-flex justify-content-center align-items-center gap-1 my-1 package-book p-1 rounded-5">
+                <button className="rounded-5 bg-tertary web-title fw-bold d-flex justify-content-center align-items-center gap-1" onClick={() => handleShow(content[0].heading)}>
+                    book now <BiChevronRight className="text-black" />
+                </button>
+                <a
+                    href={whatsappLink}
+                    target="_blank"
+                    className='rounded-5 whatsapp-logo'
+                    aria-label="whatsapp"
+                >
+                    <FaWhatsapp />
+                </a>
+            </div>
+            {/* Modal for Contact Form */}
+            <Modal
+                size='lg'
+                show={show}
+                onHide={handleClose}
+                centered
+                className="contact-model w-100"
+            >
+                <Modal.Body className="model-body">
+                    <ContactForm
+                        selectedPackage={selectedPackage}
+                        onSuccess={handleClose}
+                    />
+                </Modal.Body>
+                <Modal.Footer className="d-flex justify-content-center align-items-center w-100 border-0 model-close pt-0">
+                    <button
+                        className="bg-black d-flex justify-content-center align-items-center p-3 border-0 rounded-5"
+                        onClick={handleClose}
+                    >
+                        <IoMdClose />
+                    </button>
+                </Modal.Footer>
+            </Modal>
         </>
     );
 };
-export default ThreeDaysJaipurPushkarPackageTour
+export default Page
