@@ -1115,7 +1115,7 @@
 }
 .slide-arrow-disabled {
   cursor: not-allowed !important;
-  background-color: var(--color-gray) !important;
+  background-color: transparent !important;
   &:hover {
     background-color: inherit !important;
     color: inherit !important;
@@ -2087,6 +2087,7 @@ p {
     p {
       width: auto;
       text-wrap: nowrap;
+      margin-bottom: 0 !important;
       font-size: clamp(0.65em, 1.1vw, 0.85em) !important;
       width: auto !important;
       padding: 6px 14px;

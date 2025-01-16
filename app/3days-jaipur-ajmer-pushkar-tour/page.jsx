@@ -1,28 +1,17 @@
-
 import Breadcrumb from "@/components/Breadcrumb";
 import Faq from "@/components/Faq";
 import ItineraryAccordion from "@/components/ItineraryAccordion";
 import PackageAccordion from "@/components/PackageAccordion";
-import ReadMoreToggle from "@/components/ReadMore";
-import TourCarousel from "@/components/TourCarousel";
-import { destinationCovered, packageData, tourFaq, tourHighlights, tourItinerary, tourOverview } from "@/data/Days Data/_3DaysJaipurAjmerPushkarTourData";
-import { allCitiesImages } from "@/data/imageData";
+import { destinationCovered, packageData, tourFaq, tourHighlights, tourItinerary, tourOverview } from "./data";
 import { Table } from "react-bootstrap";
 import { FaStarOfLife } from "react-icons/fa";
+import HeroBanner from "@/components/HeroBanner";
 
 const ThreeDaysJaipurPushkarPackageTour = () => {
-    const images = [
-        {
-            src: allCitiesImages.jaipur.jaipurAlberthall.src,
-            alt: allCitiesImages.jaipur.jaipurAlberthall.alt,
-            title: allCitiesImages.jaipur.jaipurAlberthall.title,
-        },
-    ];
-
     const content = [
         {
-            duration: '02 nights • 03 days',
-            title: '03 Days Jaipur Ajmer Pushkar Tour',
+            subheading: '02 nights • 03 days',
+            heading: '03 Days Jaipur Ajmer Pushkar Tour',
         },
     ];
 
@@ -30,13 +19,9 @@ const ThreeDaysJaipurPushkarPackageTour = () => {
         <>
             <Breadcrumb breadcrumbKey="_3daysjaipurajmerpushkartour" />
             {/* banner */}
-            <div className="container-fluid home-banner days-banner-container destination-banner position-relative px-0">
-                <div className="container-fluid home-banner days-banner-container destination-banner position-relative px-0">
-                    <TourCarousel images={images} content={content} />
-                </div>
-            </div>
+            <HeroBanner backgroundImage='/Images/Banners/jaipur-ajmer-pushkar-tour.jpg' slides={content} />
             {/* Tour overview */}
-            <div className="container-fluid px-0 pt-4">
+            <div className="container-fluid px-0 mt-3">
                 <div className="container days-container overview">
                     <div className="row d-flex justify-content-center align-items-center days-overview px-2">
                         <div className="col-12 col-lg-11 col-sm-12 insider px-0">
@@ -46,17 +31,13 @@ const ThreeDaysJaipurPushkarPackageTour = () => {
                             ></h3>
                             <p
                                 className="home-para px-3"
-                                dangerouslySetInnerHTML={{
-                                    __html: tourOverview.content[0],
-                                }}
-                            ></p>
-                            <ReadMoreToggle className="text-justify home-para px-3" tag="div" contentArray={tourOverview.content.slice(1)} />
+                            >{tourOverview.content}</p>
                         </div>
                     </div>
                 </div>
             </div>
             {/* Tour Highlights */}
-            <div className="container-fluid px-0 pt-4">
+            <div className="container-fluid px-0 mt-3">
                 <div className="container overview">
                     <div className="row px-2 d-flex justify-content-center align-items-center days-highlights">
                         <div className="col-12 col-lg-11 col-sm-12 insider px-0">
@@ -67,7 +48,7 @@ const ThreeDaysJaipurPushkarPackageTour = () => {
                             <div className="w-100 px-2 days-highlights-pts">
                                 {tourHighlights.content
                                     .map((item, index) => (
-                                        <p className="home-para px-2 py-1 bg-white" key={index}>
+                                        <p className="px-2 py-1 bg-white" key={index}>
                                             <span className="me-2">
                                                 <FaStarOfLife className="icon" />
                                             </span>
@@ -80,7 +61,7 @@ const ThreeDaysJaipurPushkarPackageTour = () => {
                 </div>
             </div>
             {/* Travel Itinerary */}
-            <div className="container-fluid pt-4 px-0">
+            <div className="container-fluid px-0 mt-3">
                 <div className="container overview">
                     <div className="row d-flex justify-content-center align-items-center days-overview days-highlights px-2">
                         <div className="col-12 col-lg-11 col-sm-12 px-0 insider">
@@ -110,7 +91,7 @@ const ThreeDaysJaipurPushkarPackageTour = () => {
                 </div>
             </div>
             {/* table */}
-            <div className="container-fluid pt-4 px-0">
+            <div className="container-fluid px-0 mt-3">
                 <div className="container overview">
                     <div className="row px-2 d-flex justify-content-center align-items-center package-cost">
                         <div className="col-12 col-lg-11 col-sm-12 cost-table insider px-0">
@@ -166,7 +147,7 @@ const ThreeDaysJaipurPushkarPackageTour = () => {
                 </div>
             </div>
             {/* more on */}
-            <div className="container-fluid pt-4 px-0">
+            <div className="container-fluid px-0 mt-3">
                 <div className="container overview">
                     <div className="row px-2 d-flex justify-content-center align-items-center package-more">
                         <div className="col-12 col-lg-11 col-sm-12 cost-table insider px-0">
@@ -179,7 +160,7 @@ const ThreeDaysJaipurPushkarPackageTour = () => {
                 </div>
             </div>
             {/* faq's */}
-            <div className="container-fluid px-0 mt-4 section-03">
+            <div className="container-fluid px-0 mt-3 section-03">
                 <div className="container py-5">
                     <div className="row">
                         <h3 className="mb-4 text-center">

@@ -1,5 +1,8 @@
 "use client"
+import Link from "next/link";
 import PackagesSlider from "./PackagesSlider";
+import { BiChevronRight } from "react-icons/bi";
+import { MdArrowOutward, MdOutlineArrowForward } from "react-icons/md";
 
 export const TourPackageSection = ({ days, tourData }) => {
     return (
@@ -17,8 +20,16 @@ export const TourPackageSection = ({ days, tourData }) => {
                                 </h3>
                             </div>
                         </div>
-                        <div className="row py-4 d-flex justify-content-center px-2">
+                        <div className="row py-4 d-flex justify-content-center px-0">
                             <PackagesSlider exploreAll={false} packages={tourData} href='/' />
+                            <div className="col-12 d-flex px-2 justify-content-center align-items-center gap-2">
+                                <hr className="w-25" />
+                                <Link href={`/${days}-days-rajasthan-tour-packages`} className="text-capitalize fw-normal web-title text-black d-flex align-items-center gap-1 bg-tertary-down rounded-5 p-2 px-3 fw-bold">
+                                    <span>explore all</span>
+                                    <MdArrowOutward className="color-tertary" />
+                                </Link>
+                                <hr className="w-25" />
+                            </div>
                         </div>
                     </div>
                 </div>
