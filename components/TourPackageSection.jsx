@@ -1,8 +1,7 @@
 "use client"
 import Link from "next/link";
 import PackagesSlider from "./PackagesSlider";
-import { BiChevronRight } from "react-icons/bi";
-import { MdArrowOutward, MdOutlineArrowForward } from "react-icons/md";
+import { MdArrowOutward } from "react-icons/md";
 
 export const TourPackageSection = ({ days, tourData }) => {
     return (

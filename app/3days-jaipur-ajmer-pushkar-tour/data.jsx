@@ -58,7 +58,7 @@ export const tourOverview = {
     content: (
         <>
             <p>The <strong>Jaipur, Ajmer & Pushkar Tour</strong> offers an ideal family weekend package that combines sightseeing with cultural and spiritual experiences for every member of your party - be they children, parents, or grandparents! This tour promises unforgettable memories for every family member involved.</p>
-            <p>Your journey starts in Jaipur, known as the Pink City. Here, you'll experience iconic landmarks such as Amber Fort, City Palace and Hawa Mahal; along with a vibrant <strong>Pushkar Market</strong> offering traditional handicrafts and textiles for purchase. On day 2, visit Pushkar for its beautiful sacred lake and Brahma Temple; spend a relaxing and spiritually rejuvenating day relaxing by its shore while appreciating this holy town's spiritual vibes; further enjoy Ajmer Sharif Dargah for insight into Rajasthan's rich spiritual legacy - making this tour perfectly tailored towards suit every family!</p>
+            <p>Your journey starts in Jaipur, known as the Pink City. Here, you&apos;ll experience iconic landmarks such as Amber Fort, City Palace and Hawa Mahal; along with a vibrant <strong>Pushkar Market</strong> offering traditional handicrafts and textiles for purchase. On day 2, visit Pushkar for its beautiful sacred lake and Brahma Temple; spend a relaxing and spiritually rejuvenating day relaxing by its shore while appreciating this holy town&apos;s spiritual vibes; further enjoy Ajmer Sharif Dargah for insight into Rajasthan&apos;s rich spiritual legacy - making this tour perfectly tailored towards suit every family!</p>
         </>
     )
 };
