@@ -48,7 +48,7 @@ export const tourOverview = {
   content: [
     `Discover the vibrant charm of Jaipur with our exclusive <strong>02-Day Jaipur Tour Package</strong>, perfect for those looking for an unforgettable experience in Rajasthan's capital city. This Jaipur sightseeing tour has been designed to showcase the ${temp.link('best places in Jaipur', 'https://www.rajasthantourpackages.in/jaipur')} that offer a blend of rich history, stunning architecture, and vibrant culture.`,
     `Visit famous attractions like Amber Fort - a grand fort on a hill, the beautiful Hawa Mahal (Palace of Winds), and the peaceful Jal Mahal - which sits in the middle of Mansagar Lake. This tour also takes you to the City Palace - a unique mix of Mughal and Rajasthani styles, and the amazing Jantar Mantar - a UNESCO World Heritage Site with ancient astronomical instruments.`,
-    `This ${temp.link('02 day Jaipur tour', 'https://www.rajasthantourpackages.in/02-days-rajasthan-tour-packages')} ensures that you don't miss any highlights and makes your short trip truly unforgettable. Book now to explore Jaipur's rich heritage and breathtaking beauty in just 2 days and experience the royal essence of Jaipur like never before.`,
+    `This ${temp.bold('02 day Jaipur tour')} ensures that you don't miss any highlights and makes your short trip truly unforgettable. Book now to explore Jaipur's rich heritage and breathtaking beauty in just 2 days and experience the royal essence of Jaipur like never before.`,
   ],
 };
 

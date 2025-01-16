@@ -42,7 +42,7 @@ const TwoDaysJaipurTourPackage = () => {
         <>
             <Breadcrumb breadcrumbKey="_2daysjaipur" />
             <HeroBanner backgroundImage={allCitiesImages.jaipur.jaipurBanner02.src} slides={[
-                { heading: "02 days jaipur tour package", subheading: "01 nights • 02 days" }
+                { heading: "02 days jaipur tour package", subheading: "01 night • 02 days" }
             ]} />
             {/* Tour overview */}
             <div className="container-fluid px-0 mt-3">
