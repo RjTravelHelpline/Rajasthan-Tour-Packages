@@ -8,17 +8,41 @@ import PackageAccordion from "@/components/PackageAccordion";
 import { _02DaysToursData } from "@/data/data";
 import { destinationCovered, packageData, tourFaq, tourHighlights, tourItinerary, tourOverview } from "./data";
 import { allCitiesImages } from "@/data/imageData";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Modal, Table } from "react-bootstrap";
 import { BiChevronRight } from "react-icons/bi";
 import { FaStarOfLife, FaWhatsapp } from "react-icons/fa";
 import { IoMdClose } from "react-icons/io";
+import TourPackages from "@/components/TourPackages";
 
 
 
 const TwoDaysJaipurTourPackage = () => {
     const [show, setShow] = useState(false);
     const [selectedPackage, setSelectedPackage] = useState('');
+    const [packages, setPackages] = useState([]);
+
+    useEffect(() => {
+        const fetchPackages = async () => {
+            try {
+                const response = await fetch('/api/allTourPackages');
+                const data = await response.json();
+                setPackages(data);
+            } catch (error) {
+                console.error('Error fetching packages:', error);
+            }
+        };
+
+        fetchPackages();
+    }, []);
+
+    const _02Days = packages.filter(
+        (pkg) =>
+            pkg.nights === 1 &&
+            pkg.days === 2 &&
+            pkg.title !== 'Jaipur Tour Package'
+    );
+
 
     const handleShow = (title) => {
         setSelectedPackage(title);
@@ -41,7 +65,7 @@ const TwoDaysJaipurTourPackage = () => {
     return (
         <>
             <Breadcrumb breadcrumbKey="_2daysjaipur" />
-            <HeroBanner backgroundImage={allCitiesImages.jaipur.jaipurBanner02.src} slides={[
+            <HeroBanner backgroundImage='/Images/Banners/jaipur-tour-banner.jpg' slides={[
                 { heading: "02 days jaipur tour package", subheading: "01 night • 02 days" }
             ]} />
             {/* Tour overview */}
@@ -53,18 +77,11 @@ const TwoDaysJaipurTourPackage = () => {
                                 className="text-capitalize px-3 mb-3 text-center fw-normal"
                                 dangerouslySetInnerHTML={{ __html: tourOverview.title }}
                             ></h3>
-                            <p
-                                className="home-para px-3"
-                                dangerouslySetInnerHTML={{
-                                    __html: tourOverview.content[0],
-                                }}
-                            ></p>
-                            <p
-                                className="home-para px-3"
-                                dangerouslySetInnerHTML={{
-                                    __html: tourOverview.content.slice(1),
-                                }}
-                            ></p>
+                            <div
+                                className="text-justify px-3"
+                            >
+                                {tourOverview.content}
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -81,7 +98,7 @@ const TwoDaysJaipurTourPackage = () => {
                             <div className="w-100 px-2 days-highlights-pts">
                                 {tourHighlights.content
                                     .map((item, index) => (
-                                        <p className="home-para px-2 py-1 bg-white" key={index}>
+                                        <p className="px-2 py-1 bg-white" key={index}>
                                             <span className="me-2">
                                                 <FaStarOfLife className="icon" />
                                             </span>
@@ -191,6 +208,22 @@ const TwoDaysJaipurTourPackage = () => {
                                 more <span className="fw-bold">on</span>
                             </h3>
                             <PackageAccordion packageData={packageData} />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div className="container-fluid px-0 mt-3">
+                <div className="container overview">
+                    <div className="row px-2 d-flex justify-content-center align-items-center package-more">
+                        <div className="col-12 col-lg-11 col-sm-12 cost-table insider px-0 packages">
+                            <h3 className="text-capitalize px-3 text-center fw-normal mb-2">
+                                similiar <span className="fw-bold">packages</span>
+                            </h3>
+                            <div className="py-2 d-flex align-items-stretch px-2">
+                                {_02Days.map((pkg, index) => (
+                                    <TourPackages key={index} pkg={pkg} />
+                                ))}
+                            </div>
                         </div>
                     </div>
                 </div>

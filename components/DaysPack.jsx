@@ -16,7 +16,7 @@ const DaysPack = () => {
                 href={url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="anchor text-web fw-bold"
+                className="anchor color-tertary"
             >
                 {text}
             </a>
@@ -39,26 +39,17 @@ const DaysPack = () => {
 
                     <p className="text-center home-para">
                         Explore the best of Rajasthan with our {link('Rajasthan Tour By Days', 'https://www.rajasthantourpackages.in/rajasthan-tour-packages')}, offering
-                        flexible itineraries that cater to your schedule.Whether {`you're`} looking for a quick getaway or an extended
-                        adventure
-                        {readMore && (
+                        flexible itineraries that cater to your schedule.Whether {`you're`} looking for a quick getaway or an extended adventure, our packages are designed to suit every need. Our <strong>Rajasthan tour package for families</strong> ensures a memorable experience, combining cultural richness, historical grandeur, and vibrant traditions. {readMore && (
                             <>
-                                , our packages are designed to suit every need. Our
-                                <strong>Rajasthan tour package for families</strong>
-                                ensures a memorable experience, combining cultural richness,
-                                historical grandeur, and vibrant traditions. From Jaipur&#39;s
-                                majestic forts to Udaipur&#39;s tranquil lakes, our <strong>Rajasthan Trip</strong> covers all the
-                                must-see destinations, providing a perfect blend of relaxation
-                                and exploration for families and travelers seeking an authentic
-                                Rajasthan experience.
+                                From Jaipur&#39;s majestic forts to Udaipur&#39;s tranquil lakes, our <strong>Rajasthan Trip</strong> covers all the must-see destinations, providing a perfect blend of relaxation and exploration for families and travelers seeking an authentic Rajasthan experience.
                             </>
                         )}
                         <button className="read-more-btn p-0 bg-transparent" onClick={handleReadMore}>
-                            {readMore ? <>Show Less</> : <>..Read More</>}
+                            {readMore ? <></> : <>...</>}
                         </button>
                     </p>
                 </Row>
-                <Row className="py-4 d-flex justify-content-start align-items-stretch">
+                <Row className="py-4 d-flex justify-content-start align-items-stretch px-0">
                     <SlickSlider settings={{ slidesToShow: 4 }}>
                         {daysPackage.map((pkg, index) => (
                             <div
@@ -79,12 +70,11 @@ const DaysPack = () => {
                                         <div className="row p-3 card-content d-flex align-items-center  justfiy-content-center flex-column">
                                             <p className="text-white web-title">rajasthan tour package</p>
                                             <hr />
-                                            <h4 className="w-100 text-capitalize mx-1 web-title">
+                                            <h4 className="w-100 text-capitalize mx-1 web-title card-title">
                                                 <span className="mb-2 me-2 color-tertary">
                                                     <FaClock />
                                                 </span>
                                                 <span>
-
                                                     {pkg.title.split(" ")[0]}{" "}
                                                 </span>
                                                 <span className="fw-normal web-title">

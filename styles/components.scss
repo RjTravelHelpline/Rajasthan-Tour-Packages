@@ -2657,8 +2657,8 @@ p {
     background: linear-gradient(
       to top,
       rgba(0, 0, 0, 0.877),
-      rgba(0, 0, 0, 0.404),
-      rgba(0, 0, 0, 0.25)
+      rgba(0, 0, 0, 0.205),
+      rgba(0, 0, 0, 0.11)
     );
     z-index: -1;
     pointer-events: none;
@@ -2790,11 +2790,15 @@ p {
 //
 .package-book {
   position: fixed;
-  bottom: 12px;
-  left: 50%;
-  transform: translateX(-50%);
+  bottom: 16px;
+  right: 16px;
   z-index: 999;
   background: rgba(0, 0, 0, 0.158);
   backdrop-filter: blur(10px);
   width: auto;
+}
+
+.card-title {
+  font-weight: bold !important;
+  font-size: 1.75em !important;
 }

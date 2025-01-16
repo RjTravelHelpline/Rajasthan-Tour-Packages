@@ -28,7 +28,7 @@ const BlogsSection = () => {
               </p>
             </div>
           </Row>
-          <Row className="d-flex justify-content-center py-2">
+          <Row className="d-flex justify-content-center py-2 px-0">
             <SlickSlider settings={{ slidesToShow: 3, autoplay: false }}>
               {visibleBlogs.map((blog) => {
                 const visibleDescription =
@@ -39,7 +39,7 @@ const BlogsSection = () => {
                     key={blog.date}
                   >
                     <Link href={`/blog/${blog.slug}`} className='w-100'>
-                      <div className="blog-card d-flex flex-column justify-content-between rounded-4 w-100 p-2">
+                      <div className="blog-card d-flex flex-column justify-content-between rounded-4 w-100">
                         <div className="blog-image-container w-100 mb-3">
                           <Image
                             src={blog.image}

@@ -15,11 +15,8 @@ const FooterSwitcher = dynamic(() => import('@/components/FooterSwitcher'), {
 const BackToTop = dynamic(() => import('@/components/BackToTop'), {
   ssr: false,
 });
-const BottomSocials = dynamic(() => import('@/components/BottomSocials'), {
-  ssr: false,
-});
-const ChatBot = dynamic(() => import('@/components/ChatBot'), { ssr: false });
 import GoogleAnalyticsClient from '@/components/GoogleAnalyticsClient';
+import ChatBotWrapper from '@/components/ChatBotWrapper';
 
 export default function RootLayout({ children }) {
   return (
@@ -71,7 +68,7 @@ export default function RootLayout({ children }) {
         {children}
         <FooterSwitcher />
         <BackToTop />
-        <ChatBot />
+        <ChatBotWrapper />
       </body>
     </html>
   );

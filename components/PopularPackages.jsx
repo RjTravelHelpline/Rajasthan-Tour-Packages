@@ -19,7 +19,7 @@ const Packages = () => {
         href={url}
         target="_blank"
         rel="noopener noreferrer"
-        className="anchor text-web fw-bold"
+        className="anchor color-tertary"
       >
         {text}
       </a>
@@ -77,23 +77,22 @@ const Packages = () => {
               Discover the essence of Rajasthan with our{' '}
               <span className="fw-bold">Popular Tour Packages </span>We offer
               carefully curated itineraries that showcase this royal {`state's`}
-              vibrant culture
-              {readMore && (
+              vibrant culture, majestic forts, and stunning landscapes. Whether {`you're`}{' '}
+              a history buff, a cultural enthusiast, or an adventure seeker, {readMore && (
                 <>
-                  , majestic forts, and stunning landscapes. Whether {`you're`}{' '}
+                  Whether {`you're`}{' '}
                   a history buff, a cultural enthusiast, or an adventure seeker,
                   our {link('popular tour packages', 'https://www.rajasthantourpackages.in/popular-tour-packages')} cater to all interests, ensuring a
                   truly memorable experience. Book your journey today and get
                   ready to immerse yourself in the timeless charm of Rajasthan
                   with our tour packages designed to create lifelong memories.
-                </>
-              )}
+                </>)}
               <button className="read-more-btn p-0 bg-transparent" onClick={handleReadMore}>
-                {readMore ? <>Less</> : <>...More</>}
+                {readMore ? <></> : <>...</>}
               </button>
             </p>
           </Row>
-          <Row className="row py-4 d-flex align-items-stretch px-2">
+          <Row className="row py-4 d-flex align-items-stretch px-0">
             {loading
               ? Array.from({ length: 3 }).map((_, index) => (
                 <SkeletonTourPackage key={index} />

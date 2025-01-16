@@ -18,7 +18,7 @@ const PackagesByCities = () => {
         href={url}
         target="_blank"
         rel="noopener noreferrer"
-        className="anchor text-web fw-bold"
+        className="anchor color-tertary"
       >
         {text}
       </a>
@@ -42,18 +42,17 @@ const PackagesByCities = () => {
             </h2>
           </div>
           <p className="text-center home-para">
-            Learn more about Rajasthan with the help of our Rajasthan tour packages, which are suitable for travelers who want a {link('Rajasthan Tour By Cities', 'https://www.rajasthantourpackages.in/rajasthan-tour-by-cities')} from other cities, states, or countries, including Delhi, Mumbai, Kolkata, Bangalore, and other parts of the world.
-            {readMore && (
+            Learn more about Rajasthan with the help of our Rajasthan tour packages, which are suitable for travelers who want a {link('Rajasthan Tour By Cities', 'https://www.rajasthantourpackages.in/rajasthan-tour-by-cities')} from other cities, states, or countries, including Delhi, Mumbai, Kolkata, Bangalore, and other parts of the world. Our specialized packages cater to various cities, offering a seamless journey to explore Rajasthan&apos;s vibrant heritage and majestic landscapes. {readMore && (
               <>
-                Our specialized packages cater to various cities, offering a seamless journey to explore Rajasthan&apos;s vibrant heritage and majestic landscapes. Whether you&apos;re departing for the <strong>Rajasthan Tour from the United Kingdom</strong>, Germany, France, Australia, or the USA. Our itineraries ensure a memorable experience with personalized attention and flexible options. Book your Rajasthan Tour today and dive into the rich culture, majestic forts, and colorful markets of Rajasthan, no matter where you start your adventure.
+                Whether you&apos;re departing for the <strong>Rajasthan Tour from the United Kingdom</strong>, Germany, France, Australia, or the USA. Our itineraries ensure a memorable experience with personalized attention and flexible options. Book your Rajasthan Tour today and dive into the rich culture, majestic forts, and colorful markets of Rajasthan, no matter where you start your adventure.
               </>
             )}
             <button className="read-more-btn p-0 bg-transparent" onClick={handleReadMore}>
-              {readMore ? <>Show Less</> : <>..Read More</>}
+              {readMore ? <></> : <>...</>}
             </button>
           </p>
         </Row>
-        <Row className="py-4 d-flex align-items-stretch">
+        <Row className="py-4 d-flex align-items-stretch px-0">
           <SlickSlider settings={{ slidesToShow: 4 }}>
             {visibleCities.map((pkg, index) => (
               <div
@@ -74,7 +73,7 @@ const PackagesByCities = () => {
                     <div className="row p-3 card-content d-flex align-items-center  justfiy-content-center flex-column">
                       <p className="text-white web-title">rajasthan tour package</p>
                       <hr />
-                      <h4 className="w-100 text-capitalize mx-1 web-title">
+                      <h4 className="w-100 text-capitalize mx-1 web-title card-title">
                         <span className="mb-2 me-2 color-tertary">
                           <TbLocationFilled />
                         </span>

@@ -58,7 +58,7 @@ const Footer = () => {
                                 />
                                 <div style={{ position: 'absolute', bottom: '24px', left: '24px', zIndex: '99' }}>
                                     <h3 className='text-capitalize web-title fs-1 fw-light mb-0' >Loved by <span className='fw-bold text-white'>Travelers</span></h3>
-                                    <p className='text-white opacity-75 mb-0 fw-light'>See why travelers love our tours on TripAdvisor.</p>
+                                    <p className='text-white opacity-75 mb-0 fw-light'>See why travelers love our tours.</p>
                                 </div>
                                 <div className='d-flex flex-column gap-2' style={{ position: 'absolute', top: '24px', left: '24px', zIndex: '99' }}>
                                     <a
