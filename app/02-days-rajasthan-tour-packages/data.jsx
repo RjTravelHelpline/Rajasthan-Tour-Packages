@@ -18,7 +18,7 @@ export const tourOverview = {
             </p>
             <p>Discover the Golden City by visiting the majestic {Link('Jaisalmer Fort', 'https://www.rajasthantourpackages.in/jaisalmer')}, serene Gadisar Lake, and historic havelis. Experience the thrill of a desert safari, camel rides, and an unforgettable night in the Thar Desert with cultural performances.
             </p>
-            <p>Our <strong>02 days Rajasthan tour packages</strong> are thoughtfully planned to ensure you make the most of your time. Whether you're a history enthusiast, a culture seeker, or a leisurely traveler, these short trips promise unforgettable memories.
+            <p>Our <strong>02 days Rajasthan tour packages</strong> are thoughtfully planned to ensure you make the most of your time. Whether you&apos;re a history enthusiast, a culture seeker, or a leisurely traveler, these short trips promise unforgettable memories.
             </p>
             <p>Book your <strong>02 days Rajasthan tour</strong> today and let the magic of Rajasthan leave you spellbound. Discover its timeless beauty, rich traditions, and warm hospitality – all in just two days.
             </p>
