@@ -1634,6 +1634,7 @@ form {
 }
 .accordion-question {
   font-family: var(--font-head);
+  text-transform: none !important;
   @media (max-width: 768px) {
     font-size: 0.85em;
   }
@@ -2773,16 +2774,27 @@ p {
 .whatsapp-logo {
   display: flex;
   justify-content: center;
+  align-items: center;
   padding: 12px !important;
   transition: all 0.25s ease-in;
-  background-color: var(--color-primary) !important;
   background-color: #01e776 !important;
   box-shadow: var(--color-shadow);
   align-items: center;
-  border-radius: 999px !important;
-  font-size: 1.55em !important;
+  font-size: 1.4em !important;
   &:hover {
     color: var(--color-primary) !important;
     background-color: var(--color-black) !important;
   }
+}
+
+//
+.package-book {
+  position: fixed;
+  bottom: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 999;
+  background: rgba(0, 0, 0, 0.158);
+  backdrop-filter: blur(10px);
+  width: auto;
 }

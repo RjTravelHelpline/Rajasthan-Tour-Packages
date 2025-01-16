@@ -20,12 +20,14 @@ const ItineraryAccordion = ({ tourItinerary, style, stylePara, showIcon = false,
                                 </span>
                             )}
                             <div className="d-flex flex-column">
-                                <h3 className={`mb-0 accordion-question fw-normal web-title fw-bold text-capitalize w-100 itinerary-title  ${style}`}>
-                                    {item.day}
+                                <h3 className={`mb-0 accordion-question fw-normal web-title fw-bold text-capitalize w-100 itinerary-title d-flex justify-content-center align-items-center gap-2  ${style}`}>
+                                    {item.day} <span className="fs-6 fw-semibold text-black">
+                                        : {item.title}
+                                    </span>
                                 </h3>
-                                <p className={`d-block w-100 fw-normal text-black web-title mb-0 ${stylePara}`}>
+                                {/* <p className={`d-block w-100 fw-normal text-black web-title mb-0 ${stylePara}`}>
                                     {item.title}
-                                </p>
+                                </p> */}
                             </div>
                         </Accordion.Header>
                         <Accordion.Body className="w-100 p-2">

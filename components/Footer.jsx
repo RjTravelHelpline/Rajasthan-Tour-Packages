@@ -15,7 +15,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Col, Container, Modal, Row } from 'react-bootstrap';
 import ContactForm from './ContactForm';
-import { BiChevronRight, BiChevronDown, BiLogoTripAdvisor, BiLinkAlt, BiSolidPhoneCall } from 'react-icons/bi';
+import { BiChevronRight, BiChevronDown, BiLogoTripAdvisor, BiLinkAlt, BiSolidPhoneCall, BiLogoGoogle } from 'react-icons/bi';
 import { PiFacebookLogoFill, PiInstagramLogoFill, PiSkypeLogoFill } from 'react-icons/pi';
 import { RiWhatsappFill } from 'react-icons/ri';
 import { MdContactSupport, MdMail } from 'react-icons/md';
@@ -88,7 +88,7 @@ const Footer = () => {
                                 <Image width={800} height={400} quality={100} alt='Rajasthan Fort' title='A Darkest view of Rajasthan Haweli' src='/Images/Banners/footer-banner.jpg' className='w-100 h-100 rounded-4' style={{ objectFit: 'cover' }}
                                 />
                                 <div style={{ position: 'absolute', bottom: '24px', left: '24px', zIndex: '99' }}>
-                                    <h3 className='text-capitalize web-title fs-1 fw-light mb-0' >plan your <span className='fw-bold text-white'>perfect trip!</span></h3>
+                                    <h3 className='text-capitalize web-title fs-5 fw-light' >looking to explore <span className='fw-bold text-white d-block fs-1'>something specific?</span></h3>
                                     <p className='text-white opacity-75 mb-0 fw-light'>Let us plan your perfect journey.</p>
                                 </div>
                                 <button className='bg-tertary rounded-5 d-flex align-items-center' style={{ position: 'absolute', top: '12px', right: '12px', zIndex: '99' }} onClick={handleShow}>
@@ -319,7 +319,7 @@ const Footer = () => {
                 </div>
             </section>
             <section className="container-fluid bg-black py-5" style={{ borderTop: '1px solid var(--color-gray)' }}>
-                <div className="container">
+                <div className="container mb-5">
                     <div className="row d-flex justify-content-start aiign-items-center footer-links ">
                         <div className="col-lg-3 col-md-6 col-sm-12 mb-4 d-flex flex-lg-column flex-sm-row justify-content-between align-items-start gap-2">
                             <div className="footer-logo d-flex flex-column justify-content-start align-items-start gap-2">
@@ -348,6 +348,9 @@ const Footer = () => {
                                 </a>
                                 <a href="https://www.tripadvisor.in/Attraction_Review-g304555-d24123312-Reviews-Rajasthan_Travel_Helpline-Jaipur_Jaipur_District_Rajasthan.html" className='fs-3 rounded-5 d-flex justify-content-center align-items-center text-white opacity-50 anchor-link-i' target='_blank' rel="noopener noreferrer">
                                     <BiLogoTripAdvisor />
+                                </a>
+                                <a href="https://g.co/kgs/zUBqvDC" className='fs-3 rounded-5 d-flex justify-content-center align-items-center text-white opacity-50 anchor-link-i' target='_blank' rel="noopener noreferrer">
+                                    <BiLogoGoogle />
                                 </a>
                             </div>
                         </div>

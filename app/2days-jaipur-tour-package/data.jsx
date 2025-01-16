@@ -17,7 +17,7 @@ export const tourItinerary = {
   content: [
     {
       day: 'Day 01',
-      title: 'Jaipur: Arrival at Jaipur',
+      title: 'Jaipur',
       content: `
             <span class='itinerary-pts'>On arrival at Jaipur Airport / Railway Station / Bus Stand, you are greeted by a Rajasthan Tour Packages representative and transferred to your Hotel.</span>
             <span class='itinerary-pts'>Immediately after finishing the check-in procedure and freshening up, we will start our 2 Days Jaipur Pushkar Tour itinerary.</span>
@@ -29,7 +29,7 @@ export const tourItinerary = {
     },
     {
       day: 'Day 02',
-      title: 'Jaipur: Jhalana Leopard Safari',
+      title: 'Jaipur',
       content: `
             <span class='itinerary-pts'>The Second Day of your 2 Days Jaipur Tour Package starts early in the morning when we wake up and go for Jungle Safari by Open Gypsy at Jhalana Leopard Safari Park, this is one of the best & different experiences of your Jaipur Stay.</span>
             <span class='itinerary-pts'>After coming back to Hotel, we will get ready and have our delicious breakfast.</span>

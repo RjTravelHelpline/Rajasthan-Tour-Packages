@@ -206,31 +206,18 @@ const TwoDaysJaipurTourPackage = () => {
                     </div>
                 </div>
             </div>
-
-            {/*  */}
-            <div className="container-fluid py-4 bg-tertary">
-                <div className="container">
-                    <div className="row d-flex justify-content-center align-items-center">
-                        <div className="col-lg-6 col-sm-12 d-flex justify-content-end align-items-center gap-2 my-1 flex-column">
-                            <h4 className="web-title text-black text-capitalize mb-0 w-100">
-                                book from here
-                            </h4>
-                        </div>
-                        <div className="col-lg-6 col-sm-12 d-flex justify-content-end align-items-center gap-2 my-1">
-                            <button className="rounded-5 bg-black web-title fw-bold flex-grow-1 flex-lg-grow-0 d-flex justify-content-center align-items-center gap-1" onClick={() => handleShow(content[0].title)}>
-                                book now <BiChevronRight className="color-tertary" />
-                            </button>
-                            <a
-                                href={whatsappLink}
-                                target="_blank"
-                                className='rounded-5 p-0 whatsapp-logo'
-                                aria-label="whatsapp"
-                            >
-                                <FaWhatsapp className="fixed-footer-icon" />
-                            </a>
-                        </div>
-                    </div>
-                </div>
+            <div className="d-flex justify-content-center align-items-center gap-1 my-1 package-book p-1 rounded-5">
+                <button className="rounded-5 bg-tertary web-title fw-bold d-flex justify-content-center align-items-center gap-1" onClick={() => handleShow(content[0].title)}>
+                    book now <BiChevronRight className="text-black" />
+                </button>
+                <a
+                    href={whatsappLink}
+                    target="_blank"
+                    className='rounded-5 whatsapp-logo'
+                    aria-label="whatsapp"
+                >
+                    <FaWhatsapp />
+                </a>
             </div>
             {/* Modal for Contact Form */}
             <Modal
