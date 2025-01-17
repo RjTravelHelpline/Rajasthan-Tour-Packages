@@ -1,31 +1,22 @@
-// /pages/api/purgeCache.js
-export default async function handler(req, res) {
-  if (req.method !== 'POST') {
-    return res.status(405).json({ error: 'Method not allowed' });
+import { NextResponse } from 'next/server';
+
+export async function GET(req) {
+  // Check if the Authorization header matches the CRON_SECRET
+  if (req.headers.get('Authorization') !== `Bearer ${process.env.VERCEL_PURGE_AUTH}`) {
+    return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
   }
 
+  // Place your logic here (e.g., call the purgeCache API)
   try {
-    const response = await fetch(
-      `https://api.vercel.com/v1/projects/${process.env.PROJECT_ID}/cache`,
-      {
-        method: 'POST',
-        headers: {
-          Authorization: `Bearer ${process.env.VERCEL_PURGE_AUTH}`,
-          'Content-Type': 'application/json',
-        },
-      }
-    );
+    // Purge cache logic or other cron tasks
+    console.log('Cron job is executed successfully.');
 
-    if (response.ok) {
-      return res.status(200).json({ message: 'Cache purged successfully!' });
-    } else {
-      const errorData = await response.json();
-      return res
-        .status(response.status)
-        .json({ error: 'Failed to purge cache', details: errorData });
-    }
+    return NextResponse.json({ message: 'Cron job executed successfully!' });
   } catch (error) {
-    console.error('Error purging cache:', error);
-    return res.status(500).json({ error: 'Internal server error' });
+    console.error('Error executing cron job:', error);
+    return NextResponse.json(
+      { error: 'Failed to execute cron job' },
+      { status: 500 }
+    );
   }
 }
