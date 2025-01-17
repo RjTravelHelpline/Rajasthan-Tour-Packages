@@ -31,7 +31,7 @@ const Packages = () => {
   useEffect(() => {
     const fetchPackages = async () => {
       try {
-        const response = await fetch(`/api/allTourPackages?timestamp=${Date.now()}`);
+        const response = await fetch(`/api/allTourPackages`);
         const data = await response.json();
         setPackages(data);
       } catch (error) {
