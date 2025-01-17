@@ -7,8 +7,8 @@ export async function GET(req) {
       status: 200,
       headers: {
         'Content-Type': 'application/json',
-        'Cache-Control': 'max-age=0, s-maxage=10, stale-while-revalidate=5',
-        'Surrogate-Control': 'no-store',  // Prevent Vercel edge cache
+        'Cache-Control': 'max-age=0, s-maxage=5, stale-while-revalidate=10',
+        'Surrogate-Control': 'no-store',
       },
     });
   } catch (error) {
