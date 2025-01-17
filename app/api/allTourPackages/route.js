@@ -7,10 +7,8 @@ export async function GET(req) {
       status: 200,
       headers: {
         'Content-Type': 'application/json',
-        'Cache-Control': 'no-store, must-revalidate, max-age=0',
+        'Cache-Control': 'max-age=0, s-maxage=10, stale-while-revalidate=5',
         'Surrogate-Control': 'no-store',  // Prevent Vercel edge cache
-        'Pragma': 'no-cache',  // Another instruction to avoid caching
-        'Expires': '0',  // Ensure response is not cached
       },
     });
   } catch (error) {
