@@ -2,8 +2,7 @@
     "functions": {
       "api/*": {
         "maxDuration": 10,
-        "memory": 1024,
-        "cache": false
+        "memory": 1024
       }
     }
   }
