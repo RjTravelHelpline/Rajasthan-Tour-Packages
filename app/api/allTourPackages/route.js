@@ -1,8 +1,5 @@
 import { query } from '../utils/db';
 
-export const config = {
-  runtime: 'edge', // This tells Vercel to treat this as an Edge function
-};
 export async function GET(req) {
   try {
     const rows = await query('SELECT * FROM all_tour_packages', []);
@@ -11,6 +8,9 @@ export async function GET(req) {
       headers: {
         'Content-Type': 'application/json',
         'Cache-Control': 'no-store, must-revalidate, max-age=0',
+        'Surrogate-Control': 'no-store',  // Prevent Vercel edge cache
+        'Pragma': 'no-cache',  // Another instruction to avoid caching
+        'Expires': '0',  // Ensure response is not cached
       },
     });
   } catch (error) {
