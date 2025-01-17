@@ -5,7 +5,10 @@ export async function GET(req) {
     const rows = await query('SELECT * FROM all_tour_packages', []);
     return new Response(JSON.stringify(rows), {
       status: 200,
-      headers: { 'Content-Type': 'application/json' },
+      headers: {
+        'Content-Type': 'application/json',
+        'Cache-Control': 'no-cache, no-store, must-revalidate', // Prevent caching
+      },
     });
   } catch (error) {
     console.error('Database query failed:', error);
