@@ -31,10 +31,8 @@ const Packages = () => {
   useEffect(() => {
     const fetchPackages = async () => {
       try {
-        const res = await fetch('https://www.rajasthantourpackages.in/api/allTourPackages', {
-          next: { revalidate: 60 },
-        });
-        const data = await res.json();
+        const response = await fetch(`/api/allTourPackages?timestamp=${Date.now()}`);
+        const data = await response.json();
         setPackages(data);
       } catch (error) {
         console.error('Error fetching packages:', error);
