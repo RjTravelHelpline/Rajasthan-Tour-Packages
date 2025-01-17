@@ -11,6 +11,9 @@ export async function GET() {
         'CDN-Cache-Control': 'max-age=60',
         'Vercel-CDN-Cache-Control': 'max-age=60',
       },
+      next: {
+        revalidate: 10, // Revalidate every 10 seconds
+      },
     });
   } catch (error) {
     console.error('Database query failed:', error);
