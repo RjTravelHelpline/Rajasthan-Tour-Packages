@@ -1,47 +1,21 @@
-name: Build and Deploy the App
+name: Deploy to Vercel
 
 on:
   push:
     branches:
-      - master # Trigger on pushes to the master branch
+      - main
 
 jobs:
-  # Job: Build the Application
-  build:
+  deploy:
     runs-on: ubuntu-latest
-
     steps:
-      # Step 1: Check out the code
-      - name: Checkout Code
+      - name: Checkout code
         uses: actions/checkout@v3
 
-      # Step 2: Set up Node.js
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: 18
-          cache: 'npm'
+      - name: Install Vercel CLI
+        run: npm install -g vercel
 
-      # Step 3: Install dependencies
-      - name: Install Dependencies
-        run: npm ci
-
-      # Step 4: Build the App
-      - name: Build the App
-        run: |
-          npm run build
-
-      # Step 5: Notify Build Success
-      - name: Notify Build Success
-        if: ${{ success() }}
-        run: echo "Build completed successfully! Deployment is in progress by Vercel."
-
-      # Step 6: Notify Build Failure
-      - name: Notify Build Failure
-        if: ${{ failure() }}
-        run: echo "Build failed. Please check the logs."
-
-      # Step 7: Confirm Deployment Ready
-      - name: Confirm Deployment
-        if: ${{ success() }}
-        run: echo "The app has been deployed successfully via Vercel. 🎉"
+      - name: Deploy to Vercel
+        env:
+          VERCEL_TOKEN: ${{ secrets.VERCEL_AUTH_TOKEN }}
+        run: vercel --prod
