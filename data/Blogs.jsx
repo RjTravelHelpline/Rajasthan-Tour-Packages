@@ -4331,7 +4331,7 @@ export const blogs = [
     slug: 'pratap-gaurav-kendra-udaipur-pilgrimage',
     metaTitle: "Pratap Gaurav Kendra Udaipur: A National Pilgrimage Destination",
     metaDescription: "Rich history, cultural heritage, and spiritual significance of Pratap Gaurav Kendra Udaipur are one of the national pilgrimages of Rajasthan for all travelers.",
-    canonical: 'https://www.rajasthantourpackages.in/blog/history-sacred-temples-rajasthan',
+    canonical: 'https://www.rajasthantourpackages.in/blog/pratap-gaurav-kendra-udaipur-pilgrimage',
     keywords: ['Pratap Gaurav Kendra', 'Pratap Gaurav Kendra Udaipur', 'City of Lakes', 'Rajasthan Pilgrimage Spot', 'Maharana Pratap Legacy', 'Rajasthan tour and travel'],
     description:
       "Udaipur, popularly known as the City of Lakes, is famous not only for the misty palaces and scenic beauty of its lakes Still, for being equally renowned as a historical and cultural basin in India. All the cultural monuments, the Pratap Gaurav Kendra Udaipur is a National Pilgrimage Udaipur place of worship that people are proud to visit millions and join discussions of history lovers annually.",
@@ -5626,7 +5626,7 @@ export const blogs = [
     slug: 'prayagraj-maha-kumbh-fair-2025-travel-guide',
     metaTitle: 'Prayagraj Maha Kumbh Fair 2025: Complete Travel Guide',
     metaDescription: 'Join the spiritual celebration of Prayagraj Maha Kumbh Fair 2025. Find sacred bathing dates, special trains, hotel bookings, and nearby attractions for a trip.',
-    canonical: 'https://www.rajasthantourpackages.in/blog/jaipur-biggest-kite-festival-unique-patang-utsav',
+    canonical: 'https://www.rajasthantourpackages.in/blog/prayagraj-maha-kumbh-fair-2025-travel-guide',
     keywords: ['Prayagraj Mahakumbh Fair 2025', 'Mahakumbh Fair', 'Kumbh Mela', 'majestic forts', 'How to Reach Prayagraj Kumbh Fair', 'Hotel Booking for Kumbh Fair 2025', 'Live Streaming of Kumbh Mela 2025', 'Tourist Places Near Prayagraj', 'Prayagraj Fair Location 2025'],
     description:
       "The Prayagraj Mahakumbh Fair 2025 is one of the spiritual meals that are very popular with devotees, pilgrims, and tourists from different parts all over the world. This sacred fair is planned from 13 January to 26 February 2025, which is the coming year; this has its significance with devotion, tradition, and culture associated with the trunk of the sacred rivers, namely, the Ganga, the Yamuna, and the mythical Saraswati.",

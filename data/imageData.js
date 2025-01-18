@@ -68,9 +68,6 @@ const westBengalImg = '/Images/Card/westbengal.webp';
 
 // const images
 const galleryImg01 = '/Images/Certification/customer-foreign.webp';
-const galleryImg02 = '/Images/Certification/customer-cooking02.webp';
-const galleryImg03 = '/Images/Certification/customer-cooking03.webp';
-const galleryImg04 = '/Images/Certification/customer-cooking04.webp';
 const galleryImg05 = '/Images/Certification/customer-foreign02.webp';
 const galleryImg06 = '/Images/Certification/customer-jaipur.webp';
 const galleryImg07 = '/Images/Certification/customer-jodhpur.webp';
@@ -83,16 +80,6 @@ const galleryImg13 = '/Images/Reviews/review-0201.webp';
 const galleryImg14 = '/Images/Reviews/review-02-02.webp';
 const galleryImg15 = '/Images/Reviews/review-0301.webp';
 const galleryImg16 = '/Images/Reviews/review-0302.webp';
-const galleryImg17 = '/Images/Reviews/review-0501.webp';
-const galleryImg18 = '/Images/Reviews/review-0502.webp';
-const galleryImg19 = '/Images/Gallery/cooking-class-jaipur02.webp';
-const galleryImg20 = '/Images/Gallery/cooking-class-jaipur03.webp';
-const galleryImg21 = '/Images/Gallery/cooking-class-jaipur04.webp';
-const galleryImg22 = '/Images/Gallery/cooking-class-latest01.webp';
-const galleryImg23 = '/Images/Gallery/cooking-class-latest02.webp';
-const galleryImg24 = '/Images/Gallery/cooking-class-latest001.webp';
-const galleryImg25 = '/Images/Reviews/review-0601.webp';
-const galleryImg26 = '/Images/Reviews/review-0602.webp';
 const agraFortImg = '/Images/Card/agra-fort.jpg';
 const agraTajImg = '/Images/Card/agra-taj.jpg';
 const fatepurSikariImg = '/Images/Card/fatepur-sikari.jpg';
