@@ -1,4 +1,4 @@
-name: Deploy to Vercel
+name: Build & Deploy
 
 on:
   push:
@@ -6,8 +6,30 @@ on:
       - master
 
 jobs:
+  # Build
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18' # appropriate Node.js version
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build the app
+        run: npm run build
+
+  # Deployment
   deploy:
     runs-on: ubuntu-latest
+    needs: build # deployment only happens if the build is successful
+
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -18,4 +40,4 @@ jobs:
       - name: Deploy to Vercel
         env:
           VERCEL_TOKEN: ${{ secrets.VERCEL_AUTH_TOKEN }}
-        run: vercel --prod --yes --token ${{ secrets.VERCEL_AUTH_TOKEN }} --name rajasthan-tour-package
+        run: vercel --prod --yes --token ${{ secrets.VERCEL_AUTH_TOKEN }}
