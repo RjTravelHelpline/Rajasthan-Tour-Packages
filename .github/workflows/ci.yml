@@ -18,4 +18,4 @@ jobs:
       - name: Deploy to Vercel
         env:
           VERCEL_TOKEN: ${{ secrets.VERCEL_AUTH_TOKEN }}
-        run: vercel --prod --yes --token ${{ secrets.VERCEL_AUTH_TOKEN }}
+        run: vercel --prod --yes --token ${{ secrets.VERCEL_AUTH_TOKEN }} --name rajasthan-tour-package
