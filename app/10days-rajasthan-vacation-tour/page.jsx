@@ -143,31 +143,31 @@ const Page = () => {
                                             <td>02 Persons</td>
                                             <td>Rs.36600 Per Person</td>
                                             <td>01 Double Room</td>
-                                            <td>Exclusive AC Toyota Etios or Similar</td>
+                                            <td>AC Toyota Etios or Similar</td>
                                         </tr>
                                         <tr>
                                             <td>03 Persons</td>
                                             <td>Rs.29200 Per Person</td>
                                             <td>01 Triple Room</td>
-                                            <td>Exclusive AC Toyota Etios or Similar</td>
+                                            <td>AC Toyota Etios or Similar</td>
                                         </tr>
                                         <tr>
                                             <td>04 Persons</td>
                                             <td>Rs.29600 Per Person</td>
                                             <td>02 Double Rooms</td>
-                                            <td>Exclusive AC Maruti Ertiga or Similar</td>
+                                            <td>AC Maruti Ertiga or Similar</td>
                                         </tr>
                                         <tr>
                                             <td>05 Persons</td>
                                             <td>Rs.27300 Per Person</td>
                                             <td>01 Double & 01 Triple Room</td>
-                                            <td>Exclusive AC Innova Crysta</td>
+                                            <td>AC Innova Crysta</td>
                                         </tr>
                                         <tr>
                                             <td>06 Persons</td>
                                             <td>Rs.26300 Per Person</td>
                                             <td>03 Double Rooms</td>
-                                            <td>Exclusive AC Innova Crysta</td>
+                                            <td>AC Innova Crysta</td>
                                         </tr>
                                     </tbody>
                                 </Table>
