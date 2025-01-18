@@ -139,7 +139,7 @@ export const tour_highlights = {
         {
             point: (
                 <>
-                    Visit "Rajasthan ka Switzerland" at Kishangarh.
+                    Visit <strong>Rajasthan ka Switzerland</strong> at Kishangarh.
                 </>
             )
         },
