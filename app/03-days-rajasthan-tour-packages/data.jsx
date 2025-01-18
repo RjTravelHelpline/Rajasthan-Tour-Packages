@@ -19,7 +19,7 @@ export const tour_overview = {
             <br />
             The architecture of the Amber Fort in Jaipur, the majesty of the Hawa Mahal, the beauty of {Link('Udaipur City Palace', 'https://www.rajasthantourpackages.in/udaipur')}, and Lake Pichola are all Elephantine, Take the raw appeal of Jodhpur and its {Link('Mehrangarh Fort', 'https://www.rajasthantourpackages.in/jodhpur')} and the desert touch with Jaisalmer. Our Rajasthan itinerary for 3 days is flexible for single travelers, couples, and families. From transport to accommodation we take care of every detail so you can enjoy your <strong>3-days Rajasthan trip</strong> hassle-free.
             <br />
-            Book your 3-days Rajasthan trip today and create memories that will last a lifetime. Discover our various packages tailored for a memorable journey through the heart of India's <strong>royal heritage</strong>.
+            Book your 3-days Rajasthan trip today and create memories that will last a lifetime. Discover our various packages tailored for a memorable journey through the heart of India’s <strong>royal heritage</strong>.
         </>
     )
 };

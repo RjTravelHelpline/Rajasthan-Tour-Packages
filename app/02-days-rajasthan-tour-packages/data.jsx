@@ -49,7 +49,7 @@ export const tour_faqs = [
         ),
         answer: (
             <>
-                The Cost for a <strong>02 days Rajasthan tour packages</strong> for two people varies depending on the destination of travel, the type of accommodation, means of transport, and activities included. On average, the basic package may vary from Rs 5000/- to Rs 15000/- that you get an opportunity to stay in cheap hotels only, local transport tours and sightseeing. In case you get high-end accommodations or private tours, the trip can be as expensive as ₹25,000 or More. Some packages also include meals, guided tours, and entrance tickets, and others don't include them, and you have to pay extra for them. For the specific current prices, it is highly recommended that you contact the tour operator who currently offers any discounts.
+                The Cost for a <strong>02 days Rajasthan tour packages</strong> for two people varies depending on the destination of travel, the type of accommodation, means of transport, and activities included. On average, the basic package may vary from Rs 5000/- to Rs 15000/- that you get an opportunity to stay in cheap hotels only, local transport tours and sightseeing. In case you get high-end accommodations or private tours, the trip can be as expensive as ₹25,000 or More. Some packages also include meals, guided tours, and entrance tickets, and others don’t include them, and you have to pay extra for them. For the specific current prices, it is highly recommended that you contact the tour operator who currently offers any discounts.
             </>
         )
     },
@@ -74,7 +74,7 @@ export const tour_faqs = [
         ),
         answer: (
             <>
-                During the short Rajasthan tour, tourists have a good chance to see the most important historically and culturally significant places. In Jaipur, you can sightsee through {Link('Amber Fort', 'https://www.rajasthantourpackages.in/jaipur')}, Hawa Mahal, City Palace, etc. In Udaipur, Lake Pichola and City Palace are located. While in Jodhpur, do visit Mehrangarh Fort, and although it's a bit off the track there is the Clock Tower Market. Pushkar is world renowned for the Pushkar Lake and the Temple of lord Brahma. If one were to get the taste of the desert, it is recommended to go to Jaisalmer. Where one could spend time in the Golden Fort and Sam Sand Dunes. These attractions give information about the royal family, the buildings that were constructed in the region, and more so, the way of life in Rajasthan.
+                During the short Rajasthan tour, tourists have a good chance to see the most important historically and culturally significant places. In Jaipur, you can sightsee through {Link('Amber Fort', 'https://www.rajasthantourpackages.in/jaipur')}, Hawa Mahal, City Palace, etc. In Udaipur, Lake Pichola and City Palace are located. While in Jodhpur, do visit Mehrangarh Fort, and although it’s a bit off the track there is the Clock Tower Market. Pushkar is world renowned for the Pushkar Lake and the Temple of lord Brahma. If one were to get the taste of the desert, it is recommended to go to Jaisalmer. Where one could spend time in the Golden Fort and Sam Sand Dunes. These attractions give information about the royal family, the buildings that were constructed in the region, and more so, the way of life in Rajasthan.
 
             </>
         )
