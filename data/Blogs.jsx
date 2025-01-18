@@ -5685,7 +5685,7 @@ export const blogs = [
         <hr />
         <h2>Hotel Booking for Kumbh Fair 2025
         </h2>
-        <p>The place to stay varies from cheap guesthouses known as Dharamshala to luxurious tents. Make your bookings in advance because most of the hotels and guest houses get occupied quickly. Arrangements for lodging around the mela ground are useful for devotees in particular. Apart from this, you can make bookings by calling toll-free number 1800110139. For group bookings, you can also mail at {Link('mahakumbh@irctc.com', 'mahakumbh@irctc.com')}.
+        <p>The place to stay varies from cheap guesthouses known as Dharamshala to luxurious tents. Make your bookings in advance because most of the hotels and guest houses get occupied quickly. Arrangements for lodging around the mela ground are useful for devotees in particular. Apart from this, you can make bookings by calling toll-free number 1800110139. For group bookings, you can also mail at {Link('mahakumbh@irctc.com', 'mailto:mahakumbh@irctc.com')}.
         </p>
         <hr />
         <h2>How to Reach Prayagraj
