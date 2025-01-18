@@ -44,7 +44,5 @@ jobs:
 
           VERCELOUTPUT=$(vercel --prod --yes --token ${{ secrets.VERCEL_AUTH_TOKEN }})
 
-          vercel domains add rajasthan-tour-packages.in --token ${{ secrets.VERCEL_AUTH_TOKEN }}
-
           # Output
-          echo "Domain URL: https://rajasthantourpackages.in/"
+          echo "Domain URL: https://www.rajasthantourpackages.in/"
