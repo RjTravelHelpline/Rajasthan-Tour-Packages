@@ -200,7 +200,7 @@ export const packageData = [
     },
 ];
 // faq
-export const tour_faq = [
+export const tour_faqs = [
     {
         question: (
             <>

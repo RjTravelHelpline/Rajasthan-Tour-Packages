@@ -2,7 +2,7 @@
 import Breadcrumb from "@/components/Breadcrumb";
 import ItineraryAccordion from "@/components/ItineraryAccordion";
 import PackageAccordion from "@/components/PackageAccordion";
-import { destinationCovered, packageData, page_titles, tour_faq, tour_highlights, tourItinerary, tour_overview, whatsapp_link } from "./data";
+import { destinationCovered, packageData, page_titles, tour_highlights, tourItinerary, tour_overview, whatsapp_link, tour_faqs } from "./data";
 import { Modal, Table } from "react-bootstrap";
 import { FaStarOfLife, FaWhatsapp } from "react-icons/fa";
 import HeroBanner from "@/components/HeroBanner";
@@ -225,7 +225,7 @@ const Page = () => {
                         <h3 className="mb-4 text-center">
                             Frequently <span className="fw-normal">Asked Questions</span>
                         </h3>
-                        <ItineraryFaqs faqs={tour_faq} />
+                        <ItineraryFaqs faqs={tour_faqs} />
                     </div>
                 </div>
             </div>

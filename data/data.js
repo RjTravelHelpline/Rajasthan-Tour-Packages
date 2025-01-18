@@ -818,14 +818,6 @@ export const daysPackage = [
   },
   {
     duration: '',
-    imgSrc: allCitiesImages.jaisalmer.jaisalmerHaweli.src,
-    imgAlt: 'Jaisalmer Patwa Haweli',
-    imgTitle: 'View of Jaisalmer Patawo ki Haweli',
-    title: '06-10 Days',
-    navigate: '/06-10-days-rajasthan-tours',
-  },
-  {
-    duration: '',
     imgSrc: allCitiesImages.jaipur.jaipurPatrikaGate.src,
     imgAlt: 'Patrika Gate',
     imgTitle: 'Jaipur Patrika Gate',
@@ -839,6 +831,14 @@ export const daysPackage = [
     imgTitle: 'View of Jaipur Gator',
     title: '11-15 Days',
     navigate: '/11-15-days-rajasthan-tour-packages',
+  },
+  {
+    duration: '',
+    imgSrc: allCitiesImages.jaisalmer.jaisalmerHaweli.src,
+    imgAlt: 'Jaisalmer Patwa Haweli',
+    imgTitle: 'View of Jaisalmer Patawo ki Haweli',
+    title: '16-20 Days',
+    navigate: '/16-20-days-rajasthan-tours',
   },
 ];
 

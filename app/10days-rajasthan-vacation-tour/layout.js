@@ -1,3 +1,6 @@
+import Script from 'next/script';
+import { tour_faqs } from './data';
+
 export const metadata = {
   title: '10 Days Rajasthan Vacation Tour | Rajasthan Tour Packages',
   description:
@@ -28,10 +31,29 @@ export const metadata = {
   },
 };
 
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: tour_faqs.map((faq) => ({
+    '@type': 'Question',
+    name: faq.question,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: faq.answer,
+    },
+  })),
+};
 export default function Layout({ children }) {
   return (
     <div>
       <main>{children}</main>
+      <Script
+        id="faq-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(faqSchema),
+        }}
+      />
     </div>
   );
 }
