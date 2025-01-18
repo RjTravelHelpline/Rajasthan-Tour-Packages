@@ -218,7 +218,7 @@ export const tour_faqs = [
         ),
         answer: (
             <>
-                A <strong>3-days Jaipur</strong> trip includes the most important sights and attractions of the pink city, covering Amber Fort. It's a beautiful palace on a hill with an excellent view of <strong>Jaipur Jal Mahal</strong>. It's a very beautiful palace that can be regarded as being built in the centre of a lake.
+                A <strong>3-days Jaipur</strong> trip includes the most important sights and attractions of the pink city, covering Amber Fort. It’s a beautiful palace on a hill with an excellent view of <strong>Jaipur Jal Mahal</strong>. It’s a very beautiful palace that can be regarded as being built in the centre of a lake.
                 <br />
                 On day 2, go on a visit to the City Palace which describes the historical background of the royal family and go for the fabulous structure of Hawa Mahal. After that, go to Jantar Mantar, which is an old-world observatory, and get some gems of jewellery and handicrafts at Johari Bazaar. Day 3 comprises colourful places, such as the Albert Hall Museum and the stunningly beautiful Birla Temple.
                 <br />
@@ -236,7 +236,7 @@ export const tour_faqs = [
             <>
                 In Jaipur, the best markets for Rajasthani textiles and jewellery are Johari Bazaar, Bapu Bazaar, and Sanganer. The specialty of Johari Bazaar jewellery, kundan, meenakari, and traditional gold ornaments are the specialties of this bazaar. Rajasthani hand-painted fabrics such as block prints, bandhej and woollen shawls are collected from Bapu Bazaar as souvenirs. Sanganer, the place for hand-printed fabrics, is the right place to find block-printed fabrics and garments in bright and lively colours.
                 <br />
-                Every market is an informative and impressive tour of Jaipur's history, and every buyer of {Link('Rajasthani handicraft', 'https://www.rajasthantourpackages.in/blog/traditional-rajasthani-crafts-handicrafts-art')} products should visit these markets.
+                Every market is an informative and impressive tour of Jaipur’s history, and every buyer of {Link('Rajasthani handicraft', 'https://www.rajasthantourpackages.in/blog/traditional-rajasthani-crafts-handicrafts-art')} products should visit these markets.
 
             </>
         )
@@ -267,7 +267,7 @@ export const tour_faqs = [
             <>
                 <strong>Ajmer and Pushkar</strong> are normally secure for women travelling on their own. Those locations are popular vacation locations with many traffic and the area people are usually friendly. However, like any other vicinity, it is important to live carefully. Keep away from visiting alone at night, keep your assets safe, and dress modestly.
                 <br />
-                Live in well-lit busy regions and keep away from remote spots. It's usually appropriate to invite neighbourhood authorities like police, visitor assistant force employees, or first-rate humans & families if you're unsure about an area or path.
+                Live in well-lit busy regions and keep away from remote spots. It’s usually appropriate to invite neighbourhood authorities like police, visitor assistant force employees, or first-rate humans & families if you’re unsure about an area or path.
 
             </>
         )
