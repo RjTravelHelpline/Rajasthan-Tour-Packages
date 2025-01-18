@@ -46,3 +46,7 @@ jobs:
 
           # Output
           echo "Domain URL: https://www.rajasthantourpackages.in/"
+
+      - name: Display URLs
+        run: |
+          echo "Domain URL: https://rajasthantourpackages.in/"
