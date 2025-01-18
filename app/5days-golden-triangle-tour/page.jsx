@@ -17,6 +17,25 @@ const Page = () => {
     const [show, setShow] = useState(false);
     const [selectedPackage, setSelectedPackage] = useState('');
     const [packages, setPackages] = useState([]);
+    const [tourCost, setTourCost] = useState([]);
+
+    useEffect(() => {
+        const fetchPackages = async () => {
+            try {
+                const response = await fetch('/api/packageCost');
+                const data = await response.json();
+                setTourCost(data);
+            } catch (error) {
+                console.error('Error fetching package cost:', error);
+            }
+        };
+
+        fetchPackages();
+    }, []);
+
+    const TourCost = tourCost.filter(
+        (cost) => cost.duration === 5 && cost.package_name == '05 Days Golden Triangle Tour Package'
+    );
 
     useEffect(() => {
         const fetchPackages = async () => {
@@ -151,36 +170,14 @@ const Page = () => {
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <tr>
-                                            <td>02 Persons</td>
-                                            <td>Rs.19299 Per Person</td>
-                                            <td>01 Double Room</td>
-                                            <td>AC Toyota Etios or Similar</td>
-                                        </tr>
-                                        <tr>
-                                            <td>03 Persons</td>
-                                            <td>Rs.14799 Per Person</td>
-                                            <td>01 Triple Room</td>
-                                            <td>AC Toyota Etios or Similar</td>
-                                        </tr>
-                                        <tr>
-                                            <td>04 Persons</td>
-                                            <td>Rs.14899 Per Person</td>
-                                            <td>02 Double Rooms</td>
-                                            <td>AC Maruti Ertiga or Similar</td>
-                                        </tr>
-                                        <tr>
-                                            <td>05 Persons</td>
-                                            <td>Rs.13499 Per Person</td>
-                                            <td>01 Double & 01 Triple Room</td>
-                                            <td>AC Innova Crysta</td>
-                                        </tr>
-                                        <tr>
-                                            <td>06 Persons</td>
-                                            <td>Rs.12899 Per Person</td>
-                                            <td>03 Double Rooms</td>
-                                            <td>AC Innova Crysta</td>
-                                        </tr>
+                                        {TourCost.map((cost, index) => (
+                                            <tr key={index}>
+                                                <td>{cost.travelers}</td>
+                                                <td>{cost.cost}</td>
+                                                <td>{cost.rooms}</td>
+                                                <td>{cost.vehicle}</td>
+                                            </tr>
+                                        ))}
                                     </tbody>
                                 </Table>
                             </div>

@@ -173,6 +173,7 @@ export const packageData = [
         `,
   },
 ];
+
 // faq
 export const tour_faqs = [
   {

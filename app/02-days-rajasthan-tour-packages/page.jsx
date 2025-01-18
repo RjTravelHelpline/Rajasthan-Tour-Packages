@@ -4,7 +4,8 @@ import HeroBanner from "@/components/HeroBanner";
 import TourPackages from "@/components/TourPackages";
 import { _02DaysToursData } from "@/data/data";
 import { useEffect, useState } from "react";
-import { page_titles, tour_overview } from "./data";
+import { page_titles, tour_faqs, tour_overview } from "./data";
+import ItineraryFaqs from "@/components/ItineraryFaqs";
 
 const Page = () => {
   const [packages, setPackages] = useState([]);
@@ -68,6 +69,17 @@ const Page = () => {
                 ))}
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+      {/* faq's */}
+      <div className="container-fluid px-0 section-03">
+        <div className="container py-5">
+          <div className="row">
+            <h3 className="mb-4 text-center">
+              Frequently <span className="fw-normal">Asked Questions</span>
+            </h3>
+            <ItineraryFaqs faqs={tour_faqs} />
           </div>
         </div>
       </div>

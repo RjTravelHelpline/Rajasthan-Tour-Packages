@@ -17,6 +17,25 @@ const Page = () => {
     const [show, setShow] = useState(false);
     const [selectedPackage, setSelectedPackage] = useState('');
     const [packages, setPackages] = useState([]);
+    const [tourCost, setTourCost] = useState([]);
+
+    useEffect(() => {
+        const fetchPackages = async () => {
+            try {
+                const response = await fetch('/api/packageCost');
+                const data = await response.json();
+                setTourCost(data);
+            } catch (error) {
+                console.error('Error fetching package cost:', error);
+            }
+        };
+
+        fetchPackages();
+    }, []);
+
+    const TourCost = tourCost.filter(
+        (cost) => cost.duration === 3 && cost.package_name == '03 Days Jaisalmer Desert Safari Tour Package'
+    );
 
     useEffect(() => {
         const fetchPackages = async () => {
@@ -147,36 +166,14 @@ const Page = () => {
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <tr>
-                                            <td>02 Persons</td>
-                                            <td>Rs.7700 Per Person</td>
-                                            <td>01 Double Room</td>
-                                            <td>AC Toyota Etios or Similar</td>
-                                        </tr>
-                                        <tr>
-                                            <td>03 Persons</td>
-                                            <td>Rs.5800 Per Person</td>
-                                            <td>01 Triple Room</td>
-                                            <td>AC Toyota Etios or Similar</td>
-                                        </tr>
-                                        <tr>
-                                            <td>04 Persons</td>
-                                            <td>Rs.6500 Per Person</td>
-                                            <td>02 Double Rooms</td>
-                                            <td>AC Maruti Ertiga or Similar</td>
-                                        </tr>
-                                        <tr>
-                                            <td>05 Persons</td>
-                                            <td>Rs.6100 Per Person</td>
-                                            <td>01 Double & 01 Triple Room</td>
-                                            <td>AC Innova Crysta</td>
-                                        </tr>
-                                        <tr>
-                                            <td>06 Persons</td>
-                                            <td>Rs.5700 Per Person</td>
-                                            <td>03 Double Rooms</td>
-                                            <td>AC Innova Crysta</td>
-                                        </tr>
+                                        {TourCost.map((cost, index) => (
+                                            <tr key={index}>
+                                                <td>{cost.travelers}</td>
+                                                <td>{cost.cost}</td>
+                                                <td>{cost.rooms}</td>
+                                                <td>{cost.vehicle}</td>
+                                            </tr>
+                                        ))}
                                     </tbody>
                                 </Table>
                             </div>

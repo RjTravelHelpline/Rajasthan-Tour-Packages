@@ -1,10 +1,11 @@
 'use client'
 import Breadcrumb from "@/components/Breadcrumb";
-import TourCarousel from "@/components/TourCarousel";
 import TourPackages from "@/components/TourPackages";
 import { _03DaysToursData } from "@/data/data";
-import { allCitiesImages } from "@/data/imageData";
 import { useEffect, useState } from "react";
+import { page_titles, tour_faqs, tour_overview } from "./data";
+import ItineraryFaqs from "@/components/ItineraryFaqs";
+import HeroBanner from "@/components/HeroBanner";
 
 
 
@@ -28,33 +29,57 @@ const ThreeDaysRajasthanTourPackages = () => {
     const _03Days = packages.filter(
         (pkg) => pkg.nights === 2 && pkg.days === 3
     );
-    const images = [
-        {
-            src: allCitiesImages.jaipur.jaipurBanner01.src,
-            alt: allCitiesImages.jaipur.jaipurBanner01.alt,
-            title: allCitiesImages.jaipur.jaipurBanner01.title
-        },
-    ];
-
-    const content = [
-        {
-            duration: '02 nights • 03 days',
-            title: '03 days rajasthan tour packages',
-            subhead: null
-        },
-    ];
     return (
         <>
             {/* bread crumb */}
             <Breadcrumb breadcrumbKey="_03Days" />
-            <div className="container-fluid days-banner-container home-banner destination-banner px-0 bg-tertary-down">
-                <TourCarousel images={images} content={content} />
+            {/* banner */}
+            <HeroBanner backgroundImage='/Images/Banners/02days-rajasthan-tour.jpg' slides={page_titles} />
+
+            {/* overview */}
+            <div className="container-fluid px-0 mt-3">
+                <div className="container days-container overview">
+                    <div className="row d-flex justify-content-center align-items-center days-overview px-2">
+                        <div className="col-12 col-lg-11 col-sm-12 insider px-0">
+                            <h3
+                                className="text-capitalize px-3 mb-3 text-center fw-normal"
+                            >{tour_overview.title}</h3>
+                            <p
+                                className="text-justify px-3"
+                            >
+                                {tour_overview.content}
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div className="container packages py-2">
-                <div className="row py-4 d-flex align-items-stretch px-2">
-                    {_03Days.map((pkg, index) => (
-                        <TourPackages key={index} pkg={pkg} />
-                    ))}
+
+            {/* packages */}
+            <div className="container-fluid px-0 my-3">
+                <div className="container overview">
+                    <div className="row px-2 d-flex justify-content-center align-items-center package-more">
+                        <div className="col-12 col-lg-11 col-sm-12 cost-table insider px-0 packages">
+                            <h3 className="text-capitalize px-3 text-center fw-normal mb-2">
+                                <span className="fw-bold">packages</span>
+                            </h3>
+                            <div className="py-2 d-flex align-items-stretch flex-wrap px-2">
+                                {_03Days.map((pkg, index) => (
+                                    <TourPackages key={index} pkg={pkg} />
+                                ))}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {/* faq's */}
+            <div className="container-fluid px-0 section-03">
+                <div className="container py-5">
+                    <div className="row">
+                        <h3 className="mb-4 text-center">
+                            Frequently <span className="fw-normal">Asked Questions</span>
+                        </h3>
+                        <ItineraryFaqs faqs={tour_faqs} />
+                    </div>
                 </div>
             </div>
         </>
