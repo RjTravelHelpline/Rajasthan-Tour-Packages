@@ -1,14 +1,12 @@
 'use client'
 import Breadcrumb from "@/components/Breadcrumb";
 import HeroBanner from "@/components/HeroBanner";
-import TourCarousel from "@/components/TourCarousel";
 import TourPackages from "@/components/TourPackages";
 import { _02DaysToursData } from "@/data/data";
-import { allCitiesImages } from "@/data/imageData";
 import { useEffect, useState } from "react";
-import { tourOverview } from "./data";
+import { page_titles, tour_overview } from "./data";
 
-const TwoDaysRajasthanTourPackages = () => {
+const Page = () => {
   const [packages, setPackages] = useState([]);
 
   useEffect(() => {
@@ -29,41 +27,34 @@ const TwoDaysRajasthanTourPackages = () => {
     (pkg) => pkg.nights === 1 && pkg.days === 2
   );
 
-  const images = [
-    {
-      src: allCitiesImages.jaipur.jaipurBanner01.src,
-      alt: allCitiesImages.jaipur.jaipurBanner01.alt,
-      title: allCitiesImages.jaipur.jaipurBanner01.title
-    },
-  ];
 
-  const content = [
-    {
-      subheading: '01 night • 02 days',
-      heading: '02 days rajasthan tour packages',
-    },
-  ];
   return (
     <>
+      {/* breadcrumb */}
       <Breadcrumb breadcrumbKey="_02Days" />
-      <HeroBanner backgroundImage='/Images/Banners/02days-rajasthan-tour.jpg' slides={content} />
 
+      {/* banner */}
+      <HeroBanner backgroundImage='/Images/Banners/02days-rajasthan-tour.jpg' slides={page_titles} />
+
+      {/* overview */}
       <div className="container-fluid px-0 mt-3">
         <div className="container days-container overview">
           <div className="row d-flex justify-content-center align-items-center days-overview px-2">
             <div className="col-12 col-lg-11 col-sm-12 insider px-0">
               <h3
                 className="text-capitalize px-3 mb-3 text-center fw-normal"
-              >{tourOverview.title}</h3>
-              <div
+              >{tour_overview.title}</h3>
+              <p
                 className="text-justify px-3"
               >
-                {tourOverview.content}
-              </div>
+                {tour_overview.content}
+              </p>
             </div>
           </div>
         </div>
       </div>
+
+      {/* packages */}
       <div className="container-fluid px-0 my-3">
         <div className="container overview">
           <div className="row px-2 d-flex justify-content-center align-items-center package-more">
@@ -84,4 +75,4 @@ const TwoDaysRajasthanTourPackages = () => {
   );
 };
 
-export default TwoDaysRajasthanTourPackages;
+export default Page;

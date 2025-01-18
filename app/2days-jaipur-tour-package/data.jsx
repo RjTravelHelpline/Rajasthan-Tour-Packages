@@ -1,10 +1,14 @@
 import { Link } from "@/Utils/util";
 
-const temp = {
-  bold: (text) => `<strong>${text}<strong>`,
-  link: (text, url) =>
-    `<a class='anchor color-tertary' target='_blank' href='${url}'>${text}</a>`,
-};
+export const page_titles = [
+  {
+    subheading: '01 night • 02 days',
+    heading: "02 days jaipur tour package",
+  },
+];
+
+// Constructing the WhatsApp link with the encoded text
+export const whatsapp_link = `https://api.whatsapp.com/send/?phone=919166555888&text=${page_titles[0].heading}&type=phone_number&app_absent=0`;
 
 // Destination Covered by the tour
 export const destinationCovered = {
@@ -23,7 +27,7 @@ export const tourItinerary = {
             <span class='itinerary-pts'>On arrival at Jaipur Airport / Railway Station / Bus Stand, you are greeted by a Rajasthan Tour Packages representative and transferred to your Hotel.</span>
             <span class='itinerary-pts'>Immediately after finishing the check-in procedure and freshening up, we will start our 2 Days Jaipur Pushkar Tour itinerary.</span>
             <span class='itinerary-pts'>The first day of your tour will cover some of Jaipur's most popular attractions: City Palace, Observatory (Jantar Mantar), Hawa Mahal (Wind Palace), Walled Pink City, Albert Hall Museum, Birla Mandir, and Patrika Gate.</span>
-            <span class='itinerary-pts'>In the evening, we enjoy an authentic Rajasthani dinner in an ethnic village for an enjoyable, relaxing dining experience and overnight at our hotel.</span>
+            <span class='itinerary-pts'>In the evening, we enjoy an authentic Rajasthani dinner in an ethnic village for an enjoyable, relaxing dining experience.</span>
             <span class='itinerary-pts'>Overnight stay in the Hotel.</span>
           
           `,
@@ -44,8 +48,12 @@ export const tourItinerary = {
 };
 
 // Tour Overview Data
-export const tourOverview = {
-  title: `Tour <strong>Overview</strong>`,
+export const tour_overview = {
+  title: (
+    <>
+      Tour <strong>Overview</strong>
+    </>
+  ),
   content: (
     <>
       <p>Discover the vibrant charm of Jaipur with our exclusive <strong>02-Day Jaipur Tour Package</strong>, perfect for those looking for an unforgettable experience in Rajasthan&apos;s capital city. This Jaipur sightseeing tour has been designed to showcase the {Link('best places in Jaipur', 'https://www.rajasthantourpackages.in/jaipur')} that offer a blend of rich history, stunning architecture, and vibrant culture.</p>
@@ -55,17 +63,69 @@ export const tourOverview = {
 };
 
 // Tour Highlights
-export const tourHighlights = {
-  title: `Tour <strong>Highlights</strong>`,
+export const tour_highlights = {
+  title: (
+    <>
+      Tour <strong>Highlights</strong>
+    </>
+  ),
   content: [
-    'Jaipur City Tour with Guide',
-    'Visit Iconic Amber Fort - A UNESCO World Heritage Site.',
-    'Panoramic View of Pinkcity & Sunset from Nahargarh Fort.',
-    'Explore Walled Pink City & Stroll in Local Markets.',
-    'See the Largest Wheeled Cannon at Jaigarh Fort.',
-    'Leopard Safari at Jhalana Leopard Park.',
-    'Fun & Adventure with Elephants at Elephant Village Jaipur.',
-    'Experience the Rural Side of Rajasthan with Rajasthani Cuisine at Chokhi Dhani.',
+    {
+      point: (
+        <>
+          Jaipur City Tour with Guide
+        </>
+      )
+    },
+    {
+      point: (
+        <>
+          Visit Iconic Amber Fort - A UNESCO World Heritage Site.
+        </>
+      )
+    },
+    {
+      point: (
+        <>
+          Panoramic View of Pinkcity & Sunset from Nahargarh Fort.
+        </>
+      )
+    },
+    {
+      point: (
+        <>
+          Explore Walled Pink City & Stroll in Local Markets.
+        </>
+      )
+    },
+    {
+      point: (
+        <>
+          See the Largest Wheeled Cannon at Jaigarh Fort.
+        </>
+      )
+    },
+    {
+      point: (
+        <>
+          Leopard Safari at Jhalana Leopard Park.
+        </>
+      )
+    },
+    {
+      point: (
+        <>
+          Fun & Adventure with Elephants at Elephant Village Jaipur.
+        </>
+      )
+    },
+    {
+      point: (
+        <>
+          Experience the Rural Side of Rajasthan with Rajasthani Cuisine at Chokhi Dhani.
+        </>
+      )
+    }
   ],
 };
 
@@ -114,27 +174,70 @@ export const packageData = [
   },
 ];
 // faq
-export const tourFaq = {
-  questions: [
-    {
-      question: `What are the best places to visit in Jaipur in 2 days?`,
-      answer: `In 2 days, you can explore some of the top attractions in Jaipur that highlight the city's rich history, culture, and architecture. The ${temp.link('Amber Fort', 'https://www.rajasthantourpackages.in/jaipur')}, Hawa Mahal, Jal Mahal, City Palace, Jantar Mantar, Albert Hall Museum and the picturesque Nahargarh Fort, from where you can get a breathtaking view of the pink city at sunset, are some of the must-visit places on your trip to Jaipur.`,
-    },
-    {
-      question: `What is the cost of a 2-day Jaipur tour package?`,
-      answer: `The cost of a <strong>2-day Jaipur tour package</strong> usually ranges between ₹5,000 and ₹15,000 per person, depending on factors such as accommodation, transport, and included activities. Luxury packages can cost more, while there are also budget options with basic services. Prices may vary depending on customization and season.`,
-    },
-    {
-      question: `Is a 2-day tour enough to explore Jaipur? `,
-      answer: `Yes, a 2-day tour is enough to explore the major sights of Jaipur, including iconic landmarks like Amber Fort, Hawa Mahal, City Palace, and Jantar Mantar. While you may not be able to visit every single place, this duration allows you to experience the rich history, culture, and architecture of the city.`,
-    },
-    {
-      question: `What is the best time to visit Jaipur?`,
-      answer: `The best time to visit Jaipur is from <strong>October to March</strong> when the weather is pleasant for sightseeing and outdoor activities. Avoid visiting Jaipur in the peak summer months of May, June, and July as the temperature can rise to over 40°C, and it is then uncomfortable to travel. However, the evenings in April, August, and September offer a more pleasant climate and you may find good deals on accommodation and tours. These months offer a great opportunity to explore Jaipur with fewer crowds and better value for money, making them ideal for a memorable trip.`,
-    },
-    {
-      question: `What are the top activities to do during a 2-day trip to Jaipur? `,
-      answer: `During a 2-day excursion to Jaipur, you can enjoy a mix of cultural and adventurous activities. Visit Chokhi Dhani, an ethnic village, and experience traditional Rajasthani culture with folk performances, dance and cuisine. Enjoy an elephant ride at Amber Fort, a royal experience that takes you to the entrance of the fort. Get a unique view of the city on a thrilling hot air balloon ride. Don't miss the Sound & Light Show at Amber Fort, which brings the history of the fort to life. And if you love nature, you should go on a ${temp.link('Jhalana Leopard Safari', 'https://www.rajasthantourpackages.in/blog/jhalana-leopard-safari-wildlife-sanctuary-jaipur')} to spot wild animals.`,
-    },
-  ],
-};
+export const tour_faqs = [
+  {
+    question: (
+      <>
+        What are the best places to visit in Jaipur in 2 days?
+      </>
+    ),
+    answer: (
+      <>
+        In 2 days, you can explore some of the top attractions in Jaipur that highlight the city&apos;s rich history, culture, and architecture. The {Link('Amber Fort', 'https://www.rajasthantourpackages.in/jaipur')}, Hawa Mahal, Jal Mahal, City Palace, Jantar Mantar, Albert Hall Museum and the picturesque Nahargarh Fort, from where you can get a breathtaking view of the pink city at sunset, are some of the must-visit places on your trip to Jaipur.
+
+      </>
+    )
+  },
+  {
+    question: (
+      <>
+        What is the cost of a 2-day Jaipur tour package?
+      </>
+    ),
+    answer: (
+      <>
+        The cost of a <strong>2-day Jaipur tour package</strong> usually ranges between ₹5,000 and ₹15,000 per person, depending on factors such as accommodation, transport, and included activities. Luxury packages can cost more, while there are also budget options with basic services. Prices may vary depending on customization and season.
+
+      </>
+    )
+  },
+  {
+    question: (
+      <>
+        Is a 2-day tour enough to explore Jaipur?
+      </>
+    ),
+    answer: (
+      <>
+        Yes, a 2-day tour is enough to explore the major sights of Jaipur, including iconic landmarks like Amber Fort, Hawa Mahal, City Palace, and Jantar Mantar. While you may not be able to visit every single place, this duration allows you to experience the rich history, culture, and architecture of the city.
+
+      </>
+    )
+  },
+  {
+    question: (
+      <>
+        What is the best time to visit Jaipur?
+      </>
+    ),
+    answer: (
+      <>
+        The best time to visit Jaipur is from <strong>October to March</strong> when the weather is pleasant for sightseeing and outdoor activities. Avoid visiting Jaipur in the peak summer months of May, June, and July as the temperature can rise to over 40°C, and it is then uncomfortable to travel. However, the evenings in April, August, and September offer a more pleasant climate and you may find good deals on accommodation and tours. These months offer a great opportunity to explore Jaipur with fewer crowds and better value for money, making them ideal for a memorable trip.
+
+      </>
+    )
+  },
+  {
+    question: (
+      <>
+        What are the top activities to do during a 2-day trip to Jaipur?
+      </>
+    ),
+    answer: (
+      <>
+        During a 2-day excursion to Jaipur, you can enjoy a mix of cultural and adventurous activities. Visit Chokhi Dhani, an ethnic village, and experience traditional Rajasthani culture with folk performances, dance and cuisine. Enjoy an elephant ride at Amber Fort, a royal experience that takes you to the entrance of the fort. Get a unique view of the city on a thrilling hot air balloon ride. Don&apos;t miss the Sound & Light Show at Amber Fort, which brings the history of the fort to life. And if you love nature, you should go on a {Link('Jhalana Leopard Safari', 'https://www.rajasthantourpackages.in/blog/jhalana-leopard-safari-wildlife-sanctuary-jaipur')} to spot wild animals.
+
+      </>
+    )
+  },
+];

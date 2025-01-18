@@ -1,21 +1,32 @@
-import { FaCheckCircle, FaFileContract, FaTimesCircle } from 'react-icons/fa';
-const temp = {
-    bold: (text) => `<span class='fw-bold'>${text}</span>`,
-    link: (text, url) =>
-        `<a class='text-web' target='_blank' href='${url}'>${text}</a>`,
-};
+import { Link } from "@/Utils/util";
+
+export const page_titles = [
+    {
+        subheading: '01 night • 02 days',
+        heading: '02 days jaisalmer tour package',
+    },
+];
+export const whatsapp_link = `https://api.whatsapp.com/send/?phone=919166555888&text=${page_titles[0].heading}&type=phone_number&app_absent=0`;
 // Destination Covered by the tour
 export const destinationCovered = {
     title: 'Destination Covered',
     destinations: ['Jaisalmer', 'Desert - Sand Dunes'],
 };
 // Tour Overview Data
-export const tourOverview = {
-    title: `Tour <strong>Overview</strong>`,
+export const tour_overview = {
+    title: (
+        <>
+            Tour <strong>Overview</strong>
+        </>
+    ),
     content: (
         <>
-            <p>Our <strong>2 Days Jaisalmer Tour Package</strong> offers visitors looking for a quick way to discover its idyllic desert landscape, historical landmarks, and vibrant culture in just 2 days. This itinerary is perfect as a weekend escape, allowing visitors to fully embrace Jaisalmer&apos;s unique charms.</p>
-            <p>Experience an exhilarating Jaisalmer Camel Safari ride through magnificent dunes where breathtaking sunsets meet tranquil desert landscapes! Don&apos;t miss the thrills and adventure on one of <strong>Jaisalmer Camel Safari</strong> rides through spectacular dunes for an incredible journey in Jaisalmer.</p>
+            Your dreams will come true with our best <strong>2 days Jaisalmer tour package</strong>. {Link('Jaisalmer city', 'https://www.rajasthantourpackages.in/jaisalmer')} is surrounded by the Thar Desert and it is predominantly historical and culturally rich with mesmerizing desert area. That is why on this brief but exciting tour, you will get acquainted with the most significant objects of Jaisalmer – forts, havelis, and the great sand tracts.
+            <br />
+            On the first day, you will have a sightseeing tour: Jaisalmer’s first stop is the Jaisalmer Fort which shares the same color and is made from golden sandstone. You will also be able to visit Patwon Ki Haveli, which contain series of beautiful havelis explaining the architectural beauty of this region. Then proceed to experience the joy of camel safari in the most beautiful sand dunes of Rajasthan over night at Jaisalmer. This activity is one of the most popular attractions of the tourn and you’ll get a chance to ride a camel and to watch the sunset on the dunes of the Great Indian Desert.
+            <br />
+            This <strong>2 days Jaisalmer tour package</strong> is aimed at those clients who want to see as many fascinating {Link('places of Jaisalmer', 'https://www.rajasthantourpackages.in/blog/best-beautiful-places-to-visit-in-jaisalmer-travel-guide')} as possible. This fun-filled tour is a exciting trip for the adventurous soul and the historic minded individual as well.
+            <br />
         </>
     )
 };
@@ -46,15 +57,49 @@ export const tourItinerary = {
     ],
 };
 // Tour Highlights
-export const tourHighlights = {
-    title: `Tour <strong>Highlights</strong>`,
+export const tour_highlights = {
+    title: (
+        <>
+            Tour <strong>Highlights</strong>
+        </>
+    ),
     content: [
-        'Discover the iconic Jaisalmer Fort, a UNESCO World Heritage Site celebrated for its breathtaking architecture and vibrant culture.',
-        'Take in picturesque views of Gadisar Lake, an idyllic sanctuary of temples and ghats ideal for an evening stroll.',
-        'Enjoy an exhilarating camel ride across mesmerizing sand dunes to capture the spirit of the desert landscape.',
-        'Experience a unique overnight stay in a desert camp, enjoying the charm of tented accommodations under the starry sky.',
-        'Delight in traditional cultural programs during your desert stay, showcasing the rich heritage and vibrant traditions of Rajasthan.',
-    ],
+        {
+            point: (
+                <>
+                    Discover the iconic Jaisalmer Fort, a UNESCO World Heritage Site celebrated for its breathtaking architecture and vibrant culture.
+                </>
+            )
+        },
+        {
+            point: (
+                <>
+                    Take in picturesque views of Gadisar Lake, an idyllic sanctuary of temples and ghats ideal for an evening stroll.
+                </>
+            )
+        },
+        {
+            point: (
+                <>
+                    Enjoy an exhilarating camel ride across mesmerizing sand dunes to capture the spirit of the desert landscape.
+                </>
+            )
+        },
+        {
+            point: (
+                <>
+                    Experience a unique overnight stay in a desert camp, enjoying the charm of tented accommodations under the starry sky.
+                </>
+            )
+        },
+        {
+            point: (
+                <>
+                    Delight in traditional cultural programs during your desert stay, showcasing the rich heritage and vibrant traditions of Rajasthan.
+                </>
+            )
+        }
+    ]
 };
 // More Info about the tour
 export const packageData = [
@@ -101,35 +146,65 @@ export const packageData = [
     },
 ];
 // faq
-export const tourFaq = {
-    questions: [
-        {
-            question: `What constitutes a 2-Day Jaisalmer Tour Package?`,
-            answer: `Our ${temp.bold(
-                `2-Day Jaisalmer Tour Package`
-            )} entails accommodation, transport, meals and guided visits of major sites such as Jaisalmer Fort and Sam Sand Dunes.`,
-        },
-        {
-            question: `What are the top tourist spots in Jaisalmer?`,
-            answer: `Jaisalmer boasts many must-visit spots such as ${temp.bold(
-                `Jaisalmer Fort`
-            )}, Patwon Ki Haveli, Sam Sand Dunes and Gadisar Lake; just some can be seen below!`,
-        },
-        {
-            question: `Are your Jaisalmer Tour Packages suitable for families traveling with young children?`,
-            answer: `Absolutely. We created the ${temp.bold(
-                `Jaisalmer Tour Package`
-            )} specifically with families in mind and feature engaging activities suitable for all age groups.`,
-        },
-        {
-            question: `Do I have the option of personalizing my 2 Day Jaisalmer Tour Package?`,
-            answer: `Absolutely. Our custom 2 Days Jaisalmer Tour Package can be tailored specifically to include attractions or experiences of interest for you - simply let us know which experiences speak to you the most and we'll include them all!`,
-        },
-        {
-            question: `What Activities Will Be Offered on My Jaisalmer Tour? `,
-            answer: `A two-Day Jaisalmer tour provides numerous exciting experiences, from ${temp.bold(
-                `Jaisalmer Camel Safari`
-            )} rides through the desert and cultural performances, to exploring its rich heritage and sightseeing tours of Jaisalmer itself.`,
-        },
-    ],
-};
+export const tour_faqs = [
+    {
+        question: (
+            <>
+                What does the 2-Day Jaisalmer Tour Package include?
+            </>
+        ),
+        answer: (
+            <>
+                02 day Jaisalmer tour package usually includes a visit to the major attractions in Jaisalmer, such as the Jaisalmer Fort, Patwon Ki Haveli, and the Sam Sand Dunes. The package may also include a guided tour of the city, showcasing its rich history, culture, and beautiful architecture. You can also take a camel ride in the desert, attend a cultural dance performance,e and browse for souvenirs in the local markets. Meals, transportation, and accommodation (e.g. in desert camps or hotels) are usually included. The tour offers the opportunity to experience the beauty of the Thar Desert and the historical charm of Jaisalmer.
+            </>
+        )
+    },
+    {
+        question: (
+            <>
+                What are the must-see attractions in Jaisalmer ?
+            </>
+        ),
+        answer: (
+            <>
+                Jaisalmer, known as the {Link('Golden City', 'https://www.rajasthantourpackages.in/jaisalmer')} , has many beautiful attractions. The Jaisalmer Fort, a UNESCO World Heritage Site, is a must-see with its ancient walls and stunning architecture. The Patwon Ki Haveli, a collection of beautiful havelis, is a great example of Rajasthani craftsmanship. For a unique desert experience, visit the Sam Sand Dunes, where you can ride camels and watch the sunset. The Gadisar Lake, with its calm waters and surrounding temples, is a place to relax. Don&lsquo;t miss the beautiful Jain temples and the colorful markets, which offer a taste of the local culture.
+            </>
+        )
+    },
+    {
+        question: (
+            <>
+                Can I Visit Jaisalmer Alone ?
+            </>
+        ),
+        answer: (
+            <>
+                Yes, it is safe for solo travelers but still avoid being very cautious. It is well recognized by the historical background and the unique views of the nature it possesses, to the great number of tourists from different corners of the world. However, it is highly recommended that one should stay in the most populated areas, particularly at night. Never leave your personal belongings unattended, avoid using unknown cars, and plan your travel to know the culture of the country.
+            </>
+        )
+    },
+    {
+        question: (
+            <>
+                How do I get to Jaisalmer ?
+            </>
+        ),
+        answer: (
+            <>
+                There are several ways of getting to Jaisalmer, But one can go by direct train from places like {Link('Jaipur or Delhi', 'https://www.jaipurtaxiservice.com/one-way-taxi/jaipur-to-delhi-oneway-cab.html')} as the place indeed boasts of having its railway station. However, if you wanna go by flight then you can because Jaisalmer also has an airport, and all main cities of India have their flights here. Bus services are also available, as Jaisalmer is well connected through the bus services with other surrounding cities. The other means is by car or by booking a taxi since the road network is well developed and safe for long-distance travel.
+            </>
+        )
+    },
+    {
+        question: (
+            <>
+                Is it possible to visit the Tanot and the India-Pakistan border on the 2-day Jaisalmer tour ?
+            </>
+        ),
+        answer: (
+            <>
+                Yes, it’s possible to visit Tanot and the India-Pakistan border as part of a <strong>2-day Jaisalmer tour</strong>. You can visit the Tanot Mata Temple, known for its significance during the India-Pakistan wars of 1965 and 1971, and then drive to the Border Viewing Point near the India-Pakistan border. Note that the trip requires early planning and obtaining permits for the border area. If you need help with logistics, the Rajasthan Travel Helpline can suggest ways to optimize your visit.
+            </>
+        )
+    }
+];

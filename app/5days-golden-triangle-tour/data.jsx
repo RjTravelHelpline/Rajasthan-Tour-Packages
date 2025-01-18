@@ -1,10 +1,15 @@
 import { Link } from "@/Utils/util";
 
-const temp = {
-    bold: (text) => `<span class='fw-bold'>${text}</span>`,
-    link: (text, url) =>
-        `<a class='text-web' target='_blank' href='${url}'>${text}</a>`,
-};
+export const page_titles = [
+    {
+        heading: '05 Days Golden Triangle Tour',
+        subheading: '04 nights • 05 days',
+    },
+];
+
+// Constructing the WhatsApp link with the encoded text
+export const whatsapp_link = `https://api.whatsapp.com/send/?phone=919166555888&text=${page_titles[0].heading}&type=phone_number&app_absent=0`;
+
 
 // Destination Covered by the tour
 export const destinationCovered = {
@@ -71,30 +76,83 @@ export const tourItinerary = {
     ],
 };
 // Tour Overview Data
-export const tourOverview = {
-    title: `Tour <strong>Overview</strong>`,
+export const tour_overview = {
+    title: (
+        <>
+            Tour <strong>Overview</strong>
+        </>
+    ),
     content: (
         <>
-            <p>Embark on a <strong>5 Days Golden Triangle Tour</strong> that takes you through India&apos;s most iconic cities: Delhi, Agra, and Jaipur. This carefully curated <strong>Golden Triangle Travel Package</strong> perfectly blends history, culture, and architectural wonders. Your journey begins in Delhi, where you will explore historical landmarks like India Gate, Qutub Minar, and the bustling markets of Chandni Chowk. Experience the vibrant energy of the capital city and savor the delicious local cuisine.</p>
-            <p>The second day of your <strong>Golden Triangle Itinerary</strong> 5 Days will transport you to Agra, home of the magnificent Taj Mahal. Prepare to be awe-inspired as you witness the breathtaking beauty of this UNESCO World Heritage site at sunrise, when it glows with golden hues. After visiting the Taj Mahal, you&apos;ll have the chance to explore Agra Fort and learn about the fascinating history surrounding these monumental structures. The day concludes with a scenic drive to Jaipur, the Pink City, where you will experience its rich heritage and royal charm.</p>
-            <p>On the final leg of your India Golden Triangle Trip, immerse yourself in Jaipur&apos;s majestic architecture, including the Amber Fort, City Palace, and Hawa Mahal. Enjoy shopping for traditional handicrafts such as block-printed textiles, blue pottery, and Kundan jewelry, and savoring local delicacies. This 5 Days Golden Triangle Tour offers a memorable experience, leaving you with lasting memories of India&apos;s rich culture and heritage. Find More {Link(
+            Embark on a <strong>5 Days Golden Triangle Tour</strong> that takes you through India&apos;s most iconic cities: Delhi, Agra, and Jaipur. This carefully curated <strong>Golden Triangle Travel Package</strong> perfectly blends history, culture, and architectural wonders. Your journey begins in Delhi, where you will explore historical landmarks like India Gate, Qutub Minar, and the bustling markets of Chandni Chowk. Experience the vibrant energy of the capital city and savor the delicious local cuisine.
+            <br />
+            The second day of your <strong>Golden Triangle Itinerary</strong> 5 Days will transport you to Agra, home of the magnificent Taj Mahal. Prepare to be awe-inspired as you witness the breathtaking beauty of this UNESCO World Heritage site at sunrise, when it glows with golden hues. After visiting the Taj Mahal, you&apos;ll have the chance to explore Agra Fort and learn about the fascinating history surrounding these monumental structures. The day concludes with a scenic drive to Jaipur, the Pink City, where you will experience its rich heritage and royal charm.
+            <br />
+            On the final leg of your India Golden Triangle Trip, immerse yourself in Jaipur&apos;s majestic architecture, including the Amber Fort, City Palace, and Hawa Mahal. Enjoy shopping for traditional handicrafts such as block-printed textiles, blue pottery, and Kundan jewelry, and savoring local delicacies. This 5 Days Golden Triangle Tour offers a memorable experience, leaving you with lasting memories of India&apos;s rich culture and heritage. Find More {Link(
                 `Rajasthan Tour Packages`,
                 `https://www.rajasthantourpackages.in/`
-            )}.</p>
+            )}.
         </>
     )
 };
 // Tour Highlights
-export const tourHighlights = {
-    title: `Tour <strong>Highlights</strong>`,
+export const tour_highlights = {
+    title: (
+        <>
+            Tour <strong>Highlights</strong>
+        </>
+    ),
+
     content: [
-        'Explore the tallest brick minaret in the world and its surrounding historical ruins.',
-        'Behold the breathtaking beauty of the Taj Mahal, a UNESCO World Heritage site known for its stunning marble architecture.',
-        'Visit Fatehpur Sikri, the Dream City of Akbar, and explore the ancient step-well of Abhaneri.',
-        'Experience the grandeur of Amber Fort and admire the unique façade of the Palace of Winds in Jaipur.',
-        'Take a tour of Elephant Village, where you can feed these magnificent creatures and even ride on their backs.',
-        "Enjoy the vibrant energy of Jaipur's markets and witness a stunning sunset from Nahargarh Fort.",
-        'All sightseeing and transfers are provided by air-conditioned vehicles, with knowledgeable local guides accompanying you during the tours.',
+        {
+            point: (
+                <>
+                    Explore the tallest brick minaret in the world and its surrounding historical ruins.
+                </>
+            )
+        },
+        {
+            point: (
+                <>
+                    Behold the breathtaking beauty of the Taj Mahal, a UNESCO World Heritage site known for its stunning marble architecture.
+                </>
+            )
+        },
+        {
+            point: (
+                <>
+                    Visit Fatehpur Sikri, the Dream City of Akbar, and explore the ancient step-well of Abhaneri.
+                </>
+            )
+        },
+        {
+            point: (
+                <>
+                    Experience the grandeur of Amber Fort and admire the unique façade of the Palace of Winds in Jaipur.
+                </>
+            )
+        },
+        {
+            point: (
+                <>
+                    Take a tour of Elephant Village, where you can feed these magnificent creatures and even ride on their backs.
+                </>
+            )
+        },
+        {
+            point: (
+                <>
+                    Enjoy the vibrant energy of Jaipur’s markets and witness a stunning sunset from Nahargarh Fort.
+                </>
+            )
+        },
+        {
+            point: (
+                <>
+                    All sightseeing and transfers are provided by air-conditioned vehicles, with knowledgeable local guides accompanying you during the tours.
+                </>
+            )
+        }
     ],
 };
 
@@ -142,29 +200,65 @@ export const packageData = [
     },
 ];
 // faq
-export const tourFaq = {
-    questions: [
-        {
-            question: `What is included in the 5-Day Golden Triangle Tour?`,
-            answer: `The visit is planned for consolation and comfort, counting remains in comfortable lodgings, all transportation in a private vehicle, guided city visits by learned neighborhood guides, and entrance expenses to major attractions like the Taj Mahal and Golden Post.`,
-        },
-        {
-            question: `Do you know if this is a private tour?`,
-            answer: `You can select a private visit, which engages you in creating a customized involvement that fits your interface. You can appreciate the adaptability of choosing travel dates, touring inclinations, and stops.`,
-        },
-        {
-            question: `When is the most wonderful time for the Golden Triangle Tour?`,
-            answer: `The best time is from ${temp.bold(
-                `October to March`
-            )} when the climate is charming for visiting. In the midst of these months, you can expect cooler temperatures and less stickiness, making your visit more comfortable.`,
-        },
-        {
-            question: `Can I customize my Golden Triangle Schedule for 5 Days?`,
-            answer: `Absolutely! You can customize your agenda based on your inclinations and interface. Whether you need to incorporate extra cities, alter the arrangement of goals, or center on particular attractions, we can tailor the visit to meet your needs`,
-        },
-        {
-            question: `How do I book the Golden Triangle Travel Package?`,
-            answer: `You can book online through our site or contact us straightforwardly if you require assistance arranging your trip. Our group is continuously accessible to offer assistance through the booking preparation, give point-by-point data on almost all the agenda, and reply to any questions to make sure you have a smooth involvement.`,
-        },
-    ],
-};
+export const tour_faq = [
+    {
+        question: (
+            <>
+                What is included in the 5-Day Golden Triangle Tour?
+            </>
+        ),
+        answer: (
+            <>
+                The visit is planned for consolation and comfort, counting remains in comfortable lodgings, all transportation in a private vehicle, guided city visits by learned neighborhood guides, and entrance expenses to major attractions like the Taj Mahal and Golden Post.
+            </>
+        )
+    },
+    {
+        question: (
+            <>
+                Do you know if this is a private tour?
+            </>
+        ),
+        answer: (
+            <>
+                You can select a private visit, which engages you in creating a customized involvement that fits your interface. You can appreciate the adaptability of choosing travel dates, touring inclinations, and stops.
+            </>
+        ),
+    },
+    {
+        question: (
+            <>
+                When is the most wonderful time for the Golden Triangle Tour?
+            </>
+        ),
+        answer: (
+            <>
+                The best time is from <strong>October to March</strong> when the climate is charming for visiting. In the midst of these months, you can expect cooler temperatures and less stickiness, making your visit more comfortable.
+            </>
+        )
+    },
+    {
+        question: (
+            <>
+                Can I customize my Golden Triangle Schedule for 5 Days?
+            </>
+        ),
+        answer: (
+            <>
+                Absolutely! You can customize your agenda based on your inclinations and interface. Whether you need to incorporate extra cities, alter the arrangement of goals, or center on particular attractions, we can tailor the visit to meet your needs.
+            </>
+        )
+    },
+    {
+        question: (
+            <>
+                How do I book the Golden Triangle Travel Package?
+            </>
+        ),
+        answer: (
+            <>
+                You can book online through our site or contact us straightforwardly if you require assistance arranging your trip. Our group is continuously accessible to offer assistance through the booking preparation, give point-by-point data on almost all the agenda, and reply to any questions to make sure you have a smooth involvement.
+            </>
+        )
+    },
+]

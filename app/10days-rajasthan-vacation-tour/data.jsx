@@ -1,12 +1,11 @@
-
 import { Link } from '@/Utils/util';
-export const temp = {
-    bold: (text) => `<span class='fw-bold'>${text}</span>`,
-    link: (text, url) =>
-        `<a class='text-web' target='_blank' href='${url}'>${text}</a>`,
-};
-// data.js
-// // Destination Covered by the tour
+export const page_titles = [
+    {
+        subheading: '09 nights • 10 days',
+        heading: '10 Days Rajasthan Vacation Tour',
+    },
+];
+// Destination Covered 
 export const destinationCovered = {
     title: 'Destination Covered',
     destinations: [
@@ -139,36 +138,103 @@ export const tourOverview = {
     title: `tour <strong>overview</strong>`,
     content: (
         <>
-            <p>Set out on a select <strong>Rajasthan Vacation Tour</strong> that takes you through the heart of this magnificent state. Over 10 days, this bespoke {Link(
+            Set out on a select <strong>Rajasthan Vacation Tour</strong> that takes you through the heart of this magnificent state. Over 10 days, this bespoke {Link(
                 `Rajasthan Tour Package`,
                 `https://www.rajasthantourpackages.in/`
-            )} allows you to explore the vibrant culture, rich heritage, and stunning landscapes that Rajasthan is famous for. Your journey begins in the Pink City of Jaipur, where you will visit iconic landmarks like the Amber Fort and Hawa Mahal. Travel to the beautiful Udaipur, known for its picturesque lakes and royal palaces, from Jaipur before heading to Jodhpur, the Blue City. Each destination offers a unique glimpse into the regal history and traditions of Rajasthan.</p>
-            <p>Our carefully crafted <strong>Rajasthan Tour Itinerary</strong> includes guided city tours, local cuisine experiences, and opportunities to shop for traditional handicrafts. Whether you&apos;re interested in exploring forts and palaces or immersing yourself in local culture, this tour caters to all your travel desires. Plus, we offer some of the cheapest <strong>tour packages for Rajasthan</strong>, ensuring you get the best value without compromising on quality. With comfortable accommodations and expert guides, your Rajasthan adventure promises to be a memorable experience filled with stories of the past and the warmth of its people.</p>
-            <p>This <strong>10 days Rajasthan Tour</strong> will cater to numerous travelers, from families to solo globe-trotters and bunches. It provides a holistic view of Rajasthan&apos;s beauty and charm, ensuring that everyone can witness the grandeur of Rajasthan firsthand. Take advantage of this opportunity to make recollections that will last a lifetime. Whether it&apos;s the stunning architecture, the colorful bazaars, or the mesmerizing desert landscapes, Rajasthan awaits you with open arms. Book your {Link(
+            )} allows you to explore the vibrant culture, rich heritage, and stunning landscapes that Rajasthan is famous for. Your journey begins in the Pink City of Jaipur, where you will visit iconic landmarks like the Amber Fort and Hawa Mahal. Travel to the beautiful Udaipur, known for its picturesque lakes and royal palaces, from Jaipur before heading to Jodhpur, the Blue City. Each destination offers a unique glimpse into the regal history and traditions of Rajasthan.
+            <br />
+            Our carefully crafted <strong>Rajasthan Tour Itinerary</strong> includes guided city tours, local cuisine experiences, and opportunities to shop for traditional handicrafts. Whether you&apos;re interested in exploring forts and palaces or immersing yourself in local culture, this tour caters to all your travel desires. Plus, we offer some of the cheapest <strong>tour packages for Rajasthan</strong>, ensuring you get the best value without compromising on quality. With comfortable accommodations and expert guides, your Rajasthan adventure promises to be a memorable experience filled with stories of the past and the warmth of its people.
+            <br />
+            This <strong>10 days Rajasthan Tour</strong> will cater to numerous travelers, from families to solo globe-trotters and bunches. It provides a holistic view of Rajasthan&apos;s beauty and charm, ensuring that everyone can witness the grandeur of Rajasthan firsthand. Take advantage of this opportunity to make recollections that will last a lifetime. Whether it&apos;s the stunning architecture, the colorful bazaars, or the mesmerizing desert landscapes, Rajasthan awaits you with open arms. Book your {Link(
                 `Rajasthan Tour Packages`,
                 `https://rajasthantourpackages.in/`
-            )} now and plan for extraordinary travel.</p>
+            )} now and plan for extraordinary travel.
         </>
     )
 };
 
 // Tour Highlights
-export const tourHighlights = {
-    title: `tour <strong>highlights</strong>`,
+export const tour_highlights = {
+    title: (
+        <>
+            Tour <strong>Highlights</strong>
+        </>
+    ),
     content: [
-        'Explore the UNESCO World Heritage Site of Amber Fort, an iconic destination.',
-        'Take a tour of Elephant Village, where you can feed these magnificent creatures and even go for a ride on their backs.',
-        'Go on a Jungle Safari through the Ranthambhore Tiger Reserve and try to spot tigers, leopards, and other wildlife.',
-        "Discover Udaipur's romantic ambiance and scenic beauty, also known as the City of Lakes.",
-        'At Pratap Gaurav Kendra, witness the bravery and courage of Maharana Pratap.',
-        "Visit Jodhpur, known as the 'Blue City,' to explore its rich history, culture, and architectural marvels.",
-        'Experience a camel safari in the Thar Desert, exploring the dunes and witnessing mesmerizing sunsets.',
-        'Visit Asia’s Largest Camel Breeding Farm at Bikaner.',
-        'All sightseeing and transfers are provided by air-conditioned vehicles, and you will be accompanied by knowledgeable local guides during historical monuments visits.',
+        {
+            point: (
+                <>
+                    Explore the UNESCO World Heritage Site of Amber Fort, an iconic destination.
+                </>
+            )
+        },
+        {
+            point: (
+                <>
+                    Take a tour of Elephant Village, where you can feed these magnificent creatures and even go for a ride on their backs.
+                </>
+            )
+        },
+        {
+            point: (
+                <>
+                    Go on a Jungle Safari through the Ranthambhore Tiger Reserve and try to spot tigers, leopards, and other wildlife.
+                </>
+            )
+        },
+        {
+            point: (
+                <>
+                    Visit the Jain Temple at Karni Mata Temple, a beautiful example of Rajasthan’s religious traditions.
+                </>
+            )
+        },
+        {
+            point: (
+                <>
+                    Discover Udaipur’s romantic ambiance and scenic beauty, also known as the City of Lakes.
+                </>
+            )
+        },
+        {
+            point: (
+                <>
+                    At Pratap Gaurav Kendra, witness the bravery and courage of Maharana Pratap.
+                </>
+            )
+        },
+        {
+            point: (
+                <>
+                    Visit Jodhpur, known as the Blue City, to explore its rich history, culture, and architectural marvels.
+                </>
+            )
+        },
+        {
+            point: (
+                <>
+                    Experience a camel safari in the Thar Desert, exploring the dunes and witnessing mesmerizing sunsets.
+                </>
+            )
+        },
+        {
+            point: (
+                <>
+                    Visit Asia’s Largest Camel Breeding Farm at Bikaner.
+                </>
+            )
+        },
+        {
+            point: (
+                <>
+                    All sightseeing and transfers are provided by air-conditioned vehicles, and you will be accompanied by knowledgeable local guides during historical monuments visits.
+                </>
+            )
+        }
     ],
 };
 
-// More Info about the tour
+// package more details
 export const packageData = [
     {
         title: 'Package Inclusions',
@@ -214,35 +280,69 @@ export const packageData = [
     },
 ];
 
-export const tourFaq = {
-    questions: [
-        {
-            question: `What destinations are included in the Rajasthan Vacation Tour?`,
-            answer: `Embark on a ${temp.bold(
-                `10 Days Rajasthan Tour`
-            )} that takes you through the vibrant cities of Jaipur, Udaipur, Jodhpur, and other significant destinations, offering a rich tapestry of Rajasthan's culture and heritage.`,
-        },
-        {
-            question: `Is transportation included in the Rajasthan Travel Package?`,
-            answer: `Yes, all necessary transportation, including spacious and comfortable vehicles for local and intercity travel, is included in the ${temp.bold(
-                `Rajasthan Tour Itinerary`
-            )}. You can rest assured that your journey will be as comfortable as it is exciting.`,
-        },
-        {
-            question: `Can I customize the itinerary?`,
-            answer: `Our ${temp.bold(
-                `Rajasthan Vacation Tour Packages`
-            )} are designed with your preferences in mind, offering a range of options to customize your itinerary.`,
-        },
-        {
-            question: `Are meals included in the cheapest tour packages for Rajasthan?`,
-            answer: `Most packages include breakfast, and you will have opportunities to experience local cuisine during the tour.`,
-        },
-        {
-            question: `What is the best time to book a Rajasthan Tour Package?`,
-            answer: `The ideal time to visit Rajasthan is between ${temp.bold(
-                `October and March`
-            )}, when the weather is pleasant for sightseeing and outdoor activities.`,
-        },
-    ],
-};
+// faqs
+export const tour_faqs = [
+    {
+        question: (
+            <>
+                What destinations are included in the Rajasthan Vacation Tour?
+            </>
+        ),
+        answer: (
+            <>
+                Embark on a <strong>10 Days Rajasthan Tour</strong> that takes you through the vibrant cities of Jaipur, Udaipur, Jodhpur, and other significant destinations, offering a rich tapestry of Rajasthan&apos;s culture and heritage.
+            </>
+        )
+    },
+    {
+        question: (
+            <>
+                Is transportation included in the Rajasthan Travel Package?
+            </>
+        ),
+        answer: (
+            <>
+                Yes, all necessary transportation, including spacious and comfortable vehicles for local and intercity travel, is included in the <strong>Rajasthan Tour Itinerary</strong>. You can rest assured that your journey will be as comfortable as it is exciting.
+            </>
+        ),
+    },
+    {
+        question: (
+            <>
+                Can I customize the itinerary?
+            </>
+        ),
+        answer: (
+            <>
+                Our <strong>Rajasthan Vacation Tour Packages</strong> are designed with your preferences in mind, offering a range of options to customize your itinerary.
+            </>
+        ),
+    },
+    {
+        question: (
+            <>
+                Are meals included in the cheapest tour packages for Rajasthan?
+            </>
+        ),
+        answer: (
+            <>
+                Most packages include breakfast, and you will have opportunities to experience local cuisine during the tour.
+            </>
+        ),
+    },
+    {
+        question: (
+            <>
+                What is the best time to book a Rajasthan Tour Package?
+            </>
+        ),
+        answer: (
+            <>
+                The ideal time to visit Rajasthan is between <strong>October and March</strong>, when the weather is pleasant for sightseeing and outdoor activities.
+            </>
+        ),
+    },
+]
+
+// Package Link
+export const whatsapp_link = `https://api.whatsapp.com/send/?phone=919166555888&text=${page_titles[0].heading}&type=phone_number&app_absent=0`;

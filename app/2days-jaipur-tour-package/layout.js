@@ -2,7 +2,17 @@ export const metadata = {
   title: 'Jaipur Tour Package For 02 Days | Rajasthan Tour Packages',
   description:
     "Know Jaipur's vibrant culture and breathtaking architecture on our 2-Day Jaipur Tour Package that gives you unforgettable moments in Pink City. Book today.",
-  keywords: [''],
+  keywords: [
+    'Jaipur Tour Package',
+    '02 Days Jaipur Tour Package',
+    'Jaipur Sightseeing Tour',
+    'Best Places to Visit in Jaipur',
+    'Jaipur Travel Guide',
+    'best places in Jaipur',
+    '02 day Jaipur tour',
+    'Amber Fort',
+    'Jhalana Leopard Safari',
+  ],
   alternates: {
     canonical: 'https://www.rajasthantourpackages.in/2days-jaipur-tour-package',
   },

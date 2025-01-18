@@ -1,18 +1,17 @@
 'use client'
 import Breadcrumb from "@/components/Breadcrumb";
 import ContactForm from "@/components/ContactForm";
-import Faq from "@/components/Faq";
 import HeroBanner from "@/components/HeroBanner";
 import ItineraryAccordion from "@/components/ItineraryAccordion";
 import PackageAccordion from "@/components/PackageAccordion";
-import ReadMoreToggle from "@/components/ReadMore";
 import TourPackages from "@/components/TourPackages";
-import { destinationCovered, packageData, tourFaq, tourHighlights, tourItinerary, tourOverview } from "./data";
+import { destinationCovered, packageData, tour_highlights, tour_faqs, tourItinerary, tourOverview, page_titles, whatsapp_link } from "./data";
 import { useEffect, useState } from "react";
 import { Modal, Table } from "react-bootstrap";
 import { BiChevronRight } from "react-icons/bi";
 import { FaStarOfLife, FaWhatsapp } from "react-icons/fa";
 import { IoMdClose } from "react-icons/io";
+import ItineraryFaqs from "@/components/ItineraryFaqs";
 
 const Page = () => {
     const [show, setShow] = useState(false);
@@ -39,27 +38,17 @@ const Page = () => {
             pkg.days === 10 &&
             pkg.title !== 'Rajasthan Vacation Tour'
     );
-
-
     const handleShow = (title) => {
         setSelectedPackage(title);
         setShow(true);
     }
     const handleClose = () => setShow(false);
 
-    const content = [
-        {
-            subheading: '09 nights • 10 days',
-            heading: '10 Days Rajasthan Vacation Tour',
-        },
-    ];
-    const whatsappLink = `https://api.whatsapp.com/send/?phone=919166555888&text=${content[0].heading}&type=phone_number&app_absent=0`;
-
     return (
         <>
             <Breadcrumb breadcrumbKey="_10daysrajasthanvacationtour" />
             {/* banner */}
-            <HeroBanner backgroundImage='/Images/Banners/vacation-tour.jpg' slides={content} />
+            <HeroBanner backgroundImage='/Images/Banners/vacation-tour.jpg' slides={page_titles} />
             {/* Tour overview */}
             <div className="container-fluid px-0 mt-3">
                 <div className="container days-container overview">
@@ -69,9 +58,9 @@ const Page = () => {
                                 className="text-capitalize px-3 mb-3 text-center fw-normal"
                                 dangerouslySetInnerHTML={{ __html: tourOverview.title }}
                             ></h3>
-                            <div
+                            <p
                                 className="home-para px-3"
-                            >{tourOverview.content}</div>
+                            >{tourOverview.content}</p>
                         </div>
                     </div>
                 </div>
@@ -83,16 +72,17 @@ const Page = () => {
                         <div className="col-12 col-lg-11 col-sm-12 insider px-0">
                             <h3
                                 className="text-capitalize px-3 mb-3 text-center fw-normal"
-                                dangerouslySetInnerHTML={{ __html: tourHighlights.title }}
-                            ></h3>
+                            >
+                                {tour_highlights.title}
+                            </h3>
                             <div className="w-100 px-2 days-highlights-pts">
-                                {tourHighlights.content
+                                {tour_highlights.content
                                     .map((item, index) => (
                                         <p className="home-para px-2 py-1 bg-white" key={index}>
                                             <span className="me-2">
                                                 <FaStarOfLife className="icon" />
                                             </span>
-                                            {item}
+                                            {item.point}
                                         </p>
                                     ))}
                             </div>
@@ -223,7 +213,7 @@ const Page = () => {
                         <h3 className="mb-4 text-center">
                             Frequently <span className="fw-normal">Asked Questions</span>
                         </h3>
-                        <Faq faqs={tourFaq.questions} />
+                        <ItineraryFaqs faqs={tour_faqs} />
                     </div>
                 </div>
             </div>
@@ -233,7 +223,7 @@ const Page = () => {
                     book now <BiChevronRight className="text-black" />
                 </button>
                 <a
-                    href={whatsappLink}
+                    href={whatsapp_link}
                     target="_blank"
                     className='rounded-5 whatsapp-logo'
                     aria-label="whatsapp"

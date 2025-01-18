@@ -1,8 +1,11 @@
-const temp = {
-    bold: (text) => `<span class='fw-bold'>${text}</span>`,
-    link: (text, url) =>
-        `<a class='text-web' target='_blank' href='${url}'>${text}</a>`,
-};
+export const page_titles = [
+    {
+        subheading: '02 nights • 03 days',
+        heading: '03 Days Jaipur Ajmer Pushkar Tour',
+    },
+];
+export const whatsapp_link = `https://api.whatsapp.com/send/?phone=919166555888&text=${page_titles[0].heading}&type=phone_number&app_absent=0`
+
 // Destination Covered by the tour
 export const destinationCovered = {
     title: 'Destination Covered',
@@ -53,31 +56,108 @@ export const tourItinerary = {
     ],
 };
 // Tour Overview Data
-export const tourOverview = {
-    title: `Tour <strong>Overview</strong>`,
+export const tour_overview = {
+    title: (
+        <>
+            Tour <strong>Overview</strong>
+        </>
+    ),
     content: (
         <>
-            <p>The <strong>Jaipur, Ajmer & Pushkar Tour</strong> offers an ideal family weekend package that combines sightseeing with cultural and spiritual experiences for every member of your party - be they children, parents, or grandparents! This tour promises unforgettable memories for every family member involved.</p>
-            <p>Your journey starts in Jaipur, known as the Pink City. Here, you&apos;ll experience iconic landmarks such as Amber Fort, City Palace and Hawa Mahal; along with a vibrant <strong>Pushkar Market</strong> offering traditional handicrafts and textiles for purchase. On day 2, visit Pushkar for its beautiful sacred lake and Brahma Temple; spend a relaxing and spiritually rejuvenating day relaxing by its shore while appreciating this holy town&apos;s spiritual vibes; further enjoy Ajmer Sharif Dargah for insight into Rajasthan&apos;s rich spiritual legacy - making this tour perfectly tailored towards suit every family!</p>
+            The <strong>Jaipur, Ajmer & Pushkar Tour</strong> offers an ideal family weekend package that combines sightseeing with cultural and spiritual experiences for every member of your party - be they children, parents, or grandparents! This tour promises unforgettable memories for every family member involved.
+            <br />
+            Your journey starts in Jaipur, known as the Pink City. Here, you&apos;ll experience iconic landmarks such as Amber Fort, City Palace and Hawa Mahal; along with a vibrant <strong>Pushkar Market</strong> offering traditional handicrafts and textiles for purchase.
+            <br />
+            On day 2, visit Pushkar for its beautiful sacred lake and Brahma Temple; spend a relaxing and spiritually rejuvenating day relaxing by its shore while appreciating this holy town&apos;s spiritual vibes; further enjoy Ajmer Sharif Dargah for insight into Rajasthan&apos;s rich spiritual legacy - making this tour perfectly tailored towards suit every family!
         </>
     )
 };
 // Tour Highlights
-export const tourHighlights = {
-    title: `Tour <strong>Highlights</strong>`,
+export const tour_highlights = {
+    title: (
+        <>
+            Tour <strong>Highlights</strong>
+        </>
+    ),
     content: [
-        'Jaipur City Tour with Guide',
-        'Visit Iconic Amber Fort - A UNESCO World Heritage Site.',
-        'Panoramic View of Pinkcity & Sunset from Nahargarh Fort.',
-        'Explore Pink Walled City & Stroll in Local Markets.',
-        'See the Largest Wheeled Cannon at Jaigarh Fort.',
-        'Leopard Safari at Jhalana Leopard Park',
-        'Fun & Adventure with Elephants at Elephant Village Jaipur.',
-        'Experience the Rural Side of Rajasthan with Rajasthani Cuisine at Chokhi Dhani.',
-        'Visit "Rajasthan ka Switzerland".',
-        'Visit Dargah Sharif at Ajmer & World Only Lord Brahma Temple at Pushkar.',
-        'An exciting camel safari in the unique landscape of Pushkar.',
-    ],
+        {
+            point: (
+                <>
+                    Jaipur City Tour with Guide
+                </>
+            )
+        },
+        {
+            point: (
+                <>
+                    Visit Iconic Amber Fort - A UNESCO World Heritage Site.
+                </>
+            )
+        },
+        {
+            point: (
+                <>
+                    Panoramic View of Pinkcity & Sunset from Nahargarh Fort.
+                </>
+            )
+        },
+        {
+            point: (
+                <>
+                    Explore Pink Walled City & Stroll in Local Markets.
+                </>
+            )
+        },
+        {
+            point: (
+                <>
+                    See the Largest Wheeled Cannon at Jaigarh Fort.
+                </>
+            )
+        },
+        {
+            point: (
+                <>
+                    Leopard Safari at Jhalana Leopard Park
+                </>
+            )
+        },
+        {
+            point: (
+                <>
+                    Fun & Adventure with Elephants at Elephant Village Jaipur.
+                </>
+            )
+        },
+        {
+            point: (
+                <>
+                    Experience the Rural Side of Rajasthan with Rajasthani Cuisine at Chokhi Dhani.
+                </>
+            )
+        },
+        {
+            point: (
+                <>
+                    Visit "Rajasthan ka Switzerland" at Kishangarh.
+                </>
+            )
+        },
+        {
+            point: (
+                <>
+                    Visit Dargah Sharif at Ajmer & World Only Lord Brahma Temple at Pushkar.
+                </>
+            )
+        },
+        {
+            point: (
+                <>
+                    An exciting camel safari in the unique landscape of Pushkar.
+                </>
+            )
+        }
+    ]
 };
 
 // More Info about the tour
@@ -126,39 +206,65 @@ export const packageData = [
 ];
 
 // faq
-export const tourFaq = {
-    questions: [
-        {
-            question: `What can you expect on our 3 Days Jaipur Ajmer Pushkar Tour?`,
-            answer: `Our three-day ${temp.bold(
-                `Jaipur, Ajmer & Pushkar tour`
-            )} covers major tourist sites such as ${temp.bold(
-                `Ajmer Sharif Dargah`
-            )}, Pushkar Lake & Market as well as accommodation and transportation arrangements. Additionally, accommodation will also be included along the route. `,
-        },
-        {
-            question: `What must-visit places exist around Pushkar Lake?`,
-            answer: `Pushkar Lake provides visitors with plenty of sightseeing opportunities. Notable landmarks include Brahma Temple and ${temp.bold(
-                `Pushkar Market`
-            )} as well as local cuisine at nearby eateries.`,
-        },
-        {
-            question: `How can I visit Ajmer Sharif Dargah during my tour?`,
-            answer: `This 3 Day ${temp.bold(
-                `Jaipur Ajmer Pushkar Tour`
-            )} includes comfortable transportation to make reaching Ajmer Sharif Dargah easy from Jaipur and Pushkar.`,
-        },
-        {
-            question: `What items can I find for sale at Pushkar Market?`,
-            answer: `${temp.bold(
-                `Pushkar Market`
-            )} is famous for its stunning selection of handicrafts, traditional clothing, jewelry, and souvenirs; an essential stop during any trip to Pushkar.`,
-        },
-        {
-            question: `Does the 3 Days Jaipur Ajmer Pushkar Tour cater to families? `,
-            answer: `Yes, this trip offers something for all age groups in its itinerary: cultural experiences at ${temp.bold(
-                `Pushkar Lake`
-            )} and Ajmer Sharif Dargah as well as fun shopping trips at Pushkar Market.`,
-        },
-    ],
-};
+export const tour_faqs = [
+    {
+        question: (
+            <>
+                What can you expect on our 3 Days Jaipur Ajmer Pushkar Tour?
+            </>
+        ),
+        answer: (
+            <>
+                Our three-day <strong>Jaipur, Ajmer & Pushkar tour</strong> covers major tourist sites such as <strong>Ajmer Sharif Dargah</strong>, Pushkar Lake & Market as well as accommodation and transportation arrangements. Additionally, accommodation will also be included along the route.
+            </>
+        )
+    },
+    {
+        question: (
+            <>
+                What must-visit places exist around Pushkar Lake?
+            </>
+        ),
+        answer: (
+            <>
+                Pushkar Lake provides visitors with plenty of sightseeing opportunities. Notable landmarks include Brahma Temple and <strong>Pushkar Market</strong> as well as local cuisine at nearby eateries.
+            </>
+        )
+    },
+    {
+        question: (
+            <>
+                How can I visit Ajmer Sharif Dargah during my tour?
+            </>
+        ),
+        answer: (
+            <>
+                <strong>Jaipur Ajmer Pushkar Tour</strong> includes comfortable transportation to make reaching Ajmer Sharif Dargah easy from Jaipur and Pushkar.
+            </>
+        )
+    },
+    {
+        question: (
+            <>
+                What items can I find for sale at Pushkar Market?
+            </>
+        ),
+        answer: (
+            <>
+                <strong>Pushkar Market</strong> is famous for its stunning selection of handicrafts, traditional clothing, jewelry, and souvenirs; an essential stop during any trip to Pushkar.
+            </>
+        )
+    },
+    {
+        question: (
+            <>
+                Does the 3 Days Jaipur Ajmer Pushkar Tour cater to families?
+            </>
+        ),
+        answer: (
+            <>
+                Yes, this trip offers something for all age groups in its itinerary: cultural experiences at <strong>Pushkar Lake</strong> and Ajmer Sharif Dargah as well as fun shopping trips at Pushkar Market.
+            </>
+        )
+    },
+]

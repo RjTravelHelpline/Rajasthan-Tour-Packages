@@ -1,10 +1,13 @@
 import { Link } from '@/Utils/util';
-export const temp = {
-    bold: (text) => `<span class='fw-bold'>${text}</span>`,
-    link: (text, url) =>
-        `<a class='text-web' target='_blank' href='${url}'>${text}</a>`,
-};
-// // Destination Covered by the tour
+export const page_titles = [
+    {
+        heading: '08 Days Rajasthan Budget Tour',
+        subheading: '07 nights • 08 days',
+    },
+];
+export const whatsapp_link = `https://api.whatsapp.com/send/?phone=919166555888&text=${page_titles[0].heading}&type=phone_number&app_absent=0`;
+
+// // Destination Covered
 export const destinationCovered = {
     title: 'Destination Covered',
     destinations: [
@@ -18,31 +21,78 @@ export const destinationCovered = {
         'Thar Desert',
     ],
 };
+
+// tour overview
 export const tourOverview = {
     title: `tour <strong>overview</strong>`,
     content: (
         <>
-            <p>Discover the majestic landscapes, rich history, and vibrant culture of Rajasthan with our <strong>8 days Rajasthan Budget Tour</strong> This comprehensive itinerary is designed for travelers looking to experience the best of Rajasthan without straining their finances. Over <strong>7 nights and 8 days</strong>, you will visit iconic cities like Jaipur, Jodhpur, Udaipur, and Pushkar, immersing yourself in the local traditions and architectural wonders. Each town has its unique charm, from the pink hues of Jaipur&apos;s Hawa Mahal to the blue city of Jodhpur, making this journey memorable.</p>
-            <p>Our <strong>budget Rajasthan tour packages</strong> cater to various travelers, ensuring comfort and affordability. With our expertly crafted <strong>08 days Rajasthan tour itinerary</strong>, you will enjoy a perfect blend of sightseeing and leisure. From exploring the magnificent forts and palaces to immersing in the local markets and cuisine, this tour is tailored to provide a rich, culturally enriching experience without compromising quality. With comfortable housing and transportation included, you can unwind and douse in the magnificence of Rajasthan.</p>
-            <p>This <strong>7 nights 8 days Rajasthan itinerary</strong> also features guided tours, ensuring you can see all the key attractions. Engage with local culture, visit UNESCO World Heritage Sites, and witness breathtaking sunsets over lakes. Our tours are designed to offer maximum value for your money, making them ideal for solo travelers and families. Choose from a range of budget {Link(
+            Discover the majestic landscapes, rich history, and vibrant culture of Rajasthan with our <strong>8 days Rajasthan Budget Tour</strong> This comprehensive itinerary is designed for travelers looking to experience the best of Rajasthan without straining their finances. Over <strong>7 nights and 8 days</strong>, you will visit iconic cities like Jaipur, Jodhpur, Udaipur, and Pushkar, immersing yourself in the local traditions and architectural wonders. Each town has its unique charm, from the pink hues of Jaipur&apos;s Hawa Mahal to the blue city of Jodhpur, making this journey memorable.
+            <br />
+            Our <strong>budget Rajasthan tour packages</strong> cater to various travelers, ensuring comfort and affordability. With our expertly crafted <strong>08 days Rajasthan tour itinerary</strong>, you will enjoy a perfect blend of sightseeing and leisure. From exploring the magnificent forts and palaces to immersing in the local markets and cuisine, this tour is tailored to provide a rich, culturally enriching experience without compromising quality. With comfortable housing and transportation included, you can unwind and douse in the magnificence of Rajasthan.
+            <br />
+            This <strong>7 nights 8 days Rajasthan itinerary</strong> also features guided tours, ensuring you can see all the key attractions. Engage with local culture, visit UNESCO World Heritage Sites, and witness breathtaking sunsets over lakes. Our tours are designed to offer maximum value for your money, making them ideal for solo travelers and families. Choose from a range of budget {Link(
                 `Rajasthan tour packages`,
                 'https://www.rajasthantourpackage.in/'
-            )} that fit your needs and preferences, and embark on a journey that will create memories for a lifetime.</p>
+            )} that fit your needs and preferences, and embark on a journey that will create memories for a lifetime.
         </>
     )
 };
-export const tourHighlights = {
-    title: `tour <strong>highlights</strong>`,
+
+// tour highlights
+export const tour_highlights = {
+    title: (
+        <>
+            Tour <strong>Highlights</strong>
+        </>
+    ),
     content: [
-        'Take a tour of Elephant Village, where you can feed these magnificent creatures and even go for a ride on their backs.',
-        "Discover Udaipur's romantic ambiance and scenic beauty, also known as the City of Lakes.",
-        'At Pratap Gaurav Kendra, witness the bravery and courage of Maharana Pratap.',
-        "Visit Jodhpur, known as the 'Blue City,' to explore its rich history, culture, and architectural marvels.",
-        'Experience a camel safari in the Thar Desert, exploring the dunes and witnessing mesmerizing sunsets.',
-        'All sightseeing and transfers are provided by air-conditioned vehicles, and you will be accompanied by knowledgeable local guides throughout your journey.',
-    ],
+        {
+            point: (
+                <>
+                    Take a tour of Elephant Village, where you can feed these magnificent creatures and even go for a ride on their backs.
+                </>
+            )
+        },
+        {
+            point: (
+                <>
+                    Discover Udaipur’s romantic ambiance and scenic beauty, also known as the City of Lakes.
+                </>
+            )
+        },
+        {
+            point: (
+                <>
+                    At Pratap Gaurav Kendra, witness the bravery and courage of Maharana Pratap.
+                </>
+            )
+        },
+        {
+            point: (
+                <>
+                    Visit Jodhpur, known as the Blue City, to explore its rich history, culture, and architectural marvels.
+                </>
+            )
+        },
+        {
+            point: (
+                <>
+                    Experience a camel safari in the Thar Desert, exploring the dunes and witnessing mesmerizing sunsets.
+                </>
+            )
+        },
+        {
+            point: (
+                <>
+                    All sightseeing and transfers are provided by air-conditioned vehicles, and you will be accompanied by knowledgeable local guides throughout your journey.
+                </>
+            )
+        }
+    ]
 };
 
+// tour itinerary
 export const tourItinerary = {
     title: `tour <strong>itinerary</strong>`,
     content: [
@@ -133,6 +183,7 @@ export const tourItinerary = {
     ],
 };
 
+// more package details
 export const packageData = [
     {
         title: 'Package Inclusions',
@@ -178,33 +229,66 @@ export const packageData = [
     },
 ];
 
-export const tourFaq = {
-    questions: [
-        {
-            question: `What is included in the 8-Day Rajasthan Budget Tour?`,
-            answer: `The ${temp.bold(
-                `8 Days Rajasthan Budget Tour`
-            )} includes Accommodation in budget hotels, All transportation is in comfortable vehicles, Guided tours to major attractions and Selected meals. Entrance fees to monuments and activities mentioned in the itinerary are also covered.`,
-        },
-        {
-            question: `Which cities will we visit during the tour?`,
-            answer: `During the ${temp.bold(
-                `7 nights 8 days Rajasthan itinerary`
-            )}, you will explore vibrant cities, including Jaipur, known as the Pink City; Jodhpur, the Blue City; Udaipur, the City of Lakes; and Pushkar, celebrated for its sacrosanct lake and Brahma Temple. Each city offers a unique glimpse into Rajasthan's culture and heritage.`,
-        },
-        {
-            question: `Is this tour suitable for families?`,
-            answer: `Yes, our tour is designed to accommodate families. The itinerary is packed with a variety of activities and attractions that appeal to all age groups, ensuring an exciting and engaging experience for everyone. Comfortable transportation and family-friendly accommodations make it an ideal choice for family vacations.`,
-        },
-        {
-            question: `Can I customize my 8-day Rajasthan tour itinerary?`,
-            answer: `Absolutely! We get it that each voyager has special preferences. That's why our 8-day Rajasthan tour is fully customizable. You can add extra days, include specific attractions, or adjust the accommodation to meet your needs. Our team is here to help create your perfect, personalized itinerary.`,
-        },
-        {
-            question: `When is the best time to book a Rajasthan budget tour package?`,
-            answer: `The best time to visit Rajasthan is from ${temp.bold(
-                `October to March`
-            )} when the climate is lovely and appropriate for touring. Booking in advance during these months makes sure you are available and allows you to secure the best rates. Our tours are popular, but we always strive to accommodate our guests so you can book with confidence and enjoy the whole experience of Rajasthan.`,
-        },
-    ],
-};
+// faqs
+export const tour_faqs = [
+    {
+        question: (
+            <>
+                What is included in the 8-Day Rajasthan Budget Tour?
+            </>
+        ),
+        answer: (
+            <>
+                The <strong>8 Days Rajasthan Budget Tour</strong> includes Accommodation in budget hotels, All transportation is in comfortable vehicles, Guided tours to major attractions and Selected meals. Entrance fees to monuments and activities mentioned in the itinerary are also covered.
+            </>
+        )
+    },
+    {
+        question: (
+            <>
+                Which cities will we visit during the tour?
+            </>
+        ),
+        answer: (
+            <>
+                During the <strong>7 nights 8 days Rajasthan itinerary</strong>, you will explore vibrant cities, including Jaipur, known as the Pink City; Jodhpur, the Blue City; Udaipur, the City of Lakes; and Pushkar, celebrated for its sacrosanct lake and Brahma Temple. Each city offers a unique glimpse into Rajasthan&rsquo;s culture and heritage.
+            </>
+        )
+    },
+    {
+        question: (
+            <>
+                Is this tour suitable for families?
+            </>
+        ),
+        answer: (
+            <>
+                Yes, our tour is designed to accommodate families. The itinerary is packed with a variety of activities and attractions that appeal to all age groups, ensuring an exciting and engaging experience for everyone. Comfortable transportation and family-friendly accommodations make it an ideal choice for family vacations.
+            </>
+        )
+    },
+    {
+        question: (
+            <>
+                Can I customize my 8-day Rajasthan tour itinerary?
+            </>
+        ),
+        answer: (
+            <>
+                Absolutely! We get it that each voyager has special preferences. That is why our 8-day Rajasthan tour is fully customizable. You can add extra days, include specific attractions, or adjust the accommodation to meet your needs. Our team is here to help create your perfect, personalized itinerary.
+            </>
+        )
+    },
+    {
+        question: (
+            <>
+                When is the best time to book a Rajasthan budget tour package?
+            </>
+        ),
+        answer: (
+            <>
+                The best time to visit Rajasthan is from <strong>October to March</strong> when the climate is lovely and appropriate for touring. Booking in advance during these months makes sure you are available and allows you to secure the best rates. Our tours are popular, but we always strive to accommodate our guests so you can book with confidence and enjoy the whole experience of Rajasthan.
+            </>
+        )
+    },
+]

@@ -1,14 +1,25 @@
 export const metadata = {
-  title: 'Get 02 Days Trip in Rajasthan | Rajasthan Tour Packages',
+  title: '02 Days Rajasthan Tour Packages | Rajasthan Tour Packages',
   description:
     'It is possible to capture the spirit of Rajasthan in 2 days. Book your Rajasthan Tour Packages for a short and enjoyable trip to the most visited tourist place.',
-  keywords: [''],
+  keywords: [
+    'Rajasthan Trip for 2 Days',
+    '2 Days Rajasthan Tour Package',
+    '2-day Rajasthan Travel Plan',
+    'Best 2 Days Rajasthan Tour',
+    'Rajasthan Travel Itinerary',
+    'Rajasthan Holiday Package',
+    'Rajasthani food',
+    'Jaisalmer Fort',
+    '02 days Rajasthan tour',
+    'Amber Fort',
+  ],
   alternates: {
     canonical:
       'https://www.rajasthantourpackages.in/02-days-rajasthan-tour-packages',
   },
   openGraph: {
-    title: 'Get 02 Days Trip in Rajasthan | Rajasthan Tour Packages',
+    title: '02 Days Rajasthan Tour Packages | Rajasthan Tour Packages',
     description:
       'It is possible to capture the spirit of Rajasthan in 2 days. Book your Rajasthan Tour Packages for a short and enjoyable trip to the most visited tourist place.',
     url: 'https://www.rajasthantourpackages.in/02-days-rajasthan-tour-packages',
@@ -21,7 +32,7 @@ export const metadata = {
   twitter: {
     card: 'summary_large_image',
     site: '@rajasthantourpackages',
-    title: 'Get 02 Days Trip in Rajasthan | Rajasthan Tour Packages',
+    title: '02 Days Rajasthan Tour Packages | Rajasthan Tour Packages',
     description:
       'It is possible to capture the spirit of Rajasthan in 2 days. Book your Rajasthan Tour Packages for a short and enjoyable trip to the most visited tourist place.',
     images:
