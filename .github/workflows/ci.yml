@@ -7,28 +7,28 @@ on:
 
 jobs:
   # # Build
-  # build:
-  #   runs-on: ubuntu-latest
+  build:
+    runs-on: ubuntu-latest
 
-  #   steps:
-  #     - name: Checkout code
-  #       uses: actions/checkout@v3
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-  #     - name: Set up Node.js
-  #       uses: actions/setup-node@v3
-  #       with:
-  #         node-version: '18' # appropriate Node.js version
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18' # appropriate Node.js version
 
-  #     - name: Install dependencies
-  #       run: npm install
+      - name: Install dependencies
+        run: npm install
 
-  #     - name: Build the app
-  #       run: npm run build
+      - name: Build the app
+        run: npm run build
 
   # Deployment
   deploy:
     runs-on: ubuntu-latest
-    # needs: build # deployment only happens if the build is successful
+    needs: build # deployment only happens if the build is successful
 
     steps:
       - name: Checkout code
@@ -40,13 +40,4 @@ jobs:
       - name: Deploy to Vercel
         env:
           VERCEL_TOKEN: ${{ secrets.VERCEL_AUTH_TOKEN }}
-        run: |
-
-          VERCELOUTPUT=$(vercel --prod --yes --token ${{ secrets.VERCEL_AUTH_TOKEN }})
-
-          # Output
-          echo "Domain URL: https://www.rajasthantourpackages.in/"
-
-      - name: Display URLs
-        run: |
-          echo "Domain URL: https://rajasthantourpackages.in/"
+        run: vercel --prod --yes --token ${{ secrets.VERCEL_AUTH_TOKEN }}
