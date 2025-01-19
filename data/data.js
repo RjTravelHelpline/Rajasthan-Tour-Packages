@@ -1,12 +1,10 @@
 import {
   allCitiesImages,
-  allGalleryImages,
   allStatesImages,
   cabImages,
 } from './imageData';
 
-// breadcrumb data
-// breadcrumbData.js
+// breadcrumbData
 const breadcrumbData = {
   // main
   aboutUs: [{ label: 'home', link: '/' }, { label: 'About us' }],
