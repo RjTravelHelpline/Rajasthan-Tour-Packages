@@ -24,8 +24,7 @@ const ItineraryFaqs = ({ faqs }) => {
                                 </Accordion.Header>
                                 <Accordion.Body>
                                     <p
-                                        className="accordion-answer fw-light text-black"
-                                    >{item.answer}</p>
+                                        className="accordion-answer fw-light text-black w-100">{item.answer}</p>
                                 </Accordion.Body>
                             </Accordion.Item>
                         ))}

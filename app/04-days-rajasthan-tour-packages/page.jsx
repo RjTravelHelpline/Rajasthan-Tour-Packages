@@ -40,19 +40,14 @@ const FourDaysRajasthanTourPackages = () => {
         <div className="container days-container overview">
           <div className="row d-flex justify-content-center align-items-center days-overview px-2">
             <div className="col-12 col-lg-11 col-sm-12 insider px-0">
-              {tour_overview && tour_overview.length > 0 && (
-                <>
-
-                  <h3
-                    className="text-capitalize px-3 mb-3 text-center fw-normal"
-                  >{tour_overview.title}</h3>
-                  <p
-                    className="text-justify px-3"
-                  >
-                    {tour_overview.content}
-                  </p>
-                </>
-              )}
+              <h3
+                className="text-capitalize px-3 mb-3 text-center fw-normal"
+              >{tour_overview.title}</h3>
+              <p
+                className="text-justify px-3"
+              >
+                {tour_overview.content}
+              </p>
             </div>
           </div>
         </div>
