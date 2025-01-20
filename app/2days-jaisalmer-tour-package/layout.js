@@ -6,15 +6,7 @@ export const metadata = {
   description:
     'Book a 2-day Jaisalmer tour package from Rajasthan Tour Packages to explore forts, desert dunes, and cultural wonders in Jaisalmer, all its best features.',
   keywords: [
-    '2 Days Jaisalmer Tour Package',
-    'Jaisalmer Camel Safari',
-    'Jaisalmer Tour Package',
-    'Jaisalmer Desert Tour',
-    'Best Places to Visit in Jaisalmer',
-    'Golden City',
-    'Jaisalmer city',
-    'Places of Jaisalmer',
-    'Jaipur or Delhi',
+  '02 Days Jaisalmer Tour Package', 'Jaisalmer Camel Safari', 'Jaisalmer Tour Package', 'Jaisalmer Desert Tour', 'Golden City', 'Jaisalmer city', 'Places of Jaisalmer', 'Jaipur or Delhi'
   ],
   alternates: {
     canonical:

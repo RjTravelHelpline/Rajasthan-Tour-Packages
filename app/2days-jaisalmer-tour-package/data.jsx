@@ -21,9 +21,9 @@ export const tour_overview = {
     ),
     content: (
         <>
-            Your dreams will come true with our best <strong>2 days Jaisalmer tour package</strong>. {Link('Jaisalmer city', 'https://www.rajasthantourpackages.in/jaisalmer')} is surrounded by the Thar Desert and it is predominantly historical and culturally rich with mesmerizing desert area. That is why on this brief but exciting tour, you will get acquainted with the most significant objects of Jaisalmer – forts, havelis, and the great sand tracts.
+            Your dreams will come true with our best <strong>02 Days Jaisalmer Tour Package</strong>. {Link('Jaisalmer city', 'https://www.rajasthantourpackages.in/jaisalmer')} is surrounded by the Thar Desert and it is predominantly historical and culturally rich with mesmerizing desert area. That is why on this brief but exciting tour, you will get acquainted with the most significant objects of Jaisalmer – forts, havelis, and the great sand tracts.
             <br />
-            On the first day, you will have a sightseeing tour: Jaisalmer’s first stop is the Jaisalmer Fort which shares the same color and is made from golden sandstone. You will also be able to visit Patwon Ki Haveli, which contain series of beautiful havelis explaining the architectural beauty of this region. Then proceed to experience the joy of camel safari in the most beautiful sand dunes of Rajasthan over night at Jaisalmer. This activity is one of the most popular attractions of the tourn and you’ll get a chance to ride a camel and to watch the sunset on the dunes of the Great Indian Desert.
+            On the first day, you will have a sightseeing tour: Jaisalmer’s first stop is the Jaisalmer Fort which shares the same color and is made from golden sandstone. You will also be able to visit Patwon Ki Haveli, which contain series of beautiful havelis explaining the architectural beauty of this region. Then proceed to experience the joy of <strong>Jaisalmer Camel Safari</strong> in the most beautiful sand dunes of Rajasthan over night at Jaisalmer. This activity is one of the most popular attractions of the tourn and you’ll get a chance to ride a camel and to watch the sunset on the dunes of the Great Indian Desert.
             <br />
             This <strong>2 days Jaisalmer tour package</strong> is aimed at those clients who want to see as many fascinating {Link('places of Jaisalmer', 'https://www.rajasthantourpackages.in/blog/best-beautiful-places-to-visit-in-jaisalmer-travel-guide')} as possible. This fun-filled tour is a exciting trip for the adventurous soul and the historic minded individual as well.
             <br />
@@ -155,7 +155,7 @@ export const tour_faqs = [
         ),
         answer: (
             <>
-                02 day Jaisalmer tour package usually includes a visit to the major attractions in Jaisalmer, such as the Jaisalmer Fort, Patwon Ki Haveli, and the Sam Sand Dunes. The package may also include a guided tour of the city, showcasing its rich history, culture, and beautiful architecture. You can also take a camel ride in the desert, attend a cultural dance performance,e and browse for souvenirs in the local markets. Meals, transportation, and accommodation (e.g. in desert camps or hotels) are usually included. The tour offers the opportunity to experience the beauty of the Thar Desert and the historical charm of Jaisalmer.
+                The <strong>02 day Jaisalmer Desert Tour package</strong> usually includes a visit to the major attractions in Jaisalmer, such as the Jaisalmer Fort, Patwon Ki Haveli, and the Sam Sand Dunes. The package may also include a guided tour of the city, showcasing its rich history, culture, and beautiful architecture. You can also take a camel ride in the desert, attend a cultural dance performance,e and browse for souvenirs in the local markets. Meals, transportation, and accommodation (e.g. in desert camps or hotels) are usually included. The tour offers the opportunity to experience the beauty of the Thar Desert and the historical charm of Jaisalmer.
             </>
         )
     },

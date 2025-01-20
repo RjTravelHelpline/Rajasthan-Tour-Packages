@@ -6,18 +6,7 @@ export const metadata = {
   description:
     'Experience the Jaipur Ajmer Pushkar Tour today to explore Jaipur landmarks, Ajmer Sharif Dargah, and Pushkar Lake, and book your Rajasthan tour package now.',
   keywords: [
-    'Jaipur Ajmer Pushkar Tour Package',
-    'Pushkar Lake',
-    '3 Days Jaipur Ajmer Pushkar Tour',
-    'Ajmer Sharif Dargah',
-    'Pushkar Market',
-    'jaipur package for 3 days',
-    'ajmer tour package',
-    '3 days trip from jaipur',
-    'Ajmer Sharif Dargah',
-    'Jhalana Leopard Park',
-    'Pushkar fair',
-    'Rajasthani handicraft',
+    'Pushkar Lake', '03 Days Jaipur Ajmer Pushkar Tour', 'Ajmer Sharif Dargah', 'Pushkar Market', 'ajmer tour package', 'Jhalana Leopard Park', 'Pushkar fair', 'Rajasthani handicraft', '3 days Jaipur trip', '03 Days Jaipur Pushkar tour', '3 days tour of Jaipur', 'Jaipur Jal Mahal', 'Ajmer and Pushkar', 'Agra Sightseeing Package'
   ],
   alternates: {
     canonical:

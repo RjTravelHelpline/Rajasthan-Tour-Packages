@@ -6,16 +6,7 @@ export const metadata = {
   description:
     'It is possible to capture the spirit of Rajasthan in 2 days. Book your Rajasthan Tour Packages for a short and enjoyable trip to the most visited tourist place.',
   keywords: [
-    'Rajasthan Trip for 2 Days',
-    '2 Days Rajasthan Tour Package',
-    '2-day Rajasthan Travel Plan',
-    'Best 2 Days Rajasthan Tour',
-    'Rajasthan Travel Itinerary',
-    'Rajasthan Holiday Package',
-    'Rajasthani food',
-    'Jaisalmer Fort',
-    '02 days Rajasthan tour',
-    'Amber Fort',
+    'Rajasthan Trip for 02 Days', '02 Days Rajasthan Tour Package', 'Best destinations for 02 days Rajasthan tour', 'Rajasthani food', 'Jaisalmer Fort', '02 days Rajasthan tour', 'Amber Fort'
   ],
   alternates: {
     canonical:
