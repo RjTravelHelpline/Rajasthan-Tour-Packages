@@ -1,5 +1,5 @@
-import { mumbaiFaq } from "@/data/faqData";
-import Script from "next/script";
+import { mumbaiFaq } from '@/data/faqData';
+import Script from 'next/script';
 
 export const metadata = {
   title: 'Rajasthan Holiday Packages From Mumbai | Rajasthan Tour Packages',

@@ -15,6 +15,7 @@ export default function ChatBotWrapper() {
         '/5days-golden-triangle-tour',
         '/3days-jaipur-ajmer-pushkar-tour',
         '/3days-jaisalmer-desert-safari-tour',
+        '/4days-jaipur-udaipur-tour',
         '/10days-rajasthan-vacation-tour',
         '/8days-rajasthan-budget-tour',
     ];
