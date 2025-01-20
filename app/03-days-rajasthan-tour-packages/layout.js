@@ -6,19 +6,7 @@ export const metadata = {
   description:
     'Discover Rajasthan heritage destinations in 3 days. Explore the most significant cities and famous historical places with Rajasthan Tour Packages quickly.',
   keywords: [
-    '03-days Rajasthan tour packages',
-    'Rajasthan itinerary for 3 days',
-    '3-days Rajasthan trip',
-    'Udaipur City Palace',
-    'Mehrangarh Fort',
-    '03-days Rajasthan tour',
-    'rajasthan trip plan',
-    'Udaipur Trip Cost for 3 Days',
-    'Honeymoon Packages for Udaipur',
-    'places to visit in rajasthan in 3 days',
-    'rajasthan trip plan for 3 days',
-    '3 days trip in rajasthan',
-    '3-day Rajasthan itinerary',
+    '03 days Rajasthan tour packages', 'Rajasthan itinerary for 3 days', '3 days Rajasthan trip', 'Udaipur City Palace', 'Mehrangarh Fort', '03 days Rajasthan tour', 'places to visit in rajasthan in 3 days', 'rajasthan trip plan for 3 days', '3 day trips in rajasthan', '3 days Rajasthan itinerary', ' Desert and Jaisalmer in 3 days'
   ],
   alternates: {
     canonical:

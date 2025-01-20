@@ -13,7 +13,7 @@ export const tour_overview = {
     ),
     content: (
         <>
-            Discover the vibrant culture and rich heritage of Rajasthan with our <strong>2-day Rajasthan tour packages</strong>. Ideal for quick yet fulfilling getaways, these tours provide a glimpse into the royal lifestyle, majestic forts, and vibrant bazaars of this state.
+            Discover the vibrant culture and rich heritage of Rajasthan with our <strong>02 days Rajasthan tour packages</strong>. Ideal for quick yet fulfilling getaways, these tours provide a glimpse into the royal lifestyle, majestic forts, and vibrant bazaars of this state.
             <br />
             Explore Jaipur, known as the Pink City, and admire iconic landmarks like Hawa Mahal, City Palace, and Amber Fort. Take an exhilarating elephant ride for breathtaking views of Aravalli Hills, stroll bustling markets for authentic {Link('Rajasthani food', 'https://www.rajasthantourpackages.in/blog/rajasthan-culinary-secrets-hidden-dishes-you-must-try')}, or experience thrilling elephant racing in Jaipur itself!
             <br />
@@ -37,7 +37,7 @@ export const tour_faqs = [
         ),
         answer: (
             <>
-                The best destinations for a <strong>2-day Rajasthan tour</strong> depend on your interests and your starting point. One of the most suggested ones is Jaipur, also called the Pink City. It offers places such as Amber Fort City Palace, and Hawa Mahal. It is one of the many eye-catching tourist destinations in India, or at least some of the places in India that are famous worldwide. Among them are Lake Pichola, the city palace Jag-Niwas, and Jag Mandir. Therefore, tourists who like history should go to Jodhpur, visit Mehrangarh Fort, and go around the Old Blue City.
+                The <strong>Best destinations for 02 days Rajasthan tour</strong> depend on your interests and your starting point. One of the most suggested ones is Jaipur, also called the Pink City. It offers places such as Amber Fort City Palace, and Hawa Mahal. It is one of the many eye-catching tourist destinations in India, or at least some of the places in India that are famous worldwide. Among them are Lake Pichola, the city palace Jag-Niwas, and Jag Mandir. Therefore, tourists who like history should go to Jodhpur, visit Mehrangarh Fort, and go around the Old Blue City.
             </>
         )
     },
@@ -88,7 +88,7 @@ export const tour_faqs = [
         ),
         answer: (
             <>
-                Yes, the 2-day Rajasthan tour package does make for a family holiday, and even children are welcome. To achieve the most pleasant results and welcome children, the itinerary takes into account the places that are interesting for the families and the comfort of traveling. The package often comprises historical attractions, cultural performances or activities, and beautiful sights that both children and adults would like to visit. Safe transportation, flexibility of the trip, and especially comfortable accommodations make the trip good for families. Activities are planned to keep children busy and parents relaxed. If you have special requests, such as child-friendly meals or extra breaks the tour can be customized to ensure a memorable trip for all.
+                Yes, the <strong>02 days Rajasthan tour package</strong> does make for a family holiday, and even children are welcome. To achieve the most pleasant results and welcome children, the itinerary takes into account the places that are interesting for the families and the comfort of traveling. The package often comprises historical attractions, cultural performances or activities, and beautiful sights that both children and adults would like to visit. Safe transportation, flexibility of the trip, and especially comfortable accommodations make the trip good for families. Activities are planned to keep children busy and parents relaxed. If you have special requests, such as child-friendly meals or extra breaks the tour can be customized to ensure a memorable <strong>Rajasthan Trip for 02 Days</strong> all.
             </>
         )
     }

@@ -56,7 +56,7 @@ export const tour_overview = {
   ),
   content: (
     <>
-      <p>Discover the vibrant charm of Jaipur with our exclusive <strong>02-Day Jaipur Tour Package</strong>, perfect for those looking for an unforgettable experience in Rajasthan&apos;s capital city. This Jaipur sightseeing tour has been designed to showcase the {Link('best places in Jaipur', 'https://www.rajasthantourpackages.in/jaipur')} that offer a blend of rich history, stunning architecture, and vibrant culture.</p>
+      <p>Discover the vibrant charm of Jaipur with our exclusive <strong>02-Day Jaipur Tour Package</strong>, perfect for those looking for an unforgettable experience in Rajasthan&apos;s capital city. This <strong>Jaipur sightseeing tour</strong> has been designed to showcase the {Link('best places in Jaipur', 'https://www.rajasthantourpackages.in/jaipur')} that offer a blend of rich history, stunning architecture, and vibrant culture.</p>
       <p>Visit famous attractions like Amber Fort - a grand fort on a hill, the beautiful Hawa Mahal (Palace of Winds), and the peaceful Jal Mahal - which sits in the middle of Mansagar Lake. This tour also takes you to the City Palace - a unique mix of Mughal and Rajasthani styles, and the amazing Jantar Mantar - a UNESCO World Heritage Site with ancient astronomical instruments.</p>
       <p>This <strong>02 day Jaipur tour</strong> ensures that you don&apos;t miss any highlights and makes your short trip truly unforgettable. Book now to explore Jaipur&apos;s rich heritage and breathtaking beauty in just 2 days and experience the royal essence of Jaipur like never before.</p>
     </>)
@@ -184,7 +184,7 @@ export const tour_faqs = [
     ),
     answer: (
       <>
-        In 2 days, you can explore some of the top attractions in Jaipur that highlight the city&apos;s rich history, culture, and architecture. The {Link('Amber Fort', 'https://www.rajasthantourpackages.in/jaipur')}, Hawa Mahal, Jal Mahal, City Palace, Jantar Mantar, Albert Hall Museum and the picturesque Nahargarh Fort, from where you can get a breathtaking view of the pink city at sunset, are some of the must-visit places on your trip to Jaipur.
+        In 2 days, you can explore some of the <strong>best places to visit in Jaipur</strong>, which highlight the city&apos;s rich history, culture, and architecture. The {Link('Amber Fort', 'https://www.rajasthantourpackages.in/jaipur')}, Hawa Mahal, Jal Mahal, City Palace, Jantar Mantar, Albert Hall Museum and the picturesque Nahargarh Fort, from where you can get a breathtaking view of the pink city at sunset, are some of the must-visit places on your trip to Jaipur.
 
       </>
     )
